@@ -3,7 +3,7 @@
 > 企業 AI 轉型成熟度診斷與導入方法論工具包
 > Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 **作者 / Author：** Morris Lu （盧業興）· Tiger AI 虎智科技
 **身份 / Roles：** n8n Taipei 大使 · 國立臺灣科技大學 智慧製造科技研究所 博士生 · QUT 昆士蘭科技大學 資工碩士
@@ -17,9 +17,15 @@ This repository organizes an enterprise AI transformation methodology suitable f
 
 ## 授權 / License
 
-本專案採用 **[CC BY 4.0](LICENSE)** 授權，您可以自由地 **使用、修改、再散布與商業利用**，唯一條件是 **必須註明原作者**（詳見 [NOTICE.md](NOTICE.md)）。
+本專案採用 **[Apache License 2.0](LICENSE)** 授權，您可以自由地 **使用、修改、再散布與商業利用**。Apache 2.0 是業界廣泛使用的開源授權，並包含 **patent grant**（防專利訴訟）。
 
-This work is licensed under **[CC BY 4.0](LICENSE)**. You are free to **use, modify, redistribute, and commercialize** the contents under the **single condition that the original author is credited** (see [NOTICE.md](NOTICE.md)).
+This work is licensed under the **[Apache License 2.0](LICENSE)** — a widely-adopted open-source license that includes a **patent grant**. You are free to **use, modify, redistribute, and commercialize** the contents.
+
+**唯一條件：必須保留 [`NOTICE`](NOTICE) 檔案中的署名（Apache 2.0 §4(d) 要求）。**
+**Single condition: you must preserve the attribution notices in the [`NOTICE`](NOTICE) file (required by Apache 2.0 §4(d)).**
+
+詳細署名指引請見 [NOTICE.md](NOTICE.md)。
+For human-readable attribution guidance, see [NOTICE.md](NOTICE.md).
 
 ## 方法論總覽 / Methodology Overview
 

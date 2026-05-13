@@ -1,12 +1,22 @@
 # NOTICE / 署名聲明
 
-This repository is licensed under [CC BY 4.0](LICENSE).
-本專案依 [CC BY 4.0](LICENSE) 授權。
+> 📄 This is the **human-readable attribution guide**. The legally binding
+> notice file required by Apache 2.0 §4(d) is the plain-text [`NOTICE`](NOTICE)
+> file at the repository root, which MUST be preserved in derivative works.
+>
+> 📄 本檔為**人類可讀的署名指引**。依 Apache 2.0 §4(d) 規定，**法律上必須**
+> 保留的署名檔為 repo 根目錄的純文字 [`NOTICE`](NOTICE) 檔；衍生作品**必須**
+> 保留該檔的內容。
+
+This repository is licensed under the [Apache License 2.0](LICENSE).
+本專案依 [Apache License 2.0](LICENSE) 授權。
 
 You may freely **use, modify, redistribute, and commercialize** the contents,
-**provided that the following attribution is preserved**.
+**provided that the attribution notices in [`NOTICE`](NOTICE) are preserved**
+(as required by Apache 2.0 §4(c) and §4(d)).
 
-您可以自由地**使用、修改、再散布、商業利用**本內容，**唯一條件是必須保留下列署名**。
+您可以自由地**使用、修改、再散布、商業利用**本內容，**唯一條件是必須保留
+[`NOTICE`](NOTICE) 檔案中的署名聲明**（依 Apache 2.0 §4(c) 與 §4(d) 規定）。
 
 ---
 

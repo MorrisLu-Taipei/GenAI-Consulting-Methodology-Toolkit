@@ -6,9 +6,9 @@ This directory contains source reference materials and third-party citations. Ea
 
 > **整體原則 / General Principle**
 >
-> - 屬於 **Tiger AI / Morris Lu 原創**的素材 → 採本 repo 的 **[CC BY 4.0](../LICENSE)** 授權；可自由使用、修改、商業利用，唯一條件為**保留原作者署名**。
+> - 屬於 **Tiger AI / Morris Lu 原創**的素材 → 採本 repo 的 **[Apache License 2.0](../LICENSE)** 授權；可自由使用、修改、商業利用，唯一條件為**保留 [`NOTICE`](../NOTICE) 檔的署名聲明**（依 Apache 2.0 §4(d)）。
 > - 屬於 **第三方公開內容**的引用 → 版權歸原始創作者所有，本 repo 僅作為學習筆記與引用，**不重製或散布**原始內容。
-> - Materials authored by **Tiger AI / Morris Lu** → released under this repo's **[CC BY 4.0](../LICENSE)** license; free to use, modify, and commercialize **with author attribution preserved**.
+> - Materials authored by **Tiger AI / Morris Lu** → released under this repo's **[Apache License 2.0](../LICENSE)**; free to use, modify, and commercialize **with the attribution notices in [`NOTICE`](../NOTICE) preserved** (per Apache 2.0 §4(d)).
 > - References to **third-party public content** → all rights remain with the original creators. This repo provides **study notes and citations only**, not reproductions or redistribution of the original content.
 
 ---
@@ -26,7 +26,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **版權 / 來源** | © Morris Lu (盧業興) / Tiger AI 虎智科技，2026。為 **PUBIC (公開) 版**，僅釋出可公開分享之段落；完整顧問交付版本不在本 repo 內。 |
 | **Copyright / Source** | © Morris Lu / Tiger AI Co., Ltd., 2026. This is the **PUBIC (public) edition**, containing only publicly shareable sections; the full consulting-delivery edition is **not** included in this repo. |
 | **引用方式 / Citation** | `Morris Lu, "AI Transformation Maturity Model Manual (Public Edition)", Tiger AI, 2026. https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit` |
-| **使用限制 / Restrictions** | 採本 repo CC BY 4.0 授權，可自由使用、修改、商業利用，**唯一條件是保留作者署名**（詳見 [`NOTICE.md`](../NOTICE.md)）。 |
+| **使用限制 / Restrictions** | 採本 repo Apache 2.0 授權，可自由使用、修改、商業利用，**唯一條件是保留作者署名**（詳見 [`NOTICE.md`](../NOTICE.md)）。 |
 
 ---
 
@@ -42,7 +42,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **Purpose** | Used as a README hero image and within the `03_Consulting_Report` template as the main consulting-delivery framework. |
 | **版權 / 來源** | © Morris Lu / Tiger AI 虎智科技 原創設計圖。 |
 | **Copyright / Source** | © Morris Lu / Tiger AI Co., Ltd. — original diagram by the author. |
-| **使用限制 / Restrictions** | 採本 repo CC BY 4.0 授權；轉用請保留作者署名。 |
+| **使用限制 / Restrictions** | 採本 repo Apache 2.0 授權；轉用請保留作者署名。 |
 
 ---
 
@@ -58,7 +58,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **Purpose** | README hero image; used at the L1 course opening to give clients a quick overview of the full methodology. |
 | **版權 / 來源** | © Morris Lu / Tiger AI 虎智科技 原創設計圖。 |
 | **Copyright / Source** | © Morris Lu / Tiger AI Co., Ltd. — original diagram by the author. |
-| **使用限制 / Restrictions** | 採本 repo CC BY 4.0 授權；轉用請保留作者署名。 |
+| **使用限制 / Restrictions** | 採本 repo Apache 2.0 授權；轉用請保留作者署名。 |
 
 ---
 
@@ -76,7 +76,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **Copyright / Source** | ⚠️ **Third-party public content.** All rights to the original videos remain with the original creators of the OpenWebUI video channel. This document contains **derivative study notes only — no transcripts, no reproduction** of original video content. |
 | **原始 Playlist / Original** | <https://www.youtube.com/watch?v=oXJ4L1G8kaI&list=PL_rTgQnnMXsXAsEiid-tWhaj03SsP4U5Z> |
 | **引用方式 / Citation** | 觀看 / 引用原始影片時，請以原始 YouTube 連結為準；本筆記引用請註明：`Morris Lu, "OpenWebUI Video Learning Notes", Tiger AI, 2026.` |
-| **使用限制 / Restrictions** | **學習筆記本文** 採 CC BY 4.0；**原始影片內容**之使用須遵守原始創作者之授權與 YouTube 服務條款。若您為原始影片權利人，希望調整署名或移除引用，請於本 repo 開立 issue。 |
+| **使用限制 / Restrictions** | **學習筆記本文** 採本 repo Apache 2.0 授權；**原始影片內容**之使用須遵守原始創作者之授權與 YouTube 服務條款。若您為原始影片權利人，希望調整署名或移除引用，請於本 repo 開立 issue。 |
 
 ---
 
@@ -93,7 +93,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **版權 / 來源** | 原始影片由 **Tiger AI 虎智科技 (頻道主：Morris Lu / 盧業興)** 自製，於 YouTube 公開發佈。本筆記為作者自家內容之整理。 |
 | **Copyright / Source** | Original videos are produced by **Tiger AI (channel owner: Morris Lu)** and publicly published on YouTube. These notes are an organization of the author's own content. |
 | **原始頻道 / Original Channel** | <https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80TigerAI> |
-| **使用限制 / Restrictions** | 採本 repo CC BY 4.0 授權；原始影片之使用須遵守 YouTube 服務條款；轉用本筆記請保留作者署名。 |
+| **使用限制 / Restrictions** | 採本 repo Apache 2.0 授權；原始影片之使用須遵守 YouTube 服務條款；轉用本筆記請保留作者署名。 |
 
 ---
 
@@ -110,7 +110,7 @@ This directory contains source reference materials and third-party citations. Ea
 | **版權 / 來源** | ⚠️ **第三方開源專案**。原始 ClawTeam 程式碼版權歸 **HKUDS (HKU Data Science Lab)** 所有，依 **MIT License** 釋出。本 repo **未重製、未 fork** 原始碼。 |
 | **Copyright / Source** | ⚠️ **Third-party open-source project.** The original ClawTeam source code is © **HKUDS (HKU Data Science Lab)**, released under the **MIT License**. This repo **does not reproduce or fork** the source. |
 | **上游 / Upstream** | <https://github.com/HKUDS/ClawTeam> |
-| **使用限制 / Restrictions** | **本說明檔本身** 採 CC BY 4.0；**ClawTeam 程式碼本身** 之使用、修改、再散布請遵守上游 MIT License (保留著作權聲明)。 |
+| **使用限制 / Restrictions** | **本說明檔本身** 採本 repo Apache 2.0 授權；**ClawTeam 程式碼本身** 之使用、修改、再散布請遵守上游 MIT License (保留著作權聲明)。 |
 
 ---
 
