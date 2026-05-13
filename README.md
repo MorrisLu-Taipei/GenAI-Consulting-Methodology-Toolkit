@@ -1,52 +1,88 @@
 # AI Consulting Methodology Toolkit
 
+語言選單：繁體中文 | [English](README_EN.md)
+
 企業 AI 轉型成熟度診斷與導入方法論工具包。
 
-作者：Morris
+原作者：**Tiger AI Morris Lu 盧業興**  
+身份備註：**n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生**
 
-這個 repo 整理一套可用於企業顧問交付的 AI 轉型方法：先用問卷診斷企業目前 AI 成熟度，再依 L1-L5 配置課程與導入路徑，課中產出可驗收資產，最後用八階段顧問方法產出診斷報告、Roadmap、ROI 與治理建議。
+授權摘要：本專案原創內容開放任何人使用、複製、修改、改作、教學、顧問交付與商業化。唯一條件是必須標註原作者：**Tiger AI Morris Lu 盧業興**。完整條款請見 [`LICENSE`](LICENSE)。
+
+## 這套方法在解決什麼
+
+很多企業導入 AI 時會直接跳工具：今天買 ChatGPT，明天試 n8n，下週又想做 Agent。結果常見問題是員工不會用、流程沒有接上、資料沒有治理、PoC 無法驗收，最後高層也不知道 AI 到底成熟到哪一層。
+
+這個工具包的策略是：先用簡易問卷診斷企業目前的 AI 成熟度，再依照 L1-L5 設計課程比例與導入路徑。課程不是單純上完就結束，而是在每一層都留下可驗證交付物，最後再用 AI 轉型診斷顧問手法的八階段流程，產出完整顧問診斷報告、Roadmap、ROI 與治理建議。
+
+## AI 成熟度地圖
+
+![AI 成熟度地圖](90_References/MD-Map.png)
 
 ## 方法論總覽
 
 ![企業管理顧問方法論：八階段轉型指南](90_References/Metholodgy.png)
 
-## 核心流程
+## 核心故事線
 
 ```text
 AI 成熟度問卷
-→ 公司屬性與部署模式調查
-→ L1-L5 課程與能力建置
+→ 公司屬性、產業情境、部署模式調查
+→ L1-L5 課程比例設計
 → L1 OpenWebUI 企業帳號與個人聊天區啟用
-→ L2 Antigravity Agentic Developer Skill
-→ L3 n8n 企業流程自動化 PoC
-→ L4 Hermes Agent PoC 與 evidence
-→ 情境案例與 Stage Gate
-→ 八階段顧問診斷
-→ AI 轉型診斷報告與 Roadmap
+→ L2 Antigravity / Claude Code / Codex Skill 化訓練
+→ L3 n8n 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統
+→ L4 Hermes Agent 形成可驗證的自動 Agent 作業
+→ L5 ClawTeam 形成 Agentic Team 協作
+→ 情境案例、Evidence、Stage Gate 驗收
+→ 八階段 AI 轉型顧問診斷
+→ AI 轉型診斷報告、Roadmap、ROI、治理建議
 ```
 
 ## L1-L5 成熟度模型
 
-| 等級 | 名稱 | 工具 / 平台 | 核心定位 |
+| 等級 | 名稱 | 工具 / 平台 | 企業定位 |
 | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | 企業內部 AI 對話入口，讓員工開始安全使用 AI |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | 將個人經驗、提示詞、文件與工作方法整理成可複用 Skill |
-| L3 | Workflow AI | n8n | 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 進入流程 |
-| L4 | Auto Agentic AI | Hermes Agent | 以 Wiki 記憶、Skill、Workflow、工具、排程與人工 Gate 組成可驗證的知識型 Agent 作業系統 |
-| L5 | Agentic Team AI | ClawTeam | AI Agent Team 協作平台，多個專業 Agent 協同完成企業級任務 |
+| L1 | Chat AI | OpenWebUI | 建立企業內部 AI 對話入口，讓每位員工有自己的帳號、聊天區與權限邊界 |
+| L2 | Skill AI | Antigravity / Claude Code / Codex | 將個人知識、提示詞、文件與工作方法整理成可重複使用的 Skill |
+| L3 | Workflow AI | n8n | 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 進入真實流程 |
+| L4 | Auto Agentic AI | Hermes Agent | 以 Wiki 記憶、工具、Workflow、排程與人工 Gate 組成可驗證的自動 Agent |
+| L5 | Agentic Team AI | ClawTeam | 讓多個專業 Agent 形成團隊，協同完成跨部門、跨流程的企業任務 |
+
+## 每一層如何驗收
+
+| 等級 | Input | Process | Output | Evidence | Stage Gate |
+| --- | --- | --- | --- | --- | --- |
+| L1 | 員工角色、常見任務、AI 使用痛點、權限需求 | 建置 OpenWebUI、帳號 / 群組 / 權限、個人聊天區、Prompt 基礎訓練 | 企業 AI 對話入口、Prompt 清單、使用情境清單 | 帳號表、權限表、登入紀錄、個人聊天區截圖、Prompt 範例 | 是否能安全登入、分權、留下可追蹤使用紀錄 |
+| L2 | L1 高頻 Prompt、文件、SOP、個人工作方法 | 用 Antigravity / Claude Code / Codex 將知識封裝成 Skill 與可重用 artifacts | Skill Library、Agentic artifacts、Workflow Blueprint | Skill 文件、測試案例、版本紀錄、輸出範例 | Skill 是否可被他人重複使用並穩定產出 |
+| L3 | L2 Skill、流程藍圖、系統清單、API / CRM / ERP / Sheet 權限 | 用 n8n 建立自動化流程、資料表、Execution Log、錯誤處理 | Workflow PoC、Sub-workflow Library、Data Tables、L4 Workflow Contract | n8n workflow、執行紀錄、失敗重跑紀錄、系統串接截圖 | Workflow 是否能在真實資料與真實系統中穩定執行 |
+| L4 | L3 Workflow、L2 Skill、企業 Wiki、任務規則、人工 Gate | 用 Hermes Agent 建立任務卡、Wiki ingest/query/update、排程、工具調用與 Gate 4A-4E | 可驗證 Agent、Briefing、任務處理紀錄、Gate 簽核 | Agent log、Wiki 版本、任務卡、briefing、人工批准紀錄 | Agent 是否能在受控邊界內自動完成任務並留下 evidence |
+| L5 | 多個 L4 Agent、跨部門任務、角色責任、治理規則 | 用 ClawTeam 編組 Agentic Team，定義角色、協作規則、交接與監督方式 | Agent Team、角色卡、協作流程、跨部門成果 | Team run log、角色卡、交接紀錄、成果文件、治理紀錄 | Agent Team 是否能穩定協作並產出可追責成果 |
+
+## 課程設計原則
+
+課程比例由客戶的成熟度、產業、部署模式與目標情境決定。不是每家公司都要一次上滿 L1-L5，而是先找出最能產生交付成果的一層，往上銜接。
+
+| 調查面向 | 用途 |
+| --- | --- |
+| 公司屬性 | 判斷是研發製造業、行銷服務業、醫療院所、內部營運單位或其他類型 |
+| 部署模式 | 判斷走雲 AI、Hybrid 雲地混合，或全地端部署 |
+| 系統現況 | 盤點 Gmail、Sheets、Notion、CRM、API、ERP、資料庫與內部系統 |
+| 流程成熟度 | 判斷是否已有 SOP、流程 owner、資料欄位與例外處理 |
+| 風險要求 | 評估資安、隱私、醫療 / 製造 / 財務合規與人工簽核需求 |
 
 ## 目錄結構
 
 | 目錄 | 用途 |
 | --- | --- |
 | [`00_Overview`](00_Overview/) | 方案總論、故事線、WBS |
-| [`01_Assessment`](01_Assessment/) | AI 成熟度問卷與評分模型 |
-| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L1 OpenWebUI 企業啟用、L2 Antigravity 工程訓練、L3 n8n 企業流程自動化、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
+| [`01_Assessment`](01_Assessment/) | AI 成熟度問卷、評分模型、交付物與驗證矩陣 |
+| [`02_Course_Design`](02_Course_Design/) | L1-L5 課程規劃、公司屬性、部署模式、課程模組矩陣 |
 | [`03_Consulting_Report`](03_Consulting_Report/) | AI 轉型診斷報告模板 |
-| [`04_Scenarios`](04_Scenarios/) | 客戶情境、案例控制表、製造業與醫院案例 |
+| [`04_Scenarios`](04_Scenarios/) | 客戶情境、控制表、製造業案例、醫院案例 |
 | [`05_Sales`](05_Sales/) | 對外價值主張、銷售話術與 FAQ |
 | [`06_Delivery`](06_Delivery/) | 交付包與驗收標準 |
-| [`90_References`](90_References/) | 原始 PDF 與方法論圖片 |
+| [`90_References`](90_References/) | 原始 PDF、方法論圖片、影片學習紀錄與引用資料 |
 
 ## 建議閱讀順序
 
@@ -69,11 +105,10 @@ AI 成熟度問卷
 - 公司屬性與部署模式調查
 - L1-L5 課程完成證據
 - OpenWebUI 帳號 / 群組 / 權限表與每人個人聊天區啟用紀錄
-- Skill Library 與 Antigravity Agentic Developer artifacts
-- n8n Workflow PoC 與 Execution Log
-- Sub-workflow Library、Data Tables Schema、GitHub Backup SOP、L4 Workflow Contract
+- Skill Library 與 Antigravity / Claude Code / Codex artifacts
+- n8n Workflow PoC、Execution Log、Data Tables、Sub-workflow Library
 - Hermes Agent 任務卡、Wiki、ingest/query/update 紀錄、briefing 與 Gate 4A-4E
-- ClawTeam Agent Team 角色卡
+- ClawTeam Agent Team 角色卡、協作紀錄與成果文件
 - Stage Gate 驗收紀錄
 - AI 轉型診斷報告
 - 30 / 60 / 90 天 Roadmap
@@ -81,6 +116,21 @@ AI 成熟度問卷
 ## 參考資料
 
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
+- [`90_References/MD-Map.png`](90_References/MD-Map.png)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
 - [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
 - [`90_References/TIGERAI_VIDEO_LEARNING_NOTES.md`](90_References/TIGERAI_VIDEO_LEARNING_NOTES.md)
+
+## 授權與署名
+
+本專案原創內容採用 attribution-only open license：可任意使用、修改、改作、重製、散布、教學、顧問交付與商業化。
+
+唯一條件：使用、改作、公開散布、商業包裝、課程教材、顧問交付文件或產品文件中，必須保留以下署名：
+
+```text
+原作者：Tiger AI Morris Lu 盧業興
+身份：n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生
+來源：https://github.com/TigerAI-Taiwan/AI-Consulting-Methodology-Toolkit
+```
+
+第三方平台名稱、商標、影片、外部專案與引用內容仍屬於各自權利人。本 repo 對第三方資料僅做學習紀錄、引用、整理與課程設計參考。

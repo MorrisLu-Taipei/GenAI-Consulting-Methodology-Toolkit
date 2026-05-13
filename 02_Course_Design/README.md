@@ -9,3 +9,4 @@
 - `L2_ANTIGRAVITY_COURSE_PLAN.md`：參考 Google Antigravity 三套 codelab 的 L2 工程訓練，包含 Agentic IDE、App Prototype、Unit Test、GCP Serverless Pipeline 與 Gate 2A-2E。
 - `L3_N8N_TIGERAI_COURSE_PLAN.md`：參考 TigerAI 頻道 n8n / OpenGenie 影片的 L3 深度課程，包含 Gemini、多模態、Sub-workflow、Data Tables、Webhook、客服/HR/行銷 PoC、GitHub 備份與 Gate 3A-3G。
 - `L4_HERMES_AGENT_COURSE_PLAN.md`：參考 Hermes `starter-kit-v2` 的 L4 深度課程，包含 Wiki 記憶、五個核心 skills、ingest/query/update、briefing/discovery、evidence 與 Gate 4A-4E。
+- `L5_CLAWTEAM_COURSE_PLAN.md`：以 [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) (MIT License) 為實作平台的 L5 深度課程，包含 Team / Workspace / Task / Inbox / Transport 五層架構、git worktree 隔離、CLI 上機 (`team spawn-team`、`task --blocked-by`、`inbox send/broadcast`、`board show/live`)、三大在地化情境 (製造業 / 醫院 / 零售) 與 Gate 5。引用條款請見 `../90_References/CLAWTEAM_REFERENCE.md`。
