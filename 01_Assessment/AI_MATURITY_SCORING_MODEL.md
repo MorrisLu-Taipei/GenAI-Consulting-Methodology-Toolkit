@@ -20,7 +20,7 @@
 | L1 | Chat AI | OpenWebUI | 員工能透過受控入口使用 AI，提升個人效率 | 有統一入口、基本使用規範、常用 Prompt、個人效率案例 |
 | L2 | Skill AI | Antigravity / Claude Code / Codex | 個人經驗被整理成部門可複用 Skill | 有 Skill Library、SOP、模板、Checklist、部門共用範例 |
 | L3 | Workflow AI | n8n | AI 能串接系統並進入流程執行任務 | 有 Gmail、Sheets、Notion、CRM、API、ERP 等流程 PoC 或上線流程 |
-| L4 | Auto Agentic AI | Hermes Agent | Agent 能理解任務、呼叫 Skill/Workflow、執行並回報 | 有 Agent 任務卡、工具清單、權限邊界、人工審核與回報機制 |
+| L4 | Auto Agentic AI | Hermes Agent | Agent 能以 Wiki 記憶為底座，呼叫 Skill/Workflow，進行 ingest、query、update、briefing 並留下 evidence | 有 Agent 任務卡、L4 IPOE、Wiki/schema、工具清單、權限邊界、Log、人工審核與 Gate 4A-4E |
 | L5 | Agentic Team AI | ClawTeam | 多個 Agent 協同完成跨部門企業級任務 | 有 Agent Team 角色分工、任務分派、整合輸出、品質檢查與治理 |
 
 ## 3. 六大評估構面
@@ -31,7 +31,7 @@
 | B. 知識沉澱 | 是否將 Prompt、SOP、模板、經驗整理成可複用資產 | L2 |
 | C. 流程自動化 | 是否把 AI 接進實際流程並減少人工重工 | L3 |
 | D. 系統整合 | 是否能串接 Gmail、Sheets、Notion、CRM、API、ERP、DB | L3 |
-| E. Agent 應用 | 是否有可拆解任務、呼叫工具、執行回報的 Agent | L4-L5 |
+| E. Agent 應用 | 是否有可拆解任務、呼叫工具、累積記憶、產生 briefing、執行回報且可追溯的 Agent | L4-L5 |
 | F. 治理與 ROI | 是否有權限、稽核、資料分級、KPI 與 ROI 追蹤 | L1-L5 |
 
 ## 4. 單題分數量尺
@@ -118,9 +118,13 @@
 | 指標 | 觀察重點 |
 | --- | --- |
 | 任務拆解 | Agent 是否能將目標拆成步驟 |
+| 知識記憶 | 是否有 `purpose.md`、`SCHEMA.md`、Wiki、index、log |
+| Ingest 閉環 | 是否能吃進文件、分析、寫回 Wiki 並更新索引 |
+| Query / Update | 是否能用證據回答並保留回寫紀錄 |
+| Briefing / Discovery | 是否能依 watchlist、queue、tasks 產生週期性 briefing |
 | 工具調用 | Agent 是否能呼叫 Skill 與 Workflow |
 | 權限邊界 | Agent 可做與不可做的事是否清楚 |
-| 回報機制 | Agent 是否能回報結果、異常與下一步 |
+| 回報機制 | Agent 是否能回報結果、異常、下一步與 evidence |
 | 人機協作 | 人是否能審核、修正、接手 Agent 任務 |
 
 ### L5 Agentic Team AI
@@ -188,4 +192,3 @@
 | Agent 缺口 | 沒有可自主執行任務的 AI | L4 Hermes Agent 任務設計 |
 | Agent Team 缺口 | 跨部門任務無法多 Agent 協作 | L5 ClawTeam 情境設計 |
 | 治理缺口 | 權限、稽核、ROI 不清楚 | 治理表、Stage Gate、KPI |
-

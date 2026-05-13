@@ -62,7 +62,7 @@
 - L1：員工各自使用 Chat AI。
 - L2：部門開始沉澱 Skill、SOP、Prompt、範本。
 - L3：開始用 n8n 串接系統與流程。
-- L4：開始使用可自動執行任務的 Agent。
+- L4：開始使用具備 Wiki 記憶、工具呼叫、排程、證據與人工 Gate 的 Hermes Agent。
 - L5：多個 Agent 形成團隊，協同完成企業級流程。
 
 問卷的目的不是做學術評量，而是讓老闆、主管與 IT 對現況有共同語言。
@@ -75,7 +75,7 @@
 
 - 客戶目前幾乎都在 L1，則課程要多放在 OpenWebUI、AI 使用規範、Prompt、資料安全與部門 Skill 化。
 - 客戶已有部門模板與 SOP，則課程要往 n8n Workflow 與系統串接前進。
-- 客戶已經有自動化基礎，則可加入 Hermes Agent 與 ClawTeam 的 Agentic AI 課程。
+- 客戶已經有自動化基礎，則可加入 Hermes Agent 的知識工作閉環，再進一步評估 ClawTeam 的 Agentic AI 團隊課程。
 
 課程的目標不是只教會工具操作，而是讓客戶在課程中產出自己的工作資產：
 
@@ -83,7 +83,7 @@
 - Skill 清單
 - SOP 與模板
 - Workflow PoC
-- Agent 任務範例
+- Hermes Agent 任務範例
 - AI Team 協作情境
 
 課程設計還必須參考每一級的需求清單與公司屬性。也就是說，L1-L5 不是固定教案，而是成熟度架構；實際教什麼、用什麼案例、做到多深，要看客戶的產業、資料敏感度、IT 能力、既有系統與部署模式。
@@ -265,9 +265,16 @@ n8n 是 Workflow AI 的核心，用來連接 Gmail、Google Sheets、Notion、CR
 
 #### 定位
 
-L4 的重點是讓 AI 具備代理能力：能理解任務、拆解步驟、呼叫工具、執行 Workflow、回報結果。
+L4 的重點是讓 AI 從「一次性回答」升級為「可持續運行的知識工作代理」。它不只理解任務、拆解步驟、呼叫工具與回報結果，還要能留下記憶、索引、證據、排程與人工審核紀錄。
 
-Hermes Agent 是職能型或個人型 AI 助理，能調用 L2 Skill 與 L3 Workflow。
+Hermes Agent 是 L4 的標準平台。它把 L1 Chat、L2 Skill、L3 Workflow 整合成一個知識型 Agent 作業系統：
+
+1. Markdown Wiki 作為知識真相來源。
+2. SQLite / FTS 作為查詢索引與衍生快取。
+3. 五個核心 skills 負責管理、來源分析、關鍵字抽取、自主發現與 briefing。
+4. deterministic tools 負責寫入、索引、驗證、抽取、快取與 log。
+5. 排程負責 nightly ingest、morning briefing、discovery ping、evening preview、weekly graph synthesis。
+6. 人工 Gate 負責高風險更新、關鍵字核准、schema 變更、刪除與上線判斷。
 
 #### 典型情境
 
@@ -277,35 +284,44 @@ Hermes Agent 是職能型或個人型 AI 助理，能調用 L2 Skill 與 L3 Work
 
 Hermes Agent 會：
 
-1. 呼叫 ERP 查詢異常訂單。
-2. 呼叫 CRM 查詢客戶資料。
-3. 呼叫 Google Sheets 整理分析表。
-4. 呼叫 L2 的「異常分析 Skill」。
-5. 呼叫 L3 的報告產生 Workflow。
-6. 產出報告並回傳給主管。
+1. 先讀取部門 `purpose.md`、`SCHEMA.md`、`INBOX.md`、`queue.md`、`watchlist.md` 與近期 log。
+2. 呼叫 ERP 查詢異常訂單。
+3. 呼叫 CRM 查詢客戶資料。
+4. 呼叫 Google Sheets 整理分析表。
+5. 呼叫 L2 的「異常分析 Skill」。
+6. 呼叫 L3 的報告產生 Workflow。
+7. 將分析過程、引用來源、待追蹤任務與主管摘要寫回 Wiki。
+8. 在 briefing 中提醒主管哪些項目需要人工確認。
 
 #### 客戶會聽懂的價值
 
 - 同仁不用知道每個系統怎麼操作。
 - AI 可以幫忙拆解與執行跨系統任務。
 - 管理者可以更快取得決策資料。
-- AI 從工具變成工作代理人。
+- AI 從工具變成可累積知識、可追溯證據、可排程運作的工作代理人。
+- Agent 不只是做一次任務，而是每天持續整理、提醒、更新與產生 briefing。
 
 #### 課程內容
 
-- Agentic AI 基本觀念。
-- Task Planning 與 Tool Calling。
-- 如何設計 Agent 可用的 Skill。
-- 如何讓 Agent 呼叫 n8n Workflow。
-- 人工審核、權限與失敗回報。
-- Agent 的任務邊界與風險治理。
+- Agentic AI 基本觀念與 L4 / L5 邊界。
+- Hermes Agent 架構：Wiki、SQLite、skills、tools、runtime schema、policy。
+- Orient-first SOP：Agent 開工前先讀 schema、purpose、INBOX、index 與 log。
+- Ingest / query / update / lint / graph-synthesis。
+- source analysis、keyword extraction、autonomous discovery、briefing-generator。
+- 如何設計 Agent 可用的 Skill 與 n8n Workflow。
+- 人工審核、權限、Log、fallback 與 Stage Gate。
 
 #### 課程產出物
 
-- 1 個部門 Agent 任務範例。
+- 1 個部門 Hermes Agent 任務範例。
+- L4 IPOE 表。
 - Agent 任務說明書。
+- 初始 Wiki：`purpose.md`、`SCHEMA.md`、INBOX、queue、watchlist、tasks。
 - Agent 可用工具清單。
-- Agent 風險與權限控管建議。
+- Ingest / query / update 測試紀錄。
+- Briefing 範本。
+- Gate 4A-4E 驗收表。
+- Agent 風險、權限與維運 Runbook。
 
 ### 3.5 L5 Agentic Team AI：ClawTeam
 

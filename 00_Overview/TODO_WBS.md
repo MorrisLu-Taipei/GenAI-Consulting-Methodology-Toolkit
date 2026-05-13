@@ -90,6 +90,7 @@
 - [x] L2 Skill AI 課程目標、課綱、練習、產出物、講師備註。
 - [x] L3 n8n 課程目標、課綱、練習、產出物、講師備註。
 - [x] L4 Hermes Agent 課程目標、課綱、練習、產出物、講師備註。
+- [x] 參考 Hermes `starter-kit-v2` 補強 L4 深度課程：Wiki 記憶、五個 skills、ingest/query/update、briefing/discovery、Gate 4A-4E。
 - [x] L5 ClawTeam 課程目標、課綱、練習、產出物、講師備註。
 - [x] 依成熟度推薦課程比例。
 - [x] 依產業、主管目標、系統整合成熟度、部署模式調整比例。
@@ -187,6 +188,7 @@
 
 ### 4.5 對外銷售素材
 
+- [x] 交付包與驗收標準文件。
 - [ ] One-pager。
 - [ ] 三段式服務流程圖。
 - [ ] L1-L5 成熟度圖。
@@ -205,8 +207,8 @@
 
 ## 5. 下一輪建議優先順序
 
-1. 建立 `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`：八階段顧問診斷工具表格。
-2. 建立 `02_Course_Design/POC_SCENARIO_SPECS.md`：Gmail、Sheets、Notion、CRM、API、ERP PoC 細稿。
-3. 建立 `04_Scenarios/SAMPLE_CLIENT_CASE_MANUFACTURING.md`：製造業完整案例。
-4. 建立 `05_Sales/ONE_PAGER_OUTLINE.md`：對外一頁式銷售素材。
+1. 建立 `05_Sales/ONE_PAGER_OUTLINE.md`：對外一頁式銷售素材。
+2. 建立 `05_Sales/EXECUTIVE_DECK_OUTLINE.md`：10 頁高階主管版簡報。
+3. 建立 `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`：八階段顧問診斷工具表格。
+4. 建立 `02_Course_Design/POC_SCENARIO_SPECS.md`：Gmail、Sheets、Notion、CRM、API、ERP PoC 細稿。
 5. 建立 `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md`：Google Sheets / Notion / n8n 自動診斷欄位設計。

@@ -131,35 +131,46 @@ L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Wo
 
 ### 課程目標
 
-讓 Agent 能理解任務、拆解步驟、呼叫 L2 Skill 與 L3 Workflow，執行並回報結果。
+讓 Hermes Agent 形成可持續運行的知識工作閉環：能讀取部門目的與 schema、吸收文件、建立 Wiki 記憶、呼叫 L2 Skill 與 L3 Workflow、產生 briefing，並用 evidence 與人工 Gate 驗證。
 
 ### 課程大綱
 
-1. Agentic AI 觀念：Agent 與 Chatbot 的差異。
-2. 任務拆解：目標、步驟、工具、輸出、風險。
-3. Tool Calling：呼叫 Skill、n8n Workflow、API、資料庫。
-4. Agent 任務卡：角色、權限、可用工具、限制、回報格式。
-5. 人工審核與接手。
-6. Agent 失敗處理、Log 與改善。
+1. Agentic AI 觀念：Agent 與 Chatbot / Skill / Workflow 的差異。
+2. Hermes 架構：Wiki、SQLite、skills、tools、runtime schema、policy。
+3. Orient-first：Agent 開工前先讀目的、schema、INBOX、queue、watchlist、index、log。
+4. Ingest / query / update：文件吸收、來源分析、引用回答、結果回寫。
+5. Briefing / discovery：morning briefing、2h ping、watchlist、P2 queue。
+6. Tool Calling：呼叫 Skill、n8n Workflow、API、資料庫。
+7. Agent 任務卡：角色、權限、可用工具、限制、回報格式。
+8. 人工審核、Stage Gate、Log、失敗處理與改善。
 
 ### 實作練習
 
 - 設計「營運週報 Agent」。
 - 設計「客服案件摘要 Agent」。
 - 設計「業務拜訪準備 Agent」。
+- 設計「研發文獻 / 技術文件整理 Agent」。
+- 建立 `purpose.md` 與 `SCHEMA.md` 草稿。
+- 匯入一份 PDF / SOP / FAQ，產生 source analysis 與 log。
+- 產出一份 morning briefing。
 - 讓 Agent 呼叫一個 n8n Workflow。
 
 ### 課後產出物
 
 - Hermes Agent 角色卡。
+- L4 IPOE 表。
+- 初始 Wiki 結構。
 - Agent 任務清單。
 - Agent 可用工具清單。
+- Ingest / Query / Update 測試紀錄。
+- Briefing 範本。
 - 權限與審核規則。
+- Gate 4A-4E 驗收表。
 - L5 Agent Team 候選情境。
 
 ### 講師備註
 
-L4 不宜一開始承諾全自動決策。比較好的說法是「先讓 Agent 做準備、分析、整理、提醒與草稿，關鍵決策保留人工 Gate」。
+L4 不宜一開始承諾全自動決策。比較好的說法是「先讓 Agent 做準備、分析、整理、提醒、草稿與 briefing，關鍵決策、刪除、schema 變更與高風險更新保留人工 Gate」。完整 L4 設計請見 `L4_HERMES_AGENT_COURSE_PLAN.md`。
 
 ## 7. L5 Agentic Team AI：ClawTeam
 
@@ -222,4 +233,3 @@ L5 的客戶語言要偏管理價值，不要陷入技術細節。重點是「AI
 | 金融醫療政府 | 文件摘要、內部知識查詢、報告輔助、人工審核流程 | 全地端 / 嚴格 Hybrid、治理優先 |
 | B2B 業務 | 客戶研究、拜訪摘要、商機更新、提案產出 | L1-L3、CRM 與 Email 串接 |
 | IT / 系統部門 | API 串接、權限治理、Log、流程維運 | L3-L4、治理與維運 |
-

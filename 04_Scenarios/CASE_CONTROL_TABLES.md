@@ -56,7 +56,7 @@ IPOE = Input / Process / Output / Evidence。
 | L1 Chat AI | `[文件、Email、問卷、低敏感資料]` | `[OpenWebUI、Prompt 訓練、使用規範]` | `[Prompt、AI 使用規範、入口流程]` | `[截圖、規範文件、練習成果]` | `[HR / IT / 顧問]` | `[種子人員可完成基本任務]` | `[ ]` |
 | L2 Skill AI | `[SOP、模板、資深經驗、範例]` | `[Skill 設計、模板化、版本管理]` | `[Skill Library、3-5 個 Skill]` | `[Skill 文件、版本、測試輸出]` | `[部門 Owner]` | `[非原作者可使用 Skill]` | `[ ]` |
 | L3 Workflow AI | `[Gmail、Sheets、Notion、CRM、API、ERP]` | `[n8n 串接、Trigger、AI 分類、人工審核、Log]` | `[Workflow PoC、摘要、任務、通知]` | `[Workflow JSON、Execution Log、測試案例]` | `[IT / 流程 Owner]` | `[測試案例成功且有審核]` | `[ ]` |
-| L4 Auto Agentic AI | `[Skill、Workflow、任務、權限]` | `[Hermes Agent 任務拆解、工具呼叫、回報]` | `[Agent 任務卡、回報、追蹤清單]` | `[Agent 執行紀錄、工具呼叫紀錄]` | `[部門 Owner / IT]` | `[Agent 輸出可追溯且可審核]` | `[ ]` |
+| L4 Auto Agentic AI | `[Skill、Workflow、任務、文件、Wiki、schema、權限]` | `[Hermes Agent orient、ingest、query、update、briefing、工具呼叫、人工 Gate]` | `[Agent 任務卡、Wiki pages、briefing、回報、追蹤清單]` | `[Log、SQLite 查詢、source page、工具呼叫紀錄、人工審核紀錄]` | `[部門 Owner / IT]` | `[Agent 輸出可追溯、可審核、可維運]` | `[ ]` |
 | L5 Agentic Team AI | `[跨部門任務、角色、資料源]` | `[ClawTeam 多 Agent 分工、整合、審核]` | `[整合報告、改善提案、Roadmap]` | `[各 Agent 輸出、整合紀錄、主管審核]` | `[管理 Sponsor]` | `[有角色分工、人工 Gate、ROI]` | `[ ]` |
 
 ## 5. L1-L5 詳細控制表
@@ -106,13 +106,21 @@ IPOE = Input / Process / Output / Evidence。
 | --- | --- | --- | --- |
 | Agent 名稱 | `[名稱]` | Agent 任務卡 | `[ ]` |
 | Agent 目標 | `[目標]` | Agent 任務卡 | `[ ]` |
+| Purpose | `[Agent 為什麼存在]` | `purpose.md` | `[ ]` |
+| Schema | `[知識欄位與規則]` | `SCHEMA.md` | `[ ]` |
+| Wiki 結構 | `[INBOX / queue / watchlist / tasks / wiki]` | Wiki 檔案清單 | `[ ]` |
 | 可呼叫 Skill | `[Skill 清單]` | 工具清單 | `[ ]` |
 | 可呼叫 Workflow | `[Workflow 清單]` | 工具清單 | `[ ]` |
+| Ingest 測試 | `[文件 / SOP / FAQ]` | source page、log、index | `[ ]` |
+| Query 測試 | `[查詢題目]` | query record、引用來源 | `[ ]` |
+| Update 測試 | `[回寫內容]` | update diff、審核紀錄 | `[ ]` |
+| Briefing | `[morning / weekly]` | briefing 報告 | `[ ]` |
+| Discovery / Watchlist | `[關鍵字]` | watchlist、queue | `[ ]` |
 | 可存取資料 | `[資料範圍]` | 權限表 | `[ ]` |
 | 禁止事項 | `[不可做事項]` | 權限表 | `[ ]` |
 | 回報格式 | `[格式]` | 輸出樣本 | `[ ]` |
 | 人工接手 | `[條件與負責人]` | 接手紀錄 | `[ ]` |
-| L4 Gate | `[通過 / 未通過]` | Gate 4 驗收紀錄 | `[ ]` |
+| L4 Gate | `[4A / 4B / 4C / 4D / 4E]` | Gate 4A-4E 驗收紀錄 | `[ ]` |
 
 ### 5.5 L5 ClawTeam 控制表
 
@@ -141,7 +149,10 @@ IPOE = Input / Process / Output / Evidence。
 | Execution Log | L3 | 必備 | n8n 執行紀錄 | `[URL / 路徑]` | IT | `[ ]` |
 | 人工審核紀錄 | L3-L5 | 必備 | 審核表 / 簽核 | `[URL / 路徑]` | 部門 Owner | `[ ]` |
 | Agent 任務卡 | L4 | 必備 | Hermes Agent 任務卡 | `[URL / 路徑]` | 顧問 / 部門 | `[ ]` |
-| Agent 執行紀錄 | L4 | 建議 | 工具呼叫紀錄 | `[URL / 路徑]` | IT | `[ ]` |
+| Hermes Wiki | L4 | 必備 | purpose、schema、INBOX、queue、watchlist、tasks | `[URL / 路徑]` | IT / 部門 | `[ ]` |
+| Ingest / Query / Update 紀錄 | L4 | 必備 | source page、query record、update diff | `[URL / 路徑]` | 顧問 / IT | `[ ]` |
+| Briefing 範本 | L4 | 建議 | morning / weekly briefing | `[URL / 路徑]` | 部門 Owner | `[ ]` |
+| Agent 執行紀錄 | L4 | 必備 | 工具呼叫紀錄、Log、SQLite 查詢 | `[URL / 路徑]` | IT | `[ ]` |
 | Agent Team 角色卡 | L5 | 必備 | ClawTeam 角色卡 | `[URL / 路徑]` | 顧問 | `[ ]` |
 | ROI 追蹤表 | L3-L5 | 必備 | 工時 / 錯誤率 / 回應速度 | `[URL / 路徑]` | 管理 Sponsor | `[ ]` |
 
@@ -152,7 +163,7 @@ IPOE = Input / Process / Output / Evidence。
 | Gate 1 | L1 | AI 入口、使用規範、Prompt 範本 | 種子人員可完成基本 AI 任務且知道資料邊界 | HR / IT / 顧問 | `[Pass / Fail]` | `[備註]` |
 | Gate 2 | L2 | Skill Library、Skill Owner、測試輸出 | 非原作者可使用 Skill 產出可接受結果 | 部門主管 / 顧問 | `[Pass / Fail]` | `[備註]` |
 | Gate 3 | L3 | n8n Workflow、Log、人工審核 | Workflow 可跑測試案例，且有錯誤處理 | IT / 流程 Owner | `[Pass / Fail]` | `[備註]` |
-| Gate 4 | L4 | Hermes Agent 任務卡、權限表、工具清單 | Agent 可呼叫 Skill / Workflow，輸出可追溯且可審核 | 部門主管 / IT | `[Pass / Fail]` | `[備註]` |
+| Gate 4 | L4 | Hermes Agent 任務卡、L4 IPOE、Wiki、權限表、工具清單、Log、briefing | Agent 可完成 ingest/query/update，能呼叫 Skill / Workflow，輸出可追溯、可審核、可維運 | 部門主管 / IT | `[Pass / Fail]` | `[備註]` |
 | Gate 5 | L5 | ClawTeam 角色卡、任務分派、整合報告 | 多 Agent 有分工、整合、Reviewer 與人工 Gate | 管理 Sponsor | `[Pass / Fail]` | `[備註]` |
 
 ## 8. 風險與治理控制表
@@ -196,4 +207,3 @@ IPOE = Input / Process / Output / Evidence。
 | 已完成 Deliverables 驗收控制表 | `[ ]` |
 | 已完成 30 / 60 / 90 天 Roadmap | `[ ]` |
 | 已完成 ROI 追蹤矩陣 | `[ ]` |
-

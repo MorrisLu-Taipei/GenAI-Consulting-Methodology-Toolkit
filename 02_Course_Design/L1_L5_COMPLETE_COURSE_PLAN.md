@@ -310,7 +310,9 @@
 
 ### 7.1 課程目標
 
-設計可控的 Hermes Agent，讓 Agent 能拆解任務、呼叫 Skill / Workflow、產出回報，並保留人工 Gate。
+設計可控、可驗證、可維運的 Hermes Agent，讓 Agent 能以 Wiki 作為長期記憶，呼叫 L2 Skill 與 L3 Workflow，完成資料吸收、分析、查詢、更新、提醒與回報，並保留人工 Gate。
+
+L4 的完整課程設計請見 `L4_HERMES_AGENT_COURSE_PLAN.md`。本節保留為 L1-L5 總課綱摘要。
 
 ### 7.2 適合對象
 
@@ -318,6 +320,7 @@
 - 流程 Owner。
 - IT。
 - 種子人員。
+- 知識工作者。
 - 管理層助理 / PM。
 
 ### 7.3 課前需求
@@ -326,7 +329,9 @@
 | --- | --- |
 | L2 Skill | Agent 可呼叫的 Skill |
 | L3 Workflow | Agent 可啟動的 Workflow |
-| 任務場景 | 週報、客服、營運、業務、行政 |
+| 任務場景 | 週報、客服、營運、業務、行政、研究、文件管理 |
+| 知識底座 | `purpose.md`、`SCHEMA.md`、`INBOX.md`、`queue.md`、`watchlist.md`、`tasks.md`、`wiki/` |
+| 技術底座 | Hermes Agent、五個核心 skills、tools、SQLite / FTS index、排程機制 |
 | 權限表 | Agent 可做與不可做的事 |
 | 人工 Gate | 何時需要人工確認 |
 
@@ -342,21 +347,33 @@
 | Output | 回報格式 |
 | Constraints | 禁止事項 |
 | Escalation | 轉人工條件 |
-| Evidence | 執行紀錄與審核紀錄 |
+| Evidence | 執行紀錄、來源引用、Log、審核紀錄 |
 
-### 7.5 上課內容
+### 7.5 Hermes Agent IPOE
+
+| 類別 | 定義 |
+| --- | --- |
+| Input | 客戶任務、部門文件、PDF、SOP、FAQ、研究資料、API 回傳、n8n Workflow 結果、L2 Skill、`purpose.md`、`SCHEMA.md`、`watchlist.md`、`queue.md`、權限表 |
+| Process | orient-first、bootstrap、ingest、source analysis、keyword extraction、index upsert、query、update、lint、autonomous discovery、briefing、graph synthesis、人工審核 |
+| Output | Wiki pages、source analysis、concept/entity/claim pages、查詢回答、每日 briefing、待審 watchlist、任務追蹤清單、Agent 執行紀錄、改善建議 |
+| Evidence | `hermes doctor` 結果、技能安裝清單、設定檔、Wiki 檔案、Log、SQLite 查詢、queue/watchlist/tasks、briefing email、n8n 執行紀錄、人工審核紀錄 |
+
+### 7.6 上課內容
 
 | 單元 | 時間 | 內容 | 方法 |
 | --- | ---: | --- | --- |
-| Agentic AI 觀念 | 45 分 | Agent vs Chatbot vs Workflow | 講授 |
-| 任務拆解 | 60 分 | 目標、步驟、工具、輸出、風險 | 工作坊 |
+| L4 定位 | 45 分 | Agent vs Chatbot vs Skill vs Workflow；L4 到 L5 的邊界 | 講授 |
+| Hermes 架構 | 60 分 | Wiki、SQLite、skills、tools、runtime schema、policy、排程 | Demo |
+| 任務拆解 | 60 分 | 目標、步驟、工具、輸出、風險、人工 Gate | 工作坊 |
+| Knowledge Base | 60 分 | `purpose.md`、`SCHEMA.md`、INBOX、queue、watchlist、tasks | 實作 |
+| Ingest 閉環 | 90 分 | 文件匯入、來源分析、keyword、index、log | 實作 |
+| Query / Update | 75 分 | 引用回答、結果回寫、diff、人工審核 | 實作 |
 | Tool Calling | 60 分 | 呼叫 Skill、n8n、API、DB | Demo |
-| Agent 任務卡 | 60 分 | 角色、權限、限制、回報 | 實作 |
-| 權限與治理 | 45 分 | 最小權限、人工 Gate、Log | 講授 |
-| Agent 測試 | 120 分 | 設計並測試 1 個 Agent 任務 | 實作 |
-| 失敗處理 | 45 分 | fallback、人工接手、錯誤回報 | 演練 |
+| Briefing / Discovery | 75 分 | morning briefing、2h ping、watchlist、P2 queue | Demo |
+| 權限與治理 | 60 分 | 最小權限、資料分級、人工 Gate、Log、fallback | 講授 |
+| Agent 測試 | 120 分 | 設計並測試 1 個 Hermes Agent 閉環 | 實作 |
 
-### 7.6 課堂實作
+### 7.7 課堂實作
 
 可選 Agent：
 
@@ -365,41 +382,63 @@
 - 業務拜訪準備 Agent。
 - 病患服務客服輔助 Agent。
 - 行銷活動分析 Agent。
+- 研發文獻 / 技術文件整理 Agent。
 
-### 7.7 課後作業
+每組需完成：
+
+- Hermes Agent 任務卡。
+- L4 IPOE 表。
+- `purpose.md` 與 `SCHEMA.md` 草稿。
+- 一份文件 ingest 測試。
+- 三個可追溯 query。
+- 一份 briefing。
+- Gate 4A-4E 驗收表。
+
+### 7.8 課後作業
 
 - 完成 Agent 任務卡。
 - 完成 Agent 權限表。
 - 完成 Agent 測試紀錄。
 - 完成人工接手規則。
+- 完成 Wiki / Log / Index / Briefing evidence。
 - 選出 L5 Agent Team 候選任務。
 
-### 7.8 完成標準
+### 7.9 完成標準
 
 | 標準 | 驗證方式 |
 | --- | --- |
 | Agent 任務明確 | Agent 任務卡 |
-| Agent 可呼叫 Skill / Workflow | 工具呼叫紀錄 |
+| Agent 有知識底座 | `purpose.md`、`SCHEMA.md`、Wiki 結構 |
+| Agent 可完成 ingest / query / update | source page、query record、update diff |
+| Agent 可呼叫 Skill / Workflow | 工具呼叫紀錄、n8n execution log |
 | Agent 權限邊界清楚 | 權限表 |
 | 高風險任務可轉人工 | 人工接手紀錄 |
-| Agent 輸出可追溯 | 執行 Log |
+| Agent 輸出可追溯 | 執行 Log、SQLite 查詢、引用來源 |
+| Agent 可營運 | briefing、watchlist、queue、排程表 |
 
-### 7.9 L4 Deliverables
+### 7.10 L4 Deliverables
 
 - Hermes Agent 任務卡。
+- L4 IPOE 表。
+- Hermes Agent 架構圖。
+- 初始 Wiki：`purpose.md`、`SCHEMA.md`、INBOX、queue、watchlist、tasks。
 - Agent 可用工具清單。
 - Agent 權限表。
-- Agent 測試紀錄。
+- Ingest / Query / Update 測試紀錄。
+- Briefing 範本。
+- Stage Gate 4A-4E 紀錄。
 - 人工接手規則。
+- 維運 Runbook。
 - L5 Agent Team 候選情境。
 
-### 7.10 Gate 4：能否進入 L5
+### 7.11 Gate 4：能否進入 L5
 
 通過條件：
 
-- 至少 1 個 Agent 可受控執行。
+- 至少 1 個 Hermes Agent 通過 Gate 4A-4E。
 - Agent 可呼叫至少 1 個 Skill 與 1 個 Workflow。
-- 有人工 Gate 與 Log。
+- Agent 的 input、process、output、evidence 都可追溯。
+- 有 Wiki 記憶、Log、索引、briefing 與人工 Gate。
 - 已定義跨部門任務與 Agent 角色分工。
 
 ## 8. L5 Agentic Team AI：ClawTeam
@@ -521,4 +560,3 @@
 | Deliverables 收齊 | Prompt、Skill、Workflow、Agent、Roadmap | `[ ]` |
 | Stage Gate 評估完成 | Gate 1-5 | `[ ]` |
 | 課後顧問報告輸入完成 | 可納入診斷報告 | `[ ]` |
-

@@ -133,33 +133,45 @@
 - 主管希望 AI 能自動拆解任務。
 - 使用者不想知道每個系統怎麼操作，只想下達任務。
 - 需要 AI 協助分析、彙整、執行、回報。
+- 需要把文件、SOP、研究、FAQ、任務與 briefing 變成可持續累積的知識底座。
 
 #### 需求清單
 
 - 哪些角色需要個人或職能型 AI 助理？
 - Agent 可以呼叫哪些 Skill？
 - Agent 可以啟動哪些 n8n Workflow？
+- Agent 的 Wiki 記憶要保存哪些內容？
+- Agent 的 `purpose.md` 與 `SCHEMA.md` 如何定義？
+- Agent 的 watchlist、queue、tasks、briefing 由誰維護？
 - 哪些任務可以自動完成？
 - 哪些任務必須人工確認？
 - Agent 的權限邊界是什麼？
 - Agent 的輸出格式與回報頻率是什麼？
 - Agent 錯誤時誰負責處理？
+- 哪些 evidence 可以證明 Agent 的輸出可追溯？
 
 #### 課程重點
 
 - Agentic AI 觀念。
+- Hermes Agent 架構：Wiki、SQLite、skills、tools、runtime schema。
+- Orient-first、ingest、query、update、lint、briefing、discovery。
 - 任務拆解。
 - Tool Calling。
 - Skill 與 Workflow 調用。
 - Agent 任務邊界。
-- 權限、審核、回報、失敗處理。
+- 權限、審核、Log、evidence、回報、失敗處理。
 
 #### 建議產出物
 
 - Agent 角色卡。
+- L4 IPOE 表。
+- 初始 Wiki 結構與 `purpose.md` / `SCHEMA.md`。
 - Agent 任務清單。
 - Agent 可用工具清單。
 - Agent 權限表。
+- Ingest / Query / Update 測試紀錄。
+- Briefing 範本。
+- Gate 4A-4E 驗收表。
 - L5 Agent Team 候選情境。
 
 ### 2.5 L5 Agentic Team AI：ClawTeam
