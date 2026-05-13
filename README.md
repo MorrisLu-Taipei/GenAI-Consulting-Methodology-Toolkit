@@ -78,3 +78,4 @@ AI 成熟度問卷
 
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
+- [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
