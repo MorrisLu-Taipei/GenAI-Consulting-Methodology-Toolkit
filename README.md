@@ -9,6 +9,8 @@
 **身份 / Roles：** n8n Taipei 大使 · 國立臺灣科技大學 智慧製造科技研究所 博士生
 **Roles (EN):** n8n Taipei Ambassador · PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST
 
+![AI 成熟度地圖 / AI Maturity Map](90_References/MD-Map.png)
+
 這個 repo 整理一套可用於企業顧問交付的 AI 轉型方法：先用問卷診斷企業目前 AI 成熟度，再依 L1-L5 配置課程與導入路徑，課中產出可驗收資產，最後用八階段顧問方法產出診斷報告、Roadmap、ROI 與治理建議。
 
 This repository organizes an enterprise AI transformation methodology suitable for consulting delivery: it begins with a maturity questionnaire, then maps L1-L5 courses and adoption paths, produces verifiable in-class artifacts, and concludes with an eight-stage consulting method that yields the diagnostic report, roadmap, ROI, and governance recommendations.
