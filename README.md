@@ -25,10 +25,6 @@ This work is licensed under **[CC BY 4.0](LICENSE)**. You are free to **use, mod
 
 ![企業管理顧問方法論：八階段轉型指南](90_References/Metholodgy.png)
 
-## AI 成熟度地圖
-
-![AI 成熟度地圖](90_References/MD-Map.png)
-
 ## 核心流程
 
 ```text
