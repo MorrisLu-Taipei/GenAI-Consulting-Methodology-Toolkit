@@ -7,7 +7,7 @@ Enterprise AI transformation maturity assessment and implementation methodology 
 Original Author: **Tiger AI Morris Lu 盧業興**  
 Role: **n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology**
 
-License summary: original content in this project may be used, copied, modified, adapted, taught, delivered in consulting work, redistributed, and commercialized. The only condition is attribution to **Tiger AI Morris Lu 盧業興**. See [`LICENSE`](LICENSE) for full terms.
+License summary: this project is released under the **[Apache License 2.0](LICENSE)**. You may use, copy, modify, redistribute, and commercialize it; when redistributing, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE).
 
 ## What This Toolkit Solves
 
@@ -109,9 +109,11 @@ Two core parts of this work are especially influenced by that foundation:
 
 Disclaimer: any errors, omissions, local adaptations, or AI-domain extensions in this methodology are solely the responsibility of Tiger AI Morris Lu 盧業興 and do not represent the views or positions of Prof. Michael Rosemann or QUT.
 
-## Attribution
+## License And Attribution
 
-When using, modifying, redistributing, commercializing, teaching, or delivering consulting work based on this project, include:
+This project is released under the **[Apache License 2.0](LICENSE)**. You may use, copy, modify, adapt, redistribute, teach, deliver consulting work with, and commercialize it.
+
+When redistributing, adapting, packaging commercially, using in course materials, consulting deliverables, or product documentation, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE):
 
 ```text
 Original Author: Tiger AI Morris Lu 盧業興

@@ -15,7 +15,7 @@
 
 ## 署名
 
-本目錄中由 Tiger AI Morris Lu 盧業興原創之內容，可依根目錄 [`LICENSE`](../LICENSE) 任意使用、修改、改作與商業化。唯一條件是標註：
+本目錄中由 Tiger AI Morris Lu 盧業興原創之內容，採用根目錄 [`LICENSE`](../LICENSE) 的 Apache License 2.0，可自由使用、修改、改作與商業化。再散布時請保留 [`NOTICE`](../NOTICE) 中的作者署名：
 
 ```text
 原作者：Tiger AI Morris Lu 盧業興

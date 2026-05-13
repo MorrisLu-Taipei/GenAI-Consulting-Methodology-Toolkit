@@ -7,7 +7,7 @@
 原作者：**Tiger AI Morris Lu 盧業興**  
 身份備註：**n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生**
 
-授權摘要：本專案原創內容開放任何人使用、複製、修改、改作、教學、顧問交付與商業化。唯一條件是必須標註原作者：**Tiger AI Morris Lu 盧業興**。完整條款請見 [`LICENSE`](LICENSE)。
+授權摘要：本專案採用 **[Apache License 2.0](LICENSE)**。可自由使用、複製、修改、再散布與商業化；再散布時請保留 Apache 2.0 授權文字與 [`NOTICE`](NOTICE) 中的作者署名。
 
 ## 這套方法在解決什麼
 
@@ -151,9 +151,9 @@ Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 
 ## 授權與署名
 
-本專案原創內容採用 attribution-only open license：可任意使用、修改、改作、重製、散布、教學、顧問交付與商業化。
+本專案採用 **[Apache License 2.0](LICENSE)** 授權。您可以自由使用、複製、修改、改作、重製、散布、教學、顧問交付與商業化。
 
-唯一條件：使用、改作、公開散布、商業包裝、課程教材、顧問交付文件或產品文件中，必須保留以下署名：
+再散布、改作、商業包裝、課程教材、顧問交付文件或產品文件中，請依 Apache 2.0 條款保留授權文字與 [`NOTICE`](NOTICE) 中的以下署名：
 
 ```text
 原作者：Tiger AI Morris Lu 盧業興

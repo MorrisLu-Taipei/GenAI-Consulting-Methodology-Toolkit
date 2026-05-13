@@ -1,8 +1,8 @@
 # 署名要求 / Attribution Requirement
 
-本專案原創內容可任意使用、修改、改作、散布、教學、顧問交付與商業化。
+本專案採用 **[Apache License 2.0](LICENSE)** 授權。可自由使用、修改、改作、散布、教學、顧問交付與商業化。
 
-唯一條件是必須標註原作者：
+依 Apache 2.0 條款，再散布本專案或衍生作品時，請保留 [`LICENSE`](LICENSE) 與 [`NOTICE`](NOTICE)，並保留以下作者署名：
 
 ```text
 原作者：Tiger AI Morris Lu 盧業興
