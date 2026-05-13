@@ -111,19 +111,19 @@ L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Wo
 
 ### 課程目標
 
-用 n8n 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 開始進入流程並完成任務。
+用 n8n 串接 Gmail、Sheets、Notion、CRM、API、ERP、LINE、Facebook、YouTube、Data Tables 等系統，讓 AI 開始進入流程並完成可驗證、可維運、可備份的任務。
 
 ### 課程大綱
 
 1. n8n 核心概念：Trigger、Node、Credential、Webhook、Execution。
-2. Gmail 串接：信件分類、摘要、回覆草稿。
-3. Google Sheets 串接：資料紀錄、問卷計分、KPI 更新。
-4. Notion 串接：任務建立、知識庫、會議紀錄。
-5. CRM 串接：客戶資料查詢、商機摘要、互動紀錄更新。
-6. API 串接：內部系統、外部資料、Webhook。
-7. ERP 串接規劃：訂單、庫存、出貨、採購、財務資料。
-8. AI Node 與 RAG 應用。
-9. 錯誤處理、人工審核、Log、權限與維運。
+2. L2 Blueprint 接手：trigger、I/O schema、sample payload、node map。
+3. Gmail / LINE / Facebook / YouTube / Webhook 串接。
+4. Google Sheets / Data Tables / Notion 串接：資料紀錄、狀態管理、任務建立。
+5. CRM / API / ERP 串接：客戶、訂單、庫存、出貨、採購、財務資料。
+6. Gemini / AI Node / RAG / 多模態應用。
+7. Sub-workflow 模組化與可重複流程模板。
+8. GitHub 備份、Credential 管理、Execution Log。
+9. 錯誤處理、人工審核、權限與維運。
 
 ### 實作練習
 
@@ -132,18 +132,25 @@ L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Wo
 - CRM 客戶資料查詢後產生拜訪摘要。
 - ERP 異常訂單資料轉成主管摘要。
 - n8n 執行失敗時通知負責人。
+- Facebook / LINE 客服 Webhook + Data Tables + AI 回覆草稿。
+- HR 履歷篩選：Gmail + Gemini + LINE / Email 通知。
+- Sub-workflow 模組化與 GitHub 備份。
 
 ### 課後產出物
 
 - 1-2 個 n8n Workflow PoC。
 - 系統串接需求清單。
 - Credential 與權限清單。
+- Data Tables Schema。
+- Sub-workflow Library。
 - 人工審核節點設計。
+- GitHub Backup / 版本管理 SOP。
+- L4 Workflow Contract。
 - L4 Agent 任務候選清單。
 
 ### 講師備註
 
-同樣是 L3，不同產業要換不同案例。行銷服務業可先用 SaaS 串接快速展示 ROI；研發製造業要優先處理 ERP、內部 API、資料權限與人工審核。
+同樣是 L3，不同產業要換不同案例。行銷服務業可先用 SaaS、社群平台、Webhook 快速展示 ROI；客服可用 Facebook / LINE + Data Tables；HR 可用 Gmail + Gemini + 通知；研發製造業要優先處理 ERP、內部 API、資料權限與人工審核。完整 L3 設計請見 `L3_N8N_TIGERAI_COURSE_PLAN.md`。
 
 ## 6. L4 Auto Agentic AI：Hermes Agent
 

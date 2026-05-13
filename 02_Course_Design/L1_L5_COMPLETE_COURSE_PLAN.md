@@ -255,6 +255,8 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 
 用 n8n 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 進入流程並完成可驗證 PoC。
 
+TigerAI n8n 深度課程請見 `L3_N8N_TIGERAI_COURSE_PLAN.md`。L3 應從 L2 Workflow Blueprint 接手，並補上 Trigger、Credential、Data Tables、Sub-workflow、Execution Log、GitHub 備份、人工 Gate 與 L4 Workflow Contract。
+
 ### 6.2 適合對象
 
 - IT。
@@ -278,14 +280,20 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 | --- | ---: | --- | --- |
 | n8n 基礎 | 60 分 | Trigger、Node、Credential、Execution | Demo |
 | 資料流設計 | 45 分 | Input、Transform、AI、Output | 講授 |
+| L2 Blueprint 接手 | 45 分 | trigger、I/O schema、sample payload、node map | 工作坊 |
 | Gmail / Email | 60 分 | 收信、分類、摘要、回覆草稿 | 實作 |
+| Webhook / LINE / Meta | 75 分 | LINE Bot、Facebook Webhook、YouTube 留言或外部平台事件 | 實作 |
 | Sheets | 45 分 | 寫入紀錄、問卷計分、KPI | 實作 |
+| Data Tables | 60 分 | 狀態管理、客服 FAQ、互動紀錄、黑白名單 | 實作 |
 | Notion | 45 分 | 任務建立、知識庫、會議紀錄 | 實作 |
 | CRM / API | 75 分 | 查詢客戶資料、Webhook、內部 API | Demo + 實作 |
 | ERP 規劃 | 45 分 | 訂單、庫存、出貨、採購、財務資料 | 架構設計 |
 | AI Node / RAG | 60 分 | 分類、摘要、資料查詢 | Demo |
+| Gemini / 多模態 | 60 分 | 圖片、語音、影片、文件分析 | Demo |
+| Sub-workflow | 60 分 | 模組化、重複使用、流程模板 | 實作 |
 | 人工審核 | 45 分 | Human-in-the-loop、Gate、通知 | 實作 |
 | Log / Error | 45 分 | 錯誤通知、重試、fallback | 實作 |
+| GitHub 備份 | 45 分 | Workflow / Credential 備份與版本治理 | 實作 |
 | PoC 實作 | 180 分 | 小組完成 1 個 Workflow | 實作 |
 
 ### 6.5 課堂實作
@@ -300,6 +308,9 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - 醫院：客服問題 + FAQ 知識庫 + 人工審核。
 - 行銷服務業：客戶需求表 + CRM + 提案草稿。
 - 財務：費用資料 + 差異分析 + 主管摘要。
+- 客服：Facebook / LINE Webhook + Data Tables + AI 回覆草稿。
+- HR：Gmail 履歷進件 + Gemini 篩選 + LINE / Email 通知。
+- 行銷：商品圖 / 主題輸入 + 文案 / 圖片 / 影片生成 + 人工審核 + 多平台發布。
 
 ### 6.6 課後作業
 
@@ -307,6 +318,10 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - 匯出 n8n Workflow JSON。
 - 完成測試資料與測試紀錄。
 - 補上權限、Log、人工審核與錯誤處理。
+- 補上 Data Tables / Sheets / DB Schema。
+- 補上 Sub-workflow Library。
+- 補上 GitHub 備份紀錄。
+- 補上 L4 Hermes Agent 可呼叫的 Workflow Contract。
 
 ### 6.7 完成標準
 
@@ -316,6 +331,8 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 | 至少串接 2-3 個系統 | 系統串接表 |
 | 有人工審核節點 | 審核紀錄 |
 | 有錯誤處理 | 失敗測試紀錄 |
+| 有備份與版本治理 | GitHub backup commit |
+| 可銜接 L4 | Workflow Contract |
 | 可產出明確業務結果 | 測試輸出 |
 
 ### 6.8 L3 Deliverables
@@ -324,8 +341,12 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - Workflow JSON。
 - 系統串接表。
 - Credential / 權限表。
+- Data Tables / Sheets / DB Schema。
+- Sub-workflow Library。
 - Execution Log。
 - 人工審核紀錄。
+- GitHub Backup / 版本管理 SOP。
+- L4 Workflow Contract。
 - L4 Agent 任務候選清單。
 
 ### 6.9 Gate 3：能否進入 L4
@@ -334,7 +355,9 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 
 - 至少 1 個 Workflow 可穩定執行。
 - 有 Log、人工審核、錯誤處理。
+- 有備份、版本治理與權限表。
 - 已定義可被 Agent 呼叫的工具或 Workflow。
+- 已完成 L4 Workflow Contract。
 - 已定義 Agent 權限邊界。
 
 ## 7. L4 Auto Agentic AI：Hermes Agent

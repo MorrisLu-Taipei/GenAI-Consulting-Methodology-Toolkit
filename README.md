@@ -18,6 +18,7 @@ AI 成熟度問卷
 → L1-L5 課程與能力建置
 → L1 OpenWebUI 企業帳號與個人聊天區啟用
 → L2 Antigravity Agentic Developer Skill
+→ L3 n8n 企業流程自動化 PoC
 → L4 Hermes Agent PoC 與 evidence
 → 情境案例與 Stage Gate
 → 八階段顧問診斷
@@ -40,7 +41,7 @@ AI 成熟度問卷
 | --- | --- |
 | [`00_Overview`](00_Overview/) | 方案總論、故事線、WBS |
 | [`01_Assessment`](01_Assessment/) | AI 成熟度問卷與評分模型 |
-| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L1 OpenWebUI 企業啟用、L2 Antigravity 工程訓練、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
+| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L1 OpenWebUI 企業啟用、L2 Antigravity 工程訓練、L3 n8n 企業流程自動化、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
 | [`03_Consulting_Report`](03_Consulting_Report/) | AI 轉型診斷報告模板 |
 | [`04_Scenarios`](04_Scenarios/) | 客戶情境、案例控制表、製造業與醫院案例 |
 | [`05_Sales`](05_Sales/) | 對外價值主張、銷售話術與 FAQ |
@@ -55,10 +56,11 @@ AI 成熟度問卷
 4. [`02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md`](02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md)
 5. [`02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md)
 6. [`02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md)
-7. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md)
-8. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md)
-9. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
-10. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
+7. [`02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md)
+8. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md)
+9. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md)
+10. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
+11. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
 
 ## 可驗證交付物
 
@@ -68,6 +70,7 @@ AI 成熟度問卷
 - OpenWebUI 帳號 / 群組 / 權限表與每人個人聊天區啟用紀錄
 - Skill Library 與 Antigravity Agentic Developer artifacts
 - n8n Workflow PoC 與 Execution Log
+- Sub-workflow Library、Data Tables Schema、GitHub Backup SOP、L4 Workflow Contract
 - Hermes Agent 任務卡、Wiki、ingest/query/update 紀錄、briefing 與 Gate 4A-4E
 - ClawTeam Agent Team 角色卡
 - Stage Gate 驗收紀錄
@@ -79,3 +82,4 @@ AI 成熟度問卷
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
 - [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
+- [`90_References/TIGERAI_VIDEO_LEARNING_NOTES.md`](90_References/TIGERAI_VIDEO_LEARNING_NOTES.md)

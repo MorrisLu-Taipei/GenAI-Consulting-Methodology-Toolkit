@@ -125,7 +125,11 @@
 - 是否有 CRM 系統？
 - 是否有 ERP 系統？
 - 是否有內部 API 可串接？
+- 是否需要串 LINE、Facebook、YouTube、Meta、GCS、GitHub 等平台？
 - 是否有資料庫或向量資料庫？
+- 是否需要 n8n Data Tables 保存狀態或互動紀錄？
+- 是否需要 Sub-workflow 建立可重複使用的流程模板？
+- 是否需要 Workflow / Credential 備份到 GitHub 或內部版本庫？
 - 哪些流程有固定觸發條件？
 - 哪些流程需要人工審核？
 - 哪些流程失敗時需要通知或重試？
@@ -135,17 +139,23 @@
 - n8n 基礎。
 - Trigger、Webhook、Credential、Node。
 - Gmail、Sheets、Notion、CRM、API、ERP 串接。
+- LINE、Facebook、YouTube、Webhook、Data Tables 串接。
 - 資料清理與格式轉換。
-- AI Node 與 RAG 應用。
+- Gemini、AI Node、RAG、多模態應用。
+- Sub-workflow 模組化。
 - 人工審核節點。
-- 錯誤處理、Log 與維運。
+- GitHub 備份、Credential 管理、錯誤處理、Log 與維運。
 
 #### 建議產出物
 
 - 1-2 個 Workflow PoC。
 - 系統串接需求清單。
 - 權限與 Credential 清單。
+- Data Tables / Sheets / DB Schema。
+- Sub-workflow Library。
 - 人工審核與例外處理規則。
+- GitHub Backup / 版本管理 SOP。
+- L4 Workflow Contract。
 - L4 Agent 任務候選清單。
 
 ### 2.4 L4 Auto Agentic AI：Hermes Agent
