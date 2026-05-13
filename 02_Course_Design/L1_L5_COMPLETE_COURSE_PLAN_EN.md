@@ -20,6 +20,24 @@ Every level must define:
 - Verifiable deliverables.
 - The Stage Gate for advancing to the next level.
 
+## 1.5 Pre-Class Story: Show the Future Before the Curriculum
+
+The L1-L5 course should begin by helping clients imagine the capabilities they will have after training. Clients are not attracted to tools first; they are attracted to a believable future work scenario.
+
+Recommended opening story:
+
+> Three months later, employees no longer use disconnected AI tools on their own. Everyone logs in with their own OpenWebUI account, personal workspace, and permissions. Department heads convert expert methods into Skills. n8n connects Gmail, Sheets, Notion, CRM, APIs, and ERP into workflows. Hermes Agent produces daily briefings and follow-up lists. ClawTeam coordinates specialist agents for cross-functional tasks. The purpose of this course is to move the company toward that operating state, one level at a time.
+
+| Level | Future Capability Clients Should Imagine | Evidence Produced in Class |
+| --- | --- | --- |
+| L1 | Every employee has a controlled AI workspace and knows the data boundaries | OpenWebUI account / group / permission sheet, personal workspace screenshots, Prompt Library |
+| L2 | Departmental expert methods become reusable Skills | Skill Library, Skill template, non-author test records |
+| L3 | AI performs work across systems instead of only answering questions | n8n Workflow PoC, Execution Log, integration sheet, human gate |
+| L4 | Agents read data, query Wiki memory, call tools, produce briefings, and keep evidence | Hermes Agent task card, Wiki records, briefing, Gates 4A-4E |
+| L5 | Multiple agents collaborate on cross-functional work | Agent Team role cards, task dispatch records, integrated report template |
+
+The goal of this story is to make clients understand that they are not buying "a training course"; they are buying a capability path from personal AI use to an enterprise AI Operating Model.
+
 ## 2. Course Overview
 
 | Level | Course Name | Tool / Platform | Suggested Hours | Core Outputs | Stage Gate |

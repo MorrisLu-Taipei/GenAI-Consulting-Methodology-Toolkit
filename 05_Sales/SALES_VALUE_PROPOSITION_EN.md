@@ -32,6 +32,26 @@ Recommended external Chinese description of ClawTeam:
 
 We do not merely teach AI tools. We use a questionnaire to diagnose the enterprise's current AI maturity, then configure courses according to L1-L5, produce acceptance-ready assets during the courses, and finally use an eight-stage consulting methodology to produce an AI transformation diagnostic report and an implementation Roadmap.
 
+## 3.5 Future-State Story Before Class
+
+Sales conversations and course openings should show the future before explaining the tools.
+
+Use this version:
+
+> Before we talk about tools, imagine how your company works three months from now. Every employee has their own AI workspace, and managers can see permissions and data boundaries. Expert methods become Skills, so new employees can follow the same standard. Customer complaints, reports, CRM updates, and ERP queries no longer rely on manual copy-paste; n8n turns them into workflows. Hermes Agent produces daily briefings, follow-up lists, evidence, and items that require human approval. When the company works on a new product, quality improvement, or customer engagement, multiple Agents can collaborate like a team. The L1-L5 curriculum is the path that moves the company toward this state.
+
+Clients should map the story to these capabilities:
+
+| Level | Future Capability in Client Language | Course Mapping |
+| --- | --- | --- |
+| L1 | Employees use AI safely, each with their own account and chat workspace | OpenWebUI enterprise enablement |
+| L2 | Expert methods become departmental Skills and help new employees ramp up faster | Antigravity / Claude Code / Codex Skill training |
+| L3 | AI connects systems and workflows start running automatically | n8n Workflow AI |
+| L4 | Agents read data, produce briefings, keep evidence, and wait for approval | Hermes Agent |
+| L5 | Multiple Agents form a cross-functional AI Team | ClawTeam |
+
+This story should come before the questionnaire and course introduction. Once clients understand the future state, they are more willing to answer the maturity questionnaire and understand why courses are layered, and why each layer needs deliverables and Stage Gates.
+
 ## 4. Role-Based Value Propositions
 
 ### 4.1 CEO

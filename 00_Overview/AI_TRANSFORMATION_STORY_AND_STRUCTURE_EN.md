@@ -55,7 +55,31 @@ Common situations:
 
 This means enterprises are not lacking an AI tool — they are lacking a "maturity map" and a "transformation methodology."
 
-### 2.3 Transformation: The Three-Stage Journey We Take Customers Through
+### 2.3 Future: The Future Clients Should See Before Class
+
+Clients usually do not buy a course because they want to learn tools. They buy because they want to see what their company can become. The L1-L5 opening should not start with OpenWebUI, Antigravity, n8n, Hermes Agent, and ClawTeam as a tool list; it should start with a future workday after the course.
+
+Imagine that three months later, the company's Monday morning has changed:
+
+1. A sales rep opens OpenWebUI, logs in with their own account, and enters their personal chat workspace. AI usage is bounded by company policy: which data is allowed, which data is prohibited, and which output format the department expects. Sales no longer starts from a blank page; they use approved Prompts for customer visit emails, meeting summaries, and proposal drafts.
+2. A marketing manager converts a product-copywriting method that used to live only in their head into a Skill. A new employee can enter product data, target audience, tone, and channel, then generate a draft aligned with the department's style. The manager reviews quality instead of reteaching the workflow every time.
+3. When a customer complaint arrives, n8n reads the Gmail message, checks customer tier and history in CRM, updates Google Sheets, creates a Notion follow-up task, and produces a manager summary. Humans still make judgment calls, but they no longer move data by hand.
+4. Every morning, the operations manager receives a Hermes Agent briefing. The Agent has read ERP exception orders, service records, yesterday's meeting notes, and Wiki knowledge. It identifies three issues to follow up and marks which steps require a human Gate before continuing.
+5. When management plans a new product launch, ClawTeam organizes market, product, service, finance, and operations Agents. Each Agent has a role, task, and deliverable, and the final report is traceable to sources and responsibilities.
+
+This future-state imagination belongs before the course starts because it turns L1-L5 from a tool list into a capability progression the client can understand:
+
+| Level | Capability After Training | Scenario the Client Can Imagine |
+| --- | --- | --- |
+| L1 | Every employee safely uses AI through a controlled gateway | Employees have their own AI workspace instead of shared accounts or uncontrolled data input |
+| L2 | Expert methods become reusable Skills | New employees can use departmental standard methods to produce stable outputs |
+| L3 | AI integrates systems and executes workflows | Gmail, Sheets, Notion, CRM, API, and ERP become connected workflows |
+| L4 | Agents use memory, tools, workflows, and human Gates | Daily briefings, follow-up lists, evidence, and approval items are generated automatically |
+| L5 | Multiple Agents form a cross-functional team | Product, quality, healthcare service, or customer engagement work can be prepared by an AI Team |
+
+Therefore, sales and course openings should tell the future scenario first, then explain L1-L5; describe the work capability first, then the tools; and show verifiable deliverables before technical details.
+
+### 2.4 Transformation: The Three-Stage Journey We Take Customers Through
 
 #### Stage 1: Questionnaire Diagnostic
 
@@ -113,7 +137,7 @@ We use an eight-stage methodology to organize:
 
 The final deliverable is an AI Transformation Diagnostic Report that management can understand, department heads can endorse, IT can evaluate, and the team can execute.
 
-### 2.4 After: The Change the Customer Should Feel
+### 2.5 After: The Change the Customer Should Feel
 
 After completing the first round of services, the customer should be able to answer the following questions:
 
@@ -701,4 +725,3 @@ The following should be completed with priority:
 - Sample customer stories.
 - High-value scenario library by department.
 - Demonstration Workflows for n8n integrating Gmail, Sheets, Notion, CRM, API, ERP.
-

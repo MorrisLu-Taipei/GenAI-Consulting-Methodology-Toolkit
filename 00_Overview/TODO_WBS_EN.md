@@ -49,6 +49,7 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 - [x] Define this as more than a course — it is an AI transformation consulting program.
 - [x] Define the three-stage path: questionnaire diagnostic, course-based capability building, consulting report.
 - [x] Define L1-L5 and their tool mapping.
+- [x] Add the pre-class future-state story so clients can first understand the capabilities gained after L1-L5 training.
 - [x] Include Gmail, Sheets, Notion, CRM, API, and ERP within the L3 Workflow AI integration scope.
 - [x] Add value propositions for CEO / COO / CIO / IT / HR / department managers.
 - [x] Add 30-second, 3-minute, and 10-minute sales pitches.

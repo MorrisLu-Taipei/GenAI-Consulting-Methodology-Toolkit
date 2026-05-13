@@ -18,6 +18,24 @@
 - 可驗證 Deliverables。
 - 能否進入下一級的 Stage Gate。
 
+## 1.5 課前故事引導：先講未來，再講課程
+
+L1-L5 課程開場應先讓客戶想像「上完課後，公司會具備什麼能力」。客戶不是先被工具吸引，而是先被未來工作情境吸引。
+
+建議講師在課前共識會或第一堂課，用以下故事開場：
+
+> 三個月後，員工不再各自使用不同 AI 工具。每個人用自己的 OpenWebUI 帳號登入，有自己的聊天區與權限；部門主管把高手方法整理成 Skill；n8n 把 Gmail、Sheets、Notion、CRM、API、ERP 串成流程；Hermes Agent 每天產生 briefing 與追蹤清單；ClawTeam 讓多個專業 Agent 協作完成跨部門任務。課程的目的，就是一步一步把公司帶到這個狀態。
+
+| 等級 | 課前要讓客戶想像的未來能力 | 上課要產出的證明 |
+| --- | --- | --- |
+| L1 | 每位員工都有自己的受控 AI 工作區，知道什麼資料可以用、什麼資料不能用 | OpenWebUI 帳號 / 群組 / 權限表、個人聊天區截圖、Prompt Library |
+| L2 | 部門高手方法可以被複製，新人能照 Skill 產出接近標準的成果 | Skill Library、Skill 標準模板、非原作者測試紀錄 |
+| L3 | AI 能跨系統做事，不只回答問題 | n8n Workflow PoC、Execution Log、系統串接表、人工 Gate |
+| L4 | Agent 能讀資料、查 Wiki、呼叫工具、產出 briefing，並留下 evidence | Hermes Agent 任務卡、Wiki 紀錄、briefing、Gate 4A-4E |
+| L5 | 多個 Agent 能分工協作，支援跨部門任務 | Agent Team 角色卡、任務分派紀錄、整合報告模板 |
+
+這段故事的目的，是讓客戶在上課前先知道自己要買的不是「一套課程」，而是一條從個人 AI 使用到企業 AI Operating Model 的能力路徑。
+
 ## 2. 課程總覽
 
 | 等級 | 課程名稱 | 工具 / 平台 | 建議時數 | 核心產出 | Stage Gate |

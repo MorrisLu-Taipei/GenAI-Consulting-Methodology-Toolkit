@@ -15,6 +15,20 @@ Many companies start AI adoption by jumping directly into tools. They try a chat
 
 This toolkit proposes a clearer path: start with a lightweight maturity questionnaire, map the client to L1-L5 AI maturity, design the training mix, generate verifiable deliverables during class, and then use an eight-stage consulting method to produce the final AI transformation diagnostic report, roadmap, ROI view, and governance recommendations.
 
+## Future-State Story Before Class
+
+Before clients choose an L1-L5 course mix, they need to see the future workday first. The story is not "we will learn five tools." The story is "this is how the company will work after the training."
+
+Imagine a Monday morning three months later:
+
+- **L1 Chat AI**: every employee logs in to OpenWebUI with their own account, personal chat workspace, history, and departmental permissions.
+- **L2 Skill AI**: experienced employees convert their best methods into reusable Skills for writing, reporting, customer service, SOP review, and development work.
+- **L3 Workflow AI**: n8n connects Gmail, Sheets, Notion, CRM, APIs, ERP, and other systems so work moves through real enterprise workflows.
+- **L4 Auto Agentic AI**: Hermes Agent reads tasks, documents, workflow results, and Wiki memory to produce briefings, follow-up lists, evidence, and human-gated decisions.
+- **L5 Agentic Team AI**: ClawTeam coordinates specialist agents across market, product, service, finance, and operations work.
+
+This future-state story should be told before the course begins. Clients first understand the work scenario they want to reach, and only then discuss diagnosis, course ratio, deliverables, evidence, and Stage Gates.
+
 ## AI Maturity Map
 
 ![AI Maturity Map](90_References/MD-Map.png)
