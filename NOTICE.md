@@ -12,18 +12,18 @@ You may freely **use, modify, redistribute, and commercialize** the contents,
 
 ## Required Attribution / 必要署名
 
-**English**
+### English
 
 > Original Author: **Morris Lu (盧業興)**
 > Organization: **Tiger AI Co., Ltd. (虎智科技)**
-> Roles: **n8n Taipei Ambassador** · **PhD Student, Graduate Institute of Intelligent Manufacturing Tech, National Taiwan University of Science and Technology (NTUST)**
+> Roles: **n8n Taipei Ambassador** · **PhD Student, Graduate Institute of Intelligent Manufacturing Tech, National Taiwan University of Science and Technology (NTUST)** · **Master of Information Technology (M.IT), Queensland University of Technology (QUT)**
 > Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
 
-**中文**
+### 中文
 
 > 原作者：**盧業興 Morris Lu**
 > 所屬單位：**虎智科技 Tiger AI Co., Ltd.**
-> 身份：**n8n Taipei 大使**、**國立臺灣科技大學 智慧製造科技研究所 博士生**
+> 身份：**n8n Taipei 大使**、**國立臺灣科技大學 智慧製造科技研究所 博士生**、**QUT 昆士蘭科技大學 資工碩士**
 > 來源：<https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
 
 ---

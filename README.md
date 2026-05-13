@@ -6,8 +6,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 **作者 / Author：** Morris Lu （盧業興）· Tiger AI 虎智科技
-**身份 / Roles：** n8n Taipei 大使 · 國立臺灣科技大學 智慧製造科技研究所 博士生
-**Roles (EN):** n8n Taipei Ambassador · PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST
+**身份 / Roles：** n8n Taipei 大使 · 國立臺灣科技大學 智慧製造科技研究所 博士生 · QUT 昆士蘭科技大學 資工碩士
+**Roles (EN):** n8n Taipei Ambassador · PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST · Master of Information Technology (M.IT), Queensland University of Technology (QUT)
 
 ![AI 成熟度地圖 / AI Maturity Map](90_References/MD-Map.png)
 
@@ -149,15 +149,22 @@ The file [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENW
 
 ## 致謝 / Acknowledgments
 
-本 repo 中的 **顧問方法論學習** 源自我的恩師 **Prof. Michael Rosemann (QUT, Queensland University of Technology)** 的長期啟發與教導。Prof. Rosemann 為 Business Process Management、能力成熟度模型 (Capability Maturity Models) 與企業創新方法論領域之國際領先學者，其框架思維深刻影響本方法論的 **八階段顧問結構** 與 **L1-L5 成熟度設計**。
-
-The **consulting methodology** in this repository is informed by the long-term mentorship and teaching of my mentor, **Prof. Michael Rosemann (QUT, Queensland University of Technology)**. Prof. Rosemann is an internationally leading scholar in Business Process Management, Capability Maturity Models, and enterprise innovation methodology, and his frameworks have deeply shaped both the **eight-stage consulting structure** and the **L1-L5 maturity design** used here.
-
-> 🎓 **Prof. Michael Rosemann** — Queensland University of Technology (QUT)
+> 🎓 **顧問方法論恩師 / Consulting Methodology Mentor**
+> **Prof. Michael Rosemann** — Queensland University of Technology (QUT), Brisbane, Australia
 > Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 
-Note: Any errors, omissions, or local adaptations in this methodology are solely the responsibility of the author (Morris Lu / Tiger AI 虎智科技) and do not represent the views of Prof. Rosemann or QUT.
-本方法論中任何錯誤、遺漏或在地化調整，皆為作者 (Morris Lu / Tiger AI 虎智科技) 個人責任，不代表 Prof. Rosemann 或 QUT 之觀點。
+本 repo 整套 **顧問方法論** 的學理基礎，來自作者於 **QUT 昆士蘭科技大學** 求學期間，恩師 **Prof. Michael Rosemann** 的長期啟發與教導。Prof. Rosemann 為國際公認之 **Business Process Management (BPM)**、**Capability Maturity Models** 與 **企業創新方法論** 領域領袖學者，其學術框架直接形塑本方法論的兩大核心：
+
+The **theoretical foundation** of the consulting methodology in this repository comes from the long-term mentorship and teaching of **Prof. Michael Rosemann**, the author's mentor during studies at **Queensland University of Technology (QUT)**. Prof. Rosemann is an internationally recognized leading scholar in **Business Process Management (BPM)**, **Capability Maturity Models**, and **enterprise innovation methodology**, and his academic frameworks directly shape the two pillars of this work:
+
+- **八階段顧問結構** — 對應 Prof. Rosemann 在企業流程診斷、能力評估、轉型路徑設計上的方法學。
+  **Eight-stage consulting structure** — informed by Prof. Rosemann's methodology on enterprise process diagnostics, capability assessment, and transformation path design.
+- **L1-L5 AI 成熟度模型** — 對應 Prof. Rosemann 的 **BPM Maturity Model** (與 Tonia de Bruin 合著) 的能力成熟度層級設計邏輯，並在地化為企業導入 AI 的五層銜接架構。
+  **L1-L5 AI Maturity Model** — informed by the layered capability-maturity logic of Prof. Rosemann's **BPM Maturity Model** (co-authored with Tonia de Bruin), localized into a five-layer adoption framework for enterprise AI.
+
+> ⚠️ **免責聲明 / Disclaimer**
+> 本方法論中任何錯誤、遺漏、在地化調整、或對 AI 領域的延伸應用，皆為作者 (Morris Lu / Tiger AI 虎智科技) 個人責任，**不代表** Prof. Rosemann 或 QUT 之觀點或立場。
+> Any errors, omissions, local adaptations, or AI-domain extensions in this methodology are **solely** the responsibility of the author (Morris Lu / Tiger AI 虎智科技) and do **not** represent the views or positions of Prof. Rosemann or QUT.
 
 ---
 
@@ -168,7 +175,7 @@ Note: Any errors, omissions, or local adaptations in this methodology are solely
 When using, modifying, or commercializing this work, please preserve the following attribution in a reasonably visible location:
 
 > **原作者 / Author:** Morris Lu (盧業興) · Tiger AI 虎智科技 / Tiger AI Co., Ltd.
-> **身份 / Roles:** n8n Taipei 大使 / n8n Taipei Ambassador · 國立臺灣科技大學 智慧製造科技研究所 博士生 / PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST
+> **身份 / Roles:** n8n Taipei 大使 / n8n Taipei Ambassador · 國立臺灣科技大學 智慧製造科技研究所 博士生 / PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST · QUT 昆士蘭科技大學 資工碩士 / Master of Information Technology (M.IT), Queensland University of Technology (QUT)
 > **來源 / Source:** <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
 
 完整授權條款請見 [LICENSE](LICENSE)，完整署名規範請見 [NOTICE.md](NOTICE.md)。
