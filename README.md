@@ -147,6 +147,20 @@ The file [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENW
 
 ---
 
+## 致謝 / Acknowledgments
+
+本 repo 中的 **顧問方法論學習** 源自我的恩師 **Prof. Michael Rosemann (QUT, Queensland University of Technology)** 的長期啟發與教導。Prof. Rosemann 為 Business Process Management、能力成熟度模型 (Capability Maturity Models) 與企業創新方法論領域之國際領先學者，其框架思維深刻影響本方法論的 **八階段顧問結構** 與 **L1-L5 成熟度設計**。
+
+The **consulting methodology** in this repository is informed by the long-term mentorship and teaching of my mentor, **Prof. Michael Rosemann (QUT, Queensland University of Technology)**. Prof. Rosemann is an internationally leading scholar in Business Process Management, Capability Maturity Models, and enterprise innovation methodology, and his frameworks have deeply shaped both the **eight-stage consulting structure** and the **L1-L5 maturity design** used here.
+
+> 🎓 **Prof. Michael Rosemann** — Queensland University of Technology (QUT)
+> Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
+
+Note: Any errors, omissions, or local adaptations in this methodology are solely the responsibility of the author (Morris Lu / Tiger AI 虎智科技) and do not represent the views of Prof. Rosemann or QUT.
+本方法論中任何錯誤、遺漏或在地化調整，皆為作者 (Morris Lu / Tiger AI 虎智科技) 個人責任，不代表 Prof. Rosemann 或 QUT 之觀點。
+
+---
+
 ## 署名要求 / Attribution Requirement
 
 使用、修改或商業利用本專案內容時，請於合理可見位置保留以下署名：
