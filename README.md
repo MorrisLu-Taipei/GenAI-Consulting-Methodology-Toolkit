@@ -40,15 +40,53 @@ AI 成熟度問卷
 → AI 轉型診斷報告與 Roadmap
 ```
 
-## L1-L5 成熟度模型
+## L1-L5 成熟度模型 / Maturity Model
 
-| 等級 | 名稱 | 工具 / 平台 | 核心定位 |
-| --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | 企業內部 AI 對話入口，讓員工開始安全使用 AI |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | 將個人經驗、提示詞、文件與工作方法整理成可複用 Skill |
-| L3 | Workflow AI | n8n | 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 進入流程 |
-| L4 | Auto Agentic AI | Hermes Agent | 以 Wiki 記憶、Skill、Workflow、工具、排程與人工 Gate 組成可驗證的知識型 Agent 作業系統 |
-| L5 | Agentic Team AI | ClawTeam | AI Agent Team 協作平台，多個專業 Agent 協同完成企業級任務 |
+> **層層銜接：上一層的「產出」就是下一層的「輸入」。**
+> **Each layer feeds the next — the *output* of one level becomes the *input* of the level above it.**
+
+### 流程圖 / Flow
+
+```text
+                                              ┌───────────────────────────────────────┐
+L5  Agentic Team AI    ◀── 多個 L4 Agent ─── │  ClawTeam：Agent Team 完成企業級任務   │
+        ▲                                     └───────────────────────────────────────┘
+        │ 多個專業 Agent 上架
+        │ multiple specialist Agents onboarded
+L4  Auto Agentic AI    ◀── L3 Workflow + L2 Skill + Wiki + Gate ──▶  Hermes Agent
+        ▲
+        │ Workflow 成為 Agent 可呼叫的工具
+        │ Workflows become Agent-callable tools
+L3  Workflow AI        ◀── L2 Skill + 企業系統 (Gmail/CRM/ERP) ──▶  n8n
+        ▲
+        │ Skill Library 成為流程的動作積木
+        │ Skill Library becomes workflow building blocks
+L2  Skill AI           ◀── L1 高頻 Prompt + 工作經驗 ──▶  Antigravity / Claude Code / Codex
+        ▲
+        │ 員工沉澱出高頻 Prompt 與情境
+        │ Employees surface high-freq prompts & scenarios
+L1  Chat AI            ◀── 企業全員開始安全使用 AI ──▶  OpenWebUI
+        △ (起點 / starting point)
+```
+
+### 層層銜接表 / Layer-by-Layer Handoff Table
+
+| 等級 / Level | 名稱 / Name | 工具 / Tool | 由前一層接手 (Input) | 這一層做什麼 (Action) | 交付給下一層 (Output) |
+| --- | --- | --- | --- | --- | --- |
+| **L1** | **Chat AI** | OpenWebUI | — 起點 / starting point | 建立企業 AI 對話入口，全員安全使用 AI / Establish enterprise AI chat entry; safe AI usage org-wide | 高頻 Prompt 清單、使用情境、Skill 候選名單 / High-freq prompts, use-case inventory, Skill candidates |
+| **L2** | **Skill AI** | Antigravity / Claude Code / Codex | L1 的高頻 Prompt 與情境 / L1 prompts & scenarios | 把個人經驗、Prompt、文件、工作方法封裝成可複用 Skill / Package personal know-how into reusable Skills | Skill Library、Agentic artifacts、工作流 Blueprint / Skill Library, Agentic artifacts, Workflow Blueprints |
+| **L3** | **Workflow AI** | n8n | L2 的 Skill + 工作流 Blueprint / L2 Skills & Blueprints | 把 Skill 接上企業系統 (Gmail / Sheets / Notion / CRM / ERP / API) 串成可執行 Workflow / Wire Skills into executable workflows across enterprise systems | Workflow PoC、Sub-workflow Library、Data Tables、Execution Log、L4 Workflow Contract / Workflow PoCs, Sub-workflow Library, Data Tables, Execution Log, L4 Workflow Contract |
+| **L4** | **Auto Agentic AI** | Hermes Agent | L3 Workflow + L2 Skill / L3 Workflows & L2 Skills | 加上 Wiki 記憶、排程、工具、人工 Gate，組成可驗證的知識型 Agent / Add Wiki memory, schedules, tools, and human Gates to form verifiable knowledge Agents | 任務卡、Wiki ingest/query/update、briefing、Gate 4A-4E 驗收記錄、可重用 Agent / Task cards, Wiki ingest/query/update, briefings, Gate 4A-4E sign-offs, reusable Agents |
+| **L5** | **Agentic Team AI** | ClawTeam | L4 的多個專業 Agent / L4 specialist Agent pool | 把多個 L4 Agent 編組成 Agent Team，協同完成企業級任務 / Orchestrate multiple L4 Agents into a collaborative Team for enterprise-grade outcomes | 企業級成果：跨部門自動化、決策支援、可治理的 AI Team / Enterprise-grade outcomes: cross-functional automation, decision support, governed AI Team |
+
+### 為什麼要分這五層 / Why Five Layers
+
+1. **由人到系統 / From people to systems** — L1-L2 重點是「人怎麼用 AI」；L3-L5 重點是「AI 怎麼進入系統與流程」。
+   L1-L2 focus on *how people use AI*; L3-L5 focus on *how AI enters systems and processes*.
+2. **每一層都有可驗收的交付物 / Every layer has verifiable deliverables** — Stage Gate 在層與層之間，避免跳級導入失敗。
+   Stage Gates between layers prevent failed adoption from level-skipping.
+3. **上層永遠以下層為基礎 / Upper layers always build on lower layers** — 沒有 L1 的全員使用習慣，L2 的 Skill 無從累積；沒有 L2 的 Skill，L3 的 Workflow 只是無內容的串接；沒有 L3 的 Workflow，L4 Agent 無工具可用；沒有 L4 Agent，L5 Team 無成員。
+   Without L1 org-wide adoption, L2 has no Skills to accumulate; without L2 Skills, L3 workflows are empty pipes; without L3 Workflows, L4 Agents have no tools; without L4 Agents, L5 has no team members.
 
 ## 目錄結構
 
