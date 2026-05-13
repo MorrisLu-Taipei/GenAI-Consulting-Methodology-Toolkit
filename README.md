@@ -2,6 +2,8 @@
 
 企業 AI 轉型成熟度診斷與導入方法論工具包。
 
+作者：Morris
+
 這個 repo 整理一套可用於企業顧問交付的 AI 轉型方法：先用問卷診斷企業目前 AI 成熟度，再依 L1-L5 配置課程與導入路徑，最後用八階段顧問方法產出診斷報告、Roadmap、ROI 與治理建議。
 
 ## 方法論總覽
@@ -67,4 +69,3 @@ AI 成熟度問卷
 
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
-
