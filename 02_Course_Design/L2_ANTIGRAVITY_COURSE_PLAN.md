@@ -80,6 +80,13 @@
 
 ## 6. 完整課程版本
 
+L2 課程必須分成「上半堂產生 Skill」與「下半堂銜接 L3」。如果 L2 只做到 Skill Library，成果會停在文件或程式碼；下半堂要把 Skill 轉成 n8n 可接手的 Workflow Blueprint。
+
+| 時段 | 核心任務 | 產出 |
+|---|---|---|
+| 上半堂 | 建立 Business Skill 或 Antigravity engineering artifact | Skill、app prototype、test、README、GCP PoC |
+| 下半堂 | 將 Skill 包裝成 L3 n8n 可串接的流程規格 | Trigger、I/O schema、node map、human gate、log、test payload |
+
 ### 6.1 L2 Antigravity Foundation：3 小時
 
 目標：建立 Antigravity 的操作、治理與 Agentic IDE 觀念。
@@ -94,17 +101,18 @@
 
 ### 6.2 L2 Antigravity Builder：1 天
 
-目標：讓學員能用 Agent 建立可運行 app、文件與測試。
+目標：上午讓學員能用 Agent 建立可運行 app、文件與測試；下午將成果轉成 L3 Workflow Blueprint。
 
 | 時間 | 主題 | 內容 | 產出 |
 |---|---|---|---|
 | 60 分 | Web research task | 讓 Agent 擷取網站資料並摘要 | Research artifact |
 | 90 分 | Flask app generation | 產生技術活動網站或部門內部工具 | Flask app |
 | 60 分 | Iteration | 新增功能、修改需求、觀察 Agent 如何更新 plan | Change record |
-| 90 分 | Productivity app | 產生 Pomodoro 或部門效率工具 | App prototype |
-| 90 分 | Unit test | 針對既有邏輯產生企業級單元測試 | Test suite |
-| 60 分 | Docs | 產生 README、使用說明、限制與維運文件 | README / docs |
-| 60 分 | Review | 非原作者測試 app 與文件 | Peer review |
+| 60 分 | Unit test / docs | 產生測試、README、限制與維運文件 | Test suite、README |
+| 90 分 | L2-to-L3 bridge | 將 app / Skill 定義成 n8n 可呼叫元件 | Workflow Blueprint |
+| 60 分 | Input / Output contract | 定義 trigger、payload、output JSON、錯誤格式 | I/O schema |
+| 60 分 | Human gate / log | 定義人工審核、通知、execution log、fallback | Gate / Log spec |
+| 60 分 | Review | 非原作者用 payload 測試 Blueprint | Peer review |
 
 ### 6.3 L2 Antigravity GCP：1 天
 
@@ -129,12 +137,78 @@
 |---|---|---|---|
 | Day 1 AM | Use case selection | 選 1 個內部 app 或文件 pipeline | Use case brief |
 | Day 1 PM | Build | Agent planning、coding、testing、docs | App / pipeline prototype |
-| Day 2 AM | Deploy / integrate | 本機或 GCP 部署、API / DB / Workflow 接點 | Deployment evidence |
+| Day 2 AM | L2-to-L3 bridge | Trigger、I/O schema、n8n node map、human gate、log | Workflow Blueprint |
 | Day 2 PM | Package | Skill 化、Runbook、Gate 2 驗收、L3/L4 候選 | L2 delivery package |
 
 ---
 
-## 7. L2 Skill Library 設計
+## 7. L2 下半堂：銜接 L3 Workflow Blueprint
+
+### 7.1 下半堂目標
+
+L2 下半堂的目標不是繼續美化 Skill，而是把 Skill 轉成 L3 可以直接開工的流程規格：
+
+> 任何一個通過 L2 的 Skill，都必須能回答：由什麼事件觸發？吃什麼資料？輸出什麼 JSON？哪一步要人工審核？Log 存在哪裡？失敗時怎麼處理？n8n 要怎麼接？
+
+### 7.2 L2-to-L3 Bridge 流程
+
+| 步驟 | 問題 | 產出 |
+|---|---|---|
+| 1. 選 Skill | 哪個 Skill 最適合流程化？ | Workflow 候選卡 |
+| 2. 定 Trigger | 由 Email、表單、Webhook、排程、檔案上傳或 CRM event 觸發？ | Trigger spec |
+| 3. 定 Input | Skill 需要哪些欄位、檔案、系統資料？ | Input schema、sample payload |
+| 4. 定 Process | n8n 要跑哪些 node？哪些步驟呼叫 AI / Skill / API？ | n8n node map |
+| 5. 定 Output | 結果要寫到哪裡？Email、Sheets、Notion、CRM、ERP、DB？ | Output schema |
+| 6. 定 Human Gate | 哪些情況要人審？誰審？多久內審？ | Human gate spec |
+| 7. 定 Evidence | 如何證明流程有跑、AI 有引用、資料有寫入？ | Log / evidence spec |
+| 8. 定 Error Handling | 失敗如何通知、重試、fallback、人工接手？ | Error handling spec |
+| 9. 定 Gate 2 | 是否足以進 L3 實作？ | Gate 2 驗收表 |
+
+### 7.3 Workflow Blueprint 標準格式
+
+| 欄位 | 說明 |
+|---|---|
+| Workflow 名稱 | 要讓 L3 實作的流程名稱 |
+| Business Owner | 流程業務負責人 |
+| IT Owner | 系統 / API / 權限負責人 |
+| Trigger | Email、Webhook、表單、排程、檔案、CRM / ERP event |
+| Input Schema | 欄位、資料型別、必填、範例 |
+| Skill / Agent Step | 要呼叫哪個 L2 Skill 或 Antigravity artifact |
+| System Nodes | Gmail、Sheets、Notion、CRM、API、ERP、DB |
+| Human Gate | 審核條件、審核人、審核輸入與輸出 |
+| Output Schema | 輸出格式、寫入位置、通知方式 |
+| Log / Evidence | n8n execution log、AI 輸入輸出、系統寫入紀錄 |
+| Error Handling | 重試、通知、fallback、人工接手 |
+| Test Payload | 至少 2 筆正常案例與 1 筆錯誤案例 |
+| Gate 2 Result | Pass / Fail / 補件 |
+
+### 7.4 下半堂實作題
+
+| 類型 | L2 Skill | L3 Workflow Blueprint |
+|---|---|---|
+| 客服 | 客訴分類與回覆草稿 Skill | Gmail 觸發 → AI 分類 → CRM 查詢 → 人工審核 → 回覆草稿 |
+| 業務 | 拜訪摘要 Skill | 會議紀錄上傳 → 摘要 → CRM 更新 → 下一步任務 |
+| 營運 | ERP 異常訂單分析 Skill | 排程查 ERP → AI 分析 → Sheets 報表 → 主管通知 |
+| 醫院 | FAQ 回覆草稿 Skill | 表單 / Email 觸發 → FAQ 查詢 → 風險標記 → 人工審核 |
+| 工程 | Antigravity deployment validation Skill | Git / Webhook 觸發 → 測試 → 部署驗證 → Log / 報告 |
+| 文件 | GCP document pipeline Skill | GCS 上傳 → Pub/Sub → Cloud Run → Gemini → BigQuery |
+
+### 7.5 下半堂 Deliverables
+
+- L3 Workflow 候選卡。
+- Trigger spec。
+- Input / Output schema。
+- Sample payload：2 筆正常、1 筆錯誤。
+- n8n node map。
+- Human gate spec。
+- Credential / API / 系統需求清單。
+- Log / Evidence spec。
+- Error handling spec。
+- Gate 2 驗收表。
+
+---
+
+## 8. L2 Skill Library 設計
 
 這三套課不能只當作一次性練習，應沉澱成可複用 Skill。
 
@@ -147,24 +221,26 @@
 | Unit Test Skill | 補測試 | 程式碼、業務規則 | test suite、coverage notes |
 | GCP Serverless Pipeline Skill | 文件處理 pipeline | GCP 專案、檔案來源、metadata 欄位 | GCS / Pub/Sub / Cloud Run / BigQuery PoC |
 | Deployment Validation Skill | 驗證部署 | 測試檔、部署 URL、log | validation report |
+| Workflow Blueprint Skill | 將 L2 成果轉成 L3 規格 | Skill、trigger、系統、資料欄位 | n8n Workflow Blueprint |
 
 ---
 
-## 8. Stage Gate 2 控制
+## 9. Stage Gate 2 控制
 
 | Gate | 檢查問題 | 必備 Evidence | 判定 |
 |---|---|---|---|
 | Gate 2A：工具可用 | Antigravity、Chrome、workspace、登入是否完成？ | 環境檢查表、截圖 | Pass / Fail |
 | Gate 2B：治理可用 | Terminal、Review、JavaScript policy 是否符合公司風險？ | 權限設定表 | Pass / Fail |
 | Gate 2C：開發閉環可用 | Agent 能否產生 app、修改、測試、文件化？ | App、README、test result、walkthrough | Pass / Fail |
-| Gate 2D：雲端 PoC 可用 | GCP pipeline 是否能部署並驗證？ | gcloud log、Cloud Run log、BigQuery result | Pass / Fail |
-| Gate 2E：Skill 化可用 | 是否把流程沉澱成 Skill Library？ | Skill 文件、Owner、版本、測試紀錄 | Pass / Fail |
+| Gate 2D：L3 Blueprint 可用 | 是否有 trigger、I/O schema、node map、human gate、log、test payload？ | Workflow Blueprint、sample payload、系統需求清單 | Pass / Fail |
+| Gate 2E：雲端 PoC 可用 | GCP pipeline 是否能部署並驗證？ | gcloud log、Cloud Run log、BigQuery result | Pass / Fail |
+| Gate 2F：Skill 化可用 | 是否把流程沉澱成 Skill Library？ | Skill 文件、Owner、版本、測試紀錄 | Pass / Fail |
 
-未通過 Gate 2A-2C 時，不建議進入 L3 Workflow。未通過 Gate 2D 時，可進入一般 L3，但不建議進入雲端部署型 PoC。未通過 Gate 2E 時，代表課程成果尚未形成組織能力。
+未通過 Gate 2A-2C 時，不建議進入 L3 Workflow。未通過 Gate 2D 時，代表 L2 下半堂沒有完成銜接，不應開 L3 實作。未通過 Gate 2E 時，可進入一般 L3，但不建議進入雲端部署型 PoC。未通過 Gate 2F 時，代表課程成果尚未形成組織能力。
 
 ---
 
-## 9. Deliverables
+## 10. Deliverables
 
 | Deliverable | 說明 | 驗收方式 |
 |---|---|---|
@@ -176,11 +252,12 @@
 | GCP Pipeline PoC | GCS、Pub/Sub、Cloud Run、Gemini、BigQuery | 上傳檔案後 BigQuery 有結果 |
 | Validation Report | 自動與手動驗證紀錄 | log、截圖、SQL 查詢 |
 | L2 Skill Library | 3-5 個工程 Skill | Owner、版本、測試紀錄 |
+| L3 Workflow Blueprint | trigger、I/O schema、node map、human gate、log、test payload | L3 講師 / IT 可直接開工 |
 | L3 / L4 候選清單 | 可串 n8n 或 Hermes Agent 的能力 | Roadmap 審核 |
 
 ---
 
-## 10. 與 L3 / L4 的銜接
+## 11. 與 L3 / L4 的銜接
 
 L2 Antigravity 訓練完成後，應自然接到：
 
@@ -188,4 +265,3 @@ L2 Antigravity 訓練完成後，應自然接到：
 - L4 Hermes Agent：讓 Hermes Agent 可呼叫 L2 Skill、讀取工程文件、追蹤部署 evidence、產生 briefing。
 
 L2 的重點不是直接變成正式上線專案，而是把工程能力與開發流程變成可複用、可審查、可驗證的 Skill。真正跨系統流程由 L3 承接，持續營運與任務代理由 L4 承接。
-

@@ -179,6 +179,7 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 | Codex 應用 | 60 分 | 程式、資料處理、文件自動化 | Demo + 實作 |
 | Skill Library | 45 分 | 版本、Owner、命名、品質檢查 | 講授 |
 | Skill 實作 | 120 分 | 每組建立 1-2 個 Skill | 實作 |
+| L2-to-L3 Bridge | 120 分 | Trigger、Input / Output schema、n8n node map、人工 Gate、Log、錯誤處理 | 工作坊 |
 | 成果評審 | 60 分 | 非原作者測試 Skill | Peer Review |
 
 ### 5.6 課堂實作
@@ -197,6 +198,8 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - 每個 Skill 補上 Owner。
 - 每個 Skill 完成至少 2 筆測試。
 - 建立 Skill Library 第一版。
+- 將至少 1 個 Skill 轉成 L3 Workflow Blueprint。
+- 補上 trigger、sample payload、output schema、human gate、log 與錯誤處理。
 
 ### 5.8 完成標準
 
@@ -206,6 +209,7 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 | Skill 有完整 IPOC | Skill 模板 |
 | 非原作者可使用 | 測試紀錄 |
 | Skill 有 Owner 與版本 | Owner 表與版本紀錄 |
+| Skill 可進入 L3 | Workflow Blueprint、sample payload、n8n node map |
 
 ### 5.9 L2 Deliverables
 
@@ -215,6 +219,9 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - Skill Owner 與版本表。
 - Antigravity app prototype / test / docs artifacts。
 - GCP Pipeline PoC 與部署驗證紀錄。
+- L3 Workflow Blueprint。
+- Trigger / Input / Output schema。
+- n8n node map、human gate、log、error handling spec。
 - L3 Workflow 候選清單。
 
 ### 5.10 Gate 2：能否進入 L3
@@ -224,6 +231,8 @@ Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 - 至少 3 個 Skill 可被重複使用。
 - 已選出 1-2 個可流程化場景。
 - 已盤點所需系統與資料來源。
+- 已定義 trigger、input/output schema、sample payload。
+- 已完成 n8n node map、human gate、log 與錯誤處理草案。
 - 已定義人工審核需求。
 
 ## 6. L3 Workflow AI：n8n

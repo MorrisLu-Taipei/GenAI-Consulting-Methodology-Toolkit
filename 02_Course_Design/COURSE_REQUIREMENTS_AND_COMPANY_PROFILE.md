@@ -73,6 +73,8 @@
 - 是否需要用 Agent 產生 app prototype、unit test、README 或部署腳本？
 - 是否具備 GCP 專案、gcloud 權限與雲端部署需求？
 - 產出的工程 artifact 是否要成為 L3 Workflow 或 L4 Hermes Agent 可呼叫能力？
+- 哪些 L2 Skill 要在下半堂轉成 L3 Workflow Blueprint？
+- 觸發條件、輸入欄位、輸出格式、人工審核與 Log 是否已定義？
 
 #### 課程重點
 
@@ -82,6 +84,7 @@
 - Antigravity Agentic IDE：Agent Manager、Editor、Browser、權限與審查政策。
 - Antigravity Builder：App prototype、unit test、README、walkthrough artifact。
 - Antigravity GCP：GCS、Pub/Sub、Cloud Run、Gemini、BigQuery pipeline PoC。
+- L2-to-L3 Bridge：將 Skill 轉成 trigger、input/output schema、n8n node map、human gate、log、error handling。
 - 部門 Skill Library 管理。
 - Skill 版本管理與驗收標準。
 
@@ -92,6 +95,9 @@
 - Skill 標準模板。
 - Antigravity app prototype、測試紀錄與文件 artifact。
 - GCP serverless pipeline PoC 與部署驗證紀錄。
+- L3 Workflow Blueprint。
+- Trigger / I/O schema / sample payload。
+- n8n node map、human gate、log、error handling spec。
 - Skill 維護規則。
 - L3 Workflow 候選清單。
 

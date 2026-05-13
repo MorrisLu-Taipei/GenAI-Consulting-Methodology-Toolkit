@@ -71,6 +71,7 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 6. Claude Code：文件、規格、程式與知識工作輔助。
 7. Codex：程式、資料處理、文件自動化與流程原型。
 8. Skill Library 管理：版本、Owner、範例、品質檢查。
+9. L2-to-L3 Bridge：trigger、input/output schema、n8n node map、human gate、log、error handling。
 
 ### 實作練習
 
@@ -81,6 +82,8 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 - 使用 Antigravity 建立一個 app prototype。
 - 使用 Antigravity 產生 unit test、README 與 walkthrough evidence。
 - 工程班可加做 GCP serverless pipeline PoC。
+- 下半堂把 1 個 Skill 轉成 L3 Workflow Blueprint。
+- 定義 sample payload、n8n node map、人工審核與 Log。
 
 ### 課後產出物
 
@@ -90,11 +93,14 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 - Skill Library 維護規則。
 - Antigravity app prototype / test / docs artifacts。
 - GCP Pipeline PoC 與部署驗證紀錄。
+- L3 Workflow Blueprint。
+- Trigger / I/O schema / sample payload。
+- n8n node map、human gate、log、error handling spec。
 - L3 Workflow 候選清單。
 
 ### 講師備註
 
-L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Workflow 才能承載部門知識。若客戶是 IT、研發、軟體或數位團隊，應加入 `L2_ANTIGRAVITY_COURSE_PLAN.md`，把 Google Antigravity 三套 codelab 轉成工程 Skill 訓練。
+L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Workflow 才能承載部門知識。L2 下半堂必須銜接 L3，把 Skill 轉成 Workflow Blueprint。若客戶是 IT、研發、軟體或數位團隊，應加入 `L2_ANTIGRAVITY_COURSE_PLAN.md`，把 Google Antigravity 三套 codelab 轉成工程 Skill 訓練。
 
 ## 5. L3 Workflow AI：n8n
 
