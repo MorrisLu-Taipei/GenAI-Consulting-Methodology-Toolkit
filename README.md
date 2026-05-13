@@ -21,23 +21,23 @@ This repository organizes an enterprise AI transformation methodology suitable f
 
 This work is licensed under **[CC BY 4.0](LICENSE)**. You are free to **use, modify, redistribute, and commercialize** the contents under the **single condition that the original author is credited** (see [NOTICE.md](NOTICE.md)).
 
-## 方法論總覽
+## 方法論總覽 / Methodology Overview
 
-![企業管理顧問方法論：八階段轉型指南](90_References/Metholodgy.png)
+![企業管理顧問方法論：八階段轉型指南 / Consulting Methodology: Eight-Stage Transformation Guide](90_References/Metholodgy.png)
 
-## 核心流程
+## 核心流程 / Core Process
 
 ```text
-AI 成熟度問卷
-→ 公司屬性與部署模式調查
-→ L1-L5 課程與能力建置
-→ L1 OpenWebUI 企業帳號與個人聊天區啟用
-→ L2 Antigravity Agentic Developer Skill
-→ L3 n8n 企業流程自動化 PoC
-→ L4 Hermes Agent PoC 與 evidence
-→ 情境案例與 Stage Gate
-→ 八階段顧問診斷
-→ AI 轉型診斷報告與 Roadmap
+AI 成熟度問卷                                    /  AI Maturity Questionnaire
+→ 公司屬性與部署模式調查                          /  → Company profile & deployment-mode survey
+→ L1-L5 課程與能力建置                            /  → L1-L5 courses & capability building
+→ L1 OpenWebUI 企業帳號與個人聊天區啟用             /  → L1 OpenWebUI enterprise accounts & personal chat workspaces
+→ L2 Antigravity Agentic Developer Skill         /  → L2 Antigravity Agentic Developer Skill
+→ L3 n8n 企業流程自動化 PoC                       /  → L3 n8n enterprise workflow automation PoC
+→ L4 Hermes Agent PoC 與 evidence                /  → L4 Hermes Agent PoC & evidence
+→ 情境案例與 Stage Gate                           /  → Scenario cases & Stage Gate
+→ 八階段顧問診斷                                  /  → Eight-stage consulting diagnostic
+→ AI 轉型診斷報告與 Roadmap                       /  → AI transformation diagnostic report & Roadmap
 ```
 
 ## L1-L5 成熟度模型 / Maturity Model
@@ -88,48 +88,54 @@ L1  Chat AI            ◀── 企業全員開始安全使用 AI ──▶  Op
 3. **上層永遠以下層為基礎 / Upper layers always build on lower layers** — 沒有 L1 的全員使用習慣，L2 的 Skill 無從累積；沒有 L2 的 Skill，L3 的 Workflow 只是無內容的串接；沒有 L3 的 Workflow，L4 Agent 無工具可用；沒有 L4 Agent，L5 Team 無成員。
    Without L1 org-wide adoption, L2 has no Skills to accumulate; without L2 Skills, L3 workflows are empty pipes; without L3 Workflows, L4 Agents have no tools; without L4 Agents, L5 has no team members.
 
-## 目錄結構
+## 目錄結構 / Repository Structure
 
-| 目錄 | 用途 |
+> 每個資料夾內的 .md 檔案皆有對應的 `*_EN.md` 英文版兄弟檔。
+> Every `.md` file under each folder has a sibling `*_EN.md` English version.
+
+| 目錄 / Folder | 用途 / Purpose |
 | --- | --- |
-| [`00_Overview`](00_Overview/) | 方案總論、故事線、WBS |
-| [`01_Assessment`](01_Assessment/) | AI 成熟度問卷與評分模型 |
-| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L1 OpenWebUI 企業啟用、L2 Antigravity 工程訓練、L3 n8n 企業流程自動化、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
-| [`03_Consulting_Report`](03_Consulting_Report/) | AI 轉型診斷報告模板 |
-| [`04_Scenarios`](04_Scenarios/) | 客戶情境、案例控制表、製造業與醫院案例 |
-| [`05_Sales`](05_Sales/) | 對外價值主張、銷售話術與 FAQ |
-| [`06_Delivery`](06_Delivery/) | 交付包與驗收標準 |
-| [`90_References`](90_References/) | 原始 PDF 與方法論圖片 |
+| [`00_Overview`](00_Overview/) | 方案總論、故事線、WBS / Overall narrative, storyline, WBS |
+| [`01_Assessment`](01_Assessment/) | AI 成熟度問卷與評分模型 / AI maturity questionnaire and scoring model |
+| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L1 OpenWebUI 企業啟用、L2 Antigravity 工程訓練、L3 n8n 企業流程自動化、L4 Hermes Agent 深度課程、公司屬性、部署模式 / Complete L1-L5 curriculum, L1 OpenWebUI enterprise rollout, L2 Antigravity engineering training, L3 n8n enterprise workflow automation, L4 Hermes Agent deep-dive course, company profiles, deployment modes |
+| [`03_Consulting_Report`](03_Consulting_Report/) | AI 轉型診斷報告模板 / AI transformation diagnostic report template |
+| [`04_Scenarios`](04_Scenarios/) | 客戶情境、案例控制表、製造業與醫院案例 / Customer scenarios, case control tables, manufacturing & hospital cases |
+| [`05_Sales`](05_Sales/) | 對外價值主張、銷售話術與 FAQ / External value proposition, sales talking points, and FAQ |
+| [`06_Delivery`](06_Delivery/) | 交付包與驗收標準 / Delivery package and acceptance criteria |
+| [`90_References`](90_References/) | 原始 PDF 與方法論圖片 / Source PDFs and methodology diagrams |
 
-## 建議閱讀順序
+## 建議閱讀順序 / Recommended Reading Order
 
-1. [`00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md)
-2. [`01_Assessment/AI_MATURITY_QUESTIONNAIRE.md`](01_Assessment/AI_MATURITY_QUESTIONNAIRE.md)
-3. [`01_Assessment/AI_MATURITY_SCORING_MODEL.md`](01_Assessment/AI_MATURITY_SCORING_MODEL.md)
-4. [`01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md`](01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md)
-5. [`02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md`](02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md)
-6. [`02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md)
-7. [`02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md)
-8. [`02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md)
-9. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md)
-10. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md)
-11. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
-12. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
+> 中文檔；英文讀者請開啟同名的 `*_EN.md` 兄弟檔。
+> Chinese files listed; English readers should open the sibling `*_EN.md` files.
 
-## 可驗證交付物
+1. [`00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) ([EN](00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE_EN.md))
+2. [`01_Assessment/AI_MATURITY_QUESTIONNAIRE.md`](01_Assessment/AI_MATURITY_QUESTIONNAIRE.md) ([EN](01_Assessment/AI_MATURITY_QUESTIONNAIRE_EN.md))
+3. [`01_Assessment/AI_MATURITY_SCORING_MODEL.md`](01_Assessment/AI_MATURITY_SCORING_MODEL.md) ([EN](01_Assessment/AI_MATURITY_SCORING_MODEL_EN.md))
+4. [`01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md`](01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md) ([EN](01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX_EN.md))
+5. [`02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md`](02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md) ([EN](02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN_EN.md))
+6. [`02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md) ([EN](02_Course_Design/L1_OPENWEBUI_COURSE_PLAN_EN.md))
+7. [`02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md) ([EN](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN_EN.md))
+8. [`02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) ([EN](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN_EN.md))
+9. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) ([EN](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN_EN.md))
+10. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md) ([EN](04_Scenarios/CASE_CONTROL_TABLES_EN.md))
+11. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md) ([EN](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE_EN.md))
+12. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md) ([EN](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE_EN.md))
 
-- AI 成熟度問卷與評分結果
-- 公司屬性與部署模式調查
-- L1-L5 課程完成證據
-- OpenWebUI 帳號 / 群組 / 權限表與每人個人聊天區啟用紀錄
-- Skill Library 與 Antigravity Agentic Developer artifacts
-- n8n Workflow PoC 與 Execution Log
-- Sub-workflow Library、Data Tables Schema、GitHub Backup SOP、L4 Workflow Contract
-- Hermes Agent 任務卡、Wiki、ingest/query/update 紀錄、briefing 與 Gate 4A-4E
-- ClawTeam Agent Team 角色卡
-- Stage Gate 驗收紀錄
-- AI 轉型診斷報告
-- 30 / 60 / 90 天 Roadmap
+## 可驗證交付物 / Verifiable Deliverables
+
+- AI 成熟度問卷與評分結果 / AI maturity questionnaire & scoring results
+- 公司屬性與部署模式調查 / Company profile & deployment-mode survey
+- L1-L5 課程完成證據 / L1-L5 course completion evidence
+- OpenWebUI 帳號 / 群組 / 權限表與每人個人聊天區啟用紀錄 / OpenWebUI accounts / groups / permissions matrix and per-user personal-chat-workspace activation records
+- Skill Library 與 Antigravity Agentic Developer artifacts / Skill Library and Antigravity Agentic Developer artifacts
+- n8n Workflow PoC 與 Execution Log / n8n Workflow PoC and Execution Log
+- Sub-workflow Library、Data Tables Schema、GitHub Backup SOP、L4 Workflow Contract / Sub-workflow Library, Data Tables Schema, GitHub Backup SOP, L4 Workflow Contract
+- Hermes Agent 任務卡、Wiki、ingest/query/update 紀錄、briefing 與 Gate 4A-4E / Hermes Agent task cards, Wiki, ingest/query/update records, briefings, and Gates 4A-4E
+- ClawTeam Agent Team 角色卡 / ClawTeam Agent Team role cards
+- Stage Gate 驗收紀錄 / Stage Gate sign-off records
+- AI 轉型診斷報告 / AI transformation diagnostic report
+- 30 / 60 / 90 天 Roadmap / 30 / 60 / 90-day Roadmap
 
 ## 參考資料 / References
 
