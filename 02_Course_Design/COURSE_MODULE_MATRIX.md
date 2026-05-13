@@ -59,16 +59,18 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 
 ### 課程目標
 
-把個人經驗、Prompt、SOP、模板、Checklist 整理成部門可複用 Skill。
+把個人經驗、Prompt、SOP、模板、Checklist 整理成部門可複用 Skill；工程 / IT 團隊則用 Antigravity 建立 Agentic Developer Skill，讓 Agent 協助規劃、開發、測試、文件化與雲端部署。
 
 ### 課程大綱
 
 1. Skill AI 的定義：從個人技巧到部門能力。
 2. Skill 結構：目的、適用情境、輸入、步驟、輸出、驗收標準。
-3. Antigravity：任務規劃、文件整理、工作流規格化。
-4. Claude Code：文件、規格、程式與知識工作輔助。
-5. Codex：程式、資料處理、文件自動化與流程原型。
-6. Skill Library 管理：版本、Owner、範例、品質檢查。
+3. Antigravity Foundation：Agent Manager、Editor、Browser、權限與審查政策。
+4. Antigravity Builder：App prototype、unit test、README、walkthrough artifact。
+5. Antigravity GCP：GCS、Pub/Sub、Cloud Run、Gemini、BigQuery serverless pipeline PoC。
+6. Claude Code：文件、規格、程式與知識工作輔助。
+7. Codex：程式、資料處理、文件自動化與流程原型。
+8. Skill Library 管理：版本、Owner、範例、品質檢查。
 
 ### 實作練習
 
@@ -76,6 +78,9 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 - 建立一個「客戶會議摘要 Skill」。
 - 建立一個「異常訂單分析 Skill」。
 - 將既有 SOP 轉成 AI 可執行的 Skill 模板。
+- 使用 Antigravity 建立一個 app prototype。
+- 使用 Antigravity 產生 unit test、README 與 walkthrough evidence。
+- 工程班可加做 GCP serverless pipeline PoC。
 
 ### 課後產出物
 
@@ -83,11 +88,13 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 - 3-5 個可展示 Skill。
 - Skill 標準模板。
 - Skill Library 維護規則。
+- Antigravity app prototype / test / docs artifacts。
+- GCP Pipeline PoC 與部署驗證紀錄。
 - L3 Workflow 候選清單。
 
 ### 講師備註
 
-L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Workflow 才能承載部門知識。
+L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Workflow 才能承載部門知識。若客戶是 IT、研發、軟體或數位團隊，應加入 `L2_ANTIGRAVITY_COURSE_PLAN.md`，把 Google Antigravity 三套 codelab 轉成工程 Skill 訓練。
 
 ## 5. L3 Workflow AI：n8n
 

@@ -16,6 +16,7 @@
 AI 成熟度問卷
 → 公司屬性與部署模式調查
 → L1-L5 課程與能力建置
+→ L2 Antigravity Agentic Developer Skill
 → L4 Hermes Agent PoC 與 evidence
 → 情境案例與 Stage Gate
 → 八階段顧問診斷
@@ -38,7 +39,7 @@ AI 成熟度問卷
 | --- | --- |
 | [`00_Overview`](00_Overview/) | 方案總論、故事線、WBS |
 | [`01_Assessment`](01_Assessment/) | AI 成熟度問卷與評分模型 |
-| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
+| [`02_Course_Design`](02_Course_Design/) | L1-L5 完整課程規劃、L2 Antigravity 工程訓練、L4 Hermes Agent 深度課程、公司屬性、部署模式 |
 | [`03_Consulting_Report`](03_Consulting_Report/) | AI 轉型診斷報告模板 |
 | [`04_Scenarios`](04_Scenarios/) | 客戶情境、案例控制表、製造業與醫院案例 |
 | [`05_Sales`](05_Sales/) | 對外價值主張、銷售話術與 FAQ |
@@ -51,17 +52,18 @@ AI 成熟度問卷
 2. [`01_Assessment/AI_MATURITY_QUESTIONNAIRE.md`](01_Assessment/AI_MATURITY_QUESTIONNAIRE.md)
 3. [`01_Assessment/AI_MATURITY_SCORING_MODEL.md`](01_Assessment/AI_MATURITY_SCORING_MODEL.md)
 4. [`02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md`](02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md)
-5. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md)
-6. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md)
-7. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
-8. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
+5. [`02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md)
+6. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md)
+7. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md)
+8. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
+9. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
 
 ## 可驗證交付物
 
 - AI 成熟度問卷與評分結果
 - 公司屬性與部署模式調查
 - L1-L5 課程完成證據
-- Skill Library
+- Skill Library 與 Antigravity Agentic Developer artifacts
 - n8n Workflow PoC 與 Execution Log
 - Hermes Agent 任務卡、Wiki、ingest/query/update 紀錄、briefing 與 Gate 4A-4E
 - ClawTeam Agent Team 角色卡
@@ -73,4 +75,3 @@ AI 成熟度問卷
 
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
-

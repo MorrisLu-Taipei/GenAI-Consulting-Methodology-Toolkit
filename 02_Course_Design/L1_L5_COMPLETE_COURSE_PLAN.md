@@ -131,7 +131,9 @@
 
 ### 5.1 課程目標
 
-將個人經驗、Prompt、SOP、模板與 Checklist 整理成部門可複用 Skill。
+將個人經驗、Prompt、SOP、模板與 Checklist 整理成部門可複用 Skill。若對象是 IT / 工程 / 數位團隊，L2 也包含 Antigravity Agentic Developer 訓練，讓 Agent 協助規劃、開發、測試、文件化與 GCP 部署 PoC。
+
+Antigravity 工程訓練的完整設計請見 `L2_ANTIGRAVITY_COURSE_PLAN.md`。
 
 ### 5.2 適合對象
 
@@ -149,6 +151,7 @@
 | SOP / 模板 | 客服、業務、營運、行政等文件 |
 | 範例輸入輸出 | 過去成功案例 |
 | 工具 | Antigravity / Claude Code / Codex |
+| 工程課需求 | Antigravity、Chrome、gcloud、GCP 專案、範例 app 或文件 pipeline 題目 |
 
 ### 5.4 Skill 標準格式
 
@@ -170,6 +173,8 @@
 | Skill AI 觀念 | 45 分 | 個人技巧如何變成部門能力 | 講授 |
 | Skill 拆解方法 | 60 分 | Input / Process / Output / Constraints | 工作坊 |
 | Antigravity 應用 | 60 分 | 任務規劃、文件整理、規格化 | Demo + 實作 |
+| Antigravity 工程實作 | 120 分 | Agent Manager、Browser、App prototype、unit test、README | Demo + 實作 |
+| Antigravity GCP 實作 | 180 分 | GCS、Pub/Sub、Cloud Run、Gemini、BigQuery pipeline PoC | 工程班選修 |
 | Claude Code 應用 | 60 分 | 文件、規格、程式與知識工作輔助 | Demo + 實作 |
 | Codex 應用 | 60 分 | 程式、資料處理、文件自動化 | Demo + 實作 |
 | Skill Library | 45 分 | 版本、Owner、命名、品質檢查 | 講授 |
@@ -184,6 +189,7 @@
 - 醫院：病患服務 FAQ Skill、掛號流程 Skill、會議紀錄 Skill。
 - 行銷服務業：文案產生 Skill、提案產生 Skill、競品分析 Skill。
 - B2B 業務：客戶研究 Skill、拜訪摘要 Skill、CRM 更新 Skill。
+- IT / 工程：Antigravity app prototype Skill、unit test Skill、GCP serverless pipeline Skill。
 
 ### 5.7 課後作業
 
@@ -207,6 +213,8 @@
 - Skill 標準模板。
 - 3-5 個可用 Skill。
 - Skill Owner 與版本表。
+- Antigravity app prototype / test / docs artifacts。
+- GCP Pipeline PoC 與部署驗證紀錄。
 - L3 Workflow 候選清單。
 
 ### 5.10 Gate 2：能否進入 L3

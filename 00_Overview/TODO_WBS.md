@@ -88,6 +88,7 @@
 
 - [x] L1 OpenWebUI 課程目標、課綱、練習、產出物、講師備註。
 - [x] L2 Skill AI 課程目標、課綱、練習、產出物、講師備註。
+- [x] 參考 Google Antigravity 三套 codelab 補強 L2 工程訓練：Agentic IDE、App Prototype、Unit Test、GCP Serverless Pipeline、Gate 2A-2E。
 - [x] L3 n8n 課程目標、課綱、練習、產出物、講師備註。
 - [x] L4 Hermes Agent 課程目標、課綱、練習、產出物、講師備註。
 - [x] 參考 Hermes `starter-kit-v2` 補強 L4 深度課程：Wiki 記憶、五個 skills、ingest/query/update、briefing/discovery、Gate 4A-4E。

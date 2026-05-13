@@ -59,6 +59,7 @@
 - 部門有 SOP、模板、文件或經驗需要沉澱。
 - 新人訓練依靠資深同仁口傳。
 - 希望把 Prompt、流程、文件變成可複用 Skill。
+- IT / 工程團隊希望用 Antigravity 建立 app prototype、測試、文件與 GCP pipeline PoC。
 
 #### 需求清單
 
@@ -68,12 +69,19 @@
 - 是否需要建立 Skill Library？
 - 是否需要讓非工程部門也能維護 Skill？
 - 是否需要將文件、程式、流程規格化？
+- 是否需要 Antigravity Agentic Developer 訓練？
+- 是否需要用 Agent 產生 app prototype、unit test、README 或部署腳本？
+- 是否具備 GCP 專案、gcloud 權限與雲端部署需求？
+- 產出的工程 artifact 是否要成為 L3 Workflow 或 L4 Hermes Agent 可呼叫能力？
 
 #### 課程重點
 
 - Skill 的定義與設計方法。
 - Prompt、SOP、Template、Checklist 結構化。
 - Antigravity / Claude Code / Codex 的 Skill 建置應用。
+- Antigravity Agentic IDE：Agent Manager、Editor、Browser、權限與審查政策。
+- Antigravity Builder：App prototype、unit test、README、walkthrough artifact。
+- Antigravity GCP：GCS、Pub/Sub、Cloud Run、Gemini、BigQuery pipeline PoC。
 - 部門 Skill Library 管理。
 - Skill 版本管理與驗收標準。
 
@@ -82,6 +90,8 @@
 - 部門 Skill 清單。
 - 3-5 個可展示 Skill。
 - Skill 標準模板。
+- Antigravity app prototype、測試紀錄與文件 artifact。
+- GCP serverless pipeline PoC 與部署驗證紀錄。
 - Skill 維護規則。
 - L3 Workflow 候選清單。
 
