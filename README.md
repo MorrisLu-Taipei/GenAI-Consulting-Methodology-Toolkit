@@ -135,6 +135,20 @@ AI 成熟度問卷
 - [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
 - [`90_References/TIGERAI_VIDEO_LEARNING_NOTES.md`](90_References/TIGERAI_VIDEO_LEARNING_NOTES.md)
 
+## 致謝
+
+特別感謝 **Prof. Michael Rosemann**，Queensland University of Technology (QUT), Brisbane, Australia。  
+Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
+
+本 repo 整套顧問方法論的學理基礎，來自作者於 QUT 昆士蘭科技大學求學期間，Prof. Michael Rosemann 在 **Business Process Management (BPM)**、**Capability Maturity Models** 與 **企業創新方法論** 上的長期啟發與教導。
+
+其中兩個核心設計特別受到影響：
+
+- **八階段顧問結構**：對應企業流程診斷、能力評估、轉型路徑設計與治理落地。
+- **L1-L5 AI 成熟度模型**：參考能力成熟度模型的層級邏輯，並在地化為企業導入 AI 的五層銜接架構。
+
+免責聲明：本方法論中任何錯誤、遺漏、在地化調整或對 AI 領域的延伸應用，皆為作者 Tiger AI Morris Lu 盧業興個人責任，不代表 Prof. Michael Rosemann 或 QUT 之觀點或立場。
+
 ## 授權與署名
 
 本專案原創內容採用 attribution-only open license：可任意使用、修改、改作、重製、散布、教學、顧問交付與商業化。

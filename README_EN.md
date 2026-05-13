@@ -95,6 +95,20 @@ Each level defines clear input, process, output, evidence, and Stage Gate criter
 11. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md)
 12. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md)
 
+## Acknowledgments
+
+Special thanks to **Prof. Michael Rosemann**, Queensland University of Technology (QUT), Brisbane, Australia.  
+Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
+
+The theoretical foundation of this consulting methodology was shaped by the author's studies at QUT and by Prof. Michael Rosemann's long-term inspiration and teaching in **Business Process Management (BPM)**, **Capability Maturity Models**, and **enterprise innovation methodology**.
+
+Two core parts of this work are especially influenced by that foundation:
+
+- **Eight-stage consulting structure**: enterprise process diagnosis, capability assessment, transformation path design, and governance implementation.
+- **L1-L5 AI Maturity Model**: a localized five-layer enterprise AI adoption framework informed by capability-maturity logic.
+
+Disclaimer: any errors, omissions, local adaptations, or AI-domain extensions in this methodology are solely the responsibility of Tiger AI Morris Lu 盧業興 and do not represent the views or positions of Prof. Michael Rosemann or QUT.
+
 ## Attribution
 
 When using, modifying, redistributing, commercializing, teaching, or delivering consulting work based on this project, include:
