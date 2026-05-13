@@ -60,7 +60,7 @@
 
 | Level | 課程交付物 | Evidence | Gate |
 |---|---|---|---|
-| L1 OpenWebUI | AI 使用規範、Prompt Library、部門案例 | Prompt 範本、課堂作業、使用規範 | Gate 1 |
+| L1 OpenWebUI | AI 使用規範、Prompt Library、部門案例、帳號/群組/權限表、Admin Runbook | Prompt 範本、課堂作業、使用規範、登入截圖、個人聊天區截圖、Admin Panel 截圖 | Gate 1 |
 | L2 Skill AI | Skill Library、SOP、Checklist、模板、Antigravity app prototype / test / docs / GCP PoC、L3 Workflow Blueprint | Skill 文件、測試紀錄、Owner 清單、Agent artifact、部署驗證紀錄、trigger / I/O schema / node map / sample payload | Gate 2 |
 | L3 n8n Workflow | Workflow PoC、串接需求、Execution Log | n8n JSON、API 權限、執行紀錄 | Gate 3 |
 | L4 Hermes Agent | Agent 任務卡、Wiki、L4 IPOE、briefing、Gate 4A-4E | Log、SQLite 查詢、source page、briefing、人工審核 | Gate 4 |

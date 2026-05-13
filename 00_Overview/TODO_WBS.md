@@ -87,6 +87,7 @@
 ### 3.4 課程模組與比例配置
 
 - [x] L1 OpenWebUI 課程目標、課綱、練習、產出物、講師備註。
+- [x] 參考 OpenWebUI playlist 補強 L1 企業啟用課：每人登入、個人聊天區、Admin Panel、帳號/角色/群組/權限、模型控管、影片參考地圖。
 - [x] L2 Skill AI 課程目標、課綱、練習、產出物、講師備註。
 - [x] 參考 Google Antigravity 三套 codelab 補強 L2 工程訓練：Agentic IDE、App Prototype、Unit Test、GCP Serverless Pipeline、Gate 2A-2E。
 - [x] 補強 L2 下半堂銜接 L3：Workflow Blueprint、trigger、I/O schema、n8n node map、human gate、log、error handling。
