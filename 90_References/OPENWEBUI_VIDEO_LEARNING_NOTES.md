@@ -1,9 +1,21 @@
 # OpenWebUI 影片學習紀錄與應用摘要
 
-版本：v1.0  
-作者：Morris  
-整理目的：將 OpenWebUI playlist 轉成 L1 企業啟用課的學習紀錄、摘要與未來應用地圖。  
-原始 Playlist：`https://www.youtube.com/watch?v=oXJ4L1G8kaI&list=PL_rTgQnnMXsXAsEiid-tWhaj03SsP4U5Z`
+版本：v1.0
+筆記整理 / Notes by：Morris Lu (盧業興) · Tiger AI 虎智科技
+整理目的：將 OpenWebUI 公開 playlist 轉成 L1 企業啟用課的學習紀錄、摘要與未來應用地圖。
+
+## 原始影片版權聲明 / Third-Party Video Credits
+
+> **本文件為第三方公開影片的學習筆記，並非影片本身。所有影片內容與版權皆歸原始創作者所有，本文件僅作為學習與課程設計用途引用其公開連結。**
+>
+> **This document contains study notes derived from publicly available third-party videos. It is NOT a transcript or reproduction. All video content and copyrights remain with the original creators; links are cited here solely for educational and course-design reference.**
+
+- **原始 Playlist / Original Playlist**：<https://www.youtube.com/watch?v=oXJ4L1G8kaI&list=PL_rTgQnnMXsXAsEiid-tWhaj03SsP4U5Z>
+- 各影片之原始連結與標題已於下方表格中逐項標註，請以原始來源為準。
+- Each video's original link and title is cited individually in the tables below; please refer to the original source for authoritative content.
+
+若您為原始內容權利人，希望調整署名或移除引用，請於本 repo 開立 issue。
+If you are a rights holder and wish to update attribution or request removal of any citation, please open an issue in this repository.
 
 ---
 

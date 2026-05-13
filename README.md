@@ -1,14 +1,31 @@
 # AI Consulting Methodology Toolkit
 
-企業 AI 轉型成熟度診斷與導入方法論工具包。
+> 企業 AI 轉型成熟度診斷與導入方法論工具包
+> Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit
 
-作者：Morris
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
+**作者 / Author：** Morris Lu （盧業興）· Tiger AI 虎智科技
+**身份 / Roles：** n8n Taipei 大使 · 國立臺灣科技大學 智慧製造科技研究所 博士生
+**Roles (EN):** n8n Taipei Ambassador · PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST
 
 這個 repo 整理一套可用於企業顧問交付的 AI 轉型方法：先用問卷診斷企業目前 AI 成熟度，再依 L1-L5 配置課程與導入路徑，課中產出可驗收資產，最後用八階段顧問方法產出診斷報告、Roadmap、ROI 與治理建議。
+
+This repository organizes an enterprise AI transformation methodology suitable for consulting delivery: it begins with a maturity questionnaire, then maps L1-L5 courses and adoption paths, produces verifiable in-class artifacts, and concludes with an eight-stage consulting method that yields the diagnostic report, roadmap, ROI, and governance recommendations.
+
+## 授權 / License
+
+本專案採用 **[CC BY 4.0](LICENSE)** 授權，您可以自由地 **使用、修改、再散布與商業利用**，唯一條件是 **必須註明原作者**（詳見 [NOTICE.md](NOTICE.md)）。
+
+This work is licensed under **[CC BY 4.0](LICENSE)**. You are free to **use, modify, redistribute, and commercialize** the contents under the **single condition that the original author is credited** (see [NOTICE.md](NOTICE.md)).
 
 ## 方法論總覽
 
 ![企業管理顧問方法論：八階段轉型指南](90_References/Metholodgy.png)
+
+## AI 成熟度地圖
+
+![AI 成熟度地圖](90_References/MD-Map.png)
 
 ## 核心流程
 
@@ -78,9 +95,31 @@ AI 成熟度問卷
 - AI 轉型診斷報告
 - 30 / 60 / 90 天 Roadmap
 
-## 參考資料
+## 參考資料 / References
 
 - [`90_References/@AI-MD-PUBIC.pdf`](90_References/@AI-MD-PUBIC.pdf)
 - [`90_References/Metholodgy.png`](90_References/Metholodgy.png)
+- [`90_References/MD-Map.png`](90_References/MD-Map.png)
 - [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
 - [`90_References/TIGERAI_VIDEO_LEARNING_NOTES.md`](90_References/TIGERAI_VIDEO_LEARNING_NOTES.md)
+
+### 第三方內容 / Third-Party Content
+
+本專案中 [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md) 為對 **OpenWebUI 公開 YouTube playlist** 的學習筆記。所有影片內容與版權皆歸原始創作者所有，本檔僅引用其公開連結作為學習與課程設計用途。
+
+The file [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md) contains study notes derived from the **OpenWebUI public YouTube playlist**. All video content and copyrights remain with the original creators; links are cited solely for educational and course-design reference.
+
+---
+
+## 署名要求 / Attribution Requirement
+
+使用、修改或商業利用本專案內容時，請於合理可見位置保留以下署名：
+
+When using, modifying, or commercializing this work, please preserve the following attribution in a reasonably visible location:
+
+> **原作者 / Author:** Morris Lu (盧業興) · Tiger AI 虎智科技 / Tiger AI Co., Ltd.
+> **身份 / Roles:** n8n Taipei 大使 / n8n Taipei Ambassador · 國立臺灣科技大學 智慧製造科技研究所 博士生 / PhD Student, Graduate Institute of Intelligent Manufacturing Tech, NTUST
+> **來源 / Source:** <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+
+完整授權條款請見 [LICENSE](LICENSE)，完整署名規範請見 [NOTICE.md](NOTICE.md)。
+Full license terms: see [LICENSE](LICENSE). Full attribution guidance: see [NOTICE.md](NOTICE.md).
