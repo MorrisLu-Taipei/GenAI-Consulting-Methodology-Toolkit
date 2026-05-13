@@ -118,9 +118,10 @@ L1  Chat AI            ◀── 企業全員開始安全使用 AI ──▶  Op
 7. [`02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md) ([EN](02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN_EN.md))
 8. [`02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) ([EN](02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN_EN.md))
 9. [`02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) ([EN](02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN_EN.md))
-10. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md) ([EN](04_Scenarios/CASE_CONTROL_TABLES_EN.md))
-11. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md) ([EN](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE_EN.md))
-12. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md) ([EN](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE_EN.md))
+10. [`02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`](02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md) ([EN](02_Course_Design/L5_CLAWTEAM_COURSE_PLAN_EN.md)) — 引用 [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) (MIT)
+11. [`04_Scenarios/CASE_CONTROL_TABLES.md`](04_Scenarios/CASE_CONTROL_TABLES.md) ([EN](04_Scenarios/CASE_CONTROL_TABLES_EN.md))
+12. [`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md) ([EN](06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE_EN.md))
+13. [`03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md`](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE.md) ([EN](03_Consulting_Report/CONSULTING_REPORT_TEMPLATE_EN.md))
 
 ## 可驗證交付物 / Verifiable Deliverables
 
@@ -144,12 +145,17 @@ L1  Chat AI            ◀── 企業全員開始安全使用 AI ──▶  Op
 - [`90_References/MD-Map.png`](90_References/MD-Map.png)
 - [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md)
 - [`90_References/TIGERAI_VIDEO_LEARNING_NOTES.md`](90_References/TIGERAI_VIDEO_LEARNING_NOTES.md)
+- [`90_References/CLAWTEAM_REFERENCE.md`](90_References/CLAWTEAM_REFERENCE.md) — **L5 平台 ClawTeam 引用與 MIT 授權條款 / L5 platform ClawTeam citation & MIT license terms**
 
 ### 第三方內容 / Third-Party Content
 
 本專案中 [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md) 為對 **OpenWebUI 公開 YouTube playlist** 的學習筆記。所有影片內容與版權皆歸原始創作者所有，本檔僅引用其公開連結作為學習與課程設計用途。
 
 The file [`90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md`](90_References/OPENWEBUI_VIDEO_LEARNING_NOTES.md) contains study notes derived from the **OpenWebUI public YouTube playlist**. All video content and copyrights remain with the original creators; links are cited solely for educational and course-design reference.
+
+**L5 Agentic Team AI** 課程以 **[HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam)** (MIT License) 作為實作平台。本 repo **未重製、未 fork** ClawTeam 程式碼；僅在 L5 課綱中教學引用其架構、CLI 與設計理念。完整引用條款請見 [`90_References/CLAWTEAM_REFERENCE.md`](90_References/CLAWTEAM_REFERENCE.md)。
+
+The **L5 Agentic Team AI** course uses **[HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam)** (MIT License) as its implementation platform. This repo **does not reproduce or fork** the ClawTeam source; we only cite and teach its architecture, CLI, and design principles in the L5 syllabus. Full citation terms: [`90_References/CLAWTEAM_REFERENCE.md`](90_References/CLAWTEAM_REFERENCE.md).
 
 ---
 

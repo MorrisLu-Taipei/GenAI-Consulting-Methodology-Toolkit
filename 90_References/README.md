@@ -97,6 +97,23 @@ This directory contains source reference materials and third-party citations. Ea
 
 ---
 
+## 6. `CLAWTEAM_REFERENCE.md`
+
+> 📦 **ClawTeam 引用與授權說明 / ClawTeam Citation & License Notice**
+
+| 項目 / Field | 說明 / Description |
+| --- | --- |
+| **內容** | 完整記錄 L5 課程所引用之 **ClawTeam** 上游專案：原始來源、架構導讀、CLI 命令分類、Roadmap、MIT License 條款、引用範圍、學員引用格式、鳴謝、免責聲明。 |
+| **Content** | A complete record of the upstream **ClawTeam** project cited by the L5 course: source, architecture primer, CLI command categories, roadmap, MIT License terms, citation scope, citation formats for learners, acknowledgments, and disclaimer. |
+| **用途** | L5 課程開課前必讀；用於向客戶說明 L5 平台之上游、授權與義務。 |
+| **Purpose** | Mandatory reading before delivering the L5 course; used to brief clients on the upstream platform, license, and obligations for L5. |
+| **版權 / 來源** | ⚠️ **第三方開源專案**。原始 ClawTeam 程式碼版權歸 **HKUDS (HKU Data Science Lab)** 所有，依 **MIT License** 釋出。本 repo **未重製、未 fork** 原始碼。 |
+| **Copyright / Source** | ⚠️ **Third-party open-source project.** The original ClawTeam source code is © **HKUDS (HKU Data Science Lab)**, released under the **MIT License**. This repo **does not reproduce or fork** the source. |
+| **上游 / Upstream** | <https://github.com/HKUDS/ClawTeam> |
+| **使用限制 / Restrictions** | **本說明檔本身** 採 CC BY 4.0；**ClawTeam 程式碼本身** 之使用、修改、再散布請遵守上游 MIT License (保留著作權聲明)。 |
+
+---
+
 ## 第三方權利人聯絡 / Contact for Rights Holders
 
 如您為任何引用素材之原始權利人，認為署名應更新、引用方式應調整或某段筆記應移除，請於本 repo 開立 issue 告知，我們會在合理時間內處理。
