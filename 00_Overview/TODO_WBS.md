@@ -1,6 +1,6 @@
 # AI 轉型成熟度顧問方案 TODO / WBS
 
-更新日期：2026-05-13
+更新日期：2026-05-14（Batch 1-3 完成）
 
 ## 0. 目標
 
@@ -13,14 +13,16 @@
 | 1 | 方案故事與定位 | P0 | Done | 故事版規劃、角色價值主張、銷售話術 |
 | 2 | L1-L5 成熟度模型細化 | P0 | Done | 評分標準、能力矩陣、缺口分類 |
 | 3 | 簡易問卷診斷 | P0 | Done | 10 題、25 題、50 題問卷 |
-| 4 | 課程模組與比例配置 | P0 | Done | L1-L5 課綱、比例推薦規則 |
-| 5 | 公司屬性與部署模式調查 | P0 | In Progress | 雲 AI / Hybrid / 全地端判斷、產業適配 |
+| 4 | 課程模組與比例配置 | P0 | Done | L1-L5 課綱、比例推薦規則 + L5 ClawTeam |
+| 5 | 公司屬性與部署模式調查 | P0 | Done | 雲/Hybrid/地端判斷、產業適配、35 題公司屬性問卷 |
 | 6 | 情境故事庫 | P0 | Done | 管理層與部門情境故事 |
-| 7 | 八階段顧問診斷工具 | P1 | In Progress | 訪談問題、盤點表、分析表 |
-| 8 | AI 轉型診斷報告模板 | P1 | In Progress | Markdown 報告模板已完成 |
-| 9 | 系統串接與 PoC 場景 | P1 | Todo | Gmail、Sheets、Notion、CRM、API、ERP PoC 細稿 |
-| 10 | 範例客戶完整案例 | P1 | In Progress | 製造業與醫院案例已完成，其他案例待補 |
-| 11 | 對外銷售素材 | P2 | In Progress | 話術完成，One-pager 與簡報待做 |
+| 7 | 八階段顧問診斷工具 | P1 | Done | CONSULTING_TOOLKIT_TEMPLATES.md（8 stages 完整工具表） |
+| 8 | AI 轉型診斷報告模板 | P1 | Done | Markdown 報告模板 + 工具表 |
+| 9 | 系統串接與 PoC 場景 | P1 | Done | POC_SCENARIO_SPECS.md（6 系統 × 30 PoC） |
+| 10 | 範例客戶完整案例 | P1 | Done | 製造業、醫院、行銷服務業、B2B 工業 4 個案例 |
+| 11 | 對外銷售素材 | P2 | Done | One-pager / 3 套簡報 / 3 視覺 / FAQ |
+| 12 | 問卷自動化（Sheets/Notion/n8n） | P1 | Done | AI_DIAGNOSIS_SHEETS_SCHEMA.md + FILLABLE_QUESTIONNAIRE.md |
+| 13 | 產業推薦場景補強 | P2 | Done | INDUSTRY_SCENARIOS.md（零售/教育/物流/軟體/專業服務） |
 
 ## 2. 已完成文件
 
@@ -143,77 +145,97 @@
 - [x] ROI 與治理建議。
 - [x] 後續導入 SOW 建議。
 
-## 4. 未完成 TODO
+## 4. 未完成 TODO (Batch 1-3 後已歸零)
 
-### 4.1 可填寫問卷與自動判讀
+### 4.1 可填寫問卷與自動判讀 — Done
 
-- [ ] Google Form 版本。
-- [ ] Google Sheets 分數計算表。
-- [ ] Notion Database 版本。
-- [ ] n8n 自動產生診斷摘要流程。
-- [ ] 將 `COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` 轉成可填寫問卷。
+- [x] Google Sheets 分數計算表 → `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md` §A
+- [x] Notion Database 版本 → 同檔 §B
+- [x] n8n 自動產生診斷摘要流程 → 同檔 §C
+- [x] 將 `COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` 轉成可填寫問卷 → `01_Assessment/COMPANY_PROFILE_QUESTIONNAIRE.md`
+- [x] 10 / 25 / 50 題版 fillable form 規格 → `01_Assessment/FILLABLE_QUESTIONNAIRE.md`
+- [ ] **未做**：實際的 Google Form 部署（需客戶 GCP / Google Workspace 帳號才能建）— 規格已備齊，可隨時建置
 
-### 4.2 八階段顧問診斷工具細化
+### 4.2 八階段顧問診斷工具細化 — Done
 
-- [ ] Stage 1 現況掌握訪談問題。
-- [ ] AI 使用盤點表。
-- [ ] 系統盤點表。
-- [ ] As-Is Process Map 模板。
-- [ ] Stage 2 L1-L5 說明頁。
-- [ ] Stage 3 產業標竿案例摘要模板。
-- [ ] Stage 4 Missing / Broken / Redundant 表格。
-- [ ] Stage 4 Impact x Effort 矩陣。
-- [ ] Stage 5 Executive Problem Statement 工作表。
-- [ ] Stage 6 Stage Gate 驗收標準。
-- [ ] Stage 7 Skill Map / Workflow Map / Agent Map 模板。
-- [ ] Stage 8 權限治理表與 ROI 追蹤矩陣。
+- [x] 全部 12 項目並入 `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`
+  - Stage 1 訪談問題 (40)、AI Usage Inventory、Systems Inventory、As-Is Map
+  - Stage 2 L1-L5 說明頁 + Vision Worksheet + RACI
+  - Stage 3 標竿模板 + 5 stub
+  - Stage 4 MBR 表 + Impact×Effort + Prioritization
+  - Stage 5 Problem Statement Worksheet + 製造業範例
+  - Stage 6 Roadmap + Gate 1-5 Checklist + Risk Register
+  - Stage 7 Skill/Workflow/Agent Map + 3 種架構 variant
+  - Stage 8 Permission Matrix + ROI Matrix + Audit + Ethics
 
-### 4.3 系統串接與 PoC 場景細稿
+### 4.3 系統串接與 PoC 場景細稿 — Done
 
-- [ ] Gmail PoC：客服信件分類、業務信件摘要、主管每日摘要、回覆草稿。
-- [ ] Google Sheets PoC：問卷結果寫入、自動計分、KPI 更新、Workflow 執行紀錄。
-- [ ] Notion PoC：會議紀錄、任務建立、Skill Library、顧問診斷資料庫。
-- [ ] CRM PoC：客戶資料查詢、商機摘要、互動紀錄更新、客訴案件追蹤。
-- [ ] API PoC：內部 API、外部 API、Webhook、錯誤重試與紀錄。
-- [ ] ERP PoC：訂單狀態、庫存異常、出貨延遲、財務或採購資料摘要。
+- [x] 全部 6 系統 30 PoC → `02_Course_Design/POC_SCENARIO_SPECS.md`
+  - Gmail (4)、Sheets (5)、Notion (5)、CRM (5)、API (5)、ERP (6)
+  - 每 PoC 含 trigger / input / AI step / systems / output / acceptance / KPI / 人天 / L-level / n8n nodes
+  - Selection Guide（依 L-level / 產業 / 敏感度）
 
-### 4.4 範例客戶完整案例
+### 4.4 範例客戶完整案例 — Done
 
-- [x] 製造業案例。
-- [x] 醫院 / 醫療機構案例。
-- [ ] 行銷服務業案例。
-- [ ] B2B 業務案例。
-- [x] 問卷填答結果。
-- [x] AI 成熟度判定。
-- [x] 課程比例建議。
-- [x] 課程中產出物。
-- [x] 八階段顧問分析。
-- [x] 最終診斷報告摘要。
-- [x] 三階段 Roadmap。
+- [x] 製造業案例（原已完成）
+- [x] 醫院案例（原已完成）
+- [x] 行銷服務業案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`（Atlas Digital 雅圖數位）
+- [x] B2B 業務案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md`（OptiFlow Industrial 智控工業）
 
-### 4.5 對外銷售素材
+### 4.5 對外銷售素材 — Done
 
-- [x] 交付包與驗收標準文件。
-- [ ] One-pager。
-- [ ] 三段式服務流程圖。
-- [ ] L1-L5 成熟度圖。
-- [ ] 交付物清單視覺化。
-- [ ] 10 頁高階主管版簡報。
-- [ ] 20 頁標準銷售版簡報。
-- [ ] 30 頁顧問方法版簡報。
+- [x] One-pager → `05_Sales/ONE_PAGER_OUTLINE.md`
+- [x] 三段式服務流程圖規格 → `05_Sales/VISUAL_ASSETS_SPEC.md` §1
+- [x] L1-L5 成熟度圖規格 → 同檔 §2
+- [x] 交付物清單視覺化 → 同檔 §3
+- [x] 10 頁高階主管簡報 → `05_Sales/EXECUTIVE_DECK_OUTLINE.md`
+- [x] 20 頁標準銷售簡報 → `05_Sales/STANDARD_SALES_DECK_OUTLINE.md`
+- [x] 30 頁顧問方法論簡報 → `05_Sales/CONSULTING_METHODOLOGY_DECK_OUTLINE.md`
+- [x] 銷售 FAQ 20 題 → `05_Sales/SALES_FAQ.md`
+- [ ] **未做**：實際 Adobe Illustrator / Figma 視覺檔（規格已備齊，需設計師執行）
+- [ ] **未做**：實際 PowerPoint / Keynote 檔（outline 已備齊，需設計師執行）
 
-### 4.6 其他產業補強
+### 4.6 其他產業補強 — Done
 
-- [ ] 零售產業推薦場景。
-- [ ] 教育產業推薦場景。
-- [ ] 物流產業推薦場景。
-- [ ] 軟體產業推薦場景。
-- [ ] 專業服務產業推薦場景。
+- [x] 零售 / 教育 / 物流 / 軟體 / 專業服務 → `04_Scenarios/INDUSTRY_SCENARIOS.md`
+  - 每產業：簡介、L1-L5 基線、Top 10 推薦場景、風險治理、30 天 Quick Win、Anti-Patterns
 
-## 5. 下一輪建議優先順序
+## 5. 下一輪建議優先順序（Batch 4+ 候選）
 
-1. 建立 `05_Sales/ONE_PAGER_OUTLINE.md`：對外一頁式銷售素材。
-2. 建立 `05_Sales/EXECUTIVE_DECK_OUTLINE.md`：10 頁高階主管版簡報。
-3. 建立 `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`：八階段顧問診斷工具表格。
-4. 建立 `02_Course_Design/POC_SCENARIO_SPECS.md`：Gmail、Sheets、Notion、CRM、API、ERP PoC 細稿。
-5. 建立 `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md`：Google Sheets / Notion / n8n 自動診斷欄位設計。
+依重要度：
+
+1. **EN 版本補齊**：本次 Batch 1-3 新增的 13 份檔案皆中文 inline 中英；若 reviewer 認為需嚴格 `_EN.md` sibling，可派代理產生。
+2. **實際 Google Form / Tally 部署**：拿 `FILLABLE_QUESTIONNAIRE.md` 之 spec 建置上線。
+3. **n8n template export**：把 `POC_SCENARIO_SPECS.md` 內的 PoC 寫成可分享之 n8n JSON template。
+4. **設計師交付**：把 `VISUAL_ASSETS_SPEC.md` / 3 套 deck outline 真的做成 PNG / SVG / pptx。
+5. **更多客戶案例**：金融、政府、教育 等高敏感產業之 sample case。
+6. **L4 Hermes Agent 完整 starter-kit 整理**（若採用）。
+7. **L5 ClawTeam 實作 walk-through**：跑通一個跨部門 Agent Team 完整 demo，記錄為 `04_Scenarios/CLAWTEAM_WALKTHROUGH.md`。
+
+---
+
+## 6. Batch 1-3 變更清單（給 reviewer）
+
+### Batch 1（已 push, commit `8795bfc`）
+
+- `05_Sales/ONE_PAGER_OUTLINE.md`
+- `05_Sales/EXECUTIVE_DECK_OUTLINE.md`
+- `05_Sales/STANDARD_SALES_DECK_OUTLINE.md`
+- `05_Sales/CONSULTING_METHODOLOGY_DECK_OUTLINE.md`
+- `05_Sales/VISUAL_ASSETS_SPEC.md`
+- `05_Sales/SALES_FAQ.md`
+- `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md`
+- `01_Assessment/FILLABLE_QUESTIONNAIRE.md`
+
+### Batch 2（本地，未 push）
+
+- `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`
+- `02_Course_Design/POC_SCENARIO_SPECS.md`
+- `01_Assessment/COMPANY_PROFILE_QUESTIONNAIRE.md`
+- `04_Scenarios/INDUSTRY_SCENARIOS.md`
+
+### Batch 3（本地，未 push）
+
+- `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`
+- `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md`
+- `00_Overview/TODO_WBS.md`（本檔）— 重整狀態
