@@ -106,7 +106,7 @@ P1-P4 同上 + P5 您的部門 / Your department
 
 **Page 4 (流程標準化 Process Standardization)** — Q9-Q12
 - Q9 是否有 SOP 定義 AI 使用範圍
-- Q10 是否有 review 機制（人工 Gate＝人來確認的關卡）
+- Q10 是否有 review 機制（HITL Human-in-the-Loop＝人來確認的關卡）
 - Q11 高頻使用情境是否變成可重複流程
 - Q12 是否有跨部門 AI 流程
 

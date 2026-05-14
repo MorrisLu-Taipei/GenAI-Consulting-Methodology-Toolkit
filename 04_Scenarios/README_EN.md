@@ -1,28 +1,113 @@
+# 04 Scenarios — Scenarios, Cases & Case Index
+
 > 🌐 中文版本 / Chinese version: [README.md](README.md)
 
-# 04 Scenarios
+## 1. Purpose of This Directory
 
-This directory contains client scenario stories, industry scenarios, full sample cases, and the L5 hands-on walkthrough.
+This directory is the whole methodology's **material library and evidence library**. `01`-`03`, `05`, `06` are "methods and processes"; this directory is "**giving the method real scenarios, cases, and pickable examples when it lands**."
 
-## Scenarios & Standards
+The problem it solves: **the biggest sticking point when an enterprise adopts AI is not "we don't know how to do it" but "we don't know what can be done, how others do it, and what it will look like."** This directory provides four kinds of material: (1) **scenario stories** for each role/department (so the client can "see themselves"), (2) the **writing standard and control tables** for cases (so consultants write consistent cases), (3) **7 complete demonstration cases** across industries (a full run from questionnaire to Roadmap), and (4) a **case index of 150+ real LLM applications** (quick lookup along two axes: by L-level and by department).
 
-- `CUSTOMER_SCENARIO_LIBRARY.md`: Stories for CEO, COO, IT, HR and the Sales, Customer Service, Marketing, Operations, Finance, HR, and IT departments.
-- `CASE_WRITING_STANDARD.md`: Case writing standard, specifying L1-L5 Input / Process / Output / Evidence and verifiable deliverables.
-- `CASE_CONTROL_TABLES.md`: Case control tables, ready to be copied and filled in for evaluation activities, L1-L5 IPOE, Evidence, Stage Gate, risk governance, and deliverables sign-off.
-- `INDUSTRY_SCENARIOS.md`: Recommended scenarios for 5 industries — retail, education, logistics, software, professional services — each with an intro, L1-L5 baseline, Top 10 scenarios, risk & governance, 30-day quick win, and anti-patterns.
+Who uses this directory: consultants (use scenarios during Discovery to let clients see themselves, use the case index to pick PoCs), sales (use cases to substantiate value), course instructors (use cases as demo topics), clients (read complete cases to understand "what it looks like after adoption").
 
-## Full Sample Client Cases
+## 2. Position in the Methodology
 
-> All clients are referred to by code (not real company names).
+| Axis | Mapping |
+| --- | --- |
+| Three-phase service flow | **Across the whole flow** — Discovery uses scenarios, Build uses cases as topics, Deliver uses cases as substantiation |
+| Eight-stage consulting structure | Mainly supports **Stage 1 (current-state scenarios), Stage 3 (industry benchmarking)** |
+| L1-L5 maturity | The case index maps each case to an L-level (across the scale axis L1-L3 and the AI-autonomy axis L4-L5) |
+| Engagement lifecycle | Sales (Discovery self-identification) + Build (demo topics) |
 
-- `SAMPLE_CLIENT_CASE_MANUFACTURING.md`: Complete sample case for the R&D manufacturing industry.
-- `SAMPLE_CLIENT_CASE_HOSPITAL.md`: Complete sample case for a hospital / healthcare institution, emphasizing highly sensitive data, fully on-premises / strict Hybrid deployment, human review, and audit.
-- `SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`: Marketing agency case (code: Agency M).
-- `SAMPLE_CLIENT_CASE_B2B_SALES.md`: B2B industrial vendor case (code: Industrial Vendor B), focused on RFP response, CRM governance, and an L5 Pre-RFP Team.
-- `SAMPLE_CLIENT_CASE_FINANCIAL.md`: Financial services case (code: Regional Bank F), fully on-premises, compliance + infosec dual review.
-- `SAMPLE_CLIENT_CASE_GOVERNMENT.md`: Government agency case (code: City Digital Bureau G), fully on-premises, triple review.
-- `SAMPLE_CLIENT_CASE_EDUCATION.md`: Education institution case (code: University E), Hybrid deployment, student PII on-premises, academic integrity.
+## 3. Goals & Benefits
 
-## L5 Hands-On
+| Goal | Benefit |
+| --- | --- |
+| Provide scenario stories for each role/department | Clients can "see themselves," Discovery focuses faster |
+| Case writing standard and control tables | Consultants write structurally consistent, verifiable cases |
+| 7 complete industry demonstration cases | Clients see "the full picture after adoption"; new consultants have a template |
+| 150+ LLM application case index (two-axis lookup) | Clients/consultants instantly look up what's doable by "L-level" or "department" |
+| Cross-level expectation management | When a client points at an L5 case, use the index to point out "you're at L2, you need to fill these first" |
 
-- `CLAWTEAM_WALKTHROUGH.md`: An end-to-end walkthrough of running a cross-functional Agent Team with ClawTeam (HKUDS, MIT) — the manufacturing QA-improvement team — covering environment setup, the task chain, the Human Gate, and the mapping to L5 Gate 5. Citation: see `../90_References/CLAWTEAM_REFERENCE.md`.
+**If you skip this directory**: clients have no idea "what can be done," PoC topics are picked out of thin air, case quality is inconsistent, and cross-level expectations cannot be managed.
+
+## 4. Usage Flow & Logic
+
+```text
+Discovery phase
+   → CUSTOMER_SCENARIO_LIBRARY (role scenarios, so the client sees themselves)
+   → LLM_APPS_CASE_INDEX (by the client's L-level + department, pick cases the client "feels")
+   → picked cases → PoC candidates
+
+Course / proposal phase
+   → SAMPLE_CLIENT_CASE_* (show the client a complete same-industry case)
+   → LLM_APPS_CASE_INDEX (classroom demo topics, exercises)
+
+When a consultant writes a new case
+   → CASE_WRITING_STANDARD (the writing standard)
+   → CASE_CONTROL_TABLES (control tables, copy and fill directly)
+```
+
+| Step | Who | When | Input | Output |
+| --- | --- | --- | --- | --- |
+| Client self-identification | Consultant | Discovery | Scenario story library | The pain points the client claims |
+| Pick PoC candidates | Consultant | After diagnosis | L-level + department → case index | PoC candidate list |
+| Show the client a complete case | Sales / consultant | Proposal | Same-industry sample case | Client understands the full picture |
+| Write a new case | Consultant | After the project ends | Writing standard + control tables | A new sample case |
+
+> Logic: scenario stories are for "**evoking resonance**" (the client says "yes, that's exactly me"); the case index is for "**fast material selection**" (instant lookup by L-level/department); the complete demonstration cases are for "**showing the full picture**" (from questionnaire to Roadmap); the writing standard is for "**ensuring consistency**" (stable quality for new cases).
+
+## 5. File Descriptions
+
+### Scenarios and standards
+
+| File | Purpose |
+| --- | --- |
+| `CUSTOMER_SCENARIO_LIBRARY.md` | Scenario stories for each role/department: CEO, COO, IT, HR, and the Sales, Customer Service, Marketing, Operations, Finance, HR, and IT departments; each story includes Before, Trigger, AI Flow, Systems, Output, KPI. |
+| `CASE_WRITING_STANDARD.md` | The case writing standard, specifying how to write the L1-L5 Input / Process / Output / Evidence and verifiable deliverables. |
+| `CASE_CONTROL_TABLES.md` | Case control tables — copy and fill directly for assessment activities, L1-L5 IPOE, Evidence, Stage Gate, risk governance, Deliverables acceptance. |
+| `INDUSTRY_SCENARIOS.md` | Recommended scenarios for 5 industries (retail/education/logistics/software/professional services); each industry includes an intro, L1-L5 baseline, Top 10 scenarios, risk governance, 30-day Quick Win, Anti-Patterns. |
+
+### Complete demonstration cases (all clients are represented by codes)
+
+| File | Case |
+| --- | --- |
+| `SAMPLE_CLIENT_CASE_MANUFACTURING.md` | A complete R&D/manufacturing case |
+| `SAMPLE_CLIENT_CASE_HOSPITAL.md` | Hospital / medical institution (highly sensitive data, fully on-premises, human review) |
+| `SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md` | Marketing agency (code: Agency M) |
+| `SAMPLE_CLIENT_CASE_B2B_SALES.md` | B2B industrial-equipment vendor (code: Equipment Vendor B), focused on RFP, CRM governance, L5 Pre-RFP Team |
+| `SAMPLE_CLIENT_CASE_FINANCIAL.md` | Finance (code: Regional Bank F), fully on-premises, dual review |
+| `SAMPLE_CLIENT_CASE_GOVERNMENT.md` | Government agency (code: City Government Digital Bureau G), fully on-premises, triple review |
+| `SAMPLE_CLIENT_CASE_EDUCATION.md` | Educational institution (code: University of Technology E), Hybrid, academic ethics |
+
+> Every case runs the full process: questionnaire result → L-level determination → course ratio → in-class output → eight-stage analysis → diagnostic report summary → 30/60/90 Roadmap → ROI → risk governance.
+
+### L5 implementation and case index
+
+| File | Purpose |
+| --- | --- |
+| `CLAWTEAM_WALKTHROUGH.md` | A complete walkthrough of running a cross-department Agent Team with ClawTeam (HKUDS, MIT) — a manufacturing QA Team — covering environment setup, the task chain, the Human Gate, and the Gate 5 mapping. |
+| `LLM_APPS_CASE_INDEX.md` | **The LLM application case index (multi-source).** 150+ real LLM apps, with **two lookup axes**: (1) by L1-L5 / course (2) by enterprise department/function (engineering/finance/HR/sales/marketing/R&D/operations/customer service/legal/data/design/management). Sources: awesome-llm-apps (Apache-2.0), ai-engineering-hub (MIT). |
+
+### `*_EN.md`
+
+The English-version siblings of the files above.
+
+## 6. Mapping to Other Directories
+
+| Directory | Relationship to this directory | Data flow |
+| --- | --- | --- |
+| `01_Assessment` | The diagnosis's L-level determines which cases to pick from the index | `01` L-level → `04` case filtering |
+| `02_Course_Design` | The case/PoC index is the source of classroom demo and practice topics | `04` cases ↔ `02` course topics |
+| `03_Consulting_Report` | Eight-stage Stage 3 industry benchmarking cites cases | `04` cases → `03` Stage 3 |
+| `05_Sales` | Complete cases and scenarios substantiate sales material | `04` cases → `05` sales substantiation |
+| `00_Overview` | Scenario stories are material for the storyline | `04` ↔ `00` |
+| `90_References` | Third-party citations for the case index (awesome-llm-apps / ai-engineering-hub) | `90` citation → `04` |
+
+## 7. Common Usage Scenarios
+
+- **Discovery self-identification**: take `CUSTOMER_SCENARIO_LIBRARY.md`, match the client's role, and ask "which story is like you?"
+- **Pick a PoC**: after diagnosing the L-level, go to `LLM_APPS_CASE_INDEX.md` §3 by L-level, or §4 by department, and pick 3-5 the client feels.
+- **Proposal substantiation**: show a manufacturing client `SAMPLE_CLIENT_CASE_MANUFACTURING.md` to demonstrate the full adoption picture.
+- **Cross-level expectation management**: a client points at an L5 case → use the index to point out their L-level and the prerequisite courses needed.
+- **Write a new case**: after a project ends, follow `CASE_WRITING_STANDARD.md` + `CASE_CONTROL_TABLES.md` to write it up as a new sample case.

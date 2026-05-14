@@ -1,4 +1,4 @@
-# AI Maturity Deliverables, Evidence, and Stage Gate Master Matrix
+# AI Maturity Deliverables, Evidence, and Acceptance Gate (Stage Gate) Master Matrix
 
 > 🌐 中文版本 / Chinese version: [AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md](AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md)
 
@@ -24,6 +24,8 @@ Therefore, this matrix uses a fixed format:
 
 ---
 
+> **Terminology & the two axes:** in this matrix, **Stage Gate / Gate 1-5 = acceptance gates** (a level's deliverables must pass acceptance before advancing to the next level); **HITL = Human-in-the-Loop** (a human-review checkpoint). L1-L5 is two axes: the scale axis (L1-L3, individual → department → cross-department / company-wide, humans supervise AI) + the AI-autonomy axis (L4-L5, AI super-assistant → AI team, AI is operationally autonomous while humans step back to governor). See [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0.
+
 ## 2. L1-L5 Master Matrix
 
 | Level | Maturity Positioning | Definition of Done | Core Deliverables | Required Evidence | Primary Owner | Stage Gate | Next Level |
@@ -32,7 +34,7 @@ Therefore, this matrix uses a fixed format:
 | L2 | Skill AI / Antigravity / Claude Code / Codex | Personal experience, SOPs, Prompts, and engineering implementations can be consolidated into reusable Skills and converted into an L3 Blueprint | Skill Library, Skill template, Owner/version table, Antigravity artifacts, Workflow Blueprint | Skill test outputs, version records, Owner list, sample payload, n8n node map | Department Owner / IT / Consultant | Gate 2A-2F | L3 Workflow AI |
 | L3 | Workflow AI / n8n | At least one workflow runs stably, with system integration, human review, Log, error handling, and backup | n8n Workflow JSON, Data Tables Schema, Sub-workflow Library, GitHub Backup SOP, L4 Workflow Contract | Execution Log, test payloads, Data Tables / Sheets records, backup commit, human review records, failure tests | IT / Process Owner | Gate 3A-3G | L4 Hermes Agent |
 | L4 | Auto Agentic AI / Hermes Agent | Agent can use Wiki memory as a base to complete ingest/query/update/briefing and can call L2 Skill / L3 Workflow | Hermes Agent task card, L4 IPOE, Wiki, schema, ingest/query/update records, briefing, Runbook | Source page, SQLite query, log, briefing, tool invocation records, human review, Gate 4A-4E | Department Owner / IT | Gate 4A-4E | L5 ClawTeam |
-| L5 | Agentic Team AI / ClawTeam | Multiple Agents have role assignment, task dispatch, integrated output, Reviewer, human Gate, and ROI measurement | ClawTeam role cards, task dispatch table, Agent Team IPOE, integrated report, Reviewer Gate, ROI table | Per-Agent outputs, integration records, Reviewer records, executive sign-off, ROI/KPI tracking | Management Sponsor / Consultant | Gate 5 | Institutionalization and expansion |
+| L5 | Agentic Team AI / ClawTeam | Multiple Agents have role assignment, task dispatch, integrated output, Reviewer, HITL review, and ROI measurement | ClawTeam role cards, task dispatch table, Agent Team IPOE, integrated report, Reviewer Gate, ROI table | Per-Agent outputs, integration records, Reviewer records, executive sign-off, ROI/KPI tracking | Management Sponsor / Consultant | Gate 5 | Institutionalization and expansion |
 
 ---
 
@@ -186,7 +188,7 @@ L3 completion is not "the Workflow demo runs once" — it is:
 | Data Tables / Sheets / DB Schema | Yes | Status and data records |
 | Sub-workflow Library | Recommended | Reusable modules |
 | Execution Log | Yes | Success, failure, rerun |
-| Human Gate design | Yes | Reviewers, conditions, results |
+| HITL review design | Yes | Reviewers, conditions, results |
 | Error Handling / Retry / Fallback | Yes | Failure notifications and handling |
 | GitHub Backup SOP | Yes | Workflow / Credential backup and versioning |
 | L4 Workflow Contract | Yes | How Hermes Agent can call it |
@@ -209,7 +211,7 @@ L3 completion is not "the Workflow demo runs once" — it is:
 | Workflow design | Process Owner |
 | n8n implementation | IT / automation staff |
 | Credential | IT |
-| Human Gate | Department manager |
+| HITL review | Department manager |
 | Backup / operations | IT |
 | Gate 3 acceptance | IT + Process Owner + Consultant |
 
@@ -230,7 +232,7 @@ Conditions to enter L4:
 - At least 1 Workflow runs stably.
 - It can be called by Hermes Agent.
 - Permission boundaries and output format are defined.
-- Log, error handling, and human Gate exist.
+- Log, error handling, and HITL review exist.
 - IT / Process Owner has maintenance responsibility.
 
 ---
@@ -245,7 +247,7 @@ L4 completion is not "there is one Agent demo" — it is:
 - The Agent has Wiki memory and schema.
 - The Agent can complete ingest, query, update, and briefing.
 - The Agent can call L2 Skills and L3 Workflows.
-- The Agent's output has evidence and a human Gate.
+- The Agent's output has evidence and a HITL review.
 - The Agent has an operations Runbook.
 
 ### 6.2 Deliverables
@@ -283,7 +285,7 @@ L4 completion is not "there is one Agent demo" — it is:
 | Hermes environment | IT |
 | Wiki / schema | Consultant + Department Owner |
 | Workflow / Skill tools | IT + Process Owner |
-| Human Gate | Department manager |
+| HITL review | Department manager |
 | Gate 4 acceptance | Department manager + IT + Consultant |
 
 ### 6.5 Fail Conditions
@@ -292,7 +294,7 @@ L4 completion is not "there is one Agent demo" — it is:
 - The Agent cannot trace data sources.
 - No Wiki / schema.
 - It can only chat, with no ingest/query/update/briefing.
-- No human Gate.
+- No HITL review.
 - No Runbook.
 
 ### 6.6 Next Level Entry Criteria
@@ -314,7 +316,7 @@ L5 completion is not "there are many Agents" — it is:
 
 - Multiple Agents have clear role assignment.
 - Task dispatch, collaboration, integration, and a Reviewer exist.
-- A human Gate and management review exist.
+- A HITL review and management review exist.
 - ROI / KPI measurements exist.
 - Cross-departmental integrated reports or decision-support outputs can be produced.
 
@@ -327,7 +329,7 @@ L5 completion is not "there are many Agents" — it is:
 | Agent Team IPOE | Yes | Per-Agent input/process/output/evidence |
 | Integrated report template | Yes | Format for integrating multi-Agent output |
 | Reviewer / Critic design | Yes | Quality check and conflict resolution |
-| Human Gate design | Yes | Management review and sign-off |
+| HITL review design | Yes | Management review and sign-off |
 | ROI / KPI table | Yes | Work hours, quality, speed, error rate |
 
 ### 7.3 Evidence
@@ -355,7 +357,7 @@ L5 completion is not "there are many Agents" — it is:
 
 - Multiple Agents have no role assignment.
 - No Reviewer.
-- No human Gate.
+- No HITL review.
 - No integrated output.
 - ROI cannot be quantified or explained.
 - L4 Agent is not yet stable but L5 has been entered.

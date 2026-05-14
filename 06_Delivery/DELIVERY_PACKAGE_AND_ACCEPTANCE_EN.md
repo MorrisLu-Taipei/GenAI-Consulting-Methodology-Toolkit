@@ -17,6 +17,17 @@ What the client buys is not a tool tour but an AI transformation implementation 
 
 ---
 
+## 1.1 Delivery Scope and Terminology
+
+**Delivery scope differs along the two axes of L1-L5:**
+
+- **L1-L3 (scale axis) — implemented and accepted delivery.** Consultants and the client together adopt AI from individual → department → cross-department / company-wide; every level has acceptable deliverables (accounts & Prompt Library, Skills, Workflow PoCs). This stretch is **concrete delivery** that is implementable, verifiable, and signed off by management / IT.
+- **L4-L5 (AI-autonomy axis) — framework and consulting guidance.** The L4 AI super-assistant and L5 AI team are company-specific and emergent; this program provides the **design framework, principles, and consulting guidance** — the client self-experiences and self-builds them, with consultants leading and reviewing from alongside. L4-L5 is the **aspirational summit** the enterprise moves toward; D4's L4 PoC focuses on "running one traceable closed loop + transferring the framework," not delivering a complete internal Agent system on the client's behalf.
+
+**Terminology:** in this document, **Stage Gate / Gate 1-5 / Gate 4A-4E = acceptance gates** (a stage's deliverables must pass acceptance before advancing to the next level); **HITL = Human-in-the-Loop** (a human-review checkpoint), which is what any "human gate" below means. The full two-axis explanation: [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0.
+
+---
+
 ## 2. Delivery Overview
 
 | Delivery Phase | Client-Facing Description | Main Deliverables | Acceptance Method |

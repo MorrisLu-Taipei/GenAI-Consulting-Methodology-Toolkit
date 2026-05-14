@@ -1,4 +1,4 @@
-# AI 成熟度交付物、證據與 Stage Gate 總矩陣
+# AI 成熟度交付物、證據與階段驗收關卡（Stage Gate）總矩陣
 
 版本：v1.0  
 作者：Morris  
@@ -22,6 +22,8 @@ AI 成熟度模型不能只描述「能力等級」，必須能回答：
 
 ---
 
+> **術語與兩條軸：** 本矩陣的 **Stage Gate / Gate 1-5 ＝ 階段驗收關卡**（該級交付物驗收通過，才進下一級）；**HITL ＝ Human-in-the-Loop（人類在迴圈內審核）**。L1-L5 是兩條軸：規模軸（L1-L3，個人 → 部門 → 跨部門 / 全公司，人監督 AI）+ AI 自主軸（L4-L5，AI 超級助理 → AI 團隊，AI 營運自主、人退為治理者），詳見 [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0。
+
 ## 2. L1-L5 總覽矩陣
 
 | Level | 成熟度定位 | Definition of Done | 核心 Deliverables | 必備 Evidence | 主要 Owner | Stage Gate | Next Level |
@@ -30,7 +32,7 @@ AI 成熟度模型不能只描述「能力等級」，必須能回答：
 | L2 | Skill AI / Antigravity / Claude Code / Codex | 個人經驗、SOP、Prompt、工程實作可被沉澱為可複用 Skill，並轉成 L3 Blueprint | Skill Library、Skill 模板、Owner/版本表、Antigravity artifacts、Workflow Blueprint | Skill 測試輸出、版本紀錄、Owner 名單、sample payload、n8n node map | 部門 Owner / IT / 顧問 | Gate 2A-2F | L3 Workflow AI |
 | L3 | Workflow AI / n8n | 至少一個 workflow 可穩定執行，有系統串接、人工審核、Log、錯誤處理與備份 | n8n Workflow JSON、Data Tables Schema、Sub-workflow Library、GitHub Backup SOP、L4 Workflow Contract | Execution Log、測試 payload、Data Tables / Sheets 紀錄、備份 commit、人工審核紀錄、失敗測試 | IT / 流程 Owner | Gate 3A-3G | L4 Hermes Agent |
 | L4 | Auto Agentic AI / Hermes Agent | Agent 能以 Wiki 記憶為底座，完成 ingest/query/update/briefing，並能呼叫 L2 Skill / L3 Workflow | Hermes Agent 任務卡、L4 IPOE、Wiki、schema、ingest/query/update 紀錄、briefing、Runbook | source page、SQLite 查詢、log、briefing、工具呼叫紀錄、人工審核、Gate 4A-4E | 部門 Owner / IT | Gate 4A-4E | L5 ClawTeam |
-| L5 | Agentic Team AI / ClawTeam | 多個 Agent 有角色分工、任務分派、整合輸出、Reviewer、人工 Gate 與 ROI 衡量 | ClawTeam 角色卡、任務分派表、Agent Team IPOE、整合報告、Reviewer Gate、ROI 表 | 各 Agent 輸出、整合紀錄、Reviewer 紀錄、主管簽核、ROI/KPI 追蹤 | 管理 Sponsor / 顧問 | Gate 5 | 制度化與擴散 |
+| L5 | Agentic Team AI / ClawTeam | 多個 Agent 有角色分工、任務分派、整合輸出、Reviewer、HITL 人類審核 與 ROI 衡量 | ClawTeam 角色卡、任務分派表、Agent Team IPOE、整合報告、Reviewer Gate、ROI 表 | 各 Agent 輸出、整合紀錄、Reviewer 紀錄、主管簽核、ROI/KPI 追蹤 | 管理 Sponsor / 顧問 | Gate 5 | 制度化與擴散 |
 
 ---
 
@@ -228,7 +230,7 @@ L3 完成不是「Workflow demo 跑一次」，而是：
 - 至少 1 個 Workflow 穩定執行。
 - 有可被 Hermes Agent 呼叫的方式。
 - 有權限邊界與輸出格式。
-- 有 Log、錯誤處理與人工 Gate。
+- 有 Log、錯誤處理與HITL 人類審核。
 - 有 IT / 流程 Owner 維護責任。
 
 ---
@@ -243,7 +245,7 @@ L4 完成不是「有一個 Agent demo」，而是：
 - Agent 有 Wiki 記憶與 schema。
 - Agent 能完成 ingest、query、update、briefing。
 - Agent 能呼叫 L2 Skill 與 L3 Workflow。
-- Agent 的輸出有 evidence 與人工 Gate。
+- Agent 的輸出有 evidence 與HITL 人類審核。
 - Agent 有維運 Runbook。
 
 ### 6.2 Deliverables
@@ -290,7 +292,7 @@ L4 完成不是「有一個 Agent demo」，而是：
 - Agent 無法追溯資料來源。
 - 沒有 Wiki / schema。
 - 只能聊天，無 ingest/query/update/briefing。
-- 沒有人工 Gate。
+- 沒有HITL 人類審核。
 - 沒有 Runbook。
 
 ### 6.6 Next Level Entry Criteria
@@ -312,7 +314,7 @@ L5 完成不是「有很多 Agent」，而是：
 
 - 多個 Agent 有清楚角色分工。
 - 有任務分派、協作、整合與 Reviewer。
-- 有人工 Gate 與管理層審核。
+- 有HITL 人類審核 與管理層審核。
 - 有 ROI / KPI 衡量。
 - 能產出跨部門整合報告或決策支援成果。
 
@@ -353,7 +355,7 @@ L5 完成不是「有很多 Agent」，而是：
 
 - 多個 Agent 沒有角色分工。
 - 沒有 Reviewer。
-- 沒有人工 Gate。
+- 沒有HITL 人類審核。
 - 沒有整合輸出。
 - 無法量化或說明 ROI。
 - L4 Agent 尚未穩定就進入 L5。

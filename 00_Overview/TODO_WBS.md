@@ -1,6 +1,6 @@
 # AI 轉型成熟度顧問方案 TODO / WBS
 
-更新日期：2026-05-14（Batch 1-3 完成）
+更新日期：2026-05-15（GenAI 改名 + L1-L5 兩條軸精煉 + 目錄 README_EN 同步）
 
 ## 0. 目標
 
@@ -257,8 +257,9 @@
 | WBS §1-§13（P0/P1/P2） | ✅ 全部 Done |
 | TODO §4.1-§4.6 | ✅ 全部 Done（2 項標 "未做" 為需外部資源：Google Form 部署、設計師視覺檔） |
 | 案例庫產業數 | 7（製造/醫院/行銷/B2B/金融/政府/教育） |
-| Git：已 push | Batch 1-5、匿名化、TODO 紀錄、EN siblings 全套、agency-agents+n8n-skill-pack 整合（截至 `db42c15`） |
-| Git：本地待 push | L4 starter-kit 整理 + L2/L3/L4 EN 更新 + 2 reference EN + 本次 TODO 更新（尚未 commit） |
+| Git：已 push | …（截至 `db42c15`）；2026-05-15 大批次：8 目錄 README 改寫、改名 GenAI、問卷白話化、14 個 `_EN` sibling、L1-L5 兩條軸精煉（截至 `2604a37`） |
+| Git：本地待 push | 7 目錄 README_EN 同步 + DELIVERY_PACKAGE L1-L3/L4-L5 交付範圍 + Gate 術語清理 + 本次 TODO 更新 |
+| 專案名稱 | **GenAI Consulting Methodology Toolkit**（2026-05-15 由 `AI Consulting…` 改名）|
 
 ## 8. 下一輪候選
 
@@ -328,3 +329,22 @@
 
 - 截至 commit `db42c15` 已 push。
 - 本輪（L4 整理 + EN 同步 + TODO 更新 + 26 PoC 骨架）尚未 commit，等使用者指示。
+
+#### 後續大批次（同日）/ Same-day major batch
+
+- **8 個目錄 README 全面改寫**（commit `43ffa09`）：統一結構（定位 / 方法論位置 / 目標效益 / 使用流程 / 檔案說明 / 目錄對應 / 常見情境）。
+- **新增 06_Delivery 接案營運層**（commit `43ffa09`）：ENGAGEMENT_LIFECYCLE、DELIVERY_ROLE_SOPS、BUSINESS_DOCUMENT_TEMPLATES、DELIVERY_CHECKLISTS、PRICING_AND_RISK（改寫自 Mirza Iqbal / next8n.com，MIT）+ `90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`。
+- **新增 04_Scenarios/LLM_APPS_CASE_INDEX.md**（commit `43ffa09`）：150+ LLM 應用案例，雙軸查詢（L1-L5 / 部門）；+ awesome-llm-apps、ai-engineering-hub 兩個 reference 檔。
+- **身份署名加 QUT**：NOTICE / README / 90_References / 銷售簡報全部加註「QUT 澳洲昆士蘭科技大學 資工碩士」。
+- **專案改名**（commit `25ecc4e`）：`AI Consulting Methodology Toolkit` → `GenAI Consulting Methodology Toolkit`（GenAI＝LLM-based，與傳統深度學習數理 AI 區隔）；全 repo 50 檔的名稱與 GitHub URL 一併更新（org 統一 MorrisLu-Taipei、slug 改 GenAI-）；git remote URL 已更新。
+- **問卷白話化**（commit `25ecc4e` / `b26899f`）：`AI_MATURITY_QUESTIONNAIRE`(.md/_EN) 新增「給填答者的話」+「名詞小辭典」（24 術語）+ 10 題加 0/2/4 情境錨點 + 25/50 題加白話舉例；`FILLABLE_QUESTIONNAIRE`(.md/_EN) 加每題 help text 原則。
+- **補齊 14 個缺漏 `_EN` sibling**（commit `b26899f`）：06_Delivery x5、90_References reference x5、CONSULTING_FRAMEWORKS_LIBRARY_EN、REPORT_PRODUCTION_WORKFLOW_EN、LLM_APPS_CASE_INDEX_EN、90_References/README_EN。
+- **L1-L5 兩條軸概念精煉**（commit `2604a37`）：L1-L5 重新定位為兩條軸 —— 規模軸（L1 個人 → L2 部門 → L3 跨部門 / 全公司，人監督 AI）+ AI 自主軸（L4 AI 超級助理 → L5 AI 團隊，AI 營運自主、人退為治理者）；關鍵分界 L3→L4；強調 L4-L5 治理仍由人建立、人保有監督權。新增「兩條軸故事」至 `00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE`（中英）。
+- **Gate 術語白話化**：人工 Gate → HITL（Human-in-the-Loop，人類在迴圈內審核）；Stage Gate → 階段驗收關卡。貫徹至定義型檔案（根 README、故事、L1_L5_COMPLETE、02 README、SCORING_MODEL、DELIVERABLES_AND_EVIDENCE_MATRIX，皆含 `_EN`）。
+- **7 個目錄 README_EN 同步**：00-06 的 README_EN 全部重寫至與中文完整版對應，並納入兩條軸概念。
+- **公開誠實版交付範圍**：`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE`(.md/_EN) §1.1 —— L1-L3 實作並驗收的交付 vs L4-L5 框架與顧問引導。
+
+#### 下一步 / Next（2026-05-15 大批次後）
+
+- 一致性已掃描（名稱 / URL / Gate 術語乾淨）。
+- 待 commit & push 本批次（7 目錄 README_EN + DELIVERY_PACKAGE + Gate 清理 + 本 TODO 更新），並切 GitHub Release。
