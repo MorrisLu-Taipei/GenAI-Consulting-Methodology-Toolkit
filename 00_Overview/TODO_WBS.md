@@ -214,28 +214,61 @@
 
 ---
 
-## 6. Batch 1-3 變更清單（給 reviewer）
+## 6. 變更紀錄 / Change Log（給 reviewer）
 
-### Batch 1（已 push, commit `8795bfc`）
+### Batch 1 — commit `8795bfc` ✅ 已 push
 
-- `05_Sales/ONE_PAGER_OUTLINE.md`
-- `05_Sales/EXECUTIVE_DECK_OUTLINE.md`
-- `05_Sales/STANDARD_SALES_DECK_OUTLINE.md`
-- `05_Sales/CONSULTING_METHODOLOGY_DECK_OUTLINE.md`
-- `05_Sales/VISUAL_ASSETS_SPEC.md`
-- `05_Sales/SALES_FAQ.md`
-- `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md`
-- `01_Assessment/FILLABLE_QUESTIONNAIRE.md`
+| 檔案 | 內容 |
+| --- | --- |
+| `05_Sales/ONE_PAGER_OUTLINE.md` | 一頁式銷售素材內容稿 + 版型 brief |
+| `05_Sales/EXECUTIVE_DECK_OUTLINE.md` | 10 頁高階主管簡報大綱 |
+| `05_Sales/STANDARD_SALES_DECK_OUTLINE.md` | 20 頁標準銷售簡報大綱 |
+| `05_Sales/CONSULTING_METHODOLOGY_DECK_OUTLINE.md` | 30 頁顧問方法論簡報大綱 |
+| `05_Sales/VISUAL_ASSETS_SPEC.md` | 3 視覺素材 ASCII 規格 + 設計師 brief |
+| `05_Sales/SALES_FAQ.md` | 20 題對外銷售 FAQ |
+| `01_Assessment/AI_DIAGNOSIS_SHEETS_SCHEMA.md` | Google Sheets / Notion / n8n 自動診斷 schema |
+| `01_Assessment/FILLABLE_QUESTIONNAIRE.md` | 10/25/50 題可填寫問卷規格 |
 
-### Batch 2（本地，未 push）
+### Batch 2+3 — commit `42df8cd` ⏳ 本地，未 push
 
-- `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`
-- `02_Course_Design/POC_SCENARIO_SPECS.md`
-- `01_Assessment/COMPANY_PROFILE_QUESTIONNAIRE.md`
-- `04_Scenarios/INDUSTRY_SCENARIOS.md`
+| 檔案 | 內容 |
+| --- | --- |
+| `03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md` | 八階段顧問工具表（訪談題庫、盤點表、矩陣、worksheet、checklist、6 週排程） |
+| `02_Course_Design/POC_SCENARIO_SPECS.md` | 6 系統 30 個 PoC 細稿 + Selection Guide |
+| `01_Assessment/COMPANY_PROFILE_QUESTIONNAIRE.md` | 35 題公司屬性問卷 + JSON Bundle + 推導規則 |
+| `04_Scenarios/INDUSTRY_SCENARIOS.md` | 零售/教育/物流/軟體/專業服務 5 產業 Top 10 場景 |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md` | Atlas Digital 雅圖數位完整案例 |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md` | OptiFlow Industrial 智控工業完整案例 |
+| `00_Overview/TODO_WBS.md` | WBS 重整、TODO 4.1-4.6 對帳 |
 
-### Batch 3（本地，未 push）
+### Batch 4 — commit `778bb03` ⏳ 本地，未 push
 
-- `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`
-- `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md`
-- `00_Overview/TODO_WBS.md`（本檔）— 重整狀態
+| 檔案 | 內容 |
+| --- | --- |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_FINANCIAL.md` | 恆豐銀行（2,500 人區域銀行，全地端、雙審、ROI ~358%） |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_GOVERNMENT.md` | 某市政府數位局（22 局處、800 人先導、三審、24 個月） |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_EDUCATION.md` | 明德科技大學（600 教職員/8,000 學生、Hybrid、學術倫理） |
+| `00_Overview/TODO_WBS.md` | §5 item 5 標記 Done |
+
+## 7. 目前狀態總覽 / Current Status
+
+| 項目 | 狀態 |
+| --- | --- |
+| WBS §1-§13（P0/P1/P2） | ✅ 全部 Done |
+| TODO §4.1-§4.6 | ✅ 全部 Done（2 項標 "未做" 為需外部資源：Google Form 部署、設計師視覺檔） |
+| 案例庫產業數 | 7（製造/醫院/行銷/B2B/金融/政府/教育） |
+| Git：已 push | Batch 1 (`8795bfc`) |
+| Git：本地待 push | Batch 2+3 (`42df8cd`)、Batch 4 (`778bb03`) |
+| 待 review 後決定 | 是否 push `42df8cd` + `778bb03` |
+
+## 8. 下一輪候選（Batch 5+）
+
+| # | 項目 | 可由 AI 主執行緒完成？ |
+| --- | --- | --- |
+| 1 | EN `_EN.md` sibling 補齊（Batch 1-4 新檔） | ✅ 可（量大，需多輪） |
+| 2 | Google Form / Tally 實際部署 | ❌ 需客戶 Google 帳號 |
+| 3 | n8n template JSON export（PoC → 可匯入檔） | ✅ 可 |
+| 4 | 設計師交付（pptx / Figma / PNG） | ❌ 需設計師 |
+| 5 | ~~更多客戶案例（金融/政府/教育）~~ | ✅ Done（Batch 4） |
+| 6 | L4 Hermes Agent starter-kit 整理 | ✅ 可（若採用 Hermes） |
+| 7 | L5 ClawTeam 實作 walkthrough（`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`） | ✅ 可 |
