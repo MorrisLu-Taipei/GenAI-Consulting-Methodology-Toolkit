@@ -9,6 +9,8 @@ Role: **n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent M
 
 License summary: this project is released under the **[Apache License 2.0](LICENSE)**. You may use, copy, modify, redistribute, and commercialize it; when redistributing, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE).
 
+> **Only have 5 minutes?** Read [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) first — the whole methodology on one page.
+
 ## Read This as a Living Book: Read It With AI
 
 This repo is a **living book**. `git clone` it or download the zip, and open it in an AI IDE (Antigravity / Claude Code / Codex, etc.) — the AI automatically reads [`AGENTS.md`](AGENTS.md) (and [`CLAUDE.md`](CLAUDE.md)) and acts as the **co-reading tutor** for this methodology.

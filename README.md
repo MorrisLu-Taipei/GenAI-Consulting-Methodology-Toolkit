@@ -9,6 +9,8 @@
 
 授權摘要：本專案採用 **[Apache License 2.0](LICENSE)**。可自由使用、複製、修改、再散布與商業化；再散布時請保留 Apache 2.0 授權文字與 [`NOTICE`](NOTICE) 中的作者署名。
 
+> **只有 5 分鐘？** 先讀 [`00_Overview/EXECUTIVE_SUMMARY.md`](00_Overview/EXECUTIVE_SUMMARY.md) —— 一頁看懂這套方法論。
+
 ## 把這本書讀活：和 AI 一起讀
 
 這個 repo 是一本**活起來的書**。把它 `git clone` 或下載 zip 回來，用 AI IDE（Antigravity / Claude Code / Codex 等）打開 —— AI 會自動讀 [`AGENTS.md`](AGENTS.md)（與 [`CLAUDE.md`](CLAUDE.md)），把自己定位成**這套方法論的共讀導師**。
