@@ -1,7 +1,7 @@
 # LLM 應用案例索引表 / LLM Apps Case Index
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **參考來源 / Reference Sources（多來源索引）:**
 > - [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps)（Apache-2.0，Shubham Saboo）— 100+ 可執行 AI Agent / RAG app。引用見 [`../90_References/AWESOME_LLM_APPS_REFERENCE.md`](../90_References/AWESOME_LLM_APPS_REFERENCE.md)。

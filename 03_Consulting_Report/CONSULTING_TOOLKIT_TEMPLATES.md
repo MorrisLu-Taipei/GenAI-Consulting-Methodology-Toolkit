@@ -1,7 +1,7 @@
 # 八階段顧問診斷工具表 / Eight-Stage Consulting Toolkit Templates
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔提供八階段顧問方法論的 **可直接使用工具表**：訪談題庫、盤點表、矩陣、worksheet、checklist。每個 Stage 對應 1-4 個工具。顧問可直接複製到 Notion / Google Docs / Word 開始用。
 

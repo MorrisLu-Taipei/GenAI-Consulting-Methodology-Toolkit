@@ -1,7 +1,7 @@
 # 範例客戶案例：金融業 / Sample Client Case: Financial Services
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **本案例為示範用途，客戶以代號 "區域銀行 F" 表示（非真實公司名）。內容綜合自多家真實金融客戶之挑戰與解法，數字為示範值。**
 > Sample case for illustration. Client referred to by the code "Regional Bank F" (not a real company name).

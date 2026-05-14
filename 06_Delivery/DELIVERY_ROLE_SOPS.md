@@ -1,7 +1,7 @@
 # 交付角色 SOP / Delivery Role SOPs
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **引用備註 / Attribution:** 本角色 SOP 之 7 角色架構，參考並改寫自 **Mirza Iqbal**（next8n.com）之 *Workflow Automation Delivery Framework*（MIT License），已重新以本方法論語言改寫並對應 AI 轉型顧問情境。引用見 [`../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`](../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md)。
 

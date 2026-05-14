@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [INDUSTRY_SCENARIOS.md](INDUSTRY_SCENARIOS.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Recommended AI scenarios for 5 industries: retail, education, logistics, software, and professional services. Each section covers an industry intro, L1-L5 maturity baseline, Top 10 recommended scenarios, risk & governance, a 30-day quick win, and anti-patterns.
 

@@ -1,7 +1,7 @@
 # 產業推薦場景 / Industry Recommended Scenarios
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔涵蓋 5 個產業之推薦 AI 場景：零售、教育、物流、軟體、專業服務。每個產業含產業簡介、L1-L5 成熟度基線、Top 10 推薦場景、風險與治理、30 天 quick win、anti-patterns。
 

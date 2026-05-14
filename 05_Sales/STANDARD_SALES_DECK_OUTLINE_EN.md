@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [STANDARD_SALES_DECK_OUTLINE.md](STANDARD_SALES_DECK_OUTLINE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Audience: department managers, PMs, IT lead, HR, AI Champion
 Duration: 35-45 min

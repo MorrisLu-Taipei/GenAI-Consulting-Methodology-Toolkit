@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [SALES_FAQ.md](SALES_FAQ.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 The 20 questions clients most often ask during sales conversations, with standard answers.
 
@@ -90,4 +90,4 @@ Fill in the 10-question survey → a 30-minute 1-on-1 debrief → a customized p
 
 ---
 
-Contact: Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+Contact: Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>

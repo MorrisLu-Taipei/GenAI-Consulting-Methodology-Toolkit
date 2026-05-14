@@ -1,4 +1,4 @@
-# AI Consulting Methodology Toolkit
+# GenAI Consulting Methodology Toolkit
 
 Language: [繁體中文](README.md) | English
 
@@ -118,7 +118,7 @@ When redistributing, adapting, packaging commercially, using in course materials
 ```text
 Original Author: Tiger AI Morris Lu 盧業興
 Role: n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology
-Source: https://github.com/TigerAI-Taiwan/AI-Consulting-Methodology-Toolkit
+Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 
 Third-party platform names, trademarks, videos, external projects, and cited materials remain the property of their respective owners.

@@ -1,7 +1,7 @@
 # 視覺素材規格 / Visual Assets Specification
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔提供 3 個對外視覺素材的 ASCII / Markdown 規格與設計師 brief，可交付 designer 製作高解析版本（SVG / PNG / 印刷檔）。
 

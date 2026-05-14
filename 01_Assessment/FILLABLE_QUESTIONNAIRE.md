@@ -1,7 +1,7 @@
 # 可填寫問卷規格 / Fillable Questionnaire Specifications
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 把 `AI_MATURITY_QUESTIONNAIRE.md` 內的 10/25/50 題版本，改成可在 Google Form / Tally / Notion Form 直接渲染的 form spec。Schema 同步至 `AI_DIAGNOSIS_SHEETS_SCHEMA.md`。
 

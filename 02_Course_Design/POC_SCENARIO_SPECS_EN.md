@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [POC_SCENARIO_SPECS.md](POC_SCENARIO_SPECS.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 An **implementable PoC scenario library** for the L3 Workflow AI and L4 Hermes Agent courses. 30 PoCs across 6 systems, each completable in 1-3 work days, with full input/output, AI steps, KPIs, and n8n node sequences.
 

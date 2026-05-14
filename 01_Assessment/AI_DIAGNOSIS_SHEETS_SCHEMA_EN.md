@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [AI_DIAGNOSIS_SHEETS_SCHEMA.md](AI_DIAGNOSIS_SHEETS_SCHEMA.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Implementation schemas for automating the AI maturity diagnostic across three platforms: Google Sheets, Notion, and n8n. This makes the path from questionnaire submission to auto-generated diagnostic summary fully automatable.
 

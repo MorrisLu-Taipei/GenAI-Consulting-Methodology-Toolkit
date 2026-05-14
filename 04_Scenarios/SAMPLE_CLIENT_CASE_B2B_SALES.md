@@ -1,7 +1,7 @@
 # 範例客戶案例：B2B 業務 / Sample Client Case: B2B Sales
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **本案例為示範用途，客戶以代號 "工業設備商 B" 表示（非真實公司名）。內容綜合自多家真實 B2B 客戶之挑戰與解法，數字為示範值。**
 > Sample case for illustration. Client referred to by the code "Industrial Vendor B" (not a real company name).

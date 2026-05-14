@@ -1,7 +1,7 @@
 # 顧問接案生命週期 / Consulting Engagement Lifecycle
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **引用備註 / Attribution:** 本接案生命週期、7 Pillars、Sales→Delivery→Support 三階段架構，參考並改寫自 **Mirza Iqbal**（next8n.com）之 *Workflow Automation Delivery Framework*（MIT License）。本檔在其基礎上**重新以本方法論語言改寫，並從「n8n 自動化交付」generalize 為「L1-L5 AI 轉型顧問交付」**，對應八階段顧問結構。引用與授權說明見 [`../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`](../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md)。
 > The engagement lifecycle, 7 Pillars, and Sales→Delivery→Support three-phase structure are referenced from and rewritten based on **Mirza Iqbal**'s (next8n.com) *Workflow Automation Delivery Framework* (MIT License), re-expressed in this methodology's language and generalized from "n8n automation delivery" to "L1-L5 AI transformation consulting delivery."

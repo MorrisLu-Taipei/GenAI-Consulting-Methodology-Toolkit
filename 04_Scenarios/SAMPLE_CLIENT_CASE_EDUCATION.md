@@ -1,7 +1,7 @@
 # 範例客戶案例：教育機構 / Sample Client Case: Education Institution
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **本案例為示範用途，客戶以代號 "科技大學 E" 表示（非真實機構名）。內容綜合自多個真實教育客戶之挑戰與解法，數字為示範值。**
 > Sample case for illustration. Client referred to by the code "University E" (not a real institution name).

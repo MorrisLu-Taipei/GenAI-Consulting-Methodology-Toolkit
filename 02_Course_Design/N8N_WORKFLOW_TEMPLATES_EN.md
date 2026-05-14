@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [N8N_WORKFLOW_TEMPLATES.md](N8N_WORKFLOW_TEMPLATES.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Turns the PoCs from [`POC_SCENARIO_SPECS.md`](POC_SCENARIO_SPECS.md) into importable n8n workflow skeletons (JSON), plus the standard process for sharing, version-controlling, and backing them up in class.
 

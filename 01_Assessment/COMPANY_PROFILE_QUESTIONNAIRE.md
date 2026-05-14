@@ -1,7 +1,7 @@
 # 公司屬性問卷 / Company Profile Questionnaire
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/company/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 把 `02_Course_Design/COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` 內容轉成 35 題可填寫問卷，輸出 **Company Profile Bundle (JSON)** 與成熟度問卷 (`AI_MATURITY_QUESTIONNAIRE.md`) 結果合併供顧問使用。
 

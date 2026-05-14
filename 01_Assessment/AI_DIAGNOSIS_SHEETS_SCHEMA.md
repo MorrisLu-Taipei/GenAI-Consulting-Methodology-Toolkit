@@ -1,7 +1,7 @@
 # AI 診斷自動化欄位設計 / AI Diagnosis Automation Schema
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔提供 AI 成熟度診斷在三個平台的實作 schema：Google Sheets、Notion、n8n。讓問卷填答到自動產生診斷摘要可全程自動化。
 

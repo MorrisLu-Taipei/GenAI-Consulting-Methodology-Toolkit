@@ -1,7 +1,7 @@
 # 高階主管版簡報大綱 (10 頁) / Executive Deck Outline (10 slides)
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 對象 / Audience: CEO · COO · CIO · CTO · Board Member
 時長 / Duration: 15-20 min
@@ -200,7 +200,7 @@ We start with a 10-question survey — 30 minutes and you'll have a direction.
 
 **Contact:**
 - 📩 Morris Lu (盧業興) · Tiger AI 虎智科技
-- 🔗 <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+- 🔗 <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 **視覺:** QR code (問卷連結) + 聯絡資訊
 

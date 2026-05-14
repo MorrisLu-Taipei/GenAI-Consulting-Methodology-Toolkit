@@ -1,4 +1,4 @@
-# AI Consulting Methodology Toolkit
+# GenAI Consulting Methodology Toolkit
 
 語言選單：繁體中文 | [English](README_EN.md)
 
@@ -158,7 +158,7 @@ Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 ```text
 原作者：Tiger AI Morris Lu 盧業興
 身份：n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生 / QUT 澳洲昆士蘭科技大學 資工碩士
-來源：https://github.com/TigerAI-Taiwan/AI-Consulting-Methodology-Toolkit
+來源：https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 
 第三方平台名稱、商標、影片、外部專案與引用內容仍屬於各自權利人。本 repo 對第三方資料僅做學習紀錄、引用、整理與課程設計參考。

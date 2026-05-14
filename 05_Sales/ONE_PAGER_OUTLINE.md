@@ -1,7 +1,7 @@
 # 對外一頁式銷售素材 / One-Pager Outline
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔提供一頁式 PDF / 印刷品的內容稿與版型建議。長度約 600 字（中英並陳）。
 
@@ -81,7 +81,7 @@ Subtitle: Use the L1-L5 maturity model to evolve AI from individual usage to aut
 ## 9. CTA / 聯絡
 
 - 📩 聯絡作者 / Contact: Morris Lu (盧業興) · Tiger AI 虎智科技
-- 📄 完整方法論 / Full methodology: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+- 📄 完整方法論 / Full methodology: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 - ⚖️ 授權 / License: Apache 2.0 (open source, attribution required)
 
 ---

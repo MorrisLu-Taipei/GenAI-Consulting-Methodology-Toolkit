@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [FILLABLE_QUESTIONNAIRE.md](FILLABLE_QUESTIONNAIRE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Renders the 10/25/50-question versions of `AI_MATURITY_QUESTIONNAIRE.md` as form specs for Google Form / Tally / Notion Form. The schema aligns with `AI_DIAGNOSIS_SHEETS_SCHEMA.md`.
 

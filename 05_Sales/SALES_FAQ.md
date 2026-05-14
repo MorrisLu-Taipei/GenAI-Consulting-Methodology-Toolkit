@@ -1,7 +1,7 @@
 # 對外銷售 FAQ / Sales FAQ
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 對外銷售過程客戶最常問的 20 個問題與標準回答。每題附中英文兩段。
 
@@ -111,4 +111,4 @@ The 20 questions clients most often ask during sales conversations, with standar
 
 ---
 
-聯絡 / Contact: Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+聯絡 / Contact: Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>

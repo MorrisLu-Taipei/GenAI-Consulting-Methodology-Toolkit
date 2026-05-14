@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [CLAWTEAM_WALKTHROUGH.md](CLAWTEAM_WALKTHROUGH.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > This document walks through running a complete cross-functional Agent Team with **ClawTeam** (HKUDS, MIT License). Citation & license: see [`90_References/CLAWTEAM_REFERENCE.md`](../90_References/CLAWTEAM_REFERENCE.md). ClawTeam upstream: <https://github.com/HKUDS/ClawTeam>
 

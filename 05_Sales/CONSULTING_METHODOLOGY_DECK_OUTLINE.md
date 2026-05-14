@@ -1,7 +1,7 @@
 # 顧問方法論版簡報大綱 (30 頁) / Consulting Methodology Deck Outline (30 slides)
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 對象 / Audience：CIO · 策略長 · 大型企業數位轉型辦公室 · 學術同行
 Duration：60-75 min

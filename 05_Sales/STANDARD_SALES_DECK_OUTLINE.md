@@ -1,7 +1,7 @@
 # 標準銷售版簡報大綱 (20 頁) / Standard Sales Deck Outline (20 slides)
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 對象 / Audience：部門主管、PM、IT Lead、HR、AI Champion
 Duration：35-45 min

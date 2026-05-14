@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [CONSULTING_TOOLKIT_TEMPLATES.md](CONSULTING_TOOLKIT_TEMPLATES.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 This document provides **ready-to-use toolkit templates** for the eight-stage consulting methodology: interview question banks, inventories, matrices, worksheets, and checklists. Each stage maps to 1-4 tools. Consultants can copy them directly into Notion / Google Docs / Word and start using them.
 

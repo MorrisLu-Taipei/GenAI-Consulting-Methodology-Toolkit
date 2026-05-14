@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [SAMPLE_CLIENT_CASE_EDUCATION.md](SAMPLE_CLIENT_CASE_EDUCATION.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **Sample case for illustration. The client is referred to by the code "University E" (not a real institution name). Content is synthesized from multiple real education engagements; numbers are illustrative.**
 

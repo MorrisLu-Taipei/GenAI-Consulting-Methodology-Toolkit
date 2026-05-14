@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [ONE_PAGER_OUTLINE.md](ONE_PAGER_OUTLINE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Content draft and layout brief for the single-page PDF / printed one-pager. ~600 words.
 
@@ -72,7 +72,7 @@ Subtitle: Use the L1-L5 maturity model to evolve AI from individual usage to aut
 ## 9. CTA / Contact
 
 - 📩 Contact: Morris Lu (盧業興) · Tiger AI 虎智科技
-- 📄 Full methodology: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+- 📄 Full methodology: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 - ⚖️ License: Apache 2.0 (open source, attribution required)
 
 ---

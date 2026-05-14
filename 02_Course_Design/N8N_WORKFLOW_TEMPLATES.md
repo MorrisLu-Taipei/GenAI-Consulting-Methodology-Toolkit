@@ -1,7 +1,7 @@
 # n8n Workflow 範本與匯入指南 / n8n Workflow Templates & Import Guide
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 本檔把 [`POC_SCENARIO_SPECS.md`](POC_SCENARIO_SPECS.md) 中的 PoC 整理成可匯入 n8n 的 workflow 範本骨架（JSON skeleton），以及在課堂上分享、版本控制、備份的標準流程。
 

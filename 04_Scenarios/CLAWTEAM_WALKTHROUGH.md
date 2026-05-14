@@ -1,7 +1,7 @@
 # L5 ClawTeam 實作 Walkthrough / L5 ClawTeam Hands-On Walkthrough
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > 本檔示範以 **ClawTeam** (HKUDS, MIT License) 跑通一個跨部門 Agent Team 的完整流程。
 > 引用與授權詳見 [`90_References/CLAWTEAM_REFERENCE.md`](../90_References/CLAWTEAM_REFERENCE.md)。

@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [EXECUTIVE_DECK_OUTLINE.md](EXECUTIVE_DECK_OUTLINE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Audience: CEO · COO · CIO · CTO · Board Member
 Duration: 15-20 min
@@ -181,7 +181,7 @@ Pricing discussed individually in the proposal phase.
 - Step 2: 30-minute 1-on-1 debrief + preliminary recommendations
 - Step 3: customized proposal
 
-**Contact:** Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+**Contact:** Morris Lu (盧業興) · Tiger AI 虎智科技 · <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 **Visual:** QR code (survey link) + contact info
 

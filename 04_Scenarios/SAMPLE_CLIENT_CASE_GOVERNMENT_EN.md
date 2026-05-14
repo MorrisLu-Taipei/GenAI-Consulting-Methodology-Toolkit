@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [SAMPLE_CLIENT_CASE_GOVERNMENT.md](SAMPLE_CLIENT_CASE_GOVERNMENT.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **Sample case for illustration. The client is referred to by the code "City Digital Bureau G" (not a real agency name). Content is synthesized from multiple real public-sector engagements; numbers are illustrative.**
 

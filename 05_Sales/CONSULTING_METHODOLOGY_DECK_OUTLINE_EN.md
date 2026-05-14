@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [CONSULTING_METHODOLOGY_DECK_OUTLINE.md](CONSULTING_METHODOLOGY_DECK_OUTLINE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Audience: CIO · Chief Strategy Officer · large-enterprise digital transformation office · academic peers
 Duration: 60-75 min

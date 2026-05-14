@@ -1,7 +1,7 @@
 # 經典顧問框架庫 / Consulting Frameworks Library
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **引用備註 / Attribution:** 本框架庫之框架清單與分類，參考並改寫自 [`yoichiojima-2/consultant`](https://github.com/yoichiojima-2/consultant)（MIT License）。本檔在其基礎上，**重新以本方法論的語言改寫，並對應到我方八階段顧問結構與 L1-L5 成熟度模型**。引用與授權說明見 [`../90_References/CONSULTANT_FRAMEWORKS_REFERENCE.md`](../90_References/CONSULTANT_FRAMEWORKS_REFERENCE.md)。
 > The framework list and taxonomy in this library are referenced from and rewritten based on [`yoichiojima-2/consultant`](https://github.com/yoichiojima-2/consultant) (MIT License), re-expressed in this methodology's language and mapped onto our eight-stage consulting structure and L1-L5 maturity model.

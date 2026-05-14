@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [COMPANY_PROFILE_QUESTIONNAIRE.md](COMPANY_PROFILE_QUESTIONNAIRE.md)
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
 Converts `02_Course_Design/COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` into a 35-question fillable form. The output is a **Company Profile Bundle (JSON)** which joins with the maturity questionnaire (`AI_MATURITY_QUESTIONNAIRE.md`) result by `submission_id` for consultant use.
 

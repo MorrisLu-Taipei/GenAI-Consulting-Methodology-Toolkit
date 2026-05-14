@@ -1,7 +1,7 @@
 # 顧問報告/簡報生產工作流 / Consulting Report & Deck Production Workflow
 
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+> Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 >
 > **引用備註 / Attribution:** 本工作流之 8 步生產流程、Dummy Page、依賴管理、7 頁面版型、progressive disclosure 等概念，參考並改寫自 [`Kafurtan/mckinsey-consultant-skills`](https://github.com/Kafurtan/mckinsey-consultant-skills)（MIT License）。本檔在其基礎上**重新以本方法論語言改寫，並對應到八階段顧問結構、`CONSULTING_REPORT_TEMPLATE.md` 與 3 套 deck outline**。引用與授權說明見 [`../90_References/MCKINSEY_SKILLS_REFERENCE.md`](../90_References/MCKINSEY_SKILLS_REFERENCE.md)。
 > The 8-step production workflow, Dummy Page, dependency awareness, 7 page layouts, and progressive-disclosure concepts in this document are referenced from and rewritten based on [`Kafurtan/mckinsey-consultant-skills`](https://github.com/Kafurtan/mckinsey-consultant-skills) (MIT License), re-expressed in this methodology's language and mapped onto our eight-stage consulting structure.
