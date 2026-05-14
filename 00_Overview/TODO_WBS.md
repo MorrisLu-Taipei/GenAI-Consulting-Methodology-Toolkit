@@ -179,8 +179,8 @@
 
 - [x] 製造業案例（原已完成）
 - [x] 醫院案例（原已完成）
-- [x] 行銷服務業案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`（Atlas Digital 雅圖數位）
-- [x] B2B 業務案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md`（OptiFlow Industrial 智控工業）
+- [x] 行銷服務業案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md`（代號：代理商 M）
+- [x] B2B 業務案例 → `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md`（代號：工業設備商 B）
 
 ### 4.5 對外銷售素材 — Done
 
@@ -237,17 +237,17 @@
 | `02_Course_Design/POC_SCENARIO_SPECS.md` | 6 系統 30 個 PoC 細稿 + Selection Guide |
 | `01_Assessment/COMPANY_PROFILE_QUESTIONNAIRE.md` | 35 題公司屬性問卷 + JSON Bundle + 推導規則 |
 | `04_Scenarios/INDUSTRY_SCENARIOS.md` | 零售/教育/物流/軟體/專業服務 5 產業 Top 10 場景 |
-| `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md` | Atlas Digital 雅圖數位完整案例 |
-| `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md` | OptiFlow Industrial 智控工業完整案例 |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_MARKETING_AGENCY.md` | 行銷代理商完整案例（代號：代理商 M） |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_B2B_SALES.md` | B2B 工業完整案例（代號：工業設備商 B） |
 | `00_Overview/TODO_WBS.md` | WBS 重整、TODO 4.1-4.6 對帳 |
 
 ### Batch 4 — commit `778bb03` ⏳ 本地，未 push
 
 | 檔案 | 內容 |
 | --- | --- |
-| `04_Scenarios/SAMPLE_CLIENT_CASE_FINANCIAL.md` | 恆豐銀行（2,500 人區域銀行，全地端、雙審、ROI ~358%） |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_FINANCIAL.md` | 金融業完整案例（代號：區域銀行 F，2,500 人，全地端、雙審、ROI ~358%） |
 | `04_Scenarios/SAMPLE_CLIENT_CASE_GOVERNMENT.md` | 某市政府數位局（22 局處、800 人先導、三審、24 個月） |
-| `04_Scenarios/SAMPLE_CLIENT_CASE_EDUCATION.md` | 明德科技大學（600 教職員/8,000 學生、Hybrid、學術倫理） |
+| `04_Scenarios/SAMPLE_CLIENT_CASE_EDUCATION.md` | 教育機構完整案例（代號：科技大學 E，600 教職員/8,000 學生、Hybrid、學術倫理） |
 | `00_Overview/TODO_WBS.md` | §5 item 5 標記 Done |
 
 ## 7. 目前狀態總覽 / Current Status

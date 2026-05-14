@@ -3,7 +3,8 @@
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 > Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
 >
-> **本案例為示範用途，化名 "明德科技大學"。內容綜合自多個真實教育客戶之挑戰與解法，數字為示範值。**
+> **本案例為示範用途，客戶以代號 "科技大學 E" 表示（非真實機構名）。內容綜合自多個真實教育客戶之挑戰與解法，數字為示範值。**
+> Sample case for illustration. Client referred to by the code "University E" (not a real institution name).
 
 ---
 
@@ -11,7 +12,7 @@
 
 | 欄位 | 內容 |
 | --- | --- |
-| 機構 (化名) | 明德科技大學 |
+| 機構代號 / Client code | 科技大學 E / University E（私立科技大學，匿名） |
 | 性質 | 私立科技大學 |
 | 規模 | 教職員 600 人（教師 380 / 行政 220）、學生 8,000 人 |
 | 起始 L 級 | L1 |
@@ -176,7 +177,7 @@ CONSTRAINT: 預算 600 萬；學生個資走地端；學術倫理界線明確；
 
 ## 6. 診斷報告摘要
 
-> **核心發現**：明德科大教師個人 AI 接受度高（L1+）但組織零治理零沉澱。教育機構導入特性 — 以「教師減負」破冰最有效，學生個資是不可踩的紅線。建議 18 個月達 L3-L4。
+> **核心發現**：科技大學 E 教師個人 AI 接受度高（L1+）但組織零治理零沉澱。教育機構導入特性 — 以「教師減負」破冰最有效，學生個資是不可踩的紅線。建議 18 個月達 L3-L4。
 >
 > **預期 ROI**：18 個月可量化效益 NT$ 2,400 萬，ROI ≈ 300%。
 

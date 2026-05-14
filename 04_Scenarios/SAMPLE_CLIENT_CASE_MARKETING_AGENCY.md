@@ -3,8 +3,8 @@
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 > Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
 >
-> **本案例為示範用途，使用化名 "Atlas Digital 雅圖數位"。內容綜合自多家真實客戶之挑戰與解法，數字為示範值。**
-> Sample case for illustration. Client alias "Atlas Digital 雅圖數位" — synthesized from multiple real engagements; numbers illustrative.
+> **本案例為示範用途，客戶以代號 "代理商 M" 表示（非真實公司名）。內容綜合自多家真實客戶之挑戰與解法，數字為示範值。**
+> Sample case for illustration. Client referred to by the code "Agency M" (not a real company name) — synthesized from multiple real engagements; numbers illustrative.
 
 ---
 
@@ -12,7 +12,7 @@
 
 | 欄位 | 內容 |
 | --- | --- |
-| 公司名 (化名) | Atlas Digital 雅圖數位 |
+| 客戶代號 / Client code | 代理商 M / Agency M（數位行銷代理商，匿名） |
 | 產業 | 數位行銷代理商 (Performance + Content + Social) |
 | 員工 | 120 人 |
 | 客戶數 | 27 個品牌客戶 (FMCG / 餐飲 / 美妝 / 醫美) |
@@ -127,7 +127,7 @@
 
 ### L4 Hermes Agent (4 週)
 
-**Atlas Onboarding Agent** — 新客戶簽約後啟動：
+**客戶 Onboarding Agent** — 新客戶簽約後啟動：
 - Wiki：產業、過往合作、品牌風格、輿情、競品
 - Skills：上述 #1, #6, #9, #10
 - Workflow：月報 Pipeline、社群輿情
@@ -210,7 +210,7 @@ CONSTRAINT: 預算 480 萬；CMO 為 Sponsor；不可影響當前交付節奏。
 
 ## 6. 診斷報告摘要 / Diagnostic Report Summary
 
-> **核心發現**：Atlas Digital 之 AI 採用為員工主導（L1+，影子 IT 高），組織能力為零（L0）。建議 12 個月內完成 L1→L4 補強，避免再度落後競爭對手。
+> **核心發現**：代理商 M 之 AI 採用為員工主導（L1+，影子 IT 高），組織能力為零（L0）。建議 12 個月內完成 L1→L4 補強，避免再度落後競爭對手。
 >
 > **推薦投資**：NT$ 480 萬（教育訓練 NT$ 280 萬 + 平台 NT$ 80 萬 + 顧問 NT$ 120 萬）。
 >

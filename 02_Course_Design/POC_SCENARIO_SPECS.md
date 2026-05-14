@@ -240,7 +240,7 @@ This document provides an **implementable PoC scenario library** for the L3 Work
 
 ### C-1 — 對話查詢客戶資料 / Conversational Customer Lookup
 
-- Business outcome：業務在 Slack/Teams 問「OptiFlow 上次互動是什麼」立即得答
+- Business outcome：業務在 Slack/Teams 問「客戶 X 上次互動是什麼」立即得答
 - Trigger：Slack mention bot
 - Input：客戶名稱（fuzzy）
 - AI step：Fuzzy match → CRM API → 摘要回覆
