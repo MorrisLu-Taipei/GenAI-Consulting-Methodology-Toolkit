@@ -2,11 +2,16 @@
 
 # L3 n8n Workflow AI Course Plan
 
-Version: v1.0
+Version: v1.1
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 Applicable Level: L3 Workflow AI
-Reference Source: n8n / OpenGenie videos on the TigerAI YouTube channel
-Channel: `https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80TigerAI`
+Reference Sources:
+
+- n8n / OpenGenie videos on the TigerAI YouTube channel
+  Channel: `https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80TigerAI`
+- TigerAI-n8n-Skill-Pack (Morris Lu, TigerAI Proprietary + partial MIT): 13 Skills + 8 cookbook recipes + 2,061 reference workflows that generate n8n workflow JSON from natural language, supporting Antigravity + Claude Code + n8n
+  `https://github.com/MorrisLu-Taipei/TigerAI-n8n-Skill-Pack`
+  Citation and license notice: see [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md)
 
 ---
 
@@ -24,6 +29,17 @@ The L3 spirit conveyed by TigerAI videos is:
 4. Use Sub-workflows to form reusable process modules.
 5. Use Execution Log, GitHub Backup, human gates, and error handling to make the workflow operable.
 6. Finally, hand the working Workflow over to the L4 Hermes Agent to call.
+
+### 1.1 The L3 Course Is Split into a First Half and a Second Half
+
+The L3 course follows a "concepts first, generation second" principle and is split into two halves; students may not skip a half:
+
+| Half | Content | Corresponding Course | Focus |
+|---|---|---|---|
+| **L3 First Half** | n8n / AI-workflow fundamentals and hand-building | §5.1 Foundation, §5.2 Builder | Hand-build Trigger / Node / AI / Gate / Log first, understanding the structure and governance of a workflow |
+| **L3 Second Half** | Generating workflows from natural language with Antigravity (AG) + TigerAI-n8n-Skill-Pack | §5.3 Advanced, §5.5 AG + Skill Pack | On the foundation of understanding structure, use an AI IDE to turn natural-language intent directly into deployable workflow JSON |
+
+> **Why learn the concepts before the Skill Pack:** TigerAI-n8n-Skill-Pack can turn a natural-language "sticky note" directly into workflow JSON, but if students have not first hand-built a workflow in the first half and do not understand the structure of Trigger / Credential / Human Gate / Error Handling, they cannot judge whether the generated result is correct, safe, or operable. **The Skill Pack is an accelerator, not a substitute for understanding.**
 
 ---
 
@@ -120,6 +136,39 @@ Goal: Use the client's own scenario to complete a deliverable PoC.
 | Day 1 PM | Build | Trigger, AI, Data, Platform Action | Workflow PoC |
 | Day 2 AM | Governance | Human Gate, Log, Error, Backup, Credential | Operations and governance |
 | Day 2 PM | Acceptance | Demo, Execution Log, documentation, L4 contract | Gate 3 acceptance |
+
+### 5.5 L3 Second-Half Core: AG + TigerAI-n8n-Skill-Pack: 1 Day
+
+> Citation: [`MorrisLu-Taipei/TigerAI-n8n-Skill-Pack`](https://github.com/MorrisLu-Taipei/TigerAI-n8n-Skill-Pack). Full citation and license notice: see [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md).
+>
+> **Prerequisite: students must first complete the L3 first half (§5.1 Foundation + §5.2 Builder)** and must have hand-built at least 1 workflow that includes Trigger / AI / Human Gate / Error Handling.
+
+Goal: On the foundation of understanding n8n workflow structure, use Antigravity (AG) + TigerAI-n8n-Skill-Pack to turn natural-language intent directly into deployable, verifiable workflow JSON, and learn to review the generated results.
+
+| Time | Topic | Content | Output |
+|---|---|---|---|
+| 45 min | Skill Pack concepts | Three-layer structure (yellow sticky-note intent + blue sticky-note annotations + workflow nodes), DSL v1.2, 13 Skills / 8 cookbook / 2,061 reference workflows | Skill Pack structure notes |
+| 30 min | Install and configure | `install.sh` / `install.ps1`, AG and Claude Code integration, n8n 2.10.3+ | Installation record |
+| 60 min | Cookbook mode | Pick a template from the 8 cookbook recipes, rewrite the intent in natural language | First generated workflow |
+| 75 min | Q&A generation mode | AI-guided requirements gathering → three-layer JSON generation → compare against the L2 Workflow Blueprint | Second generated workflow |
+| 60 min | Reviewing generated results | Use the structural knowledge from the first half to check: Is the Trigger right? Are Credential / Human Gate / Error Handling present? Is it operable? | Generated-result review sheet |
+| 45 min | Example finder | Find similar implementations among the 2,061 reference workflows, compare and borrow | Reference-implementation comparison |
+| 45 min | Deploy and accept | Deploy via the n8n API, run the Execution Log, align with Gate 3 | Execution Log + Gate 3 comparison |
+
+#### 5.5.1 Governance and Red Lines
+
+- TigerAI-n8n-Skill-Pack's `skills/_vendor/` and `reference-workflows/` are **MIT**; the remaining Skills / Cookbook / Spec are **TigerAI Proprietary**. For citation and redistribution, follow [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md).
+- **Generation is not acceptance:** AI-generated workflows must always be reviewed by students using first-half knowledge and must pass Gates 3A-3G; without passing, they cannot be claimed as enterprise-grade PoCs.
+- For sensitive-data scenarios: if a generated workflow contains an LLM node, switch it to an on-prem / Azure OpenAI isolated tenant and prepend redaction.
+- The reference workflows have had secrets scrubbed, but you must still confirm there are no residual internal endpoints / accounts before using them as templates.
+
+#### 5.5.2 §5.5 Deliverables
+
+- TigerAI-n8n-Skill-Pack installation record.
+- At least 2 workflow JSON files generated with AG + Skill Pack (1 in cookbook mode, 1 in Q&A mode).
+- Generated-result review sheet (compared against first-half structural knowledge).
+- Reference-workflow implementation comparison.
+- Deployment Execution Log + Gate 3 comparison sheet.
 
 ---
 

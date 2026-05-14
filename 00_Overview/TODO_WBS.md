@@ -257,21 +257,21 @@
 | WBS §1-§13（P0/P1/P2） | ✅ 全部 Done |
 | TODO §4.1-§4.6 | ✅ 全部 Done（2 項標 "未做" 為需外部資源：Google Form 部署、設計師視覺檔） |
 | 案例庫產業數 | 7（製造/醫院/行銷/B2B/金融/政府/教育） |
-| Git：已 push | Batch 1 (`8795bfc`) |
-| Git：本地待 push | Batch 2+3 (`42df8cd`)、Batch 4 (`778bb03`) |
-| 待 review 後決定 | 是否 push `42df8cd` + `778bb03` |
+| Git：已 push | Batch 1-5、匿名化、TODO 紀錄、EN siblings 全套、agency-agents+n8n-skill-pack 整合（截至 `db42c15`） |
+| Git：本地待 push | L4 starter-kit 整理 + L2/L3/L4 EN 更新 + 2 reference EN + 本次 TODO 更新（尚未 commit） |
 
-## 8. 下一輪候選（Batch 5+）
+## 8. 下一輪候選
 
-| # | 項目 | 可由 AI 主執行緒完成？ |
+| # | 項目 | 狀態 |
 | --- | --- | --- |
-| 1 | EN `_EN.md` sibling 補齊（Batch 1-5 新檔） | ✅ 可（量大，需多輪） |
+| 1 | ~~EN `_EN.md` sibling 補齊（Batch 1-5 新檔）~~ | ✅ Done（19 個 `_EN.md`，commits `f0dc604`~`611f779`） |
 | 2 | Google Form / Tally 實際部署 | ❌ 需客戶 Google 帳號 |
-| 3 | ~~n8n template JSON export~~ | ✅ Done（Batch 5：`N8N_WORKFLOW_TEMPLATES.md`，4 骨架 + 匯入/備份 SOP，其餘 26 PoC 骨架待課程逐步補） |
+| 3 | ~~n8n template JSON export~~ | ✅ Done（`N8N_WORKFLOW_TEMPLATES.md`，4 骨架 + 匯入/備份 SOP；其餘 26 PoC 骨架本輪補齊中） |
 | 4 | 設計師交付（pptx / Figma / PNG） | ❌ 需設計師 |
 | 5 | ~~更多客戶案例（金融/政府/教育）~~ | ✅ Done（Batch 4） |
-| 6 | L4 Hermes Agent starter-kit 整理 | ✅ 可（若採用 Hermes） |
-| 7 | ~~L5 ClawTeam 實作 walkthrough~~ | ✅ Done（Batch 5：`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`，製造業 QA Team 完整流程 + Gate 5 對應） |
+| 6 | ~~L4 Hermes Agent starter-kit 整理~~ | ✅ Done（`L4_HERMES_AGENT_COURSE_PLAN.md` 改版：抽象化具體名稱 + 新增七大設計原則；僅取概念，不含程式碼） |
+| 7 | ~~L5 ClawTeam 實作 walkthrough~~ | ✅ Done（`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`） |
+| 8 | ~~agency-agents 進 L2、TigerAI-n8n-Skill-Pack 進 L3~~ | ✅ Done（commit `db42c15`：L2 §7.6、L3 §1.1+§5.5、2 個 reference 檔） |
 
 ## 9. 工作日誌 / Session Log
 
@@ -301,4 +301,30 @@
 #### 後續追加（同日）/ Same-day follow-ups
 
 - 客戶名稱匿名化（commit `ec3bd54`）：5 個案例的化名全改成代號 M/B/F/E/G。
-- Batch 5（commit 待補）：`04_Scenarios/CLAWTEAM_WALKTHROUGH.md` + `02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`。
+- Batch 5（commit `0ae048f`）：`04_Scenarios/CLAWTEAM_WALKTHROUGH.md` + `02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`。
+- 各資料夾 README 索引更新（commit `1b73551`）。
+
+### 2026-05-15
+
+#### 完成 / Done
+
+- **EN siblings 全套補齊**：Batch 1-5 新增的 19 個檔案全部產出 `_EN.md`（commits `f0dc604` / `bc3f4ec` / `1f3d9a5` / `45565f7` / `611f779`）。
+- **GitHub About 設定**：description、homepage（LinkedIn）、15 個 topics，透過 GitHub API 寫入。
+- **agency-agents 進 L2、TigerAI-n8n-Skill-Pack 進 L3**（commit `db42c15`）：
+  - L2 新增 §7.6「L2-B 下半段擴充：善用現成 Agent 庫」，保留原 §7 L2→L3 Bridge。
+  - L3 新增 §1.1（上半段概念 / 下半段 AG+Skill Pack 生成）與 §5.5。
+  - 新增 `90_References/AGENCY_AGENTS_REFERENCE.md`、`N8N_SKILL_PACK_REFERENCE.md`。
+- **L4 Hermes starter-kit 整理**：依使用者指示，starter-kit-v2 為內部不公開資料，課程**只取概念、不含程式碼**。
+  - `L4_HERMES_AGENT_COURSE_PLAN.md` 改版：5 個 skill 名稱、檔案結構、CLI 指令全部抽象化（選項 1）。
+  - 新增 §2「L4 知識型 Agent 的七大設計原則」：白天輕夜間重、知識複利閉環、P1>P2、寫讀同源、工具/LLM 分工、失敗模式驅動學習、為何不只用 RAG。
+- **過時檔案同步**：L2/L3/L4 的 `_EN.md` 更新、2 個新 reference 補 `_EN.md`、本 TODO_WBS 更新。
+- **N8N_WORKFLOW_TEMPLATES.md**：補齊其餘 26 個 n8n PoC 骨架。
+
+#### Git 規則更新
+
+- 使用者於 2026-05-15 進一步指示：「沒有說要 commit」→ 之後**只寫檔，不 commit、不 push，除非明確要求**。
+
+#### 狀態 / Status
+
+- 截至 commit `db42c15` 已 push。
+- 本輪（L4 整理 + EN 同步 + TODO 更新 + 26 PoC 骨架）尚未 commit，等使用者指示。

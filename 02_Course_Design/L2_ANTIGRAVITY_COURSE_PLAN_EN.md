@@ -13,6 +13,9 @@ Reference Courses:
   `https://codelabs.developers.google.com/building-with-google-antigravity?hl=zh-tw`
 - Google Codelab: Build and Deploy to Google Cloud with Antigravity
   `https://codelabs.developers.google.com/build-and-deploy-gcp-with-antigravity?hl=zh-tw`
+- agency-agents (msitarzewski, MIT License): a library of 144+ agent persona definitions, supporting Antigravity / Claude Code / Cursor
+  `https://github.com/msitarzewski/agency-agents`
+  Citation and license notice: see [`../90_References/AGENCY_AGENTS_REFERENCE.md`](../90_References/AGENCY_AGENTS_REFERENCE.md)
 
 ---
 
@@ -207,6 +210,46 @@ The objective of the second half of L2 is not to keep polishing Skills but to co
 - Log / Evidence spec.
 - Error handling spec.
 - Gate 2 acceptance sheet.
+
+### 7.6 L2-B Second-Half Extension: Leveraging a Ready-Made Agent Library (agency-agents)
+
+> Citation: [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (MIT License). Full citation and license notice: see [`../90_References/AGENCY_AGENTS_REFERENCE.md`](../90_References/AGENCY_AGENTS_REFERENCE.md).
+
+In the second half of the L2-B Agentic Developer track, beyond converting Skills into Workflow Blueprints, students should also learn a key idea: **not every Skill needs to be built from scratch.** Mature agent-persona libraries already exist (e.g., agency-agents, with 144+ agent definitions across 12 divisions) and can serve as a starting point for building Skills.
+
+#### 7.6.1 Teaching Objectives
+
+After this segment, students should be able to:
+
+1. Explain the trade-off between "building a Skill from scratch" and "adopting + customizing a ready-made agent persona."
+2. Install agency-agents into Antigravity / Claude Code (`./scripts/install.sh`, with tool auto-detection).
+3. Browse the 12 divisions (engineering / design / marketing / sales / product / testing, etc.) and select agents that match the enterprise scenario.
+4. **Customize** a selected agent persona into an enterprise-specific Skill: rewrite the mission, add enterprise SOPs, set the Review Policy, and fill in the IPOE.
+5. Judge which agents can be used directly, which need substantial rewriting, and which do not apply (avoiding "pasting a persona and calling it organizational capability").
+6. Incorporate the customized agent persona into the L2 Skill Library, noting the source (agency-agents + version) and the Owner.
+
+#### 7.6.2 Classroom Content (90 min)
+
+| Time | Topic | Content | Output |
+|---|---|---|---|
+| 20 min | Ready-made agent library concept | Build vs. adopt; agency-agents' 12-division structure and license (MIT) | Trade-off decision table |
+| 20 min | Install and browse | Install script, tool detection, select agents by enterprise scenario | Candidate agent list |
+| 30 min | Customization practice | Rewrite mission / add SOP / set Review Policy / fill in IPOE | Customized agent persona |
+| 20 min | Incorporate into the Skill Library | Note source, version, Owner; align with §8 Skill Library | Skill Library entry |
+
+#### 7.6.3 Governance and Red Lines
+
+- agency-agents is **third-party MIT content**; customized enterprise Skills belong to the enterprise, but it is recommended to note the original source in the Skill documentation.
+- Instructions within an agent persona must still pass the enterprise's Terminal / Review / JavaScript security policies (see §6.1).
+- Do not let an agent persona run in production without review; always pass Gate 2 after customization.
+- The persona library is only a "starting point" — it cannot replace the §7 L2-to-L3 Bridge. Real workflow automation must still go through the Workflow Blueprint.
+
+#### 7.6.4 Second-Half Deliverables (additional)
+
+- agency-agents installation record (tool-detection screenshot).
+- Enterprise scenario × candidate agent mapping table.
+- At least 2 customized agent personas (with source attribution, IPOE, Owner).
+- Build vs. adopt trade-off decision table.
 
 ---
 

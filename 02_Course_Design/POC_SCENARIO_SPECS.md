@@ -472,6 +472,94 @@ This document provides an **implementable PoC scenario library** for the L3 Work
 
 ---
 
+## 7. 會計 / 記帳 PoCs (5) — Accounting & Bookkeeping PoCs
+
+> 本節基於**公開的會計內控原則**（憑證原則、借貸平衡、權責發生制、配對原則、職責分離、對帳）獨立撰寫，適合中小企業財會場景。
+> 核心紀律：**證據不足不記帳、不臆斷；任何過帳動作一律經人工 Gate**。AI 只做「整理、分類、草稿、標記」，不自動過帳。
+>
+> This section is independently authored from **public accounting internal-control principles** (the voucher principle, double-entry, accrual basis, the matching principle, segregation of duties, reconciliation), suited to SME finance scenarios.
+> Core discipline: **do not record on insufficient evidence and do not make assumptions; every posting action passes a human Gate.** The AI only organizes, classifies, drafts, and flags — it never auto-posts.
+
+### F-1 — 銀行交易自動分類與科目對應 / Bank Transaction Auto-Classification & Account Mapping
+
+- Business outcome：銀行對帳單交易自動分類並對應到會計科目草稿，人工確認後才入帳
+- Trigger：銀行對帳單上傳（CSV / API）
+- Input：交易日期、金額、對手方、摘要、帳戶
+- AI step：依交易特徵分類（收入 / 費用 / 轉帳 / 借還款 …）+ 建議會計科目；**信心不足者標記「待釐清」不給科目**；對手方若為第三方支付別名（街口、LINE Pay）須標記「需穿透實際商戶」
+- Systems touched：銀行 API / Sheets、會計系統（僅讀）
+- Output：分類後交易表 + 科目建議 + 「待釐清」清單
+- Acceptance criteria：分類正確率 ≥ 90%；「待釐清」項目零誤入帳；別名對手方 100% 被標記
+- KPI / 量化指標：記帳前置整理時間 ↓ 60%
+- Estimated effort：2 人天
+- L-level：L3
+- Sample n8n node sequence：Webhook/Manual → Set (parse) → OpenAI Chat (classify) → IF (信心不足) → Sheets (待釐清 / 已分類兩表)
+
+### F-2 — 發票與付款配對 / Invoice–Payment Matching
+
+- Business outcome：應收/應付發票與銀行付款自動配對，**不只比金額**
+- Trigger：Schedule（每日）或發票 / 付款進件 Webhook
+- Input：發票（號碼、日期、對手方、金額、品項）、付款（日期、金額、對手方、摘要）
+- AI step：多欄位比對 — 金額 + 期間 + 對手方身分 + 業務類型 + 單據鏈；**金額相符但其他欄位不符者不配對，列入例外**
+- Systems touched：會計系統、Sheets / Data Tables
+- Output：已配對清單、部分配對（待人工確認）、未配對例外
+- Acceptance criteria：配對正確率 ≥ 95%；無「僅金額相符」之錯誤配對
+- KPI：對帳人工工時 ↓ 50%
+- Estimated effort：2.5 人天
+- L-level：L3
+- Sample n8n node sequence：Schedule → 發票源 + 付款源 → Merge → Function (multi-field match) → Switch (配對/部分/例外) → Sheets
+
+### F-3 — 傳票草稿生成與覆核佇列 / Voucher Draft Generation & Review Queue
+
+- Business outcome：從已分類交易產生借貸傳票**草稿**，進覆核佇列等人工核准
+- Trigger：F-1 / F-2 完成後
+- Input：已分類交易、科目對應、配對結果
+- AI step：產生借貸分錄草稿（檢查借貸平衡）+ 附上判斷依據與來源憑證連結；標記「草稿 — 待覆核」
+- Systems touched：會計系統（僅寫入「草稿」狀態）、Sheets
+- Output：傳票草稿 + 覆核佇列 + 每筆的證據連結
+- Acceptance criteria：借貸 100% 平衡；每筆草稿可追溯到原始憑證；**無任何草稿被自動過帳**
+- KPI：傳票製作時間 ↓ 55%
+- Estimated effort：3 人天
+- L-level：L3 / L4
+- Sample n8n node sequence：Trigger → Function (借貸分錄 + 平衡檢查) → 會計系統 (draft only) → Sheets (覆核佇列) → Slack (通知會計覆核)
+
+### F-4 — 月結異常與跨期調整偵測 / Month-End Exception & Cross-Period Adjustment Detection
+
+- Business outcome：月結前自動掃出異常分錄與應計 / 預付 / 跨期項目
+- Trigger：Schedule（月底前 3 天）
+- Input：當月總帳異動、前期比較、待攤 / 預收 / 應計清單
+- AI step：找異常（新科目、異常大額、跨月、重複）+ 依權責發生制標記應做的跨期調整；產出「會計師覆核清單」
+- Systems touched：會計系統（僅讀）、Email / Notion
+- Output：月結異常清單 + 跨期調整建議清單（皆待人工確認）
+- Acceptance criteria：異常偵測召回率 ≥ 90%；跨期建議皆附依據；**不自動產生調整分錄**
+- KPI：月結覆核時間 ↓ 40%
+- Estimated effort：3 人天
+- L-level：L4
+- Sample n8n node sequence：Schedule → 會計系統 Query → Function (異常規則 + 跨期判斷) → OpenAI (解讀) → Notion (覆核清單) → Email (會計主管)
+
+### F-5 — 對帳差異分析與根因標記 / Reconciliation Difference Analysis & Root-Cause Flagging
+
+- Business outcome：銀行 / 廠商 / 內部帳對帳差異自動分析並標記根因類型
+- Trigger：Schedule 或對帳啟動 Webhook
+- Input：兩方帳務資料（銀行 vs 帳冊 / 廠商對帳單 vs 應付）
+- AI step：找出差異項，分類根因（時間差 / 漏記 / 重複 / 金額誤植 / 手續費 / 待釐清）；無法判斷者一律標「待釐清」
+- Systems touched：會計系統、銀行 / 廠商資料、Sheets
+- Output：對帳差異表 + 根因分類 + 待釐清清單
+- Acceptance criteria：根因分類正確率 ≥ 85%；待釐清項目不被臆測歸類
+- KPI：對帳差異處理時間 ↓ 50%
+- Estimated effort：2.5 人天
+- L-level：L3
+- Sample n8n node sequence：Trigger → 兩方資料源 → Merge → Function (diff) → OpenAI (根因分類) → Sheets (差異表 + 待釐清)
+
+> **會計 PoC 共通治理紅線：**
+> 1. AI 永遠只產「草稿 / 建議 / 標記」，**過帳、調整、結帳一律人工 Gate**。
+> 2. 證據不足 → 進「待釐清」，不臆測、不自動入帳。
+> 3. 對手方別名（第三方支付）必須穿透到實際商戶才可入帳。
+> 4. 配對不可只靠金額，須多欄位驗證。
+> 5. 機敏財務資料情境建議 Hybrid / 全地端部署，LLM 節點前置 redaction。
+> 6. 全程證據軌：每筆草稿 / 建議都可追溯到原始憑證與判斷依據。
+
+---
+
 ## Selection Guide / PoC 選擇指南
 
 ### 依客戶 L-level 推薦 PoC

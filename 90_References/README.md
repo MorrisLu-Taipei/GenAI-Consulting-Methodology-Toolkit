@@ -14,6 +14,8 @@
 | [`CLAWTEAM_REFERENCE.md`](./CLAWTEAM_REFERENCE.md) | ClawTeam 引用、平台說明與 L5 課程參考 |
 | [`AGENCY_AGENTS_REFERENCE.md`](./AGENCY_AGENTS_REFERENCE.md) | agency-agents 引用、授權說明與 L2 課程參考 |
 | [`N8N_SKILL_PACK_REFERENCE.md`](./N8N_SKILL_PACK_REFERENCE.md) | TigerAI-n8n-Skill-Pack 引用、授權說明與 L3 課程參考 |
+| [`CONSULTANT_FRAMEWORKS_REFERENCE.md`](./CONSULTANT_FRAMEWORKS_REFERENCE.md) | yoichiojima-2/consultant 引用、授權說明與經典顧問框架庫參考 |
+| [`MCKINSEY_SKILLS_REFERENCE.md`](./MCKINSEY_SKILLS_REFERENCE.md) | Kafurtan/mckinsey-consultant-skills 引用、授權說明與報告生產工作流參考 |
 
 ## 署名
 
