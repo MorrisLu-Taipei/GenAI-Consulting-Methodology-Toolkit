@@ -8,12 +8,25 @@ Renders the 10/25/50-question versions of `AI_MATURITY_QUESTIONNAIRE.md` as form
 
 ---
 
+## 0. Plain-Language Principles (Design Rules for Respondents)
+
+Most people filling out this form are **non-technical department managers**, so when rendering the form you must follow:
+
+1. **Every question must carry "help text"** — explain in plain language what the question is asking, with a scenario example. Use the "question description" in Google Form, "question description" in Tally, and a hint in Notion Form.
+2. **Put a "Glossary" link or collapsible block at the start of the form** — cite the 24 plain-language term definitions in `AI_MATURITY_QUESTIONNAIRE.md` §1.2 (OpenWebUI, n8n, Skill, Agent, API, CRM/ERP/MES/PLM/QMS, Hybrid, Stage Gate…).
+3. **Add "A Note to the Person Filling This Out" at the start**: no technical knowledge needed, score lower when unsure, this is a health check not an exam.
+4. When a technical acronym appears for the first time, explain it inline in the help text — do not assume the respondent knows it.
+
+---
+
 ## Common Settings
 
 | Field | Content |
 | --- | --- |
 | Form language | Chinese by default, with an EN toggle |
 | Answer scale | 0-4 (0 = none at all, 4 = institutionalized with a Gate) |
+| Help text | **Required for every question** — plain-language help text (see §0 principles) |
+| Glossary | Cite `AI_MATURITY_QUESTIONNAIRE.md` §1.2 at the start of the form |
 | Required fields | All questions required; empty values not scored |
 | On-submit | Google Sheets `Raw Responses` + n8n webhook |
 | Privacy | No IP collected; email stored encrypted |
@@ -25,7 +38,7 @@ Renders the 10/25/50-question versions of `AI_MATURITY_QUESTIONNAIRE.md` as form
 
 ### Form intro
 
-> 10 questions, ~3 minutes. Helps you quickly see your enterprise's AI maturity level (L1-L5). You will receive a customized interpretation within 24 hours.
+> 10 questions, ~3 minutes. Helps you quickly see your enterprise's AI maturity level (L1-L5). Every question has a plain-language note — **no technical knowledge needed**; when unsure, score lower. You will receive a customized interpretation within 24 hours.
 
 ### Page 1: Profile (4 questions)
 
@@ -36,18 +49,18 @@ Renders the 10/25/50-question versions of `AI_MATURITY_QUESTIONNAIRE.md` as form
 
 ### Page 2: Six constructs (10 questions, each scale 0-4)
 
-| Q | Question | Construct |
-| --- | --- | --- |
-| Q1 | Our employees broadly use AI tools daily to get work done | Tool Usage |
-| Q2 | Employees' prompts and experience are centrally organized | Knowledge Codification |
-| Q3 | We have defined "what good AI usage looks like" | Process Standardization |
-| Q4 | AI is connected to at least one enterprise system (Gmail / Sheets / CRM / ERP) | System Integration |
-| Q5 | We have repeatable, callable AI Skills or Workflows | Agent Application |
-| Q6 | We have an AI usage policy and an audit mechanism | Governance & ROI |
-| Q7 | AI has produced concrete, quantifiable efficiency gains for us | ROI |
-| Q8 | We have a clear next step for AI advancement (not relying on a vendor) | Strategy |
-| Q9 | Managers regularly review AI adoption progress | Governance |
-| Q10 | We have concrete protection against AI risks (security, compliance, hallucination) | Governance |
+| Q | Question | Construct | Plain-language help text (rendered below the question) |
+| --- | --- | --- | --- |
+| Q1 | Our employees broadly use AI tools daily to get work done | Tool Usage | Not "someone can use it," but most colleagues use AI daily to do their work. 0 = almost no one uses it; 4 = used daily across departments, already routine. |
+| Q2 | Employees' prompts and experience are centrally organized | Knowledge Codification | Whether useful ways of asking and experience are centrally stored and shared, rather than locked in individual heads. Prompt = the instruction or way of asking you give the AI. |
+| Q3 | We have defined "what good AI usage looks like" | Process Standardization | Whether the company has clearly stated "what counts as good, safe AI usage" — what can and cannot be done. |
+| Q4 | AI is connected to at least one enterprise system (Gmail / Sheets / CRM / ERP) | System Integration | Whether AI is actually connected to company systems to read/write data automatically, rather than used only standalone in a chat box. See the glossary at the start of the form if Gmail/Sheets/CRM/ERP are unfamiliar. |
+| Q5 | We have repeatable, callable AI Skills or Workflows | Agent Application | Whether frequently done tasks are packaged into reusable Skills, or set up as auto-running Workflows, rather than redone every time. |
+| Q6 | We have an AI usage policy and an audit mechanism | Governance & ROI | Whether using AI has "rules + records": which data can be used, who can use it, and whether what the AI did is logged and auditable. |
+| Q7 | AI has produced concrete, quantifiable efficiency gains for us | ROI | Whether the efficiency gains from AI can be stated in numbers (how much time saved, how many fewer errors), rather than "feels useful." |
+| Q8 | We have a clear next step for AI advancement (not relying on a vendor) | Strategy | Whether the company knows where AI's next step is headed, rather than just using whatever a vendor sells. |
+| Q9 | Managers regularly review AI adoption progress | Governance | Whether managers regularly look back at the progress and outcomes of AI adoption, rather than ignoring it after deployment. |
+| Q10 | We have concrete protection against AI risks (security, compliance, hallucination) | Governance | Whether there are concrete safeguards against AI risks — data leakage, non-compliance, AI saying wrong things (hallucination) — rather than never having considered them. |
 
 ### Submit page
 
@@ -65,7 +78,9 @@ Renders the 10/25/50-question versions of `AI_MATURITY_QUESTIONNAIRE.md` as form
 
 ### Form intro
 
-> 25 questions, ~8 minutes. Deeper than the 10-question version: 4-5 questions per construct. Recommended to be completed by managers one week before L1 course delivery.
+> 25 questions, ~8 minutes. Deeper than the 10-question version: 4-5 questions per construct. Recommended to be completed by managers one week before L1 course delivery. Every question has a plain-language note; check the glossary at the start of the form for unfamiliar terms.
+
+> **Plain-language note**: For this version, each question's help text directly cites the one-line "plain language + example" of the corresponding question in `AI_MATURITY_QUESTIONNAIRE.md` §3 — make sure to include it when rendering, do not show the bare question only.
 
 ### Page 1: Profile (5)
 
@@ -80,14 +95,14 @@ P1-P4 as above + P5 Your department
 - Q4 Whether employees explicitly note "AI-assisted" in meetings / reports
 
 **Page 3 (Knowledge Codification)** — Q5-Q8
-- Q5 Whether a Prompt Library exists
+- Q5 Whether a Prompt Library (shared prompt library) exists
 - Q6 Whether Skills / Workflows are periodically consolidated
 - Q7 Whether experienced employees' AI know-how is documented
 - Q8 Whether there is an AI onboarding process for new hires
 
 **Page 4 (Process Standardization)** — Q9-Q12
 - Q9 Whether an SOP defines the scope of AI usage
-- Q10 Whether there is a review mechanism (human Gate)
+- Q10 Whether there is a review mechanism (human Gate = a checkpoint where a person confirms)
 - Q11 Whether high-frequency scenarios become repeatable processes
 - Q12 Whether there are cross-functional AI processes
 
@@ -105,8 +120,8 @@ P1-P4 as above + P5 Your department
 
 **Page 7 (Governance & ROI)** — Q21-Q25
 - Q21 Whether an AI permission matrix is defined
-- Q22 Whether there is an audit log
-- Q23 Whether sensitive-data redaction rules are defined
+- Q22 Whether there is an audit log (usage audit records)
+- Q23 Whether sensitive-data redaction rules are defined (auto-masking sensitive fields)
 - Q24 Whether AI ROI tracking KPIs exist
 - Q25 Whether managers regularly review AI outcomes
 
@@ -125,7 +140,9 @@ P1-P4 as above + P5 Your department
 
 ### Form intro
 
-> 50 questions, ~20 minutes. Recommended to be completed by IT / AI Champion before the consulting interview. Covers the six constructs + deployment mode + systems inventory + governance.
+> 50 questions, ~20 minutes. Recommended to be completed by IT / AI Champion before the consulting interview. Covers the six constructs + deployment mode + systems inventory + governance. There are more technical questions; an IT contact can assist; every question still has a plain-language note.
+
+> **Plain-language note**: Groups G (deployment mode) and H (system inventory) have the most technical terms — their help text directly cites the "plain language and example" column of the corresponding questions in `AI_MATURITY_QUESTIONNAIRE.md` §4.
 
 ### Page structure
 
@@ -168,15 +185,18 @@ Automatically organizes the 50 answers + open responses into Markdown. The consu
 ### Google Form
 - Use Section headers to split into pages for Profile
 - Use Linear Scale for the 0-4 scale
+- Use each question's "question description" field for the plain-language help text
 - Use "Go to section based on answer" for skip logic
 - Results write to a connected Sheet → trigger Apps Script → send report
 
 ### Tally
 - More flexible logic / multilingual switching / built-in webhook
+- Use the question description for plain-language help text; the glossary can use a collapsible block
 - Recommended: an n8n webhook node listening directly to Tally submit
 
 ### Notion Form (Beta)
 - Writes directly into a Notion Database
+- Use the question hint for plain-language help text
 - Use Notion Automation to trigger page creation
 - Suitable for Notion-first clients
 
