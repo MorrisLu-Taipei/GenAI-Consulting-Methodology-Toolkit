@@ -5,7 +5,7 @@
 企業 AI 轉型成熟度診斷與導入方法論工具包。
 
 原作者：**Tiger AI Morris Lu 盧業興**  
-身份備註：**n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生**
+身份備註：**n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生 / QUT 澳洲昆士蘭科技大學 資工碩士**
 
 授權摘要：本專案採用 **[Apache License 2.0](LICENSE)**。可自由使用、複製、修改、再散布與商業化；再散布時請保留 Apache 2.0 授權文字與 [`NOTICE`](NOTICE) 中的作者署名。
 
@@ -157,7 +157,7 @@ Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 
 ```text
 原作者：Tiger AI Morris Lu 盧業興
-身份：n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生
+身份：n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生 / QUT 澳洲昆士蘭科技大學 資工碩士
 來源：https://github.com/TigerAI-Taiwan/AI-Consulting-Methodology-Toolkit
 ```
 

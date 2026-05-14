@@ -15,7 +15,7 @@ Purpose: Build trust in the methodology + show concrete deliverables + trigger a
 ## Slide 2 — Who We Are
 
 - Tiger AI 虎智科技 · Morris Lu (盧業興)
-- Roles: n8n Taipei Ambassador · NTUST PhD student (Intelligent Manufacturing) · QUT M.IT
+- Roles: n8n Taipei Ambassador · NTUST PhD student (Intelligent Manufacturing) · M.IT, Queensland University of Technology (QUT), Australia
 - Mentor: Prof. Michael Rosemann (QUT)
 - Visual: overlapping circles of individual + community + academic
 
