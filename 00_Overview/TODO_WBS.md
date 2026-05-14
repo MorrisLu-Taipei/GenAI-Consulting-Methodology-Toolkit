@@ -265,13 +265,13 @@
 
 | # | 項目 | 可由 AI 主執行緒完成？ |
 | --- | --- | --- |
-| 1 | EN `_EN.md` sibling 補齊（Batch 1-4 新檔） | ✅ 可（量大，需多輪） |
+| 1 | EN `_EN.md` sibling 補齊（Batch 1-5 新檔） | ✅ 可（量大，需多輪） |
 | 2 | Google Form / Tally 實際部署 | ❌ 需客戶 Google 帳號 |
-| 3 | n8n template JSON export（PoC → 可匯入檔） | ✅ 可 |
+| 3 | ~~n8n template JSON export~~ | ✅ Done（Batch 5：`N8N_WORKFLOW_TEMPLATES.md`，4 骨架 + 匯入/備份 SOP，其餘 26 PoC 骨架待課程逐步補） |
 | 4 | 設計師交付（pptx / Figma / PNG） | ❌ 需設計師 |
 | 5 | ~~更多客戶案例（金融/政府/教育）~~ | ✅ Done（Batch 4） |
 | 6 | L4 Hermes Agent starter-kit 整理 | ✅ 可（若採用 Hermes） |
-| 7 | L5 ClawTeam 實作 walkthrough（`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`） | ✅ 可 |
+| 7 | ~~L5 ClawTeam 實作 walkthrough~~ | ✅ Done（Batch 5：`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`，製造業 QA Team 完整流程 + Gate 5 對應） |
 
 ## 9. 工作日誌 / Session Log
 
@@ -295,5 +295,10 @@
 
 #### 下一步 / Next
 
-- 等 review → 決定是否 push 本地 3 個 commit。
-- Batch 5 候選見 §8（EN siblings 補齊 / n8n template export / ClawTeam walkthrough）。
+- 等 review → 決定是否 push 本地 commit。
+- 後續候選見 §8（EN siblings 補齊 / Hermes starter-kit）。
+
+#### 後續追加（同日）/ Same-day follow-ups
+
+- 客戶名稱匿名化（commit `ec3bd54`）：5 個案例的化名全改成代號 M/B/F/E/G。
+- Batch 5（commit 待補）：`04_Scenarios/CLAWTEAM_WALKTHROUGH.md` + `02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`。
