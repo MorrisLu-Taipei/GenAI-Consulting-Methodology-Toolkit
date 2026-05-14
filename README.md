@@ -24,10 +24,10 @@
 - **L1 Chat AI**：每位員工用自己的帳號登入 OpenWebUI，有自己的聊天區、歷史紀錄與部門權限。業務寫客戶信、HR 整理訓練摘要、主管產出會議重點，都從同一個受控 AI 入口開始。
 - **L2 Skill AI**：資深同仁不再只是自己很會做，而是把文案、報告、客服回覆、SOP 判讀、程式開發方法整理成 Skill。新人與其他部門可以沿用同一套方法，產出品質開始一致。
 - **L3 Workflow AI**：n8n 開始串接 Gmail、Sheets、Notion、CRM、API、ERP。客訴信進來後，系統可以查 CRM、更新表單、建立任務、產生主管摘要，人只負責判斷與批准。
-- **L4 Auto Agentic AI**：Hermes Agent 每天讀取任務、文件、Workflow 結果與 Wiki 記憶，產生 briefing、追蹤清單與需要人工 Gate 的決策點。企業開始擁有可驗證的知識型 Agent。
+- **L4 Auto Agentic AI**：Hermes Agent 每天讀取任務、文件、Workflow 結果與 Wiki 記憶，產生 briefing、追蹤清單與需要 HITL（Human-in-the-Loop，人類在迴圈內審核）的決策點。企業開始擁有可驗證的知識型 Agent。
 - **L5 Agentic Team AI**：ClawTeam 將市場、產品、客服、財務、營運等專業 Agent 編成團隊，協作完成新產品上市、品質改善、病患服務改善或客戶經營任務。
 
-這個故事要放在課程開始前講。客戶先看懂未來工作情境，再回頭理解為什麼需要問卷診斷、為什麼課程要分 L1-L5、為什麼每一層都要有 deliverables、evidence 與 Stage Gate。
+這個故事要放在課程開始前講。客戶先看懂未來工作情境，再回頭理解為什麼需要問卷診斷、為什麼課程要分 L1-L5、為什麼每一層都要有 deliverables、evidence 與階段驗收關卡（Stage Gate）。
 
 ## AI 成熟度地圖
 
@@ -48,29 +48,40 @@ AI 成熟度問卷
 → L3 n8n 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統
 → L4 Hermes Agent 形成可驗證的自動 Agent 作業
 → L5 ClawTeam 形成 Agentic Team 協作
-→ 情境案例、Evidence、Stage Gate 驗收
+→ 情境案例、Evidence、階段驗收關卡（Stage Gate）
 → 八階段 AI 轉型顧問診斷
 → AI 轉型診斷報告、Roadmap、ROI、治理建議
 ```
 
 ## L1-L5 成熟度模型
 
-| 等級 | 名稱 | 工具 / 平台 | 企業定位 |
-| --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | 建立企業內部 AI 對話入口，讓每位員工有自己的帳號、聊天區與權限邊界 |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | 將個人知識、提示詞、文件與工作方法整理成可重複使用的 Skill |
-| L3 | Workflow AI | n8n | 串接 Gmail、Sheets、Notion、CRM、API、ERP 等系統，讓 AI 進入真實流程 |
-| L4 | Auto Agentic AI | Hermes Agent | 以 Wiki 記憶、工具、Workflow、排程與人工 Gate 組成可驗證的自動 Agent |
-| L5 | Agentic Team AI | ClawTeam | 讓多個專業 Agent 形成團隊，協同完成跨部門、跨流程的企業任務 |
+| 等級 | 名稱 | 工具 / 平台 | 軸 | 企業定位 |
+| --- | --- | --- | --- | --- |
+| L1 | Chat AI | OpenWebUI | 規模軸·個人 | 建立企業內部 AI 對話入口，讓每位員工有自己的帳號、AI 聊天區與權限邊界 |
+| L2 | Skill AI | Antigravity / Claude Code / Codex | 規模軸·部門 | 以部門職責為單位，將個人知識、提示詞、文件與工作方法整理成可重複使用的 Skill |
+| L3 | Workflow AI | n8n | 規模軸·跨部門 / 全公司 | 串接跨部門 Skill 並連接 email、Sheets、Notes、CRM、API、ERP 等系統，讓 AI 進入全公司自動化流程 |
+| L4 | Auto Agentic AI | Hermes Agent | AI 自主軸·超級助理 | 以 Wiki 職能地圖、AI 工具、Workflow、自動排程、自主學習組成可驗證的全自動 AI Agent 超級助理 |
+| L5 | Agentic Team AI | ClawTeam | AI 自主軸·AI 團隊 | 讓多個專業 Agent 形成職能分工，協同完成跨部門、跨流程的企業任務 AI 團隊 |
+
+### L1-L5 的兩條軸
+
+L1-L5 不是「五個工具」，而是**兩條軸**接起來的成熟度路徑：
+
+- **L1 → L2 → L3：規模軸（人類使用 / 監督 AI）。** 這三層是「人在迴圈內、人用 AI、人監督 AI」的階段，沿著組織規模逐層放大 —— **L1 個人**（每位員工各自用 AI）→ **L2 部門**（以部門職責為單位把個人知識封裝成可複用 Skill）→ **L3 跨部門 / 全公司**（把跨部門 Skill 串起來、接上系統，AI 進入全公司自動化流程）。
+- **L4 → L5：AI 自主軸（AI 完全自主，不需人類即時監督）。** 這兩層是企業在人類部隊之外「額外長出來」的 AI 實體 —— **L4 AI 超級助理**（全自動 AI Agent 個體）→ **L5 AI 團隊**（多個專業 Agent 職能分工協作）。
+
+> 關鍵分界：**L1-L3 是「人類輔助 / 監督 AI」，AI 是工具；L4-L5 是「AI 自主運作」，AI 是企業額外的數位人力。** 導入順序上，L1-L3 先把人與組織帶起來，L4-L5 才在穩固的基礎上長出自主 AI。
+>
+> 即使到了 L4-L5，**治理框架仍由人建立、人保有監督權** —— AI 自主的是「營運執行」，不是「治理決策」。每一層都保留 HITL（Human-in-the-Loop，人類在迴圈內審核）與階段驗收關卡，AI 愈自主，人的角色就愈往「治理者」升級，而不是被取代。
 
 ## 每一層如何驗收
 
-| 等級 | Input | Process | Output | Evidence | Stage Gate |
+| 等級 | Input | Process | Output | Evidence | 階段驗收關卡（Stage Gate）|
 | --- | --- | --- | --- | --- | --- |
 | L1 | 員工角色、常見任務、AI 使用痛點、權限需求 | 建置 OpenWebUI、帳號 / 群組 / 權限、個人聊天區、Prompt 基礎訓練 | 企業 AI 對話入口、Prompt 清單、使用情境清單 | 帳號表、權限表、登入紀錄、個人聊天區截圖、Prompt 範例 | 是否能安全登入、分權、留下可追蹤使用紀錄 |
 | L2 | L1 高頻 Prompt、文件、SOP、個人工作方法 | 用 Antigravity / Claude Code / Codex 將知識封裝成 Skill 與可重用 artifacts | Skill Library、Agentic artifacts、Workflow Blueprint | Skill 文件、測試案例、版本紀錄、輸出範例 | Skill 是否可被他人重複使用並穩定產出 |
 | L3 | L2 Skill、流程藍圖、系統清單、API / CRM / ERP / Sheet 權限 | 用 n8n 建立自動化流程、資料表、Execution Log、錯誤處理 | Workflow PoC、Sub-workflow Library、Data Tables、L4 Workflow Contract | n8n workflow、執行紀錄、失敗重跑紀錄、系統串接截圖 | Workflow 是否能在真實資料與真實系統中穩定執行 |
-| L4 | L3 Workflow、L2 Skill、企業 Wiki、任務規則、人工 Gate | 用 Hermes Agent 建立任務卡、Wiki ingest/query/update、排程、工具調用與 Gate 4A-4E | 可驗證 Agent、Briefing、任務處理紀錄、Gate 簽核 | Agent log、Wiki 版本、任務卡、briefing、人工批准紀錄 | Agent 是否能在受控邊界內自動完成任務並留下 evidence |
+| L4 | L3 Workflow、L2 Skill、企業 Wiki、任務規則、HITL 人類審核點 | 用 Hermes Agent 建立任務卡、Wiki ingest/query/update、排程、工具調用與驗收關卡 4A-4E | 可驗證 Agent、Briefing、任務處理紀錄、驗收關卡簽核 | Agent log、Wiki 版本、任務卡、briefing、人類批准紀錄 | Agent 是否能在受控邊界內自動完成任務並留下 evidence |
 | L5 | 多個 L4 Agent、跨部門任務、角色責任、治理規則 | 用 ClawTeam 編組 Agentic Team，定義角色、協作規則、交接與監督方式 | Agent Team、角色卡、協作流程、跨部門成果 | Team run log、角色卡、交接紀錄、成果文件、治理紀錄 | Agent Team 是否能穩定協作並產出可追責成果 |
 
 ## 課程設計原則

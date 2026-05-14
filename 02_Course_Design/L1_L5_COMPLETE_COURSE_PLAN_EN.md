@@ -32,11 +32,24 @@ Recommended opening story:
 | --- | --- | --- |
 | L1 | Every employee has a controlled AI workspace and knows the data boundaries | OpenWebUI account / group / permission sheet, personal workspace screenshots, Prompt Library |
 | L2 | Departmental expert methods become reusable Skills | Skill Library, Skill template, non-author test records |
-| L3 | AI performs work across systems instead of only answering questions | n8n Workflow PoC, Execution Log, integration sheet, human gate |
-| L4 | Agents read data, query Wiki memory, call tools, produce briefings, and keep evidence | Hermes Agent task card, Wiki records, briefing, Gates 4A-4E |
+| L3 | AI performs work across systems instead of only answering questions | n8n Workflow PoC, Execution Log, integration sheet, HITL review |
+| L4 | Agents read data, query Wiki memory, call tools, produce briefings, and keep evidence | Hermes Agent task card, Wiki records, briefing, acceptance gates 4A-4E |
 | L5 | Multiple agents collaborate on cross-functional work | Agent Team role cards, task dispatch records, integrated report template |
 
 The goal of this story is to make clients understand that they are not buying "a training course"; they are buying a capability path from personal AI use to an enterprise AI Operating Model.
+
+## 1.6 The Two Axes of L1-L5, and a Terminology Note
+
+L1-L5 is not "five tools" — it is **two axes**:
+
+- **Scale axis (L1 → L2 → L3)**: individual → department → cross-department / company-wide. These three levels are "human-in-the-loop, humans use AI, humans supervise AI" — AI is a tool.
+- **AI-autonomy axis (L4 → L5)**: AI super-assistant → AI team. These two levels are the digital workforce the enterprise grows in addition to its people; AI is operationally autonomous, but **the governance framework is still built by humans, and humans retain oversight** — the human is upgraded to "governor," not replaced.
+- The key boundary is **L3 → L4**: crossing from "humans drive the work" to "AI drives the work." Full story: [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0.
+
+**Terminology (used throughout this course series):**
+
+- **Stage Gate = acceptance gate** — the deliverables of a level must pass acceptance before advancing to the next level; Gates 1-5 below are each level's acceptance gate.
+- **HITL = Human-in-the-Loop** — a checkpoint in the workflow where a human confirms; AI does not make high-risk decisions directly. Any "human gate" below means exactly this.
 
 ## 2. Course Overview
 

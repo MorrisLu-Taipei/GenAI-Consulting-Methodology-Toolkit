@@ -15,13 +15,17 @@
 
 ## 2. L1-L5 成熟度定義
 
-| 等級 | 名稱 | 工具 / 平台 | 成熟度定義 | 完成標準 |
-| --- | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | 員工能透過受控入口使用 AI，提升個人效率 | 有統一入口、基本使用規範、常用 Prompt、個人效率案例 |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | 個人經驗被整理成部門可複用 Skill | 有 Skill Library、SOP、模板、Checklist、部門共用範例 |
-| L3 | Workflow AI | n8n | AI 能串接系統並進入流程執行任務 | 有 Gmail、Sheets、Notion、CRM、API、ERP 等流程 PoC 或上線流程 |
-| L4 | Auto Agentic AI | Hermes Agent | Agent 能以 Wiki 記憶為底座，呼叫 Skill/Workflow，進行 ingest、query、update、briefing 並留下 evidence | 有 Agent 任務卡、L4 IPOE、Wiki/schema、工具清單、權限邊界、Log、人工審核與 Gate 4A-4E |
-| L5 | Agentic Team AI | ClawTeam | 多個 Agent 協同完成跨部門企業級任務 | 有 Agent Team 角色分工、任務分派、整合輸出、品質檢查與治理 |
+L1-L5 是**兩條軸**：**規模軸（L1-L3）** —— 個人 → 部門 → 跨部門 / 全公司，人監督 AI；**AI 自主軸（L4-L5）** —— AI 超級助理 → AI 團隊，AI 營運自主、人退為治理者（仍保有監督權）。關鍵分界在 L3 → L4。完整故事見 [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0。
+
+| 等級 | 名稱 | 工具 / 平台 | 軸 | 成熟度定義 | 完成標準 |
+| --- | --- | --- | --- | --- | --- |
+| L1 | Chat AI | OpenWebUI | 規模軸·個人 | 員工能透過受控入口使用 AI，提升個人效率 | 有統一入口、基本使用規範、常用 Prompt、個人效率案例 |
+| L2 | Skill AI | Antigravity / Claude Code / Codex | 規模軸·部門 | 以部門職責為單位，個人經驗被整理成部門可複用 Skill | 有 Skill Library、SOP、模板、Checklist、部門共用範例 |
+| L3 | Workflow AI | n8n | 規模軸·跨部門 / 全公司 | 串接跨部門 Skill 與系統，AI 進入全公司流程執行任務 | 有 Gmail、Sheets、Notion、CRM、API、ERP 等流程 PoC 或上線流程 |
+| L4 | Auto Agentic AI | Hermes Agent | AI 自主軸·超級助理 | 全自動 AI Agent 能以 Wiki 記憶為底座，呼叫 Skill/Workflow，進行 ingest、query、update、briefing 並留下 evidence | 有 Agent 任務卡、L4 IPOE、Wiki/schema、工具清單、權限邊界、Log、HITL 人類審核與驗收關卡 4A-4E |
+| L5 | Agentic Team AI | ClawTeam | AI 自主軸·AI 團隊 | 多個專業 Agent 形成職能分工，協同完成跨部門企業級任務 | 有 Agent Team 角色分工、任務分派、整合輸出、品質檢查與治理 |
+
+> 術語：本評分模型的 **Stage Gate ＝ 階段驗收關卡**、**HITL ＝ Human-in-the-Loop（人類在迴圈內審核）**。
 
 ## 3. 六大評估構面
 
@@ -134,7 +138,7 @@
 | 角色分工 | 是否有市場、產品、客服、財務等 Agent 角色 |
 | 任務分派 | 是否能把企業級任務拆給多 Agent 協作 |
 | 輸出整合 | 是否有整合 Agent 結果的角色或流程 |
-| 品質檢查 | 是否有 Critic、Reviewer 或人工 Gate |
+| 品質檢查 | 是否有 Critic、Reviewer 或 HITL 人類審核 |
 | 經營價值 | 是否支援跨部門決策、營運或創新任務 |
 
 ## 7. 部署模式評分
@@ -191,4 +195,4 @@
 | 系統串接缺口 | Gmail、Sheets、Notion、CRM、API、ERP 未整合 | API 盤點、Credential、資料路由 |
 | Agent 缺口 | 沒有可自主執行任務的 AI | L4 Hermes Agent 任務設計 |
 | Agent Team 缺口 | 跨部門任務無法多 Agent 協作 | L5 ClawTeam 情境設計 |
-| 治理缺口 | 權限、稽核、ROI 不清楚 | 治理表、Stage Gate、KPI |
+| 治理缺口 | 權限、稽核、ROI 不清楚 | 治理表、階段驗收關卡（Stage Gate）、KPI |

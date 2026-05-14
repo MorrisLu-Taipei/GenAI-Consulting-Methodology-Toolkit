@@ -24,10 +24,10 @@ Imagine a Monday morning three months later:
 - **L1 Chat AI**: every employee logs in to OpenWebUI with their own account, personal chat workspace, history, and departmental permissions.
 - **L2 Skill AI**: experienced employees convert their best methods into reusable Skills for writing, reporting, customer service, SOP review, and development work.
 - **L3 Workflow AI**: n8n connects Gmail, Sheets, Notion, CRM, APIs, ERP, and other systems so work moves through real enterprise workflows.
-- **L4 Auto Agentic AI**: Hermes Agent reads tasks, documents, workflow results, and Wiki memory to produce briefings, follow-up lists, evidence, and human-gated decisions.
+- **L4 Auto Agentic AI**: Hermes Agent reads tasks, documents, workflow results, and Wiki memory to produce briefings, follow-up lists, evidence, and decisions that require HITL (Human-in-the-Loop) review.
 - **L5 Agentic Team AI**: ClawTeam coordinates specialist agents across market, product, service, finance, and operations work.
 
-This future-state story should be told before the course begins. Clients first understand the work scenario they want to reach, and only then discuss diagnosis, course ratio, deliverables, evidence, and Stage Gates.
+This future-state story should be told before the course begins. Clients first understand the work scenario they want to reach, and only then discuss diagnosis, course ratio, deliverables, evidence, and acceptance gates (Stage Gates).
 
 ## AI Maturity Map
 
@@ -48,24 +48,35 @@ AI maturity questionnaire
 → L3 n8n workflows connected to Gmail, Sheets, Notion, CRM, API, ERP, and other systems
 → L4 Hermes Agent for verifiable autonomous agentic work
 → L5 ClawTeam for Agentic Team collaboration
-→ Scenario cases, evidence, and Stage Gates
+→ Scenario cases, evidence, and acceptance gates (Stage Gates)
 → Eight-stage AI transformation consulting diagnosis
 → AI transformation diagnostic report, roadmap, ROI, and governance recommendations
 ```
 
 ## L1-L5 Maturity Model
 
-| Level | Name | Platform | Enterprise Positioning |
-| --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | Enterprise AI chat entry with user accounts, personal chat workspaces, and permission boundaries |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | Convert personal knowledge, prompts, documents, and work methods into reusable Skills |
-| L3 | Workflow AI | n8n | Connect AI to real enterprise systems and workflows |
-| L4 | Auto Agentic AI | Hermes Agent | Combine Wiki memory, tools, workflows, schedules, and human gates into verifiable autonomous agents |
-| L5 | Agentic Team AI | ClawTeam | Coordinate multiple specialist agents as an enterprise AI team |
+| Level | Name | Platform | Axis | Enterprise Positioning |
+| --- | --- | --- | --- | --- |
+| L1 | Chat AI | OpenWebUI | Scale axis · individual | Establish the enterprise's internal AI chat entry — every employee has their own account, AI chat workspace, and permission boundary |
+| L2 | Skill AI | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, organize personal knowledge, prompts, documents, and work methods into reusable Skills |
+| L3 | Workflow AI | n8n | Scale axis · cross-department / company-wide | Connect cross-department Skills and link email, Sheets, Notes, CRM, API, ERP, and other systems, so AI enters company-wide automation processes |
+| L4 | Auto Agentic AI | Hermes Agent | AI-autonomy axis · super-assistant | Combine a Wiki capability map, AI tools, Workflows, auto-scheduling, and autonomous learning into a verifiable, fully autonomous AI Agent super-assistant |
+| L5 | Agentic Team AI | ClawTeam | AI-autonomy axis · AI team | Let multiple specialist Agents form a functional division of labor, collaboratively completing cross-department, cross-process enterprise tasks as an AI team |
+
+### The Two Axes of L1-L5
+
+L1-L5 is not "five tools" — it is a maturity path connecting **two axes**:
+
+- **L1 → L2 → L3: the scale axis (humans use / supervise AI).** These three levels are the "human-in-the-loop, humans use AI, humans supervise AI" stage, scaling up along the organization — **L1 individual** (each employee uses AI on their own) → **L2 department** (by department responsibility, package personal knowledge into reusable Skills) → **L3 cross-department / company-wide** (connect cross-department Skills and link systems, so AI enters company-wide automation).
+- **L4 → L5: the AI-autonomy axis (AI runs autonomously, without real-time human supervision).** These two levels are the AI entities the enterprise "grows in addition to" its human workforce — **L4 AI super-assistant** (a fully autonomous AI Agent entity) → **L5 AI team** (multiple specialist Agents collaborating in a functional division of labor).
+
+> The key boundary: **L1-L3 is "humans assist / supervise AI" — AI is a tool; L4-L5 is "AI runs autonomously" — AI is the enterprise's extra digital workforce.** In adoption order, L1-L3 first brings people and the organization up to speed; L4-L5 only grows autonomous AI on a solid foundation.
+>
+> Even at L4-L5, **the governance framework is still built by humans, and humans retain oversight** — what AI is autonomous in is "operational execution," not "governance decisions." Every level keeps HITL (Human-in-the-Loop) review and acceptance gates; the more autonomous AI becomes, the more the human role is upgraded to "governor" rather than replaced.
 
 ## Verification Logic
 
-Each level defines clear input, process, output, evidence, and Stage Gate criteria. The output of a lower level becomes the input for the next level, so clients can verify maturity instead of relying on abstract AI claims.
+Each level defines clear input, process, output, evidence, and acceptance-gate (Stage Gate) criteria. The output of a lower level becomes the input for the next level, so clients can verify maturity instead of relying on abstract AI claims.
 
 ## Repository Structure
 

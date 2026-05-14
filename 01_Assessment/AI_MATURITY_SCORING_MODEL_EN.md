@@ -17,13 +17,17 @@ Scoring is not for labeling, but to answer four questions:
 
 ## 2. L1-L5 Maturity Definitions
 
-| Level | Name | Tools / Platforms | Maturity Definition | Completion Criteria |
-| --- | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | Employees use AI through a controlled portal to boost personal productivity | A unified portal, basic usage guidelines, common Prompts, and personal productivity cases exist |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | Personal experience is consolidated into departmental reusable Skills | A Skill Library, SOPs, templates, Checklists, and departmental shared examples exist |
-| L3 | Workflow AI | n8n | AI integrates with systems and enters workflows to execute tasks | Gmail, Sheets, Notion, CRM, API, ERP, and similar workflow PoCs or production flows exist |
-| L4 | Auto Agentic AI | Hermes Agent | Agent uses Wiki memory as its base, calls Skills/Workflows, performs ingest, query, update, and briefing, and leaves evidence | Agent task cards, L4 IPOE, Wiki/schema, tool list, permission boundaries, Log, human review, and Gate 4A-4E exist |
-| L5 | Agentic Team AI | ClawTeam | Multiple Agents collaborate to complete cross-departmental enterprise-class tasks | Agent Team role assignment, task dispatch, integrated output, quality check, and governance exist |
+L1-L5 is **two axes**: the **scale axis (L1-L3)** — individual → department → cross-department / company-wide, humans supervise AI; and the **AI-autonomy axis (L4-L5)** — AI super-assistant → AI team, AI is operationally autonomous while humans step back to governor (retaining oversight). The key boundary is L3 → L4. Full story: [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0.
+
+| Level | Name | Tools / Platforms | Axis | Maturity Definition | Completion Criteria |
+| --- | --- | --- | --- | --- | --- |
+| L1 | Chat AI | OpenWebUI | Scale axis · individual | Employees use AI through a controlled portal to boost personal productivity | A unified portal, basic usage guidelines, common Prompts, and personal productivity cases exist |
+| L2 | Skill AI | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, personal experience is consolidated into departmental reusable Skills | A Skill Library, SOPs, templates, Checklists, and departmental shared examples exist |
+| L3 | Workflow AI | n8n | Scale axis · cross-department / company-wide | AI chains cross-department Skills and systems, entering company-wide workflows to execute tasks | Gmail, Sheets, Notion, CRM, API, ERP, and similar workflow PoCs or production flows exist |
+| L4 | Auto Agentic AI | Hermes Agent | AI-autonomy axis · super-assistant | A fully autonomous AI Agent uses Wiki memory as its base, calls Skills/Workflows, performs ingest, query, update, and briefing, and leaves evidence | Agent task cards, L4 IPOE, Wiki/schema, tool list, permission boundaries, Log, HITL review, and acceptance gate 4A-4E exist |
+| L5 | Agentic Team AI | ClawTeam | AI-autonomy axis · AI team | Multiple specialist Agents form a functional division of labor, collaborating to complete cross-departmental enterprise-class tasks | Agent Team role assignment, task dispatch, integrated output, quality check, and governance exist |
+
+> Terminology: in this scoring model, **Stage Gate = acceptance gate**, and **HITL = Human-in-the-Loop** (a human-review checkpoint in the workflow).
 
 ## 3. Six Assessment Dimensions
 
@@ -136,7 +140,7 @@ Note: Total score is only an initial assessment. The final determination must st
 | Role assignment | Whether there are Agent roles for market, product, customer service, finance, etc. |
 | Task dispatch | Whether enterprise-class tasks can be split for multi-Agent collaboration |
 | Output integration | Whether there is a role or process that integrates Agent outputs |
-| Quality check | Whether there is a Critic, Reviewer, or human Gate |
+| Quality check | Whether there is a Critic, Reviewer, or HITL review |
 | Business value | Whether it supports cross-departmental decision-making, operations, or innovation tasks |
 
 ## 7. Deployment Mode Scoring
@@ -193,4 +197,4 @@ Deployment mode is not equivalent to maturity, but it affects the course and the
 | System integration gap | Gmail, Sheets, Notion, CRM, API, ERP not integrated | API inventory, Credential, data routing |
 | Agent gap | No AI capable of autonomously executing tasks | L4 Hermes Agent task design |
 | Agent Team gap | Cross-departmental tasks lack multi-Agent collaboration | L5 ClawTeam scenario design |
-| Governance gap | Permissions, audit, and ROI unclear | Governance sheet, Stage Gate, KPI |
+| Governance gap | Permissions, audit, and ROI unclear | Governance sheet, acceptance gate (Stage Gate), KPI |

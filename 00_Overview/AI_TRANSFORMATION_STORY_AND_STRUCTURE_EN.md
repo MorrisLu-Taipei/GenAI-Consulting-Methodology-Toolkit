@@ -64,18 +64,18 @@ Imagine that three months later, the company's Monday morning has changed:
 1. A sales rep opens OpenWebUI, logs in with their own account, and enters their personal chat workspace. AI usage is bounded by company policy: which data is allowed, which data is prohibited, and which output format the department expects. Sales no longer starts from a blank page; they use approved Prompts for customer visit emails, meeting summaries, and proposal drafts.
 2. A marketing manager converts a product-copywriting method that used to live only in their head into a Skill. A new employee can enter product data, target audience, tone, and channel, then generate a draft aligned with the department's style. The manager reviews quality instead of reteaching the workflow every time.
 3. When a customer complaint arrives, n8n reads the Gmail message, checks customer tier and history in CRM, updates Google Sheets, creates a Notion follow-up task, and produces a manager summary. Humans still make judgment calls, but they no longer move data by hand.
-4. Every morning, the operations manager receives a Hermes Agent briefing. The Agent has read ERP exception orders, service records, yesterday's meeting notes, and Wiki knowledge. It identifies three issues to follow up and marks which steps require a human Gate before continuing.
+4. Every morning, the operations manager receives a Hermes Agent briefing. The Agent has read ERP exception orders, service records, yesterday's meeting notes, and Wiki knowledge. It identifies three issues to follow up and marks which steps require HITL (Human-in-the-Loop) review before continuing.
 5. When management plans a new product launch, ClawTeam organizes market, product, service, finance, and operations Agents. Each Agent has a role, task, and deliverable, and the final report is traceable to sources and responsibilities.
 
 This future-state imagination belongs before the course starts because it turns L1-L5 from a tool list into a capability progression the client can understand:
 
-| Level | Capability After Training | Scenario the Client Can Imagine |
-| --- | --- | --- |
-| L1 | Every employee safely uses AI through a controlled gateway | Employees have their own AI workspace instead of shared accounts or uncontrolled data input |
-| L2 | Expert methods become reusable Skills | New employees can use departmental standard methods to produce stable outputs |
-| L3 | AI integrates systems and executes workflows | Gmail, Sheets, Notion, CRM, API, and ERP become connected workflows |
-| L4 | Agents use memory, tools, workflows, and human Gates | Daily briefings, follow-up lists, evidence, and approval items are generated automatically |
-| L5 | Multiple Agents form a cross-functional team | Product, quality, healthcare service, or customer engagement work can be prepared by an AI Team |
+| Level | Axis | Capability After Training | Scenario the Client Can Imagine |
+| --- | --- | --- | --- |
+| L1 | Scale axis · individual | Every employee safely uses AI through a controlled gateway | Employees have their own AI workspace instead of shared accounts or uncontrolled data input |
+| L2 | Scale axis · department | Expert methods become reusable Skills, organized by department responsibility | New employees can use departmental standard methods to produce stable outputs |
+| L3 | Scale axis · cross-department / company-wide | AI chains cross-department Skills and integrates systems to execute workflows | email, Sheets, Notes, CRM, API, and ERP become company-wide connected workflows |
+| L4 | AI-autonomy axis · super-assistant | A fully autonomous AI Agent uses memory, tools, workflows, and auto-scheduling | Daily briefings, follow-up lists, evidence, and items awaiting HITL review are generated automatically |
+| L5 | AI-autonomy axis · AI team | Multiple specialist Agents form a functional-division-of-labor team | Product, quality, healthcare service, or customer engagement work can be prepared by an AI team |
 
 Therefore, sales and course openings should tell the future scenario first, then explain L1-L5; describe the work capability first, then the tools; and show verifiable deliverables before technical details.
 
@@ -88,7 +88,7 @@ First, use a simple questionnaire to quickly identify which level the enterprise
 - L1: Employees individually use Chat AI.
 - L2: Departments begin to consolidate Skills, SOPs, Prompts, and templates.
 - L3: Begin using n8n to integrate systems and workflows.
-- L4: Begin using Hermes Agent equipped with Wiki memory, tool calling, scheduling, evidence, and human Gates.
+- L4: Begin using Hermes Agent equipped with Wiki memory, tool calling, scheduling, evidence, and HITL (Human-in-the-Loop) review.
 - L5: Multiple Agents form a team that collaboratively completes enterprise-class processes.
 
 The purpose of the questionnaire is not academic measurement, but to give the CEO, managers, and IT a shared language about the current state.
@@ -151,6 +151,44 @@ After completing the first round of services, the customer should be able to ans
 This is the transition from "everyone trying AI individually" to "the company has an AI transformation roadmap."
 
 ## 3. L1-L5 Maturity and Course Modules
+
+### 3.0 The Two Axes of L1-L5: From One Person's Tool to the Company's Own Digital Workforce
+
+> An enterprise's AI maturity is not "learning a few tools" — it is walking **two axes**: first letting AI permeate the whole organization, then growing the organization's own AI workforce.
+
+#### Act One: The Scale Axis — AI Grows from "One Person's Tool" to "the Whole Company's Nervous System" (L1 → L2 → L3)
+
+Meet Andy, a salesperson.
+
+- **L1 · Individual**: Andy learns to use AI to write customer visit emails himself. Useful — but only he can do it, and the method is locked in his head. AI's reach = one person.
+- **L2 · Department**: The sales department turns "how to write a good visit email" into a Skill that a new hire can use on day one. AI's reach spreads from Andy to the whole department.
+- **L3 · Cross-department / company-wide**: The Skills of Sales, Customer Service, and Finance are chained together by n8n and connected to CRM, ERP, and email. A complaint email arrives, and AI automatically looks up data, updates, and notifies across departments. AI's reach becomes the whole company.
+
+Throughout this act, **the steering wheel is in human hands**. Andy, managers, and IT decide what AI does and how far it goes — however capable AI gets, it is "a car driven by a human." The progress of this axis is **reach**: one person → one department → the whole company.
+
+#### Act Two: The AI-Autonomy Axis — The Company Grows an "Off-Headcount Employee" (L4 → L5)
+
+Once the whole company's processes are connected (L3 lays the foundation), the company can do something it could not do before: **let AI go to work on its own.**
+
+- **L4 · AI super-assistant**: The company gains an AI entity that goes to work on its own. It has its own capability map, its own tools, its own schedule. When the manager arrives in the morning, the briefing and the three issues to follow up are already on the desk. The manager's role shifts from "using AI" to "managing an AI subordinate."
+- **L5 · AI team**: Not just one. A market AI, a product AI, a finance AI, a customer-service AI… multiple specialist AIs form a team that divides labor and collaborates on its own, completing cross-department tasks like "new product launch analysis." The manager's role rises another level — from "managing one AI" to "governing an AI workforce."
+
+In this act, **the steering wheel is in AI's hands**. But humans have not disappeared — **humans move up to a higher position**: defining responsibilities, setting rules, accepting results, keeping HITL (Human-in-the-Loop) review and acceptance gates. **The more autonomous AI becomes, the more the human looks like a "governor" rather than a replaced "operator."**
+
+#### The Most Important Line: L3 → L4
+
+The whole model has only **one true boundary**, between L3 and L4:
+
+| | L1 → L3 (scale axis) | L4 → L5 (AI-autonomy axis) |
+| --- | --- | --- |
+| The question you ask | "How **widely** can I **use** AI?" | "How much can my AI do **on its own**?" |
+| Who holds the steering wheel | Humans | AI (humans step back to governor) |
+| AI's identity | The company's **tool** | The company's **digital workforce** |
+| How it grows | Individual → department → company-wide | One assistant → one team |
+
+And there is **no shortcut** across this line: L4 must stand on the foundation L3 built — without company-wide connected processes, AI has nothing to "run on its own."
+
+> In L1-L3, you teach AI and spread it; in L4-L5, you raise AI and hand off to it. Walk both axes, and the company doesn't just "know how to use AI" — it "owns an AI workforce," and you become a governor instead of an operator.
 
 ### 3.1 L1 Chat AI: OpenWebUI
 
@@ -300,7 +338,7 @@ Hermes Agent is the standard platform for L4. It integrates L1 Chat, L2 Skill, a
 3. Five core skills handle management, source analysis, keyword extraction, autonomous discovery, and briefing.
 4. Deterministic tools handle writing, indexing, validation, extraction, caching, and logging.
 5. Schedules drive nightly ingest, morning briefing, discovery ping, evening preview, and weekly graph synthesis.
-6. Human Gates handle high-risk updates, keyword approval, schema changes, deletions, and go-live judgments.
+6. HITL (Human-in-the-Loop) review handles high-risk updates, keyword approval, schema changes, deletions, and go-live judgments.
 
 #### Typical Scenario
 
@@ -335,7 +373,7 @@ Hermes Agent will:
 - Ingest / query / update / lint / graph-synthesis.
 - Source analysis, keyword extraction, autonomous discovery, briefing-generator.
 - How to design Agent-callable Skills and n8n Workflows.
-- Human review, permissions, Logs, fallback, and Stage Gates.
+- HITL review, permissions, Logs, fallback, and acceptance gates (Stage Gates).
 
 #### Course Deliverables
 
@@ -346,7 +384,7 @@ Hermes Agent will:
 - Agent-available tools list.
 - Ingest / query / update test records.
 - Briefing template.
-- Gate 4A-4E acceptance table.
+- Acceptance gate 4A-4E table.
 - Agent risk, permissions, and operations Runbook.
 
 ### 3.5 L5 Agentic Team AI: ClawTeam
@@ -569,7 +607,7 @@ Outputs:
 
 ### Stage 6: Benchmarking and Phased Goals
 
-Set short-, medium-, and long-term goals and Stage Gates.
+Set short-, medium-, and long-term goals and acceptance gates (Stage Gates).
 
 Outputs:
 
