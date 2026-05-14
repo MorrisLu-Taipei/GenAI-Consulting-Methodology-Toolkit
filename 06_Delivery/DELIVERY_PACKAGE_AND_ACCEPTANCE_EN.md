@@ -28,6 +28,30 @@ What the client buys is not a tool tour but an AI transformation implementation 
 
 ---
 
+## 1.2 Self-Study vs. Consulting Service: What You Get
+
+This methodology is open source — anyone can clone or download it and read it with an AI IDE (see "Read This as a Living Book" in the root README). We are glad for you to use it this way. Here is an honest account of what "self-study" and "consulting service" each give you:
+
+**Self-study (free) gives you:**
+
+- The complete methodology, the L1-L5 model, the eight-stage structure.
+- Self-serve maturity questionnaires and self-diagnosis.
+- Directly copyable frameworks, control tables, templates, and checklists.
+- An AI co-reading companion that answers your questions and applies the methodology to your situation.
+
+**Consulting service (paid) additionally gives you — what "knowledge on a screen" fundamentally cannot:**
+
+- **Judgment on your specifics**: someone who has actually done this, looking at your real systems, processes, and data, making the judgment calls frameworks cannot.
+- **Hands to execute**: the actual L1-L3 build, system integration, running acceptance, and producing evidence.
+- **Bespoke governance build**: your company's actual permission matrix, HITL review, audit, and data classification stood up (governance cannot be copy-pasted).
+- **Accountability**: someone who signs the SOW, carries the risk, and can be held accountable by your board and auditors.
+- **AI equipment**: the hardware and environment for on-premises / Hybrid deployment.
+- **Speed and certainty**: done in weeks, done right, led by someone who has done it before.
+
+In short: **this book can make you "know what you need"; the consulting service is where you "get it done, get it right, and have someone accountable."**
+
+---
+
 ## 2. Delivery Overview
 
 | Delivery Phase | Client-Facing Description | Main Deliverables | Acceptance Method |
