@@ -208,7 +208,7 @@
 2. **實際 Google Form / Tally 部署**：拿 `FILLABLE_QUESTIONNAIRE.md` 之 spec 建置上線。
 3. **n8n template export**：把 `POC_SCENARIO_SPECS.md` 內的 PoC 寫成可分享之 n8n JSON template。
 4. **設計師交付**：把 `VISUAL_ASSETS_SPEC.md` / 3 套 deck outline 真的做成 PNG / SVG / pptx。
-5. **更多客戶案例**：金融、政府、教育 等高敏感產業之 sample case。
+5. ~~**更多客戶案例**：金融、政府、教育~~ → Done（`SAMPLE_CLIENT_CASE_FINANCIAL.md` / `_GOVERNMENT.md` / `_EDUCATION.md`，Batch 4）
 6. **L4 Hermes Agent 完整 starter-kit 整理**（若採用）。
 7. **L5 ClawTeam 實作 walk-through**：跑通一個跨部門 Agent Team 完整 demo，記錄為 `04_Scenarios/CLAWTEAM_WALKTHROUGH.md`。
 
