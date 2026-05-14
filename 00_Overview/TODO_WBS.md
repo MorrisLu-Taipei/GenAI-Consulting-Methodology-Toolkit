@@ -272,3 +272,28 @@
 | 5 | ~~更多客戶案例（金融/政府/教育）~~ | ✅ Done（Batch 4） |
 | 6 | L4 Hermes Agent starter-kit 整理 | ✅ 可（若採用 Hermes） |
 | 7 | L5 ClawTeam 實作 walkthrough（`04_Scenarios/CLAWTEAM_WALKTHROUGH.md`） | ✅ 可 |
+
+## 9. 工作日誌 / Session Log
+
+### 2026-05-14
+
+#### 完成 / Done
+
+- Repo 授權 / 署名整備：CC BY 4.0 → Apache 2.0、新增 `NOTICE`、中英雙語署名、致謝 Prof. Michael Rosemann (QUT)、作者學歷補 QUT 資工碩士。
+- L5 ClawTeam 引用整備：新增 `90_References/CLAWTEAM_REFERENCE.md` 與 `02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`，引用 HKUDS/ClawTeam (MIT)。
+- 全 repo .md 中英雙語化（29 個 `_EN.md` sibling）。
+- TODO §4.1-§4.6 全數完成，共新增 17 份方法論交付檔，分 4 個 batch：
+  - Batch 1 (`8795bfc`, 已 push)：銷售素材 6 + 問卷自動化 2。
+  - Batch 2+3 (`42df8cd`, 本地)：顧問工具表、PoC 規格、公司屬性問卷、產業場景、行銷+B2B 案例。
+  - Batch 4 (`778bb03`, 本地)：金融 / 政府 / 教育 案例。
+  - TODO 紀錄 (`2616d1d`, 本地)。
+
+#### 狀態 / Status
+
+- 本地有 3 個 commit 未 push（`42df8cd` / `778bb03` / `2616d1d`），等使用者與另一位 reviewer AI 看過後再 push。
+- 規則：使用者要求所有 push 前先列表給他看過。
+
+#### 下一步 / Next
+
+- 等 review → 決定是否 push 本地 3 個 commit。
+- Batch 5 候選見 §8（EN siblings 補齊 / n8n template export / ClawTeam walkthrough）。
