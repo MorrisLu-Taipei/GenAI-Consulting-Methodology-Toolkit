@@ -12,6 +12,8 @@
 | [`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](./OPENWEBUI_VIDEO_LEARNING_NOTES.md) | OpenWebUI playlist 學習紀錄、摘要與 L1 課程應用對照 |
 | [`TIGERAI_VIDEO_LEARNING_NOTES.md`](./TIGERAI_VIDEO_LEARNING_NOTES.md) | TigerAI 頻道影片學習紀錄，特別聚焦 n8n / L3 課程應用 |
 | [`CLAWTEAM_REFERENCE.md`](./CLAWTEAM_REFERENCE.md) | ClawTeam 引用、平台說明與 L5 課程參考 |
+| [`AGENCY_AGENTS_REFERENCE.md`](./AGENCY_AGENTS_REFERENCE.md) | agency-agents 引用、授權說明與 L2 課程參考 |
+| [`N8N_SKILL_PACK_REFERENCE.md`](./N8N_SKILL_PACK_REFERENCE.md) | TigerAI-n8n-Skill-Pack 引用、授權說明與 L3 課程參考 |
 
 ## 署名
 

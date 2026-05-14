@@ -11,6 +11,9 @@
   `https://codelabs.developers.google.com/building-with-google-antigravity?hl=zh-tw`
 - Google Codelab：使用 Antigravity 建構及部署至 Google Cloud  
   `https://codelabs.developers.google.com/build-and-deploy-gcp-with-antigravity?hl=zh-tw`
+- agency-agents（msitarzewski，MIT License）：144+ 個 agent persona 定義庫，支援 Antigravity / Claude Code / Cursor  
+  `https://github.com/msitarzewski/agency-agents`  
+  引用與授權說明見 [`../90_References/AGENCY_AGENTS_REFERENCE.md`](../90_References/AGENCY_AGENTS_REFERENCE.md)
 
 ---
 
@@ -205,6 +208,46 @@ L2 下半堂的目標不是繼續美化 Skill，而是把 Skill 轉成 L3 可以
 - Log / Evidence spec。
 - Error handling spec。
 - Gate 2 驗收表。
+
+### 7.6 L2-B 下半段擴充：善用現成 Agent 庫（agency-agents）
+
+> 引用：[`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents)（MIT License）。完整引用與授權說明見 [`../90_References/AGENCY_AGENTS_REFERENCE.md`](../90_References/AGENCY_AGENTS_REFERENCE.md)。
+
+L2-B Agentic Developer 線的下半段，除了把 Skill 轉成 Workflow Blueprint，還要教學員一個關鍵觀念：**不是每個 Skill 都要從零寫。** 業界已有成熟的 agent persona 庫（如 agency-agents，144+ 個 agent 定義、12 大類），可作為 Skill 建置的起點。
+
+#### 7.6.1 教學目標
+
+完成本段後，學員應能：
+
+1. 說明「自建 Skill」與「採用 + 客製現成 agent persona」的取捨。
+2. 安裝 agency-agents 到 Antigravity / Claude Code（`./scripts/install.sh`，工具自動偵測）。
+3. 瀏覽 12 大類（engineering / design / marketing / sales / product / testing 等）並挑出與企業情境相符的 agent。
+4. 把選定的 agent persona **客製化**為企業專屬 Skill：改寫 mission、加入企業 SOP、設定 Review Policy、補上 IPOE。
+5. 判斷哪些 agent 可直接用、哪些需大幅改寫、哪些不適用（避免「貼一個 persona 就當成組織能力」）。
+6. 把客製後的 agent persona 納入 L2 Skill Library，並標註來源（agency-agents + 版本）與 Owner。
+
+#### 7.6.2 上課內容（90 分）
+
+| 時間 | 主題 | 內容 | 產出 |
+|---|---|---|---|
+| 20 分 | 現成 Agent 庫觀念 | 自建 vs 採用；agency-agents 的 12 類結構與授權（MIT） | 取捨判斷表 |
+| 20 分 | 安裝與瀏覽 | install 腳本、工具偵測、依企業情境挑 agent | 候選 agent 清單 |
+| 30 分 | 客製化實作 | 改 mission / 加 SOP / 設 Review Policy / 補 IPOE | 客製化 agent persona |
+| 20 分 | 納入 Skill Library | 標註來源、版本、Owner、與 §8 Skill Library 對齊 | Skill Library 條目 |
+
+#### 7.6.3 治理與紅線
+
+- agency-agents 為 **第三方 MIT 內容**；客製後的企業 Skill 屬企業所有，但建議於 Skill 文件中標註原始來源。
+- agent persona 內的指令仍須通過企業的 Terminal / Review / JavaScript 安全政策（見 §6.1）。
+- 不可未經審查直接讓 agent persona 在生產環境執行；客製化後一律先過 Gate 2。
+- persona 庫只是「起點」，不能取代 §7 的 L2→L3 Bridge — 真正的流程化仍須走 Workflow Blueprint。
+
+#### 7.6.4 下半段 Deliverables（追加）
+
+- agency-agents 安裝紀錄（工具偵測截圖）。
+- 企業情境 × 候選 agent 對照表。
+- 至少 2 個客製化後的 agent persona（含來源標註、IPOE、Owner）。
+- 自建 vs 採用之取捨判斷表。
 
 ---
 

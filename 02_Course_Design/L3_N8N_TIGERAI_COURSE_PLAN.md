@@ -1,10 +1,15 @@
 # L3 n8n Workflow AI 課程規劃
 
-版本：v1.0  
+版本：v1.1  
 作者：Morris  
 適用層級：L3 Workflow AI  
-參考來源：TigerAI YouTube 頻道 n8n / OpenGenie 相關影片  
-頻道：`https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80TigerAI`
+參考來源：
+
+- TigerAI YouTube 頻道 n8n / OpenGenie 相關影片  
+  頻道：`https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80TigerAI`
+- TigerAI-n8n-Skill-Pack（Morris Lu，TigerAI 自有 + 部分 MIT）：13 個 Skill + 8 cookbook + 2,061 reference workflows，用自然語言生成 n8n workflow JSON，支援 Antigravity + Claude Code + n8n  
+  `https://github.com/MorrisLu-Taipei/TigerAI-n8n-Skill-Pack`  
+  引用與授權說明見 [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md)
 
 ---
 
@@ -22,6 +27,17 @@ TigerAI 影片呈現的 L3 精神是：
 4. 用 Sub-workflow 形成可重複使用的流程模組。
 5. 用 Execution Log、GitHub 備份、人工 Gate、錯誤處理讓流程可維運。
 6. 最後把可用 Workflow 交給 L4 Hermes Agent 呼叫。
+
+### 1.1 L3 課程分上半段與下半段
+
+L3 課程依「先觀念、後生成」原則切成兩段，學員不可跳段：
+
+| 段 | 內容 | 對應課程 | 重點 |
+|---|---|---|---|
+| **L3 上半段** | n8n / AI workflow 基礎觀念與手動建置 | §5.1 Foundation、§5.2 Builder | 先親手拉過 Trigger / Node / AI / Gate / Log，理解 workflow 的結構與治理 |
+| **L3 下半段** | 用 Antigravity (AG) + TigerAI-n8n-Skill-Pack 自然語言生成 workflow | §5.3 Advanced、§5.5 AG + Skill Pack | 在已懂結構的基礎上，用 AI IDE 把自然語言意圖直接生成可部署的 workflow JSON |
+
+> **為什麼先學概念再學 Skill Pack：** TigerAI-n8n-Skill-Pack 能把自然語言「便利貼」直接變成 workflow JSON，但若學員沒先在上半段親手建過 workflow、不懂 Trigger / Credential / Human Gate / Error Handling 的結構，就無法判斷生成結果是否正確、是否安全、是否可維運。**Skill Pack 是加速器，不是替代理解。**
 
 ---
 
@@ -118,6 +134,39 @@ TigerAI 影片呈現的 L3 精神是：
 | Day 1 PM | Build | Trigger、AI、Data、Platform Action | Workflow PoC |
 | Day 2 AM | Governance | Human Gate、Log、Error、Backup、Credential | 維運與治理 |
 | Day 2 PM | Acceptance | Demo、Execution Log、文件、L4 contract | Gate 3 驗收 |
+
+### 5.5 L3 下半段核心：AG + TigerAI-n8n-Skill-Pack：1 天
+
+> 引用：[`MorrisLu-Taipei/TigerAI-n8n-Skill-Pack`](https://github.com/MorrisLu-Taipei/TigerAI-n8n-Skill-Pack)。完整引用與授權說明見 [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md)。
+>
+> **先修條件：必須先完成 L3 上半段（§5.1 Foundation + §5.2 Builder）**，學員須已親手建過至少 1 個含 Trigger / AI / Human Gate / Error Handling 的 workflow。
+
+目標：在已理解 n8n workflow 結構的基礎上，用 Antigravity（AG）+ TigerAI-n8n-Skill-Pack 把自然語言意圖直接生成可部署、可驗收的 workflow JSON，並學會審查生成結果。
+
+| 時間 | 主題 | 內容 | 產出 |
+|---|---|---|---|
+| 45 分 | Skill Pack 觀念 | 三層結構（黃色便利貼意圖 + 藍色便利貼註記 + workflow nodes）、DSL v1.2、13 Skills / 8 cookbook / 2,061 reference workflows | Skill Pack 結構筆記 |
+| 30 分 | 安裝與設定 | `install.sh` / `install.ps1`、AG 與 Claude Code 整合、n8n 2.10.3+ | 安裝紀錄 |
+| 60 分 | Cookbook 模式 | 從 8 個 cookbook recipe 挑模板、用自然語言改寫意圖 | 第 1 個生成 workflow |
+| 75 分 | Q&A 生成模式 | AI 引導需求蒐集 → 三層 JSON 生成 → 對照 L2 Workflow Blueprint | 第 2 個生成 workflow |
+| 60 分 | 生成結果審查 | 用上半段學到的結構知識檢查：Trigger 對不對？Credential / Human Gate / Error Handling 有沒有？是否可維運？ | 生成結果審查表 |
+| 45 分 | Example finder | 從 2,061 reference workflows 找相似實作、比對與借鑑 | 參考實作對照 |
+| 45 分 | 部署與驗收 | 透過 n8n API 部署、跑 Execution Log、對齊 Gate 3 | Execution Log + Gate 3 對照 |
+
+#### 5.5.1 治理與紅線
+
+- TigerAI-n8n-Skill-Pack 之 `skills/_vendor/` 與 `reference-workflows/` 為 **MIT**；其餘 Skill / Cookbook / Spec 為 **TigerAI 自有**。引用與再散布請依 [`../90_References/N8N_SKILL_PACK_REFERENCE.md`](../90_References/N8N_SKILL_PACK_REFERENCE.md)。
+- **生成不等於驗收**：AI 生成的 workflow 一律須經學員依上半段知識審查，並走 Gate 3A-3G，未過不得宣稱企業級 PoC。
+- 機敏資料情境：生成的 workflow 若含 LLM 節點，須改指地端 / Azure OpenAI 隔離 tenant，並前置 redaction。
+- reference workflows 已洗去 secrets，但仍須確認沒有殘留的內部端點 / 帳號才可作為範本。
+
+#### 5.5.2 §5.5 Deliverables
+
+- TigerAI-n8n-Skill-Pack 安裝紀錄。
+- 至少 2 個用 AG + Skill Pack 生成的 workflow JSON（cookbook 模式 1 個、Q&A 模式 1 個）。
+- 生成結果審查表（對照上半段的結構知識）。
+- reference workflow 參考實作對照。
+- 部署 Execution Log + Gate 3 對照表。
 
 ---
 
