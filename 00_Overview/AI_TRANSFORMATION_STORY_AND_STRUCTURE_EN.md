@@ -190,6 +190,22 @@ And there is **no shortcut** across this line: L4 must stand on the foundation L
 
 > In L1-L3, you teach AI and spread it; in L4-L5, you raise AI and hand off to it. Walk both axes, and the company doesn't just "know how to use AI" — it "owns an AI workforce," and you become a governor instead of an operator.
 
+### 3.0.1 Procure AI, Don't Buy a System: The L4-L5 Mindset Shift
+
+At L4-L5, the biggest shift an enterprise must make is not technical — it is a **mindset shift**.
+
+Bosses are used to seeing AI the way they "buy a system": evaluate the feature list, compare license prices, calculate software ROI. But L4-L5 AI is not software — it has three things: **reasoning, autonomy, and tool use** — functionally, it does what a knowledge worker does. So the correct mindset is **"procuring AI"**: like recruiting, onboarding, managing, and governing a talent, not like buying a piece of software.
+
+| The "buy a system" mindset | The "procure AI" mindset |
+| --- | --- |
+| Evaluate feature lists, seat counts, annual license fees | Evaluate how much workload it takes off, how much capacity it amplifies |
+| Calculate "software ROI" | Calculate "workforce ROI" — ROI doesn't disappear, the measuring stick changes |
+| Install, go live, done | Define responsibilities, onboard, review performance, govern continuously |
+| People are replaced by a tool | People are upgraded to governors, with an extra digital workforce to govern |
+
+> **Scope**: this mindset applies only to **L4-L5 (the AI-autonomy axis)**. At L1-L3 you are legitimately buying tools, equipment, and systems — that is reasonable and verifiable. "Procuring AI" is about the boss's mindset shifting once AI crosses L3→L4 and becomes an autonomous digital workforce.
+> **It is a management-posture analogy, not a claim that "AI is human"** — precisely because AI ≠ human, it needs the governance framework and HITL that humans build, and that is the core of the consulting service.
+
 ### 3.1 L1 Chat AI: OpenWebUI
 
 #### Positioning

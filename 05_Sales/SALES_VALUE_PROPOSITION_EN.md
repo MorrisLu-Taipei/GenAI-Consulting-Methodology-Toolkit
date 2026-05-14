@@ -52,6 +52,22 @@ Clients should map the story to these capabilities:
 
 This story should come before the questionnaire and course introduction. Once clients understand the future state, they are more willing to answer the maturity questionnaire and understand why courses are layered, and why each layer needs deliverables and Stage Gates.
 
+## 3.6 Procure AI, Don't Buy a System (The Key L4-L5 Reframe)
+
+At L4-L5, what the boss must change is not the tools — it is the **mindset**.
+
+Many bosses see AI the way they "buy a system": compare features, compare license prices, calculate software ROI. But L4-L5 AI is not software — it reasons, acts autonomously, and uses tools; functionally it does what a knowledge worker does. So the right mindset is **"procuring AI"**: like recruiting, onboarding, managing, and governing a talent.
+
+A sales conversation can lead with:
+
+> Are you "buying a piece of AI software," or "procuring an AI workforce"? If it's the latter, the question is not "what features does it have" but "how much workload does it take off me, how do I manage it, and who governs it?"
+
+Key points (especially effective with CEOs / executives):
+
+- **ROI doesn't disappear — the measuring stick changes**: don't use the "buy software" stick (features, seats, annual fees); use the "hire a worker" stick (how much workload it takes off, how much capacity it amplifies).
+- **At L1-L3 you are legitimately buying tools / equipment / systems** — that is reasonable and verifiable; the "procure AI" reframe applies only to L4-L5.
+- **It is a management-posture analogy, not a claim that "AI is human"** — precisely because AI ≠ human, it needs the governance framework that humans build, and governance is the core of our service.
+
 ## 4. Role-Based Value Propositions
 
 ### 4.1 CEO
@@ -215,3 +231,7 @@ We incorporate credentials, permissions, logs, human review, Owners, and operati
 ### Q5: How do we measure ROI?
 
 We prioritize tracking time saved, error rate, response speed, process throughput, knowledge accumulation, new-hire ramp time, and PoC-to-production conversion rate.
+
+### Q6: We can just buy the AI tools ourselves — why do we need a consultant?
+
+At L1-L3, you are indeed buying tools and equipment — and even just getting OpenWebUI, Skills, and n8n integrated with your CRM / ERP to actually run is not a low technical bar. At L4-L5 it is different again: that is not "buying a piece of software," it is "procuring an AI workforce that works autonomously" — it needs responsibility definitions, a governance framework, HITL, and accountability, which tools cannot buy and which a consultant builds with you (see §3.6).
