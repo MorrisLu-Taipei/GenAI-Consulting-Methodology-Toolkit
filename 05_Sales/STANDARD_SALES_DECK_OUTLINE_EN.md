@@ -1,0 +1,105 @@
+# Standard Sales Deck Outline (20 slides)
+
+> 🌐 中文版本 / Chinese version: [STANDARD_SALES_DECK_OUTLINE.md](STANDARD_SALES_DECK_OUTLINE.md)
+> Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
+> Source: <https://github.com/MorrisLu-Taipei/AI-Consulting-Methodology-Toolkit>
+
+Audience: department managers, PMs, IT lead, HR, AI Champion
+Duration: 35-45 min
+Purpose: Build trust in the methodology + show concrete deliverables + trigger a PoC conversation.
+
+---
+
+## Slide 1 — Cover (same as Executive deck)
+
+## Slide 2 — Who We Are
+
+- Tiger AI 虎智科技 · Morris Lu (盧業興)
+- Roles: n8n Taipei Ambassador · NTUST PhD student (Intelligent Manufacturing) · QUT M.IT
+- Mentor: Prof. Michael Rosemann (QUT)
+- Visual: overlapping circles of individual + community + academic
+
+## Slide 3 — Customer Observations
+
+Three common patterns: shadow IT, PoCs forever stuck in demo, governance gap.
+
+## Slide 4 — L1-L5 Maturity Model
+
+Full 5 layers + tools + one-line positioning.
+
+## Slide 5 — Layer-by-Layer Handoff
+
+Each layer's output = the next layer's input; include the ASCII flow diagram.
+
+## Slide 6 — Eight-Stage Consulting Structure
+
+Diagnose → Vision → Strategy → Roadmap → Design → Implement → Govern → Sustain.
+
+## Slide 7 — Diagnostic Tools
+
+- 10-question version (sales development)
+- 25-question version (pre-course)
+- 50-question version (pre-consulting-interview)
+- Company-profile questionnaire + deployment-mode scoring
+- Visual: questionnaire → radar chart → level determination
+
+## Slide 8 — L1 OpenWebUI Course
+
+Audience: everyone. Content: accounts, groups, permissions, Prompt Library, Admin Panel, model control. Output: AI usage policy, Prompt Library, L2 candidate list. Gate 1 pass criteria.
+
+## Slide 9 — L2 Skill AI Course
+
+Audience: core users. Content: Antigravity / Claude Code / Codex; Skill design, IPOE, version control. Output: 3-5 Skills, Workflow Blueprints. Gate 2A-2E.
+
+## Slide 10 — L3 n8n Workflow Course
+
+Audience: process designers, IT. Content: triggers, nodes, Sub-workflows, Data Tables, Webhook, GitHub Backup. Output: 3 Workflow PoCs + Execution Log. Gate 3A-3G.
+
+## Slide 11 — L4 Hermes Agent Course
+
+Audience: AI Champion + IT. Content: Wiki memory, 5 core Skills, ingest/query/update, briefing, Gate. Output: 1 Agent passing 4A-4E, task cards, Wiki, Evidence.
+
+## Slide 12 — L5 ClawTeam Agentic Team Course
+
+Audience: management + cross-functional. Content: based on HKUDS/ClawTeam (MIT). Five-layer architecture (Team/Workspace/Task/Inbox/Transport), git worktree, Role Card, Reviewer/Gate. Citation: <https://github.com/HKUDS/ClawTeam>
+
+## Slide 13 — PoC Library
+
+6 systems × 25-30 PoCs: Gmail / Sheets / Notion / CRM / API / ERP. Each PoC: trigger, input, AI step, systems, output, KPI, person-days. Details in `02_Course_Design/POC_SCENARIO_SPECS.md`.
+
+## Slide 14 — Deployment Modes
+
+Cloud AI · Hybrid · Full on-prem — three modes. Decided along three axes: data sensitivity, industry compliance, cost. Table: applicability conditions, pros/cons, course notes.
+
+## Slide 15 — Stage Gate Governance
+
+5 Gates + acceptance criteria per Gate. The "quality lock" that prevents advancing without passing.
+
+## Slide 16 — ROI Cases
+
+Three cases: manufacturing quality, hospital patient service, retail new-product launch. Each with Before/After numbers + roadmap summary.
+
+## Slide 17 — Governance, Permissions, Audit
+
+Permissions matrix · audit log requirements · 15-item AI ethics checklist. Mapped to ISO 42001 / EU AI Act / Taiwan's AI Basic Act.
+
+## Slide 18 — Delivery Package & Acceptance
+
+Full deliverables list (12 major items). Acceptance criteria per item. Details: `06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`.
+
+## Slide 19 — Three Engagement Tiers
+
+Half-day / 1-day / 2-day / consulting project. Chosen by company size, objectives, budget.
+
+## Slide 20 — Next Step
+
+30-minute discovery call → customized proposal. QR code + contact.
+
+---
+
+## Production Notes
+
+- 16:9 ratio; 4-6 key points per slide
+- Section color blocks: diagnose (blue) / course (green) / consulting (gold) / governance (gray)
+- Page number + section footer throughout
+- Back cover: Apache 2.0 + GitHub repo URL
