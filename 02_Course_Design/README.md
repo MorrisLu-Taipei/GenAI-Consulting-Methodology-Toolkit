@@ -10,3 +10,5 @@
 - `L3_N8N_TIGERAI_COURSE_PLAN.md`：參考 TigerAI 頻道 n8n / OpenGenie 影片的 L3 深度課程，包含 Gemini、多模態、Sub-workflow、Data Tables、Webhook、客服/HR/行銷 PoC、GitHub 備份與 Gate 3A-3G。
 - `L4_HERMES_AGENT_COURSE_PLAN.md`：參考 Hermes `starter-kit-v2` 的 L4 深度課程，包含 Wiki 記憶、五個核心 skills、ingest/query/update、briefing/discovery、evidence 與 Gate 4A-4E。
 - `L5_CLAWTEAM_COURSE_PLAN.md`：以 [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) (MIT License) 為實作平台的 L5 深度課程，包含 Team / Workspace / Task / Inbox / Transport 五層架構、git worktree 隔離、CLI 上機 (`team spawn-team`、`task --blocked-by`、`inbox send/broadcast`、`board show/live`)、三大在地化情境 (製造業 / 醫院 / 零售) 與 Gate 5。引用條款請見 `../90_References/CLAWTEAM_REFERENCE.md`。
+- `POC_SCENARIO_SPECS.md`：L3/L4 課程之 PoC 場景庫，6 大系統 (Gmail / Sheets / Notion / CRM / API / ERP) 共 30 個可實作 PoC，每個含 trigger、輸入、AI step、系統、輸出、驗收、KPI、人天、n8n 節點序列，附 Selection Guide。
+- `N8N_WORKFLOW_TEMPLATES.md`：把 PoC 整理成可匯入 n8n 的 workflow 範本骨架（JSON）、匯出/匯入流程、命名版本規範、GitHub Backup SOP 與課堂使用流程。
