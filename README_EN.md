@@ -9,6 +9,18 @@ Role: **n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent M
 
 License summary: this project is released under the **[Apache License 2.0](LICENSE)**. You may use, copy, modify, redistribute, and commercialize it; when redistributing, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE).
 
+## Read This as a Living Book: Read It With AI
+
+This repo is a **living book**. `git clone` it or download the zip, and open it in an AI IDE (Antigravity / Claude Code / Codex, etc.) — the AI automatically reads [`AGENTS.md`](AGENTS.md) (and [`CLAUDE.md`](CLAUDE.md)) and acts as the **co-reading tutor** for this methodology.
+
+Then you can:
+
+- Ask it **any question** about the methodology;
+- Have it **apply the methodology to your company's situation**;
+- Walk through the L1-L5 self-diagnosis with it and find your next step.
+
+The methodology isn't just to "read" — it's to "read with, ask, and apply" together.
+
 ## What This Toolkit Solves
 
 Many companies start AI adoption by jumping directly into tools. They try a chatbot, then automation, then agents, but often lack a maturity baseline, process ownership, evidence, and stage gates.
