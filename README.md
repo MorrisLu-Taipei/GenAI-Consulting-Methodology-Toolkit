@@ -50,30 +50,6 @@
 
 ---
 
-## 把這本書讀活：和 AI 一起讀
-
-> ⚠️ **學術誠信聲明 / Academic Integrity Disclaimer**
->
-> **本 repo 中所有具名案例（製造、醫院、行銷、B2B、金融、政府、教育 7 個 SAMPLE_CLIENT_CASE）與所有故事主角（如「阿明」「明強封測」），皆為 AI 模擬產生的虛構案例**。
-> 所有數字（時間、ROI、人月、預算、KPI）僅為**示例**，**不可作為對外宣傳、合約承諾、學術 empirical evidence**。
-> 真實 longitudinal cases 需透過 [`90_References/PILOT_STUDY_PROTOCOL.md`](90_References/PILOT_STUDY_PROTOCOL.md) 18-24 個月實證研究完成後才會替換。
->
-> **All named cases and story protagonists in this repo are AI-generated fictional examples**, NOT real client data. Numbers are illustrative; real cases will replace after the pilot study.
-
-> **🌟 一句話定位**：這不只是一本方法論手冊，而是一本 **AI-native 的活書 (AI-native living book)**：當使用者用 AI IDE 打開 repo，[`AGENTS.md`](AGENTS.md) 會把 AI 轉換成**共讀導師**，帶使用者理解、提問、套用並產出顧問交付物。
->
-> 完整論述見 [`00_Overview/AI_NATIVE_LIVING_BOOK.md`](00_Overview/AI_NATIVE_LIVING_BOOK.md) —— 為什麼這是方法論的全新形式（executable knowledge artifact / AI-mediated methodology）。
-
-這個 repo 是一本**活起來的書**。把它 `git clone` 或下載 zip 回來，用 AI IDE（Antigravity / Claude Code / Codex 等）打開 —— AI 會自動讀 [`AGENTS.md`](AGENTS.md)（與 [`CLAUDE.md`](CLAUDE.md)），把自己定位成**這套方法論的共讀導師**。
-
-然後你就可以：
-
-- 問它關於這套方法論的**任何問題**；
-- 請它把方法論**套到你公司的情況**；
-- 跟著它做 L1-L5 自我診斷、找出你的下一步。
-
-方法論不只是拿來「讀」的，是可以「一起讀、一起問、一起套用」的。
-
 ## 這套方法在解決什麼
 
 很多企業導入 AI 時會直接跳工具：今天買 ChatGPT，明天試 n8n，下週又想做 Agent。結果常見問題是員工不會用、流程沒有接上、資料沒有治理、PoC 無法驗收，最後高層也不知道 AI 到底成熟到哪一層。
@@ -254,21 +230,27 @@ Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 
 ---
 
+## 把這本書讀活：和 AI 一起讀
+
+下方的安裝指南會帶你把 repo 接上 AI IDE。在動手之前，先了解這個操作模型 + 一條紅線。
+
+**操作模型一句話**：`git clone` 或下載 zip → 用 AI IDE（Antigravity / Claude Code / Codex 等）打開 → AI 自動讀 [`AGENTS.md`](AGENTS.md)（與各引擎自己的 `<ENGINE>.md`），把自己定位成**這套方法論的共讀導師**。然後你就能（1）問它關於這套方法論的任何問題、（2）請它把方法論套到你公司的情況、（3）跟著它做 L1-L5 自我診斷、找出下一步。
+
+完整論述見 [`00_Overview/AI_NATIVE_LIVING_BOOK.md`](00_Overview/AI_NATIVE_LIVING_BOOK.md)。
+
+> ⚠️ **學術誠信聲明 / Academic Integrity Disclaimer**
+>
+> **本 repo 中所有具名案例（製造、醫院、行銷、B2B、金融、政府、教育 7 個 SAMPLE_CLIENT_CASE）與所有故事主角（如「阿明」「明強封測」），皆為 AI 模擬產生的虛構案例**。
+> 所有數字（時間、ROI、人月、預算、KPI）僅為**示例**，**不可作為對外宣傳、合約承諾、學術 empirical evidence**。
+> 真實 longitudinal cases 需透過 [`90_References/PILOT_STUDY_PROTOCOL.md`](90_References/PILOT_STUDY_PROTOCOL.md) 18-24 個月實證研究完成後才會替換。
+>
+> **All named cases and story protagonists in this repo are AI-generated fictional examples**, NOT real client data. Numbers are illustrative; real cases will replace after the pilot study.
+
 ## 🚀 三 AI 引擎安裝與啟動指南 / Three AI Engines Setup Guide
 
-本 repo 支援三個 AI 引擎平行運作。**同一份知識內容，依您選擇的 AI 介面顯現不同人格、提供不同工作流**。三個引擎不替代彼此，而是**各擅一個角色**。
+三個引擎的**角色定位與分工**已在頂部「🔱 三個 AI 引擎，各自擅長不同的事」介紹完畢。本節聚焦**怎麼裝、怎麼啟動、怎麼呼叫工作流**。三個區塊獨立可選，挑你要用的引擎讀那一段即可。
 
 > ⚠️ **依 [`07_AI_Contributions/README.md`](07_AI_Contributions/README.md) §0**：方法論架構、L1-L5、八階段、3 引擎分工等戰略設計皆由 **Morris Lu（人類）** 提出。三個 AI 引擎在 Morris 的指導下**執行、完善、展開、稽核**，不主張對方法論架構的所有權。每個引擎的詳細自述見 [`07_AI_Contributions/`](07_AI_Contributions/) 對應檔案。
-
-### 您是哪一種使用者？/ Which Engine Should You Use?
-
-| 角色 / Role | 用哪個引擎 / Engine | 為什麼 / Why |
-| --- | --- | --- |
-| **前線顧問 / 客戶共讀者** | 🟦 **Antigravity** | 互動式診斷、客戶引導、客製化報告產出 |
-| **方法論架構師 / 稽核員** | 🟪 **Codex CLI** | 方法論測試、跨檔稽核、紅隊演練、版本演化 |
-| **跨檔戰略思考者 / 學術研究者** | 🟨 **Claude Code** | 多檔深度綜合、多視角並行、counterfactual 壓測、辯論、客戶分叉 |
-
-三個引擎可在**同一個專案內並存使用**：上午用 Antigravity 跟客戶開會、下午用 Codex 稽核草稿、晚上用 Claude Code 跑模擬實驗。
 
 ---
 
