@@ -13,17 +13,17 @@ License summary: this project is released under the **[Apache License 2.0](LICEN
 
 ---
 
-## 🌟 This Isn't Just a Book — It's an AI-Native Living Book
+## 🌟 This Isn't Just a Book — It's an AI-Native Living Book ── A Book That Is Truly *Alive*
 
-Books have evolved generation by generation. Each generation solved one problem, but left behind one gap:
+Books have evolved generation by generation. Each generation solved one problem, but left behind one gap — **none of them were ever truly *alive***:
 
-- **Gen 1 — Printed books**: preserve knowledge and pass it to the next reader. But they can **only be read** — they cannot answer your questions, and they don't know what your company looks like.
-- **Gen 2 — Interactive books**: once moved onto the web and into wikis, they can be searched, hyperlinked, and commented on. But they still don't proactively **suggest** anything to you, let alone analyze your situation or produce new artifacts.
-- **Gen 3 — AI-Native Books (this repo)**: the methodology body is written in Markdown and opened in an AI IDE — the AI auto-reads the entire book and **gives customized recommendations, runs diagnostics, drafts reports, and conducts simulation exercises based on your company's actual situation**.
+- **Gen 1 — Printed books**: preserve knowledge and pass it to the next reader. But they can **only be read — they don't respond**; they cannot answer your questions, and they don't know what your company looks like. They are **paper that sits still**.
+- **Gen 2 — Interactive books**: once moved onto the web and into wikis, they can be searched, hyperlinked, and commented on. They added **interaction** on top of printed books, but they still **don't proactively suggest** anything to you, let alone analyze your situation or produce new artifacts — still passive: the *interface* came alive, but the *content* didn't.
+- **Gen 3 — AI-Native Books (this repo) — a book that is truly alive**: the methodology body is written in Markdown and opened in an AI IDE — the AI auto-reads the entire book, **lets you ask, answers for you, thinks with you**, and **gives customized recommendations, runs diagnostics, drafts reports, and runs simulation exercises based on your company's actual situation**. The book itself responds, extends, and grows new chapters along with your questions.
 
-In other words: printed books transmit knowledge, interactive books make it searchable, and **AI-Native Books — for the first time — turn "the book" into a partner that thinks alongside you**. The final decision still rests with humans, but you are no longer alone facing a static methodology.
+In other words: printed books transmit knowledge, interactive books make it searchable, and **AI-Native Books — for the first time — make "the book" truly come alive, becoming a partner that thinks alongside you**. The final decision still rests with humans, but you are no longer alone facing a static methodology.
 
-> *Three generations of books: printed (read-only) → interactive (search & link) → **AI-native (advises, analyzes, simulates based on your actual situation)**. Open with an AI IDE; AI becomes your reading partner, consulting assistant, and auditor.*
+> *Three generations of books: printed (read-only, dead) → interactive (search & link, still passive) → **AI-native (truly alive — advises, analyzes, simulates, and grows with your questions)**. Open with an AI IDE; AI becomes your reading partner, consulting assistant, and auditor.*
 
 ### 🔱 Three AI Engines, Each Specializing in Different Things
 

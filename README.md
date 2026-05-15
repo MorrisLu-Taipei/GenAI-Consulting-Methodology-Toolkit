@@ -13,17 +13,17 @@
 
 ---
 
-## 🌟 這不是一本書，是 AI-Native Living Book
+## 🌟 這不是一本書，是 AI-Native Living Book ── 一本真實「活」的書
 
-書本一路演化過來，每一代都解決了一個問題，但也留下一個缺口：
+書本一路演化過來，每一代都解決了一個問題，但也留下一個缺口 —— **一直都不是「活」的**：
 
-- **第 1 代　印刷書**：把知識保留下來、傳給下一個讀者。但它**只能被讀**，不能回答你的問題，也不知道你公司長什麼樣。
-- **第 2 代　互動書**：搬上網頁與 Wiki 之後，可以搜尋、跳轉、留言。但它仍然不會主動**建議**你什麼，更不會替你分析、產出新東西。
-- **第 3 代　AI-Native Book（本 repo）**：用 Markdown 寫成方法論本體，再用 AI IDE 打開 ── AI 自動讀完整本書，**依你公司的真實情境給出客製化建議、跑診斷、寫報告草稿、做模擬演練**。
+- **第 1 代　印刷書**：把知識保留下來、傳給下一個讀者。但它**只能被讀，不會回應**，不能回答你的問題，也不知道你公司長什麼樣 —— 是一份**靜止的紙**。
+- **第 2 代　互動書**：搬上網頁與 Wiki 之後，可以搜尋、跳轉、留言。比印刷書多了「**互動**」，但仍然**不會主動建議**你什麼，更不會替你分析、產出新東西 —— 還是被動的，只是介面活了，內容沒活。
+- **第 3 代　AI-Native Book（本 repo）── 真正「活」起來的書**：用 Markdown 寫成方法論本體，再用 AI IDE 打開 ── AI 自動讀完整本書，**讓你問、幫你答、陪你想**，並且**依你公司的真實情境給出客製化建議、跑診斷、寫報告草稿、做模擬演練**。書本身會回應、會延伸、會跟著你的問題長出新的章節。
 
-換句話說：印刷書傳承知識、互動書方便查找，**AI-Native Book 第一次讓「書」變成可以陪你一起想事情的夥伴**。最終決策仍然由人類做，但你不再是一個人面對一份靜態的方法論。
+換句話說：印刷書傳承知識、互動書方便查找，**AI-Native Book 第一次讓「書」真正活起來 —— 變成可以陪你一起想事情的夥伴**。最終決策仍然由人類做，但你不再是一個人面對一份靜態的方法論。
 
-> *Three generations of books: printed (read-only) → interactive (search & link) → **AI-native (advises, analyzes, simulates based on your actual situation)**. Open with an AI IDE; AI becomes your reading partner, consulting assistant, and auditor.*
+> *Three generations of books: printed (read-only, dead) → interactive (search & link, still passive) → **AI-native (truly alive — advises, analyzes, simulates, and grows with your questions)**. Open with an AI IDE; AI becomes your reading partner, consulting assistant, and auditor.*
 
 ### 🔱 三個 AI 引擎，各自擅長不同的事
 
