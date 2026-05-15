@@ -4,6 +4,46 @@
 
 Last updated: 2026-05-13
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | R&D Manufacturing, ~500 staff |
+| 2 | Start L-level + evidence | L1 partial (private AI usage) + APQC 11.x = 0 |
+| 3 | End L-level + evidence | L3 + APQC 11.x = 3 |
+| 4 | Duration | 9-12 months |
+| 5 | RM Categories crossed | APQC 4.0 Deliver, APQC 11.0 Knowledge, Tiger AI L1-L3 |
+| 6 | Investment per phase | Est. NT$ 4-6M / 20-30 person-months |
+| 7 | Key wins (quantified) | Complaint response down 60-80%, proposal turnaround -75%, knowledge asset-ization from zero |
+| 8 | Key failures (lessons) | Skipping L1 whole-company onboarding; not isolating process data on-prem first |
+| 9 | Applicability conditions | 300-1500 staff manufacturers, IT Deputy who can double as AI Champion, NT$ 4-8M budget |
+
+**Deployment / Code**: Hybrid (core on-prem, low-sensitive cloud) / Code (uncoded)
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Case Positioning
 
 This case illustrates how the "Enterprise AI Transformation Maturity Diagnostic and Implementation Plan" delivers end-to-end value, from questionnaire and training through to the consulting diagnostic report.
@@ -73,7 +113,7 @@ Primary gaps: Skill codification, Workflow integration, governance, and ROI
 | Process automation | 1.2 | Processes still move data manually |
 | System integration | 1.4 | ERP / CRM / QMS are not yet part of the AI flow |
 | Agent application | 0.4 | No Agent foundation yet |
-| Governance and ROI | 1.8 | Security awareness exists but institutionalized management is lacking |
+| Implementation & Change | 1.8 | Security awareness exists but institutionalized management is lacking |
 
 Initial maturity: Overall L1, with some departments approaching L2  
 Recommended goal: Stabilize at L2 within 90 days and complete 1 L3 Workflow PoC
@@ -108,7 +148,7 @@ Rationale:
 | Module | Ratio | Reason |
 | --- | ---: | --- |
 | L1 OpenWebUI | 25% | Establish a unified entry point, usage guidelines, and data security awareness |
-| L2 Skill AI | 35% | Manufacturing knowledge is dense; codify SOPs, quality, complaints, and anomaly analysis Skills first |
+| L2 Knowledge Codification | 35% | Manufacturing knowledge is dense; codify SOPs, quality, complaints, and anomaly analysis Skills first |
 | L3 n8n Workflow AI | 30% | Prioritize PoCs across ERP / CRM / QMS / Sheets |
 | L4 Hermes Agent | 10% | Design Agent task cards for operations or customer service |
 | L5 ClawTeam | 0% | Multi-Agent team foundation not yet in place; include in the future Roadmap |
@@ -317,7 +357,7 @@ Recommended conclusions for this case:
 
 ## 11. L1-L5 Input / Process / Output / Evidence
 
-### 11.1 L1 Chat AI: OpenWebUI
+### 11.1 L1 Controlled AI Access: OpenWebUI
 
 | Item | Definition |
 | --- | --- |
@@ -327,7 +367,7 @@ Recommended conclusions for this case:
 | Evidence | OpenWebUI screenshots, account list, Prompt templates, usage guideline document, training sign-in and exercise outputs |
 | Acceptance criteria | Seed users can use OpenWebUI to summarize, rewrite, draft emails, and prepare executive summaries; core confidential data must not be entered |
 
-### 11.2 L2 Skill AI: Antigravity / Claude Code / Codex
+### 11.2 L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 | Item | Definition |
 | --- | --- |
@@ -337,7 +377,7 @@ Recommended conclusions for this case:
 | Evidence | Skill Library, Skill templates, version history, sample inputs and outputs, departmental Owner roster |
 | Acceptance criteria | At least 5 Skills are usable by non-original authors with consistent output format; every Skill has an Owner and an update record |
 
-### 11.3 L3 Workflow AI: n8n
+### 11.3 L3 Workflow Automation: n8n
 
 | Item | Definition |
 | --- | --- |
@@ -347,7 +387,7 @@ Recommended conclusions for this case:
 | Evidence | n8n Workflow JSON, execution logs, test cases, error notification records, human review records, data field mapping table |
 | Acceptance criteria | Complete at least 10 test cases; can automatically classify, query data, and generate summaries and reply drafts; external replies require human confirmation |
 
-### 11.4 L4 Auto Agentic AI: Hermes Agent
+### 11.4 L4 Autonomous Agent: Hermes Agent
 
 | Item | Definition |
 | --- | --- |
@@ -357,7 +397,7 @@ Recommended conclusions for this case:
 | Evidence | Agent task card, Agent available tool list, permission table, execution records, human takeover records |
 | Acceptance criteria | The Agent must not directly modify ERP / QMS; all recommendations are traceable to their data source; high-risk cases are automatically flagged for human handling |
 
-### 11.5 L5 Agentic Team AI: ClawTeam
+### 11.5 L5 Multi-Agent Organization: ClawTeam
 
 | Item | Definition |
 | --- | --- |

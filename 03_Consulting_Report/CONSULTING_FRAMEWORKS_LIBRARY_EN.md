@@ -37,10 +37,12 @@ When a client / learner describes a problem in natural language, use this table 
 | "I need to evaluate an M&A / investment" | M&A Framework + Due Diligence + NPV / IRR | Stage 3, 8 |
 | "I need to find where the process is going wrong" | 5 Whys + Fishbone + Value Stream Mapping | Stage 1, 4 |
 | "I need to prioritize" | 80/20 (Pareto) + Impact×Effort + MECE | Stage 4 |
-| "I need to plan this transformation project" | WBS + RACI + Kotter + OKR | Stage 6 |
+| "I need to plan this transformation project" | WBS + RACI + Kotter + OKR | Stage 6, 8 |
 | "I need to prove this investment is worth doing" | ROI + NPV + IRR + Payback + Break-even | Stage 8 |
 | "I need to design a new business / service model" | Business Model Canvas + Design Thinking + Customer Journey | Stage 7 |
-| "I need to persuade the organization to accept change" | Kotter 8 Steps + ADKAR + Stakeholder Map | Stage 6 |
+| "I need to persuade the organization to accept change" | Kotter 8 Steps + ADKAR + Stakeholder Map | Stage 8 |
+| "I need to break an ultimate goal into phases the org can absorb" | Capability Maturity Model + Phased Goal Decomposition + Organizational Absorption | Stage 6 |
+| "I need to check whether the company's operating structure is complete" | APQC PCF / SCOR / eTOM + Standard Capability Gap Checklist | Stage 2 |
 | "I need to analyze our competitive position" | Porter's 5 Forces + SWOT + Value Chain + Core Competency | Stage 3 |
 | "I need to set pricing" | Pricing Framework + Value-Based Pricing + Break-even | Stage 7 |
 | "I need to track adoption outcomes" | Balanced Scorecard + OKR + KPI Tree | Stage 8 |
@@ -51,14 +53,14 @@ When a client / learner describes a problem in natural language, use this table 
 
 | Eight Stages | Primary applicable frameworks |
 | --- | --- |
-| **Stage 1 Current-State Grasp** | 5 Whys, Fishbone, Issue Tree, McKinsey 7-Step, Value Chain |
-| **Stage 2 Vision Alignment** | McKinsey 7S, Ansoff Matrix, Blue Ocean, Scenario Planning, OKR |
-| **Stage 3 Industry Benchmarking** | Porter's 5 Forces, PESTEL, 3C, SWOT, BCG Matrix, Core Competency |
-| **Stage 4 Gap Analysis** | MECE, Issue Tree, 80/20 (Pareto), Hypothesis-Driven, Profitability Framework, Impact×Effort |
-| **Stage 5 High-Level Problem Framing** | Pyramid Principle, SCQ, Day-1 Answer, MECE |
-| **Stage 6 Roadmap and Stage Gates** | WBS, RACI, Gantt, Kotter 8 Steps, ADKAR, OKR, Stakeholder Map |
-| **Stage 7 Solution Architecture** | Business Model Canvas, Design Thinking, Customer Journey, Jobs-to-be-Done, Pricing, Lean, Six Sigma |
-| **Stage 8 Governance and ROI** | ROI, NPV, IRR, Payback, Break-even, Sensitivity Analysis, Balanced Scorecard, PDCA |
+| **Stage 1 As-Is Snapshot** | 5 Whys, Fishbone, Issue Tree, McKinsey 7-Step, Value Chain, Value Stream Mapping |
+| **Stage 2 Reference Model Alignment** | **APQC PCF, SCOR, eTOM, ITIL, CMMI, Capability Maturity Model**, McKinsey 7S (internal-structure lens), BPM Reference Architecture |
+| **Stage 3 Best Practice Integration** | Porter's 5 Forces, PESTEL, 3C, SWOT, BCG Matrix, Core Competency, Benchmarking, Best-in-Class Profiling |
+| **Stage 4 Gap Analysis** | MECE, Issue Tree, 80/20 (Pareto), Hypothesis-Driven, Profitability Framework, Impact×Effort, Missing/Broken/Redundant |
+| **Stage 5 Problem Definition** | Pyramid Principle, SCQ, Day-1 Answer, MECE, 5 Whys (deep root cause), Hypothesis-Driven |
+| **Stage 6 Benchmarking & Phased Goals** | **Capability Maturity Model decomposition, Phased Goal Decomposition, Organizational Absorption Assessment**, OKR (phased targets), Pyramid Principle (phased narrative), Wardley Map |
+| **Stage 7 To-Be Design** | **Target Operating Model (TOM), Operating Model Canvas**, Business Model Canvas, Design Thinking, Customer Journey, Jobs-to-be-Done, Service Blueprint, Pricing |
+| **Stage 8 Implementation & Change** | **Kotter 8 Steps, ADKAR, Stakeholder Map (the three pillars of change management)**, WBS, RACI, Gantt, PDCA, Lean, Six Sigma, ROI, NPV, IRR, Payback, Break-even, Sensitivity Analysis, Balanced Scorecard, OKR (tracking) |
 
 ---
 

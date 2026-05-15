@@ -16,11 +16,11 @@
 
 | 等級 | 對外名稱 | 工具 / 平台 | 客戶語言 |
 | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | 讓員工安全開始用 AI |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | 把個人經驗變成部門能力 |
-| L3 | Workflow AI | n8n | 讓 AI 串接系統並進入流程 |
-| L4 | Auto Agentic AI | Hermes Agent | 讓 AI 有知識記憶、會吸收文件、會追蹤任務、會產生 briefing，並保留證據與人工 Gate |
-| L5 | Agentic Team AI | ClawTeam | AI Agent Team 協作平台 |
+| L1 | Controlled AI Access | OpenWebUI | 讓員工安全開始用 AI |
+| L2 | Knowledge Codification | Antigravity / Claude Code / Codex | 把個人經驗變成部門能力 |
+| L3 | Workflow Automation | n8n | 讓 AI 串接系統並進入流程 |
+| L4 | Autonomous Agent | Hermes Agent | 讓 AI 有知識記憶、會吸收文件、會追蹤任務、會產生 briefing，並保留證據與人工 Gate |
+| L5 | Multi-Agent Organization | ClawTeam | AI Agent Team 協作平台 |
 
 ClawTeam 對外中文建議：
 
@@ -170,12 +170,12 @@ HR 關心的是：課程上完後是否真的改變工作方式。
 
 ### Slide 2：AI 轉型是成熟度演進
 
-從 L1 Chat AI 到 L5 Agentic Team AI，每一級都有不同管理重點與治理能力。
+從 L1 Controlled AI Access 到 L5 Multi-Agent Organization，每一級都有不同管理重點與治理能力。
 
 ### Slide 3：L1-L5 模型
 
 - L1 OpenWebUI：個人效率。
-- L2 Skill AI：部門能力。
+- L2 Knowledge Codification：部門能力。
 - L3 n8n：流程自動化。
 - L4 Hermes Agent：具備 Wiki 記憶、briefing、工具呼叫與 evidence 的知識型 Agent。
 - L5 ClawTeam：AI Agent Team 協作平台。

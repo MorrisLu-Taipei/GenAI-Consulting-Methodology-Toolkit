@@ -9,7 +9,7 @@
 
 ## 1. 使用方式
 
-這份文件整理 TigerAI 頻道中可用於 L1-L4 課程設計的影片，特別聚焦 n8n 與 L3 Workflow AI。
+這份文件整理 TigerAI 頻道中可用於 L1-L4 課程設計的影片，特別聚焦 n8n 與 L3 Workflow Automation。
 
 整理方式：
 

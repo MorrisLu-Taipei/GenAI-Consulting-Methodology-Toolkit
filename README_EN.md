@@ -11,6 +11,8 @@ License summary: this project is released under the **[Apache License 2.0](LICEN
 
 > **Only have 5 minutes?** Read [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) first — the whole methodology on one page.
 
+> ⚠️ **Academic Integrity Disclaimer**: All named cases (Manufacturing, Hospital, Marketing, B2B, Financial, Government, Education — 7 SAMPLE_CLIENT_CASE files) and all story protagonists (e.g., "Ming" and "MingChang Packaging") in this repo are **AI-generated fictional examples**, NOT real client data. Numbers are illustrative only; must NOT be used as marketing, contractual commitments, or academic empirical evidence. Real cases will replace these after the 18-24 month pilot study per [`90_References/PILOT_STUDY_PROTOCOL_EN.md`](90_References/PILOT_STUDY_PROTOCOL_EN.md).
+
 ## Read This as a Living Book: Read It With AI
 
 This repo is a **living book**. `git clone` it or download the zip, and open it in an AI IDE (Antigravity / Claude Code / Codex, etc.) — the AI automatically reads [`AGENTS.md`](AGENTS.md) (and [`CLAUDE.md`](CLAUDE.md)) and acts as the **co-reading tutor** for this methodology.
@@ -35,11 +37,11 @@ Before clients choose an L1-L5 course mix, they need to see the future workday f
 
 Imagine a Monday morning three months later:
 
-- **L1 Chat AI**: every employee logs in to OpenWebUI with their own account, personal chat workspace, history, and departmental permissions.
-- **L2 Skill AI**: experienced employees convert their best methods into reusable Skills for writing, reporting, customer service, SOP review, and development work.
-- **L3 Workflow AI**: n8n connects Gmail, Sheets, Notion, CRM, APIs, ERP, and other systems so work moves through real enterprise workflows.
-- **L4 Auto Agentic AI**: Hermes Agent reads tasks, documents, workflow results, and Wiki memory to produce briefings, follow-up lists, evidence, and decisions that require HITL (Human-in-the-Loop) review.
-- **L5 Agentic Team AI**: ClawTeam coordinates specialist agents across market, product, service, finance, and operations work.
+- **L1 Controlled AI Access**: every employee logs in to OpenWebUI with their own account, personal chat workspace, history, and departmental permissions.
+- **L2 Knowledge Codification**: experienced employees convert their best methods into reusable Skills for writing, reporting, customer service, SOP review, and development work.
+- **L3 Workflow Automation**: n8n connects Gmail, Sheets, Notion, CRM, APIs, ERP, and other systems so work moves through real enterprise workflows.
+- **L4 Autonomous Agent**: Hermes Agent reads tasks, documents, workflow results, and Wiki memory to produce briefings, follow-up lists, evidence, and decisions that require HITL (Human-in-the-Loop) review.
+- **L5 Multi-Agent Organization**: ClawTeam coordinates specialist agents across market, product, service, finance, and operations work.
 
 This future-state story should be told before the course begins. Clients first understand the work scenario they want to reach, and only then discuss diagnosis, course ratio, deliverables, evidence, and acceptance gates (Stage Gates).
 
@@ -71,11 +73,11 @@ AI maturity questionnaire
 
 | Level | Name | Platform | Axis | Enterprise Positioning |
 | --- | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | Scale axis · individual | Establish the enterprise's internal AI chat entry — every employee has their own account, AI chat workspace, and permission boundary |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, organize personal knowledge, prompts, documents, and work methods into reusable Skills |
-| L3 | Workflow AI | n8n | Scale axis · cross-department / company-wide | Connect cross-department Skills and link email, Sheets, Notes, CRM, API, ERP, and other systems, so AI enters company-wide automation processes |
-| L4 | Auto Agentic AI | Hermes Agent | AI-autonomy axis · super-assistant | Combine a Wiki capability map, AI tools, Workflows, auto-scheduling, and autonomous learning into a verifiable, fully autonomous AI Agent super-assistant |
-| L5 | Agentic Team AI | ClawTeam | AI-autonomy axis · AI team | Let multiple specialist Agents form a functional division of labor, collaboratively completing cross-department, cross-process enterprise tasks as an AI team |
+| L1 | Controlled AI Access | OpenWebUI | Scale axis · individual | Establish the enterprise's internal AI chat entry — every employee has their own account, AI chat workspace, and permission boundary |
+| L2 | Knowledge Codification | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, organize personal knowledge, prompts, documents, and work methods into reusable Skills |
+| L3 | Workflow Automation | n8n | Scale axis · cross-department / company-wide | Connect cross-department Skills and link email, Sheets, Notes, CRM, API, ERP, and other systems, so AI enters company-wide automation processes |
+| L4 | Autonomous Agent | Hermes Agent | AI-autonomy axis · super-assistant | Combine a Wiki capability map, AI tools, Workflows, auto-scheduling, and autonomous learning into a verifiable, fully autonomous AI Agent super-assistant |
+| L5 | Multi-Agent Organization | ClawTeam | AI-autonomy axis · AI team | Let multiple specialist Agents form a functional division of labor, collaboratively completing cross-department, cross-process enterprise tasks as an AI team |
 
 ### The Two Axes of L1-L5
 
@@ -104,6 +106,16 @@ Each level defines clear input, process, output, evidence, and acceptance-gate (
 | [`05_Sales`](05_Sales/) | Value proposition, sales talking points, and FAQ |
 | [`06_Delivery`](06_Delivery/) | Delivery package and acceptance criteria |
 | [`90_References`](90_References/) | Source PDF, diagrams, video learning notes, and references |
+
+## Start Here — 5 Audiences, 5 Entry Points
+
+| You are | Start with |
+| --- | --- |
+| **CEO / Owner / Family member** — 20 min to grasp what this methodology does | [`00_Overview/CLIENT_JOURNEY_STORY_EN.md`](00_Overview/CLIENT_JOURNEY_STORY_EN.md) — Ming's story |
+| **Consultant / Trainee** — how the 8 stages run, how contracts are split | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — complete flow |
+| **Board / Regulator / Academic** — why this methodology withstands debate | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — scientific argument |
+| **Enterprise IT / Consultant from another firm** — how it aligns with McKinsey/BCG/TOGAF/Gartner | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — alignment map |
+| **Busy executive** — only 5 minutes | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — executive summary |
 
 ## Recommended Reading Order
 

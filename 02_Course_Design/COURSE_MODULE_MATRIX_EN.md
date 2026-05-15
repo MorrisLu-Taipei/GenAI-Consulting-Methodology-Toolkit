@@ -25,7 +25,7 @@ Before every class, the following must be completed:
 | Two-day Onboarding Bootcamp | 12 hours | Seed team, IT, process owners | Complete L2-L3 PoC and introduce L4 Agent design | Skill Library, n8n PoC, Agent task cards |
 | Consulting Diagnostic Project | 2-4 weeks | Leadership, cross-functional teams | Produce an AI transformation diagnostic report using the eight-stage methodology | Diagnostic report, roadmap, ROI and governance recommendations |
 
-## 3. L1 Chat AI: OpenWebUI
+## 3. L1 Controlled AI Access: OpenWebUI
 
 ### Course Objectives
 
@@ -62,7 +62,7 @@ Enable employees to perform high-frequency knowledge work through a controlled A
 
 L1 must avoid only teaching "fun Prompts." The focus is showing the customer that AI can safely enter daily work and paving the way for L2 Skill-ification. If the enterprise cannot provide each user with an independent account, a personal chat area, and Admin permission governance, broad rollout should not be opened. The full L1 design is documented in `L1_OPENWEBUI_COURSE_PLAN.md`.
 
-## 4. L2 Skill AI: Antigravity / Claude Code / Codex
+## 4. L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 ### Course Objectives
 
@@ -109,7 +109,7 @@ Convert personal experience, Prompts, SOPs, templates, and Checklists into reusa
 
 L2 is the pivot of the entire solution. Without L2, L3 degenerates into mere tool integration; with L2, Workflows can carry departmental knowledge. The second half of L2 must connect to L3 by converting Skills into Workflow Blueprints. If the customer is an IT, R&D, software, or digital team, `L2_ANTIGRAVITY_COURSE_PLAN.md` should be incorporated to convert the three Google Antigravity codelabs into engineering Skill training.
 
-## 5. L3 Workflow AI: n8n
+## 5. L3 Workflow Automation: n8n
 
 ### Course Objectives
 
@@ -154,7 +154,7 @@ Use n8n to connect Gmail, Sheets, Notion, CRM, APIs, ERP, LINE, Facebook, YouTub
 
 Even within L3, different industries call for different cases. Marketing and services firms can quickly showcase ROI using SaaS, social platforms, and Webhooks; customer service can use Facebook / LINE + Data Tables; HR can use Gmail + Gemini + notifications; R&D and manufacturing firms must prioritize ERP, internal APIs, data permissions, and human review. The full L3 design is documented in `L3_N8N_TIGERAI_COURSE_PLAN.md`.
 
-## 6. L4 Auto Agentic AI: Hermes Agent
+## 6. L4 Autonomous Agent: Hermes Agent
 
 ### Course Objectives
 
@@ -199,7 +199,7 @@ Enable Hermes Agent to form a sustainably operating knowledge-work loop: it can 
 
 L4 should not promise fully automated decision-making out of the gate. A better positioning is: "Let the Agent handle preparation, analysis, organization, reminders, drafts, and briefings; keep critical decisions, deletions, schema changes, and high-risk updates behind a human Gate." The full L4 design is documented in `L4_HERMES_AGENT_COURSE_PLAN.md`.
 
-## 7. L5 Agentic Team AI: ClawTeam
+## 7. L5 Multi-Agent Organization: ClawTeam
 
 ### Course Objectives
 

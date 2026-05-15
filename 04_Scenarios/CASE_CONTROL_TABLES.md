@@ -53,15 +53,15 @@ IPOE = Input / Process / Output / Evidence。
 
 | 成熟度 | Input | Process | Output | Evidence | Owner | 驗收標準 | 狀態 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L1 Chat AI | `[文件、Email、問卷、低敏感資料]` | `[OpenWebUI、Prompt 訓練、使用規範]` | `[Prompt、AI 使用規範、入口流程]` | `[截圖、規範文件、練習成果]` | `[HR / IT / 顧問]` | `[種子人員可完成基本任務]` | `[ ]` |
-| L2 Skill AI | `[SOP、模板、資深經驗、範例]` | `[Skill 設計、模板化、版本管理]` | `[Skill Library、3-5 個 Skill]` | `[Skill 文件、版本、測試輸出]` | `[部門 Owner]` | `[非原作者可使用 Skill]` | `[ ]` |
-| L3 Workflow AI | `[Gmail、Sheets、Notion、CRM、API、ERP]` | `[n8n 串接、Trigger、AI 分類、人工審核、Log]` | `[Workflow PoC、摘要、任務、通知]` | `[Workflow JSON、Execution Log、測試案例]` | `[IT / 流程 Owner]` | `[測試案例成功且有審核]` | `[ ]` |
-| L4 Auto Agentic AI | `[Skill、Workflow、任務、文件、Wiki、schema、權限]` | `[Hermes Agent orient、ingest、query、update、briefing、工具呼叫、人工 Gate]` | `[Agent 任務卡、Wiki pages、briefing、回報、追蹤清單]` | `[Log、SQLite 查詢、source page、工具呼叫紀錄、人工審核紀錄]` | `[部門 Owner / IT]` | `[Agent 輸出可追溯、可審核、可維運]` | `[ ]` |
-| L5 Agentic Team AI | `[跨部門任務、角色、資料源]` | `[ClawTeam 多 Agent 分工、整合、審核]` | `[整合報告、改善提案、Roadmap]` | `[各 Agent 輸出、整合紀錄、主管審核]` | `[管理 Sponsor]` | `[有角色分工、人工 Gate、ROI]` | `[ ]` |
+| L1 Controlled AI Access | `[文件、Email、問卷、低敏感資料]` | `[OpenWebUI、Prompt 訓練、使用規範]` | `[Prompt、AI 使用規範、入口流程]` | `[截圖、規範文件、練習成果]` | `[HR / IT / 顧問]` | `[種子人員可完成基本任務]` | `[ ]` |
+| L2 Knowledge Codification | `[SOP、模板、資深經驗、範例]` | `[Skill 設計、模板化、版本管理]` | `[Skill Library、3-5 個 Skill]` | `[Skill 文件、版本、測試輸出]` | `[部門 Owner]` | `[非原作者可使用 Skill]` | `[ ]` |
+| L3 Workflow Automation | `[Gmail、Sheets、Notion、CRM、API、ERP]` | `[n8n 串接、Trigger、AI 分類、人工審核、Log]` | `[Workflow PoC、摘要、任務、通知]` | `[Workflow JSON、Execution Log、測試案例]` | `[IT / 流程 Owner]` | `[測試案例成功且有審核]` | `[ ]` |
+| L4 Autonomous Agent | `[Skill、Workflow、任務、文件、Wiki、schema、權限]` | `[Hermes Agent orient、ingest、query、update、briefing、工具呼叫、人工 Gate]` | `[Agent 任務卡、Wiki pages、briefing、回報、追蹤清單]` | `[Log、SQLite 查詢、source page、工具呼叫紀錄、人工審核紀錄]` | `[部門 Owner / IT]` | `[Agent 輸出可追溯、可審核、可維運]` | `[ ]` |
+| L5 Multi-Agent Organization | `[跨部門任務、角色、資料源]` | `[ClawTeam 多 Agent 分工、整合、審核]` | `[整合報告、改善提案、Roadmap]` | `[各 Agent 輸出、整合紀錄、主管審核]` | `[管理 Sponsor]` | `[有角色分工、人工 Gate、ROI]` | `[ ]` |
 
 ## 5. L1-L5 詳細控制表
 
-### 5.1 L1 Chat AI 控制表
+### 5.1 L1 Controlled AI Access 控制表
 
 | 控制項 | 填寫內容 | Evidence | 是否完成 |
 | --- | --- | --- | --- |
@@ -78,7 +78,7 @@ IPOE = Input / Process / Output / Evidence。
 | 課程練習 | `[練習題]` | 學員輸出 | `[ ]` |
 | L1 Gate | `[通過 / 未通過]` | Gate 1 驗收紀錄 | `[ ]` |
 
-### 5.2 L2 Skill AI 控制表
+### 5.2 L2 Knowledge Codification 控制表
 
 | 控制項 | 填寫內容 | Evidence | 是否完成 |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ IPOE = Input / Process / Output / Evidence。
 | 測試結果 | `[結果]` | 測試輸入輸出 | `[ ]` |
 | L2 Gate | `[通過 / 未通過]` | Gate 2 驗收紀錄 | `[ ]` |
 
-### 5.3 L3 Workflow AI 控制表
+### 5.3 L3 Workflow Automation 控制表
 
 | 控制項 | 填寫內容 | Evidence | 是否完成 |
 | --- | --- | --- | --- |

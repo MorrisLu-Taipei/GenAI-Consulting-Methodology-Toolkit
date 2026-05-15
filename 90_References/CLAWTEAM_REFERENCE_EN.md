@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [CLAWTEAM_REFERENCE.md](CLAWTEAM_REFERENCE.md)
 
-The **L5 Agentic Team AI** course in this methodology adopts **ClawTeam** as its implementation platform. This document records the upstream source, license terms, citation guidance, and the scope of our use.
+The **L5 Multi-Agent Organization** course in this methodology adopts **ClawTeam** as its implementation platform. This document records the upstream source, license terms, citation guidance, and the scope of our use.
 
 ---
 

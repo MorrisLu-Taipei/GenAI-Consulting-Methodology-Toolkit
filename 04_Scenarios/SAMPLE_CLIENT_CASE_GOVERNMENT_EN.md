@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | Government (Municipal), 22 bureaus, 800 staff pilot |
+| 2 | Start L-level + evidence | L0 + APQC 13.0 Governance = 2 |
+| 3 | End L-level + evidence | L2 + APQC 11.x = 2 |
+| 4 | Duration | 24 months |
+| 5 | RM Categories crossed | APQC 13.0 Governance, APQC 11.0 Knowledge, Tiger AI L1-L2 |
+| 6 | Investment per phase | Est. NT$ 10-15M / 50-70 person-months |
+| 7 | Key wins (quantified) | Document summarization, citizen FAQ, cross-bureau knowledge sharing |
+| 8 | Key failures (lessons) | Procurement process drag; lacking middle-tier AI Champion |
+| 9 | Applicability conditions | City/county digital affairs bureaus, government procurement path, NT$ 10M+ budget |
+
+**Deployment / Code**: Full on-prem (national sensitive data) / Code City Government G
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Client Profile
 
 | Field | Content |
@@ -35,7 +75,7 @@ Average **0.8 → L1**. Tool usage Q1=1 (civil servants' private use is restrict
 | Process standardization | 2.5 (rigorous regulatory processes) |
 | System integration | 1.0 |
 | Agent application | 0.2 |
-| Governance & ROI | 1.3 |
+| Implementation & Change | 1.3 |
 
 **Insight:** process standardization is highest (regulation-driven), but tools and integration are low. The public-sector adoption pattern — slow procurement, hard cross-department coordination, but once a benchmark is established it can be rolled out city-wide.
 
@@ -75,7 +115,7 @@ Rationale: the public sector has the highest governance threshold (personal data
 - Prompt Library, 38 entries (all pre-reviewed by Government Ethics + Legal)
 - Audit Log: meets the audit requirements of the Cybersecurity Management Act
 
-### L2 Skill AI (10 weeks)
+### L2 Knowledge Codification (10 weeks)
 
 10 Skills:
 
@@ -121,11 +161,11 @@ Rationale: the public sector has the highest governance threshold (personal data
 - Interviews: Director-General of the Digital Bureau, Chair of Research & Evaluation, 3 department directors, Document Section, 1999 Center, Government Ethics, Legal Affairs
 - Pain density: documents (22 departments, 100%), repeated 1999 Q&A (1999 Center 100%), cross-department knowledge (Research & Evaluation 90%)
 
-### Stage 2 Vision Alignment
+### Stage 2 Reference Model Alignment
 - Director-General vision: within 24 months, document-processing time -40%, 1999 first-line resolution rate +30%, establish a replicable city-wide benchmark
 - Sponsor = Director-General of the Digital Bureau + Chair of Research & Evaluation
 
-### Stage 3 Industry Benchmark
+### Stage 3 Best Practice Integration
 - International: Singapore GovTech, Estonia e-Estonia (vision reference); Taiwan: relevant PoCs at the Ministry of Digital Affairs
 - Self-built fully on-prem, benchmarked against the personal data + Cybersecurity Management acts
 
@@ -141,7 +181,7 @@ Impact × Effort:
 - Big Bet: document summary Pipeline (L3-W1, needs document-system integration)
 - Avoid: an open-ended citizen-facing AI chatbot (information-accuracy risk)
 
-### Stage 5 Executive Problem Statement
+### Stage 5 Problem Definition
 
 ```
 CONTEXT: The Ministry of Digital Affairs is promoting public-sector AI applications; citizens'
@@ -158,7 +198,7 @@ CONSTRAINT: Budget allocated by fiscal year; fully on-prem; long procurement cyc
             rollout by department.
 ```
 
-### Stage 6 Roadmap
+### Stage 6 Benchmarking & Phased Goals
 
 | Phase | Month | Main deliverables | Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -167,12 +207,12 @@ CONSTRAINT: Budget allocated by fiscal year; fully on-prem; long procurement cyc
 | 3 | 13-18 | L2 10 Skills + L3 4 Workflows | Gate 2+3 | document processing -40% |
 | 4 | 19-24 | L4 Citizen-Service Agent + city-wide rollout plan | Gate 4+4G | 1999 first-line resolution +30% |
 
-### Stage 7 Solution Architecture
+### Stage 7 To-Be Design
 
 - **Variant C, fully on-prem:** government machine room + Llama 70B + Qdrant; zero cloud
 - Integrates the document system, 1999 system, SharePoint (all on the intranet)
 
-### Stage 8 Governance & ROI
+### Stage 8 Implementation & Change
 
 - Permissions: tiered by department + rank; official documents / citizen data graded
 - Audit: meets the Cybersecurity Management Act; auditable by Government Ethics

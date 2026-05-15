@@ -23,24 +23,43 @@ Purpose：方法論深度展示，建立學術 + 實務雙重信任。
 ## Part B — L1-L5 成熟度模型 (Slides 9-14)
 
 **9. L1-L5 全表**
-**10. L1 Chat AI 深度**
-**11. L2 Skill AI 深度**
-**12. L3 Workflow AI 深度**
-**13. L4 Auto Agentic AI 深度**
-**14. L5 Agentic Team AI 深度** — 引用 HKUDS/ClawTeam (MIT)
+**10. L1 Controlled AI Access 深度**
+**11. L2 Knowledge Codification 深度**
+**12. L3 Workflow Automation 深度**
+**13. L4 Autonomous Agent 深度**
+**14. L5 Multi-Agent Organization 深度** — 引用 HKUDS/ClawTeam (MIT)
 
 ## Part C — 八階段顧問結構 (Slides 15-22)
 
-**15. 八階段全圖**
-**16. Stage 1 現況掌握** — 訪談問題庫、AI Usage Inventory、Systems Inventory、As-Is Process Map
-**17. Stage 2 願景對齊** — Vision Workshop、Stakeholder Alignment Matrix
-**18. Stage 3 產業標竿** — Benchmark Cases (manufacturing / hospital / retail / finance / gov)
-**19. Stage 4 差距分析** — Missing/Broken/Redundant、Impact×Effort、Prioritization
-**20. Stage 5 高階問題定義** — Executive Problem Statement
-**21. Stage 6 路徑圖** — 30/60/90 + Stage Gate
-**22. Stage 7-8 解決方案 & 治理** — Skill/Workflow/Agent Map、權限、ROI、Audit
+**15. 八階段全圖** — As-Is → Reference Model → Best Practice → Gap → Problem → Phased Goals → To-Be → Implementation
+**16. Stage 1 As-Is Snapshot 現況掌握** — 訪談問題庫、AI Usage Inventory、Systems Inventory、As-Is Process Map
+**17. Stage 2 Reference Model Alignment 標準模型引入** — APQC PCF / SCOR / Tiger AI L1-L5 雙座標、標準能力缺口檢核、營運結構完整度雷達
+**18. Stage 3 Best Practice Integration 產業最佳實務對標** — 卓越能力特徵定義、Benchmark Cases (manufacturing / hospital / retail / finance / gov)
+**19. Stage 4 Gap Analysis 差距分析** — Missing/Broken/Redundant、Impact×Effort（**不作為風險評估**）
+**20. Stage 5 Problem Definition 結論與核心問題定義** — 80/20 收斂 + 5 Whys + Executive Problem Statement
+**21. Stage 6 Benchmarking & Phased Goals 多階段目標設定** — 終極標竿拆解為 Phase 1/2/3 + Stage Gate Criteria + 組織吸收力評估
+**22. Stage 7 To-Be Design 未來藍圖設計** — 分階段 To-Be Operating Model + 人機協作架構（HITL 節點）+ Skill/Workflow/Agent Map
+**22b. Stage 8 Implementation & Change 執行導入與變革治理** — Transformation Roadmap + 變革管理 Playbook + 價值追蹤矩陣（5 維度）+ Risk Register + Audit + Ethics
 
 詳細工具表格：`03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`
+
+## Part C2 — Stage 2 工具深度 (Slides 22c-22e) — 為什麼這套是 Reference Model
+
+**22c. Tool 2.5 Reference Model 合格度檢核**：用成熟度思維反推「什麼才算合格 RM」 ── 10 條件 + DIY 7 步流程；Tiger AI L1-L5 自評 9/10
+
+**22d. Tool 2.6 RM 元件圖（扁平）**：仿 Dragon1 第一張圖 ── 5 推導提問 + Enterprise AI Component Map（治理 + 核心 L1-L5 + 支撐 + 基建 + 跨層垂直軸）
+
+**22e. Tool 2.7 4 層架構 RM（立體）**：仿 Dragon1 第二張圖 ── 為什麼必須 4 層（Governance / Business / Information / Technical），Planning↓ + Alignment↑ 雙向鎖死
+
+## Part C3 — Stage 3 工具深度 (Slides 22f-22g) — Best Practice 是素材，Ideal Practice 才是目標
+
+**22f. Tool 3.5 Cases-as-Benchmarks**：**成熟度 ≡ Benchmarking** ── 案例 9 必填欄位（產業/規模/起點 L/終點 L/期間/投入/Wins/Failures/適用條件），客戶 30 分鐘自助算差距
+
+**22g. Tool 3.6 客戶 Ideal Practice 共創 Workshop**：6 步驟（素材展示 → 獨立投票 → 集體共識 → Reality Check → 寫定義表 → 三方簽名）;**客戶簽完無法否認自己當初挑的目標** ── 整個顧問案的 anchor
+
+## Part C4 — 完整閉環 (Slide 22h)
+
+**22h. 八階段閉環圖**：3 階段合約（A 診斷 / B 策略 / C 落地）+ 中期報告 + 季度雷達回看 + 案例 Cases-as-Benchmarks 客戶轉型完成後成為下一個客戶的標竿；對應 4 份權威概念檔（CLIENT_JOURNEY / EIGHT_STAGE_FLOW / SCIENTIFIC_LOGIC / INDUSTRY_ALIGNMENT）
 
 ## Part D — 評分模型與診斷 (Slides 23-25)
 
@@ -60,7 +79,7 @@ Purpose：方法論深度展示，建立學術 + 實務雙重信任。
 
 ## Part F — 治理、ROI、永續 (Slide 29)
 
-**29. 治理三層** — 個人 (帳號) / 部門 (Workflow Gate) / 公司 (Stage Gate + Audit)；ROI 追蹤矩陣；30/60/90 + 12 個月永續
+**29. 治理三層 + 變革落地** — 個人 (帳號) / 部門 (Workflow HITL) / 公司 (階段驗收關卡 + Audit)；變革管理 Playbook；價值追蹤矩陣（時間/品質/規模/風險/資產）；30/60/90 + 12 個月永續
 
 ## Slide 30 — 致謝、引用、下一步
 

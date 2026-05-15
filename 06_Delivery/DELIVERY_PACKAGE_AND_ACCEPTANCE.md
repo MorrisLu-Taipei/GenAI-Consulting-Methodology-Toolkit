@@ -69,7 +69,7 @@
 
 - AI 成熟度問卷：10 題快速版 / 25 題標準版 / 50 題完整版。
 - L1-L5 成熟度初判。
-- 六大構面分數：工具使用、知識沉澱、流程自動化、系統整合、Agent 應用、治理與 ROI。
+- 六大構面分數：工具使用、知識沉澱、流程自動化、系統整合、Agent 應用、執行導入與變革治理。
 - 公司屬性調查：產業、部門、資料敏感度、IT 能力、決策流程。
 - 部署模式建議：雲 AI、Hybrid、全地端。
 - 課程比例建議：L1/L2/L3/L4/L5 各佔比。
@@ -96,7 +96,7 @@
 | Level | 課程交付物 | Evidence | Gate |
 |---|---|---|---|
 | L1 OpenWebUI | AI 使用規範、Prompt Library、部門案例、帳號/群組/權限表、Admin Runbook | Prompt 範本、課堂作業、使用規範、登入截圖、個人聊天區截圖、Admin Panel 截圖 | Gate 1 |
-| L2 Skill AI | Skill Library、SOP、Checklist、模板、Antigravity app prototype / test / docs / GCP PoC、L3 Workflow Blueprint | Skill 文件、測試紀錄、Owner 清單、Agent artifact、部署驗證紀錄、trigger / I/O schema / node map / sample payload | Gate 2 |
+| L2 Knowledge Codification | Skill Library、SOP、Checklist、模板、Antigravity app prototype / test / docs / GCP PoC、L3 Workflow Blueprint | Skill 文件、測試紀錄、Owner 清單、Agent artifact、部署驗證紀錄、trigger / I/O schema / node map / sample payload | Gate 2 |
 | L3 n8n Workflow | Workflow PoC、串接需求、Execution Log、Data Tables Schema、Sub-workflow Library、GitHub Backup SOP、L4 Workflow Contract | n8n JSON、API 權限、執行紀錄、失敗測試、備份 commit、人工審核紀錄 | Gate 3 |
 | L4 Hermes Agent | Agent 任務卡、Wiki、L4 IPOE、briefing、Gate 4A-4E | Log、SQLite 查詢、source page、briefing、人工審核 | Gate 4 |
 | L5 ClawTeam | Agent Team 角色卡、任務分工、整合報告模板 | Agent 輸出、Reviewer 紀錄、整合報告 | Gate 5 |

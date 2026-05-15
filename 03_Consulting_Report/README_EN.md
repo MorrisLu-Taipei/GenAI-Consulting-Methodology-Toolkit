@@ -63,11 +63,11 @@ Fill into the fixed structure of CONSULTING_REPORT_TEMPLATE.md → deliver to th
 
 ### `CONSULTING_REPORT_TEMPLATE.md`
 
-The Markdown template for the AI transformation diagnostic report. Fixed structure: cover, Executive Summary, AI maturity diagnostic results, course observations and capability inventory, As-Is current state, high-value AI scenario list, gap analysis, To-Be AI Operating Model, three-phase Roadmap, ROI and governance recommendations, follow-on deployment SOW recommendations. The consultant fills the diagnostic output into this structure.
+Markdown template for the AI transformation diagnostic report (v2.0 eight-stage aligned). 14-section structure: cover, Executive Summary (with standard-gap overview), methodology, As-Is Snapshot, Reference Model Alignment (APQC + Tiger AI dual coordinates), Best Practice Integration (excellence capability profile), Gap Analysis, Executive Problem Statement, Phased Goals, To-Be Design, Implementation Roadmap, Change Management Plan, Governance Design, Value Tracking & Risk Register, SOW recommendations.
 
 ### `CONSULTING_TOOLKIT_TEMPLATES.md`
 
-The **directly usable tool tables** of the eight-stage consulting diagnosis. Each stage (Stage 1-8) maps to 1-4 tools: a 40-question interview bank, AI/system inventory table, As-Is swimlane template, Vision Workshop, industry benchmark template, Missing/Broken/Redundant table, Impact×Effort matrix, Problem Statement worksheet, 30/60/90 Roadmap, Gate 1-5 checklist, Risk Register, Skill/Workflow/Agent Map, permission/ROI/Audit/Ethics tables, and the standard 6-week schedule. Copy and use directly.
+The **directly usable tool tables** of the eight-stage consulting diagnosis (v2.0 image-aligned). Each stage maps to 1-5 tools: 40-question interview bank, AI/system inventory, As-Is swimlane, **Reference Model Selection (APQC/SCOR/eTOM/ITIL/CMMI) + Mapping Worksheet + Standard Capability Gap Checklist + dual radar**, Best-Practice Profile + Excellence Capability Profile, Missing/Broken/Redundant (**not a risk assessment**), Impact×Effort, **80/20 convergence + 5 Whys**, Problem Statement, **Ultimate Benchmark → Phased Goals + Organizational Absorption assessment**, **Phased To-Be Operating Model + Human-AI Collaboration Architecture (HITL)**, Skill/Workflow/Agent Map, Transformation Roadmap, **Change Management Playbook (with resistance handling)**, RACI, permissions, **Value Tracking Matrix (Time/Quality/Scale/Risk/Assets 5 dimensions)**, Risk Register, Audit, Ethics, standard 6-week schedule.
 
 ### `CONSULTING_FRAMEWORKS_LIBRARY.md`
 

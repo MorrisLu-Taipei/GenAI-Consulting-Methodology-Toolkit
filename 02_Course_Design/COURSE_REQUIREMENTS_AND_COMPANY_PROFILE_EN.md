@@ -20,7 +20,7 @@ The ultimate goal is to ensure the course is not merely "teaching tools" but is 
 
 ## 2. L1-L5 Course Requirements Checklist
 
-### 2.1 L1 Chat AI: OpenWebUI
+### 2.1 L1 Controlled AI Access: OpenWebUI
 
 #### Suitable Customer State
 
@@ -60,7 +60,7 @@ The ultimate goal is to ensure the course is not merely "teaching tools" but is 
 - AI usage advisories.
 - L2 Skill candidate list.
 
-### 2.2 L2 Skill AI: Antigravity / Claude Code / Codex
+### 2.2 L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 #### Suitable Customer State
 
@@ -110,7 +110,7 @@ The ultimate goal is to ensure the course is not merely "teaching tools" but is 
 - Skill maintenance rules.
 - L3 Workflow candidate list.
 
-### 2.3 L3 Workflow AI: n8n
+### 2.3 L3 Workflow Automation: n8n
 
 #### Suitable Customer State
 
@@ -160,7 +160,7 @@ The ultimate goal is to ensure the course is not merely "teaching tools" but is 
 - L4 Workflow Contract.
 - L4 Agent task candidate list.
 
-### 2.4 L4 Auto Agentic AI: Hermes Agent
+### 2.4 L4 Autonomous Agent: Hermes Agent
 
 #### Suitable Customer State
 
@@ -209,7 +209,7 @@ The ultimate goal is to ensure the course is not merely "teaching tools" but is 
 - Gate 4A-4E acceptance sheet.
 - L5 Agent Team candidate scenarios.
 
-### 2.5 L5 Agentic Team AI: ClawTeam
+### 2.5 L5 Multi-Agent Organization: ClawTeam
 
 #### Suitable Customer State
 

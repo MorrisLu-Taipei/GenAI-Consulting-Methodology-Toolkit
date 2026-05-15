@@ -9,11 +9,11 @@
 
 ## 0. 引用聲明 / Citation Notice
 
-> 本課程以 **ClawTeam** (HKUDS 開源、MIT License) 作為 L5 Agentic Team AI 的主要實作平台。
+> 本課程以 **ClawTeam** (HKUDS 開源、MIT License) 作為 L5 Multi-Agent Organization 的主要實作平台。
 > 上游 repo：<https://github.com/HKUDS/ClawTeam>
 > 引用細節與授權說明詳見：[`90_References/CLAWTEAM_REFERENCE.md`](../90_References/CLAWTEAM_REFERENCE.md)
 >
-> This course uses **ClawTeam** (open-sourced by HKUDS under the MIT License) as the primary implementation platform for L5 Agentic Team AI.
+> This course uses **ClawTeam** (open-sourced by HKUDS under the MIT License) as the primary implementation platform for L5 Multi-Agent Organization.
 > Upstream repo: <https://github.com/HKUDS/ClawTeam>
 > Full citation and license details: [`90_References/CLAWTEAM_REFERENCE.md`](../90_References/CLAWTEAM_REFERENCE.md)
 

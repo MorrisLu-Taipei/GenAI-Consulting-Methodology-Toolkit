@@ -56,7 +56,7 @@ Most people filling out this form are **non-technical department managers**, so 
 | Q3 | We have defined "what good AI usage looks like" | Process Standardization | Whether the company has clearly stated "what counts as good, safe AI usage" — what can and cannot be done. |
 | Q4 | AI is connected to at least one enterprise system (Gmail / Sheets / CRM / ERP) | System Integration | Whether AI is actually connected to company systems to read/write data automatically, rather than used only standalone in a chat box. See the glossary at the start of the form if Gmail/Sheets/CRM/ERP are unfamiliar. |
 | Q5 | We have repeatable, callable AI Skills or Workflows | Agent Application | Whether frequently done tasks are packaged into reusable Skills, or set up as auto-running Workflows, rather than redone every time. |
-| Q6 | We have an AI usage policy and an audit mechanism | Governance & ROI | Whether using AI has "rules + records": which data can be used, who can use it, and whether what the AI did is logged and auditable. |
+| Q6 | We have an AI usage policy and an audit mechanism | Implementation & Change | Whether using AI has "rules + records": which data can be used, who can use it, and whether what the AI did is logged and auditable. |
 | Q7 | AI has produced concrete, quantifiable efficiency gains for us | ROI | Whether the efficiency gains from AI can be stated in numbers (how much time saved, how many fewer errors), rather than "feels useful." |
 | Q8 | We have a clear next step for AI advancement (not relying on a vendor) | Strategy | Whether the company knows where AI's next step is headed, rather than just using whatever a vendor sells. |
 | Q9 | Managers regularly review AI adoption progress | Governance | Whether managers regularly look back at the progress and outcomes of AI adoption, rather than ignoring it after deployment. |
@@ -118,7 +118,7 @@ P1-P4 as above + P5 Your department
 - Q19 Whether the Agent has a Reviewer / Human Gate
 - Q20 Whether there is multi-Agent collaboration (Agent Team)
 
-**Page 7 (Governance & ROI)** — Q21-Q25
+**Page 7 (Implementation & Change)** — Q21-Q25
 - Q21 Whether an AI permission matrix is defined
 - Q22 Whether there is an audit log (usage audit records)
 - Q23 Whether sensitive-data redaction rules are defined (auto-masking sensitive fields)
@@ -154,7 +154,7 @@ P1-P4 as above + P5 Your department
 | 4 | Process Standardization | 7 |
 | 5 | System Integration (12 systems yes/no + integration depth) | 8 |
 | 6 | Agent Application | 6 |
-| 7 | Governance & ROI + Audit + Compliance | 7 |
+| 7 | Implementation & Change + Audit + Compliance | 7 |
 | Submit | | 50 |
 
 ### Skip logic

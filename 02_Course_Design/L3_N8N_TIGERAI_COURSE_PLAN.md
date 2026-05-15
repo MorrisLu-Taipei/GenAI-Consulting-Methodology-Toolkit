@@ -2,7 +2,7 @@
 
 版本：v1.1  
 作者：Morris  
-適用層級：L3 Workflow AI  
+適用層級：L3 Workflow Automation  
 參考來源：
 
 - TigerAI YouTube 頻道 n8n / OpenGenie 相關影片  

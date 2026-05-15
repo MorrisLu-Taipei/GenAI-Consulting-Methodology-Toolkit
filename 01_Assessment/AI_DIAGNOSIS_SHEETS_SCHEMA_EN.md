@@ -35,7 +35,7 @@ The six constructs and their question ranges:
 | Process Standardization | Q9-Q12 | `=AVERAGE(Raw!P2:S2)` |
 | System Integration | Q13-Q16 | `=AVERAGE(Raw!T2:W2)` |
 | Agent Application | Q17-Q20 | `=AVERAGE(Raw!X2:AA2)` |
-| Governance & ROI | Q21-Q25 | `=AVERAGE(Raw!AB2:AF2)` |
+| Implementation & Change | Q21-Q25 | `=AVERAGE(Raw!AB2:AF2)` |
 
 **Overall score:** `=AVERAGE(B2:G2)` (average of the six constructs)
 

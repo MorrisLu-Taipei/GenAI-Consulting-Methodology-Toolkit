@@ -29,11 +29,11 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 
 | Case type | Maps to this methodology | Rationale |
 | --- | --- | --- |
-| Chat with X, Local ChatGPT, simple Starters | **L1 Chat AI** | Conversing with data, single-shot tasks, individual entry level |
-| Agent Skills, single-purpose packaged capabilities, OCR/Vision extraction | **L2 Skill AI** | A reusable packaged capability = a Skill |
-| RAG pipelines, MCP integration, document pipelines, Chat with systems | **L3 Workflow AI** | Retrieval pipelines, tool/system integration |
-| Advanced Single-Agent, Memory Apps, Agentic/Autonomous RAG | **L4 Auto Agentic AI** | Autonomous multi-step, memory, tool chains, single Agent |
-| Multi-agent Teams, Multi-Agent applications | **L5 Agentic Team AI** | Multi-Agent collaboration |
+| Chat with X, Local ChatGPT, simple Starters | **L1 Controlled AI Access** | Conversing with data, single-shot tasks, individual entry level |
+| Agent Skills, single-purpose packaged capabilities, OCR/Vision extraction | **L2 Knowledge Codification** | A reusable packaged capability = a Skill |
+| RAG pipelines, MCP integration, document pipelines, Chat with systems | **L3 Workflow Automation** | Retrieval pipelines, tool/system integration |
+| Advanced Single-Agent, Memory Apps, Agentic/Autonomous RAG | **L4 Autonomous Agent** | Autonomous multi-step, memory, tool chains, single Agent |
+| Multi-agent Teams, Multi-Agent applications | **L5 Multi-Agent Organization** | Multi-Agent collaboration |
 | Voice, Optimization, Fine-tuning, Framework courses, Model comparisons, Game-Playing | **Cross-cutting / technical support / not mapped** | Technical extensions or demos, not a single L-level course |
 
 "Source" column: `awesome-llm-apps` = A · `ai-engineering-hub` = H.
@@ -42,7 +42,7 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 
 ## 3. The L1-L5 Index
 
-### 3.1 L1 Chat AI (maps to course: L1 OpenWebUI Enterprise Enablement)
+### 3.1 L1 Controlled AI Access (maps to course: L1 OpenWebUI Enterprise Enablement)
 
 | Case | Source | Original category | Application scenario / Note |
 | --- | --- | --- | --- |
@@ -59,7 +59,7 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 | DeepSeek Thinking UI | H | Chat Interfaces | A chat interface that visualizes the reasoning process |
 | Qwen3 Thinking UI | H | Chat Interfaces | A chat interface that visualizes the reasoning process |
 
-### 3.2 L2 Skill AI (maps to course: L2 Antigravity Agentic Developer)
+### 3.2 L2 Knowledge Codification (maps to course: L2 Antigravity Agentic Developer)
 
 | Case | Source | Original category | Application scenario / Note |
 | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 | Gemma-3 OCR | H | OCR & Vision | Document-extraction Skill |
 | Qwen 2.5 VL OCR | H | OCR & Vision | Visual document-extraction Skill |
 
-### 3.3 L3 Workflow AI (maps to course: L3 n8n + AG/n8n Skill Pack)
+### 3.3 L3 Workflow Automation (maps to course: L3 n8n + AG/n8n Skill Pack)
 
 | Case | Source | Original category | Application scenario / Note |
 | --- | --- | --- | --- |
@@ -127,7 +127,7 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 | Graphiti MCP | H | Infrastructure | MCP — knowledge-graph integration |
 | Pixeltable MCP | H | Infrastructure | MCP — multimodal data integration |
 
-### 3.4 L4 Auto Agentic AI (maps to course: L4 Hermes Agent)
+### 3.4 L4 Autonomous Agent (maps to course: L4 Hermes Agent)
 
 | Case | Source | Original category | Application scenario / Note |
 | --- | --- | --- | --- |
@@ -167,7 +167,7 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 | Corrective RAG | H | RAG | Self-correcting retrieval |
 | Trustworthy RAG | H | RAG | Trust-scored retrieval (maps to the Evidence discipline) |
 
-### 3.5 L5 Agentic Team AI (maps to course: L5 ClawTeam)
+### 3.5 L5 Multi-Agent Organization (maps to course: L5 ClawTeam)
 
 | Case | Source | Original category | Application scenario / Note |
 | --- | --- | --- | --- |
@@ -372,11 +372,11 @@ The biggest blocker when an enterprise adopts Gen AI is often not "we don't know
 
 | Mapped level | Cases (approx.) | Corresponding course |
 | --- | ---: | --- |
-| L1 Chat AI | 12 | L1 OpenWebUI Enterprise Enablement |
-| L2 Skill AI | 29 | L2 Antigravity Agentic Developer |
-| L3 Workflow AI | 29 | L3 n8n + AG/n8n Skill Pack |
-| L4 Auto Agentic AI | 34 | L4 Hermes Agent |
-| L5 Agentic Team AI | 26 | L5 ClawTeam |
+| L1 Controlled AI Access | 12 | L1 OpenWebUI Enterprise Enablement |
+| L2 Knowledge Codification | 29 | L2 Antigravity Agentic Developer |
+| L3 Workflow Automation | 29 | L3 n8n + AG/n8n Skill Pack |
+| L4 Autonomous Agent | 34 | L4 Hermes Agent |
+| L5 Multi-Agent Organization | 26 | L5 ClawTeam |
 | Cross-cutting / not mapped | 24 | Technical support / demo |
 | **Total (2 sources)** | **~150+** | — |
 

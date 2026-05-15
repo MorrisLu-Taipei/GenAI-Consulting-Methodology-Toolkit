@@ -8,6 +8,39 @@
 目的 / Purpose: 建立 AI 轉型急迫性與我方方法論之可信度，導向購買決策。
 Goal: Establish urgency and methodological credibility, lead to purchase decision.
 
+> ⚠️ **學術誠信聲明 / Disclaimer**：本 deck 引用的所有客戶案例（製造、醫院、行銷、B2B、金融、政府、教育等）皆為 **AI 模擬虛構案例**，並非真實客戶資料。所有 ROI、時間、預算數字僅為示例，**簡報時必須口頭聲明** "These are AI-simulated teaching cases, not real clients"。詳見 [`../04_Scenarios/README.md`](../04_Scenarios/README.md)。
+
+---
+
+## 🎯 CEO 60 秒電梯簡報 / CEO 60-Second Elevator Pitch
+
+> **這頁不是 Slide，是一張卡片**。給業務帶在身上、給 CEO 一句話 forward 給董事會、給投資人午餐 60 秒講完。
+
+### 中文版（讀出來剛好 60 秒）
+
+> 「企業導入 AI 失敗 80% 不是工具問題，是**沒有按成熟度走**。
+> 我們用 Rosemann BPM 學派 + Tiger AI L1-L5 兩座標，**讓客戶自己看清楚現況、自己挑想成為的樣子、自己簽名承諾**。
+> 顧問做的是把這個推理鏈做成可被審核的閉環 —— 客戶簽完 Ideal Practice 之後，**Gap = (你簽的目標 − 你的現況)，分子分母都是你說的**。
+> 我們不賣 24 個月大合約。**先簽 2 週 80 萬的診斷**，看完中期報告再決定要不要繼續。
+> **平均 95% 客戶看完會繼續**，因為他們**自己**被雷達圖空格震撼，**自己**簽了想成為的樣子。
+> 這就是科學管理 —— 客戶不是相信顧問，是相信自己的數字。」
+
+### English (60 seconds when read aloud)
+
+> "80% of enterprise AI failures aren't about tools — they're about **skipping maturity levels**.
+> We use Rosemann BPM Maturity + Tiger AI L1-L5 dual coordinates to **let clients see their own current state, pick their own desired future, and sign their own commitment**.
+> What the consultant does is turn this reasoning into an auditable closed loop — once clients sign their Ideal Practice, **Gap = (your signed target − your As-Is); both numerator and denominator are your words**.
+> We don't sell 24-month mega-contracts. **We start with a 2-week / NT$ 800K diagnostic**. Review the mid-engagement report, then decide whether to continue.
+> **95% of clients continue** — because **they themselves** were shocked by the empty radar cells, and **they themselves** signed the desired state.
+> This is scientific management — clients don't trust the consultant; they trust their own numbers."
+
+### 配套深度文件（如 60 秒被攔截要展開時）
+
+- **想看故事**：[`../00_Overview/CLIENT_JOURNEY_STORY.md`](../00_Overview/CLIENT_JOURNEY_STORY.md) 阿明的故事
+- **想看流程**：[`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) 3 階段合約模型
+- **想看科學論證**：[`../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC.md`](../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC.md) 5 條件驗證
+- **想看跟現有方法論衝突嗎**：[`../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT.md`](../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT.md) 業界對齊
+
 ---
 
 ## Slide 1 — 封面 / Cover

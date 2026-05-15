@@ -43,7 +43,7 @@ But one piece was missing: **how to efficiently produce the eight-stage diagnost
 - What to do: clarify what is in / out of scope, define success metrics
 - Output: a problem statement with clear boundaries
 - Maps to framework: SCQ (Situation-Complication-Question)
-- Maps to eight stages: Stage 1 Current-State Grasp, Stage 5 High-Level Problem Framing
+- Maps to eight stages: Stage 1 As-Is Snapshot, Stage 5 Problem Definition
 - Loads no reference files, pure conversation
 
 **Step 2-3 — Issue Tree + Hypotheses**

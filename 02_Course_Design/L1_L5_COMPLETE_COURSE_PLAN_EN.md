@@ -55,11 +55,11 @@ L1-L5 is not "five tools" — it is **two axes**:
 
 | Level | Course Name | Tool / Platform | Suggested Hours | Core Outputs | Stage Gate |
 | --- | --- | --- | ---: | --- | --- |
-| L1 | Chat AI fundamentals and enterprise usage policy | OpenWebUI | 3-6 hours | AI usage policy, Prompt Library, personal productivity cases | Gate 1 |
-| L2 | Skill AI and departmental knowledge capture | Antigravity / Claude Code / Codex | 6-12 hours | Skill Library, 3-5 Skills, Owner and versions | Gate 2 |
-| L3 | Workflow AI and workflow automation | n8n | 6-18 hours | n8n Workflow PoCs, system integration sheet, Log and review nodes | Gate 3 |
-| L4 | Auto Agentic AI task delegation | Hermes Agent | 6-12 hours | Agent task cards, tools list, permission sheet, test records | Gate 4 |
-| L5 | Agentic Team AI multi-Agent collaboration | ClawTeam | 6-12 hours | Agent Team role cards, task dispatch, integrated report template | Gate 5 |
+| L1 | Controlled AI Access — fundamentals and enterprise usage policy | OpenWebUI | 3-6 hours | AI usage policy, Prompt Library, personal productivity cases | Gate 1 |
+| L2 | Knowledge Codification — departmental knowledge capture | Antigravity / Claude Code / Codex | 6-12 hours | Skill Library, 3-5 Skills, Owner and versions | Gate 2 |
+| L3 | Workflow Automation — cross-department workflow automation | n8n | 6-18 hours | n8n Workflow PoCs, system integration sheet, Log and review nodes | Gate 3 |
+| L4 | Autonomous Agent — task delegation | Hermes Agent | 6-12 hours | Agent task cards, tools list, permission sheet, test records | Gate 4 |
+| L5 | Multi-Agent Organization — multi-Agent collaboration | ClawTeam | 6-12 hours | Agent Team role cards, task dispatch, integrated report template | Gate 5 |
 
 ## 3. Course Packaging Recommendations
 
@@ -87,7 +87,7 @@ Suitable for: leadership, cross-functional teams.
 Content: questionnaire, interviews, As-Is, gap analysis, To-Be, roadmap.  
 Outputs: AI transformation diagnostic report, ROI tracking matrix, follow-up SOW.
 
-## 4. L1 Chat AI: OpenWebUI
+## 4. L1 Controlled AI Access: OpenWebUI
 
 ### 4.1 Course Objectives
 
@@ -174,7 +174,7 @@ Pass criteria:
 - A policy on permitted / prohibited data exists.
 - At least 10 high-frequency departmental tasks have been catalogued.
 
-## 5. L2 Skill AI: Antigravity / Claude Code / Codex
+## 5. L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 ### 5.1 Course Objectives
 
@@ -282,7 +282,7 @@ Pass criteria:
 - The n8n node map, human gate, log, and error-handling draft are complete.
 - Human review requirements are defined.
 
-## 6. L3 Workflow AI: n8n
+## 6. L3 Workflow Automation: n8n
 
 ### 6.1 Course Objectives
 
@@ -393,7 +393,7 @@ Pass criteria:
 - The L4 Workflow Contract is complete.
 - Agent permission boundaries are defined.
 
-## 7. L4 Auto Agentic AI: Hermes Agent
+## 7. L4 Autonomous Agent: Hermes Agent
 
 ### 7.1 Course Objectives
 
@@ -528,7 +528,7 @@ Pass criteria:
 - Wiki memory, Logs, indexes, briefings, and human Gates are in place.
 - Cross-functional tasks and Agent role division are defined.
 
-## 8. L5 Agentic Team AI: ClawTeam
+## 8. L5 Multi-Agent Organization: ClawTeam
 
 ### 8.1 Course Objectives
 
@@ -574,7 +574,7 @@ Design a multi-Agent collaboration pattern in which different role Agents jointl
 | Task dispatch | 60 min | Task partitioning, dependencies, inputs and outputs | Workshop |
 | Output integration | 60 min | Integrated report, conflict handling, decision summary | Hands-on |
 | Reviewer / Critic | 45 min | Quality checks and risk checks | Lecture |
-| Governance and ROI | 45 min | Permissions, Log, Stage Gate, KPI | Lecture |
+| Implementation & Change | 45 min | Permissions, Log, Stage Gate, KPI | Lecture |
 | Team drill | 150 min | Complete 1 Agent Team case | Hands-on |
 
 ### 8.6 In-class Hands-on Practice

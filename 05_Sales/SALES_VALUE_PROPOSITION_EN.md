@@ -18,11 +18,11 @@ English supporting name:
 
 | Level | External Name | Tools / Platforms | Client-Facing Language |
 | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | Let employees start using AI safely |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | Turn individual experience into departmental capability |
-| L3 | Workflow AI | n8n | Let AI integrate with systems and enter the process |
-| L4 | Auto Agentic AI | Hermes Agent | Give AI knowledge memory, the ability to absorb documents, track tasks, generate briefings, and retain evidence and human Gates |
-| L5 | Agentic Team AI | ClawTeam | AI Agent Team collaboration platform |
+| L1 | Controlled AI Access | OpenWebUI | Let employees start using AI safely |
+| L2 | Knowledge Codification | Antigravity / Claude Code / Codex | Turn individual experience into departmental capability |
+| L3 | Workflow Automation | n8n | Let AI integrate with systems and enter the process |
+| L4 | Autonomous Agent | Hermes Agent | Give AI knowledge memory, the ability to absorb documents, track tasks, generate briefings, and retain evidence and human Gates |
+| L5 | Multi-Agent Organization | ClawTeam | AI Agent Team collaboration platform |
 
 Recommended external Chinese description of ClawTeam:
 
@@ -172,12 +172,12 @@ Employees each use their own tools, managers cannot see ROI, IT worries about se
 
 ### Slide 2: AI transformation is a maturity evolution
 
-From L1 Chat AI to L5 Agentic Team AI, each level has different management focus and governance capability.
+From L1 Controlled AI Access to L5 Multi-Agent Organization, each level has different management focus and governance capability.
 
 ### Slide 3: The L1-L5 model
 
 - L1 OpenWebUI: individual productivity.
-- L2 Skill AI: departmental capability.
+- L2 Knowledge Codification: departmental capability.
 - L3 n8n: process automation.
 - L4 Hermes Agent: a knowledge-oriented Agent with Wiki memory, briefings, tool calls, and evidence.
 - L5 ClawTeam: AI Agent Team collaboration platform.

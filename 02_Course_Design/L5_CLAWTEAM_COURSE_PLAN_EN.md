@@ -9,7 +9,7 @@ Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
 ## 0. Citation Notice
 
-> This course uses **ClawTeam** (open-sourced by HKUDS under the MIT License) as the primary implementation platform for L5 Agentic Team AI.
+> This course uses **ClawTeam** (open-sourced by HKUDS under the MIT License) as the primary implementation platform for L5 Multi-Agent Organization.
 > Upstream repo: <https://github.com/HKUDS/ClawTeam>
 > Full citation and license details: [`90_References/CLAWTEAM_REFERENCE.md`](../90_References/CLAWTEAM_REFERENCE.md)
 

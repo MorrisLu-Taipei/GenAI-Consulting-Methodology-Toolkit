@@ -18,7 +18,7 @@
 
 ## 2. L1-L5 課程需求清單
 
-### 2.1 L1 Chat AI：OpenWebUI
+### 2.1 L1 Controlled AI Access：OpenWebUI
 
 #### 適合客戶狀態
 
@@ -58,7 +58,7 @@
 - AI 使用注意事項。
 - L2 Skill 候選清單。
 
-### 2.2 L2 Skill AI：Antigravity / Claude Code / Codex
+### 2.2 L2 Knowledge Codification：Antigravity / Claude Code / Codex
 
 #### 適合客戶狀態
 
@@ -108,7 +108,7 @@
 - Skill 維護規則。
 - L3 Workflow 候選清單。
 
-### 2.3 L3 Workflow AI：n8n
+### 2.3 L3 Workflow Automation：n8n
 
 #### 適合客戶狀態
 
@@ -158,7 +158,7 @@
 - L4 Workflow Contract。
 - L4 Agent 任務候選清單。
 
-### 2.4 L4 Auto Agentic AI：Hermes Agent
+### 2.4 L4 Autonomous Agent：Hermes Agent
 
 #### 適合客戶狀態
 
@@ -207,7 +207,7 @@
 - Gate 4A-4E 驗收表。
 - L5 Agent Team 候選情境。
 
-### 2.5 L5 Agentic Team AI：ClawTeam
+### 2.5 L5 Multi-Agent Organization：ClawTeam
 
 #### 適合客戶狀態
 

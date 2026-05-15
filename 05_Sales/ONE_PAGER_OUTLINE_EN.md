@@ -32,11 +32,11 @@ Subtitle: Use the L1-L5 maturity model to evolve AI from individual usage to aut
 
 | Level | Name | Tool | One-line value |
 | --- | --- | --- | --- |
-| **L1** | Chat AI | OpenWebUI | Org-wide safe AI usage; accumulate prompts and scenarios |
-| **L2** | Skill AI | Antigravity / Claude Code / Codex | Package personal know-how into reusable Skills |
-| **L3** | Workflow AI | n8n | Wire Skills into Gmail/Sheets/Notion/CRM/ERP as Workflows |
-| **L4** | Auto Agentic AI | Hermes Agent | Wiki + Skill + Workflow + Gate = verifiable Agent |
-| **L5** | Agentic Team AI | ClawTeam | Multiple specialist Agents form a Team for cross-functional tasks |
+| **L1** | Controlled AI Access | OpenWebUI | Org-wide safe AI usage; accumulate prompts and scenarios |
+| **L2** | Knowledge Codification | Antigravity / Claude Code / Codex | Package personal know-how into reusable Skills |
+| **L3** | Workflow Automation | n8n | Wire Skills into Gmail/Sheets/Notion/CRM/ERP as Workflows |
+| **L4** | Autonomous Agent | Hermes Agent | Wiki + Skill + Workflow + Gate = verifiable Agent |
+| **L5** | Multi-Agent Organization | ClawTeam | Multiple specialist Agents form a Team for cross-functional tasks |
 
 > Each layer's output is the next layer's input.
 

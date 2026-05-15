@@ -18,8 +18,8 @@ This methodology turns "scattered AI usage" into **a reproducible, governable, m
 
 ## The Core Model: The Two Axes of L1-L5
 
-- **Scale axis (L1 → L2 → L3)**: individual → department → cross-department / company-wide. Humans use AI, humans supervise AI. L1 Chat AI (OpenWebUI) → L2 Skill AI (Antigravity, etc.) → L3 Workflow AI (n8n).
-- **AI-autonomy axis (L4 → L5)**: AI super-assistant → AI team. AI runs autonomously while humans step back to governor (retaining oversight). L4 Auto Agentic AI (Hermes Agent) → L5 Agentic Team AI (ClawTeam).
+- **Scale axis (L1 → L2 → L3)**: individual → department → cross-department / company-wide. Humans use AI, humans supervise AI. L1 Controlled AI Access (OpenWebUI) → L2 Knowledge Codification (Antigravity, etc.) → L3 Workflow Automation (n8n).
+- **AI-autonomy axis (L4 → L5)**: AI super-assistant → AI team. AI runs autonomously while humans step back to governor (retaining oversight). L4 Autonomous Agent (Hermes Agent) → L5 Multi-Agent Organization (ClawTeam).
 - The key boundary is **L3 → L4**: crossing from "humans drive the work" to "AI drives the work."
 
 ## What You Get

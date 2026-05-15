@@ -4,7 +4,7 @@
 
 Version: v1.1
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-Applicable Level: L4 Auto Agentic AI
+Applicable Level: L4 Autonomous Agent
 Reference material: internal implementation experience with a knowledge-type Agent architecture (Hermes Agent)
 
 > Note: the concepts in this course are drawn from internal implementation experience with a knowledge-type Agent and are used for teaching purposes only. The course teaches **only methodology and design principles** — it does not include internal source code, tool scripts, configuration details, or proprietary implementations. When going to production, students should design the implementation according to their own environment.

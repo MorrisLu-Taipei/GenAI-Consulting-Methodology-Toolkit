@@ -2,7 +2,7 @@
 
 版本：v1.0  
 作者：Morris  
-適用層級：L2 Skill AI  
+適用層級：L2 Knowledge Codification  
 參考課程：
 
 - Google Codelab：開始使用 Google Antigravity  

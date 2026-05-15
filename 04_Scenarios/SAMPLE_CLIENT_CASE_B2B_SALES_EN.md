@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | B2B Industrial Equipment, ~200-400 staff |
+| 2 | Start L-level + evidence | L0-L1 + APQC 4.0 Deliver = 1 |
+| 3 | End L-level + evidence | L3 + APQC 4.0 = 3 |
+| 4 | Duration | 9-12 months |
+| 5 | RM Categories crossed | APQC 4.0 Deliver, SCOR Source, Tiger AI L1-L3 |
+| 6 | Investment per phase | Est. NT$ 3-5M / 18-24 person-months |
+| 7 | Key wins (quantified) | Opportunity screening -60% time, quote 4d→1d, cross-region sales consistency |
+| 8 | Key failures (lessons) | Insufficient CRM data quality; sales Champion changes hands |
+| 9 | Applicability conditions | 100-800 staff B2B equipment firms, CRM in place, overseas sales presence |
+
+**Deployment / Code**: Hybrid / Code Industrial Equipment B
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Client Profile
 
 | Field | Content |
@@ -51,7 +91,7 @@
 | Process standardization | 1.8 |
 | System integration | 2.0 |
 | Agent application | 0.8 |
-| Governance & ROI | 2.0 |
+| Implementation & Change | 2.0 |
 
 **Insight:** tools are widespread but Agent usage is zero; knowledge codification is concentrated in senior AEs' heads (high attrition risk).
 
@@ -88,7 +128,7 @@ Rationale: starting at L2-L3 → focus on filling in Skill codification + system
 - AI usage policy: client-data boundaries (facility layouts / RFP content forbidden from cloud LLMs)
 - Prompt Library, 28 entries (pre-visit brief, post-visit follow-up, Demo intro, competitor comparison)
 
-### L2 Skill AI (6 weeks)
+### L2 Knowledge Codification (6 weeks)
 
 15 Skills:
 
@@ -154,11 +194,11 @@ Actual scenario: for a semiconductor major-account RFP, the past 14-day response
 - Interviews: CSO, 3 Sales Managers, 2 Account Directors, SE Lead, CRM Admin, Legal
 - Pain density: RFP response (90%), inaccurate forecasts (60%), SDR→AE handoff gap (45%)
 
-### Stage 2 Vision Alignment
+### Stage 2 Reference Model Alignment
 - CSO vision: within 18 months, sales cycle 9-14 months → 6-9 months; RFP 14 days → 5 days; win rate 22%→32%
 - Stakeholder: CSO = Sponsor; Sales Ops Lead = AI Champion
 
-### Stage 3 Industry Benchmark
+### Stage 3 Best Practice Integration
 - B2B Industrial: Salesforce Einstein, Gong, Outreach AI (features for reference but not directly adopted)
 - Self-built (Hybrid) to protect RFP / pricing sensitivity
 
@@ -174,7 +214,7 @@ Impact × Effort:
 - Big Bet: Pre-RFP ClawTeam (L5, months 11-12)
 - Avoid: a self-built LLM-based forecasting model (insufficient data)
 
-### Stage 5 Executive Problem Statement
+### Stage 5 Problem Definition
 
 ```
 CONTEXT: In the past 12 months, competitors Siemens / Rockwell increased the speed of their
@@ -189,7 +229,7 @@ CONSTRAINT: NT$ 7.2M budget; RFP / pricing data cannot go to a cloud LLM; CRM mu
             governance first.
 ```
 
-### Stage 6 Roadmap
+### Stage 6 Benchmarking & Phased Goals
 
 | Phase | Month | Main deliverables | Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -199,7 +239,7 @@ CONSTRAINT: NT$ 7.2M budget; RFP / pricing data cannot go to a cloud LLM; CRM mu
 | 4 | 8-10 | L4 Account Briefing Agent | Gate 4 ✓ | visit-brief adoption rate ≥ 80% |
 | 5 | 11-12 | L5 Pre-RFP ClawTeam | Gate 5 ✓ | RFP 14d → 5d |
 
-### Stage 7 Solution Architecture
+### Stage 7 To-Be Design
 
 - **Hybrid deployment:**
   - Public data / public news → cloud (Anthropic Claude)
@@ -207,7 +247,7 @@ CONSTRAINT: NT$ 7.2M budget; RFP / pricing data cannot go to a cloud LLM; CRM mu
 - **CRM:** Salesforce Webhook → n8n self-host
 - **Wiki:** Confluence → embedding → Qdrant vector DB (on-prem)
 
-### Stage 8 Governance & ROI
+### Stage 8 Implementation & Change
 
 - Permissions: four tiers — Sales / SE / Manager / Director; field-level ACL on the CRM
 - Audit Log: all LLM calls retained 1 year; RFP-related 3 years

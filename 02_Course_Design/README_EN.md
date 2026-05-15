@@ -15,7 +15,7 @@ Who uses this directory: course instructors, AI Champions, IT, and the learners 
 | Axis | Mapping |
 | --- | --- |
 | Three-phase service flow | **Build** — the second phase |
-| Eight-stage consulting structure | **Stage 7 Solution Architecture** (courses are the actual build of the solution) |
+| Eight-stage consulting structure | **Stage 7 To-Be Design** (courses are the actual build of the solution) |
 | L1-L5 maturity | This directory is the course body that "**pushes the client from their current level to the next**"; it spans L1-L5's **two axes** |
 | Engagement lifecycle | **Delivery — Build** |
 
@@ -77,23 +77,23 @@ The complete L1-L5 master course plan. The master summary of each level's course
 
 ### `L1_OPENWEBUI_COURSE_PLAN.md`
 
-The L1 Chat AI deep syllabus. References the OpenWebUI public playlist; covers per-person login, personal chat workspace, Admin Panel, account/role/group/permission, model control, data guidelines, and a video reference map.
+The L1 Controlled AI Access deep syllabus. References the OpenWebUI public playlist; covers per-person login, personal chat workspace, Admin Panel, account/role/group/permission, model control, data guidelines, and a video reference map.
 
 ### `L2_ANTIGRAVITY_COURSE_PLAN.md`
 
-The L2 Skill AI deep syllabus. References Google Antigravity's three codelabs; covers Agentic IDE, App Prototype, Unit Test, GCP Serverless Pipeline, and Gate 2A-2E. **§7.6** includes the "leveraging a ready-made Agent library (agency-agents)" module. The second half is the L2→L3 Bridge.
+The L2 Knowledge Codification deep syllabus. References Google Antigravity's three codelabs; covers Agentic IDE, App Prototype, Unit Test, GCP Serverless Pipeline, and Gate 2A-2E. **§7.6** includes the "leveraging a ready-made Agent library (agency-agents)" module. The second half is the L2→L3 Bridge.
 
 ### `L3_N8N_TIGERAI_COURSE_PLAN.md`
 
-The L3 Workflow AI deep syllabus. **§1.1** splits L3 into the first half (n8n concepts and manual building) and the second half (AG + TigerAI-n8n-Skill-Pack natural-language generation, **§5.5**). References the TigerAI channel's n8n / OpenGenie videos; covers Gemini, multimodal, Sub-workflow, Data Tables, Webhook, GitHub backup, and Gate 3A-3G.
+The L3 Workflow Automation deep syllabus. **§1.1** splits L3 into the first half (n8n concepts and manual building) and the second half (AG + TigerAI-n8n-Skill-Pack natural-language generation, **§5.5**). References the TigerAI channel's n8n / OpenGenie videos; covers Gemini, multimodal, Sub-workflow, Data Tables, Webhook, GitHub backup, and Gate 3A-3G.
 
 ### `L4_HERMES_AGENT_COURSE_PLAN.md`
 
-The L4 Auto Agentic AI deep syllabus. **§2** is the "seven design principles of a knowledge-grade Agent" (light by day / heavy by night, the knowledge-compounding closed loop, P1>P2, write-read same source, tool/LLM division of labor, failure-mode-driven learning, why not RAG alone). Covers the main-controller + specialist-skill combination, Wiki memory, ingest/query/update, and Gate 4A-4E. **This course teaches concepts only — it does not include internal source code.**
+The L4 Autonomous Agent deep syllabus. **§2** is the "seven design principles of a knowledge-grade Agent" (light by day / heavy by night, the knowledge-compounding closed loop, P1>P2, write-read same source, tool/LLM division of labor, failure-mode-driven learning, why not RAG alone). Covers the main-controller + specialist-skill combination, Wiki memory, ingest/query/update, and Gate 4A-4E. **This course teaches concepts only — it does not include internal source code.**
 
 ### `L5_CLAWTEAM_COURSE_PLAN.md`
 
-The L5 Agentic Team AI deep syllabus. Uses HKUDS/ClawTeam (MIT) as the implementation platform; covers the five-layer Team/Workspace/Task/Inbox/Transport architecture, git worktree, CLI hands-on, three localized scenarios, and Gate 5.
+The L5 Multi-Agent Organization deep syllabus. Uses HKUDS/ClawTeam (MIT) as the implementation platform; covers the five-layer Team/Workspace/Task/Inbox/Transport architecture, git worktree, CLI hands-on, three localized scenarios, and Gate 5.
 
 ### `POC_SCENARIO_SPECS.md`
 

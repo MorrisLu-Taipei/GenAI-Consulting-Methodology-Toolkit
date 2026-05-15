@@ -11,7 +11,7 @@ Original channel: `https://www.youtube.com/@%E8%99%8E%E6%99%BA%E7%A7%91%E6%8A%80
 
 ## 1. How to Use This Document
 
-This document organizes videos from the TigerAI channel that can be used for L1-L4 course design, with particular focus on n8n and L3 Workflow AI.
+This document organizes videos from the TigerAI channel that can be used for L1-L4 course design, with particular focus on n8n and L3 Workflow Automation.
 
 Organization approach:
 

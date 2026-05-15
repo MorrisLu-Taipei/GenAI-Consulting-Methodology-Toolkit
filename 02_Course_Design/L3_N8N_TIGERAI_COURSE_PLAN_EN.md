@@ -4,7 +4,7 @@
 
 Version: v1.1
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-Applicable Level: L3 Workflow AI
+Applicable Level: L3 Workflow Automation
 Reference Sources:
 
 - n8n / OpenGenie videos on the TigerAI YouTube channel

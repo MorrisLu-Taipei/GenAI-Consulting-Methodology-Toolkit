@@ -65,7 +65,7 @@
 | --- | --- |
 | **生命週期階段** | Delivery — Build、Test、Security Audit |
 | **核心職責** | 技術方案架構（雲/Hybrid/地端）、L1-L5 平台選型、資安檢核、技術風險判斷、Developer 指導 |
-| **關鍵交付物** | 解決方案架構、資安檢核報告、L4 Workflow Contract、技術風險清單 |
+| **關鍵交付物** | 未來藍圖設計、資安檢核報告、L4 Workflow Contract、技術風險清單 |
 | **交接點** | 架構確認 → Developer 開始建置；資安檢核通過 → PM 進 Handover |
 | **合作對象** | PM、Developer、Client IT |
 | **不可做** | 不讓未過資安檢核的東西上線；不繞過 7 Pillars 之「資安優先」 |

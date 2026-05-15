@@ -30,15 +30,15 @@ Therefore, this matrix uses a fixed format:
 
 | Level | Maturity Positioning | Definition of Done | Core Deliverables | Required Evidence | Primary Owner | Stage Gate | Next Level |
 |---|---|---|---|---|---|---|---|
-| L1 | Chat AI / OpenWebUI | The company has a controlled AI portal; each user can log in with their own account and complete basic knowledge work | OpenWebUI accounts/groups/permissions table, personal chat area, Prompt Library, AI usage guidelines | Login screenshots, personal chat screenshots, Admin Panel, permissions table, Prompt exercises, data case judgment | IT / HR / Consultant | Gate 1A-1F | L2 Skill AI |
-| L2 | Skill AI / Antigravity / Claude Code / Codex | Personal experience, SOPs, Prompts, and engineering implementations can be consolidated into reusable Skills and converted into an L3 Blueprint | Skill Library, Skill template, Owner/version table, Antigravity artifacts, Workflow Blueprint | Skill test outputs, version records, Owner list, sample payload, n8n node map | Department Owner / IT / Consultant | Gate 2A-2F | L3 Workflow AI |
-| L3 | Workflow AI / n8n | At least one workflow runs stably, with system integration, human review, Log, error handling, and backup | n8n Workflow JSON, Data Tables Schema, Sub-workflow Library, GitHub Backup SOP, L4 Workflow Contract | Execution Log, test payloads, Data Tables / Sheets records, backup commit, human review records, failure tests | IT / Process Owner | Gate 3A-3G | L4 Hermes Agent |
-| L4 | Auto Agentic AI / Hermes Agent | Agent can use Wiki memory as a base to complete ingest/query/update/briefing and can call L2 Skill / L3 Workflow | Hermes Agent task card, L4 IPOE, Wiki, schema, ingest/query/update records, briefing, Runbook | Source page, SQLite query, log, briefing, tool invocation records, human review, Gate 4A-4E | Department Owner / IT | Gate 4A-4E | L5 ClawTeam |
-| L5 | Agentic Team AI / ClawTeam | Multiple Agents have role assignment, task dispatch, integrated output, Reviewer, HITL review, and ROI measurement | ClawTeam role cards, task dispatch table, Agent Team IPOE, integrated report, Reviewer Gate, ROI table | Per-Agent outputs, integration records, Reviewer records, executive sign-off, ROI/KPI tracking | Management Sponsor / Consultant | Gate 5 | Institutionalization and expansion |
+| L1 | Controlled AI Access / OpenWebUI | The company has a controlled AI portal; each user can log in with their own account and complete basic knowledge work | OpenWebUI accounts/groups/permissions table, personal chat area, Prompt Library, AI usage guidelines | Login screenshots, personal chat screenshots, Admin Panel, permissions table, Prompt exercises, data case judgment | IT / HR / Consultant | Gate 1A-1F | L2 Knowledge Codification |
+| L2 | Knowledge Codification / Antigravity / Claude Code / Codex | Personal experience, SOPs, Prompts, and engineering implementations can be consolidated into reusable Skills and converted into an L3 Blueprint | Skill Library, Skill template, Owner/version table, Antigravity artifacts, Workflow Blueprint | Skill test outputs, version records, Owner list, sample payload, n8n node map | Department Owner / IT / Consultant | Gate 2A-2F | L3 Workflow Automation |
+| L3 | Workflow Automation / n8n | At least one workflow runs stably, with system integration, human review, Log, error handling, and backup | n8n Workflow JSON, Data Tables Schema, Sub-workflow Library, GitHub Backup SOP, L4 Workflow Contract | Execution Log, test payloads, Data Tables / Sheets records, backup commit, human review records, failure tests | IT / Process Owner | Gate 3A-3G | L4 Hermes Agent |
+| L4 | Autonomous Agent / Hermes Agent | Agent can use Wiki memory as a base to complete ingest/query/update/briefing and can call L2 Skill / L3 Workflow | Hermes Agent task card, L4 IPOE, Wiki, schema, ingest/query/update records, briefing, Runbook | Source page, SQLite query, log, briefing, tool invocation records, human review, Gate 4A-4E | Department Owner / IT | Gate 4A-4E | L5 ClawTeam |
+| L5 | Multi-Agent Organization / ClawTeam | Multiple Agents have role assignment, task dispatch, integrated output, Reviewer, HITL review, and ROI measurement | ClawTeam role cards, task dispatch table, Agent Team IPOE, integrated report, Reviewer Gate, ROI table | Per-Agent outputs, integration records, Reviewer records, executive sign-off, ROI/KPI tracking | Management Sponsor / Consultant | Gate 5 | Institutionalization and expansion |
 
 ---
 
-## 3. L1 Chat AI: OpenWebUI
+## 3. L1 Controlled AI Access: OpenWebUI
 
 ### 3.1 Definition of Done
 
@@ -101,7 +101,7 @@ Conditions to enter L2:
 
 ---
 
-## 4. L2 Skill AI: Antigravity / Claude Code / Codex
+## 4. L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 ### 4.1 Definition of Done
 
@@ -165,7 +165,7 @@ Conditions to enter L3:
 
 ---
 
-## 5. L3 Workflow AI: n8n
+## 5. L3 Workflow Automation: n8n
 
 ### 5.1 Definition of Done
 
@@ -237,7 +237,7 @@ Conditions to enter L4:
 
 ---
 
-## 6. L4 Auto Agentic AI: Hermes Agent
+## 6. L4 Autonomous Agent: Hermes Agent
 
 ### 6.1 Definition of Done
 
@@ -308,7 +308,7 @@ Conditions to enter L5:
 
 ---
 
-## 7. L5 Agentic Team AI: ClawTeam
+## 7. L5 Multi-Agent Organization: ClawTeam
 
 ### 7.1 Definition of Done
 

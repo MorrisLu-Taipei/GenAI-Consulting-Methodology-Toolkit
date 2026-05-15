@@ -61,11 +61,11 @@
 
 ### `CONSULTING_REPORT_TEMPLATE.md`
 
-AI 轉型診斷報告的 Markdown 模板。固定結構：封面、Executive Summary、AI 成熟度診斷結果、課程觀察與能力盤點、As-Is 現況、高價值 AI 場景清單、差距分析、To-Be AI Operating Model、三階段 Roadmap、ROI 與治理建議、後續導入 SOW 建議。顧問把診斷產出填進這個結構。
+AI 轉型診斷報告的 Markdown 模板（v2.0 八階段對齊版）。14 章固定結構：封面、Executive Summary（含標準缺口總覽）、診斷方法、As-Is Snapshot、Reference Model Alignment（APQC + Tiger AI 雙座標）、Best Practice Integration（卓越能力特徵）、Gap Analysis、Executive Problem Statement、Phased Goals、To-Be Design、Implementation Roadmap、Change Management Plan、Governance Design、Value Tracking & Risk Register、SOW 建議。
 
 ### `CONSULTING_TOOLKIT_TEMPLATES.md`
 
-八階段顧問診斷的**可直接使用工具表**。每一階段（Stage 1-8）對應 1-4 個工具：40 題訪談題庫、AI/系統盤點表、As-Is swimlane 範本、Vision Workshop、產業標竿模板、Missing/Broken/Redundant 表、Impact×Effort 矩陣、Problem Statement worksheet、30/60/90 Roadmap、Gate 1-5 checklist、Risk Register、Skill/Workflow/Agent Map、權限/ROI/Audit/Ethics 表、6 週標準排程。複製即可用。
+八階段顧問診斷的**可直接使用工具表**（v2.0 對齊圖卡版）。每階段對應 1-5 個工具：40 題訪談題庫、AI/系統盤點、As-Is swimlane、**Reference Model 選用指引（APQC/SCOR/eTOM/ITIL/CMMI）+ Mapping Worksheet + 標準缺口檢核 + 雙雷達**、Best-Practice Profile + 卓越能力特徵、Missing/Broken/Redundant 表（**不作為風險評估**）、Impact×Effort、**80/20 收斂 + 5 Whys**、Problem Statement、**終極標竿 → 三階段拆解 + 組織吸收力評估**、**分階段 To-Be Operating Model + 人機協作架構（HITL）**、Skill/Workflow/Agent Map、Transformation Roadmap、**變革管理 Playbook（含抗拒處理）**、RACI、權限、**價值追蹤矩陣（時間/品質/規模/風險/資產 5 維度）**、Risk Register、Audit、Ethics、6 週標準排程。複製即可用。
 
 ### `CONSULTING_FRAMEWORKS_LIBRARY.md`
 
@@ -86,7 +86,7 @@ AI 轉型診斷報告的 Markdown 模板。固定結構：封面、Executive Sum
 | `01_Assessment` | 診斷分數與雷達是八階段 Stage 1 的核心輸入 | `01` 分數 → `03` 報告 |
 | `02_Course_Design` | 課中產出與觀察是報告「課程觀察」章節的素材 | `02` 課程觀察 → `03` 報告 |
 | `00_Overview` | 報告是故事線的「交付」段 | `00` 故事 → `03` 落實 |
-| `04_Scenarios` | 八階段 Stage 3 產業標竿引用案例 | `04` 案例 → `03` Stage 3 |
+| `04_Scenarios` | 八階段 Stage 3 產業最佳實務對標引用案例 | `04` 案例 → `03` Stage 3 |
 | `06_Delivery` | 報告是交付包的核心交付物；對應 Handover | `03` 報告 → `06` 交付驗收 |
 | `90_References` | 框架庫與報告工作流的第三方引用（consultant / mckinsey-skills）| `90` 引用 → `03` |
 

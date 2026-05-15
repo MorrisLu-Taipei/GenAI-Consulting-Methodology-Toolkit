@@ -55,15 +55,15 @@ IPOE = Input / Process / Output / Evidence.
 
 | Maturity | Input | Process | Output | Evidence | Owner | Acceptance Criteria | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L1 Chat AI | `[Documents, Email, questionnaires, low-sensitivity data]` | `[OpenWebUI, Prompt training, usage guidelines]` | `[Prompts, AI usage guidelines, entry-point workflow]` | `[Screenshots, guideline documents, exercise outputs]` | `[HR / IT / Consulting]` | `[Seed users can complete basic tasks]` | `[ ]` |
-| L2 Skill AI | `[SOPs, templates, senior expertise, examples]` | `[Skill design, templatization, version management]` | `[Skill Library, 3-5 Skills]` | `[Skill documents, versions, test outputs]` | `[Department Owner]` | `[Non-original authors can use the Skill]` | `[ ]` |
-| L3 Workflow AI | `[Gmail, Sheets, Notion, CRM, API, ERP]` | `[n8n integration, triggers, AI classification, human review, logging]` | `[Workflow PoC, summaries, tasks, notifications]` | `[Workflow JSON, Execution Log, test cases]` | `[IT / Process Owner]` | `[Test cases succeed with review in place]` | `[ ]` |
-| L4 Auto Agentic AI | `[Skills, Workflows, tasks, documents, Wiki, schema, permissions]` | `[Hermes Agent orient, ingest, query, update, briefing, tool invocation, human Gate]` | `[Agent task card, Wiki pages, briefing, reports, follow-up list]` | `[Logs, SQLite queries, source pages, tool invocation records, human review records]` | `[Department Owner / IT]` | `[Agent output is traceable, auditable, and operable]` | `[ ]` |
-| L5 Agentic Team AI | `[Cross-departmental tasks, roles, data sources]` | `[ClawTeam multi-Agent division, integration, review]` | `[Integrated report, improvement proposals, Roadmap]` | `[Outputs from each Agent, integration record, executive review]` | `[Management Sponsor]` | `[Role division, human Gate, and ROI in place]` | `[ ]` |
+| L1 Controlled AI Access | `[Documents, Email, questionnaires, low-sensitivity data]` | `[OpenWebUI, Prompt training, usage guidelines]` | `[Prompts, AI usage guidelines, entry-point workflow]` | `[Screenshots, guideline documents, exercise outputs]` | `[HR / IT / Consulting]` | `[Seed users can complete basic tasks]` | `[ ]` |
+| L2 Knowledge Codification | `[SOPs, templates, senior expertise, examples]` | `[Skill design, templatization, version management]` | `[Skill Library, 3-5 Skills]` | `[Skill documents, versions, test outputs]` | `[Department Owner]` | `[Non-original authors can use the Skill]` | `[ ]` |
+| L3 Workflow Automation | `[Gmail, Sheets, Notion, CRM, API, ERP]` | `[n8n integration, triggers, AI classification, human review, logging]` | `[Workflow PoC, summaries, tasks, notifications]` | `[Workflow JSON, Execution Log, test cases]` | `[IT / Process Owner]` | `[Test cases succeed with review in place]` | `[ ]` |
+| L4 Autonomous Agent | `[Skills, Workflows, tasks, documents, Wiki, schema, permissions]` | `[Hermes Agent orient, ingest, query, update, briefing, tool invocation, human Gate]` | `[Agent task card, Wiki pages, briefing, reports, follow-up list]` | `[Logs, SQLite queries, source pages, tool invocation records, human review records]` | `[Department Owner / IT]` | `[Agent output is traceable, auditable, and operable]` | `[ ]` |
+| L5 Multi-Agent Organization | `[Cross-departmental tasks, roles, data sources]` | `[ClawTeam multi-Agent division, integration, review]` | `[Integrated report, improvement proposals, Roadmap]` | `[Outputs from each Agent, integration record, executive review]` | `[Management Sponsor]` | `[Role division, human Gate, and ROI in place]` | `[ ]` |
 
 ## 5. Detailed L1-L5 Control Tables
 
-### 5.1 L1 Chat AI Control Table
+### 5.1 L1 Controlled AI Access Control Table
 
 | Control Item | Content to Fill | Evidence | Completed |
 | --- | --- | --- | --- |
@@ -80,7 +80,7 @@ IPOE = Input / Process / Output / Evidence.
 | Training exercises | `[Exercises]` | Trainee outputs | `[ ]` |
 | L1 Gate | `[Pass / Fail]` | Gate 1 acceptance record | `[ ]` |
 
-### 5.2 L2 Skill AI Control Table
+### 5.2 L2 Knowledge Codification Control Table
 
 | Control Item | Content to Fill | Evidence | Completed |
 | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ IPOE = Input / Process / Output / Evidence.
 | Test results | `[Results]` | Test input/output | `[ ]` |
 | L2 Gate | `[Pass / Fail]` | Gate 2 acceptance record | `[ ]` |
 
-### 5.3 L3 Workflow AI Control Table
+### 5.3 L3 Workflow Automation Control Table
 
 | Control Item | Content to Fill | Evidence | Completed |
 | --- | --- | --- | --- |

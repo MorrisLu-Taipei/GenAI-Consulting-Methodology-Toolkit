@@ -4,7 +4,7 @@
 
 Version: v1.0
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-Applicable Level: L2 Skill AI
+Applicable Level: L2 Knowledge Codification
 Reference Courses:
 
 - Google Codelab: Getting Started with Google Antigravity

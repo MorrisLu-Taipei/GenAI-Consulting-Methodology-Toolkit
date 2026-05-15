@@ -2,9 +2,9 @@
 
 > 🌐 English version: [AGENCY_AGENTS_REFERENCE_EN.md](AGENCY_AGENTS_REFERENCE_EN.md)
 
-本方法論的 **L2 Skill AI**（特別是 L2-B Agentic Developer 線）下半段，引用 **agency-agents** 作為「現成 agent persona 庫」之教學素材。本檔詳列原始來源、授權條款、引用方式與使用範圍。
+本方法論的 **L2 Knowledge Codification**（特別是 L2-B Agentic Developer 線）下半段，引用 **agency-agents** 作為「現成 agent persona 庫」之教學素材。本檔詳列原始來源、授權條款、引用方式與使用範圍。
 
-The **L2 Skill AI** course of this methodology (specifically the L2-B Agentic Developer track) cites **agency-agents** as teaching material for the "ready-made agent persona library" module. This document records the upstream source, license terms, citation guidance, and scope of use.
+The **L2 Knowledge Codification** course of this methodology (specifically the L2-B Agentic Developer track) cites **agency-agents** as teaching material for the "ready-made agent persona library" module. This document records the upstream source, license terms, citation guidance, and scope of use.
 
 ---
 
@@ -36,9 +36,9 @@ Installed via `./scripts/install.sh`, which auto-detects installed AI tools and 
 
 ## 3. 為什麼放在 L2 / Why It Belongs in L2
 
-L2 Skill AI 的核心是「把工作經驗封裝成可複用 Skill」。L2-B Agentic Developer 線的下半段要教一個關鍵觀念：**不是每個 Skill 都要從零寫。** agency-agents 提供 144+ 個成熟 agent persona，可作為 Skill 建置的起點 — 學員學會挑選、客製、納入企業 Skill Library，而非重造輪子。
+L2 Knowledge Codification 的核心是「把工作經驗封裝成可複用 Skill」。L2-B Agentic Developer 線的下半段要教一個關鍵觀念：**不是每個 Skill 都要從零寫。** agency-agents 提供 144+ 個成熟 agent persona，可作為 Skill 建置的起點 — 學員學會挑選、客製、納入企業 Skill Library，而非重造輪子。
 
-The core of L2 Skill AI is "packaging work experience into reusable Skills." The second half of the L2-B Agentic Developer track teaches a key idea: **not every Skill needs to be built from scratch.** agency-agents provides 144+ mature agent personas as a starting point — learners select, customize, and incorporate them into the enterprise Skill Library rather than reinventing the wheel.
+The core of L2 Knowledge Codification is "packaging work experience into reusable Skills." The second half of the L2-B Agentic Developer track teaches a key idea: **not every Skill needs to be built from scratch.** agency-agents provides 144+ mature agent personas as a starting point — learners select, customize, and incorporate them into the enterprise Skill Library rather than reinventing the wheel.
 
 對應課程：[`../02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](../02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md) §7.6。
 Corresponding course: `../02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md` §7.6.

@@ -17,15 +17,17 @@ Scoring is not for labeling, but to answer four questions:
 
 ## 2. L1-L5 Maturity Definitions
 
-L1-L5 is **two axes**: the **scale axis (L1-L3)** — individual → department → cross-department / company-wide, humans supervise AI; and the **AI-autonomy axis (L4-L5)** — AI super-assistant → AI team, AI is operationally autonomous while humans step back to governor (retaining oversight). The key boundary is L3 → L4. Full story: [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0.
+L1-L5 is **two axes**: the **scale axis (L1-L3)** — individual → department → cross-department / company-wide, humans supervise AI; and the **AI-autonomy axis (L4-L5)** — AI super-assistant → AI team, AI is operationally autonomous while humans step back to governor (retaining oversight). The key boundary is L3 → L4. Full story: [`../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE_EN.md`](../00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE_EN.md) §3.0.
 
-| Level | Name | Tools / Platforms | Axis | Maturity Definition | Completion Criteria |
-| --- | --- | --- | --- | --- | --- |
-| L1 | Chat AI | OpenWebUI | Scale axis · individual | Employees use AI through a controlled portal to boost personal productivity | A unified portal, basic usage guidelines, common Prompts, and personal productivity cases exist |
-| L2 | Skill AI | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, personal experience is consolidated into departmental reusable Skills | A Skill Library, SOPs, templates, Checklists, and departmental shared examples exist |
-| L3 | Workflow AI | n8n | Scale axis · cross-department / company-wide | AI chains cross-department Skills and systems, entering company-wide workflows to execute tasks | Gmail, Sheets, Notion, CRM, API, ERP, and similar workflow PoCs or production flows exist |
-| L4 | Auto Agentic AI | Hermes Agent | AI-autonomy axis · super-assistant | A fully autonomous AI Agent uses Wiki memory as its base, calls Skills/Workflows, performs ingest, query, update, and briefing, and leaves evidence | Agent task cards, L4 IPOE, Wiki/schema, tool list, permission boundaries, Log, HITL review, and acceptance gate 4A-4E exist |
-| L5 | Agentic Team AI | ClawTeam | AI-autonomy axis · AI team | Multiple specialist Agents form a functional division of labor, collaborating to complete cross-departmental enterprise-class tasks | Agent Team role assignment, task dispatch, integrated output, quality check, and governance exist |
+> **Naming note (v2.0 dual naming)**: L1-L5 uses **capability-oriented naming**. The "Tiger AI Reference Implementation" column lists Tiger AI's **example tools**, not the definition — the same capability can be implemented with other tools (e.g. L1 could use OpenWebUI / LibreChat / a custom chat gateway). This preserves academic vendor-neutrality + practical implementability.
+
+| Level | Capability Name | Legacy short tag | Tiger AI Reference Implementation | Axis | Maturity Definition | Completion Criteria |
+| --- | --- | --- | --- | --- | --- | --- |
+| L1 | **Controlled AI Access** | `Chat AI` (deprecated) | OpenWebUI | Scale axis · individual | Employees use AI through a controlled portal to boost personal productivity | A unified portal, basic usage guidelines, common Prompts, and personal productivity cases exist |
+| L2 | **Knowledge Codification** | `Skill AI` (deprecated) | Antigravity / Claude Code / Codex | Scale axis · department | By department responsibility, personal experience is consolidated into departmental reusable Skills | A Skill Library, SOPs, templates, Checklists, and departmental shared examples exist |
+| L3 | **Workflow Automation** | `Workflow AI` (deprecated) | n8n | Scale axis · cross-department / company-wide | AI chains cross-department Skills and systems, entering company-wide workflows to execute tasks | Gmail, Sheets, Notion, CRM, API, ERP, and similar workflow PoCs or production flows exist |
+| L4 | **Autonomous Agent** | `Auto Agentic AI` (deprecated) | Hermes Agent | AI-autonomy axis · super-assistant | A fully autonomous AI Agent uses Wiki memory as its base, calls Skills/Workflows, performs ingest, query, update, and briefing, and leaves evidence | Agent task cards, L4 IPOE, Wiki/schema, tool list, permission boundaries, Log, HITL review, and acceptance gate 4A-4E exist |
+| L5 | **Multi-Agent Organization** | `Agentic Team AI` (deprecated) | ClawTeam | AI-autonomy axis · AI team | Multiple specialist Agents form a functional division of labor, collaborating to complete cross-departmental enterprise-class tasks | Agent Team role assignment, task dispatch, integrated output, quality check, and governance exist |
 
 > Terminology: in this scoring model, **Stage Gate = acceptance gate**, and **HITL = Human-in-the-Loop** (a human-review checkpoint in the workflow).
 
@@ -38,7 +40,7 @@ L1-L5 is **two axes**: the **scale axis (L1-L3)** — individual → department 
 | C. Process Automation | Whether AI is connected to real processes and reduces manual rework | L3 |
 | D. System Integration | Whether the integration of Gmail, Sheets, Notion, CRM, API, ERP, and DB is possible | L3 |
 | E. Agent Application | Whether there is a traceable Agent that decomposes tasks, calls tools, accumulates memory, produces briefings, and executes reporting | L4-L5 |
-| F. Governance & ROI | Whether there are permissions, audit, data classification, KPI, and ROI tracking | L1-L5 |
+| F. Implementation & Change | Whether there are permissions, audit, data classification, KPI, and ROI tracking | L1-L5 |
 
 ## 4. Per-Item Scoring Scale
 
@@ -62,7 +64,7 @@ A level is considered stable when it simultaneously satisfies:
 
 - The average score of the dimensions mapped to that level is at least 3.
 - The capability of the preceding level is not below 2.5.
-- The Governance & ROI dimension is not below 2.
+- The Implementation & Change dimension is not below 2.
 
 ### 5.2 Local Maturity
 
@@ -89,7 +91,7 @@ Note: Total score is only an initial assessment. The final determination must st
 
 ## 6. L1-L5 Observable Indicators
 
-### L1 Chat AI
+### L1 Controlled AI Access
 
 | Indicator | What to Observe |
 | --- | --- |
@@ -99,7 +101,7 @@ Note: Total score is only an initial assessment. The final determination must st
 | Usage guidelines | Whether they know which data must not be input to AI |
 | Personal benefit | Whether they can cite cases of time savings or quality improvement |
 
-### L2 Skill AI
+### L2 Knowledge Codification
 
 | Indicator | What to Observe |
 | --- | --- |
@@ -109,7 +111,7 @@ Note: Total score is only an initial assessment. The final determination must st
 | New-hire onboarding | Whether new hires can directly apply Skills to complete work |
 | Quality consistency | Whether quality gaps caused by individual differences are reduced |
 
-### L3 Workflow AI
+### L3 Workflow Automation
 
 | Indicator | What to Observe |
 | --- | --- |
@@ -119,7 +121,7 @@ Note: Total score is only an initial assessment. The final determination must st
 | Human review | Whether human confirmation is preserved at critical nodes |
 | Operations logs | Whether Log, error notification, and retry mechanisms exist |
 
-### L4 Auto Agentic AI
+### L4 Autonomous Agent
 
 | Indicator | What to Observe |
 | --- | --- |
@@ -133,7 +135,7 @@ Note: Total score is only an initial assessment. The final determination must st
 | Reporting mechanism | Whether the Agent can report results, exceptions, next steps, and evidence |
 | Human-machine collaboration | Whether humans can review, correct, and take over Agent tasks |
 
-### L5 Agentic Team AI
+### L5 Multi-Agent Organization
 
 | Indicator | What to Observe |
 | --- | --- |

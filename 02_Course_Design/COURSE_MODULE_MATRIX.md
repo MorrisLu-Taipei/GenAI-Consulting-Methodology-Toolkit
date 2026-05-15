@@ -23,7 +23,7 @@
 | 二日導入營 | 12 小時 | 種子團隊、IT、流程 Owner | 完成 L2-L3 PoC，帶入 L4 Agent 設計 | Skill Library、n8n PoC、Agent 任務卡 |
 | 顧問診斷專案 | 2-4 週 | 管理層、跨部門團隊 | 用八階段方法產出 AI 轉型診斷報告 | 診斷報告、Roadmap、ROI 與治理建議 |
 
-## 3. L1 Chat AI：OpenWebUI
+## 3. L1 Controlled AI Access：OpenWebUI
 
 ### 課程目標
 
@@ -60,7 +60,7 @@
 
 L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可以安全進入日常工作，並為 L2 Skill 化鋪路。若企業無法做到每人獨立帳號、個人聊天區與 Admin 權限控管，就不應大規模開放使用。完整 L1 設計請見 `L1_OPENWEBUI_COURSE_PLAN.md`。
 
-## 4. L2 Skill AI：Antigravity / Claude Code / Codex
+## 4. L2 Knowledge Codification：Antigravity / Claude Code / Codex
 
 ### 課程目標
 
@@ -107,7 +107,7 @@ L1 課程要避免只教「好玩的 Prompt」。重點是讓客戶看到 AI 可
 
 L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Workflow 才能承載部門知識。L2 下半堂必須銜接 L3，把 Skill 轉成 Workflow Blueprint。若客戶是 IT、研發、軟體或數位團隊，應加入 `L2_ANTIGRAVITY_COURSE_PLAN.md`，把 Google Antigravity 三套 codelab 轉成工程 Skill 訓練。
 
-## 5. L3 Workflow AI：n8n
+## 5. L3 Workflow Automation：n8n
 
 ### 課程目標
 
@@ -152,7 +152,7 @@ L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Wo
 
 同樣是 L3，不同產業要換不同案例。行銷服務業可先用 SaaS、社群平台、Webhook 快速展示 ROI；客服可用 Facebook / LINE + Data Tables；HR 可用 Gmail + Gemini + 通知；研發製造業要優先處理 ERP、內部 API、資料權限與人工審核。完整 L3 設計請見 `L3_N8N_TIGERAI_COURSE_PLAN.md`。
 
-## 6. L4 Auto Agentic AI：Hermes Agent
+## 6. L4 Autonomous Agent：Hermes Agent
 
 ### 課程目標
 
@@ -197,7 +197,7 @@ L2 是整套方案的樞紐。沒有 L2，L3 會變成只串工具；有 L2，Wo
 
 L4 不宜一開始承諾全自動決策。比較好的說法是「先讓 Agent 做準備、分析、整理、提醒、草稿與 briefing，關鍵決策、刪除、schema 變更與高風險更新保留人工 Gate」。完整 L4 設計請見 `L4_HERMES_AGENT_COURSE_PLAN.md`。
 
-## 7. L5 Agentic Team AI：ClawTeam
+## 7. L5 Multi-Agent Organization：ClawTeam
 
 ### 課程目標
 

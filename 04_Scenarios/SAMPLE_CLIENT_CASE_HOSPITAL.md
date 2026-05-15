@@ -2,6 +2,46 @@
 
 更新日期：2026-05-13
 
+## 0. Benchmark-grade Summary（Tool 3.5 九欄位）
+
+> **此案例符合 Tool 3.5 Cases-as-Benchmarks 紀律** ── 客戶可拿此表 30 分鐘自助算差距。
+
+| # | 必填欄位 | 本案例 |
+| --- | --- | --- |
+| 1 | 產業 + 規模 | 醫療（醫學中心），約 1,200 人 |
+| 2 | 起點 L-level + 證據 | L1 部分 + APQC 11.x = 0 |
+| 3 | 終點 L-level + 證據 | L4 + APQC 11.x = 3 |
+| 4 | 跨越期間 | 12-18 個月 |
+| 5 | 跨越的 RM Category | APQC 4.0 Deliver、APQC 11.0 Knowledge、Tiger AI L1-L4 |
+| 6 | 每階段投入 | 估 NT$ 600-900 萬 / 30-40 人月 |
+| 7 | Key wins（可量化） | 病患 onboarding 加速、行政摘要時間降 50%、HIS/EMR 串接 Agent |
+| 8 | Key failures（踩過的雷） | 若早期忽略護理 frontline 抗拒、若忽略法遵簽核流程 |
+| 9 | 適用條件 | ≥ 500 床醫院、有法遵專責、地端 LLM 部署能力 |
+
+**部署模式 / 代號**：全地端（HIPAA + 個資法強合規） ／ 代號 （無代號）
+
+
+**Evidence Level**：🔵 **L0 — AI-Simulated Teaching Case**（AI 模擬教學案例，在 Tool 8.9 Evidence Hierarchy 之下）
+
+> ⚠️ **本案例由 AI 模擬產生，並非真實客戶資料**。
+>
+> - **目的**：作為教學示範、方法論講解、Stage 1-8 工具表套用練習用
+> - **來源**：AI 依據產業常識 + 方法論架構合成出符合 Tool 3.5 九欄位 Benchmark-grade 格式的虛構案例
+> - **所有數字**（時間 / ROI / 投入人月 / 預算 / KPI）**僅為示例**，**不可**作為：
+>   - 對外客戶宣傳依據
+>   - 顧問合約 ROI 承諾
+>   - 學術引用之 empirical evidence
+>   - 對任何單一真實公司的對比結論
+>
+> 證據等級依 Tool 8.9 Evidence Hierarchy：L1 自評 · L2 文件 · L3 系統 log · L4 第三方稽核 · L5 縱貫 KPI ── **本案例屬 L0（pre-evidence）**，低於 L1。
+>
+> **真實 longitudinal 案例**需透過 [`../90_References/PILOT_STUDY_PROTOCOL.md`](../90_References/PILOT_STUDY_PROTOCOL.md) 18-24 個月實證研究完成後才會替換。在此之前，請以**AI 模擬教學案例**對待本檔內容。
+
+> 詳細案例細節見下方各章節。本表為 [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md) Tool 3.5 規範的標準摘要。
+
+---
+
+
 ## 1. 案例定位
 
 本案例示範醫院如何使用「企業 AI 轉型成熟度診斷與導入方案」，在高敏感資料與高度法規要求下，從 AI 使用盤點、課程能力建置，到顧問診斷報告形成可落地 Roadmap。
@@ -81,7 +121,7 @@
 | 流程自動化 | 1.0 | 多數流程仍依賴人工查詢與轉述 |
 | 系統整合 | 0.8 | HIS / EMR / 客服系統未串 AI |
 | Agent 應用 | 0.2 | 尚無 Agent |
-| 治理與 ROI | 2.2 | 資安意識高，但 AI 治理細則不足 |
+| 執行導入與變革治理 | 2.2 | 資安意識高，但 AI 治理細則不足 |
 
 初判成熟度：整體 L1 尚未穩定  
 建議目標：90 天內建立受控 AI 入口、資料分級規範、3-5 個低風險 Skill，完成 1 個客服行政 Workflow PoC
@@ -119,7 +159,7 @@
 | 模組 | 比例 | 原因 |
 | --- | ---: | --- |
 | L1 OpenWebUI | 30% | 建立受控入口、AI 使用規範、資料分級與安全意識 |
-| L2 Skill AI | 35% | 將行政 SOP、客服 FAQ、病患服務流程轉為可複用 Skill |
+| L2 Knowledge Codification | 35% | 將行政 SOP、客服 FAQ、病患服務流程轉為可複用 Skill |
 | L3 n8n Workflow AI | 25% | 從低風險行政與客服流程開始做 PoC |
 | L4 Hermes Agent | 10% | 設計行政 / 客服輔助 Agent，但保留人工審核 |
 | L5 ClawTeam | 0% | 暫不進入多 Agent 團隊，待治理成熟後再規劃 |
@@ -347,7 +387,7 @@ To-Be 架構：
 
 ## 11. L1-L5 Input / Process / Output / Evidence
 
-### 11.1 L1 Chat AI：OpenWebUI
+### 11.1 L1 Controlled AI Access：OpenWebUI
 
 | 項目 | 定義 |
 | --- | --- |
@@ -357,7 +397,7 @@ To-Be 架構：
 | Evidence | AI 使用規範、資料分級清單、OpenWebUI 截圖、課程簽到、Prompt 練習成果 |
 | 驗收標準 | 種子人員能完成行政摘要、公告改寫、會議紀錄整理；不得輸入病患個資與病歷資料 |
 
-### 11.2 L2 Skill AI：Antigravity / Claude Code / Codex
+### 11.2 L2 Knowledge Codification：Antigravity / Claude Code / Codex
 
 | 項目 | 定義 |
 | --- | --- |
@@ -367,7 +407,7 @@ To-Be 架構：
 | Evidence | Skill Library、核准來源文件、Skill 版本、測試輸入輸出、Owner 名單 |
 | 驗收標準 | 至少 5 個低風險 Skill；每個 Skill 均引用核准內容，不自行產生醫療判斷 |
 
-### 11.3 L3 Workflow AI：n8n
+### 11.3 L3 Workflow Automation：n8n
 
 | 項目 | 定義 |
 | --- | --- |
@@ -377,7 +417,7 @@ To-Be 架構：
 | Evidence | n8n Workflow JSON、執行 Log、人工審核紀錄、知識庫來源連結、測試案例 |
 | 驗收標準 | 至少完成 20 筆低風險客服測試；涉及病情、病歷、檢驗、用藥、治療一律轉人工 |
 
-### 11.4 L4 Auto Agentic AI：Hermes Agent
+### 11.4 L4 Autonomous Agent：Hermes Agent
 
 | 項目 | 定義 |
 | --- | --- |
@@ -387,7 +427,7 @@ To-Be 架構：
 | Evidence | Agent 任務卡、權限表、可用工具清單、Agent 執行紀錄、人工接手紀錄 |
 | 驗收標準 | Agent 不查詢個人病歷，不輸出診斷 / 治療 / 用藥建議；所有對外回覆人工確認 |
 
-### 11.5 L5 Agentic Team AI：ClawTeam
+### 11.5 L5 Multi-Agent Organization：ClawTeam
 
 | 項目 | 定義 |
 | --- | --- |

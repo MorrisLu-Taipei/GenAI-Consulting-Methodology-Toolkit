@@ -206,7 +206,7 @@ Bosses are used to seeing AI the way they "buy a system": evaluate the feature l
 > **Scope**: this mindset applies only to **L4-L5 (the AI-autonomy axis)**. At L1-L3 you are legitimately buying tools, equipment, and systems — that is reasonable and verifiable. "Procuring AI" is about the boss's mindset shifting once AI crosses L3→L4 and becomes an autonomous digital workforce.
 > **It is a management-posture analogy, not a claim that "AI is human"** — precisely because AI ≠ human, it needs the governance framework and HITL that humans build, and that is the core of the consulting service.
 
-### 3.1 L1 Chat AI: OpenWebUI
+### 3.1 L1 Controlled AI Access: OpenWebUI
 
 #### Positioning
 
@@ -239,7 +239,7 @@ A sales rep needs to write customer visit emails, meeting summaries, and proposa
 - Departmental AI usage notes.
 - Common functional scenario examples.
 
-### 3.2 L2 Skill AI: Antigravity / Claude Code / Codex
+### 3.2 L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 #### Positioning
 
@@ -249,7 +249,7 @@ Antigravity, Claude Code, and Codex are not just for writing code — they serve
 
 #### Typical Scenario
 
-A marketing manager has always been great at writing product copy, but every time a new hire joins they have to teach again. Through L2 Skill AI, the copy generation process can be organized into a "Copy Generation Skill":
+A marketing manager has always been great at writing product copy, but every time a new hire joins they have to teach again. Through L2 Knowledge Codification, the copy generation process can be organized into a "Copy Generation Skill":
 
 - Target audience.
 - Tone and style.
@@ -283,7 +283,7 @@ A new hire only needs to invoke the Skill and can produce content close to the d
 - Skill standard template.
 - Skill maintenance and version control recommendations.
 
-### 3.3 L3 Workflow AI: n8n
+### 3.3 L3 Workflow Automation: n8n
 
 #### Positioning
 
@@ -341,7 +341,7 @@ With n8n, you can design a Workflow:
 - System integration requirements list.
 - Automation risk and permission checklist.
 
-### 3.4 L4 Auto Agentic AI: Hermes Agent
+### 3.4 L4 Autonomous Agent: Hermes Agent
 
 #### Positioning
 
@@ -403,7 +403,7 @@ Hermes Agent will:
 - Acceptance gate 4A-4E table.
 - Agent risk, permissions, and operations Runbook.
 
-### 3.5 L5 Agentic Team AI: ClawTeam
+### 3.5 L5 Multi-Agent Organization: ClawTeam
 
 #### Positioning
 
@@ -472,7 +472,7 @@ We recommend dividing the questionnaire into six dimensions:
 | Process Automation | Whether there is system integration and automated workflows |
 | System Integration | Whether Gmail, Sheets, Notion, CRM, API, ERP can be invoked by workflows |
 | Agent Application | Whether there is an AI Agent that can autonomously execute tasks |
-| Governance & ROI | Whether there are permissions, security, performance metrics, and management systems |
+| Implementation & Change | Whether there are permissions, security, performance metrics, and management systems |
 
 ### 4.3 Diagnostic Output
 
@@ -538,7 +538,7 @@ Current state: Most employees have not yet stably used AI.
 Recommended ratio:
 
 - L1 OpenWebUI: 40%
-- L2 Skill AI: 35%
+- L2 Knowledge Codification: 35%
 - L3 n8n: 20%
 - L4 Hermes Agent: 5%
 - L5 ClawTeam: 0%
@@ -552,7 +552,7 @@ Current state: Employees can use AI, but results are scattered and workflows rem
 Recommended ratio:
 
 - L1 OpenWebUI: 15%
-- L2 Skill AI: 30%
+- L2 Knowledge Codification: 30%
 - L3 n8n: 40%
 - L4 Hermes Agent: 10%
 - L5 ClawTeam: 5%
@@ -566,7 +566,7 @@ Current state: Already has n8n or system integration experience.
 Recommended ratio:
 
 - L1 OpenWebUI: 5%
-- L2 Skill AI: 20%
+- L2 Knowledge Codification: 20%
 - L3 n8n: 25%
 - L4 Hermes Agent: 30%
 - L5 ClawTeam: 20%
@@ -574,6 +574,8 @@ Recommended ratio:
 Goal: Upgrade from process automation to Agent and Agent Team.
 
 ## 6. The Eight-Stage Consulting Diagnostic Method
+
+> ⚠️ **All client examples referenced in this chapter (e.g., "Client M" / "MingChang Packaging" in §6.1) are AI-generated fictional cases**, NOT real clients. All numbers are illustrative. See [`../04_Scenarios/README_EN.md`](../04_Scenarios/README_EN.md) for full disclaimer.
 
 ### Stage 1: As-Is Snapshot — Current State Discovery
 

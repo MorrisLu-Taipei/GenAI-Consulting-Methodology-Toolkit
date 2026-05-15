@@ -2,7 +2,7 @@
 
 版本：v1.0  
 作者：Morris  
-適用層級：L1 Chat AI  
+適用層級：L1 Controlled AI Access  
 參考影片清單：DigitalBrainBase OpenWebUI playlist  
 `https://www.youtube.com/watch?v=oXJ4L1G8kaI&list=PL_rTgQnnMXsXAsEiid-tWhaj03SsP4U5Z`
 

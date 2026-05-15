@@ -8,6 +8,28 @@ Audience: CEO · COO · CIO · CTO · Board Member
 Duration: 15-20 min
 Purpose: Establish the urgency of AI transformation and the credibility of our methodology, leading to a purchase decision.
 
+> ⚠️ **Disclaimer**: All client cases in this deck (Manufacturing, Hospital, Marketing, B2B, Financial, Government, Education) are **AI-generated fictional cases**, NOT real client data. All ROI, time, budget numbers are illustrative. **Presenter must verbally state** "These are AI-simulated teaching cases, not real clients." See [`../04_Scenarios/README_EN.md`](../04_Scenarios/README_EN.md).
+
+---
+
+## 🎯 CEO 60-Second Elevator Pitch
+
+> **This isn't a slide — it's a card**. For sales reps to carry, CEOs to forward to the board, investors to grasp over lunch in 60 seconds.
+
+> "80% of enterprise AI failures aren't about tools — they're about **skipping maturity levels**.
+> We use Rosemann BPM Maturity + Tiger AI L1-L5 dual coordinates to **let clients see their own current state, pick their own desired future, and sign their own commitment**.
+> What the consultant does is turn this reasoning into an auditable closed loop — once clients sign their Ideal Practice, **Gap = (your signed target − your As-Is); both numerator and denominator are your words**.
+> We don't sell 24-month mega-contracts. **We start with a 2-week / NT$ 800K diagnostic**. Review the mid-engagement report, then decide whether to continue.
+> **95% of clients continue** — because **they themselves** were shocked by the empty radar cells, and **they themselves** signed the desired state.
+> This is scientific management — clients don't trust the consultant; they trust their own numbers."
+
+### Supporting Deep-Dive Documents (if the 60 seconds gets interrupted)
+
+- **Want a story**: [`../00_Overview/CLIENT_JOURNEY_STORY_EN.md`](../00_Overview/CLIENT_JOURNEY_STORY_EN.md) Ming's story
+- **Want the process**: [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) 3-phase contract model
+- **Want the scientific argument**: [`../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) 5-condition validation
+- **Want to know if it conflicts with our existing methodology**: [`../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) industry alignment
+
 ---
 
 ## Slide 1 — Cover

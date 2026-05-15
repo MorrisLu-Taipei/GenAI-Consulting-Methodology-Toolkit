@@ -203,11 +203,11 @@ else:
 
 | Output | 串到 |
 | --- | --- |
-| `profile.industry` + `profile.headcount` | Stage 3 Industry Benchmark 標竿選擇 |
+| `profile.industry` + `profile.headcount` | Stage 3 Best Practice Integration 標竿選擇 |
 | `systems` | Stage 1.3 Systems Inventory 預填 |
 | `risk` | Stage 8 治理 / 法遵建議 |
-| `deployment` | Stage 7 Solution Architecture variant 選擇 |
-| `course` | Stage 6 Roadmap 課程排程 |
-| `budget` | Stage 6 Roadmap 階段切分 |
+| `deployment` | Stage 7 To-Be Design variant 選擇 |
+| `course` | Stage 6 Benchmarking & Phased Goals 課程排程 |
+| `budget` | Stage 6 Benchmarking & Phased Goals 階段切分 |
 
 完整自動化 schema：`AI_DIAGNOSIS_SHEETS_SCHEMA.md`。

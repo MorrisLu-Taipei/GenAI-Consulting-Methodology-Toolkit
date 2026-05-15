@@ -4,6 +4,46 @@
 
 Last updated: 2026-05-13
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | Healthcare (Medical Center), ~1,200 staff |
+| 2 | Start L-level + evidence | L1 partial + APQC 11.x = 0 |
+| 3 | End L-level + evidence | L4 + APQC 11.x = 3 |
+| 4 | Duration | 12-18 months |
+| 5 | RM Categories crossed | APQC 4.0 Deliver, APQC 11.0 Knowledge, Tiger AI L1-L4 |
+| 6 | Investment per phase | Est. NT$ 6-9M / 30-40 person-months |
+| 7 | Key wins (quantified) | Patient onboarding accelerated, admin summary time -50%, HIS/EMR integration Agent |
+| 8 | Key failures (lessons) | Ignoring nursing front-line resistance early; ignoring compliance sign-off flows |
+| 9 | Applicability conditions | ≥500-bed hospitals, dedicated compliance lead, on-prem LLM capability |
+
+**Deployment / Code**: Full on-prem (HIPAA + PIPA strict compliance) / Code (uncoded)
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Case Positioning
 
 This case demonstrates how a hospital can apply the "Enterprise AI Transformation Maturity Diagnostic and Implementation Plan" under highly sensitive data and stringent regulatory requirements, from AI usage inventory and training capability build-out through to a consulting diagnostic report that produces an actionable Roadmap.
@@ -83,7 +123,7 @@ Primary gaps: Unified AI entry point, data classification, Skill codification, a
 | Process automation | 1.0 | Most processes still depend on manual lookup and transcription |
 | System integration | 0.8 | HIS / EMR / customer service systems are not connected to AI |
 | Agent application | 0.2 | No Agents in place |
-| Governance and ROI | 2.2 | High security awareness, but detailed AI governance is insufficient |
+| Implementation & Change | 2.2 | High security awareness, but detailed AI governance is insufficient |
 
 Initial maturity: Overall L1 not yet stable  
 Recommended goal: Within 90 days establish a controlled AI entry point, data classification guidelines, 3-5 low-risk Skills, and complete one customer-service-administration Workflow PoC
@@ -121,7 +161,7 @@ Deployment principles:
 | Module | Ratio | Reason |
 | --- | ---: | --- |
 | L1 OpenWebUI | 30% | Establish a controlled entry point, AI usage guidelines, data classification, and security awareness |
-| L2 Skill AI | 35% | Convert administrative SOPs, customer service FAQs, and patient service flows into reusable Skills |
+| L2 Knowledge Codification | 35% | Convert administrative SOPs, customer service FAQs, and patient service flows into reusable Skills |
 | L3 n8n Workflow AI | 25% | Start the PoC with low-risk administrative and customer service processes |
 | L4 Hermes Agent | 10% | Design administrative / customer service assistant Agents while keeping human review |
 | L5 ClawTeam | 0% | Defer multi-Agent teams until governance is mature |
@@ -349,7 +389,7 @@ Recommended conclusions for this case:
 
 ## 11. L1-L5 Input / Process / Output / Evidence
 
-### 11.1 L1 Chat AI: OpenWebUI
+### 11.1 L1 Controlled AI Access: OpenWebUI
 
 | Item | Definition |
 | --- | --- |
@@ -359,7 +399,7 @@ Recommended conclusions for this case:
 | Evidence | AI usage guidelines, data classification list, OpenWebUI screenshots, course sign-in, Prompt exercise outputs |
 | Acceptance criteria | Seed users can perform administrative summarization, announcement rewriting, and meeting notes organization; patient PII and medical record data must not be entered |
 
-### 11.2 L2 Skill AI: Antigravity / Claude Code / Codex
+### 11.2 L2 Knowledge Codification: Antigravity / Claude Code / Codex
 
 | Item | Definition |
 | --- | --- |
@@ -369,7 +409,7 @@ Recommended conclusions for this case:
 | Evidence | Skill Library, approved source documents, Skill versions, test inputs and outputs, Owner roster |
 | Acceptance criteria | At least 5 low-risk Skills; every Skill cites approved content and does not generate medical judgments on its own |
 
-### 11.3 L3 Workflow AI: n8n
+### 11.3 L3 Workflow Automation: n8n
 
 | Item | Definition |
 | --- | --- |
@@ -379,7 +419,7 @@ Recommended conclusions for this case:
 | Evidence | n8n Workflow JSON, execution logs, human review records, knowledge base source links, test cases |
 | Acceptance criteria | Complete at least 20 low-risk customer service tests; anything involving clinical conditions, medical records, lab tests, medication, or treatment is escalated to a human |
 
-### 11.4 L4 Auto Agentic AI: Hermes Agent
+### 11.4 L4 Autonomous Agent: Hermes Agent
 
 | Item | Definition |
 | --- | --- |
@@ -389,7 +429,7 @@ Recommended conclusions for this case:
 | Evidence | Agent task card, permission table, available tool list, Agent execution records, human takeover records |
 | Acceptance criteria | The Agent does not query personal medical records, does not output diagnosis / treatment / medication advice; all external replies require human confirmation |
 
-### 11.5 L5 Agentic Team AI: ClawTeam
+### 11.5 L5 Multi-Agent Organization: ClawTeam
 
 | Item | Definition |
 | --- | --- |

@@ -194,11 +194,11 @@ Map `systems` to `POC_SCENARIO_SPECS.md`:
 
 | Output | Feeds into |
 | --- | --- |
-| `profile.industry` + `profile.headcount` | Stage 3 Industry Benchmark selection |
+| `profile.industry` + `profile.headcount` | Stage 3 Best Practice Integration selection |
 | `systems` | Stage 1.3 Systems Inventory pre-fill |
 | `risk` | Stage 8 governance / compliance recommendations |
-| `deployment` | Stage 7 Solution Architecture variant selection |
-| `course` | Stage 6 Roadmap course scheduling |
-| `budget` | Stage 6 Roadmap phase division |
+| `deployment` | Stage 7 To-Be Design variant selection |
+| `course` | Stage 6 Benchmarking & Phased Goals course scheduling |
+| `budget` | Stage 6 Benchmarking & Phased Goals phase division |
 
 Full automation schema: `AI_DIAGNOSIS_SHEETS_SCHEMA.md`.

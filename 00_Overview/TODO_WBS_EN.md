@@ -50,7 +50,7 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 - [x] Define the three-stage path: questionnaire diagnostic, course-based capability building, consulting report.
 - [x] Define L1-L5 and their tool mapping.
 - [x] Add the pre-class future-state story so clients can first understand the capabilities gained after L1-L5 training.
-- [x] Include Gmail, Sheets, Notion, CRM, API, and ERP within the L3 Workflow AI integration scope.
+- [x] Include Gmail, Sheets, Notion, CRM, API, and ERP within the L3 Workflow Automation integration scope.
 - [x] Add value propositions for CEO / COO / CIO / IT / HR / department managers.
 - [x] Add 30-second, 3-minute, and 10-minute sales pitches.
 - [x] Tentative program name: Enterprise AI Transformation Maturity Diagnostic and Deployment Program.
@@ -59,11 +59,11 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 
 ### 3.2 L1-L5 Maturity Model
 
-- [x] L1 Chat AI: OpenWebUI capability definition, target audience, completion criteria.
-- [x] L2 Skill AI: Antigravity / Claude Code / Codex capability definition, target audience, completion criteria.
-- [x] L3 Workflow AI: n8n capability definition, target audience, completion criteria.
-- [x] L4 Auto Agentic AI: Hermes Agent capability definition, target audience, completion criteria.
-- [x] L5 Agentic Team AI: ClawTeam capability definition, target audience, completion criteria.
+- [x] L1 Controlled AI Access: OpenWebUI capability definition, target audience, completion criteria.
+- [x] L2 Knowledge Codification: Antigravity / Claude Code / Codex capability definition, target audience, completion criteria.
+- [x] L3 Workflow Automation: n8n capability definition, target audience, completion criteria.
+- [x] L4 Autonomous Agent: Hermes Agent capability definition, target audience, completion criteria.
+- [x] L5 Multi-Agent Organization: ClawTeam capability definition, target audience, completion criteria.
 - [x] Design 5 observable indicators for each level.
 - [x] Design a 0-4 scoring scale for each indicator.
 - [x] Define the mapping from total score to maturity level.
@@ -77,7 +77,7 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 - [x] Design Process Standardization items.
 - [x] Design System Integration items.
 - [x] Design Agent Application items.
-- [x] Design Governance and ROI items.
+- [x] Design Implementation & Change items.
 - [x] 10-item version: for rapid business-development diagnostic.
 - [x] 25-item version: for pre-course diagnostic.
 - [x] 50-item version: for full inventory before consulting interviews.
@@ -91,7 +91,7 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 
 - [x] L1 OpenWebUI course objectives, curriculum, exercises, deliverables, instructor notes.
 - [x] Strengthen L1 enterprise onboarding course based on the OpenWebUI playlist: per-user login, personal chat area, Admin Panel, accounts/roles/groups/permissions, model governance, video reference map.
-- [x] L2 Skill AI course objectives, curriculum, exercises, deliverables, instructor notes.
+- [x] L2 Knowledge Codification course objectives, curriculum, exercises, deliverables, instructor notes.
 - [x] Strengthen L2 engineering training based on three Google Antigravity codelabs: Agentic IDE, App Prototype, Unit Test, GCP Serverless Pipeline, Gate 2A-2E.
 - [x] Strengthen the second half of L2 to bridge into L3: Workflow Blueprint, trigger, I/O schema, n8n node map, human gate, log, error handling.
 - [x] L3 n8n course objectives, curriculum, exercises, deliverables, instructor notes.
@@ -165,7 +165,7 @@ Integrate "AI Maturity L1-L5," "course modules," "simple questionnaire diagnosti
 - [ ] Stage 3 industry benchmark case summary template.
 - [ ] Stage 4 Missing / Broken / Redundant table.
 - [ ] Stage 4 Impact x Effort matrix.
-- [ ] Stage 5 Executive Problem Statement worksheet.
+- [ ] Stage 5 Problem Definition worksheet.
 - [ ] Stage 6 Stage Gate acceptance criteria.
 - [ ] Stage 7 Skill Map / Workflow Map / Agent Map templates.
 - [ ] Stage 8 permission governance sheet and ROI tracking matrix.

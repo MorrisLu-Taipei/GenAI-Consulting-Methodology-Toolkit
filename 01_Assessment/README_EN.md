@@ -15,7 +15,7 @@ Who uses this directory: sales (the 10-item version for development-stage screen
 | Axis | Mapping |
 | --- | --- |
 | Three-phase service flow | **Diagnose** — the first phase |
-| Eight-stage consulting structure | **Stage 1 Current-State Grasp** (the diagnostic result is Stage 1's core input) |
+| Eight-stage consulting structure | **Stage 1 As-Is Snapshot** (the diagnostic result is Stage 1's core input) |
 | L1-L5 maturity | This directory is the tool that "**determines which level the client is at**" — on the scale axis (L1-L3, human-supervised) and the AI-autonomy axis (L4-L5, AI-autonomous) |
 | Engagement lifecycle | **Sales — Lead Qualification (10-item version) / Discovery (25/50-item versions)** |
 
@@ -56,7 +56,7 @@ Company-profile questionnaire (35 items)
 | Auto-scoring | The system (Sheets/Notion/n8n) | After questionnaire submission | Questionnaire answers | L-level + radar + three recommendations |
 | Interpretation | Consultant | After receiving the auto report | The auto report | Customized proposal direction |
 
-> Logic: the questionnaire is only the **input**; the real output is "**L-level + six-dimension gaps + three recommendations**." These three feed, respectively — course ratio → `02_Course_Design`; deployment mode → `03`'s Solution Architecture; PoC scenarios → `04_Scenarios`'s case index. Diagnosis is not the endpoint — it is the switch that "lights up" the next three directories.
+> Logic: the questionnaire is only the **input**; the real output is "**L-level + six-dimension gaps + three recommendations**." These three feed, respectively — course ratio → `02_Course_Design`; deployment mode → `03`'s To-Be Design; PoC scenarios → `04_Scenarios`'s case index. Diagnosis is not the endpoint — it is the switch that "lights up" the next three directories.
 
 ## 5. File Descriptions
 

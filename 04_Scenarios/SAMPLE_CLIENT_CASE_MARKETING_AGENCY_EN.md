@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | Marketing Agency, ~80-150 staff |
+| 2 | Start L-level + evidence | L1 high (heavy private AI use) + APQC 11.x = 1 |
+| 3 | End L-level + evidence | L3-L4 + APQC 11.x = 3 |
+| 4 | Duration | 6-9 months |
+| 5 | RM Categories crossed | APQC 3.0 Marketing, Tiger AI L1-L4 |
+| 6 | Investment per phase | Est. NT$ 2-4M / 12-18 person-months |
+| 7 | Key wins (quantified) | Proposal output -50%, brand consistency up, social-listening Workflow |
+| 8 | Key failures (lessons) | Without Reviewer, brand-language misuse; Skill Library without Owner |
+| 9 | Applicability conditions | 50-300 staff agencies, 80% cloud acceptable, NT$ 2-5M budget |
+
+**Deployment / Code**: Cloud-first / Code Agency M
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Client Profile
 
 | Field | Content |
@@ -52,7 +92,7 @@
 | Process standardization | 1.2 | ▓▓▓░░░░░░░ |
 | System integration | 1.0 | ▓▓░░░░░░░░ |
 | Agent application | 0.5 | ▓░░░░░░░░░ |
-| Governance & ROI | 0.4 | ▓░░░░░░░░░ |
+| Implementation & Change | 0.4 | ▓░░░░░░░░░ |
 
 Overall L1, with tool usage leaning toward L2. **A large local-maturity gap** — employees can use it but the organization has no capability.
 
@@ -91,7 +131,7 @@ Rationale: L1 governance is at zero and must be filled first; L2 Skills are the 
 - Prompt Library, 36 entries (deck drafts, campaign naming, social copy, report narrative...)
 - Model visibility: sensitive brand-client data → Azure OpenAI; public material → cloud OpenAI
 
-### L2 Skill AI (6 weeks)
+### L2 Knowledge Codification (6 weeks)
 
 13 Skills live:
 
@@ -154,11 +194,11 @@ Actual scenario: for one client's new-product launch, the past 14-day process wa
 - Interviews: CEO, 3 Account Directors, Creative Lead, Data Lead, 1 IT, 3 front-line employees
 - Pain density concentrated: client reporting (90% of departments), proposal RFPs (Strategy), social production (Creative)
 
-### Stage 2 Vision Alignment
+### Stage 2 Reference Model Alignment
 - CEO vision: within 18 months, compress 27 brand-client onboarding to 3 days (currently 14); proposal win rate 30%→45%
 - Stakeholder RACI signed; CMO is the Sponsor, Strategy Director is the AI Champion
 
-### Stage 3 Industry Benchmark
+### Stage 3 Best Practice Integration
 - International benchmarks: WPP / Publicis AI lab (too large); local: no clear AI leader
 - Reference architecture: self-built (OpenWebUI + n8n + HubSpot)
 
@@ -174,7 +214,7 @@ Impact × Effort:
 - Big Bet: Onboarding Agent (L4)
 - Avoid: a self-built chatbot (not a current priority)
 
-### Stage 5 Executive Problem Statement
+### Stage 5 Problem Definition
 
 ```
 CONTEXT: In the past 12 months, 3 competitors have claimed to be "AI-first agencies"; some
@@ -188,7 +228,7 @@ DESIRED: Reach L4 in 12 months; client monthly report < 2 hr; onboarding < 3 day
 CONSTRAINT: NT$ 4.8M budget; CMO as Sponsor; must not disrupt the current delivery rhythm.
 ```
 
-### Stage 6 Roadmap
+### Stage 6 Benchmarking & Phased Goals
 
 | Phase | Month | Main deliverables | Stage Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -198,7 +238,7 @@ CONSTRAINT: NT$ 4.8M budget; CMO as Sponsor; must not disrupt the current delive
 | 4 | 7-9 | L4 Onboarding Agent | Gate 4 ✓ | onboarding < 3 days |
 | 5 | 10-12 | L5 new-product launch Team | Gate 5 ✓ | new-product launch process ≤ 5 days |
 
-### Stage 7 Solution Architecture
+### Stage 7 To-Be Design
 
 - Variant: **Hybrid**
 - Cloud: OpenAI for public material; Azure OpenAI isolated tenant for sensitive client data
@@ -206,7 +246,7 @@ CONSTRAINT: NT$ 4.8M budget; CMO as Sponsor; must not disrupt the current delive
 - Notion as Wiki + Knowledge Base
 - HubSpot as CRM; OAuth + Webhook + n8n integration
 
-### Stage 8 Governance & ROI
+### Stage 8 Implementation & Change
 
 - Permissions: Creative / Account / Media groups each see different models; Audit Log retained 1 year
 - ROI Tracker: client monthly-report hours, onboarding days, proposal win rate, new-product launch days, employee NPS

@@ -55,7 +55,7 @@ IPOE 代表：
 
 ## 4. L1-L5 最低交付標準
 
-### L1 Chat AI
+### L1 Controlled AI Access
 
 最低 deliverables：
 
@@ -71,7 +71,7 @@ IPOE 代表：
 - Prompt 範例。
 - 參訓紀錄。
 
-### L2 Skill AI
+### L2 Knowledge Codification
 
 最低 deliverables：
 
@@ -87,7 +87,7 @@ IPOE 代表：
 - 非原作者測試結果。
 - Owner 簽核。
 
-### L3 Workflow AI
+### L3 Workflow Automation
 
 最低 deliverables：
 
@@ -105,7 +105,7 @@ IPOE 代表：
 - 錯誤通知截圖。
 - 人工審核紀錄。
 
-### L4 Auto Agentic AI
+### L4 Autonomous Agent
 
 最低 deliverables：
 
@@ -122,7 +122,7 @@ IPOE 代表：
 - 輸出樣本。
 - 人工審核紀錄。
 
-### L5 Agentic Team AI
+### L5 Multi-Agent Organization
 
 最低 deliverables：
 

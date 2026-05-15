@@ -4,7 +4,7 @@
 
 Version: v1.0
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技
-Applicable Level: L1 Chat AI
+Applicable Level: L1 Controlled AI Access
 Reference Video Playlist: DigitalBrainBase OpenWebUI playlist
 `https://www.youtube.com/watch?v=oXJ4L1G8kaI&list=PL_rTgQnnMXsXAsEiid-tWhaj03SsP4U5Z`
 

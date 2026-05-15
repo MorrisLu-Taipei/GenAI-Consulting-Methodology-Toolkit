@@ -40,10 +40,12 @@ This methodology's core is the **eight-stage consulting structure** (see `CONSUL
 | 「我要評估一樁併購 / 投資」 | M&A Framework + Due Diligence + NPV / IRR | Stage 3, 8 |
 | 「我要找出流程哪裡出問題」 | 5 Whys + Fishbone + Value Stream Mapping | Stage 1, 4 |
 | 「我要排優先順序」 | 80/20 (Pareto) + Impact×Effort + MECE | Stage 4 |
-| 「我要規劃這個轉型專案」 | WBS + RACI + Kotter + OKR | Stage 6 |
+| 「我要規劃這個轉型專案」 | WBS + RACI + Kotter + OKR | Stage 6, 8 |
 | 「我要證明這個投資值得做」 | ROI + NPV + IRR + Payback + Break-even | Stage 8 |
 | 「我要設計新的商業 / 服務模式」 | Business Model Canvas + Design Thinking + Customer Journey | Stage 7 |
-| 「我要說服組織接受改變」 | Kotter 8 Steps + ADKAR + Stakeholder Map | Stage 6 |
+| 「我要說服組織接受改變」 | Kotter 8 Steps + ADKAR + Stakeholder Map | Stage 8 |
+| 「我要把終極目標拆成組織吃得下的階段」 | Capability Maturity Model + Phased Goal Decomposition + Organizational Absorption | Stage 6 |
+| 「我要檢查公司營運結構是否完整」 | APQC PCF / SCOR / eTOM + Standard Capability Gap Checklist | Stage 2 |
 | 「我要分析我們的競爭定位」 | Porter's 5 Forces + SWOT + Value Chain + Core Competency | Stage 3 |
 | 「我要訂價」 | Pricing Framework + Value-Based Pricing + Break-even | Stage 7 |
 | 「我要追蹤導入成效」 | Balanced Scorecard + OKR + KPI Tree | Stage 8 |
@@ -54,14 +56,14 @@ This methodology's core is the **eight-stage consulting structure** (see `CONSUL
 
 | 八階段 | 主要可套用框架 |
 | --- | --- |
-| **Stage 1 現況掌握** | 5 Whys、Fishbone、Issue Tree、McKinsey 7-Step、Value Chain |
-| **Stage 2 願景對齊** | McKinsey 7S、Ansoff Matrix、Blue Ocean、Scenario Planning、OKR |
-| **Stage 3 產業標竿** | Porter's 5 Forces、PESTEL、3C、SWOT、BCG Matrix、Core Competency |
-| **Stage 4 差距分析** | MECE、Issue Tree、80/20 (Pareto)、Hypothesis-Driven、Profitability Framework、Impact×Effort |
-| **Stage 5 高階問題定義** | Pyramid Principle、SCQ、Day-1 Answer、MECE |
-| **Stage 6 路徑圖與 Stage Gate** | WBS、RACI、Gantt、Kotter 8 Steps、ADKAR、OKR、Stakeholder Map |
-| **Stage 7 解決方案架構** | Business Model Canvas、Design Thinking、Customer Journey、Jobs-to-be-Done、Pricing、Lean、Six Sigma |
-| **Stage 8 治理與 ROI** | ROI、NPV、IRR、Payback、Break-even、Sensitivity Analysis、Balanced Scorecard、PDCA |
+| **Stage 1 As-Is Snapshot 現況掌握** | 5 Whys、Fishbone、Issue Tree、McKinsey 7-Step、Value Chain、Value Stream Mapping |
+| **Stage 2 Reference Model Alignment 標準模型引入** | **APQC PCF、SCOR、eTOM、ITIL、CMMI、Capability Maturity Model**、McKinsey 7S（內部結構檢視）、BPM Reference Architecture |
+| **Stage 3 Best Practice Integration 產業最佳實務對標** | Porter's 5 Forces、PESTEL、3C、SWOT、BCG Matrix、Core Competency、Benchmarking、Best-in-Class Profiling |
+| **Stage 4 Gap Analysis 差距分析** | MECE、Issue Tree、80/20 (Pareto)、Hypothesis-Driven、Profitability Framework、Impact×Effort、Missing/Broken/Redundant |
+| **Stage 5 Problem Definition 結論與核心問題定義** | Pyramid Principle、SCQ、Day-1 Answer、MECE、5 Whys（深度根因）、Hypothesis-Driven |
+| **Stage 6 Benchmarking & Phased Goals 標竿對照與多階段目標設定** | **Capability Maturity Model 階段拆解、Phased Goal Decomposition、Organizational Absorption Assessment**、OKR（階段目標）、Pyramid Principle（階段敘事）、Wardley Map |
+| **Stage 7 To-Be Design 未來藍圖設計** | **Target Operating Model (TOM)、Operating Model Canvas**、Business Model Canvas、Design Thinking、Customer Journey、Jobs-to-be-Done、Service Blueprint、Pricing |
+| **Stage 8 Implementation & Change 執行導入與變革治理** | **Kotter 8 Steps、ADKAR、Stakeholder Map（變革管理三大支柱）**、WBS、RACI、Gantt、PDCA、Lean、Six Sigma、ROI、NPV、IRR、Payback、Break-even、Sensitivity Analysis、Balanced Scorecard、OKR（追蹤）|
 
 ---
 
@@ -91,7 +93,7 @@ This methodology's core is the **eight-stage consulting structure** (see `CONSUL
 | **SWOT** | 優勢/劣勢/機會/威脅 四象限 | 競爭定位快速盤點 | 3 |
 | **PESTEL** | 政治/經濟/社會/技術/環境/法規 宏觀掃描 | 外部環境分析 | 3 |
 | **BCG Matrix** | 用市占×成長率把事業分明星/金牛/問號/狗 | 事業組合決策 | 3 |
-| **McKinsey 7S** | 7 個 S 的組織一致性檢查 | 組織診斷、願景對齊 | 2 |
+| **McKinsey 7S** | 7 個 S 的組織一致性檢查 | 組織診斷、標準模型引入 | 2 |
 | **3C** | Customer / Competitor / Company 三角分析 | 策略起手式 | 3 |
 | **Value Chain**（價值鏈） | 拆解企業活動找價值與成本來源 | 競爭優勢來源分析 | 1,3 |
 | **Ansoff Matrix** | 既有/新 市場×產品 的成長選項 | 成長策略 | 2 |

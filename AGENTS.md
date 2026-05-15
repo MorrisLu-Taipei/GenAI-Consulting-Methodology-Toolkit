@@ -25,8 +25,8 @@ This repo is a "living book" — the **GenAI Consulting Methodology Toolkit**, a
 
 **L1-L5 成熟度模型 —— 兩條軸 / Two axes：**
 
-- **規模軸 / Scale axis（L1→L2→L3）**：個人 → 部門 → 跨部門 / 全公司。人在迴圈內、人監督 AI。L1 Chat AI（OpenWebUI）/ L2 Skill AI（Antigravity 等）/ L3 Workflow AI（n8n）。
-- **AI 自主軸 / AI-autonomy axis（L4→L5）**：AI 超級助理 → AI 團隊。AI 營運自主，人退為治理者（仍保有監督權）。L4 Auto Agentic AI（Hermes Agent）/ L5 Agentic Team AI（ClawTeam）。
+- **規模軸 / Scale axis（L1→L2→L3）**：個人 → 部門 → 跨部門 / 全公司。人在迴圈內、人監督 AI。L1 Controlled AI Access（OpenWebUI）/ L2 Knowledge Codification（Antigravity 等）/ L3 Workflow Automation（n8n）。
+- **AI 自主軸 / AI-autonomy axis（L4→L5）**：AI 超級助理 → AI 團隊。AI 營運自主，人退為治理者（仍保有監督權）。L4 Autonomous Agent（Hermes Agent）/ L5 Multi-Agent Organization（ClawTeam）。
 - 關鍵分界在 **L3→L4**：從「人驅動工作」跨到「AI 驅動工作」。完整故事見 [`00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](00_Overview/AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0。
 
 **八階段顧問結構 / Eight-stage structure**：診斷報告的本體，見 [`03_Consulting_Report/`](03_Consulting_Report/)。

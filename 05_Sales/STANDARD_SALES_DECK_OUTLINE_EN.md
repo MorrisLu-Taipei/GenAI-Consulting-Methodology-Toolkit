@@ -8,6 +8,8 @@ Audience: department managers, PMs, IT lead, HR, AI Champion
 Duration: 35-45 min
 Purpose: Build trust in the methodology + show concrete deliverables + trigger a PoC conversation.
 
+> ⚠️ **Disclaimer**: All client cases referenced in this deck (Manufacturing, Hospital, Marketing, B2B, Financial, Government, Education, "Company M / Ming," etc.) are **AI-generated fictional cases**, NOT real client data. All numbers are illustrative. Presenter must verbally state "These are AI-simulated teaching cases, not real clients." See [`../04_Scenarios/README_EN.md`](../04_Scenarios/README_EN.md).
+
 ---
 
 ## Slide 1 — Cover (same as Executive deck)
@@ -47,7 +49,7 @@ Diagnose → Vision → Strategy → Roadmap → Design → Implement → Govern
 
 Audience: everyone. Content: accounts, groups, permissions, Prompt Library, Admin Panel, model control. Output: AI usage policy, Prompt Library, L2 candidate list. Gate 1 pass criteria.
 
-## Slide 9 — L2 Skill AI Course
+## Slide 9 — L2 Knowledge Codification Course
 
 Audience: core users. Content: Antigravity / Claude Code / Codex; Skill design, IPOE, version control. Output: 3-5 Skills, Workflow Blueprints. Gate 2A-2E.
 
@@ -86,6 +88,31 @@ Permissions matrix · audit log requirements · 15-item AI ethics checklist. Map
 ## Slide 18 — Delivery Package & Acceptance
 
 Full deliverables list (12 major items). Acceptance criteria per item. Details: `06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`.
+
+## Slide 18b — 4 Authoritative Concept Docs (Showing IP Depth)
+
+**Title**: The methodology isn't a black box — 4 open-sourced authoritative documents
+
+**Content**:
+
+- 📖 [`CLIENT_JOURNEY_STORY_EN.md`](../00_Overview/CLIENT_JOURNEY_STORY_EN.md) **Ming's Story** — 20-min methodology grasp, for CEOs
+- 🔧 [`EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) **Full Flow** — 3-phase contract model + 6-week walkthrough, for consultants
+- 🔬 [`METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) **Scientific Argument** — 5-condition validation, for boards / academia
+- 🗺️ [`INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) **Industry Alignment Map** — vs McKinsey/BCG/Bain/Deloitte/TOGAF/Dragon1/Gartner/MIT/Forrester
+
+> **These 4 docs + toolkit = total IP depth**, fully Apache 2.0 open source.
+
+## Slide 18c — 3-Phase Contract Model
+
+**Title**: No 24-month mega-contract — phased, with exit points
+
+| Phase | Duration | Example $ | Deliverable | Exit Gate |
+| --- | --- | --- | --- | --- |
+| **A Diagnostic** | 2 weeks | NT$ 800K | Mid-engagement assessment report (client receipts) | Gate A |
+| **B Strategy** | 4 weeks | NT$ 2M | Full consulting report + Ideal Practice signed | Gate B |
+| **C Implementation** | 24 months | NT$ 7M | Transformation Roadmap + Change Mgmt + quarterly radar | Gate C every quarter |
+
+**Core message**: clients **can disembark**, so they **dare to embark**. Each phase deliverable is good enough that clients **want to continue**.
 
 ## Slide 19 — Three Engagement Tiers
 

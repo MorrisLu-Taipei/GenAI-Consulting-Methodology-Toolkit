@@ -7,6 +7,8 @@
 Duration：35-45 min
 Purpose：建立方法論信任 + 展示具體交付物 + 觸發 PoC 對話
 
+> ⚠️ **學術誠信聲明 / Disclaimer**：本 deck 引用的所有客戶案例（製造、醫院、行銷、B2B、金融、政府、教育、「M 公司 / 阿明」等）皆為 **AI 模擬產生的虛構案例**，並非真實客戶資料。所有數字僅為示例，**不可作為對外宣傳「我們有客戶這樣做過」之依據**。簡報時必須口頭說明 "These are AI-simulated teaching cases, not real clients"。詳見 [`../04_Scenarios/README.md`](../04_Scenarios/README.md)。
+
 ---
 
 ## Slide 1 — 封面 (同高階版)
@@ -51,7 +53,7 @@ Diagnose → Vision → Strategy → Roadmap → Design → Implement → Govern
 對象：全員。內容：帳號、群組、權限、Prompt Library、Admin Panel、模型控管。
 產出：AI 使用規範、Prompt Library、L2 候選清單。Gate 1 通過條件。
 
-## Slide 9 — L2 Skill AI 課程 / L2 Course
+## Slide 9 — L2 Knowledge Codification 課程 / L2 Course
 
 對象：核心使用者。內容：Antigravity / Claude Code / Codex；Skill 設計、IPOE、版本控制。
 產出：3-5 個 Skill、Workflow Blueprint。Gate 2A-2E。
@@ -104,6 +106,31 @@ Diagnose → Vision → Strategy → Roadmap → Design → Implement → Govern
 完整 Deliverables 清單 (12 大項)
 每項驗收標準
 詳：`06_Delivery/DELIVERY_PACKAGE_AND_ACCEPTANCE.md`
+
+## Slide 18b — 4 份權威概念檔（讓客戶看到 IP 厚度）/ 4 Authoritative Concept Docs
+
+**標題**：方法論不是黑盒子 ── 我們開源 4 份權威文件
+
+**內容**：
+
+- 📖 [`CLIENT_JOURNEY_STORY.md`](../00_Overview/CLIENT_JOURNEY_STORY.md) **阿明的故事** ── 20 分鐘看懂方法論，給 CEO 看
+- 🔧 [`EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) **完整流程** ── 3 階段合約模型 + 6 週情境演練，給顧問看
+- 🔬 [`METHODOLOGY_SCIENTIFIC_LOGIC.md`](../00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC.md) **科學論證** ── 5 條件驗證八階段為什麼經得起辯論，給董事會 / 學術看
+- 🗺️ [`INDUSTRY_FRAMEWORK_ALIGNMENT.md`](../00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT.md) **業界對齊地圖** ── vs McKinsey / BCG / Bain / Deloitte / TOGAF / Dragon1 / Gartner / MIT / Forrester，給跳槽顧問 / 大企業 IT 看
+
+> **這 4 份檔案 + 工具表 = 整套方法論的 IP 厚度**，全部 Apache 2.0 開源，客戶能直接拿去用。
+
+## Slide 18c — 3 階段合約模型 / 3-Phase Contract Model
+
+**標題**：不簽 24 個月大合約 ── 分階段、可退場
+
+| Phase | 時長 | 金額示例 | Deliverable | 退場 Gate |
+| --- | --- | --- | --- | --- |
+| **A 診斷** | 2 週 | NT$ 80 萬 | 中期評估報告（客戶簽收）| Gate A |
+| **B 策略** | 4 週 | NT$ 200 萬 | 完整顧問報告 + Ideal Practice 簽署 | Gate B |
+| **C 落地** | 24 個月 | NT$ 700 萬 | Transformation Roadmap + 變革 + 季度雷達回顧 | Gate C 每季 |
+
+**核心訊息**：客戶**可下車**，所以**敢上車**。每個階段 deliverable 好到客戶**想繼續**。
 
 ## Slide 19 — 三階段啟動 / Three Engagement Tiers
 

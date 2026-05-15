@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [AGENCY_AGENTS_REFERENCE.md](AGENCY_AGENTS_REFERENCE.md)
 
-The second half of the **L2 Skill AI** course in this methodology (specifically the L2-B Agentic Developer track) cites **agency-agents** as teaching material for the "ready-made agent persona library" module. This document records the upstream source, license terms, citation guidance, and scope of use.
+The second half of the **L2 Knowledge Codification** course in this methodology (specifically the L2-B Agentic Developer track) cites **agency-agents** as teaching material for the "ready-made agent persona library" module. This document records the upstream source, license terms, citation guidance, and scope of use.
 
 ---
 
@@ -31,7 +31,7 @@ Installed via `./scripts/install.sh`, which auto-detects installed AI tools and 
 
 ## 3. Why It Belongs in L2
 
-The core of L2 Skill AI is "packaging work experience into reusable Skills." The second half of the L2-B Agentic Developer track teaches a key idea: **not every Skill needs to be built from scratch.** agency-agents provides 144+ mature agent personas as a starting point — learners select, customize, and incorporate them into the enterprise Skill Library rather than reinventing the wheel.
+The core of L2 Knowledge Codification is "packaging work experience into reusable Skills." The second half of the L2-B Agentic Developer track teaches a key idea: **not every Skill needs to be built from scratch.** agency-agents provides 144+ mature agent personas as a starting point — learners select, customize, and incorporate them into the enterprise Skill Library rather than reinventing the wheel.
 
 Corresponding course: [`../02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md`](../02_Course_Design/L2_ANTIGRAVITY_COURSE_PLAN.md) §7.6.
 

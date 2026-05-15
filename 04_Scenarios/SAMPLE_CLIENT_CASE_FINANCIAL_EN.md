@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | Financial (Regional Bank), ~2,500 staff |
+| 2 | Start L-level + evidence | L1 partial + APQC 13.0 Compliance = 3 (financial sector pre-strong) |
+| 3 | End L-level + evidence | L3 + APQC 4.0 + 13.0 = 3 |
+| 4 | Duration | 18 months |
+| 5 | RM Categories crossed | APQC 4.0 Deliver, APQC 13.0 Compliance, Tiger AI L1-L3 |
+| 6 | Investment per phase | Est. NT$ 8-12M / 40-60 person-months |
+| 7 | Key wins (quantified) | KYC document summarization Workflow, customer triage Agent, ROI ~358% |
+| 8 | Key failures (lessons) | Compliance review not pre-cleared; on-prem LLM performance under-evaluated |
+| 9 | Applicability conditions | ≥500 staff regional/private banks, Hybrid limited, NT$ 8M+ budget |
+
+**Deployment / Code**: Full on-prem (financial regulator requirement) / Code Regional Bank F
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Client Profile
 
 | Field | Content |
@@ -36,7 +76,7 @@ Average **0.9 → L1**. Tool usage Q1=2 (employees use it privately), governance
 | Process standardization | 2.2 (strong SOP culture in finance) |
 | System integration | 1.5 |
 | Agent application | 0.3 |
-| Governance & ROI | 1.6 |
+| Implementation & Change | 1.6 |
 
 **Insight:** process standardization scores high (SOP culture), but tools and Agents are low. The financial-industry adoption pattern — a high governance threshold, but once cleared, it spreads fast.
 
@@ -76,7 +116,7 @@ Rationale: the financial industry has the highest governance threshold, so L1 mu
 - Prompt Library, 45 entries (all pre-reviewed by Compliance)
 - Audit Log: all LLM calls written in real time, retained 3 years
 
-### L2 Skill AI (8 weeks)
+### L2 Knowledge Codification (8 weeks)
 
 12 Skills (each dual-reviewed by Compliance + Security):
 
@@ -125,11 +165,11 @@ Rationale: the financial industry has the highest governance threshold, so L1 mu
 - Interviews: General Manager, Chief Compliance Officer, CIO, Head of Credit Review, Head of Customer Service, 3 branch managers, Internal Audit
 - Pain density: KYC / credit review (corporate banking 100%), customer-service triage (consumer banking 90%), compliance coverage (Compliance 100%)
 
-### Stage 2 Vision Alignment
+### Stage 2 Reference Model Alignment
 - GM vision: within 18 months, halve KYC processing time, 100% compliance-check coverage, no AI-related penalties
 - Sponsor = CIO + Chief Compliance Officer (dual sponsor, a financial-industry characteristic)
 
-### Stage 3 Industry Benchmark
+### Stage 3 Best Practice Integration
 - International: DBS / HSBC AI labs (large scale gap); Taiwan: a few financial holding groups in PoC
 - Self-built fully on-prem, benchmarked against the FSC's "Guidelines on the Use of AI by Financial Institutions"
 
@@ -145,7 +185,7 @@ Impact × Effort:
 - Big Bet: KYC Pipeline (L3-W1, needs OCR + on-prem LLM)
 - Avoid: a consumer-facing AI chatbot (high regulatory risk, not done currently)
 
-### Stage 5 Executive Problem Statement
+### Stage 5 Problem Definition
 
 ```
 CONTEXT: The FSC issued AI guidelines for financial institutions in 2025; peers have launched
@@ -162,7 +202,7 @@ CONSTRAINT: NT$ 24M budget; fully on-prem, zero cloud LLM; every AI application 
             Compliance + Security review; phased rollout.
 ```
 
-### Stage 6 Roadmap
+### Stage 6 Benchmarking & Phased Goals
 
 | Phase | Month | Main deliverables | Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -172,7 +212,7 @@ CONSTRAINT: NT$ 24M budget; fully on-prem, zero cloud LLM; every AI application 
 | 4 | 12-15 | L3 5 Workflows | Gate 3 | KYC processing -50% |
 | 5 | 16-18 | L4 Compliance Assistant Agent | Gate 4 + 4F | compliance coverage 100% |
 
-### Stage 7 Solution Architecture
+### Stage 7 To-Be Design
 
 - **Variant C, fully on-prem:**
   - OpenWebUI Local + n8n Local + Hermes Local
@@ -180,7 +220,7 @@ CONSTRAINT: NT$ 24M budget; fully on-prem, zero cloud LLM; every AI application 
   - Qdrant vector store (on-prem)
   - Zero cloud LLM calls, compliant with the FSC guidelines
 
-### Stage 8 Governance & ROI
+### Stage 8 Implementation & Change
 
 - Permissions: five tiers — teller / credit review / compliance / internal audit / IT; dual model-level + data-level ACL
 - Audit: all LLM calls 3 years; compliance-related permanent

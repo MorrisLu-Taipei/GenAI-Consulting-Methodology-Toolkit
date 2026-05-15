@@ -1,5 +1,14 @@
 # 04 Scenarios — Scenarios, Cases & Case Index
 
+> ⚠️ **Important Academic Integrity Disclaimer**
+>
+> **All 7 SAMPLE_CLIENT_CASE_*.md cases (Manufacturing, Hospital, Marketing, B2B, Financial, Government, Education) and any named story protagonists (e.g., "Ming" in [`../00_Overview/CLIENT_JOURNEY_STORY_EN.md`](../00_Overview/CLIENT_JOURNEY_STORY_EN.md)) are AI-generated fictional cases, NOT real client data.**
+>
+> - **Purpose**: Teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Limitation**: All numbers (time, ROI, person-months, budget, KPI) are illustrative only; **must NOT be used as external marketing, contractual commitments, or academic empirical evidence**
+> - **Evidence Level**: Per [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 8.9, cases here are **L0 (AI-Simulated Teaching Case)**, below L1 self-report
+> - **Real longitudinal cases** will replace these after the 18-24 month pilot study per [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md)
+
 > 🌐 中文版本 / Chinese version: [README.md](README.md)
 
 ## 1. Purpose of This Directory
@@ -15,7 +24,7 @@ Who uses this directory: consultants (use scenarios during Discovery to let clie
 | Axis | Mapping |
 | --- | --- |
 | Three-phase service flow | **Across the whole flow** — Discovery uses scenarios, Build uses cases as topics, Deliver uses cases as substantiation |
-| Eight-stage consulting structure | Mainly supports **Stage 1 (current-state scenarios), Stage 3 (industry benchmarking)** |
+| Eight-stage consulting structure | Mainly supports **Stage 1 As-Is Snapshot (current-state scenarios), Stage 3 Best Practice Integration (industry best-practice benchmarking)** |
 | L1-L5 maturity | The case index maps each case to an L-level (across the scale axis L1-L3 and the AI-autonomy axis L4-L5) |
 | Engagement lifecycle | Sales (Discovery self-identification) + Build (demo topics) |
 

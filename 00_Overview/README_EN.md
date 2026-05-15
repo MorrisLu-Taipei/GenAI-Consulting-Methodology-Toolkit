@@ -58,7 +58,39 @@ Consultant / colleague / reviewer
 
 ### `AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`
 
-The client-oriented program story and chapter structure. It is not a technical document but a **narrative** — turning "why an enterprise needs AI transformation, how this method works step by step, and what acceptable output each step produces" into a coherent story a client can understand. It includes: program positioning, the three-phase path, L1-L5 and its tool mapping, **the L1-L5 two-axis model and story (§3.0)**, the pre-class future-state imagination, and the value proposition for each role (CEO/COO/CIO/IT/HR/department heads). Sales and consultants use it directly in the first client meeting.
+The client-oriented program story and chapter structure. It is not a technical document but a **narrative**. Includes: program positioning, three-phase path, L1-L5 + tool mapping, **L1-L5 two-axis model (§3.0)**, **complete 8-stage definitions + 6-week scenario walkthrough (§6)**, role value propositions. Sales and consultants use it in the first client meeting.
+
+### `EXECUTIVE_SUMMARY_EN.md`
+
+The whole methodology in 5 minutes, one page. For execs without time for details.
+
+### `CLIENT_JOURNEY_STORY_EN.md` 🆕
+
+**Ming's Story** — a 20-minute scenario story for CEOs / boards / families to grasp the methodology. Follows a 700-staff packaging plant's 24-month transformation. No tool tables, no jargon. Use for outreach, first client meetings, new-hire onboarding.
+
+### `EIGHT_STAGE_FLOW_STORY_EN.md` 🆕
+
+**The authoritative 8-stage flow story**: 3-phase contract model (Phase A diagnostic 2W + Phase B strategy 4W + Phase C implementation 24M) + mid-engagement assessment report + quarterly radar revisit. Required reading for consultants.
+
+### `METHODOLOGY_SCIENTIFIC_LOGIC_EN.md` 🆕
+
+**The methodology's scientific argumentative power**: validates the 8 stages against the 5 conditions of scientific method (observable, quantifiable, reproducible, falsifiable, auditable). Required for academic submission, regulatory lobbying, board reviews.
+
+### `INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md` 🆕
+
+**Alignment map with industry frameworks**: 8 stages vs McKinsey / BCG / Bain / Deloitte / Accenture / PwC; 4-layer vs TOGAF / Zachman / Dragon1; L1-L5 vs Gartner / MIT / Forrester AI Maturity. Use when clients ask "does this conflict with our methodology?"
+
+### `AI_NATIVE_LIVING_BOOK_EN.md` 🆕
+
+**Innovation in methodology carrying medium**: positions this methodology as an **AI-native living book** (a knowledge system directly executable by AI IDEs), not just PDF/PPT. Covers academic classifications (executable knowledge artifact, AI-mediated methodology, interactive consulting playbook), 3-layer design (Repo as Book / Agent as Tutor / Methodology as Executable Artifact), and 4 risk-control principles (AI ≠ consultant, evidence required, AGENTS.md versioned, AI-generated marking). Required for academic submissions / methodology differentiation.
+
+### `ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md` 🆕
+
+**7 theoretical pillars unified**: Capability Maturity (Rosemann/CMMI) + Absorptive Capacity (Cohen & Levinthal 1990) + Task-Technology Fit (Goodhue & Thompson 1995) + Dynamic Capabilities (Teece 1997/2007) + Sociotechnical Systems & Trust in AI (Bostrom 1977/Dietvorst 2015/Glikson 2020) + Real Options (Dixit & Pindyck 1994/McGrath 1997) + Executable Knowledge Artifact (Knuth 1984). Per theory: summary + founder + contribution to Tiger AI + mapped location + citations. The single source of truth when academia / regulators / board ask "what's the theoretical basis."
+
+### `../01_Assessment/BARS_RUBRICS_EN.md` 🆕 (academic rigor)
+
+**Behaviorally Anchored Rating Scales**: 6 constructs × 0-4 **behavioral anchor table** (per Smith & Kendall 1963). Each score has concrete observable behaviors, **avoiding subjective consultant scoring**, improving inter-rater reliability. Maps to Pilot Study Cohen's κ ≥ 0.60 target. Core mechanism for two consultants scoring the same company consistently.
 
 ### `TODO_WBS.md`
 

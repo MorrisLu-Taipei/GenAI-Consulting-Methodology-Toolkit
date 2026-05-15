@@ -98,7 +98,7 @@ In short: **this book can make you "know what you need"; the consulting service 
 | Level | Course Deliverables | Evidence | Gate |
 |---|---|---|---|
 | L1 OpenWebUI | AI usage guidelines, Prompt Library, departmental cases, account/group/permission sheet, Admin Runbook | Prompt templates, classroom assignments, usage guidelines, login screenshots, personal chat area screenshots, Admin Panel screenshots | Gate 1 |
-| L2 Skill AI | Skill Library, SOPs, Checklists, templates, Antigravity app prototype / test / docs / GCP PoC, L3 Workflow Blueprint | Skill documentation, test records, Owner list, Agent artifacts, deployment validation records, trigger / I/O schema / node map / sample payload | Gate 2 |
+| L2 Knowledge Codification | Skill Library, SOPs, Checklists, templates, Antigravity app prototype / test / docs / GCP PoC, L3 Workflow Blueprint | Skill documentation, test records, Owner list, Agent artifacts, deployment validation records, trigger / I/O schema / node map / sample payload | Gate 2 |
 | L3 n8n Workflow | Workflow PoC, integration requirements, Execution Log, Data Tables Schema, Sub-workflow Library, GitHub Backup SOP, L4 Workflow Contract | n8n JSON, API permissions, execution records, failure tests, backup commits, human review records | Gate 3 |
 | L4 Hermes Agent | Agent task cards, Wiki, L4 IPOE, briefings, Gates 4A-4E | Logs, SQLite queries, source pages, briefings, human review | Gate 4 |
 | L5 ClawTeam | Agent Team role cards, task allocation, integrated report template | Agent outputs, Reviewer records, integrated report | Gate 5 |

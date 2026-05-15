@@ -56,7 +56,39 @@
 
 ### `AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`
 
-客戶導向的方案故事與章節架構。它不是技術文件，而是**敘事** —— 把「企業為什麼需要 AI 轉型、這套方法怎麼一步步運作、每一步會產出什麼可驗收的東西」講成一個連貫、客戶聽得懂的故事。包含：方案定位、三段式路徑、L1-L5 與工具對應、課前未來想像、各角色（CEO/COO/CIO/IT/HR/部門主管）的價值主張。業務與顧問在第一次客戶會談時直接用它。
+客戶導向的方案故事與章節架構。它不是技術文件，而是**敘事** —— 把「企業為什麼需要 AI 轉型、這套方法怎麼一步步運作、每一步會產出什麼可驗收的東西」講成一個連貫、客戶聽得懂的故事。包含：方案定位、三段式路徑、L1-L5 與工具對應、課前未來想像、各角色（CEO/COO/CIO/IT/HR/部門主管）的價值主張、§6 完整八階段定義 + 6 週情境演練。業務與顧問在第一次客戶會談時直接用它。
+
+### `EXECUTIVE_SUMMARY.md`
+
+5 分鐘看懂整套方法論的一頁濃縮。給沒空看細節的主管。
+
+### `CLIENT_JOURNEY_STORY.md` 🆕
+
+**阿明的故事** —— 一個讓 CEO / 董事 / 家人 20 分鐘看懂方法論的場景故事。以製造業 700 人封測廠 24 個月轉型為主線，零工具表、零黑話。對外宣傳、客戶第一次接觸、面試新員工都可以用。
+
+### `EIGHT_STAGE_FLOW_STORY.md` 🆕
+
+**權威八階段流程故事**：3 階段合約模型（Phase A 診斷 2W + Phase B 策略 4W + Phase C 落地 24M）+ 中期評估報告 + 季度雷達回看的完整閉環。顧問內部訓練必讀。
+
+### `METHODOLOGY_SCIENTIFIC_LOGIC.md` 🆕
+
+**方法論的科學辯論能力**：用科學方法的 5 條件（可觀察、可量化、可重複、可證偽、可審核）逐步驗證八階段為什麼經得起客戶 / 董事會 / 監管者質詢。學術投稿、政策遊說、董事會 review 必讀。
+
+### `INDUSTRY_FRAMEWORK_ALIGNMENT.md` 🆕
+
+**跟業界框架對齊地圖**：八階段 vs McKinsey / BCG / Bain / Deloitte / Accenture / PwC；4 層架構 vs TOGAF / Zachman / Dragon1；L1-L5 vs Gartner / MIT / Forrester AI Maturity。客戶問「跟我們現有方法論衝突嗎」時就拿這份。
+
+### `AI_NATIVE_LIVING_BOOK.md` 🆕
+
+**方法論承載形式的創新論述**：把這套方法論定位為 **AI-native living book**（可被 AI IDE 直接執行的知識系統），不只是 PDF / PPT。包含學術歸類（executable knowledge artifact、AI-mediated methodology、interactive consulting playbook）、3 層設計（Repo as Book / Agent as Tutor / Methodology as Executable Artifact）、4 大風險控管原則（AI ≠ 顧問、需 evidence、AGENTS.md 版本控管、AI 產出明示）。學術投稿 / 方法論差異化必讀。
+
+### `ACADEMIC_THEORETICAL_FOUNDATIONS.md` 🆕
+
+**7 大理論支柱統一論述**：Capability Maturity (Rosemann/CMMI) + Absorptive Capacity (Cohen & Levinthal 1990) + Task-Technology Fit (Goodhue & Thompson 1995) + Dynamic Capabilities (Teece 1997/2007) + Sociotechnical Systems & Trust in AI (Bostrom 1977/Dietvorst 2015/Glikson 2020) + Real Options (Dixit & Pindyck 1994/McGrath 1997) + Executable Knowledge Artifact (Knuth 1984)。每個理論：summary + 創立者 + 對 Tiger AI 的貢獻 + 對應位置 + 引用。學術審稿 / 監管 / 高階董事會質詢「理論依據是什麼」時的唯一答案。
+
+### `../01_Assessment/BARS_RUBRICS.md` 🆕（學術硬化）
+
+**Behaviorally Anchored Rating Scales**：6 構面 × 0-4 分的**行為錨點表**（依 Smith & Kendall 1963）。每個分數有具體可觀察的行為，**避免顧問主觀評分**，提升 inter-rater reliability。對應 Pilot Study Cohen's κ ≥ 0.60 目標。讓兩位顧問評同公司能得相近分數的核心機制。
 
 ### `TODO_WBS.md`
 

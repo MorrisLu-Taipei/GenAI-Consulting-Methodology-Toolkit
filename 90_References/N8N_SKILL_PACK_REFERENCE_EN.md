@@ -2,7 +2,7 @@
 
 > 🌐 中文版本 / Chinese version: [N8N_SKILL_PACK_REFERENCE.md](N8N_SKILL_PACK_REFERENCE.md)
 
-The second half of the **L3 Workflow AI** course in this methodology cites **TigerAI-n8n-Skill-Pack** as the teaching platform for "generating n8n workflows from natural language with Antigravity." This document records the upstream source, license terms, citation guidance, and scope of use.
+The second half of the **L3 Workflow Automation** course in this methodology cites **TigerAI-n8n-Skill-Pack** as the teaching platform for "generating n8n workflows from natural language with Antigravity." This document records the upstream source, license terms, citation guidance, and scope of use.
 
 ---
 

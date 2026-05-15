@@ -3,9 +3,9 @@
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 > Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 
-本檔提供 L3 Workflow AI 與 L4 Hermes Agent 課程之 **可實作 PoC 場景庫**。6 大系統共 30 個 PoC，每個可在 1-3 個工作天完成，具完整輸入輸出、AI step、KPI 與 n8n 節點序列。
+本檔提供 L3 Workflow Automation 與 L4 Hermes Agent 課程之 **可實作 PoC 場景庫**。6 大系統共 30 個 PoC，每個可在 1-3 個工作天完成，具完整輸入輸出、AI step、KPI 與 n8n 節點序列。
 
-This document provides an **implementable PoC scenario library** for the L3 Workflow AI and L4 Hermes Agent courses. 30 PoCs across 6 systems; each completable in 1-3 work days, with full input/output, AI steps, KPIs, and n8n node sequences.
+This document provides an **implementable PoC scenario library** for the L3 Workflow Automation and L4 Hermes Agent courses. 30 PoCs across 6 systems; each completable in 1-3 work days, with full input/output, AI steps, KPIs, and n8n node sequences.
 
 ---
 

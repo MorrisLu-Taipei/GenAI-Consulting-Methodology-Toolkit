@@ -57,7 +57,7 @@ IPOE stands for:
 
 ## 4. Minimum Deliverable Standards for L1-L5
 
-### L1 Chat AI
+### L1 Controlled AI Access
 
 Minimum deliverables:
 
@@ -73,7 +73,7 @@ Verifiable evidence:
 - Prompt examples.
 - Training attendance records.
 
-### L2 Skill AI
+### L2 Knowledge Codification
 
 Minimum deliverables:
 
@@ -89,7 +89,7 @@ Verifiable evidence:
 - Test results by non-original authors.
 - Owner sign-off.
 
-### L3 Workflow AI
+### L3 Workflow Automation
 
 Minimum deliverables:
 
@@ -107,7 +107,7 @@ Verifiable evidence:
 - Error notification screenshots.
 - Human review records.
 
-### L4 Auto Agentic AI
+### L4 Autonomous Agent
 
 Minimum deliverables:
 
@@ -124,7 +124,7 @@ Verifiable evidence:
 - Output samples.
 - Human review records.
 
-### L5 Agentic Team AI
+### L5 Multi-Agent Organization
 
 Minimum deliverables:
 

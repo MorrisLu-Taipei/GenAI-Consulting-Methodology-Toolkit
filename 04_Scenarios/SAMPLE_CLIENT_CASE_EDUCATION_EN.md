@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary (Tool 3.5 Nine Fields)
+
+> **This case conforms to Tool 3.5 Cases-as-Benchmarks discipline** — clients can use this table to self-compute gaps in 30 minutes.
+
+| # | Mandatory field | This case |
+| --- | --- | --- |
+| 1 | Industry + size | Education (Tech University), 600 faculty/staff, 8,000 students |
+| 2 | Start L-level + evidence | L1 partial + APQC 11.x = 2 (academic knowledge inherently rich) |
+| 3 | End L-level + evidence | L3 + APQC 11.x = 3 |
+| 4 | Duration | 12 months |
+| 5 | RM Categories crossed | APQC 11.0 Knowledge, Tiger AI L1-L3 |
+| 6 | Investment per phase | Est. NT$ 4-6M / 20-25 person-months |
+| 7 | Key wins (quantified) | Faculty prep -40%, admissions FAQ, academic integrity Workflow |
+| 8 | Key failures (lessons) | Ignoring academic ethics red lines; faculty resistance to AI grading |
+| 9 | Applicability conditions | 5,000+ student campuses, IT center, FERPA/PIPA compliance capability |
+
+**Deployment / Code**: Hybrid (academic ethics + admin data on-prem) / Code Tech University E
+
+
+**Evidence Level**: 🔵 **L0 — AI-Simulated Teaching Case** (below L1 in Tool 8.9 Evidence Hierarchy)
+
+> ⚠️ **This case is AI-generated, NOT real client data.**
+>
+> - **Purpose**: teaching demonstration, methodology explanation, Stage 1-8 tool practice
+> - **Source**: AI synthesized a fictional case in Tool 3.5 9-field Benchmark-grade format based on industry common knowledge + methodology structure
+> - **All numbers** (time / ROI / person-months / budget / KPI) **are illustrative only** and **must NOT** be used as:
+>   - External marketing material
+>   - Consulting contract ROI commitments
+>   - Empirical evidence for academic citation
+>   - Comparison conclusions for any single real company
+>
+> Evidence Levels per Tool 8.9 Evidence Hierarchy: L1 self-report · L2 documents · L3 system logs · L4 third-party audit · L5 longitudinal KPI ── **this case is L0 (pre-evidence)**, below L1.
+>
+> **Real longitudinal cases** will replace these after [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) 18-24 month empirical study completes. Until then, treat content here as **AI-simulated teaching material**.
+
+> Full case details below. This table follows the standard summary required by [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES_EN.md) Tool 3.5.
+
+---
+
+
 ## 1. Client Profile
 
 | Field | Content |
@@ -35,7 +75,7 @@ Average **1.0 → L1**. Tool usage Q1=2 (teachers use ChatGPT individually), gov
 | Process standardization | 1.5 |
 | System integration | 0.8 |
 | Agent application | 0.4 |
-| Governance & ROI | 0.6 |
+| Implementation & Change | 0.6 |
 
 **Insight:** high individual teacher usage (good acceptance), but the organization has no governance and no codification. The education-institution adoption pattern — teacher resistance and support are polarized, so "workload reduction" is the icebreaker; student-data protection is the red line.
 
@@ -74,7 +114,7 @@ Rationale: teacher acceptance is high, so L1 can move faster; the focus is on L2
 - Prompt Library, 32 entries (instructional design, administrative documents, admissions replies)
 - A separate policy for the student side (academic-integrity guidelines for student AI use)
 
-### L2 Skill AI (8 weeks)
+### L2 Knowledge Codification (8 weeks)
 
 12 Skills:
 
@@ -122,11 +162,11 @@ Concept explanation only.
 - Interviews: President, VP of Academic Affairs, VP of Student Affairs, 3 department chairs, Teaching Development Center, Admissions Office, Information Center
 - Pain density: lesson prep / grading (teachers 95%), admissions Q&A (Admissions Office 100%), accreditation (departments 90%)
 
-### Stage 2 Vision Alignment
+### Stage 2 Reference Model Alignment
 - President's vision: within 18 months, teacher administrative load -30%, admissions-consulting response < 1 day, halve accreditation document-prep time
 - Sponsor = VP of Academic Affairs + Director of the Information Center
 
-### Stage 3 Industry Benchmark
+### Stage 3 Best Practice Integration
 - International: ASU (Arizona State University) AI applications, Khan Academy's Khanmigo (vision reference)
 - Hybrid, benchmarked against the personal data law + academic-integrity rules
 
@@ -142,7 +182,7 @@ Impact × Effort:
 - Big Bet: accreditation document Pipeline (L3-W2)
 - Avoid: AI grading directly into a grade (high academic risk, assistive only)
 
-### Stage 5 Executive Problem Statement
+### Stage 5 Problem Definition
 
 ```
 CONTEXT: Under declining birth rates, admissions competition is fierce; Ministry of Education
@@ -158,7 +198,7 @@ CONSTRAINT: NT$ 6M budget; student PII on-prem; clear academic-integrity boundar
             resistance must be handled.
 ```
 
-### Stage 6 Roadmap
+### Stage 6 Benchmarking & Phased Goals
 
 | Phase | Month | Main deliverables | Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -167,14 +207,14 @@ CONSTRAINT: NT$ 6M budget; student PII on-prem; clear academic-integrity boundar
 | 3 | 10-14 | L3 4 Workflows | Gate 3 | admissions response < 1 day |
 | 4 | 15-18 | L4 Course Recommendation Agent | Gate 4 | student usage rate ≥ 30% |
 
-### Stage 7 Solution Architecture
+### Stage 7 To-Be Design
 
 - **Variant B, Hybrid:**
   - Public teaching material → cloud (Claude / Gemini for Education)
   - Student PII / grades / counseling records → on-prem (4090 + Llama 8B/70B)
 - Moodle LMS integration; Google Workspace integration
 
-### Stage 8 Governance & ROI
+### Stage 8 Implementation & Change
 
 - Permissions: tiered — teacher / admin / counseling / IT; strict ACL on student data
 - Academic integrity: a teacher-side "AI-assisted" guideline + a student-side "academic honesty" guideline

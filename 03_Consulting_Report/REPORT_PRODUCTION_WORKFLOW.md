@@ -46,7 +46,7 @@ This methodology already has the eight-stage structure ("how to diagnose"), the 
 - 做什麼：釐清範圍內 / 範圍外、定義成功指標
 - 產出：有明確邊界的問題陳述
 - 對應框架：SCQ（情境-衝突-問題）
-- 對應八階段：Stage 1 現況掌握、Stage 5 高階問題定義
+- 對應八階段：Stage 1 現況掌握、Stage 5 結論與核心問題定義
 - 不載入任何參考檔，純對話
 
 **Step 2-3 — Issue Tree + 假設 / Issue Tree + Hypotheses**

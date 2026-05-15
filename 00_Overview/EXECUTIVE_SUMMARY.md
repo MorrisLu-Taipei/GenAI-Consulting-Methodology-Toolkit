@@ -18,8 +18,8 @@
 
 ## 核心模型：L1-L5 兩條軸
 
-- **規模軸（L1 → L2 → L3）**：個人 → 部門 → 跨部門 / 全公司。人用 AI、人監督 AI。L1 Chat AI（OpenWebUI）→ L2 Skill AI（Antigravity 等）→ L3 Workflow AI（n8n）。
-- **AI 自主軸（L4 → L5）**：AI 超級助理 → AI 團隊。AI 營運自主，人退為治理者（仍保有監督權）。L4 Auto Agentic AI（Hermes Agent）→ L5 Agentic Team AI（ClawTeam）。
+- **規模軸（L1 → L2 → L3）**：個人 → 部門 → 跨部門 / 全公司。人用 AI、人監督 AI。L1 Controlled AI Access（OpenWebUI）→ L2 Knowledge Codification（Antigravity 等）→ L3 Workflow Automation（n8n）。
+- **AI 自主軸（L4 → L5）**：AI 超級助理 → AI 團隊。AI 營運自主，人退為治理者（仍保有監督權）。L4 Autonomous Agent（Hermes Agent）→ L5 Multi-Agent Organization（ClawTeam）。
 - 關鍵分界在 **L3 → L4**：從「人驅動工作」跨到「AI 驅動工作」。
 
 ## 你會得到什麼

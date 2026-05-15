@@ -8,6 +8,46 @@
 
 ---
 
+## 0. Benchmark-grade Summary（Tool 3.5 九欄位）
+
+> **此案例符合 Tool 3.5 Cases-as-Benchmarks 紀律** ── 客戶可拿此表 30 分鐘自助算差距。
+
+| # | 必填欄位 | 本案例 |
+| --- | --- | --- |
+| 1 | 產業 + 規模 | 行銷代理商，約 80-150 人 |
+| 2 | 起點 L-level + 證據 | L1 高（員工高度自用）+ APQC 11.x = 1 |
+| 3 | 終點 L-level + 證據 | L3-L4 + APQC 11.x = 3 |
+| 4 | 跨越期間 | 6-9 個月 |
+| 5 | 跨越的 RM Category | APQC 3.0 Marketing、Tiger AI L1-L4 |
+| 6 | 每階段投入 | 估 NT$ 200-400 萬 / 12-18 人月 |
+| 7 | Key wins（可量化） | 提案產出 -50%、品牌一致性提升、社群輿情 Workflow |
+| 8 | Key failures（踩過的雷） | 若無 Reviewer 機制造成品牌字眼誤用、若 Skill Library 無 Owner |
+| 9 | 適用條件 | 50-300 人代理商、可接受 80% 雲端、預算 NT$ 200-500 萬 |
+
+**部署模式 / 代號**：雲端為主 ／ 代號 代理商 M
+
+
+**Evidence Level**：🔵 **L0 — AI-Simulated Teaching Case**（AI 模擬教學案例，在 Tool 8.9 Evidence Hierarchy 之下）
+
+> ⚠️ **本案例由 AI 模擬產生，並非真實客戶資料**。
+>
+> - **目的**：作為教學示範、方法論講解、Stage 1-8 工具表套用練習用
+> - **來源**：AI 依據產業常識 + 方法論架構合成出符合 Tool 3.5 九欄位 Benchmark-grade 格式的虛構案例
+> - **所有數字**（時間 / ROI / 投入人月 / 預算 / KPI）**僅為示例**，**不可**作為：
+>   - 對外客戶宣傳依據
+>   - 顧問合約 ROI 承諾
+>   - 學術引用之 empirical evidence
+>   - 對任何單一真實公司的對比結論
+>
+> 證據等級依 Tool 8.9 Evidence Hierarchy：L1 自評 · L2 文件 · L3 系統 log · L4 第三方稽核 · L5 縱貫 KPI ── **本案例屬 L0（pre-evidence）**，低於 L1。
+>
+> **真實 longitudinal 案例**需透過 [`../90_References/PILOT_STUDY_PROTOCOL.md`](../90_References/PILOT_STUDY_PROTOCOL.md) 18-24 個月實證研究完成後才會替換。在此之前，請以**AI 模擬教學案例**對待本檔內容。
+
+> 詳細案例細節見下方各章節。本表為 [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md) Tool 3.5 規範的標準摘要。
+
+---
+
+
 ## 1. 客戶背景 / Client Profile
 
 | 欄位 | 內容 |
@@ -91,7 +131,7 @@
 - Prompt Library 36 條（簡報草稿、活動命名、社群文案、報告 narrative...）
 - 模型可見性：品牌客戶機敏 → 走 Azure OpenAI；公開素材 → 雲端 OpenAI
 
-### L2 Skill AI (6 週)
+### L2 Knowledge Codification (6 週)
 
 13 個上線 Skill：
 
@@ -154,11 +194,11 @@
 - 訪談：CEO、3 Account Director、Creative Lead、Data Lead、IT 1 人、3 線員工
 - 痛點密度集中：客戶報告（90% 部門）、提案 RFP（Strategy）、社群製作（Creative）
 
-### Stage 2 願景對齊
+### Stage 2 標準模型引入
 - CEO 願景：18 個月內 27 個品牌客戶 onboarding 縮至 3 天 (現 14 天)；提案 win rate 30%→45%
 - Stakeholder RACI 簽妥；CMO 為 Sponsor，Strategy Director 為 AI Champion
 
-### Stage 3 產業標竿
+### Stage 3 產業最佳實務對標
 - 國際標竿：WPP / Publicis AI lab（過大）；本地：未明顯 AI 領先者
 - Reference architecture 採自建（OpenWebUI + n8n + HubSpot）
 
@@ -174,7 +214,7 @@ Impact × Effort：
 - Big Bet：Onboarding Agent（L4）
 - Avoid：自建 chatbot（不在當下優先）
 
-### Stage 5 高階問題定義
+### Stage 5 結論與核心問題定義
 
 ```
 CONTEXT: 過去 12 個月有 3 家競爭對手宣稱「AI-first agency」，部分客戶詢問我方 AI 策略；
@@ -185,7 +225,7 @@ DESIRED: 12 個月達 L4；客戶月報 < 2 hr；Onboarding < 3 天；提案 win
 CONSTRAINT: 預算 480 萬；CMO 為 Sponsor；不可影響當前交付節奏。
 ```
 
-### Stage 6 路徑圖
+### Stage 6 標竿對照與多階段目標設定
 
 | Phase | 月 | 主要交付 | Stage Gate | KPI |
 | --- | --- | --- | --- | --- |
@@ -195,7 +235,7 @@ CONSTRAINT: 預算 480 萬；CMO 為 Sponsor；不可影響當前交付節奏。
 | 4 | 7-9 | L4 Onboarding Agent | Gate 4 ✓ | Onboarding < 3 天 |
 | 5 | 10-12 | L5 新品上市 Team | Gate 5 ✓ | 新品上市流程 ≤ 5 天 |
 
-### Stage 7 解決方案架構
+### Stage 7 未來藍圖設計
 
 - Variant: **Hybrid**
 - 雲：OpenAI for 公開素材；Azure OpenAI 隔離 tenant for 客戶機敏
@@ -203,7 +243,7 @@ CONSTRAINT: 預算 480 萬；CMO 為 Sponsor；不可影響當前交付節奏。
 - Notion 為 Wiki + Knowledge Base
 - HubSpot 為 CRM；OAuth + Webhook + n8n 串接
 
-### Stage 8 治理 ROI
+### Stage 8 執行導入與變革治理
 
 - Permission：Creative / Account / Media 各群組可見不同模型；Audit Log 全保 1 年
 - ROI Tracker：客戶月報工時、Onboarding 天數、提案 win rate、新品上市天數、員工 NPS

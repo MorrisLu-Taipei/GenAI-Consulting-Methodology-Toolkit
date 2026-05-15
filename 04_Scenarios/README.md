@@ -1,5 +1,16 @@
 # 04 Scenarios — 情境、案例與案例索引
 
+> ⚠️ **重要學術誠信聲明 / Important Academic Integrity Disclaimer**
+>
+> **本目錄中所有 7 個 SAMPLE_CLIENT_CASE_*.md 案例（製造業、醫院、行銷、B2B、金融、政府、教育）以及任何具名的故事主角（如 `00_Overview/CLIENT_JOURNEY_STORY.md` 阿明的故事），皆為 AI 模擬產生的虛構案例，並非真實客戶資料。**
+>
+> - **用途**：教學示範、方法論講解、Stage 1-8 工具表套用練習
+> - **限制**：所有數字（時間、ROI、人月、預算、KPI）僅為示例，**不可作為對外宣傳、合約承諾、學術 empirical evidence**
+> - **證據等級**：依 [`../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md) Tool 8.9，本目錄案例屬 **L0（AI-Simulated Teaching Case）**，低於 L1 自評問卷
+> - **真實 longitudinal cases** 需透過 [`../90_References/PILOT_STUDY_PROTOCOL.md`](../90_References/PILOT_STUDY_PROTOCOL.md) 18-24 個月實證研究完成後才會替換
+>
+> ⚠️ **Important**: All 7 sample cases in this directory and any named story protagonists (e.g., "Ming" in `CLIENT_JOURNEY_STORY.md`) are **AI-generated fictional cases**, not real client data. Numbers are illustrative; must NOT be used as marketing, contractual commitments, or academic empirical evidence. Real cases will replace these after the 18-24 month pilot study.
+
 ## 一、本目錄定位
 
 本目錄是整套方法論的**素材庫與證據庫**。`01`-`03`、`05`、`06` 是「方法與流程」；本目錄是「**讓方法落地時有真實的情境、案例、案例可挑**」。
@@ -13,7 +24,7 @@
 | 軸 | 對應 |
 | --- | --- |
 | 三段式服務流程 | **跨全程** —— Discovery 用情境、Build 用案例當題目、Deliver 用案例佐證 |
-| 八階段顧問結構 | 主要支援 **Stage 1（現況情境）、Stage 3（產業標竿）** |
+| 八階段顧問結構 | 主要支援 **Stage 1 As-Is Snapshot（現況情境）、Stage 3 Best Practice Integration（產業最佳實務對標）** |
 | L1-L5 成熟度 | 案例索引表把每個案例對應到 L 級 |
 | 接案生命週期 | Sales（Discovery 對號入座）+ Build（示範題）|
 
@@ -97,7 +108,7 @@ Discovery 階段
 | --- | --- | --- |
 | `01_Assessment` | 診斷的 L 級決定從案例索引挑哪些 | `01` L 級 → `04` 案例篩選 |
 | `02_Course_Design` | 案例/PoC 索引是課堂示範題與練習題來源 | `04` 案例 ↔ `02` 課程題目 |
-| `03_Consulting_Report` | 八階段 Stage 3 產業標竿引用案例 | `04` 案例 → `03` Stage 3 |
+| `03_Consulting_Report` | 八階段 Stage 3 產業最佳實務對標引用案例 | `04` 案例 → `03` Stage 3 |
 | `05_Sales` | 完整案例與情境是銷售素材的佐證 | `04` 案例 → `05` 銷售佐證 |
 | `00_Overview` | 情境故事是故事線的素材 | `04` ↔ `00` |
 | `90_References` | 案例索引的第三方引用（awesome-llm-apps / ai-engineering-hub）| `90` 引用 → `04` |

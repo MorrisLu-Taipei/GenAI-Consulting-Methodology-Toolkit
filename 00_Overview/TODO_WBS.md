@@ -50,7 +50,7 @@
 - [x] 定義三段式路徑：問卷診斷、課程建置、顧問報告。
 - [x] 定義 L1-L5 與工具對應。
 - [x] 補入課前未來想像故事：讓客戶先看懂上完 L1-L5 後具備的能力。
-- [x] 將 Gmail、Sheets、Notion、CRM、API、ERP 納入 L3 Workflow AI 串接範圍。
+- [x] 將 Gmail、Sheets、Notion、CRM、API、ERP 納入 L3 Workflow Automation 串接範圍。
 - [x] 補 CEO / COO / CIO / IT / HR / 部門主管價值主張。
 - [x] 補 30 秒、3 分鐘、10 分鐘銷售話術。
 - [x] 方案名稱暫定：企業 AI 轉型成熟度診斷與導入方案。
@@ -59,16 +59,16 @@
 
 ### 3.2 L1-L5 成熟度模型
 
-- [x] L1 Chat AI：OpenWebUI 能力定義、適用對象、完成標準。
-- [x] L2 Skill AI：Antigravity / Claude Code / Codex 能力定義、適用對象、完成標準。
-- [x] L3 Workflow AI：n8n 能力定義、適用對象、完成標準。
-- [x] L4 Auto Agentic AI：Hermes Agent 能力定義、適用對象、完成標準。
-- [x] L5 Agentic Team AI：ClawTeam 能力定義、適用對象、完成標準。
+- [x] L1 Controlled AI Access：OpenWebUI 能力定義、適用對象、完成標準。
+- [x] L2 Knowledge Codification：Antigravity / Claude Code / Codex 能力定義、適用對象、完成標準。
+- [x] L3 Workflow Automation：n8n 能力定義、適用對象、完成標準。
+- [x] L4 Autonomous Agent：Hermes Agent 能力定義、適用對象、完成標準。
+- [x] L5 Multi-Agent Organization：ClawTeam 能力定義、適用對象、完成標準。
 - [x] 每一級設計 5 個可觀察指標。
 - [x] 每個指標設計 0-4 分量尺。
 - [x] 定義總分對應成熟度等級。
 - [x] 定義主成熟度與局部成熟度判斷方式。
-- [x] 定義工具、Skill、Workflow、系統串接、Agent、治理與 ROI 缺口。
+- [x] 定義工具、Skill、Workflow、系統串接、Agent、執行導入與變革治理 缺口。
 
 ### 3.3 簡易問卷診斷
 
@@ -77,7 +77,7 @@
 - [x] 設計流程標準化題目。
 - [x] 設計系統整合題目。
 - [x] 設計 Agent 應用題目。
-- [x] 設計治理與 ROI 題目。
+- [x] 設計執行導入與變革治理 題目。
 - [x] 10 題版：業務開發快速診斷用。
 - [x] 25 題版：課前診斷用。
 - [x] 50 題版：顧問訪談前完整盤點用。
@@ -91,7 +91,7 @@
 
 - [x] L1 OpenWebUI 課程目標、課綱、練習、產出物、講師備註。
 - [x] 參考 OpenWebUI playlist 補強 L1 企業啟用課：每人登入、個人聊天區、Admin Panel、帳號/角色/群組/權限、模型控管、影片參考地圖。
-- [x] L2 Skill AI 課程目標、課綱、練習、產出物、講師備註。
+- [x] L2 Knowledge Codification 課程目標、課綱、練習、產出物、講師備註。
 - [x] 參考 Google Antigravity 三套 codelab 補強 L2 工程訓練：Agentic IDE、App Prototype、Unit Test、GCP Serverless Pipeline、Gate 2A-2E。
 - [x] 補強 L2 下半堂銜接 L3：Workflow Blueprint、trigger、I/O schema、n8n node map、human gate、log、error handling。
 - [x] L3 n8n 課程目標、課綱、練習、產出物、講師備註。
@@ -164,7 +164,7 @@
   - Stage 3 標竿模板 + 5 stub
   - Stage 4 MBR 表 + Impact×Effort + Prioritization
   - Stage 5 Problem Statement Worksheet + 製造業範例
-  - Stage 6 Roadmap + Gate 1-5 Checklist + Risk Register
+  - Stage 6 Benchmarking & Phased Goals + Gate 1-5 Checklist + Risk Register
   - Stage 7 Skill/Workflow/Agent Map + 3 種架構 variant
   - Stage 8 Permission Matrix + ROI Matrix + Audit + Ethics
 
@@ -257,8 +257,18 @@
 | WBS §1-§13（P0/P1/P2） | ✅ 全部 Done |
 | TODO §4.1-§4.6 | ✅ 全部 Done（2 項標 "未做" 為需外部資源：Google Form 部署、設計師視覺檔） |
 | 案例庫產業數 | 7（製造/醫院/行銷/B2B/金融/政府/教育） |
-| Git：已 push | …（截至 `db42c15`）；2026-05-15 大批次：8 目錄 README 改寫、改名 GenAI、問卷白話化、14 個 `_EN` sibling、L1-L5 兩條軸精煉（截至 `2604a37`） |
-| Git：本地待 push | 7 目錄 README_EN 同步 + DELIVERY_PACKAGE L1-L3/L4-L5 交付範圍 + Gate 術語清理 + 本次 TODO 更新 |
+| 八階段方法論版本 | **v2.0 對齊 NotebookLM 圖卡 + Rosemann BPM 學派**（2026-05-15）|
+| Stage 2 工具表 | ✅ Tool 2.1-2.7（含 Reference Model 條件檢核 + 元件圖 + 4 層架構，仿 Dragon1）|
+| Stage 3 工具表 | ✅ Tool 3.1-3.6（含 Cases-as-Benchmarks + 客戶 Ideal Practice 共創 Workshop） |
+| 新增 4 份權威概念檔 | ✅ `CLIENT_JOURNEY_STORY`（阿明的故事）+ `EIGHT_STAGE_FLOW_STORY`（完整流程）+ `METHODOLOGY_SCIENTIFIC_LOGIC`（科學論證）+ `INDUSTRY_FRAMEWORK_ALIGNMENT`（業界對齊）；中英雙語俱全 |
+| 報告模板 v2.0 | ✅ §5.4 Ideal Practice 簽署頁加入 |
+| 接案 SOP v2.0 | ✅ ENGAGEMENT_LIFECYCLE §2.5 3 階段合約模型加入 |
+| Git：已 push | …（截至 `2604a37`）|
+| Git：本地待 push | **2026-05-15 大批次**：Stage 工具表升級 Tool 2.5-2.7 + 3.5-3.6（中英）+ 4 份新權威檔（中英 = 8 檔）+ 報告模板 §5.4 + ENGAGEMENT_LIFECYCLE §2.5（中英）+ Stage 名稱對齊圖卡 50 檔 + 各 README 索引更新 |
+| Git：本地待 push（續）| **2026-05-16 補完**：EXECUTIVE_DECK 加 CEO 60 秒 elevator pitch（中英）+ STANDARD_SALES_DECK Slide 18b/18c 加 4 份權威檔 + 3 階段合約模型（中英）+ CONSULTING_METHODOLOGY_DECK Part C2/C3/C4 加 Tool 2.5-2.7 + 3.5-3.6 + 閉環圖（中英）+ 7 案例（中英 = 14 檔）加 Tool 3.5 Benchmark-grade Summary block |
+| Git：本地待 push（v3 學術硬化批次）| **2026-05-16 V3 學術版**：9 大學術建議全做完 ── Wave 1: 案例 Evidence Level 標籤（14 檔）+ Tool 8.9 Evidence Hierarchy + AI_MATURITY_SCORING_MODEL §3.1 Construct Definition + §3.2 信效度驗證計畫 + §3.3 Maturity vs Readiness 拆分；Wave 2: FAILURE_PATTERNS（中英）+ AI_GOVERNANCE_ALIGNMENT（中英，含 NIST AI RMF / EU AI Act / ISO 42001 / OECD / 台灣 AI 基本法）；Wave 3: PILOT_STUDY_PROTOCOL 18-24 個月實證研究設計（中英）；Wave 4: L1-L5 全 repo 雙層命名（Chat AI → Controlled AI Access 等，305 處替換 + canonical 表升級）；額外：AI_NATIVE_LIVING_BOOK 方法論承載形式論述（中英） |
+| Git：本地待 push（v3 學術硬化 V2 批次）| **2026-05-16 V3 V2 學術理論加冕**：5 大理論建議全做完 ── BARS_RUBRICS（中英，6 構面 × 0-4 分行為錨點 + 校準練習 SOP）+ ACADEMIC_THEORETICAL_FOUNDATIONS（中英，7 大理論支柱 + 創立者引用 + 7 篇 paper 投稿建議）+ Tool 6.3 加 Absorptive Capacity（Prior Knowledge + Internal Knowledge Flow 2 維）+ TTF Assessment + Tool 7.2 加責任歸屬 / 心理安全欄位 + Tool 7.2-Extension Dynamic Capability Worksheet（Sensing/Seizing/Transforming）+ Tool 8.2 加演算法厭惡 / 過度依賴 2 抗拒類型 + Tool 8.5 加第 6 維度 Strategic Options（Real Options）+ 各 README 索引更新 |
+| Git：本地待 push（v3 學術誠信批次）| **2026-05-16 V3 學術誠信加固**：14 案例 Evidence Level 從 🟡 L2 Anonymized Composite **改為 🔵 L0 AI-Simulated Teaching Case**（明確聲明所有案例皆 AI 模擬產生，非真實客戶資料）+ 阿明的故事 / 客戶 M / MingChang 全部加 AI-fabricated 聲明 + 04_Scenarios/README 加 banner + 根 README（中英）加 disclaimer + 兩份銷售 deck 加 disclaimer + AI_TRANSFORMATION_STORY §6.1 + EIGHT_STAGE_FLOW_STORY §2 + Tool 3.5 M 公司範本（中英）全部加 AI-Simulated 標註 |
 | 專案名稱 | **GenAI Consulting Methodology Toolkit**（2026-05-15 由 `AI Consulting…` 改名）|
 
 ## 8. 下一輪候選

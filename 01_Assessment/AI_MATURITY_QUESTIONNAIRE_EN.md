@@ -139,7 +139,7 @@ Filling-out principles:
 
 ### Q9 | Does using AI have "braking mechanisms" (data classification, permissions, human review, usage logs)?
 
-- **Dimension**: Governance & ROI
+- **Dimension**: Implementation & Change
 - **Plain-language explanation**: This asks whether using AI has "braking mechanisms" — which data can or cannot be given to AI, who can use it, whether high-risk decisions get a human double-check, and whether what the AI did is logged.
 - **Scenario anchors**:
   - **0**: Nothing at all — employees can paste anything into AI, no one manages it, and there are no records.
@@ -148,7 +148,7 @@ Filling-out principles:
 
 ### Q10 | Has management defined whether AI adoption is successful using "numbers"?
 
-- **Dimension**: Governance & ROI
+- **Dimension**: Implementation & Change
 - **Plain-language explanation**: This asks whether the boss/managers define success of AI adoption with "numbers," or whether it is just "feels useful." A KPI = a metric for measuring outcomes.
 - **Scenario anchors**:
   - **0**: No metrics at all; AI adoption runs entirely on gut feel.
@@ -353,15 +353,15 @@ The highest score indicates the recommended deployment mode. If Hybrid and fully
 
 ### L1 Example
 
-Your company's current AI applications mainly sit at the L1 Chat AI stage. Employees have started using AI to boost personal productivity, but knowledge has not yet been consolidated into departmental assets. We recommend first establishing an OpenWebUI unified portal, AI usage guidelines, and departmental high-frequency Prompts, before moving on to L2 Skill-ification.
+Your company's current AI applications mainly sit at the L1 Controlled AI Access stage. Employees have started using AI to boost personal productivity, but knowledge has not yet been consolidated into departmental assets. We recommend first establishing an OpenWebUI unified portal, AI usage guidelines, and departmental high-frequency Prompts, before moving on to L2 Skill-ification.
 
 ### L2 Example
 
-Your company already has a preliminary L2 Skill AI foundation. Departments have some SOPs, Prompts, or templates, but a stable and maintainable Skill Library has not yet formed. We recommend that the course focus on Skill design, departmental knowledge consolidation, and inventorying L3 Workflow candidate scenarios.
+Your company already has a preliminary L2 Knowledge Codification foundation. Departments have some SOPs, Prompts, or templates, but a stable and maintainable Skill Library has not yet formed. We recommend that the course focus on Skill design, departmental knowledge consolidation, and inventorying L3 Workflow candidate scenarios.
 
 ### L3 Example
 
-Your company has the conditions for L3 Workflow AI. The next step is to select high-value processes and use n8n to integrate Gmail, Sheets, Notion, CRM, API, ERP, and similar systems, completing 1-2 demonstrable PoCs while establishing permission, logging, and human-review mechanisms.
+Your company has the conditions for L3 Workflow Automation. The next step is to select high-value processes and use n8n to integrate Gmail, Sheets, Notion, CRM, API, ERP, and similar systems, completing 1-2 demonstrable PoCs while establishing permission, logging, and human-review mechanisms.
 
 ### L4 Example
 

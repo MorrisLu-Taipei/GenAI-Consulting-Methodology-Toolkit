@@ -28,15 +28,15 @@ AI 成熟度模型不能只描述「能力等級」，必須能回答：
 
 | Level | 成熟度定位 | Definition of Done | 核心 Deliverables | 必備 Evidence | 主要 Owner | Stage Gate | Next Level |
 |---|---|---|---|---|---|---|---|
-| L1 | Chat AI / OpenWebUI | 公司有受控 AI 入口，每位使用者能用自己帳號登入並完成基本知識工作 | OpenWebUI 帳號/群組/權限表、個人聊天區、Prompt Library、AI 使用規範 | 登入截圖、個人聊天截圖、Admin Panel、權限表、Prompt 作業、資料案例判斷 | IT / HR / 顧問 | Gate 1A-1F | L2 Skill AI |
-| L2 | Skill AI / Antigravity / Claude Code / Codex | 個人經驗、SOP、Prompt、工程實作可被沉澱為可複用 Skill，並轉成 L3 Blueprint | Skill Library、Skill 模板、Owner/版本表、Antigravity artifacts、Workflow Blueprint | Skill 測試輸出、版本紀錄、Owner 名單、sample payload、n8n node map | 部門 Owner / IT / 顧問 | Gate 2A-2F | L3 Workflow AI |
-| L3 | Workflow AI / n8n | 至少一個 workflow 可穩定執行，有系統串接、人工審核、Log、錯誤處理與備份 | n8n Workflow JSON、Data Tables Schema、Sub-workflow Library、GitHub Backup SOP、L4 Workflow Contract | Execution Log、測試 payload、Data Tables / Sheets 紀錄、備份 commit、人工審核紀錄、失敗測試 | IT / 流程 Owner | Gate 3A-3G | L4 Hermes Agent |
-| L4 | Auto Agentic AI / Hermes Agent | Agent 能以 Wiki 記憶為底座，完成 ingest/query/update/briefing，並能呼叫 L2 Skill / L3 Workflow | Hermes Agent 任務卡、L4 IPOE、Wiki、schema、ingest/query/update 紀錄、briefing、Runbook | source page、SQLite 查詢、log、briefing、工具呼叫紀錄、人工審核、Gate 4A-4E | 部門 Owner / IT | Gate 4A-4E | L5 ClawTeam |
-| L5 | Agentic Team AI / ClawTeam | 多個 Agent 有角色分工、任務分派、整合輸出、Reviewer、HITL 人類審核 與 ROI 衡量 | ClawTeam 角色卡、任務分派表、Agent Team IPOE、整合報告、Reviewer Gate、ROI 表 | 各 Agent 輸出、整合紀錄、Reviewer 紀錄、主管簽核、ROI/KPI 追蹤 | 管理 Sponsor / 顧問 | Gate 5 | 制度化與擴散 |
+| L1 | Controlled AI Access / OpenWebUI | 公司有受控 AI 入口，每位使用者能用自己帳號登入並完成基本知識工作 | OpenWebUI 帳號/群組/權限表、個人聊天區、Prompt Library、AI 使用規範 | 登入截圖、個人聊天截圖、Admin Panel、權限表、Prompt 作業、資料案例判斷 | IT / HR / 顧問 | Gate 1A-1F | L2 Knowledge Codification |
+| L2 | Knowledge Codification / Antigravity / Claude Code / Codex | 個人經驗、SOP、Prompt、工程實作可被沉澱為可複用 Skill，並轉成 L3 Blueprint | Skill Library、Skill 模板、Owner/版本表、Antigravity artifacts、Workflow Blueprint | Skill 測試輸出、版本紀錄、Owner 名單、sample payload、n8n node map | 部門 Owner / IT / 顧問 | Gate 2A-2F | L3 Workflow Automation |
+| L3 | Workflow Automation / n8n | 至少一個 workflow 可穩定執行，有系統串接、人工審核、Log、錯誤處理與備份 | n8n Workflow JSON、Data Tables Schema、Sub-workflow Library、GitHub Backup SOP、L4 Workflow Contract | Execution Log、測試 payload、Data Tables / Sheets 紀錄、備份 commit、人工審核紀錄、失敗測試 | IT / 流程 Owner | Gate 3A-3G | L4 Hermes Agent |
+| L4 | Autonomous Agent / Hermes Agent | Agent 能以 Wiki 記憶為底座，完成 ingest/query/update/briefing，並能呼叫 L2 Skill / L3 Workflow | Hermes Agent 任務卡、L4 IPOE、Wiki、schema、ingest/query/update 紀錄、briefing、Runbook | source page、SQLite 查詢、log、briefing、工具呼叫紀錄、人工審核、Gate 4A-4E | 部門 Owner / IT | Gate 4A-4E | L5 ClawTeam |
+| L5 | Multi-Agent Organization / ClawTeam | 多個 Agent 有角色分工、任務分派、整合輸出、Reviewer、HITL 人類審核 與 ROI 衡量 | ClawTeam 角色卡、任務分派表、Agent Team IPOE、整合報告、Reviewer Gate、ROI 表 | 各 Agent 輸出、整合紀錄、Reviewer 紀錄、主管簽核、ROI/KPI 追蹤 | 管理 Sponsor / 顧問 | Gate 5 | 制度化與擴散 |
 
 ---
 
-## 3. L1 Chat AI：OpenWebUI
+## 3. L1 Controlled AI Access：OpenWebUI
 
 ### 3.1 Definition of Done
 
@@ -99,7 +99,7 @@ L1 完成不是「員工會問 AI 問題」，而是：
 
 ---
 
-## 4. L2 Skill AI：Antigravity / Claude Code / Codex
+## 4. L2 Knowledge Codification：Antigravity / Claude Code / Codex
 
 ### 4.1 Definition of Done
 
@@ -163,7 +163,7 @@ L2 完成不是「學員會用 AI 寫東西」，而是：
 
 ---
 
-## 5. L3 Workflow AI：n8n
+## 5. L3 Workflow Automation：n8n
 
 ### 5.1 Definition of Done
 
@@ -235,7 +235,7 @@ L3 完成不是「Workflow demo 跑一次」，而是：
 
 ---
 
-## 6. L4 Auto Agentic AI：Hermes Agent
+## 6. L4 Autonomous Agent：Hermes Agent
 
 ### 6.1 Definition of Done
 
@@ -306,7 +306,7 @@ L4 完成不是「有一個 Agent demo」，而是：
 
 ---
 
-## 7. L5 Agentic Team AI：ClawTeam
+## 7. L5 Multi-Agent Organization：ClawTeam
 
 ### 7.1 Definition of Done
 

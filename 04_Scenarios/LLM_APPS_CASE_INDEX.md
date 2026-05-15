@@ -28,11 +28,11 @@
 
 | 案例類型 | 對應本方法論 | 理由 |
 | --- | --- | --- |
-| Chat with X、Local ChatGPT、簡單 Starter | **L1 Chat AI** | 與資料對話、單次任務、個人入門 |
-| Agent Skills、單一用途封裝能力、OCR/Vision 抽取 | **L2 Skill AI** | 可複用的封裝能力 = Skill |
-| RAG 管線、MCP 整合、文件 pipeline、Chat with 系統 | **L3 Workflow AI** | 檢索管線、工具/系統串接 |
-| Advanced Single-Agent、Memory Apps、Agentic/Autonomous RAG | **L4 Auto Agentic AI** | 自主多步、記憶、工具鏈、單一 Agent |
-| Multi-agent Teams、Multi-Agent 應用 | **L5 Agentic Team AI** | 多 Agent 協作 |
+| Chat with X、Local ChatGPT、簡單 Starter | **L1 Controlled AI Access** | 與資料對話、單次任務、個人入門 |
+| Agent Skills、單一用途封裝能力、OCR/Vision 抽取 | **L2 Knowledge Codification** | 可複用的封裝能力 = Skill |
+| RAG 管線、MCP 整合、文件 pipeline、Chat with 系統 | **L3 Workflow Automation** | 檢索管線、工具/系統串接 |
+| Advanced Single-Agent、Memory Apps、Agentic/Autonomous RAG | **L4 Autonomous Agent** | 自主多步、記憶、工具鏈、單一 Agent |
+| Multi-agent Teams、Multi-Agent 應用 | **L5 Multi-Agent Organization** | 多 Agent 協作 |
 | Voice、Optimization、Fine-tuning、Framework 課程、Model 比較、Game-Playing | **跨課程 / 技術支援 / 不對應** | 技術擴充或展示用，非單一 L 級課程 |
 
 「來源」欄：`awesome-llm-apps` = A · `ai-engineering-hub` = H。
@@ -41,7 +41,7 @@
 
 ## 3. L1-L5 案例索引表 / The Index
 
-### 3.1 L1 Chat AI（對應課程：L1 OpenWebUI 企業啟用）
+### 3.1 L1 Controlled AI Access（對應課程：L1 OpenWebUI 企業啟用）
 
 | 案例 / Case | 來源 | 原分類 | 應用情境 / 備註 |
 | --- | --- | --- | --- |
@@ -58,7 +58,7 @@
 | DeepSeek Thinking UI | H | Chat Interfaces | 推理過程可視化的對話介面 |
 | Qwen3 Thinking UI | H | Chat Interfaces | 推理過程可視化的對話介面 |
 
-### 3.2 L2 Skill AI（對應課程：L2 Antigravity Agentic Developer）
+### 3.2 L2 Knowledge Codification（對應課程：L2 Antigravity Agentic Developer）
 
 | 案例 / Case | 來源 | 原分類 | 應用情境 / 備註 |
 | --- | --- | --- | --- |
@@ -92,7 +92,7 @@
 | Gemma-3 OCR | H | OCR & Vision | 文件抽取 Skill |
 | Qwen 2.5 VL OCR | H | OCR & Vision | 視覺文件抽取 Skill |
 
-### 3.3 L3 Workflow AI（對應課程：L3 n8n + AG/n8n Skill Pack）
+### 3.3 L3 Workflow Automation（對應課程：L3 n8n + AG/n8n Skill Pack）
 
 | 案例 / Case | 來源 | 原分類 | 應用情境 / 備註 |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@
 | Graphiti MCP | H | Infrastructure | MCP — 知識圖整合 |
 | Pixeltable MCP | H | Infrastructure | MCP — 多模態資料整合 |
 
-### 3.4 L4 Auto Agentic AI（對應課程：L4 Hermes Agent）
+### 3.4 L4 Autonomous Agent（對應課程：L4 Hermes Agent）
 
 | 案例 / Case | 來源 | 原分類 | 應用情境 / 備註 |
 | --- | --- | --- | --- |
@@ -166,7 +166,7 @@
 | Corrective RAG | H | RAG | 自我修正檢索 |
 | Trustworthy RAG | H | RAG | 可信度檢索（對應 Evidence 紀律）|
 
-### 3.5 L5 Agentic Team AI（對應課程：L5 ClawTeam）
+### 3.5 L5 Multi-Agent Organization（對應課程：L5 ClawTeam）
 
 | 案例 / Case | 來源 | 原分類 | 應用情境 / 備註 |
 | --- | --- | --- | --- |
@@ -371,11 +371,11 @@
 
 | 對應層級 | 案例數（約）| 對應課程 |
 | --- | ---: | --- |
-| L1 Chat AI | 12 | L1 OpenWebUI 企業啟用 |
-| L2 Skill AI | 29 | L2 Antigravity Agentic Developer |
-| L3 Workflow AI | 29 | L3 n8n + AG/n8n Skill Pack |
-| L4 Auto Agentic AI | 34 | L4 Hermes Agent |
-| L5 Agentic Team AI | 26 | L5 ClawTeam |
+| L1 Controlled AI Access | 12 | L1 OpenWebUI 企業啟用 |
+| L2 Knowledge Codification | 29 | L2 Antigravity Agentic Developer |
+| L3 Workflow Automation | 29 | L3 n8n + AG/n8n Skill Pack |
+| L4 Autonomous Agent | 34 | L4 Hermes Agent |
+| L5 Multi-Agent Organization | 26 | L5 ClawTeam |
 | 跨課程 / 不對應 | 24 | 技術支援 / 展示 |
 | **合計（2 來源）** | **約 150+** | — |
 

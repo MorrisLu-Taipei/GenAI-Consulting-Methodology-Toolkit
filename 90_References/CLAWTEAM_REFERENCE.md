@@ -2,9 +2,9 @@
 
 > 🌐 English version: [CLAWTEAM_REFERENCE_EN.md](CLAWTEAM_REFERENCE_EN.md)
 
-本方法論的 **L5 Agentic Team AI** 課程以 **ClawTeam** 作為實作基礎平台。本檔詳列原始來源、授權條款、引用方式與我們的使用範圍。
+本方法論的 **L5 Multi-Agent Organization** 課程以 **ClawTeam** 作為實作基礎平台。本檔詳列原始來源、授權條款、引用方式與我們的使用範圍。
 
-The **L5 Agentic Team AI** course in this methodology adopts **ClawTeam** as its implementation platform. This document records the upstream source, license terms, citation guidance, and the scope of our use.
+The **L5 Multi-Agent Organization** course in this methodology adopts **ClawTeam** as its implementation platform. This document records the upstream source, license terms, citation guidance, and the scope of our use.
 
 ---
 
