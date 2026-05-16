@@ -1,5 +1,7 @@
 # 01 Assessment — AI 成熟度診斷
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 ## 一、本目錄定位
 
 本目錄是三段式服務流程的**第一段：診斷（Diagnose）**。它要解決一個顧問接案最根本的問題：**「企業說自己『有在用 AI』，但到底在哪一級？缺什麼？該從哪裡補？」**
