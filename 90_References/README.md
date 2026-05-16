@@ -8,55 +8,17 @@
 
 1. **這些方法的依據是什麼？**（PDF 原稿、方法論圖、影片學習筆記）
 2. **哪些內容引用了第三方？授權合不合規？**（每個被引用的專案都有獨立 `*_REFERENCE.md`）
-3. **我們站在哪些開源前輩的肩膀上？**（致敬名單 + 互惠行銷飛輪）
+3. **我們站在哪些開源前輩的肩膀上？**（致敬名單）
 
 使用本目錄的人：顧問、reviewer、法務、再散布者、**想找上游專案的學員與愛好者**。
 
 ---
 
-## 二、互惠行銷飛輪（Co-Marketing Flywheel）
-
-> **這份 repo 不是孤立的方法論手冊，而是站在多個開源專案肩膀上的整合作品。**
-> 我們相信「**大方且具體地致敬 = 成長槓桿**」 —— 不是公關話術，是讓方法論愈做愈紮實的策略。
-
-```text
-┌─ ① 大方引用 + 清楚署名 ────────────────────────┐
-│  每個被引用的開源專案都有：                     │
-│    - 獨立 *_REFERENCE.md 完整說明               │
-│    - 引用該素材的檔案 header 雙重備註           │
-│    - 上游 GitHub URL + 作者 handle 明確露出     │
-└────────────────────────────────────────────────┘
-                    ↓
-┌─ ② 上游作者 / 社群有動機轉發 ──────────────────┐
-│  「被有結構地引用 = 一起被更多企業看見」        │
-│  → 他們轉發、星標、討論、納入自己的下游教材     │
-└────────────────────────────────────────────────┘
-                    ↓
-┌─ ③ 上游社群流量帶進本 repo ────────────────────┐
-│  → 顧問 / 學員 / 學者 / 監管者更多人讀到本書    │
-│  → 本 repo 累積更多 star、issue、PR、案例       │
-└────────────────────────────────────────────────┘
-                    ↓
-┌─ ④ Repo 更有名 → 更多人願意被引用 ─────────────┐
-│  → 飛輪轉得更快 → 方法論更紮實                   │
-│  → 又能引用到更多優秀專案 → 回到 ①              │
-└────────────────────────────────────────────────┘
-```
-
-**飛輪實務原則**（大方、不 spammy）：
-
-- **引用署名品質 = 成長槓桿** —— 每個 `*_REFERENCE.md` 都列「上游是誰、做了什麼、我們改寫了什麼、為什麼欣賞、原始 URL」
-- **發圖卡 / 貼文時主動標註** —— Tag 對應作者與社群（不是強推銷售，是真心欣賞並整理你的東西）
-- **不重製原始碼，只整理觀點** —— 上游永遠是上游；我們做的是「跨家整合 + 在地落地 + 顧問場景化」
-- **失敗也分享**：用了不合適的會誠實寫在 `FAILURE_PATTERNS.md`，不只報喜
-
----
-
-## 三、致敬名單：我們站在誰的肩膀上
+## 二、致敬名單：我們站在誰的肩膀上
 
 依使用層次分四類：**核心平台 / 顧問框架類 / Agent 與 Skill 類 / 案例索引類**。每一張「致敬卡」都附**上游 URL + 我們在哪裡引用 + 完整 _REFERENCE.md 連結**。
 
-### 3.1 核心平台（L1-L5 的執行底座）
+### 2.1 核心平台（L1-L5 的執行底座）
 
 這些不是「被引用的素材」，而是 **L1-L5 課程直接運行其上的平台**。沒有它們，這套方法論落不了地。
 
@@ -70,7 +32,7 @@
 ➜ 影片學習筆記：[`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md) ｜ [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)
 ➜ ClawTeam 完整引用：[`CLAWTEAM_REFERENCE.md`](CLAWTEAM_REFERENCE.md)
 
-### 3.2 顧問框架類（影響 03_Consulting_Report）
+### 2.2 顧問框架類（影響 03_Consulting_Report）
 
 #### 🎯 [`yoichiojima-2/consultant`](https://github.com/yoichiojima-2/consultant)（MIT）
 
@@ -94,7 +56,7 @@
 - **完整引用**：[`WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md)
 - **取得位置**：<https://github.com/MorrisLu-Taipei/AI-Workflow-Delivery-Framework>（README 標示原作者為 Mirza Iqbal）
 
-### 3.3 Agent 與 Skill 類（影響 02_Course_Design）
+### 2.3 Agent 與 Skill 類（影響 02_Course_Design）
 
 #### 🎯 [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents)（MIT）
 
@@ -110,7 +72,7 @@
 - **我們在哪裡用**：[`../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) 下半段
 - **完整引用**：[`N8N_SKILL_PACK_REFERENCE.md`](N8N_SKILL_PACK_REFERENCE.md)
 
-### 3.4 案例索引類（影響 04_Scenarios）
+### 2.4 案例索引類（影響 04_Scenarios）
 
 #### 🎯 [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps)（Apache-2.0）
 
@@ -128,7 +90,7 @@
 
 ---
 
-## 四、原始參考資料與圖（自製或公開資料）
+## 三、原始參考資料與圖（自製或公開資料）
 
 | 檔案 | 用途 |
 | --- | --- |
@@ -136,7 +98,7 @@
 | [`MD-Map.png`](MD-Map.png) | AI 成熟度地圖，用於根目錄 README |
 | [`Metholodgy.png`](Metholodgy.png) | 企業管理顧問八階段轉型指南，用於根目錄 README |
 
-## 五、學術依據與失敗模式（純原創，由 Tiger AI + 三 AI 引擎撰寫）
+## 四、學術依據與失敗模式（純原創，由 Tiger AI + 三 AI 引擎撰寫）
 
 | 檔案 | 用途 |
 | --- | --- |
@@ -146,7 +108,7 @@
 
 學術理論本體（7 大支柱）見 [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md)。
 
-## 六、影片學習筆記（衍生筆記，原始影片版權歸原創作者）
+## 五、影片學習筆記（衍生筆記，原始影片版權歸原創作者）
 
 | 檔案 | 用途 |
 | --- | --- |
@@ -155,7 +117,7 @@
 
 ---
 
-## 七、引用紀律（給未來貢獻者的鐵則）
+## 六、引用紀律（給未來貢獻者的鐵則）
 
 要在本 repo 引用任何第三方素材，**一律遵守以下「方案 A」原則**：
 
@@ -172,7 +134,7 @@
 
 ---
 
-## 八、與其他目錄的對應
+## 七、與其他目錄的對應
 
 | 目錄 | 與本目錄的關係 |
 | --- | --- |
@@ -185,17 +147,17 @@
 
 ---
 
-## 九、常見用法情境
+## 八、常見用法情境
 
 - **想知道某個檔案為什麼這樣寫**：看該檔 header → 對到本目錄的 `*_REFERENCE.md`
-- **要再散布 / 商用本方法論**：先讀 §七引用紀律 + 根目錄 [`NOTICE`](../NOTICE) 署名要求
-- **找新的開源專案想納入** → 依 §七 5 條原則：先確認有授權 → 獨立改寫 → 建 `*_REFERENCE.md` → 補進本 README §3 致敬名單
+- **要再散布 / 商用本方法論**：先讀 §六引用紀律 + 根目錄 [`NOTICE`](../NOTICE) 署名要求
+- **找新的開源專案想納入** → 依 §六的 6 條原則：先確認有授權 → 獨立改寫 → 建 `*_REFERENCE.md` → 補進本 README §二 致敬名單
 - **想接觸上游社群、想互動 / 致敬**：每張致敬卡的 GitHub URL 直接點進去 star、follow、提 issue、做 PR
-- **學員引用本 repo 內容到自己的論文 / 簡報**：依 §七原則 —— 引用本方法論時請保留原作者署名（[`../NOTICE`](../NOTICE)）；引用第三方素材請對到對應 `*_REFERENCE.md` 的學員引用建議格式
+- **學員引用本 repo 內容到自己的論文 / 簡報**：依 §六原則 —— 引用本方法論時請保留原作者署名（[`../NOTICE`](../NOTICE)）；引用第三方素材請對到對應 `*_REFERENCE.md` 的學員引用建議格式
 
 ---
 
-## 十、致謝
+## 九、致謝
 
 本目錄列出的所有上游作者與社群，**是這套方法論能站立的肩膀**。任何詮釋錯誤、引用不當、應用偏離原意之處，皆為本方法論作者 **Tiger AI Morris Lu 盧業興** 個人責任，與上游作者、社群無關。
 

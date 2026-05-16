@@ -8,59 +8,17 @@ This directory is the entire methodology's **reference library, citation governa
 
 1. **What are these methods based on?** (original PDF, methodology diagrams, video learning notes)
 2. **Which content cites third parties? Are the licenses compliant?** (every cited project has its own `*_REFERENCE.md`)
-3. **Whose shoulders are we standing on?** (acknowledgments roll + co-marketing flywheel)
+3. **Whose shoulders are we standing on?** (acknowledgments roll)
 
 Who uses this directory: consultants, reviewers, legal, redistributors, **learners and enthusiasts looking for the upstream projects**.
 
 ---
 
-## 2. Co-Marketing Flywheel
-
-> **This repo is not an isolated methodology manual — it's an integration that stands on the shoulders of multiple open-source projects.**
-> We believe **generous and specific attribution = a growth lever** — not a PR talking point, but a strategy that makes the methodology more solid over time.
-
-```text
-┌─ ① Generous citation + clear attribution ─────────────┐
-│  Every cited open-source project gets:                 │
-│    - Its own *_REFERENCE.md with full details          │
-│    - Dual-attribution in the file header that cites it │
-│    - Upstream GitHub URL + author handle made visible  │
-└────────────────────────────────────────────────────────┘
-                    ↓
-┌─ ② Upstream authors / communities are motivated ──────┐
-│  "Being structurally cited = being seen by more        │
-│  enterprises together"                                  │
-│  → They share, star, discuss, fold us into their       │
-│     downstream teaching material                        │
-└────────────────────────────────────────────────────────┘
-                    ↓
-┌─ ③ Their community traffic comes to this repo ────────┐
-│  → More consultants / learners / academics /           │
-│     regulators read this book                          │
-│  → This repo accumulates more stars, issues, PRs,      │
-│     case studies                                        │
-└────────────────────────────────────────────────────────┘
-                    ↓
-┌─ ④ Repo becomes more known → more want to be cited ───┐
-│  → Flywheel spins faster → methodology gets stronger   │
-│  → We can cite even more excellent projects → loop ①   │
-└────────────────────────────────────────────────────────┘
-```
-
-**Flywheel principles in practice** (generous, not spammy):
-
-- **Citation quality = the growth lever** — every `*_REFERENCE.md` lists "who upstream is, what they did, what we adapted, why we appreciate it, and the original URL"
-- **Tag authors and communities when posting graphics / posts** — not aggressive marketing, just "we genuinely appreciate and have organized your work"
-- **Don't reproduce source code, just curate viewpoints** — upstream is always upstream; what we do is "cross-vendor integration + localization + consulting-scenario contextualization"
-- **Share failures too**: if something we tried didn't work, we honestly write it in `FAILURE_PATTERNS.md` — not just success stories
-
----
-
-## 3. Acknowledgments: Whose Shoulders We Stand On
+## 2. Acknowledgments: Whose Shoulders We Stand On
 
 Organized by usage layer into four categories: **core platforms / consulting-framework / agent & skill / case-index**. Each "appreciation card" includes the **upstream URL + where we cite it + link to the full _REFERENCE.md**.
 
-### 3.1 Core Platforms (the runtime base for L1-L5)
+### 2.1 Core Platforms (the runtime base for L1-L5)
 
 These aren't "cited material" — they are **the platforms L1-L5 courses run on**. Without them, this methodology has no place to land.
 
@@ -74,7 +32,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 ➜ Video learning notes: [`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md) ｜ [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)
 ➜ ClawTeam full citation: [`CLAWTEAM_REFERENCE_EN.md`](CLAWTEAM_REFERENCE_EN.md)
 
-### 3.2 Consulting Framework Class (impacts 03_Consulting_Report)
+### 2.2 Consulting Framework Class (impacts 03_Consulting_Report)
 
 #### 🎯 [`yoichiojima-2/consultant`](https://github.com/yoichiojima-2/consultant) (MIT)
 
@@ -98,7 +56,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 - **Full citation**: [`WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_EN.md`](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_EN.md)
 - **Accessed via**: <https://github.com/MorrisLu-Taipei/AI-Workflow-Delivery-Framework> (README clearly credits Mirza Iqbal as original creator)
 
-### 3.3 Agent & Skill Class (impacts 02_Course_Design)
+### 2.3 Agent & Skill Class (impacts 02_Course_Design)
 
 #### 🎯 [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) (MIT)
 
@@ -114,7 +72,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 - **Where we use it**: [`../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) second half
 - **Full citation**: [`N8N_SKILL_PACK_REFERENCE_EN.md`](N8N_SKILL_PACK_REFERENCE_EN.md)
 
-### 3.4 Case-Index Class (impacts 04_Scenarios)
+### 2.4 Case-Index Class (impacts 04_Scenarios)
 
 #### 🎯 [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) (Apache-2.0)
 
@@ -132,7 +90,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 
 ---
 
-## 4. Original Reference Material & Diagrams (self-made or public-domain)
+## 3. Original Reference Material & Diagrams (self-made or public-domain)
 
 | File | Purpose |
 | --- | --- |
@@ -140,7 +98,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 | [`MD-Map.png`](MD-Map.png) | AI Maturity Map, used in the root README |
 | [`Metholodgy.png`](Metholodgy.png) | Enterprise consulting eight-stage transformation guide, used in the root README |
 
-## 5. Academic Foundation & Failure Patterns (fully original, written by Tiger AI + the three AI engines)
+## 4. Academic Foundation & Failure Patterns (fully original, written by Tiger AI + the three AI engines)
 
 | File | Purpose |
 | --- | --- |
@@ -150,7 +108,7 @@ These aren't "cited material" — they are **the platforms L1-L5 courses run on*
 
 The academic theory body itself (the 7 pillars) is in [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md).
 
-## 6. Video Learning Notes (derivative notes; original video copyright belongs to the creators)
+## 5. Video Learning Notes (derivative notes; original video copyright belongs to the creators)
 
 | File | Purpose |
 | --- | --- |
@@ -159,7 +117,7 @@ The academic theory body itself (the 7 pillars) is in [`../00_Overview/ACADEMIC_
 
 ---
 
-## 7. Citation Discipline (the iron rules for future contributors)
+## 6. Citation Discipline (the iron rules for future contributors)
 
 To cite any third-party material in this repo, **everyone follows these "Approach A" principles**:
 
@@ -176,7 +134,7 @@ To cite any third-party material in this repo, **everyone follows these "Approac
 
 ---
 
-## 8. Cross-Directory Mapping
+## 7. Cross-Directory Mapping
 
 | Directory | Relationship to this directory |
 | --- | --- |
@@ -189,17 +147,17 @@ To cite any third-party material in this repo, **everyone follows these "Approac
 
 ---
 
-## 9. Common Usage Scenarios
+## 8. Common Usage Scenarios
 
 - **Wondering why a file is written a particular way**: read the file header → map to the `*_REFERENCE.md` in this directory
-- **Redistributing / commercializing this methodology**: read §7 citation discipline + the [`NOTICE`](../NOTICE) attribution requirements
-- **Want to onboard a new open-source project** → follow the 5 principles in §7: confirm the license → adapt independently → create `*_REFERENCE.md` → add it to this README §3 acknowledgments roll
+- **Redistributing / commercializing this methodology**: read §6 citation discipline + the [`NOTICE`](../NOTICE) attribution requirements
+- **Want to onboard a new open-source project** → follow the 6 principles in §6: confirm the license → adapt independently → create `*_REFERENCE.md` → add it to this README §2 acknowledgments roll
 - **Want to engage upstream communities, want to interact / acknowledge**: click the GitHub URL on each appreciation card to star, follow, open an issue, or send a PR
-- **Learner citing this repo's content in their own paper / deck**: per §7, when citing this methodology preserve the original author attribution ([`../NOTICE`](../NOTICE)); when citing third-party material follow the learner-citation format in the corresponding `*_REFERENCE.md`
+- **Learner citing this repo's content in their own paper / deck**: per §6, when citing this methodology preserve the original author attribution ([`../NOTICE`](../NOTICE)); when citing third-party material follow the learner-citation format in the corresponding `*_REFERENCE.md`
 
 ---
 
-## 10. Acknowledgments
+## 9. Acknowledgments
 
 All upstream authors and communities listed in this directory **are the shoulders this methodology stands on**. Any misinterpretation, inappropriate citation, or deviation from the original intent is the sole responsibility of the methodology author **Tiger AI Morris Lu 盧業興** — not of the upstream authors or communities.
 
