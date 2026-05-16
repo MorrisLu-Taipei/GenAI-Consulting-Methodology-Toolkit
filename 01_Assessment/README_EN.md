@@ -105,3 +105,17 @@ The English-version siblings of the files above.
 - **Pre-course preparation**: send the 25-item version to the client's manager group 1 week before the course → the consultant gets the six-dimension radar and adjusts the course ratio.
 - **Before the consulting interview**: IT/AI Champion fills out the 50 items + company-profile questionnaire → the consultant receives the complete Profile Bundle as a brief 1 hour before the interview.
 - **To scale**: use `AI_DIAGNOSIS_SHEETS_SCHEMA.md` to deploy the automated diagnosis flow in the client's n8n; the consultant only does the final interpretation.
+
+---
+
+## ⭐ Cross-Topic Quick References: 5 Core Themes, Where to Find Them
+
+The whole methodology has 5 main arteries running through every directory. How this directory connects to each:
+
+| Cross-Topic | Primary location | How this directory connects |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + three-engine co-reading** | Root [`README_EN.md`](../README_EN.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | The questionnaire can be filled interactively via Antigravity's `/diagnose`; AI_DIAGNOSIS_SHEETS_SCHEMA automates the questionnaire (n8n + Google Sheets + Notion); diagnostic results can flow into Codex's `/consistency-review` for cross-file alignment |
+| 🎓 **Academic foundation (7 pillars)** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **This directory's [`BARS_RUBRICS_EN.md`](BARS_RUBRICS_EN.md) maps to inter-rater reliability** (Smith & Kendall 1963); the six diagnostic dimensions map to Capability Maturity (Rosemann/CMMI) + Absorptive Capacity (Cohen & Levinthal 1990) + Sociotechnical Trust |
+| 📚 **L1-L5 course education** | [`../02_Course_Design/`](../02_Course_Design/) | **The diagnostic L-level + six-dimension radar + course-ratio recommendation** directly determine the `02` course configuration — they are `02`'s "must-fill before class" |
+| 🔁 **Consulting / 8 stages + Phase A→B→C closed-loop** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **Diagnosis = the core input to Phase A** (Stage 1 current-state + Stage 2 Reference Model radar sign-off); the Phase C quarterly radar review IS "**re-running the diagnosis**" — did the structure actually become rounder? Diagnosis is both the entry point and the closed-loop falsification mechanism |
+| 📖 **References / acknowledgments** | [`../90_References/`](../90_References/) §2 acknowledgments | The scoring model references BARS (Smith & Kendall 1963) + the 7 theoretical pillars; the 18-24 month Pilot Study design lives in [`../90_References/PILOT_STUDY_PROTOCOL_EN.md`](../90_References/PILOT_STUDY_PROTOCOL_EN.md) (validates the questionnaire's Cohen's κ ≥ 0.60 target) |

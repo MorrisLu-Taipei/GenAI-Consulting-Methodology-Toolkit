@@ -118,3 +118,17 @@ The English-version siblings of the files above, corresponding to the Chinese ve
 - **New consultant onboarding**: read the storyline first to build awareness → read `TODO_WBS.md` for the current state → then learn directory by directory following the data flow in §6.
 - **Reviewer auditing**: read the change log and work log in `TODO_WBS.md` directly, cross-checking against the git log.
 - **AI continuing work**: read the "next-round candidates" and "work log" in `TODO_WBS.md` to know where to continue.
+
+---
+
+## ⭐ Cross-Topic Quick References: 5 Core Themes, Where to Find Them
+
+The whole methodology has 5 main arteries running through every directory. How this directory connects to each:
+
+| Cross-Topic | Primary location | How this directory connects |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + three-engine co-reading** | Root [`README_EN.md`](../README_EN.md) §🌟 ｜ [`07_AI_Contributions/`](../07_AI_Contributions/) | **This directory IS the "story entry point" of the AI-Native Living Book** — [`AI_NATIVE_LIVING_BOOK_EN.md`](AI_NATIVE_LIVING_BOOK_EN.md) is the full discussion; the 4 authoritative concept files (CLIENT_JOURNEY / EIGHT_STAGE_FLOW / METHODOLOGY_SCIENTIFIC_LOGIC / INDUSTRY_FRAMEWORK_ALIGNMENT) all live here |
+| 🎓 **Academic foundation (7 pillars)** | [`ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) ｜ [`FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **The unified discussion of the 7 theoretical pillars lives in this directory**: Rosemann / Cohen & Levinthal / TTF / Teece / Sociotechnical Trust / Real Options / Knuth |
+| 📚 **L1-L5 course education** | [`../02_Course_Design/`](../02_Course_Design/) | [`AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0 is the authoritative narrative entry point for **L1-L5 as two axes** (scale axis + AI-autonomy axis) |
+| 🔁 **Consulting / 8 stages + Phase A→B→C closed-loop** | [`EIGHT_STAGE_FLOW_STORY_EN.md`](EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **The consulting closed-loop story lives in this directory** — `EIGHT_STAGE_FLOW_STORY` §6 has the full closed-loop diagram (Phase A 2W + Phase B 4W + Phase C 24M + quarterly radar review) |
+| 📖 **References / acknowledgments** | [`../90_References/`](../90_References/) §2 acknowledgments | This directory's stories use all of `90_References` material as their basis (PDF / diagrams / video notes / academic theory citations) |

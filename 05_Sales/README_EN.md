@@ -111,3 +111,17 @@ The English-version siblings of the files above.
 - **Deeper proposal**: by audience, pick the 20-page (department heads) or 30-page (CIO/strategy chief) version.
 - **Client says "too expensive / we already have ChatGPT / is the data secure"**: flip to `SALES_FAQ.md` for the standard answer.
 - **Need visuals**: hand `VISUAL_ASSETS_SPEC.md` to a designer to produce the actual files.
+
+---
+
+## ⭐ Cross-Topic Quick References: 5 Core Themes, Where to Find Them
+
+The whole methodology has 5 main arteries running through every directory. How this directory connects to each:
+
+| Cross-Topic | Primary location | How this directory connects |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + three-engine co-reading** | Root [`README_EN.md`](../README_EN.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | **AI-Native Living Book + three engines is a new-era selling point** — once adopted, the client owns "methodology + an AI co-reading partner"; the 30-page consulting deck can pitch the differentiation of the three-engine division of labor (front-line Antigravity / audit Codex / strategy Claude Code) |
+| 🎓 **Academic foundation (7 pillars)** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **The 30-page consulting deck cites Prof. Rosemann (QUT) + the 7 theoretical pillars** as differentiation (for academic peers, CIOs, boards); `SALES_FAQ.md` answers "what's different from Big-4 / McKinsey" using the 7 pillars as the basis |
+| 📚 **L1-L5 course education** | [`../02_Course_Design/`](../02_Course_Design/) | **The 20-page standard deck contains course teasers for every level** (L1-L5 path, PoC scenarios, Stage Gates); the ONE_PAGER includes the L1-L5 map; the decks reference the course ratios and deep syllabi from `02` |
+| 🔁 **Consulting / 8 stages + Phase A→B→C closed-loop** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **All sales material steers toward "fill the questionnaire to start Phase A"**; the 20/30-page decks include the three-phase contract model (Phase A 2W + Phase B 4W + Phase C 24M) + quarterly radar review; the EXECUTIVE_DECK contains the 8-stage story arc |
+| 📖 **References / acknowledgments** | [`../90_References/`](../90_References/) §2 acknowledgments | **The sales decks themselves are largely self-authored** (no third-party citations); `SALES_FAQ.md` cites the 7 theoretical pillars; the acknowledgments cite Prof. Rosemann (QUT); when a client asks "why these tools," point them to the appreciation cards in 90_References §2 |

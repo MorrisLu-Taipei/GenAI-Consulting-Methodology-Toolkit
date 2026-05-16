@@ -116,3 +116,17 @@
 - **新顧問 onboard**：先讀故事線建立認知 → 讀 `TODO_WBS.md` 掌握現況 → 再依 §六的資料流逐目錄學習。
 - **reviewer 審查**：直接看 `TODO_WBS.md` 的變更紀錄與工作日誌，對照 git log。
 - **AI 接續工作**：讀 `TODO_WBS.md` 的「下一輪候選」與「工作日誌」，知道從哪裡繼續。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`07_AI_Contributions/`](../07_AI_Contributions/) | **本目錄就是 AI-Native Living Book 的「故事入口」** —— [`AI_NATIVE_LIVING_BOOK.md`](AI_NATIVE_LIVING_BOOK.md) 完整論述；4 份權威概念檔（CLIENT_JOURNEY / EIGHT_STAGE_FLOW / METHODOLOGY_SCIENTIFIC_LOGIC / INDUSTRY_FRAMEWORK_ALIGNMENT）都在這 |
+| 🎓 **成熟理論（7 大支柱）** | [`ACADEMIC_THEORETICAL_FOUNDATIONS.md`](ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **7 大理論支柱統一論述就放在本目錄**：Rosemann / Cohen & Levinthal / TTF / Teece / Sociotechnical Trust / Real Options / Knuth |
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](../02_Course_Design/) | [`AI_TRANSFORMATION_STORY_AND_STRUCTURE.md`](AI_TRANSFORMATION_STORY_AND_STRUCTURE.md) §3.0 是 **L1-L5 兩條軸**（規模軸 + AI 自主軸）的權威故事入口 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`EIGHT_STAGE_FLOW_STORY.md`](EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **顧問閉環故事就放在本目錄** —— `EIGHT_STAGE_FLOW_STORY.md` §6 完整閉環圖（Phase A 2W + Phase B 4W + Phase C 24M + 季度雷達回看）|
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | 本目錄的故事使用 `90_References` 的所有素材作依據（PDF / 圖 / 影片筆記 / 學術理論引用） |

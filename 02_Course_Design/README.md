@@ -122,3 +122,17 @@ L3/L4 課程的 PoC 場景庫。7 大類共 35 個可實作 PoC（Gmail / Sheets
 - **開 L3 課**：用 `L3_N8N_TIGERAI_COURSE_PLAN.md` 上半段教概念，下半段教 AG+Skill Pack；實作題從 `POC_SCENARIO_SPECS.md` 挑、骨架從 `N8N_WORKFLOW_TEMPLATES.md` 匯入。
 - **學員找實作題**：依自己部門與 L 級，從 `POC_SCENARIO_SPECS.md` 或 `04_Scenarios/LLM_APPS_CASE_INDEX.md` 挑。
 - **驗收**：每級課後對照 `01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md` 過 Stage Gate。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK.md`](../00_Overview/AI_NATIVE_LIVING_BOOK.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | **L2 Knowledge Codification 課程直接教三引擎使用** —— Antigravity / Codex / Claude Code 都是 L2 學員的工具；課中可調動三引擎跑 demo + Skill 封裝 + 跨檔測試 |
+| 🎓 **成熟理論（7 大支柱）** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **L1-L5 五層架構依 Capability Maturity（Rosemann/CMMI）**；不可跳級的鐵則依 Absorptive Capacity（Cohen & Levinthal 1990）；L4 Hermes 七大設計原則對應 Sociotechnical & Knowledge Compounding |
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](本目錄) ｜ [`L1_L5_COMPLETE_COURSE_PLAN.md`](L1_L5_COMPLETE_COURSE_PLAN.md) | **本目錄就是 L1-L5 課程本體** —— 5 個獨立深度課綱（L1 OPENWEBUI / L2 ANTIGRAVITY / L3 N8N / L4 HERMES / L5 CLAWTEAM）+ COURSE_MODULE_MATRIX 比例配置 + POC_SCENARIO_SPECS 35 個實作題 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **課程產出物進 Phase B 報告**（成為 14 章的「課程觀察」章節）+ Phase C 季度雷達追蹤；每級 Stage Gate 對應顧問閉環的 Gate A/B/C |
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | **L1 → OpenWebUI** ｜ **L2 → Antigravity / Codex / Claude Code + agency-agents** ｜ **L3 → n8n + TigerAI-n8n-Skill-Pack** ｜ **L4 → nousresearch/hermes-agent** ｜ **L5 → HKUDS/ClawTeam**。完整致敬卡見 [`../90_References/README.md`](../90_References/README.md) §2.1-2.3 |

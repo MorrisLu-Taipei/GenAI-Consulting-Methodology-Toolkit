@@ -109,3 +109,17 @@ Lead 開發
 - **深入提案**：依對象選 20 頁（部門主管）或 30 頁（CIO/策略長）。
 - **客戶說「太貴 / 我們已經有 ChatGPT / 資料安全嗎」**：翻 `SALES_FAQ.md` 找標準答案。
 - **要做視覺**：把 `VISUAL_ASSETS_SPEC.md` 交給設計師產出實際檔案。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK.md`](../00_Overview/AI_NATIVE_LIVING_BOOK.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | **AI-Native Living Book + 三引擎是新時代的銷售賣點** —— 客戶導入後同時擁有「方法論 + AI 共讀夥伴」；30 頁顧問版 deck 可講三引擎分工（前線 Antigravity / 稽核 Codex / 戰略 Claude Code）的差異化 |
+| 🎓 **成熟理論（7 大支柱）** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **30 頁顧問版 deck 引用 Rosemann (QUT) + 7 大理論支柱**作為差異化（學術同行、CIO、董事會用）；`SALES_FAQ.md` 用 7 大理論依據回答「跟 Big-4 / McKinsey 差別在哪」|
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](../02_Course_Design/) | **20 頁標準 deck 含各級課程 teaser**（L1-L5 路徑、PoC 場景、Stage Gate）；ONE_PAGER 含 L1-L5 地圖；簡報引用 `02` 的課程比例與深度課綱 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **所有銷售素材導向「填問卷進診斷」即啟動 Phase A**；20/30 頁 deck 含三階段合約模型（Phase A 2W + Phase B 4W + Phase C 24M）+ 季度雷達回看；EXECUTIVE_DECK 含 8 階段故事弧 |
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | **銷售 deck 主體為純自製**（不引用第三方）；`SALES_FAQ.md` 引用 7 大理論依據；致謝引用 Prof. Rosemann (QUT)；客戶問「為什麼用這些工具」可指向 90_References §2 致敬名單看每張卡 |

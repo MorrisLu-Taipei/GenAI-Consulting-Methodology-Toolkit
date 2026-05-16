@@ -120,3 +120,17 @@ The English-version siblings of the files above.
 - **Proposal substantiation**: show a manufacturing client `SAMPLE_CLIENT_CASE_MANUFACTURING.md` to demonstrate the full adoption picture.
 - **Cross-level expectation management**: a client points at an L5 case → use the index to point out their L-level and the prerequisite courses needed.
 - **Write a new case**: after a project ends, follow `CASE_WRITING_STANDARD.md` + `CASE_CONTROL_TABLES.md` to write it up as a new sample case.
+
+---
+
+## ⭐ Cross-Topic Quick References: 5 Core Themes, Where to Find Them
+
+The whole methodology has 5 main arteries running through every directory. How this directory connects to each:
+
+| Cross-Topic | Primary location | How this directory connects |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + three-engine co-reading** | Root [`README_EN.md`](../README_EN.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | Cases can be run via Claude Code Tier 2 workflows: `/simulate-engagement` for a full 6-week engagement simulation, `/parallel-perspectives` for 6-stakeholder views, `/devil-pair-debate` to debate the value-laden assumptions of a case |
+| 🎓 **Academic foundation (7 pillars)** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | The ROI narrative in cases maps to **Real Options** (why Phase 1 with NPV ≈ 0 is still worth investing); the To-Be design in cases maps to **Task-Technology Fit** (which tasks should reach L4, which should stop at L2) |
+| 📚 **L1-L5 course education** | [`../02_Course_Design/`](../02_Course_Design/) | The LLM Apps Case Index is classified by L-level and can be picked directly as PoCs; `POC_SCENARIO_SPECS.md` + `N8N_WORKFLOW_TEMPLATES.md` turn cases into L3 in-class hands-on topics |
+| 🔁 **Consulting / 8 stages + Phase A→B→C closed-loop** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **Cases are the "self-identification" material for Phase A Discovery** (so the client says "yes, that's exactly us"); industry Best Practice maps to eight-stage Stage 3; the 7 complete sample cases serve as templates for the Phase B consulting report |
+| 📖 **References / acknowledgments** | [`../90_References/`](../90_References/) §2 acknowledgments | LLM Apps Case Index sources: `Shubhamsaboo/awesome-llm-apps` (Apache-2.0) + `patchy631/ai-engineering-hub` (MIT); full appreciation cards in [`../90_References/README_EN.md`](../90_References/README_EN.md) §2.4; ClawTeam Walkthrough comes from `HKUDS/ClawTeam` (MIT) |

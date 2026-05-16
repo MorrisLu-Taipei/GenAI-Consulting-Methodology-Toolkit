@@ -103,3 +103,17 @@ L1-L5 每一階段的 Definition of Done、Deliverables、Evidence、Owner、Sta
 - **課前準備**：開課前 1 週發 25 題版給客戶主管群 → 顧問拿到六構面雷達，調整課程比例。
 - **顧問訪談前**：IT/AI Champion 填 50 題 + 公司屬性問卷 → 顧問訪談前 1 小時收到完整 Profile Bundle 當 brief。
 - **要規模化**：用 `AI_DIAGNOSIS_SHEETS_SCHEMA.md` 在客戶 n8n 部署自動診斷流程，顧問只做最後解讀。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`../AI_NATIVE_LIVING_BOOK.md`](../00_Overview/AI_NATIVE_LIVING_BOOK.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | 問卷可由 Antigravity 跑 `/diagnose` 互動填寫；AI_DIAGNOSIS_SHEETS_SCHEMA 把問卷自動化（n8n + Google Sheets + Notion）；診斷結果可進 Codex 跑 `/consistency-review` 跨檔對齊 |
+| 🎓 **成熟理論（7 大支柱）** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **本目錄的 [`BARS_RUBRICS.md`](BARS_RUBRICS.md) 對應 inter-rater reliability**（Smith & Kendall 1963）；診斷六構面對應 Capability Maturity（Rosemann/CMMI）+ Absorptive Capacity（Cohen & Levinthal 1990）+ Sociotechnical Trust |
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](../02_Course_Design/) | **診斷的 L 級判定 + 六構面雷達 + 課程比例建議**直接決定 02 的課程配置 —— 是 02 的「課前必填」 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **診斷 = Phase A 的核心輸入**（Stage 1 現況掌握 + Stage 2 Reference Model 雷達簽署）；Phase C 季度雷達回看就是「**重新跑診斷**」—— 結構真的變圓了嗎？診斷既是入口、也是閉環的反證機制 |
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | 評分模型參考 BARS（Smith & Kendall 1963）+ 7 大理論支柱；Pilot Study 18-24 月實證計畫見 [`../90_References/PILOT_STUDY_PROTOCOL.md`](../90_References/PILOT_STUDY_PROTOCOL.md)（驗證問卷的 Cohen's κ ≥ 0.60 目標）|

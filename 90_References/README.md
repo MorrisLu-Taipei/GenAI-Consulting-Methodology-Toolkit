@@ -34,11 +34,11 @@
 - **為什麼欣賞**：跨系統自動化的「**樂高積木**」—— 顧問可在 1-2 天內串出 PoC 給客戶看效果；社群活躍、模板豐富、商業模式健康。**可自架是企業導入的關鍵**（資料不外流）。Tiger AI 作者是 n8n Taipei 大使，社群第一手經驗。
 - **我們在哪裡用**：**L3 Workflow Automation 的核心引擎** —— [`../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) 完整課綱；35 個可實作 PoC 規格在 [`../02_Course_Design/POC_SCENARIO_SPECS.md`](../02_Course_Design/POC_SCENARIO_SPECS.md)；30 個 workflow JSON 骨架在 [`../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`](../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md)；影片學習筆記在 [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)。
 
-#### 🎯 **Hermes Agent**（內部知識型 Agent 設計範式，非公開 repo）
+#### 🎯 [`nousresearch/hermes-agent`](https://github.com/nousresearch/hermes-agent)（Nous Research，授權見上游 LICENSE）
 
-- **是什麼**：知識型 Autonomous Agent 的內部參考實作 —— **Wiki 職能地圖記憶 + ingest / query / update 三段式知識複利 + 排程任務 + Gate 4A-4E 階段驗收 + HITL 人類審核**。設計目標：可被驗證的「全自動 AI Agent 超級助理」。
-- **為什麼放這裡**：雖然不是 GitHub 公開專案，但其設計範式 —— **「知識型 Agent 七大設計原則」**（白天輕夜間重 / 知識複利閉環 / P1>P2 / 寫讀同源 / 工具與 LLM 分工 / 失敗驅動學習 / 為何不只用 RAG）—— 是 L4 課程的概念底座，必須在致敬名單清楚揭露來源與邊界。
-- **我們在哪裡用**：**L4 Autonomous Agent 課程的設計骨幹** —— [`../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) §2 完整介紹七大設計原則。**重要邊界**：本課程**只取概念與設計範式，不含內部程式碼、工具腳本、設定細節或專屬實作**。學員上線時應依自身環境設計實作。
+- **是什麼**：Nous Research 開源的 **Knowledge-grade Autonomous Agent** 參考實作 —— **Wiki 職能地圖記憶 + ingest / query / update 三段式知識複利 + 排程任務 + Gate 4A-4E 階段驗收 + HITL 人類審核**。設計目標：可被驗證的「全自動 AI Agent 超級助理」。
+- **為什麼欣賞**：把「**自主 Agent + 知識管理**」整合成可被驗證的設計範式 —— **「知識型 Agent 七大設計原則」**（白天輕夜間重 / 知識複利閉環 / P1>P2 / 寫讀同源 / 工具與 LLM 分工 / 失敗驅動學習 / 為何不只用 RAG）對 L4 Agent 設計提供完整的學習框架。Nous Research 在開源 LLM 與 Agent 領域的長期貢獻，是社群信任的來源之一。
+- **我們在哪裡用**：**L4 Autonomous Agent 課程的設計骨幹** —— [`../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) §2 完整介紹七大設計原則。**邊界**：本課程**只取概念與設計範式，不重製原始碼、不做 fork**；學員上線時應依自身環境設計實作。
 
 #### 🎯 [`HKUDS/ClawTeam`](https://github.com/HKUDS/ClawTeam)（HKUDS, MIT）
 

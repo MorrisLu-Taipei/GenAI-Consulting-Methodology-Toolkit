@@ -17,8 +17,11 @@
 | --- | --- |
 | 三段式服務流程 | **交付（Deliver）** + 把三段都包進「生意」的營運外框 |
 | 八階段顧問結構 | 對應八階段的**交付與驗收**；接案生命週期是八階段的「商業外殼」 |
+| **3 階段合約模型（顧問閉環）** | **Phase A 診斷 2W → Phase B 策略 4W → Phase C 落地 24M + 季度雷達回看** —— 接案生命週期的 Delivery 段，就是 Phase A→B→C 的閉環 |
 | L1-L5 成熟度 | 交付包驗收涵蓋 L1-L5 各級的交付物 |
 | 接案生命週期 | **本目錄就是接案生命週期（Sales → Delivery → Support）的本體** |
+
+> 🔁 **接案生命週期 ↔ 顧問閉環**：本目錄的「Delivery 段」**不是 6 週 marathon**，而是 [`../03_Consulting_Report/README.md`](../03_Consulting_Report/README.md) §4 與 [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) §6 描述的**閉環**：Phase A 中期評估報告簽署 → Gate A → Phase B 完整報告 → Gate B → Phase C 24 個月實作 + **每季雷達回看**（科學管理的反證機制）。Support 段則對應 Phase C 之後的 Retainer / Maintenance。
 
 ## 三、目標與效益
 
@@ -101,3 +104,17 @@
 - **交付給客戶**：用 `DELIVERY_PACKAGE_AND_ACCEPTANCE.md` 逐項驗收 + `BUSINESS_DOCUMENT_TEMPLATES.md` 的交接文件。
 - **客戶不斷加需求**：用 `PRICING_AND_RISK.md` 的範圍蔓延緩解 + `BUSINESS_DOCUMENT_TEMPLATES.md` 的變更單。
 - **結案**：跑 `DELIVERY_CHECKLISTS.md` 的 offboarding 清單。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`AI_NATIVE_LIVING_BOOK.md`](../00_Overview/AI_NATIVE_LIVING_BOOK.md) ｜ [`07_AI_Contributions/`](../07_AI_Contributions/) | 接案中可調動三引擎分工：Antigravity 跑客戶會議 / Codex 稽核 SOW 與報告草稿 / Claude Code 跑 Phase B 模擬與多視角檢視 |
+| 🎓 **成熟理論（7 大支柱）** | [`ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | 7 Pillars 的「資安優先 / HITL」對應 Sociotechnical Systems & Trust（Bostrom / Dietvorst / Glikson）；範圍蔓延 / 跳級失敗對應 Real Options + Absorptive Capacity 失敗模式 |
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](../02_Course_Design/) ｜ [`L1_L5_COMPLETE_COURSE_PLAN.md`](../02_Course_Design/L1_L5_COMPLETE_COURSE_PLAN.md) | 交付包驗收涵蓋 L1-L5 各級的可驗收交付物；課中產出物進入 [`DELIVERY_PACKAGE_AND_ACCEPTANCE.md`](DELIVERY_PACKAGE_AND_ACCEPTANCE.md) 逐項驗收 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **本目錄就是顧問閉環的「商業外殼」** —— 接案生命週期 Sales→Delivery→Support 對應 Phase A→B→C + 季度雷達回看 |
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | 接案營運層引用 Mirza Iqbal / next8n.com 的 Workflow Delivery Framework（MIT），詳見 [`../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`](../90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md) |

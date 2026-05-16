@@ -120,3 +120,17 @@ Discovery 階段
 - **提案佐證**：給製造業客戶看 `SAMPLE_CLIENT_CASE_MANUFACTURING.md`，展示完整導入全貌。
 - **跨級期待管理**：客戶指 L5 案例 → 用索引指出其 L 級與所需的前置課程。
 - **寫新案例**：專案結束後依 `CASE_WRITING_STANDARD.md` + `CASE_CONTROL_TABLES.md` 把它寫成新的 sample case。
+
+---
+
+## ⭐ 跨主題對照：5 個核心主題去哪查
+
+整本方法論有 5 條主動脈，貫穿所有目錄。本目錄與它們的關聯如下：
+
+| 跨主題 | 主檔案位置 | 本目錄如何接 |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + 三引擎共讀** | 根 [`README.md`](../README.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK.md`](../00_Overview/AI_NATIVE_LIVING_BOOK.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | 案例可用 Claude Code Tier 2 工作流跑：`/simulate-engagement` 模擬完整 6 週顧問案、`/parallel-perspectives` 6 利害關係人視角、`/devil-pair-debate` 辯論案例的價值觀預設 |
+| 🎓 **成熟理論（7 大支柱）** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | 案例的 ROI 論述對應 **Real Options**（為何 Phase 1 看似 NPV ≈ 0 仍值得投）；案例的 To-Be 設計對應 **Task-Technology Fit**（哪些任務該到 L4、哪些該停在 L2）|
+| 📚 **L1-L5 課程教育** | [`../02_Course_Design/`](../02_Course_Design/) | LLM Apps Case Index 依 L 級分類，可直接挑為 PoC；`POC_SCENARIO_SPECS.md` + `N8N_WORKFLOW_TEMPLATES.md` 把案例變成 L3 課堂實作題 |
+| 🔁 **顧問方案 / 8 階段 + Phase A→B→C 閉環** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **案例是 Phase A Discovery 的「對號入座」素材**（讓客戶說「對，我就是這樣」）；產業 Best Practice 對標到八階段 Stage 3；7 個完整 sample case 是 Phase B 顧問報告的範本 |
+| 📖 **參考資料 / 致敬名單** | [`../90_References/`](../90_References/) §2 致敬名單 | LLM Apps Case Index 來源：`Shubhamsaboo/awesome-llm-apps`（Apache-2.0）+ `patchy631/ai-engineering-hub`（MIT），完整致敬卡見 [`../90_References/README.md`](../90_References/README.md) §2.4；ClawTeam Walkthrough 來自 `HKUDS/ClawTeam`（MIT）|

@@ -124,3 +124,17 @@ The English-version siblings of the files above.
 - **Run the L3 course**: use the first half of `L3_N8N_TIGERAI_COURSE_PLAN.md` to teach concepts, the second half to teach AG+Skill Pack; pick practice topics from `POC_SCENARIO_SPECS.md` and import skeletons from `N8N_WORKFLOW_TEMPLATES.md`.
 - **Learners finding practice topics**: by their own department and L-level, pick from `POC_SCENARIO_SPECS.md` or `04_Scenarios/LLM_APPS_CASE_INDEX.md`.
 - **Acceptance**: after each level, pass the acceptance gate against `01_Assessment/AI_MATURITY_DELIVERABLES_AND_EVIDENCE_MATRIX.md`.
+
+---
+
+## ⭐ Cross-Topic Quick References: 5 Core Themes, Where to Find Them
+
+The whole methodology has 5 main arteries running through every directory. How this directory connects to each:
+
+| Cross-Topic | Primary location | How this directory connects |
+| --- | --- | --- |
+| 🌟 **AI-Native Living Book + three-engine co-reading** | Root [`README_EN.md`](../README_EN.md) §🌟 ｜ [`../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](../00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) ｜ [`../07_AI_Contributions/`](../07_AI_Contributions/) | **L2 Knowledge Codification teaches the three engines directly** — Antigravity / Codex / Claude Code are the L2 learner's tools; in class they can be invoked for demos, Skill encapsulation, cross-file testing |
+| 🎓 **Academic foundation (7 pillars)** | [`../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](../00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) ｜ [`../90_References/FAILURE_PATTERNS.md`](../90_References/FAILURE_PATTERNS.md) | **L1-L5's five-layer architecture follows Capability Maturity (Rosemann/CMMI)**; the no-level-jumping rule follows Absorptive Capacity (Cohen & Levinthal 1990); L4 Hermes's seven design principles align with Sociotechnical & knowledge compounding |
+| 📚 **L1-L5 course education** | [`../02_Course_Design/`](本目錄) ｜ [`L1_L5_COMPLETE_COURSE_PLAN.md`](L1_L5_COMPLETE_COURSE_PLAN.md) | **This directory IS the body of L1-L5 course education** — 5 standalone deep syllabi (L1 OPENWEBUI / L2 ANTIGRAVITY / L3 N8N / L4 HERMES / L5 CLAWTEAM) + COURSE_MODULE_MATRIX ratio configuration + POC_SCENARIO_SPECS 35 hands-on topics |
+| 🔁 **Consulting / 8 stages + Phase A→B→C closed-loop** | [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [`../03_Consulting_Report/`](../03_Consulting_Report/) | **In-class outputs flow into the Phase B report** (becoming the "course observations" chapter) + Phase C quarterly radar tracking; each level's Stage Gate maps to the consulting closed-loop's Gate A/B/C |
+| 📖 **References / acknowledgments** | [`../90_References/`](../90_References/) §2 acknowledgments | **L1 → OpenWebUI** ｜ **L2 → Antigravity / Codex / Claude Code + agency-agents** ｜ **L3 → n8n + TigerAI-n8n-Skill-Pack** ｜ **L4 → nousresearch/hermes-agent** ｜ **L5 → HKUDS/ClawTeam**. Full appreciation cards in [`../90_References/README_EN.md`](../90_References/README_EN.md) §2.1-2.3 |
