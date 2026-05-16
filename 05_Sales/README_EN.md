@@ -1,6 +1,6 @@
 # 05 Sales — Outbound Sales Material
 
-> 🌐 中文版本 / Chinese version: [README.md](README.md)
+> 🌐 Language: [繁體中文](README.md) ｜ English ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
 
 ## 1. Purpose of This Directory
 

@@ -1,5 +1,7 @@
 # 05 Sales — 對外銷售素材
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 ## 一、本目錄定位
 
 本目錄是把方法論**變成生意**的第一塊：**對外銷售素材**。
