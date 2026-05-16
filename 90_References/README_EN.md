@@ -22,15 +22,30 @@ Organized by usage layer into four categories: **core platforms / consulting-fra
 
 These aren't "cited material" — they are **the platforms L1-L5 courses run on**. Without them, this methodology has no place to land.
 
-| # | Platform | Role in this methodology | Upstream |
-|---|---|---|---|
-| 1 | **OpenWebUI** | The enterprise AI entry point for L1 Controlled AI Access (personal chat workspaces, accounts & permissions) | <https://github.com/open-webui/open-webui> |
-| 2 | **n8n** | The core engine for L3 Workflow Automation (cross-system integration + Sub-workflow Library) | <https://github.com/n8n-io/n8n> |
-| 3 | **Hermes Agent** | Reference implementation for L4 Autonomous Agent (Wiki ingest/query/update + Gate 4A-4E) | Internal knowledge-grade Agent design pattern (course only takes the concept, not the code) |
-| 4 | **ClawTeam** | The Agentic Team framework for L5 Multi-Agent Organization | <https://github.com/HKUDS/ClawTeam> (HKUDS, MIT) |
+#### 🎯 [`open-webui/open-webui`](https://github.com/open-webui/open-webui) (open source — see upstream LICENSE)
 
-➜ Video learning notes: [`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md) ｜ [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)
-➜ ClawTeam full citation: [`CLAWTEAM_REFERENCE_EN.md`](CLAWTEAM_REFERENCE_EN.md)
+- **What it is**: an open-source, self-hostable enterprise AI chat interface. Supports multiple LLM providers (OpenAI / Anthropic / Ollama / OpenRouter / Azure, etc.), accounts / groups / roles / permissions, personal chat workspaces, model controls, Pipelines, function calling, knowledge bases, RAG, image / audio / file upload.
+- **Why we appreciate it**: one of the few open-source solutions that turns "**the enterprise's internal AI chat entry**" into "**one-click installable, fully on-prem, permission-tiered, auditable**." Lets enterprises try LLMs without sending data to SaaS — critical for on-prem deployment in manufacturing / healthcare / government and other high-sensitivity environments. Active community, fast version evolution.
+- **Where we use it**: **the core platform of L1 Controlled AI Access** — [`../02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](../02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md) full course plan (per-employee login, personal chat workspace, Admin Panel, accounts / roles / groups / permissions, model control, data norms); video learning notes in [`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md).
+
+#### 🎯 [`n8n-io/n8n`](https://github.com/n8n-io/n8n) (Sustainable Use License — see upstream LICENSE.md)
+
+- **What it is**: an open-source workflow automation platform. Visual editor, 1000+ integrations (Gmail, Sheets, Notion, Slack, CRM, API, ERP, databases, webhooks, custom nodes), Sub-workflow Library, Data Tables, execution logs, error handling, scheduled triggers, AI / LangChain nodes. Supports self-host and cloud.
+- **Why we appreciate it**: the "**LEGO bricks**" of cross-system automation — consultants can wire up a PoC in 1-2 days for client demos. Active community, rich templates, healthy commercial model. **Self-hosting is critical for enterprise adoption** (data stays internal). The methodology author is also the n8n Taipei Ambassador, with first-hand community experience.
+- **Where we use it**: **the core engine of L3 Workflow Automation** — [`../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) full course plan; 35 implementable PoC specs in [`../02_Course_Design/POC_SCENARIO_SPECS.md`](../02_Course_Design/POC_SCENARIO_SPECS.md); 30 workflow JSON skeletons in [`../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`](../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md); video learning notes in [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md).
+
+#### 🎯 **Hermes Agent** (internal knowledge-grade Agent design pattern, not a public repo)
+
+- **What it is**: an internal reference implementation of a knowledge-grade Autonomous Agent — **Wiki capability-map memory + ingest / query / update three-step knowledge compounding + scheduled tasks + Gate 4A-4E acceptance + HITL human review**. Design goal: a verifiable "fully autonomous AI Agent super-assistant."
+- **Why it sits here**: although not a public GitHub project, its design pattern — **the "seven principles of knowledge-grade Agent design"** (light-day-heavy-night / knowledge-compounding closed loop / P1>P2 / write-read same source / tool-vs-LLM division / failure-driven learning / why not just RAG) — is the conceptual base of L4 courses, and must be transparently disclosed in the acknowledgments roll with clear source and boundary.
+- **Where we use it**: **the design backbone of the L4 Autonomous Agent course** — [`../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) §2 walks through the seven principles. **Critical boundary**: the course **only takes the concepts and design patterns — no internal code, tooling scripts, configuration, or proprietary implementation**. Learners must design their own implementation per their environment.
+
+#### 🎯 [`HKUDS/ClawTeam`](https://github.com/HKUDS/ClawTeam) (HKUDS, MIT)
+
+- **What it is**: an open-source **Multi-Agent collaboration framework** from the Hong Kong University Data Science Lab (HKUDS). Five-layer architecture (Team / Workspace / Task / Inbox / Transport), with each agent given an isolated workspace via git worktree; CLI-driven; ships with three reference scenarios (software engineering / research analysis / document production).
+- **Why we appreciate it**: pushes "Multi-Agent team collaboration" from demo-scale to "**real-workflow auditable collaboration**" — every agent has its own worktree, its own inbox, its own transport mechanism; not a chat-style toy demo, but a design closer to real organizational division of labor. Academic background (HKUDS) + MIT license = enterprises can confidently reference it.
+- **Where we use it**: **the implementation platform for L5 Multi-Agent Organization** — [`../02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`](../02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md) full course plan (5-layer architecture, git worktree, CLI, three localized scenarios, Gate 5); a manufacturing QA Team cross-department Agent collaboration walkthrough in [`../04_Scenarios/CLAWTEAM_WALKTHROUGH.md`](../04_Scenarios/CLAWTEAM_WALKTHROUGH.md).
+- **Full citation**: [`CLAWTEAM_REFERENCE_EN.md`](CLAWTEAM_REFERENCE_EN.md)
 
 ### 2.2 Consulting Framework Class (impacts 03_Consulting_Report)
 

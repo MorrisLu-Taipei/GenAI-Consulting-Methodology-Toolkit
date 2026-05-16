@@ -22,15 +22,30 @@
 
 這些不是「被引用的素材」，而是 **L1-L5 課程直接運行其上的平台**。沒有它們，這套方法論落不了地。
 
-| # | 平台 | 在本方法論的角色 | 上游連結 |
-|---|---|---|---|
-| 1 | **OpenWebUI** | L1 Controlled AI Access 的企業級 AI 入口（個人聊天區、帳號權限）| <https://github.com/open-webui/open-webui> |
-| 2 | **n8n** | L3 Workflow Automation 的核心引擎（跨系統串接 + Sub-workflow Library）| <https://github.com/n8n-io/n8n> |
-| 3 | **Hermes Agent** | L4 Autonomous Agent 的參考實作（Wiki ingest/query/update + Gate 4A-4E）| 內部知識型 Agent 設計範式（課程僅取概念，不含程式碼）|
-| 4 | **ClawTeam** | L5 Multi-Agent Organization 的 Agentic Team 框架 | <https://github.com/HKUDS/ClawTeam>（HKUDS, MIT）|
+#### 🎯 [`open-webui/open-webui`](https://github.com/open-webui/open-webui)（開源，授權見上游 LICENSE）
 
-➜ 影片學習筆記：[`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md) ｜ [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)
-➜ ClawTeam 完整引用：[`CLAWTEAM_REFERENCE.md`](CLAWTEAM_REFERENCE.md)
+- **是什麼**：開源、可自架（self-hosted）的企業級 AI 對話介面。支援多種 LLM provider（OpenAI / Anthropic / Ollama / OpenRouter / Azure 等）、帳號 / 群組 / 角色 / 權限、個人聊天區、模型控管、Pipelines、Function Calling、知識庫、RAG、影像、音訊、檔案上傳。
+- **為什麼欣賞**：少數把「**企業內部 AI 對話入口**」整套做成「**一鍵可裝、純地端、權限分層、可審計**」的開源方案。讓企業在試 LLM 時不必把資料丟給 SaaS，這是地端部署、製造業 / 醫療 / 政府等高敏感資料企業的關鍵。社群活躍、版本演化快。
+- **我們在哪裡用**：**L1 Controlled AI Access 的核心平台** —— [`../02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](../02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md) 完整課綱（每人登入、個人聊天區、Admin Panel、帳號 / 角色 / 群組 / 權限、模型控管、資料規範）；影片學習筆記在 [`OPENWEBUI_VIDEO_LEARNING_NOTES.md`](OPENWEBUI_VIDEO_LEARNING_NOTES.md)。
+
+#### 🎯 [`n8n-io/n8n`](https://github.com/n8n-io/n8n)（Sustainable Use License，授權見上游 LICENSE.md）
+
+- **是什麼**：開源的工作流程自動化平台。視覺化編輯器、1000+ integrations（Gmail、Sheets、Notion、Slack、CRM、API、ERP、資料庫、Webhook、自家函式庫等）、Sub-workflow Library、Data Tables、執行紀錄、錯誤處理、排程觸發、AI / LangChain 節點。支援 self-host 與 cloud。
+- **為什麼欣賞**：跨系統自動化的「**樂高積木**」—— 顧問可在 1-2 天內串出 PoC 給客戶看效果；社群活躍、模板豐富、商業模式健康。**可自架是企業導入的關鍵**（資料不外流）。Tiger AI 作者是 n8n Taipei 大使，社群第一手經驗。
+- **我們在哪裡用**：**L3 Workflow Automation 的核心引擎** —— [`../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md`](../02_Course_Design/L3_N8N_TIGERAI_COURSE_PLAN.md) 完整課綱；35 個可實作 PoC 規格在 [`../02_Course_Design/POC_SCENARIO_SPECS.md`](../02_Course_Design/POC_SCENARIO_SPECS.md)；30 個 workflow JSON 骨架在 [`../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md`](../02_Course_Design/N8N_WORKFLOW_TEMPLATES.md)；影片學習筆記在 [`TIGERAI_VIDEO_LEARNING_NOTES.md`](TIGERAI_VIDEO_LEARNING_NOTES.md)。
+
+#### 🎯 **Hermes Agent**（內部知識型 Agent 設計範式，非公開 repo）
+
+- **是什麼**：知識型 Autonomous Agent 的內部參考實作 —— **Wiki 職能地圖記憶 + ingest / query / update 三段式知識複利 + 排程任務 + Gate 4A-4E 階段驗收 + HITL 人類審核**。設計目標：可被驗證的「全自動 AI Agent 超級助理」。
+- **為什麼放這裡**：雖然不是 GitHub 公開專案，但其設計範式 —— **「知識型 Agent 七大設計原則」**（白天輕夜間重 / 知識複利閉環 / P1>P2 / 寫讀同源 / 工具與 LLM 分工 / 失敗驅動學習 / 為何不只用 RAG）—— 是 L4 課程的概念底座，必須在致敬名單清楚揭露來源與邊界。
+- **我們在哪裡用**：**L4 Autonomous Agent 課程的設計骨幹** —— [`../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md`](../02_Course_Design/L4_HERMES_AGENT_COURSE_PLAN.md) §2 完整介紹七大設計原則。**重要邊界**：本課程**只取概念與設計範式，不含內部程式碼、工具腳本、設定細節或專屬實作**。學員上線時應依自身環境設計實作。
+
+#### 🎯 [`HKUDS/ClawTeam`](https://github.com/HKUDS/ClawTeam)（HKUDS, MIT）
+
+- **是什麼**：香港大學資料科學實驗室（HKUDS）開源的 **Multi-Agent 協作框架**。五層架構（Team / Workspace / Task / Inbox / Transport），使用 git worktree 為每個 agent 提供獨立工作空間，CLI 上機；附三個範例情境（軟體開發 / 研究分析 / 文檔產出）。
+- **為什麼欣賞**：把「Multi-Agent 團隊協作」從 demo 規模 push 到「**真實工作流的可審計協作**」—— 每個 agent 有獨立 worktree、有 inbox 通訊、有 transport 機制；不是純 chat-style 的 toy demo，而是接近真實組織分工的設計。學術研究背景（HKUDS）+ MIT 授權，企業可放心參考。
+- **我們在哪裡用**：**L5 Multi-Agent Organization 的實作平台** —— [`../02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`](../02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md) 完整課綱（5 層架構、git worktree、CLI 上機、三大在地化情境、Gate 5）；製造業 QA Team 跨部門 Agent 協作 walkthrough 在 [`../04_Scenarios/CLAWTEAM_WALKTHROUGH.md`](../04_Scenarios/CLAWTEAM_WALKTHROUGH.md)。
+- **完整引用**：[`CLAWTEAM_REFERENCE.md`](CLAWTEAM_REFERENCE.md)
 
 ### 2.2 顧問框架類（影響 03_Consulting_Report）
 
