@@ -1,5 +1,7 @@
 # 02 Course Design — L1-L5 課程設計
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 ## 一、本目錄定位
 
 本目錄是三段式服務流程的**第二段：建置（Build）**。診斷（`01`）告訴你「客戶在哪一級、缺什麼」；本目錄就是**把缺口補起來的實際課程**。
