@@ -1,6 +1,6 @@
 # GenAI Consulting Methodology Toolkit
 
-語言選單：繁體中文 | [English](README_EN.md)
+語言選單：繁體中文 | [English](README_EN.md) | [ภาษาไทย](README_TH.md)
 
 企業 AI 轉型成熟度診斷與導入方法論工具包。
 
