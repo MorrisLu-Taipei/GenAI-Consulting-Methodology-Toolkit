@@ -1,5 +1,7 @@
 # 04 Scenarios — Scenarios, Cases & Case Index
 
+> 🌐 Language: [繁體中文](README.md) ｜ English ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 > ⚠️ **Important Academic Integrity Disclaimer**
 >
 > **All 7 SAMPLE_CLIENT_CASE_*.md cases (Manufacturing, Hospital, Marketing, B2B, Financial, Government, Education) and any named story protagonists (e.g., "Ming" in [`../00_Overview/CLIENT_JOURNEY_STORY_EN.md`](../00_Overview/CLIENT_JOURNEY_STORY_EN.md)) are AI-generated fictional cases, NOT real client data.**

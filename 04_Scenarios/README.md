@@ -1,5 +1,7 @@
 # 04 Scenarios — 情境、案例與案例索引
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 > ⚠️ **重要學術誠信聲明 / Important Academic Integrity Disclaimer**
 >
 > **本目錄中所有 7 個 SAMPLE_CLIENT_CASE_*.md 案例（製造業、醫院、行銷、B2B、金融、政府、教育）以及任何具名的故事主角（如 `00_Overview/CLIENT_JOURNEY_STORY.md` 阿明的故事），皆為 AI 模擬產生的虛構案例，並非真實客戶資料。**
