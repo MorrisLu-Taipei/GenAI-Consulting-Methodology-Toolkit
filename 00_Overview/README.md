@@ -1,5 +1,7 @@
 # 00 Overview — 方案總論與入口
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 ## 一、本目錄定位
 
 本目錄是整套 **AI 顧問方法論工具包**的**唯一入口**。它不放任何「工具」或「交付物」，只放兩件事：**方法論的故事**，以及**方法論的狀態**。
