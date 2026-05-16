@@ -1,6 +1,6 @@
 # GenAI Consulting Methodology Toolkit
 
-ภาษา: [繁體中文](README.md) | [English](README_EN.md) | ภาษาไทย
+ภาษา: [繁體中文](README.md) | [English](README_EN.md) | ภาษาไทย | [Deutsch](README_DE.md) | [Français](README_FR.md) | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
 ชุดเครื่องมือสำหรับการประเมินความพร้อมและการนำ AI ไปใช้ในการเปลี่ยนผ่านองค์กร (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit)
 
