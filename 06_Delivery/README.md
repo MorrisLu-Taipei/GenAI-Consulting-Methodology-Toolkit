@@ -1,5 +1,7 @@
 # 06 Delivery — 交付驗收與接案營運
 
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+
 ## 一、本目錄定位
 
 本目錄有兩個層次，合起來解決一件事：**怎麼把顧問案專業地、可規模化地「做成生意」並「交付出去」。**
