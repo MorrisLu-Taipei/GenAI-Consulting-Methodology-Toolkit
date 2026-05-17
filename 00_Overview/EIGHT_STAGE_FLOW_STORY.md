@@ -1,6 +1,6 @@
 # 八階段顧問流程：完整情境故事與閉環設計
 
-> 🌐 English version: [EIGHT_STAGE_FLOW_STORY_EN.md](EIGHT_STAGE_FLOW_STORY_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](EIGHT_STAGE_FLOW_STORY_EN.md) ｜ [Deutsch](EIGHT_STAGE_FLOW_STORY_DE.md) ｜ [Français](EIGHT_STAGE_FLOW_STORY_FR.md) ｜ [Español](EIGHT_STAGE_FLOW_STORY_ES.md) ｜ [日本語](EIGHT_STAGE_FLOW_STORY_JA.md) ｜ [한국어](EIGHT_STAGE_FLOW_STORY_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
