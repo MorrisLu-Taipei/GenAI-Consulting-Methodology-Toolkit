@@ -32,7 +32,7 @@ Traditional methodology development relies on single-author cycles spanning year
 
 ### 1.1 Motivation
 
-Methodology engineering -- the disciplined construction, validation, and dissemination of consulting frameworks, maturity models, and process reference architectures -- has historically been a slow, single-author craft. Canonical examples such as the Capability Maturity Model [Paulk et al. 1993], the Business Process Management Maturity Model [Rosemann & de Bruin 2005], and the Process Classification Framework [APQC 2024] each required multi-year cycles by small expert teams, were published as static documents (PDFs, journal articles), and consumed by readers in a fundamentally passive mode: read, then attempt application.
+Methodology engineering -- the disciplined construction, validation, and dissemination of consulting frameworks, maturity models, and process reference architectures -- has historically been a slow, single-author craft. Canonical examples such as the Capability Maturity Model [Paulk et al. 1993], the Business Process Management Maturity Model [Rosemann & de Bruin 2005], and the Process Classification Framework [APQC 2022] each required multi-year cycles by small expert teams, were published as static documents (PDFs, journal articles), and consumed by readers in a fundamentally passive mode: read, then attempt application.
 
 Three structural inefficiencies follow from this craft model:
 
@@ -40,7 +40,7 @@ Three structural inefficiencies follow from this craft model:
 2. **Single-author bias.** Even excellent methodologies inherit the blind spots of their lead author. Adversarial review happens at peer-review time, often years after the bias has been baked into the artifact's structure.
 3. **Reader passivity.** A methodology consumed as a static PDF requires substantial human translation labor to apply to a specific organization. The methodology cannot *answer questions* about itself.
 
-Simultaneously, a new class of production environment has emerged: **AI-integrated development environments (AI IDEs)** such as Claude Code [Anthropic 2025], Cursor [Anysphere 2024], Google Antigravity [Google 2025], and OpenAI Codex CLI [OpenAI 2024]. These tools fuse large language model (LLM) inference with file-system, version-control, and shell-command primitives, making them general-purpose *cognitive infrastructure* rather than mere code editors.
+Simultaneously, a new class of production environment has emerged: **AI-integrated development environments (AI IDEs)** such as Claude Code [Anthropic 2025], Cursor [Anysphere 2026], Google Antigravity [Google 2025], and OpenAI Codex CLI [OpenAI 2025]. These tools fuse large language model (LLM) inference with file-system, version-control, and shell-command primitives, making them general-purpose *cognitive infrastructure* rather than mere code editors.
 
 ### 1.2 Research Questions
 
@@ -69,7 +69,7 @@ The remainder of this paper is structured as follows. Section 2 positions the wo
 
 The systematic construction of methodologies has been formalized through the **Design Science Research (DSR)** paradigm [Hevner et al. 2004; Peffers et al. 2007]. Hevner's seven guidelines -- problem relevance, design as artifact, design evaluation, research contributions, research rigor, design as search process, and communication of research -- provide the canonical lens through which IT artifacts (including methodologies) are evaluated as scholarly contributions.
 
-Within DSR, methodology development is a recognized class of artifact [March & Smith 1995]. Notable subcategories include **maturity model development**, for which de Bruin et al. [2005] and Becker et al. [2009] articulate procedural standards. The present work uses DSR as its primary evaluation lens (Section 9) while introducing a *second-order* design science contribution: the artifact under study is not only a methodology, but a methodology *about how to construct methodologies in the LLM era*.
+Within DSR, methodology development is a recognized class of artifact [March & Smith 1995]. Notable subcategories include **maturity model development**, for which de Bruin and Rosemann [2005] and Becker et al. [2009] articulate procedural standards. The present work uses DSR as its primary evaluation lens (Section 9) while introducing a *second-order* design science contribution: the artifact under study is not only a methodology, but a methodology *about how to construct methodologies in the LLM era*.
 
 ### 2.2 Literate Programming and Executable Documents
 
@@ -91,13 +91,13 @@ AI IDEs are a fresh instantiation of this thesis at unprecedented scale. We exte
 
 ### 2.5 The Gap
 
-No prior work, to our knowledge, examines:
+We have not found prior work that directly examines the following combination:
 
 - the use of **multiple specialized AI IDEs in deliberate orchestration** as a methodology production environment;
 - the publication of **active, reader-queryable methodologies** with persistent identifiers as scholarly artifacts;
 - the **provenance chain** (Git + workflow files + DOI) that makes such artifacts reproducible in the formal academic sense.
 
-This paper addresses that gap.
+This paper addresses that combined gap.
 
 ---
 
@@ -249,7 +249,7 @@ The Toolkit's production manages both problems through what we call **simultaneo
 
 > *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `신주` -> `City X`. Must be applied across all 7 language files in the same commit.
 
-Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. (Note: the bilingual EN/ZH versions of this preprint itself are maintained in sync through the same multi-IDE mechanism, providing a meta-level demonstration of the same discipline.) (Note: The bilingual versions of this preprint itself are maintained in synchronization via this multi-IDE mechanism, serving as a meta-demonstration of this discipline.)
+Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. The bilingual EN/ZH versions of this preprint itself are maintained in sync through the same multi-IDE mechanism, providing a meta-level demonstration of the same discipline.
 
 ### 6.2 Why This Is Difficult to Achieve by Single-Author Production
 
@@ -358,7 +358,7 @@ The single partial mark (Guideline 3) is honest: empirical reader-uptake studies
 
 ### 9.2 Comparative Cycle Analysis
 
-We compare AI-Native eBook production against three reference points: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, multiple revisions 2019-2024).
+We compare AI-Native eBook production against three reference points: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, latest publicly indexed version 2024).
 
 | Dimension | McKinsey 7-Step (canonical) [a] | Rosemann BPM-MM (academic) [b] | Gartner AI-MM (industry) [c] | Toolkit (AI-Native) [d] |
 | --- | --- | --- | --- | --- |
@@ -376,7 +376,7 @@ We compare AI-Native eBook production against three reference points: McKinsey's
 
 **[b] Rosemann BPM Maturity Model.** Estimates derived from the de Bruin doctoral cycle [de Bruin & Rosemann 2005, 2007; de Bruin 2009]. Cycle-time estimate corresponds to the PhD work that produced the canonical model; document count counts the v1.0-era public papers (ECIS 2005, BPTrends 2005, Delphi paper 2007), excluding subsequent derivative work.
 
-**[c] Gartner AI Maturity Model.** Estimates derived from Gartner's published research-note revision cadence (2019, 2021, 2023, 2024 substantive revisions; minor updates in interim years). Cycle-time estimate refers to revision cadence, not initial publication. Document count refers to the per-revision research-note bundle.
+**[c] Gartner AI Maturity Model.** Estimates derived from Gartner's publicly indexed AI Maturity Model entry, whose current research note is dated 20 November 2024, plus the broader public record of Gartner AI maturity-toolkit materials. Exact revision history and document bundles are paywalled; therefore, the non-Toolkit values in this column should be treated as approximate rather than independently reproducible.
 
 **[d] Toolkit (this paper).** All numbers frozen at commit `7da82d7` (2026-05-18) and reproducible via the commands in `09_Research_Paper/REPRODUCIBILITY.md`.
 
@@ -493,13 +493,17 @@ We acknowledge the AI engines used in producing the Toolkit and this paper: Anth
 
 ## References
 
-> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Four entries were corrected during audit: APQC (2024) → (2022/2024) for accurate publication year; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
+> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Corrections during audit include: APQC (2024) -> (2022/2024) for accurate publication/current-version status; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources; product references for Claude Code, Cursor, Google Antigravity, and OpenAI Codex CLI added explicitly. Product documentation and vendor blog posts are cited only to establish tool existence and capabilities, not as scholarly evidence for the paper's research claims. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
 
-APQC. (2022/2024). *Process Classification Framework, Version 7.3*. APQC. (Version 7.3 was published in 2022 and remains current as of 2024.)
+### A. Academic literature (peer-reviewed / book / dissertation / report)
 
-Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213-222.
+APQC. (2022). *Process Classification Framework, Version 7.3*. APQC. Current as of 2024.
+
+Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213-222. DOI: 10.1007/s12599-009-0044-5
 
 Bostock, M. (2017). *A Better Way to Code*. Medium, April 28, 2017. (The work that became d3.express and subsequently Observable.)
+
+de Bruin, T. (2009). *Business process management: Theory on progression and maturity* [Doctoral dissertation, Queensland University of Technology].
 
 de Bruin, T., & Rosemann, M. (2005). Towards a Business Process Management Maturity Model. In *Proceedings of the 13th European Conference on Information Systems (ECIS 2005)*.
 
@@ -507,25 +511,27 @@ de Bruin, T., & Rosemann, M. (2007). Using the Delphi technique to identify BPM 
 
 Engelbart, D. C. (1962). *Augmenting Human Intellect: A Conceptual Framework*. Stanford Research Institute, Summary Report AFOSR-3223.
 
-Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-105.
+Friga, P. N. (2009). *The McKinsey Engagement: A Powerful Toolkit for More Efficient and Effective Team Problem Solving*. McGraw-Hill.
 
-Kluyver, T., Ragan-Kelley, B., Pérez, F., et al. (2016). Jupyter Notebooks -- a publishing format for reproducible computational workflows. In *Positioning and Power in Academic Publishing: Players, Agents and Agendas*, IOS Press, 87-90.
+Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-105. DOI: 10.2307/25148625
 
-Knuth, D. E. (1984). Literate programming. *The Computer Journal*, 27(2), 97-111.
+Kluyver, T., Ragan-Kelley, B., Pérez, F., et al. (2016). Jupyter Notebooks -- a publishing format for reproducible computational workflows. In *Positioning and Power in Academic Publishing: Players, Agents and Agendas*, IOS Press, 87-90. DOI: 10.3233/978-1-61499-649-1-87
 
-Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human-AI collaborative writing dataset for exploring language model capabilities. In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems*.
+Knuth, D. E. (1984). Literate programming. *The Computer Journal*, 27(2), 97-111. DOI: 10.1093/comjnl/27.2.97
+
+Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human-AI collaborative writing dataset for exploring language model capabilities. In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems*. DOI: 10.1145/3491102.3502030
 
 Long, T., Gero, K. I., & Chilton, L. B. (2024). Not Just Novelty: A Longitudinal Study on Utility and Customization of an AI Workflow. In *Proceedings of the 2024 ACM Designing Interactive Systems Conference (DIS '24)*. DOI: 10.1145/3643834.3661587
 
 Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
 
-March, S. T., & Smith, G. F. (1995). Design and natural science research on information technology. *Decision Support Systems*, 15(4), 251-266.
+March, S. T., & Smith, G. F. (1995). Design and natural science research on information technology. *Decision Support Systems*, 15(4), 251-266. DOI: 10.1016/0167-9236(94)00041-2
 
-Mirowski, P., Mathewson, K. W., Pittman, J., & Evans, R. (2023). Co-writing screenplays and theatre scripts with language models. In *Proceedings of CHI 2023*.
+Mirowski, P., Mathewson, K. W., Pittman, J., & Evans, R. (2023). Co-writing screenplays and theatre scripts with language models. In *Proceedings of CHI 2023*. DOI: 10.1145/3544548.3581225
 
 Paulk, M. C., Curtis, B., Chrissis, M. B., & Weber, C. V. (1993). *Capability Maturity Model for Software, Version 1.1*. Carnegie Mellon University, Software Engineering Institute (CMU/SEI-93-TR-024).
 
-Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, 24(3), 45-77.
+Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, 24(3), 45-77. DOI: 10.2753/MIS0742-1222240302
 
 Rasiel, E. M. (1999). *The McKinsey Way*. McGraw-Hill.
 
@@ -534,6 +540,52 @@ Rosemann, M., & de Bruin, T. (2005). Application of a Holistic Model for Determi
 Victor, B. (2011). Explorable Explanations. *Personal essay*, <http://worrydream.com/ExplorableExplanations/>.
 
 Victor, B., & Hellman, D. (2014). *Seeing Spaces*. Talk / dynamic poster. (Documented in the Dynamicland archive; original venue attribution varies across secondary sources, so a single venue is not asserted here.)
+
+### B. Vendor documentation and industry research notes (not scholarly evidence)
+
+Anthropic. (2025). *Claude Code documentation*. Anthropic. <https://docs.anthropic.com/en/docs/claude-code/overview> (Accessed 2026-05-18.)
+
+Anysphere. (2026). *Cursor: The AI code editor*. Anysphere. <https://cursor.com/> (Accessed 2026-05-18.)
+
+Gartner. (2024). *Gartner AI Maturity Model*. Gartner research note, 2024-11-20. <https://www.gartner.com/en/documents/5937907> (Accessed 2026-05-18; full revision history is paywalled.)
+
+Google. (2025). *Start building with Gemini 3*. Google Blog, 2025-11-18. (Introduces Google Antigravity as an agentic development platform.) <https://blog.google/technology/developers/gemini-3-developers/> (Accessed 2026-05-18.)
+
+OpenAI. (2025). *OpenAI Codex CLI: Getting started*. OpenAI Help Center. <https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started> (Accessed 2026-05-18.)
+
+### C. Citation status table (for reviewer transparency)
+
+Each cited source above is categorized by evidentiary type so that reviewers can quickly distinguish scholarly evidence from supplementary documentation. **Vendor documentation entries** (Section B) are cited only to establish tool existence and capability; they are not treated as scholarly evidence for the paper's research claims.
+
+| Reference | Type |
+| --- | --- |
+| Hevner et al. (2004) | Peer-reviewed journal article |
+| Peffers et al. (2007) | Peer-reviewed journal article |
+| March & Smith (1995) | Peer-reviewed journal article |
+| Becker et al. (2009) | Peer-reviewed journal article |
+| Knuth (1984) | Peer-reviewed journal article |
+| de Bruin & Rosemann (2005) | Peer-reviewed conference paper |
+| de Bruin & Rosemann (2007) | Peer-reviewed conference paper |
+| Lee et al. (2022) | Peer-reviewed conference paper |
+| Mirowski et al. (2023) | Peer-reviewed conference paper |
+| Long et al. (2024) | Peer-reviewed conference paper |
+| Kluyver et al. (2016) | Peer-reviewed book chapter |
+| Paulk et al. (1993) | Technical report (CMU/SEI) |
+| Engelbart (1962) | Technical report (SRI) |
+| de Bruin (2009) | Doctoral dissertation |
+| Rasiel (1999) | Book |
+| Friga (2009) | Book |
+| Rosemann & de Bruin (2005) | Industry / practitioner publication (BPTrends) |
+| APQC (2022) | Industry / standards-body publication |
+| Bostock (2017) | Personal essay (Medium) |
+| Victor (2011) | Personal essay |
+| Victor & Hellman (2014) | Talk / dynamic poster |
+| Gartner (2024) | Industry research note (paywalled; cited for context only) |
+| Anthropic (2025) | Vendor documentation |
+| Anysphere (2026) | Vendor documentation |
+| Google (2025) | Vendor announcement / blog post |
+| OpenAI (2025) | Vendor documentation |
+| Lu (in preparation) | Author's own forthcoming work |
 
 ---
 
