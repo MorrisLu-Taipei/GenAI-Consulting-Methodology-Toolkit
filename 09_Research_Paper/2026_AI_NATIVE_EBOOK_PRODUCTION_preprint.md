@@ -156,6 +156,12 @@ Repository root/
     └── workflows/   (2 specialized workflows)
 ```
 
+### 4.0 What We Mean by "AI IDE"
+
+Because the term *AI IDE* is unfamiliar to many readers in management, information systems, HCI, education, and consulting-methodology audiences, we briefly clarify the construct before invoking it further. By **AI IDE** we do not mean a conventional code editor, nor a standalone chatbot. We mean a working environment that fuses large language model (LLM) inference with a repository, a file system, version control, shell commands, and declarative task specifications. In contrast to a chatbot, an AI IDE does not merely answer questions: within controlled scope, it reads multiple files, compares versions, executes checks, modifies documents according to declared workflows, and writes results back into the repository.
+
+This makes an AI IDE a kind of **cognitive workbench**. For authors, it can synthesize across hundreds of files, track cross-file consistency, and run adversarial review. For readers, it can query a methodology, test scenarios against the reader's own organizational context, and trace the downstream implications of a single design change. Claude Code, OpenAI Codex CLI, Google Antigravity, and Cursor are the four AI IDEs discussed in this paper; all four embed LLM inference inside a versioned text workspace. Their significance for our argument lies not in any particular brand, but in their shared property of transforming methodology documents from static text into versioned artifacts that an agent can read, check, recompose, and be queried against. Throughout this paper, claims about "AI IDEs" should be read as referring to this construct -- the AI-embedded versioned workspace -- and not to any single product.
+
 ### 4.1 Specialization by Cognitive Task
 
 Different production tasks favor different IDE engines. The Toolkit's design uses each engine for the cognitive task at which it is strongest:
@@ -233,7 +239,7 @@ The Toolkit's production manages both problems through what we call **simultaneo
 
 > *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `신주` -> `City X`. Must be applied across all 7 language files in the same commit.
 
-Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit.
+Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. (Note: The bilingual versions of this preprint itself are maintained in synchronization via this multi-IDE mechanism, serving as a meta-demonstration of this discipline.)
 
 ### 6.2 Why This Is Unattainable by Single-Author Production
 
@@ -271,6 +277,7 @@ The Toolkit addresses each through a corresponding workflow:
 - **`/consistency-review`** (Codex) -- sweeps the entire repository for cross-file inconsistencies (terminology drift, contradicting numerical claims, broken cross-references). This workflow flagged, for instance, that role titles (specifically `IT 副理`) were inconsistent with the seniority implied by the character's responsibilities (the resolution, committed as `1dcc569`, upgraded the role to `IT 協理` across 17 files).
 - **`/thought-experiment`** -- runs counterfactual stress tests: "If the EU AI Act criminalized L4 deployment, does the methodology still work? If LLM cost dropped 1000x, what becomes obsolete?" These produce explicit *fragility maps* that conventional review cannot generate.
 - **`/red-team-review`** (Codex against Claude output) -- uses a different IDE engine to audit the primary author engine's output. Functionally analogous to switching peer reviewers between rounds, but with deterministic cross-engine independence rather than reviewer-pool politics.
+- **`/diagnose`** (Antigravity) -- parallel multi-agent role-play. This workflow simultaneously instantiates multiple stakeholders with conflicting interests (e.g., a cost-conscious CFO, a performance-driven CTO, and a compliance-focused legal officer), allowing them to simultaneously stress-test and interrogate a specific stage of the methodology. This parallel adversarial role-play exposes blind spots in the methodology regarding cross-departmental alignment.
 
 ### 7.3 Implication: Methodology Hardness vs. Reviewer Pool Size
 
@@ -362,6 +369,7 @@ We note three honest limitations:
 - **Hallucination risk.** Despite citation discipline and `/evidence-audit`, residual hallucinated claims may exist. Readers are invited to flag them via repository Issues.
 - **IDE access asymmetry.** Readers without Claude Code, Cursor, or equivalent cannot fully exercise the reader-as-querier model. This stratifies access by economic resource, a concern we share.
 - **Sustainability.** The Toolkit's production rate depends on continued access to current-generation LLMs at sustainable cost. A meaningful price increase or capability decrease would change the calculus.
+- **Data Privacy and IP.** Feeding reader-specific organizational contexts (e.g., via `/socratic-challenge`) into IDEs backed by public cloud APIs raises legitimate concerns about corporate data leakage. Enterprise deployment of this paradigm will rely heavily on zero-data-retention API agreements or mature local LLM infrastructure.
 
 ### 9.4 What This Paper Does Not Claim
 
