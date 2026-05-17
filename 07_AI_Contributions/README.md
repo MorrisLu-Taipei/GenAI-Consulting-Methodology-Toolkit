@@ -1,5 +1,9 @@
 # 07 AI Contributions — 三引擎各自貢獻紀錄
 
+> 🌐 語言：繁體中文 ｜ [English (與本檔雙語並陳)](README.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
+>
+> 注：本 README 為三引擎共筆的雙語檔（中英並陳）。新增的 5 個外語版本為**可訪問性渲染**，不修改任何作者署名段落，僅以該語言呈現相同內容。
+
 本目錄是本 repo 的「**三引擎架構**」自述空間。每個 AI 引擎在自己的檔案中說明：**做了什麼、有什麼特色、有什麼貢獻、邊界在哪**。
 
 This directory is the **three-engine architecture** self-disclosure space. Each AI engine documents in its own file: **what it did, what makes it distinctive, what it contributes, and where its boundaries are**.
