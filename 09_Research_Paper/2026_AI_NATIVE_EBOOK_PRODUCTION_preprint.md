@@ -493,15 +493,11 @@ We acknowledge the AI engines used in producing the Toolkit and this paper: Anth
 
 ## References
 
-> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Corrections during audit include: APQC (2024) -> (2022/2024) for accurate publication/current-version status; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources; product references for Claude Code, Cursor, Google Antigravity, and OpenAI Codex CLI added explicitly. Product documentation and vendor blog posts are cited only to establish tool existence and capabilities, not as scholarly evidence for the paper's research claims. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
+> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Corrections during audit include: APQC (2024) -> APQC (2022), with a current-version note; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources; product references for Claude Code, Cursor, Google Antigravity, and OpenAI Codex CLI added explicitly. Product documentation and vendor blog posts are cited only to establish tool existence and capabilities, not as scholarly evidence for the paper's research claims. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
 
-### A. Academic literature (peer-reviewed / book / dissertation / report)
-
-APQC. (2022). *Process Classification Framework, Version 7.3*. APQC. Current as of 2024.
+### A. Academic literature (peer-reviewed papers, dissertation, technical reports)
 
 Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213-222. DOI: 10.1007/s12599-009-0044-5
-
-Bostock, M. (2017). *A Better Way to Code*. Medium, April 28, 2017. (The work that became d3.express and subsequently Observable.)
 
 de Bruin, T. (2009). *Business process management: Theory on progression and maturity* [Doctoral dissertation, Queensland University of Technology].
 
@@ -510,8 +506,6 @@ de Bruin, T., & Rosemann, M. (2005). Towards a Business Process Management Matur
 de Bruin, T., & Rosemann, M. (2007). Using the Delphi technique to identify BPM capability areas. In *Proceedings of the 18th Australasian Conference on Information Systems*.
 
 Engelbart, D. C. (1962). *Augmenting Human Intellect: A Conceptual Framework*. Stanford Research Institute, Summary Report AFOSR-3223.
-
-Friga, P. N. (2009). *The McKinsey Engagement: A Powerful Toolkit for More Efficient and Effective Team Problem Solving*. McGraw-Hill.
 
 Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-105. DOI: 10.2307/25148625
 
@@ -523,8 +517,6 @@ Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human-AI collaborat
 
 Long, T., Gero, K. I., & Chilton, L. B. (2024). Not Just Novelty: A Longitudinal Study on Utility and Customization of an AI Workflow. In *Proceedings of the 2024 ACM Designing Interactive Systems Conference (DIS '24)*. DOI: 10.1145/3643834.3661587
 
-Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
-
 March, S. T., & Smith, G. F. (1995). Design and natural science research on information technology. *Decision Support Systems*, 15(4), 251-266. DOI: 10.1016/0167-9236(94)00041-2
 
 Mirowski, P., Mathewson, K. W., Pittman, J., & Evans, R. (2023). Co-writing screenplays and theatre scripts with language models. In *Proceedings of CHI 2023*. DOI: 10.1145/3544548.3581225
@@ -532,6 +524,14 @@ Mirowski, P., Mathewson, K. W., Pittman, J., & Evans, R. (2023). Co-writing scre
 Paulk, M. C., Curtis, B., Chrissis, M. B., & Weber, C. V. (1993). *Capability Maturity Model for Software, Version 1.1*. Carnegie Mellon University, Software Engineering Institute (CMU/SEI-93-TR-024).
 
 Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, 24(3), 45-77. DOI: 10.2753/MIS0742-1222240302
+
+### B. Books, professional methods, and industry publications (non-peer-reviewed but credible-source)
+
+APQC. (2022). *Process Classification Framework, Version 7.3*. APQC. Current as of 2024.
+
+Bostock, M. (2017). *A Better Way to Code*. Medium, April 28, 2017. (The work that became d3.express and subsequently Observable.)
+
+Friga, P. N. (2009). *The McKinsey Engagement: A Powerful Toolkit for More Efficient and Effective Team Problem Solving*. McGraw-Hill.
 
 Rasiel, E. M. (1999). *The McKinsey Way*. McGraw-Hill.
 
@@ -541,21 +541,25 @@ Victor, B. (2011). Explorable Explanations. *Personal essay*, <http://worrydream
 
 Victor, B., & Hellman, D. (2014). *Seeing Spaces*. Talk / dynamic poster. (Documented in the Dynamicland archive; original venue attribution varies across secondary sources, so a single venue is not asserted here.)
 
-### B. Vendor documentation and industry research notes (not scholarly evidence)
+### C. Product documentation and vendor / industry research notes (not scholarly evidence)
 
 Anthropic. (2025). *Claude Code documentation*. Anthropic. <https://docs.anthropic.com/en/docs/claude-code/overview> (Accessed 2026-05-18.)
 
 Anysphere. (2026). *Cursor: The AI code editor*. Anysphere. <https://cursor.com/> (Accessed 2026-05-18.)
 
-Gartner. (2024). *Gartner AI Maturity Model*. Gartner research note, 2024-11-20. <https://www.gartner.com/en/documents/5937907> (Accessed 2026-05-18; full revision history is paywalled.)
+Gartner. (2024). *Gartner AI Maturity Model*. Gartner research note, 2024-11-20. <https://www.gartner.com/en/documents/5937907> (Accessed 2026-05-18; full revision history is paywalled, so claims derived from this source are intentionally approximate and not independently reproducible.)
 
 Google. (2025). *Start building with Gemini 3*. Google Blog, 2025-11-18. (Introduces Google Antigravity as an agentic development platform.) <https://blog.google/technology/developers/gemini-3-developers/> (Accessed 2026-05-18.)
 
 OpenAI. (2025). *OpenAI Codex CLI: Getting started*. OpenAI Help Center. <https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started> (Accessed 2026-05-18.)
 
-### C. Citation status table (for reviewer transparency)
+### D. Author's own forthcoming work
 
-Each cited source above is categorized by evidentiary type so that reviewers can quickly distinguish scholarly evidence from supplementary documentation. **Vendor documentation entries** (Section B) are cited only to establish tool existence and capability; they are not treated as scholarly evidence for the paper's research claims.
+Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
+
+### E. Citation status table (for reviewer transparency)
+
+Each cited source above is categorized by evidentiary type so that reviewers can quickly distinguish scholarly evidence from supplementary documentation. **Product documentation entries** (Section C) are cited only to establish tool existence and capability; they are not treated as scholarly evidence for the paper's research claims.
 
 | Reference | Type |
 | --- | --- |
