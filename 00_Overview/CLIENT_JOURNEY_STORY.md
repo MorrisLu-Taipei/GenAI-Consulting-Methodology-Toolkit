@@ -1,6 +1,6 @@
 # 阿明的故事：一家封測廠的 AI 轉型 24 個月
 
-> 🌐 English version: [CLIENT_JOURNEY_STORY_EN.md](CLIENT_JOURNEY_STORY_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](CLIENT_JOURNEY_STORY_EN.md) ｜ [Deutsch](CLIENT_JOURNEY_STORY_DE.md) ｜ [Français](CLIENT_JOURNEY_STORY_FR.md) ｜ [Español](CLIENT_JOURNEY_STORY_ES.md) ｜ [日本語](CLIENT_JOURNEY_STORY_JA.md) ｜ [한국어](CLIENT_JOURNEY_STORY_KR.md)
 >
 > 一個讓你 20 分鐘看懂八階段方法論的故事。沒有工具表，沒有縮寫，沒有顧問黑話。
 

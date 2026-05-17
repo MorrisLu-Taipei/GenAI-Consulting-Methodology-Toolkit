@@ -1,6 +1,6 @@
 # Ming's Story: A 24-Month AI Transformation in a Packaging Plant
 
-> 🌐 中文版本 / Chinese version: [CLIENT_JOURNEY_STORY.md](CLIENT_JOURNEY_STORY.md)
+> 🌐 Language: [繁體中文](CLIENT_JOURNEY_STORY.md) ｜ English ｜ [Deutsch](CLIENT_JOURNEY_STORY_DE.md) ｜ [Français](CLIENT_JOURNEY_STORY_FR.md) ｜ [Español](CLIENT_JOURNEY_STORY_ES.md) ｜ [日本語](CLIENT_JOURNEY_STORY_JA.md) ｜ [한국어](CLIENT_JOURNEY_STORY_KR.md)
 >
 > A 20-minute story that helps you understand the 8-stage methodology. No tool tables, no acronyms, no consultant jargon.
 
