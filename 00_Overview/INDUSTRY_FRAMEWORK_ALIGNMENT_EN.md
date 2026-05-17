@@ -1,6 +1,6 @@
 # Tiger AI Methodology Alignment with Industry Frameworks
 
-> 🌐 中文版本 / Chinese version: [INDUSTRY_FRAMEWORK_ALIGNMENT.md](INDUSTRY_FRAMEWORK_ALIGNMENT.md)
+> 🌐 Language: [繁體中文](INDUSTRY_FRAMEWORK_ALIGNMENT.md) ｜ English ｜ [Deutsch](INDUSTRY_FRAMEWORK_ALIGNMENT_DE.md) ｜ [Français](INDUSTRY_FRAMEWORK_ALIGNMENT_FR.md) ｜ [Español](INDUSTRY_FRAMEWORK_ALIGNMENT_ES.md) ｜ [日本語](INDUSTRY_FRAMEWORK_ALIGNMENT_JA.md) ｜ [한국어](INDUSTRY_FRAMEWORK_ALIGNMENT_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 

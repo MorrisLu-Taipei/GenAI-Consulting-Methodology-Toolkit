@@ -1,6 +1,6 @@
 # Tiger AI 方法論與業界框架對齊圖
 
-> 🌐 English version: [INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md](INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) ｜ [Deutsch](INDUSTRY_FRAMEWORK_ALIGNMENT_DE.md) ｜ [Français](INDUSTRY_FRAMEWORK_ALIGNMENT_FR.md) ｜ [Español](INDUSTRY_FRAMEWORK_ALIGNMENT_ES.md) ｜ [日本語](INDUSTRY_FRAMEWORK_ALIGNMENT_JA.md) ｜ [한국어](INDUSTRY_FRAMEWORK_ALIGNMENT_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
