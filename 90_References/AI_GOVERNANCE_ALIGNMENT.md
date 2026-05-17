@@ -1,6 +1,6 @@
 # AI Governance 對齊：Tiger AI 方法論 vs 國際 AI 治理框架
 
-> 🌐 English version: [AI_GOVERNANCE_ALIGNMENT_EN.md](AI_GOVERNANCE_ALIGNMENT_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](AI_GOVERNANCE_ALIGNMENT_EN.md) ｜ [Deutsch](AI_GOVERNANCE_ALIGNMENT_DE.md) ｜ [Français](AI_GOVERNANCE_ALIGNMENT_FR.md) ｜ [Español](AI_GOVERNANCE_ALIGNMENT_ES.md) ｜ [日本語](AI_GOVERNANCE_ALIGNMENT_JA.md) ｜ [한국어](AI_GOVERNANCE_ALIGNMENT_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
