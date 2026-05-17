@@ -1,6 +1,6 @@
 # Workflow Delivery Framework — Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md)
+> 🌐 Language: [繁體中文](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md) ｜ English ｜ [Deutsch](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_DE.md) ｜ [Français](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_FR.md) ｜ [Español](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_ES.md) ｜ [日本語](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_JA.md) ｜ [한국어](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_KR.md)
 
 The **engagement-operations layer** of this methodology's `06_Delivery/` (engagement lifecycle, role SOPs, business document templates, delivery checklists, pricing & risk management) is referenced from and rewritten based on **Mirza Iqbal**'s *Workflow Automation Delivery Framework*. This document records the upstream source, license terms, citation guidance, and scope of adaptation.
 

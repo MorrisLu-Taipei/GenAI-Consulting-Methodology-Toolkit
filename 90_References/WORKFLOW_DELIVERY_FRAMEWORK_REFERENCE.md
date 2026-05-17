@@ -1,6 +1,6 @@
 # Workflow Delivery Framework 引用與授權說明 / Citation & License Notice
 
-> 🌐 English version: [WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_EN.md](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_EN.md) ｜ [Deutsch](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_DE.md) ｜ [Français](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_FR.md) ｜ [Español](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_ES.md) ｜ [日本語](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_JA.md) ｜ [한국어](WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE_KR.md)
 
 本方法論 `06_Delivery/` 之**接案營運層**（接案生命週期、角色 SOP、商業文件範本、交付檢查清單、定價與風險管理），參考並改寫自 **Mirza Iqbal** 之 *Workflow Automation Delivery Framework*。本檔詳列原始來源、授權條款、引用方式與改寫範圍。
 

@@ -1,6 +1,6 @@
 # mckinsey-consultant-skills 引用與授權說明 / mckinsey-consultant-skills Citation & License Notice
 
-> 🌐 English version: [MCKINSEY_SKILLS_REFERENCE_EN.md](MCKINSEY_SKILLS_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](MCKINSEY_SKILLS_REFERENCE_EN.md) ｜ [Deutsch](MCKINSEY_SKILLS_REFERENCE_DE.md) ｜ [Français](MCKINSEY_SKILLS_REFERENCE_FR.md) ｜ [Español](MCKINSEY_SKILLS_REFERENCE_ES.md) ｜ [日本語](MCKINSEY_SKILLS_REFERENCE_JA.md) ｜ [한국어](MCKINSEY_SKILLS_REFERENCE_KR.md)
 
 本方法論的 [`03_Consulting_Report/REPORT_PRODUCTION_WORKFLOW.md`](../03_Consulting_Report/REPORT_PRODUCTION_WORKFLOW.md) 之生產工作流，參考並改寫自 **Kafurtan/mckinsey-consultant-skills**。本檔詳列原始來源、授權條款、引用方式與改寫範圍。
 

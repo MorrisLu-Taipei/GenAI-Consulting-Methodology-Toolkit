@@ -1,6 +1,6 @@
 # mckinsey-consultant-skills — Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [MCKINSEY_SKILLS_REFERENCE.md](MCKINSEY_SKILLS_REFERENCE.md)
+> 🌐 Language: [繁體中文](MCKINSEY_SKILLS_REFERENCE.md) ｜ English ｜ [Deutsch](MCKINSEY_SKILLS_REFERENCE_DE.md) ｜ [Français](MCKINSEY_SKILLS_REFERENCE_FR.md) ｜ [Español](MCKINSEY_SKILLS_REFERENCE_ES.md) ｜ [日本語](MCKINSEY_SKILLS_REFERENCE_JA.md) ｜ [한국어](MCKINSEY_SKILLS_REFERENCE_KR.md)
 
 The production workflow in this methodology's [`03_Consulting_Report/REPORT_PRODUCTION_WORKFLOW.md`](../03_Consulting_Report/REPORT_PRODUCTION_WORKFLOW.md) is referenced from and rewritten based on **Kafurtan/mckinsey-consultant-skills**. This document records the upstream source, license terms, citation guidance, and scope of adaptation.
 
