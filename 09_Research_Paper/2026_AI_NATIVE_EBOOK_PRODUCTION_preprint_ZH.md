@@ -1,16 +1,14 @@
-# AI 原生電子書生產：多 IDE 編排作為方法論工程基礎設施
-
-**設計科學研究**
+# AI 原生電子書生產：多 IDE 編排作為方法論工程基礎設施 —— 設計科學研究
 
 > 🌐 Languages: [English (source)](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) ｜ 繁體中文（本檔）
 
 ---
 
-**作者：** Morris Lu（盧業興）
+**作者：** Lu, Yeh-Hsing（盧業興；專業上亦使用 Morris Lu）
 **單位：** Tiger AI（獨立研究）
-**ORCID：** 待註冊（將於正式 Zenodo 發布前填入）
-**聯絡：** tiger.ai.tw@gmail.com
-**版本：** 1.0（工作草稿；**尚未正式 deposit**）
+**ORCID：** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
+**聯絡：** <tiger.ai.tw@gmail.com>
+**版本：** 1.0 中文 companion 版（reader-facing；正式學術引用請使用英文 canonical 版）
 **日期：** 2026-05-18
 **授權：** Apache License 2.0
 **Artifact DOI：** 待 Zenodo 發布（將於 GitHub `v1.0.0` tag 觸發 webhook 後自動鑄造）
@@ -22,7 +20,7 @@
 
 > **狀態說明。** 本文件為待正式發布的工作草稿。所有 DOI 欄位刻意標記為「待發布（pending）」；本草稿不得以虛構的 DOI 形式被引用。GitHub `v1.0.0` tag 觸發 Zenodo webhook 後，數分鐘內 concept DOI 與 version DOI 將取代「pending」標記。
 
-> **譯註。** 本中文版為英文原稿之翻譯。技術術語（如 DSR、LLM、AI IDE、workflow 名稱、commit hash、檔案路徑）刻意保留原文，便於跨語對照與檢索；其他敘述與 section heading 翻譯為中文。如中英文出現歧義，以英文原稿為準。
+> **譯註與定位說明。** 本中文版為英文原稿之 **reader-facing companion 版**，定位為「讓中文讀者快速理解論文主張」。**正式學術引用、Zenodo / SSRN / arXiv deposit、peer review 投稿，一律以英文 canonical 版（同目錄 `2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md`）為準**。技術術語（DSR、LLM、AI IDE、workflow 名稱、commit hash、檔案路徑）刻意保留原文，便於跨語對照與檢索；其他敘述與 section heading 翻譯為中文。如中英文出現歧義，以英文原稿為準。本中文版的更新可能落後英文版，最新主張請以英文版為主。
 
 ---
 
@@ -151,8 +149,8 @@ L1-L5 成熟度模型將作為獨立的學術貢獻於另一篇論文中呈現 [
 
 Toolkit 透過刻意編排**三個專門化 AI IDE 家族**進行生產，各自貢獻獨特能力。編排方式編碼於三個 repository 目錄中：
 
-```
-10_Consulting/
+```text
+Repository root/
 ├── .claude/         (Claude Code -- 1M context、跨檔綜合)
 │   ├── README.md
 │   └── workflows/   (10 個專門化 workflow)

@@ -6,11 +6,12 @@ title: "GenAI Consulting Methodology Toolkit"
 message: "If you use this methodology toolkit in your research or practice, please cite it as below."
 type: software
 authors:
-  - given-names: "Morris"
+  - given-names: "Yeh-Hsing"
     family-names: "Lu"
+    alias: "Morris Lu"
     email: "tiger.ai.tw@gmail.com"
     affiliation: "Tiger AI (Independent Research)"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # uncomment and fill once registered
+    orcid: "https://orcid.org/0009-0006-5373-0586"
 repository-code: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
 url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
 abstract: >
@@ -47,9 +48,11 @@ preferred-citation:
   type: article
   title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure"
   authors:
-    - given-names: "Morris"
+    - given-names: "Yeh-Hsing"
       family-names: "Lu"
+      alias: "Morris Lu"
       affiliation: "Tiger AI (Independent Research)"
+      orcid: "https://orcid.org/0009-0006-5373-0586"
   year: 2026
   month: 5
   url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/blob/main/09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md"

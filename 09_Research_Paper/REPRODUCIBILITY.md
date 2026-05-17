@@ -18,11 +18,11 @@ If a number reported in the preprint does not match the output of the commands b
 
 ```bash
 git clone https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit.git
-cd GenAI-Consulting-Methodology-Toolkit/Deliverable/10_Consulting
+cd GenAI-Consulting-Methodology-Toolkit
 git checkout 7da82d7
 ```
 
-> **Note on path spelling.** The directory was renamed from `10_Cosultanting` (typo) to `10_Consulting` in a maintenance commit after `7da82d7`. If you check out a commit at or before `7da82d7`, substitute `10_Cosultanting` in path commands. From the next release onward, `10_Consulting` is canonical.
+> **Primary working directory.** Start Claude Code, Codex, shell commands, and reproducibility checks from the public repository root. The local staging folder name is not part of the published path because its contents are uploaded as the repository root.
 
 ---
 
@@ -42,7 +42,7 @@ PowerShell users on Windows may substitute `Get-ChildItem` and `Measure-Object` 
 
 ## 3. Verifying preprint Section 3.1 numbers (artifact scope)
 
-Run these exact commands from the `10_Consulting/` directory (or `10_Cosultanting/` if you checked out a commit at or before `7da82d7`) after `git checkout 7da82d7`.
+Run these exact commands from the repository root after `git checkout 7da82d7`.
 
 ### 3.1 Total markdown documents
 
@@ -226,7 +226,7 @@ To exercise the reader-as-querier model described in Section 5:
 
 ```bash
 # In an environment with Claude Code installed and authenticated:
-cd Deliverable/10_Consulting
+cd GenAI-Consulting-Methodology-Toolkit
 claude
 
 # Inside Claude Code, run any of the 10 reader workflows:

@@ -1,8 +1,9 @@
 # Release Manifest -- v1.0.0
 
-**Frozen at commit:** `7da82d78aa120258e150a9ce0d9fff60a58f62d7` (short: `7da82d7`)
+**Frozen at commit:** `7da82d78aa120258e150a9ce0d9fff60a58f62d7` (short: `7da82d7`) -- ⚠️ **will be re-frozen at the commit that introduces the v1.0.0 tag immediately before deposit; this hash is the working-draft checkpoint**
 **Date frozen:** 2026-05-18
 **Released as:** (pending GitHub tag `v1.0.0` -- this file will be referenced by `RELEASE_NOTES_v1.0.0.md`)
+**Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu) -- ORCID: [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
 **License:** Apache License 2.0
 **Purpose:** Snapshot of all quantitative properties of the artifact at the moment of release, so that subsequent commits cannot retroactively invalidate cited numbers.
 
@@ -20,7 +21,8 @@ This file is the **source of truth** for every numeric claim made in `2026_AI_NA
 | Branch | `main` |
 | Repository URL | <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit> |
 | License | Apache License 2.0 |
-| Working-directory subroot | `Deliverable/10_Consulting/` (renamed from `10_Cosultanting` in a maintenance commit immediately after `7da82d7`; checkouts at or before `7da82d7` will see the old spelling) |
+| Primary working directory | Public repository root |
+| Path convention | All paths in this manifest are relative to the public repository root |
 
 ---
 

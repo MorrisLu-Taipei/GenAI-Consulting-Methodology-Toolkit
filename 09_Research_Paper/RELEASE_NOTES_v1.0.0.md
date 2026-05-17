@@ -3,7 +3,8 @@
 **Tag:** `v1.0.0`  
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
-**Author:** Morris Lu, Tiger AI (Independent Research)
+**Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu), Tiger AI (Independent Research)  
+**ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
 
 ---
 

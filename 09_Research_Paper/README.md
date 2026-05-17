@@ -24,6 +24,9 @@ This directory holds independently citable scholarly artefacts derived from the 
 | File | Type | Status | Target venues |
 | --- | --- | --- | --- |
 | [`2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md`](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) | Working paper | v1.0 draft | Zenodo (DOI) -> SSRN -> ECIS / DESRIST -> CHI / CSCW |
+| [`2026_AI_NATIVE_EBOOK_PRODUCTION_preprint_ZH.md`](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint_ZH.md) | Chinese companion draft | v1.0 draft | Reader-facing Traditional Chinese version |
+| [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) | Reproducibility manifest | v1.0 draft | Verification, PDF rendering, workflow replay |
+| [`RELEASE_MANIFEST_v1.0.0.md`](RELEASE_MANIFEST_v1.0.0.md) | Frozen release manifest | v1.0 draft | Numeric source of truth for v1.0.0 |
 | [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md) | Release notes | Ready for v1.0.0 GitHub tag | GitHub Releases (triggers Zenodo DOI) |
 
 ---

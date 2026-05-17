@@ -1,22 +1,20 @@
-# AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure
-
-**A Design Science Investigation**
+# AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure — A Design Science Investigation
 
 ---
 
-**Author:** Morris Lu  
+**Author:** Yeh-Hsing Lu (also known professionally as Morris Lu; Chinese: 盧業興)  
 **Affiliation:** Tiger AI (Independent Research)  
-**ORCID:** pending registration (to be inserted prior to formal Zenodo release)  
-**Contact:** tiger.ai.tw@gmail.com  
-**Version:** 1.0 (working draft; **not yet deposited**)  
+**ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)  
+**Contact:** <tiger.ai.tw@gmail.com>  
+**Version:** 1.0 (release candidate; **not yet deposited**)  
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
 **Artifact DOI:** pending Zenodo release (will be minted automatically on the first GitHub tag `v1.0.0`)  
 **Preprint DOI:** pending Zenodo release  
 **Repository:** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>  
 **Reproducibility manifest:** `09_Research_Paper/REPRODUCIBILITY.md`  
-**Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md` (corresponds to commit `7da82d7`)  
-**Suggested citation (post-release):** Lu, M. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Zenodo. DOI: [to be inserted upon release].
+**Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md` (will be re-frozen at the v1.0.0 tag commit immediately before deposit)  
+**Suggested citation (post-release):** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Zenodo. DOI: [to be inserted upon release].
 
 > **Status note.** This document is a working draft staged for first formal release. All DOI fields above are deliberately marked *pending*; this draft must not be cited with a fabricated DOI. The actual concept and version DOIs will replace the *pending* markers within minutes of the GitHub `v1.0.0` tag triggering the Zenodo webhook.
 
@@ -24,7 +22,7 @@
 
 ## Abstract
 
-Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). The artifact demonstrates four properties unattainable through traditional single-tool authorship: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
+Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). In our observed production of this artifact, we find four properties that we did not achieve in prior single-tool authorship attempts within the same project: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
 
 **Keywords:** design science research; AI IDE; methodology engineering; multi-agent collaboration; executable documents; reproducible methodology; AI-native; literate programming; consulting frameworks
 
@@ -147,8 +145,8 @@ Sections 4 through 8 answer this question along five dimensions.
 
 The Toolkit was produced through deliberate orchestration of **three specialized AI IDE families**, each contributing distinct capabilities. The orchestration is encoded in three repository directories:
 
-```
-10_Consulting/
+```text
+Repository root/
 ├── .claude/         (Claude Code -- 1M context, cross-file synthesis)
 │   ├── README.md
 │   └── workflows/   (10 specialized workflows)
@@ -214,7 +212,7 @@ These files transform a fresh LLM session from a generic assistant into a method
 
 ### 5.3 Implications for the Author-Reader Relationship
 
-The classical author-reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party -- the reader's AI IDE -- that mediates the relationship in both directions. The reader still cannot literally interrogate the author (Morris Lu), but they can interrogate a methodology-grounded AI that the author's published materials have shaped.
+The classical author-reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party -- the reader's AI IDE -- that mediates the relationship in both directions. The reader still cannot literally interrogate the author, but they can interrogate a methodology-grounded AI that the author's published materials have shaped.
 
 This raises interesting questions about authorial intent, methodology drift over reader populations, and the appropriate evaluation of methodology *transferability*. We return to these in Section 10.
 
@@ -237,7 +235,7 @@ Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in
 
 ### 6.2 Why This Is Unattainable by Single-Author Production
 
-A human author cannot maintain simultaneous fluency and consistency across 7 languages at the document volume in question (354 files, hundreds of thousands of words). Even a team of professional translators cannot guarantee atomic propagation of semantic changes across languages on the timeline that multi-IDE production enables (the commit cited above was completed in approximately 45 minutes of one operator's session time).
+In our experience producing this artifact, a single human author would struggle to maintain simultaneous fluency and consistency across 7 languages at this document volume (354 files, hundreds of thousands of words). Even a team of professional translators would face substantial coordination overhead in achieving atomic propagation of semantic changes across languages on the timeline that multi-IDE production made possible here (the commit cited above was completed in approximately 45 minutes of one operator's session time). We do not claim these limits are absolute -- merely that, in our observed production setting, the multi-IDE workflow approach lowered the coordination cost meaningfully compared with prior single-tool attempts in the same project.
 
 We characterize this as an **emergent property**: simultaneous multilingual coherence is not a feature any single agent in the production environment possesses, but it arises from the combination of LLM-fluent generation, Git atomic commits, and `/consistency-review`-style sweep workflows. No single human, and no single AI engine, would produce it; the production environment as a whole does.
 
@@ -324,7 +322,7 @@ We evaluate the AI-Native eBook paradigm against the canonical Hevner et al. [20
 | 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles is qualitative (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
 | 4 | Research contributions | [x] | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure -- four distinct contributions. |
 | 5 | Research rigor | [x] | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
-| 6 | Design as search process | [x] | 93 Git commits document the iterative search through the design space. |
+| 6 | Design as search process | [x] | 94 Git commits document the iterative search through the design space. |
 | 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, pending Zenodo DOI). |
 
 The single partial mark (Guideline 3) is honest: empirical reader-uptake studies are not yet in scope. We outline an empirical research agenda in Section 10.
@@ -353,7 +351,7 @@ We compare AI-Native eBook production against three reference points: McKinsey's
 
 **[d] Toolkit (this paper).** All numbers frozen at commit `7da82d7` (2026-05-18) and reproducible via the commands in `09_Research_Paper/REPRODUCIBILITY.md`.
 
-Numbers for the non-Toolkit columns remain approximations from publicly available sources; we welcome correction and will accept errata via repository Issues. The *qualitative* pattern, however, is robust: AI-Native production produces an order of magnitude more documents, in multiple languages simultaneously, with provenance and reader-queryability that the comparators structurally lack. We note that the comparison is between *production paradigms*, not between the substantive merits of the methodologies themselves.
+Numbers for the non-Toolkit columns remain approximations from publicly available sources; we welcome correction and will accept errata via repository Issues. Subject to those caveats, the *qualitative* pattern we observe is that, in this production setting, AI-Native production yielded considerably more documents (an order of magnitude in our count), across multiple languages simultaneously, with provenance and reader-queryability features that the named comparators do not, to our knowledge, currently offer. We note explicitly that the comparison is between *production paradigms* as exemplified by these reference points, not between the substantive merits of the methodologies themselves, and that we cannot rule out that other comparators (open-source maturity models, community wikis, etc.) might exhibit similar properties.
 
 ### 9.3 Limitations
 
@@ -405,7 +403,7 @@ To move the present paper from a position-and-artifact contribution toward a res
 
 ### 10.1 For Methodology Engineering
 
-The traditional cost structure of methodology development has been a barrier to entry. The Toolkit demonstrates that a single individual, with disciplined use of AI IDEs, can produce in months what previously required institutional teams and years. The implication is not that all methodology engineering will become single-author -- quite the contrary, the *evaluation* burden remains substantial. But the *construction* phase has been democratized.
+The traditional cost structure of methodology development has been a barrier to entry. In the instantiation reported here, we observed that a single individual, using AI IDEs in the manner described, produced in months an artifact of comparable scope to those that have, in widely cited examples, required institutional teams and years. The implication we draw is not that all methodology engineering will become single-author -- on the contrary, the *evaluation* burden remains substantial and is largely unaffected by the production-side gains we describe. Rather, the *construction* phase has, at least in this one observed setting, become accessible to individuals working alone.
 
 This may have second-order effects on the consulting industry's structure. Methodologies have historically been quasi-proprietary assets of the major firms (the "Bain Way," McKinsey's 7-Step). AI-Native open-source methodologies, released under Apache 2.0 with DOI-citable provenance, compete on a fundamentally different basis. Whether this leads to a *commons* model of methodology (analogous to open-source software) is an empirical question we cannot resolve here, but the production prerequisites are now in place.
 
@@ -445,7 +443,7 @@ We close with three empirical questions the present paper does not answer, and w
 
 ## 11. Conclusion
 
-AI-Native eBook production, exemplified by the GenAI Consulting Methodology Toolkit, represents a meaningful shift in how methodology artifacts can be constructed, published, and consumed. The four distinguishing properties -- multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and full provenance -- together change the methodology engineering cost structure by an order of magnitude while improving (not weakening) the artifact's auditability.
+AI-Native eBook production, as instantiated in the GenAI Consulting Methodology Toolkit, illustrates a production approach that, in our observation, can meaningfully alter how methodology artifacts are constructed, published, and consumed. The four properties we identified -- multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and provenance discipline -- together appear, in this instantiation, to substantially change the methodology engineering cost structure while improving (or at minimum not weakening) the artifact's auditability. We do not claim these results generalize without further study; the planned validation experiment (§9.5) and the empirical agenda (§10.5) name the kinds of evidence that would warrant a stronger generalization.
 
 The paradigm is not without limitations, and several questions -- particularly around empirical reader uptake and cross-author replication -- remain open. We invite the research community to engage with the artifact, fork it under its Apache 2.0 license, and extend the paradigm to new methodology domains.
 
