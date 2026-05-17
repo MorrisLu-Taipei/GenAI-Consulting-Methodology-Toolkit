@@ -1,6 +1,6 @@
 # Academic Theoretical Foundations: Tiger AI Methodology's Seven Theoretical Pillars
 
-> 🌐 中文版本 / Chinese version: [ACADEMIC_THEORETICAL_FOUNDATIONS.md](ACADEMIC_THEORETICAL_FOUNDATIONS.md)
+> 🌐 Language: [繁體中文](ACADEMIC_THEORETICAL_FOUNDATIONS.md) ｜ English ｜ [Deutsch](ACADEMIC_THEORETICAL_FOUNDATIONS_DE.md) ｜ [Français](ACADEMIC_THEORETICAL_FOUNDATIONS_FR.md) ｜ [Español](ACADEMIC_THEORETICAL_FOUNDATIONS_ES.md) ｜ [日本語](ACADEMIC_THEORETICAL_FOUNDATIONS_JA.md) ｜ [한국어](ACADEMIC_THEORETICAL_FOUNDATIONS_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 
