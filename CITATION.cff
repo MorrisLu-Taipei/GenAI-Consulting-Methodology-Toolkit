@@ -1,0 +1,57 @@
+# GitHub-standard citation metadata. Format: Citation File Format (CFF) 1.2.0
+# When users click "Cite this repository" on GitHub, this file drives the output.
+# Spec: https://citation-file-format.github.io/
+cff-version: 1.2.0
+title: "GenAI Consulting Methodology Toolkit"
+message: "If you use this methodology toolkit in your research or practice, please cite it as below."
+type: software
+authors:
+  - given-names: "Morris"
+    family-names: "Lu"
+    email: "tiger.ai.tw@gmail.com"
+    affiliation: "Tiger AI (Independent Research)"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # uncomment and fill once registered
+repository-code: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
+url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
+abstract: >
+  An open-source, multilingual, AI-Native methodology toolkit for enterprise GenAI
+  adoption. Includes an 8-stage closed-loop consulting flow, the Tiger AI L1-L5
+  GenAI adoption maturity model, a 4-layer Enterprise AI Reference Model, a
+  3-phase contract model with explicit Gate A/B/C exits, 7 industry case studies
+  in Benchmark-grade format, and 22 specialized AI-IDE workflows for production
+  and reader interaction.
+keywords:
+  - GenAI
+  - AI maturity model
+  - BPM
+  - consulting methodology
+  - enterprise AI adoption
+  - L1-L5
+  - Reference Model
+  - change management
+  - AI-Native eBook
+  - multi-IDE orchestration
+  - design science research
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-05-18"
+# DOI placeholders — fill in after Zenodo mints them on first GitHub release.
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"    # concept DOI (always points to latest)
+#     description: "Concept DOI (all versions)"
+#   - type: doi
+#     value: "10.5281/zenodo.YYYYYYY"    # version DOI for v1.0.0
+#     description: "Version DOI for v1.0.0"
+preferred-citation:
+  type: article
+  title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure"
+  authors:
+    - given-names: "Morris"
+      family-names: "Lu"
+      affiliation: "Tiger AI (Independent Research)"
+  year: 2026
+  month: 5
+  url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/blob/main/09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md"
+  notes: >
+    Working paper. Will be updated with Zenodo DOI on first formal release.
