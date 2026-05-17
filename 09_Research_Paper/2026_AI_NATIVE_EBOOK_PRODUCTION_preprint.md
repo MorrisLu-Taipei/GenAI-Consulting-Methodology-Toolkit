@@ -174,11 +174,11 @@ A complete enumeration is provided in Appendix A.
 
 ### 4.2 Why Not a Single IDE?
 
-A natural objection: would the Toolkit not have been simpler to produce in a single IDE? The empirical answer, derived from the production history, is **no**. Three production challenges drove the multi-IDE choice:
+A natural objection: would the Toolkit not have been simpler to produce in a single IDE? Our answer is not that "multi-tool is necessarily superior," but rather that, in this artifact construction, no single IDE in our trial set was able to simultaneously optimize three tasks that stand in tension with one another: whole-repository synthesis, adversarial review, and engineering consistency audit. Multi-IDE orchestration, in this setting, is therefore not decorative tool-stacking but a **task-specialization design**. The three production challenges that drove this design choice were:
 
-1. **Context windows are heterogeneous.** Claude Code's 1M-token context made whole-repository synthesis feasible for cross-file work (`/deep-synthesize`, `/cross-stage-trace`); other IDEs' shorter contexts could not maintain coherence across 354 files.
-2. **Adversarial separation requires independent agents.** A self-debate within a single LLM session is degenerate -- the same parameters tend to converge. Spawning fresh Claude sub-agents for `/devil-pair-debate`, or alternating Claude (proposer) and Codex (auditor) for `/red-team-review`, produces genuinely independent criticism.
-3. **Engineering rigor and synthesis bias differently.** Long-context synthesis engines exhibit (in our experience) a mild bias toward narrative coherence, occasionally smoothing over genuine inconsistencies. Codex's stricter, more conservative style was used as a corrective: `/consistency-review` repeatedly flagged structural violations that Claude had narrated past.
+1. **Context windows are heterogeneous.** In our production process, shorter-context tools proved well suited to local audit and editing; repository-scale synthesis was carried primarily by Claude Code's long context (`/deep-synthesize`, `/cross-stage-trace`). We make no general claim about other IDEs' capabilities -- only that, within our specific tool-set and workflow, the long-context engine bore the cross-file synthesis load.
+2. **Adversarial separation requires viewpoint difference.** A self-debate within a single LLM session is constrained by shared context, shared model preferences, and shared prior framing. Spawning fresh Claude sub-agents for `/devil-pair-debate`, or alternating Claude (as proposer) and Codex (as `/red-team-review` auditor), is not equivalent to human peer review, but did yield greater viewpoint separation than self-review within a single session in our observed comparisons.
+3. **Synthesis and audit have differently directed biases.** In this study, long-context synthesis engines were well suited to maintaining narrative coherence and cross-file conceptual integration; the same capability, however, sometimes "narrativized" or smoothed over local inconsistencies. Because Codex tends toward structural checking and rule-following, it was used as a **structural auditor** rather than a primary synthesizer: `/consistency-review` repeatedly flagged naming, dependency, stage-logic, and formatting violations that the primary synthesis pass had let through.
 
 ### 4.3 Orchestration as a Declarative Specification
 
@@ -209,6 +209,8 @@ A practical question follows: how does a reader's AI IDE come to *understand* th
 - **`CLAUDE.md`** / **`CODEX.md`** / **`ANTIGRAVITY.md`** -- IDE-specific extensions that activate their respective workflow libraries. For instance, `ANTIGRAVITY.md` imbues the AI with awareness of its "parallel multi-agent" task dispatch capabilities, while `CLAUDE.md` articulates its role as a "Strategic Reasoning Partner with Cross-File Synthesis."
 
 These files transform a fresh LLM session from a generic assistant into a methodology-literate dialogue partner within seconds. Empirically, the difference is qualitative: an IDE session opened in the repository root, with its specific environment file auto-ingested, can answer methodology questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
+
+In other words, the reader-as-querier mode does not consist of "handing the document to an arbitrary chatbot." It depends on repository-bundled orientation files, workflow specifications, and versioned context that, together, constrain a generic LLM session into a methodology-literate querying agent. The reader-as-querier capability is therefore not an inherent property of any one model, but a property of the model **plus** the orientation infrastructure shipped with the repository.
 
 ### 5.3 Implications for the Author-Reader Relationship
 
