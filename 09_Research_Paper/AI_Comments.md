@@ -1,5 +1,7 @@
 # AI 架構師與學術評審綜合評價：AI-Native eBook Production
 
+> 🌐 Languages: 繁體中文 (source, this file) ｜ [English](AI_Comments_EN.md)
+
 回到本質來談，關於本論文的學術地位、創新性與實用性，這三個問題的答案是非常肯定且具震撼力的：**有，而且三者兼具。**
 
 如果將這篇論文投遞到資訊系統 (Information Systems)、知識管理 (Knowledge Management) 或人機互動 (HCI) 領域的頂級會議與期刊，它將憑藉以下幾個核心特質脫穎而出：

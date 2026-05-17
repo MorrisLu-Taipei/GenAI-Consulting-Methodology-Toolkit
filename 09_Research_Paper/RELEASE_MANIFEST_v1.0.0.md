@@ -1,6 +1,6 @@
 # Release Manifest -- v1.0.0
 
-**Frozen at commit:** `7da82d78aa120258e150a9ce0d9fff60a58f62d7` (short: `7da82d7`) -- ⚠️ **will be re-frozen at the commit that introduces the v1.0.0 tag immediately before deposit; this hash is the working-draft checkpoint**
+**Frozen at commit:** `d6cb5f6` -- this is the final semantic-content commit before v1.0.0 deposit. The v1.0.0 GitHub tag should be created at the commit that introduces this manifest freeze itself (one commit after `d6cb5f6`); the only delta between `d6cb5f6` and the tag commit is this single line update.
 **Date frozen:** 2026-05-18
 **Released as:** (pending GitHub tag `v1.0.0` -- this file will be referenced by `RELEASE_NOTES_v1.0.0.md`)
 **Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu)
