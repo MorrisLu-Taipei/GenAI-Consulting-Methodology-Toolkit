@@ -1,6 +1,6 @@
 # 失敗模式與反例：什麼時候 Tiger AI 方法論不該用 / 會失敗
 
-> 🌐 English version: [FAILURE_PATTERNS_EN.md](FAILURE_PATTERNS_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](FAILURE_PATTERNS_EN.md) ｜ [Deutsch](FAILURE_PATTERNS_DE.md) ｜ [Français](FAILURE_PATTERNS_FR.md) ｜ [Español](FAILURE_PATTERNS_ES.md) ｜ [日本語](FAILURE_PATTERNS_JA.md) ｜ [한국어](FAILURE_PATTERNS_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 

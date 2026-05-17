@@ -1,6 +1,6 @@
 # Failure Patterns & Counter-Cases: When Tiger AI Methodology Should Not Be Applied / Will Fail
 
-> 🌐 中文版本 / Chinese version: [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md)
+> 🌐 Language: [繁體中文](FAILURE_PATTERNS.md) ｜ English ｜ [Deutsch](FAILURE_PATTERNS_DE.md) ｜ [Français](FAILURE_PATTERNS_FR.md) ｜ [Español](FAILURE_PATTERNS_ES.md) ｜ [日本語](FAILURE_PATTERNS_JA.md) ｜ [한국어](FAILURE_PATTERNS_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 
