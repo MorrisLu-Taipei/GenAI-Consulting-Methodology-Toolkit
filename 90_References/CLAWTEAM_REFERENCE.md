@@ -1,6 +1,6 @@
 # ClawTeam 引用與授權說明 / ClawTeam Citation & License Notice
 
-> 🌐 English version: [CLAWTEAM_REFERENCE_EN.md](CLAWTEAM_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](CLAWTEAM_REFERENCE_EN.md) ｜ [Deutsch](CLAWTEAM_REFERENCE_DE.md) ｜ [Français](CLAWTEAM_REFERENCE_FR.md) ｜ [Español](CLAWTEAM_REFERENCE_ES.md) ｜ [日本語](CLAWTEAM_REFERENCE_JA.md) ｜ [한국어](CLAWTEAM_REFERENCE_KR.md)
 
 本方法論的 **L5 Multi-Agent Organization** 課程以 **ClawTeam** 作為實作基礎平台。本檔詳列原始來源、授權條款、引用方式與我們的使用範圍。
 

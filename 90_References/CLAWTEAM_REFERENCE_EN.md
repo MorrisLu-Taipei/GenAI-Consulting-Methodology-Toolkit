@@ -1,6 +1,6 @@
 # ClawTeam Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [CLAWTEAM_REFERENCE.md](CLAWTEAM_REFERENCE.md)
+> 🌐 Language: [繁體中文](CLAWTEAM_REFERENCE.md) ｜ English ｜ [Deutsch](CLAWTEAM_REFERENCE_DE.md) ｜ [Français](CLAWTEAM_REFERENCE_FR.md) ｜ [Español](CLAWTEAM_REFERENCE_ES.md) ｜ [日本語](CLAWTEAM_REFERENCE_JA.md) ｜ [한국어](CLAWTEAM_REFERENCE_KR.md)
 
 The **L5 Multi-Agent Organization** course in this methodology adopts **ClawTeam** as its implementation platform. This document records the upstream source, license terms, citation guidance, and the scope of our use.
 

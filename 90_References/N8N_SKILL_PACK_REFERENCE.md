@@ -1,6 +1,6 @@
 # TigerAI-n8n-Skill-Pack 引用與授權說明 / TigerAI-n8n-Skill-Pack Citation & License Notice
 
-> 🌐 English version: [N8N_SKILL_PACK_REFERENCE_EN.md](N8N_SKILL_PACK_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](N8N_SKILL_PACK_REFERENCE_EN.md) ｜ [Deutsch](N8N_SKILL_PACK_REFERENCE_DE.md) ｜ [Français](N8N_SKILL_PACK_REFERENCE_FR.md) ｜ [Español](N8N_SKILL_PACK_REFERENCE_ES.md) ｜ [日本語](N8N_SKILL_PACK_REFERENCE_JA.md) ｜ [한국어](N8N_SKILL_PACK_REFERENCE_KR.md)
 
 本方法論的 **L3 Workflow Automation** 課程下半段，引用 **TigerAI-n8n-Skill-Pack** 作為「用 Antigravity 自然語言生成 n8n workflow」之教學平台。本檔詳列原始來源、授權條款、引用方式與使用範圍。
 
