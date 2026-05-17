@@ -1,0 +1,77 @@
+% Custom preamble for AI-Native eBook Production preprint
+% Used by pandoc xelatex via --include-in-header=_preamble.tex
+
+% --- Pan-CJK font setup: TC primary, KR/JP via ucharclasses per-script switching ---
+% xeCJK's FallBack option is fragile across versions; instead, use ucharclasses
+% which transitions font automatically when entering Hangul/Hiragana/Katakana blocks.
+\usepackage{xeCJK}
+\setCJKmainfont[AutoFakeBold=true,AutoFakeSlant=0.2]{Microsoft JhengHei}
+\setCJKsansfont{Microsoft JhengHei}
+\setCJKmonofont{Microsoft JhengHei}
+
+% Add Korean fallback via xeCJK's own mechanism (does not break table cells unlike ucharclasses).
+\setCJKfallbackfamilyfont{rm}{Malgun Gothic}
+\setCJKfallbackfamilyfont{sf}{Malgun Gothic}
+\setCJKfallbackfamilyfont{tt}{Malgun Gothic}
+
+% --- Long URL wrapping (for citations like github.com/.../very/long/path) ---
+\usepackage{xurl}
+\Urlmuskip=0mu plus 1mu
+\def\UrlBreaks{\do\/\do\-\do\_\do\.\do\=\do\&\do\?\do\#}
+
+% --- Code block line wrapping (for long shell commands, paths, etc.) ---
+\usepackage{fvextra}
+\fvset{
+  breaklines=true,
+  breakanywhere=true,
+  breakanywheresymbolpre=\,\textcolor{gray}{\tiny\ensuremath{\hookleftarrow}}\,,
+  breaksymbolleft=\,\textcolor{gray}{\tiny\ensuremath{\hookrightarrow}}\,,
+  fontsize=\small
+}
+
+% --- Tighter table presentation; help long-content table cells wrap ---
+\usepackage{array}
+\usepackage{ragged2e}
+\renewcommand{\arraystretch}{1.15}
+
+% --- Force all longtables to use \small font so wide content fits ---
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{tabular}{\small}
+
+% --- Looser line-breaking + larger emergency stretch to prevent inline-code overruns ---
+% Without this, long inline `code/with/long/path` strings overflow the right margin.
+\sloppy
+\emergencystretch=4em
+\tolerance=4000
+\hbadness=10000
+\hfuzz=2pt
+
+% --- Header and footer (academic preprint style) ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{\small\textit{AI-Native eBook Production}}
+\fancyhead[R]{\small Lu, Y.-H. (2026)}
+\fancyfoot[C]{\thepage}
+
+% --- Title page presentation ---
+\usepackage{titling}
+\pretitle{\begin{center}\Large\bfseries}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\end{center}}
+
+% --- Improve hyperlink colors (slightly more muted than default bright blue) ---
+% Wrap in \AtBeginDocument because pandoc's template loads hyperref AFTER include-in-header.
+\AtBeginDocument{%
+  \hypersetup{%
+    linkcolor={blue!60!black},%
+    urlcolor={blue!60!black},%
+    citecolor={blue!60!black}%
+  }%
+}
+
+% --- Suppress xelatex "missing character" noise for the few unsupported codepoints ---
+% (the FallBack chain handles most; remaining edge cases like box-drawing chars are deliberate)

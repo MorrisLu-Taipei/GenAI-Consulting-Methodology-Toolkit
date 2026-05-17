@@ -49,7 +49,7 @@ identifiers:
     description: "GitHub release page for v3.0.1"
 preferred-citation:
   type: article
-  title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure"
+  title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation"
   authors:
     - given-names: "Yeh-Hsing"
       family-names: "Lu"
@@ -58,6 +58,24 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0006-5373-0586"
   year: 2026
   month: 5
-  url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/blob/main/09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md"
+  doi: "10.5281/zenodo.20261850"
+  url: "https://doi.org/10.5281/zenodo.20261850"
   notes: >
-    Working paper. Will be updated with Zenodo DOI on first formal release.
+    Preprint, release candidate v1.0. Deposited to Zenodo 2026-05-17.
+    Paper concept DOI 10.5281/zenodo.20261850 always resolves to the latest version;
+    paper version DOI 10.5281/zenodo.20261851 pins to v1.0.
+    Cross-linked via Zenodo "Is supplement to" relations to the companion software
+    deposit (this toolkit, DOI 10.5281/zenodo.20261680).
+references:
+  - type: article
+    title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation"
+    authors:
+      - given-names: "Yeh-Hsing"
+        family-names: "Lu"
+        alias: "Morris Lu"
+        affiliation: "Tiger AI (Independent Research)"
+        orcid: "https://orcid.org/0009-0006-5373-0586"
+    year: 2026
+    doi: "10.5281/zenodo.20261850"
+    url: "https://doi.org/10.5281/zenodo.20261850"
+    notes: "Companion preprint that describes and evaluates this toolkit."

@@ -10,16 +10,18 @@
 **聯絡：** <yesinlu@gmail.com>
 **版本：** 1.0 中文 companion 版（reader-facing；正式學術引用請使用英文 canonical 版）
 **日期：** 2026-05-18
-**授權：** Apache License 2.0
-**Artifact DOI（concept，永遠最新版）：** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
-**Artifact DOI（本版本）：** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)（軟體 release v3.0.1 = paper v1.0）
+**授權：** Creative Commons Attribution 4.0 International (CC BY 4.0)（本 preprint 文字）；配套 toolkit 軟體採 Apache 2.0
+**論文 DOI（concept，永遠最新版）：** [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850)
+**論文 DOI（本版本 v1.0）：** [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)
+**配套軟體 DOI（toolkit, concept）：** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
+**配套軟體 DOI（toolkit v3.0.1）：** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)
 **Repository：** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>
 **GitHub release：** [v3.0.1](https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1)（commit `5361c7b`）
 **可重現性 manifest：** `09_Research_Paper/REPRODUCIBILITY.md`
 **Release manifest（凍結版）：** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md`
-**建議引用格式：** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation*（Version 1.0，software tag v3.0.1）[Software / working paper]. Zenodo. <https://doi.org/10.5281/zenodo.20261680>
+**建議引用格式：** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure — A Design Science Investigation*（Version 1.0）[Preprint]. Zenodo. <https://doi.org/10.5281/zenodo.20261850>
 
-> **狀態說明。** 本文件為 v1.0 release candidate，於 2026-05-17 deposit 到 Zenodo（concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)；version DOI [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)）。GitHub 軟體 release tag `v3.0.1` 對應 paper release candidate v1.0。本版本為 release candidate —— **尚未經同儕審查** —— 對外提供以供社群回饋、複製嘗試、勘誤（透過 repository Issues）。peer-reviewed 版本為下一步（見 §9.5 預註冊驗證研究、§10.5 經驗研究議程）。
+> **狀態說明。** 本 preprint 已於 2026-05-17 以獨立學術 artifact 身份 deposit 到 Zenodo（paper concept DOI [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850)；paper version DOI [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)）。它透過 Zenodo「Is supplement to」關係，cross-link 到配套軟體 deposit《GenAI Consulting Methodology Toolkit》（concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)；v3.0.1 DOI [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)）。GitHub 軟體 release tag `v3.0.1` 對應 paper release candidate v1.0。本版本為 release candidate —— **尚未經同儕審查** —— 對外提供以供社群回饋、複製嘗試、勘誤（透過 repository Issues）。peer-reviewed 版本為下一步（見 §9.5 預註冊驗證研究、§10.5 經驗研究議程）。
 
 > **譯註與定位說明。** 本中文版為英文原稿之 **reader-facing companion 版**，定位為「讓中文讀者快速理解論文主張」。**正式學術引用、Zenodo / SSRN / arXiv deposit、peer review 投稿，一律以英文 canonical 版（同目錄 `2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md`）為準**。技術術語（DSR、LLM、AI IDE、workflow 名稱、commit hash、檔案路徑）刻意保留原文，便於跨語對照與檢索；其他敘述與 section heading 翻譯為中文。如中英文出現歧義，以英文原稿為準。本中文版的更新可能落後英文版，最新主張請以英文版為主。
 

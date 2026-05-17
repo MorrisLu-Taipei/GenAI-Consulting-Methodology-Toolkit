@@ -6,18 +6,20 @@
 **Affiliation:** Tiger AI (Independent Research)  
 **ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)  
 **Contact:** <yesinlu@gmail.com>  
-**Version:** 1.0 (release candidate; **not yet deposited**)  
+**Version:** 1.0 (release candidate)  
 **Date:** 2026-05-18  
-**License:** Apache License 2.0  
-**Artifact DOI (concept):** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680) (always resolves to the latest version)  
-**Artifact DOI (this version):** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681) (software release v3.0.1 = paper v1.0)  
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0) for this preprint text; companion software toolkit licensed Apache 2.0  
+**Paper DOI (concept, always latest):** [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850)  
+**Paper DOI (this version, v1.0):** [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)  
+**Companion software DOI (toolkit, concept):** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)  
+**Companion software DOI (toolkit, v3.0.1):** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)  
 **Repository:** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>  
 **GitHub release:** [v3.0.1](https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1) (commit `5361c7b`)  
 **Reproducibility manifest:** `09_Research_Paper/REPRODUCIBILITY.md`  
 **Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md`  
-**Suggested citation:** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation* (Version 1.0, software tag v3.0.1) [Software / working paper]. Zenodo. <https://doi.org/10.5281/zenodo.20261680>
+**Suggested citation:** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure — A Design Science Investigation* (Version 1.0) [Preprint]. Zenodo. <https://doi.org/10.5281/zenodo.20261850>
 
-> **Status note.** This document is the v1.0 release candidate, deposited to Zenodo on 2026-05-17 (concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680); version DOI [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)). Software release tag `v3.0.1` on GitHub corresponds to paper release candidate v1.0. This is a release candidate -- not peer reviewed -- and is offered for community feedback, replication attempts, and errata via repository Issues. A peer-reviewed version is the intended next step (see Section 9.5 pre-registered validation study and Section 10.5 empirical research agenda).
+> **Status note.** This preprint was deposited to Zenodo on 2026-05-17 as an independent scholarly artifact (paper concept DOI [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850); paper version DOI [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)). It is cross-linked via Zenodo "Is supplement to" relations to its companion software deposit, the *GenAI Consulting Methodology Toolkit* (concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680); v3.0.1 DOI [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)). The software release tag `v3.0.1` on GitHub corresponds to paper release candidate v1.0. This is a release candidate — not peer reviewed — and is offered for community feedback, replication attempts, and errata via repository Issues. A peer-reviewed version is the intended next step (see Section 9.5 pre-registered validation study and Section 10.5 empirical research agenda).
 
 ---
 
@@ -108,18 +110,18 @@ This paper addresses that combined gap.
 
 The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (henceforth, *the Toolkit*), released under Apache License 2.0. The numeric properties below are **frozen at commit `7da82d7` (2026-05-18)** and independently verifiable via the commands in `09_Research_Paper/REPRODUCIBILITY.md`:
 
-| Property | Value | Verification command (see REPRODUCIBILITY.md) |
+| Property | Value | Verification |
 | --- | --- | --- |
-| Total markdown documents | 354 | `find . -name "*.md" -not -path "./.git/*" \| wc -l` |
-| Substantive source documents (excluding `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | 120 | see REPRODUCIBILITY.md §3 |
-| Translation siblings (`_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH`) | 234 (78/31/31/31/31/31/1) | see REPRODUCIBILITY.md §3 |
-| Specialized AI-IDE workflows | 22 (10 Claude Code, 10 Codex, 2 Antigravity) | `ls .claude/workflows/*.md .codex/workflows/*.md .antigravity/workflows/*.md \| wc -l` |
-| Eight-stage methodology stages | 8 | (qualitative; see `00_Overview/EIGHT_STAGE_FLOW_STORY.md`) |
-| Maturity model levels | 5 (L1 Chat -> L5 Agent Team) | (qualitative) |
-| Industry case studies (Benchmark-grade format) | 7 | `ls 04_Scenarios/SAMPLE_CLIENT_CASE_*.md \| wc -l` |
+| Total markdown documents | 354 | REPRODUCIBILITY.md §3.1 |
+| Substantive source documents (excluding translation siblings) | 120 | REPRODUCIBILITY.md §3.2 |
+| Translation siblings (7 languages) | 234 (78/31/31/31/31/31/1 for EN/DE/FR/ES/JA/KR/TH) | REPRODUCIBILITY.md §3.2 |
+| Specialized AI-IDE workflows | 22 (10 Claude Code, 10 Codex, 2 Antigravity) | REPRODUCIBILITY.md §3.3 |
+| Eight-stage methodology stages | 8 | Qualitative — see EIGHT_STAGE_FLOW_STORY.md |
+| Maturity model levels | 5 (L1 Chat → L5 Agent Team) | Qualitative |
+| Industry case studies (Benchmark-grade) | 7 | REPRODUCIBILITY.md §3.4 |
 | Git commits | 94 | `git rev-list --count HEAD` |
-| Source languages with substantive coverage | 7 (繁體中文, English, Deutsch, Français, Español, 日本語, 한국어; partial Thai) | see REPRODUCIBILITY.md §3 |
-| Repository URL | `https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit` | — |
+| Source languages with substantive coverage | 7 (Traditional Chinese, English, German, French, Spanish, Japanese, Korean; partial Thai) | REPRODUCIBILITY.md §3.5 |
+| Repository URL | <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit> | — |
 | License | Apache License 2.0 (with `NOTICE` attribution requirements) | `cat LICENSE` |
 
 ### 3.2 Methodology Substance (Brief)
@@ -248,7 +250,7 @@ The Toolkit is published in seven languages. The naïve approach to multilingual
 
 The Toolkit's production manages both problems through what we call **simultaneous multilingual coherence**: source updates and translation updates are treated as a single coordinated commit, and cross-language consistency is *enforced by automated sweep*. For example, the project memory system records discipline rules such as:
 
-> *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `신주` -> `City X`. Must be applied across all 7 language files in the same commit.
+> *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `Sinju` (the Korean transliteration of the same place) -> `City X`. Must be applied across all 7 language files in the same commit.
 
 Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. The bilingual EN/ZH versions of this preprint itself are maintained in sync through the same multi-IDE mechanism, providing a meta-level demonstration of the same discipline.
 
@@ -560,37 +562,57 @@ Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Ent
 
 ### E. Citation status table (for reviewer transparency)
 
-Each cited source above is categorized by evidentiary type so that reviewers can quickly distinguish scholarly evidence from supplementary documentation. **Product documentation entries** (Section C) are cited only to establish tool existence and capability; they are not treated as scholarly evidence for the paper's research claims.
+Each citation is classified by **evidence tier** so reviewers can distinguish scholarly load-bearing claims from supplementary context. Tier-3 entries (vendor documentation, industry research notes, personal essays) are cited only to establish tool existence, product capability, or historical reference — they are not treated as scholarly evidence for the paper's research claims.
 
-| Reference | Type |
+**Summary:** 27 references total — **Tier 1** (peer-reviewed scholarly): 11 · **Tier 2** (scholarly without peer review): 5 · **Tier 3** (industry / vendor / supplementary): 11
+
+#### Tier 1 — Peer-reviewed scholarly evidence (n = 11)
+
+These citations carry the paper's theoretical and methodological argument.
+
+| Reference | Outlet |
 | --- | --- |
-| Hevner et al. (2004) | Peer-reviewed journal article |
-| Peffers et al. (2007) | Peer-reviewed journal article |
-| March & Smith (1995) | Peer-reviewed journal article |
-| Becker et al. (2009) | Peer-reviewed journal article |
-| Knuth (1984) | Peer-reviewed journal article |
-| de Bruin & Rosemann (2005) | Peer-reviewed conference paper |
-| de Bruin & Rosemann (2007) | Peer-reviewed conference paper |
-| Lee et al. (2022) | Peer-reviewed conference paper |
-| Mirowski et al. (2023) | Peer-reviewed conference paper |
-| Long et al. (2024) | Peer-reviewed conference paper |
-| Kluyver et al. (2016) | Peer-reviewed book chapter |
+| Hevner et al. (2004) | Journal article (MIS Quarterly) |
+| Peffers et al. (2007) | Journal article (JMIS) |
+| March & Smith (1995) | Journal article (Decision Support Systems) |
+| Becker et al. (2009) | Journal article (BISE) |
+| Knuth (1984) | Journal article (Computer Journal) |
+| de Bruin & Rosemann (2005) | Conference paper (ACIS) |
+| de Bruin & Rosemann (2007) | Conference paper (PACIS) |
+| Lee et al. (2022) | Conference paper (CHI) |
+| Mirowski et al. (2023) | Conference paper (CHI) |
+| Long et al. (2024) | Conference paper (CHI) |
+| Kluyver et al. (2016) | Peer-reviewed book chapter (IOS Press) |
+
+#### Tier 2 — Scholarly outputs without peer review (n = 5)
+
+Authored within scholarly institutions and widely cited, but did not undergo external peer review.
+
+| Reference | Outlet |
+| --- | --- |
 | Paulk et al. (1993) | Technical report (CMU/SEI) |
-| Engelbart (1962) | Technical report (SRI) |
-| de Bruin (2009) | Doctoral dissertation |
-| Rasiel (1999) | Book |
-| Friga (2009) | Book |
-| Rosemann & de Bruin (2005) | Industry / practitioner publication (BPTrends) |
-| APQC (2022) | Industry / standards-body publication |
-| Bostock (2017) | Personal essay (Medium) |
-| Victor (2011) | Personal essay |
-| Victor & Hellman (2014) | Talk / dynamic poster |
-| Gartner (2024) | Industry research note (paywalled; cited for context only) |
-| Anthropic (2025) | Vendor documentation |
-| Anysphere (2026) | Vendor documentation |
-| Google (2025) | Vendor announcement / blog post |
-| OpenAI (2025) | Vendor documentation |
-| Lu (in preparation) | Author's own forthcoming work |
+| Engelbart (1962) | Technical report (SRI International) |
+| de Bruin (2009) | Doctoral dissertation (QUT) |
+| Rasiel (1999) | Trade book (McGraw-Hill) |
+| Friga (2009) | Trade book (McGraw-Hill) |
+
+#### Tier 3 — Industry, vendor, and supplementary references (n = 11)
+
+Cited for tool/product existence, historical anchoring, or industry context — not as evidence for research claims.
+
+| Reference | Outlet | Cited for |
+| --- | --- | --- |
+| Rosemann & de Bruin (2005) | Practitioner publication (BPTrends) | Practitioner-facing companion to the peer-reviewed paper above |
+| APQC (2022) | Standards-body publication | Process Classification Framework as benchmark |
+| Bostock (2017) | Personal essay (Medium) | Observable notebooks lineage |
+| Victor (2011) | Personal essay | "Media for thought" thesis |
+| Victor & Hellman (2014) | Talk / dynamic poster | Reactive document concept |
+| Gartner (2024) | Industry research note (paywalled) | Industry-context only |
+| Anthropic (2025) | Vendor documentation | Claude Code product existence |
+| Anysphere (2026) | Vendor documentation | Cursor IDE product existence |
+| Google (2025) | Vendor announcement | Antigravity product existence |
+| OpenAI (2025) | Vendor documentation | Codex CLI product existence |
+| Lu (in preparation) | Author's own forthcoming work | Pointer to L1-L5 maturity model (not yet citable) |
 
 ---
 
