@@ -16,7 +16,7 @@ Purpose：建立方法論信任 + 展示具體交付物 + 觸發 PoC 對話
 ## Slide 2 — 我們是誰 / Who We Are
 
 - Tiger AI 虎智科技 · Morris Lu (盧業興)
-- 身份：n8n Taipei 大使 · 智慧製造所博士生 · 海外資工碩士
+- 身份：n8n Taipei 大使 · 臺灣科技大學 智慧製造所博士生 · QUT 昆士蘭科技大學 資工碩士
 - 學術淵源：Rosemann BPM 學派
 - 視覺：個人 + 社群 + 學術三圈疊圖
 

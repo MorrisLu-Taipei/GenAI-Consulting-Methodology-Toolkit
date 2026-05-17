@@ -8,7 +8,7 @@ Language: [繁體中文](README.md) | English | [ภาษาไทย](README_T
 Enterprise AI transformation maturity assessment and implementation methodology toolkit.
 
 Original Author: **Tiger AI Morris Lu 盧業興**  
-Role: **n8n Taipei Ambassador / PhD student (Intelligent Manufacturing) / M.IT (overseas)**
+Role: **n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology (NTUST) / M.IT, Queensland University of Technology (QUT), Australia**
 
 License summary: this project is released under the **[Apache License 2.0](LICENSE)**. You may freely use, copy, modify, redistribute, and commercialize it; when redistributing, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE).
 
@@ -228,7 +228,7 @@ When redistributing, adapting, packaging commercially, or using in course materi
 
 ```text
 Original Author: Tiger AI Morris Lu 盧業興
-Role: n8n Taipei Ambassador / PhD student (Intelligent Manufacturing) / M.IT (overseas)
+Role: n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology (NTUST) / M.IT, Queensland University of Technology (QUT), Australia
 Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 

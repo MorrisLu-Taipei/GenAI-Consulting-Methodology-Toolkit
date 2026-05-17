@@ -11,7 +11,7 @@
 
 ```text
 原作者：Tiger AI Morris Lu 盧業興
-身份：n8n Taipei 大使 / 智慧製造所博士生 / 海外資工碩士
+身份：n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生 / QUT 昆士蘭科技大學 資工碩士
 來源：https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 
@@ -19,7 +19,7 @@ English attribution:
 
 ```text
 Original Author: Tiger AI Morris Lu 盧業興
-Role: n8n Taipei Ambassador / PhD student (Intelligent Manufacturing) / M.IT (overseas)
+Role: n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology (NTUST) / M.IT, Queensland University of Technology (QUT), Australia
 Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 

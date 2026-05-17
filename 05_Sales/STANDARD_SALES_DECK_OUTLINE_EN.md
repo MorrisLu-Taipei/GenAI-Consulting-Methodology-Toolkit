@@ -17,7 +17,7 @@ Purpose: Build trust in the methodology + show concrete deliverables + trigger a
 ## Slide 2 — Who We Are
 
 - Tiger AI 虎智科技 · Morris Lu (盧業興)
-- Roles: n8n Taipei Ambassador · PhD student (Intelligent Manufacturing) · M.IT (overseas)
+- Roles: n8n Taipei Ambassador · NTUST PhD Student (Intelligent Manufacturing) · M.IT, Queensland University of Technology (QUT), Australia
 - Academic lineage: Rosemann BPM school
 - Visual: overlapping circles of individual + community + academic
 
