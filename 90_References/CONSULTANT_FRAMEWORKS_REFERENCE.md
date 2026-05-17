@@ -1,6 +1,6 @@
 # consultant 框架庫引用與授權說明 / consultant Frameworks Citation & License Notice
 
-> 🌐 English version: [CONSULTANT_FRAMEWORKS_REFERENCE_EN.md](CONSULTANT_FRAMEWORKS_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](CONSULTANT_FRAMEWORKS_REFERENCE_EN.md) ｜ [Deutsch](CONSULTANT_FRAMEWORKS_REFERENCE_DE.md) ｜ [Français](CONSULTANT_FRAMEWORKS_REFERENCE_FR.md) ｜ [Español](CONSULTANT_FRAMEWORKS_REFERENCE_ES.md) ｜ [日本語](CONSULTANT_FRAMEWORKS_REFERENCE_JA.md) ｜ [한국어](CONSULTANT_FRAMEWORKS_REFERENCE_KR.md)
 
 本方法論的 [`03_Consulting_Report/CONSULTING_FRAMEWORKS_LIBRARY.md`](../03_Consulting_Report/CONSULTING_FRAMEWORKS_LIBRARY.md) 之框架清單與分類，參考並改寫自 **yoichiojima-2/consultant**。本檔詳列原始來源、授權條款、引用方式與改寫範圍。
 

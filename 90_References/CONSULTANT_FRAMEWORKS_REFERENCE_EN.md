@@ -1,6 +1,6 @@
 # consultant Frameworks — Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [CONSULTANT_FRAMEWORKS_REFERENCE.md](CONSULTANT_FRAMEWORKS_REFERENCE.md)
+> 🌐 Language: [繁體中文](CONSULTANT_FRAMEWORKS_REFERENCE.md) ｜ English ｜ [Deutsch](CONSULTANT_FRAMEWORKS_REFERENCE_DE.md) ｜ [Français](CONSULTANT_FRAMEWORKS_REFERENCE_FR.md) ｜ [Español](CONSULTANT_FRAMEWORKS_REFERENCE_ES.md) ｜ [日本語](CONSULTANT_FRAMEWORKS_REFERENCE_JA.md) ｜ [한국어](CONSULTANT_FRAMEWORKS_REFERENCE_KR.md)
 
 The framework list and taxonomy in this methodology's [`03_Consulting_Report/CONSULTING_FRAMEWORKS_LIBRARY.md`](../03_Consulting_Report/CONSULTING_FRAMEWORKS_LIBRARY.md) are referenced from and rewritten based on **yoichiojima-2/consultant**. This document records the upstream source, license terms, citation guidance, and scope of adaptation.
 
