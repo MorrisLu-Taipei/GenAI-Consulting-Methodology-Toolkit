@@ -45,7 +45,7 @@ Twenty-two specialized AI-IDE workflow specifications across three IDE families:
 
 ### Research paper
 
-`09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md` -- a 12-page preprint, *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*, intended for parallel Zenodo and SSRN deposit. This preprint situates the entire toolkit within the design science research tradition and offers it as evidence for a new methodology engineering paradigm.
+`09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md` -- a Markdown preprint, *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*, intended for parallel Zenodo and SSRN deposit. Rendered page count depends on PDF engine, font, and margin settings; the reproducibility manifest gives the canonical rendering command. This preprint situates the entire toolkit within the design science research tradition and offers it as evidence for a new methodology engineering paradigm.
 
 ### Citation infrastructure
 
@@ -85,8 +85,8 @@ All numbers below are frozen at commit `7da82d7` and reproducible via the comman
 
 | Metric | Value |
 | --- | --- |
-| Total markdown documents | 352 |
-| Substantive source documents (zh primary, non-translation) | 118 |
+| Total markdown documents | 354 |
+| Substantive source documents (zh primary, non-translation) | 120 |
 | Translation siblings (EN/DE/FR/ES/JA/KR/TH) | 234 (78/31/31/31/31/31/1) |
 | Specialized AI-IDE workflows | 22 (10 Claude Code + 10 Codex + 2 Antigravity) |
 | Git commits at this tag | 94 |

@@ -24,7 +24,7 @@
 
 ## Abstract
 
-Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 349 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). The artifact demonstrates four properties unattainable through traditional single-tool authorship: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
+Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). The artifact demonstrates four properties unattainable through traditional single-tool authorship: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
 
 **Keywords:** design science research; AI IDE; methodology engineering; multi-agent collaboration; executable documents; reproducible methodology; AI-native; literate programming; consulting frameworks
 
@@ -57,7 +57,7 @@ This paper investigates whether AI IDEs, used in deliberate orchestration, can s
 We make four contributions:
 
 1. A **paradigm description** of AI-Native eBook production, distinguishing it from prior categories (AI-assisted writing, literate programming, executable documents).
-2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, released under Apache 2.0 with a Zenodo DOI -- that serves as both a working methodology and an empirical demonstration of the paradigm.
+2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, staged for release under Apache 2.0 with a pending Zenodo DOI -- that serves as both a working methodology and an empirical demonstration of the paradigm.
 3. A **design science evaluation** of the artifact against Hevner et al.'s [2004] seven guidelines, with quantitative comparison against traditional methodology development cycles.
 4. **Reusable infrastructure** in the form of 22 AI-IDE workflow specifications, three IDE configuration directories, and a `CITATION.cff` provenance file that other researchers can fork and adapt.
 
@@ -111,8 +111,8 @@ The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (hence
 
 | Property | Value | Verification command (see REPRODUCIBILITY.md) |
 | --- | --- | --- |
-| Total markdown documents | 352 | `find . -name "*.md" -not -path "./.git/*" \| wc -l` |
-| Substantive source documents (excluding `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | 118 | see REPRODUCIBILITY.md §3 |
+| Total markdown documents | 354 | `find . -name "*.md" -not -path "./.git/*" \| wc -l` |
+| Substantive source documents (excluding `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | 120 | see REPRODUCIBILITY.md §3 |
 | Translation siblings (`_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH`) | 234 (78/31/31/31/31/31/1) | see REPRODUCIBILITY.md §3 |
 | Specialized AI-IDE workflows | 22 (10 Claude Code, 10 Codex, 2 Antigravity) | `ls .claude/workflows/*.md .codex/workflows/*.md .antigravity/workflows/*.md \| wc -l` |
 | Eight-stage methodology stages | 8 | (qualitative; see `00_Overview/EIGHT_STAGE_FLOW_STORY.md`) |
@@ -137,7 +137,7 @@ A separate paper [Lu, in preparation] presents the L1-L5 maturity model as an in
 
 ### 3.3 What Makes the Artifact Interesting for This Paper
 
-For the purpose of this paper, the Toolkit's substantive methodology is treated as a **representative payload**. The novel contribution lies in the answer to the question: *given that an artifact of this scope (349 documents, 7 languages, 8-stage methodology, 5-level maturity model, 7 case studies) needed to be produced, what production environment was used, and what properties did that environment confer that traditional environments cannot?*
+For the purpose of this paper, the Toolkit's substantive methodology is treated as a **representative payload**. The novel contribution lies in the answer to the question: *given that an artifact of this scope (354 documents, 7 languages, 8-stage methodology, 5-level maturity model, 7 case studies) needed to be produced, what production environment was used, and what properties did that environment confer that traditional environments cannot?*
 
 Sections 4 through 8 answer this question along five dimensions.
 
@@ -148,7 +148,7 @@ Sections 4 through 8 answer this question along five dimensions.
 The Toolkit was produced through deliberate orchestration of **three specialized AI IDE families**, each contributing distinct capabilities. The orchestration is encoded in three repository directories:
 
 ```
-10_Cosultanting/
+10_Consulting/
 ├── .claude/         (Claude Code -- 1M context, cross-file synthesis)
 │   ├── README.md
 │   └── workflows/   (10 specialized workflows)
@@ -178,7 +178,7 @@ A complete enumeration is provided in Appendix A.
 
 A natural objection: would the Toolkit not have been simpler to produce in a single IDE? The empirical answer, derived from the production history, is **no**. Three production challenges drove the multi-IDE choice:
 
-1. **Context windows are heterogeneous.** Claude Code's 1M-token context made whole-repository synthesis feasible for cross-file work (`/deep-synthesize`, `/cross-stage-trace`); other IDEs' shorter contexts could not maintain coherence across 349 files.
+1. **Context windows are heterogeneous.** Claude Code's 1M-token context made whole-repository synthesis feasible for cross-file work (`/deep-synthesize`, `/cross-stage-trace`); other IDEs' shorter contexts could not maintain coherence across 354 files.
 2. **Adversarial separation requires independent agents.** A self-debate within a single LLM session is degenerate -- the same parameters tend to converge. Spawning fresh Claude sub-agents for `/devil-pair-debate`, or alternating Claude (proposer) and Codex (auditor) for `/red-team-review`, produces genuinely independent criticism.
 3. **Engineering rigor and synthesis bias differently.** Long-context synthesis engines exhibit (in our experience) a mild bias toward narrative coherence, occasionally smoothing over genuine inconsistencies. Codex's stricter, more conservative style was used as a corrective: `/consistency-review` repeatedly flagged structural violations that Claude had narrated past.
 
@@ -237,17 +237,17 @@ Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in
 
 ### 6.2 Why This Is Unattainable by Single-Author Production
 
-A human author cannot maintain simultaneous fluency and consistency across 7 languages at the document volume in question (349 files, hundreds of thousands of words). Even a team of professional translators cannot guarantee atomic propagation of semantic changes across languages on the timeline that multi-IDE production enables (the commit cited above was completed in approximately 45 minutes of one operator's session time).
+A human author cannot maintain simultaneous fluency and consistency across 7 languages at the document volume in question (354 files, hundreds of thousands of words). Even a team of professional translators cannot guarantee atomic propagation of semantic changes across languages on the timeline that multi-IDE production enables (the commit cited above was completed in approximately 45 minutes of one operator's session time).
 
 We characterize this as an **emergent property**: simultaneous multilingual coherence is not a feature any single agent in the production environment possesses, but it arises from the combination of LLM-fluent generation, Git atomic commits, and `/consistency-review`-style sweep workflows. No single human, and no single AI engine, would produce it; the production environment as a whole does.
 
 ### 6.3 Empirical Audit
 
-A complete cross-language coverage audit, generated via a one-line script in the repository's `Bash` shell, shows that of 104 substantive (i.e., non-IDE-meta) source documents:
+A complete cross-language coverage audit, generated via the one-line Python script in `09_Research_Paper/REPRODUCIBILITY.md` Section 3.2, shows that of 120 substantive (i.e., non-IDE-meta) source documents:
 
-- 27 (26%) are complete across all 6 non-source languages,
-- 50 (48%) are substantively complete and undergoing final translation,
-- 27 (26%) are pending translation (low-priority internal task logs and ancillary files).
+- 31 (26%) are complete across all 5 non-source target languages (DE/FR/ES/JA/KR; EN is typically present as well),
+- 48 (40%) have partial sibling coverage (1-4 of DE/FR/ES/JA/KR, with EN present in most cases),
+- 41 (34%) have no translation siblings yet (low-priority internal task logs, ancillary files, and recently added documents awaiting their first translation wave).
 
 This is achievable for a single-author project of this scope only through the production paradigm described.
 
@@ -288,10 +288,10 @@ A common critique of LLM-generated content is unfalsifiable provenance: the read
 
 The Toolkit addresses this through a four-layer provenance chain:
 
-1. **Git history** -- every change is timestamped and attributable to a commit. The 93 commits at time of writing encode the artifact's complete derivation history.
+1. **Git history** -- every change is timestamped and attributable to a commit. The 94 commits at time of writing encode the artifact's complete derivation history.
 2. **AI-attribution discipline** -- commits made with substantive AI assistance carry a `Co-Authored-By:` trailer (e.g., `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`). Mixed-authorship commits are honest about the mixture.
 3. **Workflow files as derivation recipes** -- the `.claude/workflows/`, `.codex/workflows/`, and `.antigravity/workflows/` directories archive the exact prompts and procedures used. A third party can replay them.
-4. **Persistent identifiers** -- the Zenodo DOI (concept DOI + version DOI per release) provides an immutable handle for academic citation.
+4. **Persistent identifiers** -- the pending Zenodo DOI (concept DOI + version DOI per release) will provide an immutable handle for academic citation after the `v1.0.0` tag is released.
 
 ### 8.3 Citation Discipline
 
@@ -319,13 +319,13 @@ We evaluate the AI-Native eBook paradigm against the canonical Hevner et al. [20
 
 | # | Guideline | Self-Assessment | Evidence |
 | --- | --- | --- | --- |
-| 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 349 files, DOI). |
+| 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 354 files, pending Zenodo DOI). |
 | 2 | Problem relevance | [x] | Methodology engineering crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent. |
 | 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles is qualitative (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
 | 4 | Research contributions | [x] | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure -- four distinct contributions. |
 | 5 | Research rigor | [x] | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
 | 6 | Design as search process | [x] | 93 Git commits document the iterative search through the design space. |
-| 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, Zenodo DOI). |
+| 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, pending Zenodo DOI). |
 
 The single partial mark (Guideline 3) is honest: empirical reader-uptake studies are not yet in scope. We outline an empirical research agenda in Section 10.
 
@@ -337,7 +337,7 @@ We compare AI-Native eBook production against three reference points: McKinsey's
 | --- | --- | --- | --- | --- |
 | First public release to v1.0 | ~ 5 years | ~ 3 years (PhD-cycle) | ~ 18 months per revision | **~ 6 months** |
 | Source language count at v1.0 | 1 | 1 | 1 (EN), some localized later | **7 simultaneously** |
-| Substantive documents at v1.0 | ~ 30 (book) | ~ 6 (papers + supplements) | ~ 5 (research notes) | **118** |
+| Substantive documents at v1.0 | ~ 30 (book) | ~ 6 (papers + supplements) | ~ 5 (research notes) | **120** |
 | Specialized workflows | 0 | 0 | 0 | **22** |
 | Production provenance | Memoir / interviews | Acknowledgments section | Editorial team list | **Full Git + workflow files + DOI** |
 | Reader-queryability | None (static text) | None | None | **22 workflows reader-invocable** |

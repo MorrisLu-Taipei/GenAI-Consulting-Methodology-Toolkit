@@ -18,11 +18,11 @@ If a number reported in the preprint does not match the output of the commands b
 
 ```bash
 git clone https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit.git
-cd GenAI-Consulting-Methodology-Toolkit/Deliverable/10_Cosultanting
+cd GenAI-Consulting-Methodology-Toolkit/Deliverable/10_Consulting
 git checkout 7da82d7
 ```
 
-> **Note on path spelling.** The path component `10_Cosultanting` is preserved as the literal spelling at v1.0.0; a future release will correct it to `10_Consulting`. Anyone executing commands from a later release should substitute the corrected path.
+> **Note on path spelling.** The directory was renamed from `10_Cosultanting` (typo) to `10_Consulting` in a maintenance commit after `7da82d7`. If you check out a commit at or before `7da82d7`, substitute `10_Cosultanting` in path commands. From the next release onward, `10_Consulting` is canonical.
 
 ---
 
@@ -42,7 +42,7 @@ PowerShell users on Windows may substitute `Get-ChildItem` and `Measure-Object` 
 
 ## 3. Verifying preprint Section 3.1 numbers (artifact scope)
 
-Run these exact commands from the `10_Cosultanting/` directory after `git checkout 7da82d7`.
+Run these exact commands from the `10_Consulting/` directory (or `10_Cosultanting/` if you checked out a commit at or before `7da82d7`) after `git checkout 7da82d7`.
 
 ### 3.1 Total markdown documents
 
@@ -50,7 +50,7 @@ Run these exact commands from the `10_Cosultanting/` directory after `git checko
 find . -name "*.md" -not -path "./.git/*" | wc -l
 ```
 
-**Expected output:** `352`
+**Expected output:** `354`
 
 ### 3.2 Substantive source documents (i.e., excluding translation siblings)
 
@@ -61,7 +61,7 @@ find . -name "*.md" -not -path "./.git/*" \
   -not -name "*_TH.md" | wc -l
 ```
 
-**Expected output:** `118`
+**Expected output:** `120`
 
 ### 3.3 Translation siblings by language
 
@@ -84,7 +84,7 @@ KR: 31
 TH: 1
 ```
 
-Total translations: 234. Substantive source files: 118. Total markdown: 352.
+Total translations: 234. Substantive source files: 120. Total markdown: 354.
 
 ### 3.4 Specialized AI-IDE workflows
 
@@ -226,7 +226,7 @@ To exercise the reader-as-querier model described in Section 5:
 
 ```bash
 # In an environment with Claude Code installed and authenticated:
-cd Deliverable/10_Cosultanting
+cd Deliverable/10_Consulting
 claude
 
 # Inside Claude Code, run any of the 10 reader workflows:

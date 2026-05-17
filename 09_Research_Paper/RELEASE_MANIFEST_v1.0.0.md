@@ -20,7 +20,7 @@ This file is the **source of truth** for every numeric claim made in `2026_AI_NA
 | Branch | `main` |
 | Repository URL | <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit> |
 | License | Apache License 2.0 |
-| Working-directory subroot | `Deliverable/10_Cosultanting/` |
+| Working-directory subroot | `Deliverable/10_Consulting/` (renamed from `10_Cosultanting` in a maintenance commit immediately after `7da82d7`; checkouts at or before `7da82d7` will see the old spelling) |
 
 ---
 
@@ -28,8 +28,8 @@ This file is the **source of truth** for every numeric claim made in `2026_AI_NA
 
 | Metric | Value |
 | --- | --- |
-| Total markdown files in subroot | **352** |
-| Substantive source documents (zh primary; excludes `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | **118** |
+| Total markdown files in subroot | **354** |
+| Substantive source documents (zh primary; excludes `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | **120** |
 | Translation siblings: total | **234** |
 | Translation siblings: `_EN` | 78 |
 | Translation siblings: `_DE` | 31 |
@@ -39,7 +39,7 @@ This file is the **source of truth** for every numeric claim made in `2026_AI_NA
 | Translation siblings: `_KR` | 31 |
 | Translation siblings: `_TH` | 1 |
 
-Sum-check: 118 + 234 = **352** -- matches total. The `_EN` count exceeds other languages because earlier release waves completed `_EN` siblings for many files that have not yet received DE/FR/ES/JA/KR translations.
+Sum-check: 120 + 234 = **354** -- matches total. The `_EN` count exceeds other languages because earlier release waves completed `_EN` siblings for many files that have not yet received DE/FR/ES/JA/KR translations.
 
 ---
 
@@ -146,10 +146,10 @@ The following numeric properties are expected to increase between v1.0.0 and v1.
 | Property | v1.0.0 | v1.1.0 (planned) |
 | --- | --- | --- |
 | Translation siblings (non-_EN) | 31 each for DE/FR/ES/JA/KR | ~ 60 each (completion of 01_Assessment, 03_Consulting_Report, 05_Sales) |
-| Total markdown documents | 352 | ~ 500 |
+| Total markdown documents | 354 | ~ 500 |
 | Git commits | 94 | (incremental) |
 | Workflows | 22 | unchanged |
-| Substantive source documents | 118 | unchanged (no new zh source planned) |
+| Substantive source documents | 120 | unchanged (no new zh source planned) |
 
 If you cite Toolkit numbers in your work, **always pin to a manifest file** (either this v1.0.0 manifest or a successor) rather than to live HEAD, so your citation remains verifiable even as the artifact evolves.
 
