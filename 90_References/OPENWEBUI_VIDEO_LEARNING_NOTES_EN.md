@@ -1,6 +1,6 @@
-> 🌐 中文版本 / Chinese version: [OPENWEBUI_VIDEO_LEARNING_NOTES.md](OPENWEBUI_VIDEO_LEARNING_NOTES.md)
-
 # OpenWebUI Video Learning Notes and Application Summary
+
+> 🌐 Language: [繁體中文](OPENWEBUI_VIDEO_LEARNING_NOTES.md) ｜ English ｜ [Deutsch](OPENWEBUI_VIDEO_LEARNING_NOTES_DE.md) ｜ [Français](OPENWEBUI_VIDEO_LEARNING_NOTES_FR.md) ｜ [Español](OPENWEBUI_VIDEO_LEARNING_NOTES_ES.md) ｜ [日本語](OPENWEBUI_VIDEO_LEARNING_NOTES_JA.md) ｜ [한국어](OPENWEBUI_VIDEO_LEARNING_NOTES_KR.md)
 
 Version: v1.0
 Notes by: Morris Lu (盧業興) · Tiger AI 虎智科技

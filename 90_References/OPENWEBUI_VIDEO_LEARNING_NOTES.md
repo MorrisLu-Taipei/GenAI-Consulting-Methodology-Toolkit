@@ -1,5 +1,7 @@
 # OpenWebUI 影片學習紀錄與應用摘要
 
+> 🌐 語言：繁體中文 ｜ [English](OPENWEBUI_VIDEO_LEARNING_NOTES_EN.md) ｜ [Deutsch](OPENWEBUI_VIDEO_LEARNING_NOTES_DE.md) ｜ [Français](OPENWEBUI_VIDEO_LEARNING_NOTES_FR.md) ｜ [Español](OPENWEBUI_VIDEO_LEARNING_NOTES_ES.md) ｜ [日本語](OPENWEBUI_VIDEO_LEARNING_NOTES_JA.md) ｜ [한국어](OPENWEBUI_VIDEO_LEARNING_NOTES_KR.md)
+
 版本：v1.0
 筆記整理 / Notes by：Morris Lu (盧業興) · Tiger AI 虎智科技
 整理目的：將 OpenWebUI 公開 playlist 轉成 L1 企業啟用課的學習紀錄、摘要與未來應用地圖。
