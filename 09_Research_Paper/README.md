@@ -2,7 +2,7 @@
 
 Research papers, preprints, and academic deposits derived from the GenAI Consulting Methodology Toolkit.
 
-> 🌐 語言：繁體中文（本檔）｜ English coming with first formal release
+> Languages: 語言：繁體中文（本檔）｜ English coming with first formal release
 
 ---
 
@@ -23,28 +23,28 @@ This directory holds independently citable scholarly artefacts derived from the 
 
 | File | Type | Status | Target venues |
 | --- | --- | --- | --- |
-| [`2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md`](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) | Working paper | v1.0 draft | Zenodo (DOI) → SSRN → ECIS / DESRIST → CHI / CSCW |
+| [`2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md`](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) | Working paper | v1.0 draft | Zenodo (DOI) -> SSRN -> ECIS / DESRIST -> CHI / CSCW |
 | [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md) | Release notes | Ready for v1.0.0 GitHub tag | GitHub Releases (triggers Zenodo DOI) |
 
 ---
 
 ## 發表流程 / Publication workflow
 
-1. **Draft phase** — `.md` working draft authored and reviewed in repo (`/red-team-review`, `/evidence-audit`).
-2. **PDF rendering** — convert `.md` to PDF via `pandoc` for SSRN upload and pre-print archives.
-3. **GitHub Release** — tag `v1.0.0` (or per-paper version) with `RELEASE_NOTES_*.md` as the release body.
-4. **Zenodo auto-DOI** — GitHub-Zenodo webhook mints concept DOI + version DOI within minutes.
-5. **CITATION.cff update** — drop the Zenodo DOIs into `../CITATION.cff` so the repo's "Cite this repository" button surfaces them.
-6. **SSRN deposit** — upload PDF separately to SSRN for management-research discoverability; SSRN gives its own paper ID, complementary to Zenodo DOI.
-7. **README badges** — add DOI badge to all 8 main README files (zh + 7 langs).
-8. **Conference / journal submission** — submit extended versions of the working paper to peer-reviewed venues per the venue ladder in `RELEASE_NOTES_v1.0.0.md`.
+1. **Draft phase** -- `.md` working draft authored and reviewed in repo (`/red-team-review`, `/evidence-audit`).
+2. **PDF rendering** -- convert `.md` to PDF via `pandoc` for SSRN upload and pre-print archives.
+3. **GitHub Release** -- tag `v1.0.0` (or per-paper version) with `RELEASE_NOTES_*.md` as the release body.
+4. **Zenodo auto-DOI** -- GitHub-Zenodo webhook mints concept DOI + version DOI within minutes.
+5. **CITATION.cff update** -- drop the Zenodo DOIs into `../CITATION.cff` so the repo's "Cite this repository" button surfaces them.
+6. **SSRN deposit** -- upload PDF separately to SSRN for management-research discoverability; SSRN gives its own paper ID, complementary to Zenodo DOI.
+7. **README badges** -- add DOI badge to all 8 main README files (zh + 7 langs).
+8. **Conference / journal submission** -- submit extended versions of the working paper to peer-reviewed venues per the venue ladder in `RELEASE_NOTES_v1.0.0.md`.
 
 ---
 
 ## 未來論文路線圖 / Forthcoming papers
 
-- **Paper #2** — *L1-L5: A Generative AI Adoption Maturity Model for Enterprises* — empirical maturity-model paper, requires 3–5 longitudinal case studies (pilot study protocol in `../90_References/PILOT_STUDY_PROTOCOL.md`). Target: Business Process Management Journal.
-- **Paper #3** — *Cases-as-Benchmarks: A Reproducibility Standard for Industry Case Studies* — methods paper on the 9-field benchmark format. Target: Information Systems Research methods note, or Journal of Information Technology Case and Application Research.
+- **Paper #2** -- *L1-L5: A Generative AI Adoption Maturity Model for Enterprises* -- empirical maturity-model paper, requires 3-5 longitudinal case studies (pilot study protocol in `../90_References/PILOT_STUDY_PROTOCOL.md`). Target: Business Process Management Journal.
+- **Paper #3** -- *Cases-as-Benchmarks: A Reproducibility Standard for Industry Case Studies* -- methods paper on the 9-field benchmark format. Target: Information Systems Research methods note, or Journal of Information Technology Case and Application Research.
 
 ---
 

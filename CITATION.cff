@@ -35,7 +35,7 @@ keywords:
 license: Apache-2.0
 version: "1.0.0"
 date-released: "2026-05-18"
-# DOI placeholders — fill in after Zenodo mints them on first GitHub release.
+# DOI placeholders -- fill in after Zenodo mints them on first GitHub release.
 # identifiers:
 #   - type: doi
 #     value: "10.5281/zenodo.XXXXXXX"    # concept DOI (always points to latest)

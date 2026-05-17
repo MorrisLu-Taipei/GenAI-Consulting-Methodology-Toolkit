@@ -6,20 +6,25 @@
 
 **Author:** Morris Lu  
 **Affiliation:** Tiger AI (Independent Research)  
-**ORCID:** [to be assigned]  
+**ORCID:** pending registration (to be inserted prior to formal Zenodo release)  
 **Contact:** tiger.ai.tw@gmail.com  
-**Version:** 1.0  
+**Version:** 1.0 (working draft; **not yet deposited**)  
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
-**Artifact DOI:** [to be assigned by Zenodo upon release]  
+**Artifact DOI:** pending Zenodo release (will be minted automatically on the first GitHub tag `v1.0.0`)  
+**Preprint DOI:** pending Zenodo release  
 **Repository:** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>  
-**Suggested citation:** Lu, M. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Zenodo. DOI: 10.5281/zenodo.XXXXXXX
+**Reproducibility manifest:** `09_Research_Paper/REPRODUCIBILITY.md`  
+**Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md` (corresponds to commit `7da82d7`)  
+**Suggested citation (post-release):** Lu, M. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Zenodo. DOI: [to be inserted upon release].
+
+> **Status note.** This document is a working draft staged for first formal release. All DOI fields above are deliberately marked *pending*; this draft must not be cited with a fabricated DOI. The actual concept and version DOIs will replace the *pending* markers within minutes of the GitHub `v1.0.0` tag triggering the Zenodo webhook.
 
 ---
 
 ## Abstract
 
-Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** — a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader–IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 349 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). The artifact demonstrates four properties unattainable through traditional single-tool authorship: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution — the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
+Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 349 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). The artifact demonstrates four properties unattainable through traditional single-tool authorship: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
 
 **Keywords:** design science research; AI IDE; methodology engineering; multi-agent collaboration; executable documents; reproducible methodology; AI-native; literate programming; consulting frameworks
 
@@ -29,11 +34,11 @@ Traditional methodology development relies on single-author cycles spanning year
 
 ### 1.1 Motivation
 
-Methodology engineering — the disciplined construction, validation, and dissemination of consulting frameworks, maturity models, and process reference architectures — has historically been a slow, single-author craft. Canonical examples such as the Capability Maturity Model [Paulk et al. 1993], the Business Process Management Maturity Model [Rosemann & de Bruin 2005], and the Process Classification Framework [APQC 2024] each required multi-year cycles by small expert teams, were published as static documents (PDFs, journal articles), and consumed by readers in a fundamentally passive mode: read, then attempt application.
+Methodology engineering -- the disciplined construction, validation, and dissemination of consulting frameworks, maturity models, and process reference architectures -- has historically been a slow, single-author craft. Canonical examples such as the Capability Maturity Model [Paulk et al. 1993], the Business Process Management Maturity Model [Rosemann & de Bruin 2005], and the Process Classification Framework [APQC 2024] each required multi-year cycles by small expert teams, were published as static documents (PDFs, journal articles), and consumed by readers in a fundamentally passive mode: read, then attempt application.
 
 Three structural inefficiencies follow from this craft model:
 
-1. **Cycle latency.** New methodologies trail their subject domain by 3–7 years. By the time a peer-reviewed AI maturity framework appears, the AI subject matter has moved through two paradigm shifts.
+1. **Cycle latency.** New methodologies trail their subject domain by 3-7 years. By the time a peer-reviewed AI maturity framework appears, the AI subject matter has moved through two paradigm shifts.
 2. **Single-author bias.** Even excellent methodologies inherit the blind spots of their lead author. Adversarial review happens at peer-review time, often years after the bias has been baked into the artifact's structure.
 3. **Reader passivity.** A methodology consumed as a static PDF requires substantial human translation labor to apply to a specific organization. The methodology cannot *answer questions* about itself.
 
@@ -41,10 +46,10 @@ Simultaneously, a new class of production environment has emerged: **AI-integrat
 
 ### 1.2 Research Questions
 
-This paper investigates whether AI IDEs, used in deliberate orchestration, can serve as the production environment for a new class of methodology artifact — what we term the **AI-Native eBook**. Specifically:
+This paper investigates whether AI IDEs, used in deliberate orchestration, can serve as the production environment for a new class of methodology artifact -- what we term the **AI-Native eBook**. Specifically:
 
 - **RQ1.** What properties does multi-IDE orchestration enable in methodology production that single-tool authorship cannot?
-- **RQ2.** How does reader–IDE interaction transform the consumption of a methodology artifact, and what design affordances are required?
+- **RQ2.** How does reader-IDE interaction transform the consumption of a methodology artifact, and what design affordances are required?
 - **RQ3.** What design principles govern AI-Native eBook engineering, and how do these compare against established methodology development guidelines?
 
 ### 1.3 Contributions
@@ -52,11 +57,11 @@ This paper investigates whether AI IDEs, used in deliberate orchestration, can s
 We make four contributions:
 
 1. A **paradigm description** of AI-Native eBook production, distinguishing it from prior categories (AI-assisted writing, literate programming, executable documents).
-2. An **instantiated artifact** — the *GenAI Consulting Methodology Toolkit*, released under Apache 2.0 with a Zenodo DOI — that serves as both a working methodology and an empirical demonstration of the paradigm.
+2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, released under Apache 2.0 with a Zenodo DOI -- that serves as both a working methodology and an empirical demonstration of the paradigm.
 3. A **design science evaluation** of the artifact against Hevner et al.'s [2004] seven guidelines, with quantitative comparison against traditional methodology development cycles.
 4. **Reusable infrastructure** in the form of 22 AI-IDE workflow specifications, three IDE configuration directories, and a `CITATION.cff` provenance file that other researchers can fork and adapt.
 
-The remainder of this paper is structured as follows. Section 2 positions the work within related literature. Section 3 describes the instantiated artifact. Sections 4–8 elaborate the five distinguishing properties of AI-Native eBook production. Section 9 presents the design science evaluation. Section 10 discusses implications.
+The remainder of this paper is structured as follows. Section 2 positions the work within related literature. Section 3 describes the instantiated artifact. Sections 4-8 elaborate the five distinguishing properties of AI-Native eBook production. Section 9 presents the design science evaluation. Section 10 discusses implications.
 
 ---
 
@@ -64,7 +69,7 @@ The remainder of this paper is structured as follows. Section 2 positions the wo
 
 ### 2.1 Methodology Engineering and Design Science Research
 
-The systematic construction of methodologies has been formalized through the **Design Science Research (DSR)** paradigm [Hevner et al. 2004; Peffers et al. 2007]. Hevner's seven guidelines — problem relevance, design as artifact, design evaluation, research contributions, research rigor, design as search process, and communication of research — provide the canonical lens through which IT artifacts (including methodologies) are evaluated as scholarly contributions.
+The systematic construction of methodologies has been formalized through the **Design Science Research (DSR)** paradigm [Hevner et al. 2004; Peffers et al. 2007]. Hevner's seven guidelines -- problem relevance, design as artifact, design evaluation, research contributions, research rigor, design as search process, and communication of research -- provide the canonical lens through which IT artifacts (including methodologies) are evaluated as scholarly contributions.
 
 Within DSR, methodology development is a recognized class of artifact [March & Smith 1995]. Notable subcategories include **maturity model development**, for which de Bruin et al. [2005] and Becker et al. [2009] articulate procedural standards. The present work uses DSR as its primary evaluation lens (Section 9) while introducing a *second-order* design science contribution: the artifact under study is not only a methodology, but a methodology *about how to construct methodologies in the LLM era*.
 
@@ -72,19 +77,19 @@ Within DSR, methodology development is a recognized class of artifact [March & S
 
 Knuth's [1984] **literate programming** introduced the idea that a program and its documentation should be co-resident in a single artifact, with the program *derivable from* the document. Jupyter notebooks [Kluyver et al. 2016] generalized this to computational science, allowing prose, code, and outputs to interleave.
 
-More recent work on **observable notebooks** [Bostock 2017] and **reactive documents** [Victor 2011, 2014] pushes further: the document becomes interactive, the reader manipulates parameters and observes recomputed outputs. AI-Native eBooks extend this trajectory along a third axis: not just *interactive* documents but *queryable* documents — where the reader's questions are answered by the same AI infrastructure that produced the document.
+More recent work on **observable notebooks** [Bostock 2017] and **reactive documents** [Victor 2011, 2014] pushes further: the document becomes interactive, the reader manipulates parameters and observes recomputed outputs. AI-Native eBooks extend this trajectory along a third axis: not just *interactive* documents but *queryable* documents -- where the reader's questions are answered by the same AI infrastructure that produced the document.
 
 ### 2.3 AI-Augmented Writing
 
 A growing literature examines LLM-assisted writing in academic and professional contexts [Mirowski et al. 2023; Lee et al. 2022; Long et al. 2024]. The dominant frame is **augmentation**: a single human author paired with a single AI assistant, with research questions focused on creative control, attribution, and the perception of AI co-authorship.
 
-We argue this frame is now insufficient. Once production moves from chatbot interfaces into **AI IDEs with file-system access**, the relevant unit of analysis is no longer the human–AI dyad but the **multi-IDE orchestration** — multiple specialized AI engines, each contributing distinct capabilities, coordinated through file-system and version-control primitives. To our knowledge, this orchestration pattern has not been systematically studied in the methodology engineering context.
+We argue this frame is now insufficient. Once production moves from chatbot interfaces into **AI IDEs with file-system access**, the relevant unit of analysis is no longer the human-AI dyad but the **multi-IDE orchestration** -- multiple specialized AI engines, each contributing distinct capabilities, coordinated through file-system and version-control primitives. To our knowledge, this orchestration pattern has not been systematically studied in the methodology engineering context.
 
 ### 2.4 IDE-as-Medium
 
 Engelbart's [1962] thesis on **augmenting human intellect** anticipated that computational interfaces would not merely speed up existing tasks but *restructure* human cognitive work. Victor's [2014] work on *media for thought* argues that programming environments themselves shape what thoughts can be cheaply thought.
 
-AI IDEs are a fresh instantiation of this thesis at unprecedented scale. We extend Engelbart's and Victor's frame to argue that AI IDEs are not only media for thinking *about code*, but media for thinking *about anything that can be expressed in versioned plain text* — including methodologies, books, contracts, and curricula.
+AI IDEs are a fresh instantiation of this thesis at unprecedented scale. We extend Engelbart's and Victor's frame to argue that AI IDEs are not only media for thinking *about code*, but media for thinking *about anything that can be expressed in versioned plain text* -- including methodologies, books, contracts, and curricula.
 
 ### 2.5 The Gap
 
@@ -102,27 +107,29 @@ This paper addresses that gap.
 
 ### 3.1 Scope
 
-The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (henceforth, *the Toolkit*), released under Apache License 2.0. At the time of writing (commit `345dcd9`, 2026-05-18):
+The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (henceforth, *the Toolkit*), released under Apache License 2.0. The numeric properties below are **frozen at commit `7da82d7` (2026-05-18)** and independently verifiable via the commands in `09_Research_Paper/REPRODUCIBILITY.md`:
 
-| Property | Value |
-| --- | --- |
-| Total documents | 349 markdown files |
-| Source languages (zh primary) | 7 (繁體中文, English, Deutsch, Français, Español, 日本語, 한국어; partial Thai) |
-| Specialized AI-IDE workflows | 22 (10 Claude Code, 10 Codex, 2 Antigravity) |
-| Eight-stage methodology stages | 8 |
-| Maturity model levels | 5 (L1 Chat → L5 Agent Team) |
-| Industry case studies (Benchmark-grade) | 7 |
-| Git commits | 93 |
-| Repository URL | `https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit` |
-| License | Apache License 2.0 (with `NOTICE` attribution requirements) |
+| Property | Value | Verification command (see REPRODUCIBILITY.md) |
+| --- | --- | --- |
+| Total markdown documents | 352 | `find . -name "*.md" -not -path "./.git/*" \| wc -l` |
+| Substantive source documents (excluding `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` siblings) | 118 | see REPRODUCIBILITY.md §3 |
+| Translation siblings (`_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH`) | 234 (78/31/31/31/31/31/1) | see REPRODUCIBILITY.md §3 |
+| Specialized AI-IDE workflows | 22 (10 Claude Code, 10 Codex, 2 Antigravity) | `ls .claude/workflows/*.md .codex/workflows/*.md .antigravity/workflows/*.md \| wc -l` |
+| Eight-stage methodology stages | 8 | (qualitative; see `00_Overview/EIGHT_STAGE_FLOW_STORY.md`) |
+| Maturity model levels | 5 (L1 Chat -> L5 Agent Team) | (qualitative) |
+| Industry case studies (Benchmark-grade format) | 7 | `ls 04_Scenarios/SAMPLE_CLIENT_CASE_*.md \| wc -l` |
+| Git commits | 94 | `git rev-list --count HEAD` |
+| Source languages with substantive coverage | 7 (繁體中文, English, Deutsch, Français, Español, 日本語, 한국어; partial Thai) | see REPRODUCIBILITY.md §3 |
+| Repository URL | `https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit` | — |
+| License | Apache License 2.0 (with `NOTICE` attribution requirements) | `cat LICENSE` |
 
 ### 3.2 Methodology Substance (Brief)
 
-The Toolkit's substantive methodology — out of scope for this paper but documented in the repository — consists of:
+The Toolkit's substantive methodology -- out of scope for this paper but documented in the repository -- consists of:
 
-- An **eight-stage closed-loop consulting flow** (Stage 1 As-Is → Stage 2 Reference Model → Stage 3 Best Practice/Ideal Practice → Stage 4 Gap Analysis → Stage 5 Problem Definition → Stage 6 Phased Goals → Stage 7 To-Be Design → Stage 8 Implementation), with a quarterly Stage 2 radar loopback as the falsification mechanism;
+- An **eight-stage closed-loop consulting flow** (Stage 1 As-Is -> Stage 2 Reference Model -> Stage 3 Best Practice/Ideal Practice -> Stage 4 Gap Analysis -> Stage 5 Problem Definition -> Stage 6 Phased Goals -> Stage 7 To-Be Design -> Stage 8 Implementation), with a quarterly Stage 2 radar loopback as the falsification mechanism;
 - A **Tiger AI L1-L5 GenAI adoption maturity model**, organized on two orthogonal axes (scale axis L1-L3, AI-autonomy axis L4-L5), self-qualified at 9/10 conditions per Tool 2.5 of the maturity-model qualification scorecard;
-- A **four-layer Enterprise AI Reference Model** (L1 Governance / L2 Business / L3 Information / L4 Technical) derived from the abstraction × volatility axis;
+- A **four-layer Enterprise AI Reference Model** (L1 Governance / L2 Business / L3 Information / L4 Technical) derived from the abstraction x volatility axis;
 - A **three-phase contract model** (Phase A Diagnostic / Phase B Strategy / Phase C Implementation) with explicit Gate A/B/C exit points;
 - A library of **toolkit templates** (40-question interview bank, scoring rubrics, Stage Gate criteria, Risk Register, Audit Log specification, AI Ethics checklist).
 
@@ -142,12 +149,12 @@ The Toolkit was produced through deliberate orchestration of **three specialized
 
 ```
 10_Cosultanting/
-├── .claude/         (Claude Code — 1M context, cross-file synthesis)
+├── .claude/         (Claude Code -- 1M context, cross-file synthesis)
 │   ├── README.md
 │   └── workflows/   (10 specialized workflows)
-├── .codex/          (OpenAI Codex CLI — engineering rigor, audit)
+├── .codex/          (OpenAI Codex CLI -- engineering rigor, audit)
 │   └── workflows/   (10 specialized workflows)
-└── .antigravity/    (Google Antigravity — parallel multi-agent)
+└── .antigravity/    (Google Antigravity -- parallel multi-agent)
     └── workflows/   (2 specialized workflows)
 ```
 
@@ -172,7 +179,7 @@ A complete enumeration is provided in Appendix A.
 A natural objection: would the Toolkit not have been simpler to produce in a single IDE? The empirical answer, derived from the production history, is **no**. Three production challenges drove the multi-IDE choice:
 
 1. **Context windows are heterogeneous.** Claude Code's 1M-token context made whole-repository synthesis feasible for cross-file work (`/deep-synthesize`, `/cross-stage-trace`); other IDEs' shorter contexts could not maintain coherence across 349 files.
-2. **Adversarial separation requires independent agents.** A self-debate within a single LLM session is degenerate — the same parameters tend to converge. Spawning fresh Claude sub-agents for `/devil-pair-debate`, or alternating Claude (proposer) and Codex (auditor) for `/red-team-review`, produces genuinely independent criticism.
+2. **Adversarial separation requires independent agents.** A self-debate within a single LLM session is degenerate -- the same parameters tend to converge. Spawning fresh Claude sub-agents for `/devil-pair-debate`, or alternating Claude (proposer) and Codex (auditor) for `/red-team-review`, produces genuinely independent criticism.
 3. **Engineering rigor and synthesis bias differently.** Long-context synthesis engines exhibit (in our experience) a mild bias toward narrative coherence, occasionally smoothing over genuine inconsistencies. Codex's stricter, more conservative style was used as a corrective: `/consistency-review` repeatedly flagged structural violations that Claude had narrated past.
 
 ### 4.3 Orchestration as a Declarative Specification
@@ -191,23 +198,23 @@ Traditional methodology consumption follows a linear pattern: the reader (a cons
 
 The Toolkit inverts this. The same Claude Code, Cursor, or Codex environment that produced the methodology can be used by readers to *interrogate* it. A subset of the 10 Claude Code workflows is designed specifically for reader use:
 
-- **`/socratic-challenge`** — the methodology asks the reader probing questions about their own organization, forcing them to articulate their actual situation in the methodology's terms;
-- **`/theory-bridge`** — the reader describes a concrete situation, and the workflow maps it onto the seven academic pillars cited by the methodology;
-- **`/scenario-planning`** — given the reader's constraints, the workflow produces three contrasting roadmaps with explicit trade-offs;
-- **`/cross-stage-trace`** — the reader proposes a change at one stage, and the workflow traces its downstream implications through stages 4–8.
+- **`/socratic-challenge`** -- the methodology asks the reader probing questions about their own organization, forcing them to articulate their actual situation in the methodology's terms;
+- **`/theory-bridge`** -- the reader describes a concrete situation, and the workflow maps it onto the seven academic pillars cited by the methodology;
+- **`/scenario-planning`** -- given the reader's constraints, the workflow produces three contrasting roadmaps with explicit trade-offs;
+- **`/cross-stage-trace`** -- the reader proposes a change at one stage, and the workflow traces its downstream implications through stages 4-8.
 
 ### 5.2 The Onboarding Mechanism
 
 A practical question follows: how does a reader's AI IDE come to *understand* the methodology well enough to support these workflows? The answer is that the repository ships with two onboarding files specifically designed for AI ingestion:
 
-- **`AGENTS.md`** — a 200-line specification that briefs any AI agent on the methodology's structure, key files, vocabulary, and discipline boundaries. It is the primary entry point for any AI tool.
-- **`CLAUDE.md`** — a Claude Code-specific extension that activates the workflow library and articulates Claude's role as a "Strategic Reasoning Partner with Cross-File Synthesis."
+- **`AGENTS.md`** -- a 200-line specification that briefs any AI agent on the methodology's structure, key files, vocabulary, and discipline boundaries. It is the primary entry point for any AI tool.
+- **`CLAUDE.md`** -- a Claude Code-specific extension that activates the workflow library and articulates Claude's role as a "Strategic Reasoning Partner with Cross-File Synthesis."
 
 These files transform a fresh LLM session from a generic assistant into a methodology-literate dialogue partner within seconds. Empirically, the difference is qualitative: a Claude Code session opened in the repository root, with `CLAUDE.md` auto-ingested, can answer methodology questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
 
-### 5.3 Implications for the Author–Reader Relationship
+### 5.3 Implications for the Author-Reader Relationship
 
-The classical author–reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party — the reader's AI IDE — that mediates the relationship in both directions. The reader still cannot literally interrogate the author (Morris Lu), but they can interrogate a methodology-grounded AI that the author's published materials have shaped.
+The classical author-reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party -- the reader's AI IDE -- that mediates the relationship in both directions. The reader still cannot literally interrogate the author (Morris Lu), but they can interrogate a methodology-grounded AI that the author's published materials have shaped.
 
 This raises interesting questions about authorial intent, methodology drift over reader populations, and the appropriate evaluation of methodology *transferability*. We return to these in Section 10.
 
@@ -217,14 +224,14 @@ This raises interesting questions about authorial intent, methodology drift over
 
 ### 6.1 The Coherence Challenge
 
-The Toolkit is published in seven languages. The naïve approach to multilingual methodology — write in language A, translate to languages B–G — accumulates two compounding problems:
+The Toolkit is published in seven languages. The naïve approach to multilingual methodology -- write in language A, translate to languages B-G -- accumulates two compounding problems:
 
 1. **Drift.** Updates to the source language are not consistently propagated to translations.
 2. **Asymmetric authority.** Readers in translated languages encounter terminology and examples calibrated for the source culture, often invisibly.
 
 The Toolkit's production manages both problems through what we call **simultaneous multilingual coherence**: source updates and translation updates are treated as a single coordinated commit, and cross-language consistency is *enforced by automated sweep*. For example, the project memory system records discipline rules such as:
 
-> *Real-name removal:* `新竹` → `City X`, `Hsinchu` → `City X`, `신주` → `City X`. Must be applied across all 7 language files in the same commit.
+> *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `신주` -> `City X`. Must be applied across all 7 language files in the same commit.
 
 Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit.
 
@@ -254,20 +261,20 @@ Conventional methodology review is single-pass and human: the author writes, pee
 
 - **Value-system blind spots** that align across reviewers and author (everyone in the discipline shares the same cultural assumptions);
 - **Internal inconsistencies** that span more files than any single reviewer reads;
-- **Counterfactual fragility** — the methodology works in plausible scenarios but collapses under regime change (e.g., regulatory shift).
+- **Counterfactual fragility** -- the methodology works in plausible scenarios but collapses under regime change (e.g., regulatory shift).
 
 ### 7.2 Workflow-Encoded Adversarial Review
 
 The Toolkit addresses each through a corresponding workflow:
 
-- **`/devil-pair-debate`** — Claude-A defends a methodology claim; Claude-B argues against it from a Foucauldian or Bourdieusian critical-theory stance; Claude-C judges synthesis. The output exposes not bugs but *value-system biases*. Run, for example, against the Tiger AI L1-L5 model itself, this workflow surfaced an assumption that "AI autonomy is a desirable trajectory" — a culturally contingent claim now explicitly noted in the methodology's discussion.
-- **`/consistency-review`** (Codex) — sweeps the entire repository for cross-file inconsistencies (terminology drift, contradicting numerical claims, broken cross-references). This workflow flagged, for instance, that role titles (specifically `IT 副理`) were inconsistent with the seniority implied by the character's responsibilities (the resolution, committed as `1dcc569`, upgraded the role to `IT 協理` across 17 files).
-- **`/thought-experiment`** — runs counterfactual stress tests: "If the EU AI Act criminalized L4 deployment, does the methodology still work? If LLM cost dropped 1000×, what becomes obsolete?" These produce explicit *fragility maps* that conventional review cannot generate.
-- **`/red-team-review`** (Codex against Claude output) — uses a different IDE engine to audit the primary author engine's output. Functionally analogous to switching peer reviewers between rounds, but with deterministic cross-engine independence rather than reviewer-pool politics.
+- **`/devil-pair-debate`** -- Claude-A defends a methodology claim; Claude-B argues against it from a Foucauldian or Bourdieusian critical-theory stance; Claude-C judges synthesis. The output exposes not bugs but *value-system biases*. Run, for example, against the Tiger AI L1-L5 model itself, this workflow surfaced an assumption that "AI autonomy is a desirable trajectory" -- a culturally contingent claim now explicitly noted in the methodology's discussion.
+- **`/consistency-review`** (Codex) -- sweeps the entire repository for cross-file inconsistencies (terminology drift, contradicting numerical claims, broken cross-references). This workflow flagged, for instance, that role titles (specifically `IT 副理`) were inconsistent with the seniority implied by the character's responsibilities (the resolution, committed as `1dcc569`, upgraded the role to `IT 協理` across 17 files).
+- **`/thought-experiment`** -- runs counterfactual stress tests: "If the EU AI Act criminalized L4 deployment, does the methodology still work? If LLM cost dropped 1000x, what becomes obsolete?" These produce explicit *fragility maps* that conventional review cannot generate.
+- **`/red-team-review`** (Codex against Claude output) -- uses a different IDE engine to audit the primary author engine's output. Functionally analogous to switching peer reviewers between rounds, but with deterministic cross-engine independence rather than reviewer-pool politics.
 
 ### 7.3 Implication: Methodology Hardness vs. Reviewer Pool Size
 
-Traditional peer-review hardness scales linearly with reviewer count and is bottlenecked by reviewer attention and shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and exposes structural blind spots that human reviewers structurally cannot. Neither replaces the other; both should run in series. But the AI-Native layer changes the *floor* of methodology quality — claims that survive `/devil-pair-debate` and `/red-team-review` are categorically harder than claims that survive only human review.
+Traditional peer-review hardness scales linearly with reviewer count and is bottlenecked by reviewer attention and shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and exposes structural blind spots that human reviewers structurally cannot. Neither replaces the other; both should run in series. But the AI-Native layer changes the *floor* of methodology quality -- claims that survive `/devil-pair-debate` and `/red-team-review` are categorically harder than claims that survive only human review.
 
 ---
 
@@ -281,16 +288,16 @@ A common critique of LLM-generated content is unfalsifiable provenance: the read
 
 The Toolkit addresses this through a four-layer provenance chain:
 
-1. **Git history** — every change is timestamped and attributable to a commit. The 93 commits at time of writing encode the artifact's complete derivation history.
-2. **AI-attribution discipline** — commits made with substantive AI assistance carry a `Co-Authored-By:` trailer (e.g., `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`). Mixed-authorship commits are honest about the mixture.
-3. **Workflow files as derivation recipes** — the `.claude/workflows/`, `.codex/workflows/`, and `.antigravity/workflows/` directories archive the exact prompts and procedures used. A third party can replay them.
-4. **Persistent identifiers** — the Zenodo DOI (concept DOI + version DOI per release) provides an immutable handle for academic citation.
+1. **Git history** -- every change is timestamped and attributable to a commit. The 93 commits at time of writing encode the artifact's complete derivation history.
+2. **AI-attribution discipline** -- commits made with substantive AI assistance carry a `Co-Authored-By:` trailer (e.g., `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`). Mixed-authorship commits are honest about the mixture.
+3. **Workflow files as derivation recipes** -- the `.claude/workflows/`, `.codex/workflows/`, and `.antigravity/workflows/` directories archive the exact prompts and procedures used. A third party can replay them.
+4. **Persistent identifiers** -- the Zenodo DOI (concept DOI + version DOI per release) provides an immutable handle for academic citation.
 
 ### 8.3 Citation Discipline
 
 The Toolkit further enforces citation discipline at the *content* level. All theoretical claims are traced to specific external sources in `00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md` (Rosemann BPM Maturity, CMMI, APQC PCF, SCOR, TOGAF, Dragon1 EA, etc.). Internal claims that derive from the Toolkit's own design choices are flagged as such and self-qualified using Tool 2.5's ten-condition scorecard.
 
-This discipline addresses what we believe is the deepest objection to AI-assisted methodology production: that AI-augmented authors cannot resist the temptation to *generate plausible-sounding theory* in place of citing actual sources. The Toolkit's discipline — encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) — makes such generation visible and excisable.
+This discipline addresses what we believe is the deepest objection to AI-assisted methodology production: that AI-augmented authors cannot resist the temptation to *generate plausible-sounding theory* in place of citing actual sources. The Toolkit's discipline -- encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) -- makes such generation visible and excisable.
 
 ### 8.4 Reproducibility in the Formal Sense
 
@@ -312,31 +319,41 @@ We evaluate the AI-Native eBook paradigm against the canonical Hevner et al. [20
 
 | # | Guideline | Self-Assessment | Evidence |
 | --- | --- | --- | --- |
-| 1 | Design as an artifact | ✓ | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 349 files, DOI). |
-| 2 | Problem relevance | ✓ | Methodology engineering crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent. |
-| 3 | Design evaluation | ⚠ Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles is qualitative (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
-| 4 | Research contributions | ✓ | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure — four distinct contributions. |
-| 5 | Research rigor | ✓ | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
-| 6 | Design as search process | ✓ | 93 Git commits document the iterative search through the design space. |
-| 7 | Communication of research | ✓ | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, Zenodo DOI). |
+| 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 349 files, DOI). |
+| 2 | Problem relevance | [x] | Methodology engineering crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent. |
+| 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles is qualitative (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
+| 4 | Research contributions | [x] | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure -- four distinct contributions. |
+| 5 | Research rigor | [x] | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
+| 6 | Design as search process | [x] | 93 Git commits document the iterative search through the design space. |
+| 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, Zenodo DOI). |
 
 The single partial mark (Guideline 3) is honest: empirical reader-uptake studies are not yet in scope. We outline an empirical research agenda in Section 10.
 
 ### 9.2 Comparative Cycle Analysis
 
-We compare AI-Native eBook production against three reference points: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, multiple revisions 2019–2024).
+We compare AI-Native eBook production against three reference points: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, multiple revisions 2019-2024).
 
-| Dimension | McKinsey 7-Step (canonical) | Rosemann BPM-MM (academic) | Gartner AI-MM (industry) | Toolkit (AI-Native) |
+| Dimension | McKinsey 7-Step (canonical) [a] | Rosemann BPM-MM (academic) [b] | Gartner AI-MM (industry) [c] | Toolkit (AI-Native) [d] |
 | --- | --- | --- | --- | --- |
 | First public release to v1.0 | ~ 5 years | ~ 3 years (PhD-cycle) | ~ 18 months per revision | **~ 6 months** |
 | Source language count at v1.0 | 1 | 1 | 1 (EN), some localized later | **7 simultaneously** |
-| Substantive documents at v1.0 | ~ 30 (book) | ~ 6 (papers + supplements) | ~ 5 (research notes) | **~ 100** |
+| Substantive documents at v1.0 | ~ 30 (book) | ~ 6 (papers + supplements) | ~ 5 (research notes) | **118** |
 | Specialized workflows | 0 | 0 | 0 | **22** |
 | Production provenance | Memoir / interviews | Acknowledgments section | Editorial team list | **Full Git + workflow files + DOI** |
 | Reader-queryability | None (static text) | None | None | **22 workflows reader-invocable** |
 | License | Proprietary | Academic / Elsevier | Proprietary (paywall) | **Apache 2.0 (open)** |
 
-Numbers for non-Toolkit columns are approximations from public sources; we welcome correction. The qualitative pattern, however, is robust: AI-Native production produces an order of magnitude more documents, in multiple languages simultaneously, with provenance and reader-queryability that the comparators structurally lack.
+**Footnotes for the comparison table:**
+
+**[a] McKinsey 7-Step.** Estimates derived from Rasiel's [1999] account, which documents the method as accumulating from the early 1990s through formal publication. Cycle-time estimate refers to McKinsey's internal development of the 7-step formulation; document count refers to Rasiel's book (~ 200 pp.) as the primary public artifact. Substantively richer derivative books (e.g., Friga 2009) postdate the initial release.
+
+**[b] Rosemann BPM Maturity Model.** Estimates derived from the de Bruin doctoral cycle [de Bruin & Rosemann 2005, 2007; de Bruin 2009]. Cycle-time estimate corresponds to the PhD work that produced the canonical model; document count counts the v1.0-era public papers (ECIS 2005, BPTrends 2005, Delphi paper 2007), excluding subsequent derivative work.
+
+**[c] Gartner AI Maturity Model.** Estimates derived from Gartner's published research-note revision cadence (2019, 2021, 2023, 2024 substantive revisions; minor updates in interim years). Cycle-time estimate refers to revision cadence, not initial publication. Document count refers to the per-revision research-note bundle.
+
+**[d] Toolkit (this paper).** All numbers frozen at commit `7da82d7` (2026-05-18) and reproducible via the commands in `09_Research_Paper/REPRODUCIBILITY.md`.
+
+Numbers for the non-Toolkit columns remain approximations from publicly available sources; we welcome correction and will accept errata via repository Issues. The *qualitative* pattern, however, is robust: AI-Native production produces an order of magnitude more documents, in multiple languages simultaneously, with provenance and reader-queryability that the comparators structurally lack. We note that the comparison is between *production paradigms*, not between the substantive merits of the methodologies themselves.
 
 ### 9.3 Limitations
 
@@ -352,7 +369,35 @@ We are explicit about three claims this paper does *not* make:
 
 - **Not "peer-reviewed."** Publication on Zenodo confers a persistent identifier, not peer review. This preprint is offered for community feedback; a peer-reviewed version is the intended next step.
 - **Not "validated through empirical case studies."** The Toolkit's substantive methodology (L1-L5, eight-stage flow) has been *constructed* with care but not yet *empirically validated* through longitudinal client engagements. Such validation is the explicit topic of a separate research line currently in protocol design (see `90_References/PILOT_STUDY_PROTOCOL.md` in the repository).
-- **Not "AI as author."** The production environment is AI-Native, but authorial responsibility — and accountability for errors — rests with the human author. Co-authorship trailers acknowledge AI contribution to specific commits; they do not transfer authorship.
+- **Not "AI as author."** The production environment is AI-Native, but authorial responsibility -- and accountability for errors -- rests with the human author. Co-authorship trailers acknowledge AI contribution to specific commits; they do not transfer authorship.
+
+### 9.5 Planned Validation Experiment (Pre-Registration)
+
+To move the present paper from a position-and-artifact contribution toward a research-grade evaluation, we pre-register a small-N reader-uptake study to be conducted following the v1.0.0 release. The protocol below is offered now so reviewers can assess methodological adequacy before results exist; final results will appear in the v2.0 revision.
+
+**Hypotheses.**
+
+- **H1 (Time):** Readers using the reader-as-querier workflows (`/socratic-challenge`, `/theory-bridge`, `/deep-synthesize`) to answer methodology comprehension questions will require less elapsed time per question than readers using the same methodology in static PDF form.
+- **H2 (Correctness):** Reader-as-querier answers will exhibit non-inferior accuracy relative to PDF-reading answers, where accuracy is measured by agreement with a rubric pre-authored by the methodology author.
+- **H3 (Application-readiness):** Reader-as-querier participants will produce more concrete, organization-specific application sketches in a 10-minute post-questionnaire task than PDF participants.
+
+**Design.** Within-subject crossover, n = 6 participants (3 from each of two backgrounds: experienced management consultant; senior IT professional new to consulting frameworks). Each participant completes two sessions, separated by ≥ 7 days, with order counter-balanced: Session A uses the AI-IDE reader-as-querier model; Session B uses a PDF rendering of the same content. Each session presents the same 8 comprehension questions (different content randomly per session) and the same 10-minute application sketch task.
+
+**Measures.**
+
+- Time-to-answer per question (continuous, logged automatically),
+- Answer correctness (5-point rubric, scored blind by an independent rater),
+- Application sketch coverage (count of methodology elements referenced; quality rated 1-5 by the same blind rater),
+- Self-reported cognitive load (NASA-TLX short form),
+- Self-reported preference (post-experiment Likert).
+
+**Statistical plan.** Paired t-tests (or Wilcoxon signed-rank for non-normal distributions) on within-subject differences; Bonferroni correction for the three hypothesis families. The sample (n = 6) is small by survey-study standards but adequate for the within-subject crossover design we use; we report effect sizes alongside p-values and treat the study as exploratory rather than confirmatory at this n.
+
+**Pre-registration.** The full protocol, rubric, questionnaire texts, application-sketch prompts, and statistical plan will be deposited to the OSF (Open Science Framework) registry under a Zenodo-linked DOI before the first participant is recruited. The link will be appended to this section in the v1.1 revision of this preprint.
+
+**Limitations of the planned study.** The within-subject crossover controls for between-participant variability but introduces order effects; counter-balancing addresses this only partially. The sample is convenience-recruited from the author's professional network, which limits generalizability. AI-IDE familiarity is a confound that we control for through a short pre-session training but cannot fully eliminate.
+
+**Why pre-register now, before running the study.** Pre-registration before results exist commits us to the analytic plan and prevents post-hoc fishing. Reviewers of this preprint should treat Section 9.5 as a falsification commitment: if the study is run and the hypotheses are not supported, the v2.0 revision must report null or contrary findings honestly.
 
 ---
 
@@ -360,7 +405,7 @@ We are explicit about three claims this paper does *not* make:
 
 ### 10.1 For Methodology Engineering
 
-The traditional cost structure of methodology development has been a barrier to entry. The Toolkit demonstrates that a single individual, with disciplined use of AI IDEs, can produce in months what previously required institutional teams and years. The implication is not that all methodology engineering will become single-author — quite the contrary, the *evaluation* burden remains substantial. But the *construction* phase has been democratized.
+The traditional cost structure of methodology development has been a barrier to entry. The Toolkit demonstrates that a single individual, with disciplined use of AI IDEs, can produce in months what previously required institutional teams and years. The implication is not that all methodology engineering will become single-author -- quite the contrary, the *evaluation* burden remains substantial. But the *construction* phase has been democratized.
 
 This may have second-order effects on the consulting industry's structure. Methodologies have historically been quasi-proprietary assets of the major firms (the "Bain Way," McKinsey's 7-Step). AI-Native open-source methodologies, released under Apache 2.0 with DOI-citable provenance, compete on a fundamentally different basis. Whether this leads to a *commons* model of methodology (analogous to open-source software) is an empirical question we cannot resolve here, but the production prerequisites are now in place.
 
@@ -386,7 +431,7 @@ This stack is not a replacement for peer review, but it removes the cost of *wai
 
 ### 10.4 For the "AI Slop" Concern
 
-Critics of LLM-augmented content production often invoke the term "AI slop" — content that is fluent, plausible, and substantively unanchored. We share this concern. We argue that the appropriate response is not to abjure AI production but to enforce provenance discipline: Git history, workflow file archival, citation requirements, adversarial review, DOI persistence. The difference between "AI slop" and "AI-Native scholarship" is exactly the discipline. The Toolkit's production is offered as one demonstration of what that discipline can look like in practice.
+Critics of LLM-augmented content production often invoke the term "AI slop" -- content that is fluent, plausible, and substantively unanchored. We share this concern. We argue that the appropriate response is not to abjure AI production but to enforce provenance discipline: Git history, workflow file archival, citation requirements, adversarial review, DOI persistence. The difference between "AI slop" and "AI-Native scholarship" is exactly the discipline. The Toolkit's production is offered as one demonstration of what that discipline can look like in practice.
 
 ### 10.5 Empirical Research Agenda
 
@@ -400,9 +445,9 @@ We close with three empirical questions the present paper does not answer, and w
 
 ## 11. Conclusion
 
-AI-Native eBook production, exemplified by the GenAI Consulting Methodology Toolkit, represents a meaningful shift in how methodology artifacts can be constructed, published, and consumed. The four distinguishing properties — multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and full provenance — together change the methodology engineering cost structure by an order of magnitude while improving (not weakening) the artifact's auditability.
+AI-Native eBook production, exemplified by the GenAI Consulting Methodology Toolkit, represents a meaningful shift in how methodology artifacts can be constructed, published, and consumed. The four distinguishing properties -- multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and full provenance -- together change the methodology engineering cost structure by an order of magnitude while improving (not weakening) the artifact's auditability.
 
-The paradigm is not without limitations, and several questions — particularly around empirical reader uptake and cross-author replication — remain open. We invite the research community to engage with the artifact, fork it under its Apache 2.0 license, and extend the paradigm to new methodology domains.
+The paradigm is not without limitations, and several questions -- particularly around empirical reader uptake and cross-author replication -- remain open. We invite the research community to engage with the artifact, fork it under its Apache 2.0 license, and extend the paradigm to new methodology domains.
 
 The repository, this preprint, the workflow specifications, and the `CITATION.cff` file are all openly available. Citation information is provided in the front matter.
 
@@ -420,7 +465,7 @@ We acknowledge the AI engines used in producing the Toolkit and this paper: Anth
 
 APQC. (2024). *Process Classification Framework, Version 7.3*. APQC.
 
-Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213–222.
+Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213-222.
 
 Bostock, M. (2017). Observable: A new way to think with code. *Observable Inc. technical note.*
 
@@ -430,25 +475,25 @@ de Bruin, T., & Rosemann, M. (2007). Using the Delphi technique to identify BPM 
 
 Engelbart, D. C. (1962). *Augmenting Human Intellect: A Conceptual Framework*. Stanford Research Institute, Summary Report AFOSR-3223.
 
-Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75–105.
+Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-105.
 
-Kluyver, T., Ragan-Kelley, B., Pérez, F., et al. (2016). Jupyter Notebooks — a publishing format for reproducible computational workflows. In *Positioning and Power in Academic Publishing: Players, Agents and Agendas*, IOS Press, 87–90.
+Kluyver, T., Ragan-Kelley, B., Pérez, F., et al. (2016). Jupyter Notebooks -- a publishing format for reproducible computational workflows. In *Positioning and Power in Academic Publishing: Players, Agents and Agendas*, IOS Press, 87-90.
 
-Knuth, D. E. (1984). Literate programming. *The Computer Journal*, 27(2), 97–111.
+Knuth, D. E. (1984). Literate programming. *The Computer Journal*, 27(2), 97-111.
 
-Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human–AI collaborative writing dataset for exploring language model capabilities. In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems*.
+Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human-AI collaborative writing dataset for exploring language model capabilities. In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems*.
 
 Long, T., et al. (2024). Not just novelty: A longitudinal study on utility and customization of an AI workflow. In *Proceedings of CHI 2024*.
 
 Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
 
-March, S. T., & Smith, G. F. (1995). Design and natural science research on information technology. *Decision Support Systems*, 15(4), 251–266.
+March, S. T., & Smith, G. F. (1995). Design and natural science research on information technology. *Decision Support Systems*, 15(4), 251-266.
 
 Mirowski, P., Mathewson, K. W., Pittman, J., & Evans, R. (2023). Co-writing screenplays and theatre scripts with language models. In *Proceedings of CHI 2023*.
 
 Paulk, M. C., Curtis, B., Chrissis, M. B., & Weber, C. V. (1993). *Capability Maturity Model for Software, Version 1.1*. Carnegie Mellon University, Software Engineering Institute (CMU/SEI-93-TR-024).
 
-Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, 24(3), 45–77.
+Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems*, 24(3), 45-77.
 
 Rasiel, E. M. (1999). *The McKinsey Way*. McGraw-Hill.
 
@@ -460,7 +505,7 @@ Victor, B. (2014). Seeing Spaces. *Talk delivered at SAP Future of Programming w
 
 ---
 
-## Appendix A — Workflow Inventory
+## Appendix A -- Workflow Inventory
 
 The Toolkit's production environment encodes 22 specialized workflows across three IDE families. Each workflow is a markdown specification that the corresponding IDE can read and execute.
 
@@ -469,7 +514,7 @@ The Toolkit's production environment encodes 22 specialized workflows across thr
 | Workflow | Purpose | Production use |
 | --- | --- | --- |
 | `/deep-synthesize` | Multi-file deep synthesis (1M context) | Cross-stage consistency drafting |
-| `/theory-bridge` | Map client situation ↔ 7 academic pillars | Onboarding new readers |
+| `/theory-bridge` | Map client situation <-> 7 academic pillars | Onboarding new readers |
 | `/scenario-planning` | 3 contrasting roadmaps + tradeoffs | Scenario library generation |
 | `/socratic-challenge` | Probing questions to sharpen reader thinking | Reader-facing dialogue mode |
 | `/cross-stage-trace` | Downstream impact of single change | Change-propagation analysis |
@@ -490,7 +535,7 @@ The Toolkit's production environment encodes 22 specialized workflows across thr
 | `/evidence-audit` | Verify every claim has a citation | Hallucination guard |
 | `/generate-report` | Mechanical report assembly | Deliverable generation |
 | `/generate-traceability` | Build traceability matrix | Provenance support |
-| `/harvest-insights` | Distill insights from raw notes | Note → publication pipeline |
+| `/harvest-insights` | Distill insights from raw notes | Note -> publication pipeline |
 | `/methodology-test` | Apply methodology to a synthetic scenario | Self-validation |
 | `/red-team-review` | Adversarial review against author's output | QA gate |
 
@@ -503,7 +548,7 @@ The Toolkit's production environment encodes 22 specialized workflows across thr
 
 ---
 
-## Appendix B — Reproducibility Manifest
+## Appendix B -- Reproducibility Manifest
 
 To re-derive a substantial subset of the Toolkit from any prior commit:
 
