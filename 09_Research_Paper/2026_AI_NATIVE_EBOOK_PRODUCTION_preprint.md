@@ -249,13 +249,13 @@ The Toolkit's production manages both problems through what we call **simultaneo
 
 > *Real-name removal:* `新竹` -> `City X`, `Hsinchu` -> `City X`, `신주` -> `City X`. Must be applied across all 7 language files in the same commit.
 
-Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. (Note: The bilingual versions of this preprint itself are maintained in synchronization via this multi-IDE mechanism, serving as a meta-demonstration of this discipline.)
+Commit `1dcc569` (46 files modified, 2026-05-17) demonstrates this discipline in action: a single semantic change (removing real Taiwan place and institution names for legal risk reasons) was propagated across `CLIENT_JOURNEY_STORY` in all 7 languages, `MANUFACTURING_CONSULTING_STORY` (zh), and 14 related files, in one atomic commit. (Note: the bilingual EN/ZH versions of this preprint itself are maintained in sync through the same multi-IDE mechanism, providing a meta-level demonstration of the same discipline.) (Note: The bilingual versions of this preprint itself are maintained in synchronization via this multi-IDE mechanism, serving as a meta-demonstration of this discipline.)
 
-### 6.2 Why This Is Unattainable by Single-Author Production
+### 6.2 Why This Is Difficult to Achieve by Single-Author Production
 
 In our experience producing this artifact, a single human author would struggle to maintain simultaneous fluency and consistency across 7 languages at this document volume (354 files, hundreds of thousands of words). Even a team of professional translators would face substantial coordination overhead in achieving atomic propagation of semantic changes across languages on the timeline that multi-IDE production made possible here (the commit cited above was completed in approximately 45 minutes of one operator's session time). We do not claim these limits are absolute -- merely that, in our observed production setting, the multi-IDE workflow approach lowered the coordination cost meaningfully compared with prior single-tool attempts in the same project.
 
-We characterize this as an **emergent property**: simultaneous multilingual coherence is not a feature any single agent in the production environment possesses, but it arises from the combination of LLM-fluent generation, Git atomic commits, and `/consistency-review`-style sweep workflows. No single human, and no single AI engine, would produce it; the production environment as a whole does.
+We characterize this as an **emergent property**: simultaneous multilingual coherence is not a feature any single agent in the production environment possesses, but it arises from the combination of LLM-fluent generation, Git atomic commits, and `/consistency-review`-style sweep workflows. In the production context of this artifact, neither a single human nor a single AI engine sustained this property alone; the production environment as a whole did.
 
 ### 6.3 Empirical Audit
 
@@ -285,13 +285,13 @@ The Toolkit addresses each through a corresponding workflow:
 
 - **`/devil-pair-debate`** -- Claude-A defends a methodology claim; Claude-B argues against it from a Foucauldian or Bourdieusian critical-theory stance; Claude-C judges synthesis. The output exposes not bugs but *value-system biases*. Run, for example, against the Tiger AI L1-L5 model itself, this workflow surfaced an assumption that "AI autonomy is a desirable trajectory" -- a culturally contingent claim now explicitly noted in the methodology's discussion.
 - **`/consistency-review`** (Codex) -- sweeps the entire repository for cross-file inconsistencies (terminology drift, contradicting numerical claims, broken cross-references). This workflow flagged, for instance, that role titles (specifically `IT 副理`) were inconsistent with the seniority implied by the character's responsibilities (the resolution, committed as `1dcc569`, upgraded the role to `IT 協理` across 17 files).
-- **`/thought-experiment`** -- runs counterfactual stress tests: "If the EU AI Act criminalized L4 deployment, does the methodology still work? If LLM cost dropped 1000x, what becomes obsolete?" These produce explicit *fragility maps* that conventional review cannot generate.
+- **`/thought-experiment`** -- runs counterfactual stress tests: "If the EU AI Act criminalized L4 deployment, does the methodology still work? If LLM cost dropped 1000x, what becomes obsolete?" These produce explicit *fragility maps*, complementing the counterfactual dimension that conventional review tends to handle less systematically.
 - **`/red-team-review`** (Codex against Claude output) -- uses a different IDE engine to audit the primary author engine's output. Functionally analogous to switching peer reviewers between rounds, but with deterministic cross-engine independence rather than reviewer-pool politics.
 - **`/diagnose`** (Antigravity) -- parallel multi-agent role-play. This workflow simultaneously instantiates multiple stakeholders with conflicting interests (e.g., a cost-conscious CFO, a performance-driven CTO, and a compliance-focused legal officer), allowing them to simultaneously stress-test and interrogate a specific stage of the methodology. This parallel adversarial role-play exposes blind spots in the methodology regarding cross-departmental alignment.
 
 ### 7.3 Implication: Methodology Hardness vs. Reviewer Pool Size
 
-Traditional peer-review hardness scales linearly with reviewer count and is bottlenecked by reviewer attention and shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and exposes structural blind spots that human reviewers structurally cannot. Neither replaces the other; both should run in series. But the AI-Native layer changes the *floor* of methodology quality -- claims that survive `/devil-pair-debate` and `/red-team-review` are categorically harder than claims that survive only human review.
+Traditional peer-review hardness varies with reviewer count, domain expertise, and attention allocation, and can also be influenced by shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and is particularly well suited to exposing structural blind spots such as cross-file inconsistency, naming drift, and broken dependency chains. The two do not replace each other; they should run in series. The AI-Native layer changes the *floor* of methodology quality in this sense: claims that survive `/devil-pair-debate` and `/red-team-review` have, at minimum, passed one layer of replayable, auditable mechanized adversarial check.
 
 ---
 
@@ -324,7 +324,7 @@ Stacked together, the three layers transform a methodology from a *published doc
 
 The Toolkit further enforces citation discipline at the *content* level. All theoretical claims are traced to specific external sources in `00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md` (Rosemann BPM Maturity, CMMI, APQC PCF, SCOR, TOGAF, Dragon1 EA, etc.). Internal claims that derive from the Toolkit's own design choices are flagged as such and self-qualified using Tool 2.5's ten-condition scorecard.
 
-This discipline addresses what we believe is the deepest objection to AI-assisted methodology production: that AI-augmented authors cannot resist the temptation to *generate plausible-sounding theory* in place of citing actual sources. The Toolkit's discipline -- encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) -- makes such generation visible and excisable.
+This discipline addresses what we believe is the deepest objection to AI-assisted methodology production: that AI-augmented authors may be inclined to *generate plausible-sounding theory* rather than consistently returning to inspectable sources. The Toolkit's discipline -- encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) -- makes such generation visible and excisable.
 
 ### 8.4 Reproducibility in the Formal Sense
 
