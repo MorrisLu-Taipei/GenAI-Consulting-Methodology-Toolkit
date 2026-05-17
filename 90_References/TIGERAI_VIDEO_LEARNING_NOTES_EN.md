@@ -1,6 +1,6 @@
-> 🌐 中文版本 / Chinese version: [TIGERAI_VIDEO_LEARNING_NOTES.md](TIGERAI_VIDEO_LEARNING_NOTES.md)
-
 # TigerAI Channel Video Learning Notes and L3 Application Summary
+
+> 🌐 Language: [繁體中文](TIGERAI_VIDEO_LEARNING_NOTES.md) ｜ English ｜ [Deutsch](TIGERAI_VIDEO_LEARNING_NOTES_DE.md) ｜ [Français](TIGERAI_VIDEO_LEARNING_NOTES_FR.md) ｜ [Español](TIGERAI_VIDEO_LEARNING_NOTES_ES.md) ｜ [日本語](TIGERAI_VIDEO_LEARNING_NOTES_JA.md) ｜ [한국어](TIGERAI_VIDEO_LEARNING_NOTES_KR.md)
 
 Version: v1.0  
 Author: Morris Lu (盧業興) · Tiger AI 虎智科技  

@@ -1,5 +1,7 @@
 # TigerAI 頻道影片學習紀錄與 L3 應用摘要
 
+> 🌐 語言：繁體中文 ｜ [English](TIGERAI_VIDEO_LEARNING_NOTES_EN.md) ｜ [Deutsch](TIGERAI_VIDEO_LEARNING_NOTES_DE.md) ｜ [Français](TIGERAI_VIDEO_LEARNING_NOTES_FR.md) ｜ [Español](TIGERAI_VIDEO_LEARNING_NOTES_ES.md) ｜ [日本語](TIGERAI_VIDEO_LEARNING_NOTES_JA.md) ｜ [한국어](TIGERAI_VIDEO_LEARNING_NOTES_KR.md)
+
 版本：v1.0  
 作者：Morris  
 頻道：虎智科技 TigerAI  
