@@ -1,6 +1,6 @@
 # Pilot Study Protocol: Empirical Validation Research Plan for Tiger AI Methodology
 
-> 🌐 中文版本 / Chinese version: [PILOT_STUDY_PROTOCOL.md](PILOT_STUDY_PROTOCOL.md)
+> 🌐 Language: [繁體中文](PILOT_STUDY_PROTOCOL.md) ｜ English ｜ [Deutsch](PILOT_STUDY_PROTOCOL_DE.md) ｜ [Français](PILOT_STUDY_PROTOCOL_FR.md) ｜ [Español](PILOT_STUDY_PROTOCOL_ES.md) ｜ [日本語](PILOT_STUDY_PROTOCOL_JA.md) ｜ [한국어](PILOT_STUDY_PROTOCOL_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 

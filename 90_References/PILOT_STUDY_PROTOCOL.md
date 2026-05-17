@@ -1,6 +1,6 @@
 # Pilot Study Protocol：Tiger AI 方法論的實證驗證研究計畫
 
-> 🌐 English version: [PILOT_STUDY_PROTOCOL_EN.md](PILOT_STUDY_PROTOCOL_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](PILOT_STUDY_PROTOCOL_EN.md) ｜ [Deutsch](PILOT_STUDY_PROTOCOL_DE.md) ｜ [Français](PILOT_STUDY_PROTOCOL_FR.md) ｜ [Español](PILOT_STUDY_PROTOCOL_ES.md) ｜ [日本語](PILOT_STUDY_PROTOCOL_JA.md) ｜ [한국어](PILOT_STUDY_PROTOCOL_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
