@@ -1,5 +1,8 @@
 # GenAI Consulting Methodology Toolkit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20261680.svg)](https://doi.org/10.5281/zenodo.20261680) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
+
 Langue : [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | Français | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
 Boîte à outils méthodologique pour l'évaluation de la maturité et la mise en œuvre de la transformation IA en entreprise (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit).

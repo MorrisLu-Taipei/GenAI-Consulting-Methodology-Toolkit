@@ -9,14 +9,15 @@
 **Version:** 1.0 (release candidate; **not yet deposited**)  
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
-**Artifact DOI:** pending Zenodo release (will be minted automatically on the first GitHub tag `v1.0.0`)  
-**Preprint DOI:** pending Zenodo release  
+**Artifact DOI (concept):** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680) (always resolves to the latest version)  
+**Artifact DOI (this version):** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681) (software release v3.0.1 = paper v1.0)  
 **Repository:** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>  
+**GitHub release:** [v3.0.1](https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1) (commit `5361c7b`)  
 **Reproducibility manifest:** `09_Research_Paper/REPRODUCIBILITY.md`  
-**Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md` (will be re-frozen at the v1.0.0 tag commit immediately before deposit)  
-**Suggested citation (post-release):** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Zenodo. DOI: [to be inserted upon release].
+**Release manifest (frozen):** `09_Research_Paper/RELEASE_MANIFEST_v1.0.0.md`  
+**Suggested citation:** Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation* (Version 1.0, software tag v3.0.1) [Software / working paper]. Zenodo. <https://doi.org/10.5281/zenodo.20261680>
 
-> **Status note.** This document is a working draft staged for first formal release. All DOI fields above are deliberately marked *pending*; this draft must not be cited with a fabricated DOI. The actual concept and version DOIs will replace the *pending* markers within minutes of the GitHub `v1.0.0` tag triggering the Zenodo webhook.
+> **Status note.** This document is the v1.0 release candidate, deposited to Zenodo on 2026-05-17 (concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680); version DOI [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)). Software release tag `v3.0.1` on GitHub corresponds to paper release candidate v1.0. This is a release candidate -- not peer reviewed -- and is offered for community feedback, replication attempts, and errata via repository Issues. A peer-reviewed version is the intended next step (see Section 9.5 pre-registered validation study and Section 10.5 empirical research agenda).
 
 ---
 

@@ -2,7 +2,9 @@
 
 **Frozen at commit:** `d6cb5f6` -- this is the final semantic-content commit before v1.0.0 deposit. The v1.0.0 GitHub tag should be created at the commit that introduces this manifest freeze itself (one commit after `d6cb5f6`); the only delta between `d6cb5f6` and the tag commit is this single line update.
 **Date frozen:** 2026-05-18
-**Released as:** (pending GitHub tag `v1.0.0` -- this file will be referenced by `RELEASE_NOTES_v1.0.0.md`)
+**Released as:** GitHub tag `v3.0.1` (= paper release candidate v1.0), commit `5361c7b`, on 2026-05-17. (Note: the earlier publish event under tag `v3.0.0` did not trigger Zenodo because the Zenodo-GitHub webhook was not yet enabled at that moment; `v3.0.1` was published with identical content to trigger the Zenodo deposit. See `RELEASE_NOTES_v3.0.0.md` for the dual-versioning explanation.)
+**Concept DOI (all versions):** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
+**Version DOI (v3.0.1):** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)
 **Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu)
 **Affiliation:** Tiger AI (Independent Research)
 **ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)

@@ -105,13 +105,13 @@ After Zenodo mints the DOIs (typically within minutes of this release going publ
 
 **Concept DOI** (always latest version):
 
-> Lu, M. (2026). *GenAI Consulting Methodology Toolkit* (Version 1.0.0) [Software]. Zenodo. DOI pending Zenodo release (resolvable URL: `https://doi.org/10.5281/zenodo.<ID>` once minted).
+> Lu, Y.-H. (2026). *GenAI Consulting Methodology Toolkit* (Version 1.0; software tag v3.0.1) [Software]. Zenodo. <https://doi.org/10.5281/zenodo.20261680> (concept DOI). Version DOI for this release: <https://doi.org/10.5281/zenodo.20261681>.
 
 **Preprint** (in this release):
 
-> Lu, M. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure*. Working paper. Tiger AI. Source: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/blob/v1.0.0/09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md>.
+> Lu, Y.-H. (2026). *AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure -- A Design Science Investigation*. Working paper (release candidate v1.0; deposited at software release v3.0.1). Tiger AI. Zenodo. <https://doi.org/10.5281/zenodo.20261680>.
 
-(Both will be updated with the Zenodo-issued DOI numbers once the webhook fires.)
+Source URL: <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/blob/v3.0.1/09_Research_Paper/2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md>.
 
 ---
 

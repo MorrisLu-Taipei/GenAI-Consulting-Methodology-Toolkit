@@ -34,16 +34,19 @@ keywords:
   - multi-IDE orchestration
   - design science research
 license: Apache-2.0
-version: "1.0.0"
-date-released: "2026-05-18"
-# DOI placeholders -- fill in after Zenodo mints them on first GitHub release.
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"    # concept DOI (always points to latest)
-#     description: "Concept DOI (all versions)"
-#   - type: doi
-#     value: "10.5281/zenodo.YYYYYYY"    # version DOI for v1.0.0
-#     description: "Version DOI for v1.0.0"
+version: "3.0.1"
+date-released: "2026-05-17"
+doi: "10.5281/zenodo.20261680"  # concept DOI (always resolves to latest version)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20261680"
+    description: "Concept DOI (resolves to the latest version of all releases)"
+  - type: doi
+    value: "10.5281/zenodo.20261681"
+    description: "Version DOI for software release v3.0.1 (= paper v1.0 release candidate)"
+  - type: url
+    value: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1"
+    description: "GitHub release page for v3.0.1"
 preferred-citation:
   type: article
   title: "AI-Native eBook Production: Multi-IDE Orchestration as Methodology Engineering Infrastructure"

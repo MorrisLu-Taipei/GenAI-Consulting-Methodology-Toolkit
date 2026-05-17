@@ -1,5 +1,10 @@
 # 署名要求 / Attribution Requirement
 
+> **DOI / Persistent identifier:**
+> - Concept DOI (all versions): [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
+> - Version DOI (v3.0.1): [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)
+> - GitHub release: [v3.0.1](https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1)
+
 本專案採用 **[Apache License 2.0](LICENSE)** 授權。可自由使用、修改、改作、散布、教學、顧問交付與商業化。
 
 依 Apache 2.0 條款，再散布本專案或衍生作品時，請保留 [`LICENSE`](LICENSE) 與 [`NOTICE`](NOTICE)，並保留以下作者署名：
