@@ -166,9 +166,15 @@ Repository root/
 
 **AI IDE。** 本文所稱的 AI IDE，並非僅指傳統的程式碼編輯器，也不是單純的 chatbot。它是一種將大型語言模型與 repository、檔案系統、版本控制、shell 指令、任務規格結合的工作環境。換言之，AI IDE 不只是回答問題，而是能在受控範圍內讀取多個檔案、比較版本、執行檢查、依照 workflow 修改文件，並將結果回寫到 repository。這使 AI IDE 成為一種「認知工作台」：作者可用它綜合大量文件、追蹤跨檔一致性、執行對抗式審查；讀者則可用它查詢方法論、測試情境、追蹤某一設計變更的下游影響。本文討論的 Claude Code、Codex CLI、Antigravity、Cursor，皆屬於這類把 LLM 推理嵌入 versioned text workspace 的工具。其重要性不在於它們是特定品牌，而在於它們把方法論文件從靜態文本轉化為可被代理讀取、檢查、重組與詢問的版本化製品。本文後續所說的「AI IDE」，皆指此構念 —— AI 嵌入的版本化工作環境 —— 並非任一單一產品。
 
-**Git。** Git 是一種分散式版本控制系統：它把對一組檔案的每一次變動，記錄為帶時間戳、有作者署名、以內容定址的「commit」單位。一連串 commit 構成一條不可變、可重播的歷史，紀錄檔案如何走到當前狀態。Branch（分支）與 tag（標籤）為這條歷史中的特定節點命名（一個「release」通常是一個命名 tag，例如 `v1.0.0`）。對於傳統文件而言，「這份文件」這個說法是模糊的，指的是讀者剛好打開的那個檔案；但對於 Git 版本化的製品而言，「commit `7da82d7` 時刻的文件」是一個精確、可被外部驗證的指涉。這正是本文「完整 provenance」主張（§1、§8）能在實務上成立的基礎：每一段文字、每一張表格、每一份 workflow 規格，皆可追溯到特定時刻與特定作者決策。
+**Git。** Git 是一種**運作在作者本機**的分散式版本控制系統：它把對一組檔案的每一次變動，記錄為帶時間戳、有作者署名、以內容定址的「commit」單位。一連串 commit 構成一條不可變、可重播的歷史，紀錄檔案如何走到當前狀態。Branch（分支）與 tag（標籤）為這條歷史中的特定節點命名（一個「release」通常是一個命名 tag，例如 `v1.0.0`）。關鍵在於：Git 本身是 local 的、不需要任何遠端服務即可運作；它在電子書生命週期中扮演的角色是**作者問責（authorial accountability）**。對於傳統文件而言，「這份文件」這個說法是模糊的，指的是讀者剛好打開的那個檔案；但對於 Git 版本化的製品而言，「commit `7da82d7` 時刻的文件」是一個精確、可被外部驗證的指涉：每一段文字、每一張表格、每一份 workflow 規格，皆可追溯到特定時刻與特定作者決策 —— 無論該作品是否曾被公開出版。這正是本文 §1、§8 「完整 provenance」主張能在實務上成立的基礎。
 
-**GitHub。** GitHub 是 Git repository 最常見的代管服務。在本文的電子書生命週期中，GitHub 扮演三個獨立角色。第一，**散布（distribution）**：任何具網路存取的人都可以在任一過去 commit（包含任一 tagged release）clone 該製品，無需作者授權或協調。第二，**協作介面（collaboration surface）**：Issues、pull requests、discussions 提供一個公開的勘誤、貢獻與挑戰管道 —— 這是傳統方法論出版形式（書、PDF、期刊論文）結構上欠缺的。第三，**DOI 橋（DOI bridge）**：GitHub 的 release 事件觸發 Zenodo 的 webhook，數分鐘內鑄造出持久 DOI（見 §8.2、§10.3），讓一個 GitHub release 成為可被學術引用、永久封存的學術製品。若無這條「Git + GitHub + Zenodo」鏈，本電子書的生命週期仍可運作，但會失去其大部分的可重現性、可引用性與公開貢獻管道。本文後續所有提到「the repository」、「某個 commit」、「v1.0.0 release」、「workflow 檔案」之處，皆以標準 Git / GitHub 意義理解。
+**GitHub。** GitHub 是 Git repository 最常見的**公開**代管服務。它是一個 Git 版本化製品「從私人作者工作，轉化為公開可存取、且公開**可共演化（evolvable）**之學術物件」的關鍵層。在電子書生命週期中，GitHub 扮演三個獨立角色：
+
+1. **散布（distribution）。** 任何具網路存取的人都可以在任一過去 commit（包含任一 tagged release）clone 該製品，無需作者授權或協調。
+2. **共演化介面（collaborative evolution surface）。** Issues、pull requests、discussions 不只讓讀者標示勘誤，更讓讀者**提出實質的新內容** —— 例如新增一個業界案例、一個新的 workflow 規格、一個額外的語言翻譯、或修正後的計分量規。透過 pull request 機制，讀者的貢獻可被審查並合併進 canonical 製品，貢獻者的作者身份保留在 Git 歷史中。這把方法論從「一對多廣播」轉化為「多對多的**活製品（living artifact）**」 —— **這是傳統方法論出版形式（書、PDF、期刊論文）所沒有直接對應的出版模式**：書無法接受讀者投稿章節、靜態 PDF 無法收納讀者勘誤、期刊論文無法承載讀者後續的實證案例。但 GitHub 上的 Git 版本化方法論三者皆可。
+3. **DOI 橋（DOI bridge）。** GitHub 的 release 事件觸發 Zenodo 的 webhook，數分鐘內鑄造出持久 DOI（見 §8.2、§10.3），讓一個 GitHub release 成為可被學術引用、永久封存的學術製品。
+
+若無這條「Git + GitHub + Zenodo」鏈，本電子書的生命週期在原理上仍可運作，但會失去其大部分的可重現性、公開貢獻管道與可引用性。本文後續所有提到「the repository」、「某個 commit」、「v1.0.0 release」、「workflow 檔案」之處，皆以標準 Git / GitHub 意義理解。
 
 ### 4.1 依認知任務的專門化分工
 
