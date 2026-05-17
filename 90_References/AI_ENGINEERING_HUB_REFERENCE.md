@@ -1,6 +1,6 @@
 # ai-engineering-hub 引用與授權說明 / ai-engineering-hub Citation & License Notice
 
-> 🌐 English version: [AI_ENGINEERING_HUB_REFERENCE_EN.md](AI_ENGINEERING_HUB_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](AI_ENGINEERING_HUB_REFERENCE_EN.md) ｜ [Deutsch](AI_ENGINEERING_HUB_REFERENCE_DE.md) ｜ [Français](AI_ENGINEERING_HUB_REFERENCE_FR.md) ｜ [Español](AI_ENGINEERING_HUB_REFERENCE_ES.md) ｜ [日本語](AI_ENGINEERING_HUB_REFERENCE_JA.md) ｜ [한국어](AI_ENGINEERING_HUB_REFERENCE_KR.md)
 
 本方法論的 [`04_Scenarios/LLM_APPS_CASE_INDEX.md`](../04_Scenarios/LLM_APPS_CASE_INDEX.md)（LLM 應用案例索引表）之**部分案例清單與分類**，參考自 **patchy631/ai-engineering-hub**。本檔詳列原始來源、授權條款與引用範圍。
 

@@ -1,6 +1,6 @@
 # agency-agents Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [AGENCY_AGENTS_REFERENCE.md](AGENCY_AGENTS_REFERENCE.md)
+> 🌐 Language: [繁體中文](AGENCY_AGENTS_REFERENCE.md) ｜ English ｜ [Deutsch](AGENCY_AGENTS_REFERENCE_DE.md) ｜ [Français](AGENCY_AGENTS_REFERENCE_FR.md) ｜ [Español](AGENCY_AGENTS_REFERENCE_ES.md) ｜ [日本語](AGENCY_AGENTS_REFERENCE_JA.md) ｜ [한국어](AGENCY_AGENTS_REFERENCE_KR.md)
 
 The second half of the **L2 Knowledge Codification** course in this methodology (specifically the L2-B Agentic Developer track) cites **agency-agents** as teaching material for the "ready-made agent persona library" module. This document records the upstream source, license terms, citation guidance, and scope of use.
 

@@ -1,6 +1,6 @@
 # agency-agents 引用與授權說明 / agency-agents Citation & License Notice
 
-> 🌐 English version: [AGENCY_AGENTS_REFERENCE_EN.md](AGENCY_AGENTS_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](AGENCY_AGENTS_REFERENCE_EN.md) ｜ [Deutsch](AGENCY_AGENTS_REFERENCE_DE.md) ｜ [Français](AGENCY_AGENTS_REFERENCE_FR.md) ｜ [Español](AGENCY_AGENTS_REFERENCE_ES.md) ｜ [日本語](AGENCY_AGENTS_REFERENCE_JA.md) ｜ [한국어](AGENCY_AGENTS_REFERENCE_KR.md)
 
 本方法論的 **L2 Knowledge Codification**（特別是 L2-B Agentic Developer 線）下半段，引用 **agency-agents** 作為「現成 agent persona 庫」之教學素材。本檔詳列原始來源、授權條款、引用方式與使用範圍。
 

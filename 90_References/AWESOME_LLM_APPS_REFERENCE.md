@@ -1,6 +1,6 @@
 # awesome-llm-apps 引用與授權說明 / awesome-llm-apps Citation & License Notice
 
-> 🌐 English version: [AWESOME_LLM_APPS_REFERENCE_EN.md](AWESOME_LLM_APPS_REFERENCE_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](AWESOME_LLM_APPS_REFERENCE_EN.md) ｜ [Deutsch](AWESOME_LLM_APPS_REFERENCE_DE.md) ｜ [Français](AWESOME_LLM_APPS_REFERENCE_FR.md) ｜ [Español](AWESOME_LLM_APPS_REFERENCE_ES.md) ｜ [日本語](AWESOME_LLM_APPS_REFERENCE_JA.md) ｜ [한국어](AWESOME_LLM_APPS_REFERENCE_KR.md)
 
 本方法論的 [`04_Scenarios/LLM_APPS_CASE_INDEX.md`](../04_Scenarios/LLM_APPS_CASE_INDEX.md)（LLM 應用案例索引表）之**案例清單與分類**，參考自 **Shubhamsaboo/awesome-llm-apps**。本檔詳列原始來源、授權條款與引用範圍。
 

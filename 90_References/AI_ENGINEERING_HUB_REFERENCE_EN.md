@@ -1,6 +1,6 @@
 # ai-engineering-hub — Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [AI_ENGINEERING_HUB_REFERENCE.md](AI_ENGINEERING_HUB_REFERENCE.md)
+> 🌐 Language: [繁體中文](AI_ENGINEERING_HUB_REFERENCE.md) ｜ English ｜ [Deutsch](AI_ENGINEERING_HUB_REFERENCE_DE.md) ｜ [Français](AI_ENGINEERING_HUB_REFERENCE_FR.md) ｜ [Español](AI_ENGINEERING_HUB_REFERENCE_ES.md) ｜ [日本語](AI_ENGINEERING_HUB_REFERENCE_JA.md) ｜ [한국어](AI_ENGINEERING_HUB_REFERENCE_KR.md)
 
 The case list and categories in part of this methodology's [`04_Scenarios/LLM_APPS_CASE_INDEX.md`](../04_Scenarios/LLM_APPS_CASE_INDEX.md) (LLM application case index) are referenced from **patchy631/ai-engineering-hub**. This document records the upstream source, license terms, and scope of citation.
 

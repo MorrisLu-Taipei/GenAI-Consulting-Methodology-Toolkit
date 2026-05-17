@@ -1,6 +1,6 @@
 # awesome-llm-apps — Citation & License Notice
 
-> 🌐 中文版本 / Chinese version: [AWESOME_LLM_APPS_REFERENCE.md](AWESOME_LLM_APPS_REFERENCE.md)
+> 🌐 Language: [繁體中文](AWESOME_LLM_APPS_REFERENCE.md) ｜ English ｜ [Deutsch](AWESOME_LLM_APPS_REFERENCE_DE.md) ｜ [Français](AWESOME_LLM_APPS_REFERENCE_FR.md) ｜ [Español](AWESOME_LLM_APPS_REFERENCE_ES.md) ｜ [日本語](AWESOME_LLM_APPS_REFERENCE_JA.md) ｜ [한국어](AWESOME_LLM_APPS_REFERENCE_KR.md)
 
 The **case list and categories** in this methodology's [`04_Scenarios/LLM_APPS_CASE_INDEX.md`](../04_Scenarios/LLM_APPS_CASE_INDEX.md) (LLM application case index) are referenced from **Shubhamsaboo/awesome-llm-apps**. This document records the upstream source, license terms, and scope of citation.
 
