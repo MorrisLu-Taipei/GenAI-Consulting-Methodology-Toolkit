@@ -1,6 +1,6 @@
 # AI-Native Living Book: Methodology as Executable Knowledge Artifact
 
-> 🌐 中文版本 / Chinese version: [AI_NATIVE_LIVING_BOOK.md](AI_NATIVE_LIVING_BOOK.md)
+> 🌐 Language: [繁體中文](AI_NATIVE_LIVING_BOOK.md) ｜ English ｜ [Deutsch](AI_NATIVE_LIVING_BOOK_DE.md) ｜ [Français](AI_NATIVE_LIVING_BOOK_FR.md) ｜ [Español](AI_NATIVE_LIVING_BOOK_ES.md) ｜ [日本語](AI_NATIVE_LIVING_BOOK_JA.md) ｜ [한국어](AI_NATIVE_LIVING_BOOK_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 

@@ -1,6 +1,6 @@
 # AI-Native 活書：方法論作為可執行知識物件 (Executable Knowledge Artifact)
 
-> 🌐 English version: [AI_NATIVE_LIVING_BOOK_EN.md](AI_NATIVE_LIVING_BOOK_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](AI_NATIVE_LIVING_BOOK_EN.md) ｜ [Deutsch](AI_NATIVE_LIVING_BOOK_DE.md) ｜ [Français](AI_NATIVE_LIVING_BOOK_FR.md) ｜ [Español](AI_NATIVE_LIVING_BOOK_ES.md) ｜ [日本語](AI_NATIVE_LIVING_BOOK_JA.md) ｜ [한국어](AI_NATIVE_LIVING_BOOK_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
