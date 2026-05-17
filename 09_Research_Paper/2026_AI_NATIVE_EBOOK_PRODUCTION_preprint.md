@@ -3,9 +3,9 @@
 ---
 
 **Author:** Yeh-Hsing Lu (also known professionally as Morris Lu; Chinese: 盧業興)  
-**Affiliation:** Tiger AI (Independent Research)  
+**Affiliations:** Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)  
 **ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)  
-**Contact:** <tiger.ai.tw@gmail.com>  
+**Contact:** <morrislu@nkust.edu.tw>  
 **Version:** 1.0 (release candidate; **not yet deposited**)  
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
@@ -461,11 +461,13 @@ We acknowledge the AI engines used in producing the Toolkit and this paper: Anth
 
 ## References
 
-APQC. (2024). *Process Classification Framework, Version 7.3*. APQC.
+> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Four entries were corrected during audit: APQC (2024) → (2022/2024) for accurate publication year; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
+
+APQC. (2022/2024). *Process Classification Framework, Version 7.3*. APQC. (Version 7.3 was published in 2022 and remains current as of 2024.)
 
 Becker, J., Knackstedt, R., & Pöppelbuß, J. (2009). Developing maturity models for IT management. *Business & Information Systems Engineering*, 1(3), 213-222.
 
-Bostock, M. (2017). Observable: A new way to think with code. *Observable Inc. technical note.*
+Bostock, M. (2017). *A Better Way to Code*. Medium, April 28, 2017. (The work that became d3.express and subsequently Observable.)
 
 de Bruin, T., & Rosemann, M. (2005). Towards a Business Process Management Maturity Model. In *Proceedings of the 13th European Conference on Information Systems (ECIS 2005)*.
 
@@ -481,7 +483,7 @@ Knuth, D. E. (1984). Literate programming. *The Computer Journal*, 27(2), 97-111
 
 Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a human-AI collaborative writing dataset for exploring language model capabilities. In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems*.
 
-Long, T., et al. (2024). Not just novelty: A longitudinal study on utility and customization of an AI workflow. In *Proceedings of CHI 2024*.
+Long, T., Gero, K. I., & Chilton, L. B. (2024). Not Just Novelty: A Longitudinal Study on Utility and Customization of an AI Workflow. In *Proceedings of the 2024 ACM Designing Interactive Systems Conference (DIS '24)*. DOI: 10.1145/3643834.3661587
 
 Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
 
@@ -499,7 +501,7 @@ Rosemann, M., & de Bruin, T. (2005). Application of a Holistic Model for Determi
 
 Victor, B. (2011). Explorable Explanations. *Personal essay*, <http://worrydream.com/ExplorableExplanations/>.
 
-Victor, B. (2014). Seeing Spaces. *Talk delivered at SAP Future of Programming workshop*.
+Victor, B., & Hellman, D. (2014). *Seeing Spaces*. Talk / dynamic poster. (Documented in the Dynamicland archive; original venue attribution varies across secondary sources, so a single venue is not asserted here.)
 
 ---
 

@@ -3,7 +3,10 @@
 **Frozen at commit:** `7da82d78aa120258e150a9ce0d9fff60a58f62d7` (short: `7da82d7`) -- ⚠️ **will be re-frozen at the commit that introduces the v1.0.0 tag immediately before deposit; this hash is the working-draft checkpoint**
 **Date frozen:** 2026-05-18
 **Released as:** (pending GitHub tag `v1.0.0` -- this file will be referenced by `RELEASE_NOTES_v1.0.0.md`)
-**Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu) -- ORCID: [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
+**Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu)
+**Affiliations:** Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)
+**ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
+**Contact:** <morrislu@nkust.edu.tw>
 **License:** Apache License 2.0
 **Purpose:** Snapshot of all quantitative properties of the artifact at the moment of release, so that subsequent commits cannot retroactively invalidate cited numbers.
 
