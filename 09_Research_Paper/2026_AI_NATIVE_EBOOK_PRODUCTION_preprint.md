@@ -205,10 +205,10 @@ The Toolkit inverts this. The same Claude Code, Cursor, or Codex environment tha
 
 A practical question follows: how does a reader's AI IDE come to *understand* the methodology well enough to support these workflows? The answer is that the repository ships with two onboarding files specifically designed for AI ingestion:
 
-- **`AGENTS.md`** -- a 200-line specification that briefs any AI agent on the methodology's structure, key files, vocabulary, and discipline boundaries. It is the primary entry point for any AI tool.
-- **`CLAUDE.md`** -- a Claude Code-specific extension that activates the workflow library and articulates Claude's role as a "Strategic Reasoning Partner with Cross-File Synthesis."
+- **`AGENTS.md`** -- a 200-line specification that briefs any AI agent on the methodology's structure, key files, vocabulary, and discipline boundaries. It is the common primary entry point for any AI tool.
+- **`CLAUDE.md`** / **`CODEX.md`** / **`ANTIGRAVITY.md`** -- IDE-specific extensions that activate their respective workflow libraries. For instance, `ANTIGRAVITY.md` imbues the AI with awareness of its "parallel multi-agent" task dispatch capabilities, while `CLAUDE.md` articulates its role as a "Strategic Reasoning Partner with Cross-File Synthesis."
 
-These files transform a fresh LLM session from a generic assistant into a methodology-literate dialogue partner within seconds. Empirically, the difference is qualitative: a Claude Code session opened in the repository root, with `CLAUDE.md` auto-ingested, can answer methodology questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
+These files transform a fresh LLM session from a generic assistant into a methodology-literate dialogue partner within seconds. Empirically, the difference is qualitative: an IDE session opened in the repository root, with its specific environment file auto-ingested, can answer methodology questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
 
 ### 5.3 Implications for the Author-Reader Relationship
 
