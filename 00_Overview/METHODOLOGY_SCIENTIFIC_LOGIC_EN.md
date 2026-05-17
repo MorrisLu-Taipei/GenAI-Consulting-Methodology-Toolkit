@@ -1,6 +1,6 @@
 # Methodology's Scientific Logic: Why This Report Withstands Debate
 
-> 🌐 中文版本 / Chinese version: [METHODOLOGY_SCIENTIFIC_LOGIC.md](METHODOLOGY_SCIENTIFIC_LOGIC.md)
+> 🌐 Language: [繁體中文](METHODOLOGY_SCIENTIFIC_LOGIC.md) ｜ English ｜ [Deutsch](METHODOLOGY_SCIENTIFIC_LOGIC_DE.md) ｜ [Français](METHODOLOGY_SCIENTIFIC_LOGIC_FR.md) ｜ [Español](METHODOLOGY_SCIENTIFIC_LOGIC_ES.md) ｜ [日本語](METHODOLOGY_SCIENTIFIC_LOGIC_JA.md) ｜ [한국어](METHODOLOGY_SCIENTIFIC_LOGIC_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu · Tiger AI
 

@@ -1,6 +1,6 @@
 # 方法論的科學邏輯：為什麼這份報告經得起辯論
 
-> 🌐 English version: [METHODOLOGY_SCIENTIFIC_LOGIC_EN.md](METHODOLOGY_SCIENTIFIC_LOGIC_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) ｜ [Deutsch](METHODOLOGY_SCIENTIFIC_LOGIC_DE.md) ｜ [Français](METHODOLOGY_SCIENTIFIC_LOGIC_FR.md) ｜ [Español](METHODOLOGY_SCIENTIFIC_LOGIC_ES.md) ｜ [日本語](METHODOLOGY_SCIENTIFIC_LOGIC_JA.md) ｜ [한국어](METHODOLOGY_SCIENTIFIC_LOGIC_KR.md)
 >
 > Apache License 2.0 · Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
