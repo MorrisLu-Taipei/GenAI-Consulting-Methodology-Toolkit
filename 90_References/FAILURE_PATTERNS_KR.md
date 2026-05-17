@@ -125,7 +125,7 @@
 
 **잠재적 문제**: 초기 접촉자가 「APQC, SCOR 는 국제적으로 인정 — Tiger AI L1-L5 는 어떤 권위?」 라고 물음. 학술 인용이 임계 질량에 도달하지 못함.
 
-**Tiger AI 응답**: 오픈소스 (Apache 2.0 + GitHub); ISO/IEC 워킹 그룹 / IEEE AI Maturity 표준 논의와 적극적으로 engage; QUT, NTUST 와 공동 연구 구축.
+**Tiger AI 응답**: 오픈소스 (Apache 2.0 + GitHub); ISO/IEC 워킹 그룹 / IEEE AI Maturity 표준 논의와 적극적으로 engage; 학술 파트너 기관과 공동 연구 구축 (구체적 파트너는 MOU 체결 후 공개).
 
 ---
 

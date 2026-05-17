@@ -78,13 +78,13 @@ Aktuelle Evidenz-Stärke der Tiger AI Methodik:
 
 ### 2.3 Recruiting-Strategie
 
-1. Über n8n Taipei Ambassador Community, NTUST Intelligent Manufacturing, QUT Alumni
+1. Über n8n Taipei Ambassador Community, Enterprise-Client-Netzwerke, akademische Partner-Institutionen (spezifische Partner offengelegt nach MOU-Unterzeichnung)
 2. Public Solicitation + Apache 2.0 Open Repo als Vertrauenssignal
 3. Signiertes Research Collaboration Agreement (Datennutzung, Anonymisierung, Exit-Mechanismus)
 
 ### 2.4 Ethics / IRB
 
-- Bewerbung für NTUST oder QUT IRB Approval
+- Bewerbung für akademische Partner-Institution IRB Approval (Partner offengelegt nach MOU-Unterzeichnung)
 - Informed Consent: alle Teilnehmer schriftlich
 - Sensitive Data Handling: PII / Business Secret Grading; Double-Blind Data Isolation
 - Right to Withdraw: jedes Unternehmen kann jederzeit aussteigen; gesammelte Daten zurückgegeben oder zerstört
@@ -287,7 +287,7 @@ Monat 27-30: Revisions + Submission
 | KPI System Log nicht zugänglich | Med | Med | T0 IT bestätigt Log-Verfügbarkeit; Ersatz-Indikatoren wenn nicht |
 | IRB Review Delay | Med | Med | Monat 0 IRB Submission gleichzeitig mit Recruitment |
 | Unzureichendes N für CFA | Hoch | Med | EFA im Pilot; CFA wartet auf Main Study N=200+ |
-| Budget Shortfall | Med | Hoch | NSTC / MOE / QUT Grants beantragen; Multi-Enterprise Cost-Sharing |
+| Budget Shortfall | Med | Hoch | Regierungs-Grants (NSTC / MOE etc.) / akademische Partner-Grants beantragen; Multi-Enterprise Cost-Sharing |
 
 ---
 
@@ -312,7 +312,7 @@ Frühzeitige Beendigung mit voller Disclosure wenn:
 | **Methode**: Cases-as-Benchmarks + Client Ideal Practice Workshop Protocol | Consulting-Industrie | Open-Source Toolkit (Apache 2.0) |
 | **Politik**: empirische Evidenz für AI Governance Alignment | Regulatoren (Taiwan AI Basic Act / NIST / EU) | White Paper + Legislative Hearings |
 | **Industrie**: 5-10 Enterprise reale longitudinale Cases | Peer Clients | Reale Cases (ersetzen Composites) |
-| **Bildung**: in NTUST / QUT Curricula integrieren | Studenten | Kursmaterialien |
+| **Bildung**: in akademische Partner-Curricula integrieren | Studenten | Kursmaterialien |
 
 ---
 

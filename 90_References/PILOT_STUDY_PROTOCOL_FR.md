@@ -78,13 +78,13 @@ Force de l'evidence actuelle de la méthodologie Tiger AI :
 
 ### 2.3 Stratégie de recrutement
 
-1. Via communauté n8n Taipei Ambassador, NTUST Intelligent Manufacturing, alumni QUT
+1. Via communauté n8n Taipei Ambassador, réseaux clients entreprises, institutions partenaires académiques (partenaires spécifiques divulgués après signature MOU)
 2. Sollicitation publique + repo Apache 2.0 open comme signal de confiance
 3. Accord de collaboration de recherche signé (usage de données, anonymisation, mécanisme d'exit)
 
 ### 2.4 Éthique / IRB
 
-- Postuler pour approbation IRB NTUST ou QUT
+- Postuler pour approbation IRB d'institution partenaire académique (partenaire divulgué après signature MOU)
 - Consentement éclairé : tous participants par écrit
 - Gestion de données sensibles : grading PII / secret business ; isolation de données double-blind
 - Droit de retrait : toute entreprise peut sortir à tout moment ; données collectées retournées ou détruites
@@ -287,7 +287,7 @@ Mois 27-30 : Revisions + soumission
 | KPI system log inaccessible | Med | Med | T0 IT confirme disponibilité log ; indicateurs de substitution sinon |
 | Délai de revue IRB | Med | Med | Soumission IRB Mois 0 concurrent avec recrutement |
 | N insuffisant pour CFA | High | Med | EFA au pilote ; CFA attend main study N=200+ |
-| Shortfall budget | Med | High | Postuler grants NSTC / MOE / QUT ; cost-sharing multi-entreprise |
+| Shortfall budget | Med | High | Postuler grants gouvernementaux (NSTC / MOE etc.) / grants partenaires académiques ; cost-sharing multi-entreprise |
 
 ---
 
@@ -312,7 +312,7 @@ Terminaison anticipée avec disclosure complète si :
 | **Méthode** : Cases-as-Benchmarks + protocole de workshop Client Ideal Practice | Industrie du consulting | Toolkit open-source (Apache 2.0) |
 | **Politique** : evidence empirique pour alignment AI Governance | Régulateurs (Taiwan AI Basic Act / NIST / EU) | White paper + auditions législatives |
 | **Industrie** : 5-10 cas réels longitudinaux d'entreprise | Clients pairs | Cas réels (remplaçant composites) |
-| **Éducation** : intégrer dans curricula NTUST / QUT | Étudiants | Matériaux de cours |
+| **Éducation** : intégrer dans curricula partenaires académiques | Étudiants | Matériaux de cours |
 
 ---
 

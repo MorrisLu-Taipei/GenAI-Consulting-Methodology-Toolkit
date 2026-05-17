@@ -78,13 +78,13 @@ Tiger AI 方法論目前的證據強度：
 
 ### 2.3 招募策略
 
-1. 透過 n8n Taipei 大使社群、台科大智慧製造所、QUT 校友網
+1. 透過 n8n Taipei 大使社群、企業客戶網絡、學術合作機構（具體機構待 MOU 簽訂後揭露）
 2. 公開徵求書 + Apache 2.0 開源 repo 作為信任佐證
 3. 簽署研究合作協議（含資料使用、匿名化、退場機制）
 
 ### 2.4 倫理審查 / IRB
 
-- 申請台科大或 QUT 倫理審查委員會 IRB approval
+- 申請學術合作機構倫理審查委員會 IRB approval（合作機構待 MOU 簽訂後揭露）
 - 知情同意 (informed consent)：所有受訪者書面同意
 - 機敏資料處理：個資 / 商業機密分級；雙盲評分階段資料隔離
 - 退場權：任何企業隨時可退出，已收集資料予以歸還或銷毀
@@ -287,7 +287,7 @@ Month 27-30: revise + submission
 | KPI 系統 log 取得困難 | 中 | 中 | T0 即與 IT 確認 log 可得性；不可得者改用替代指標 |
 | IRB 審查延遲 | 中 | 中 | Month 0 同時送 IRB + 開始招募 |
 | 樣本量不足做 CFA | 高 | 中 | pilot 階段先做 EFA；CFA 留待主研究 N=200+ |
-| 預算不足 | 中 | 高 | 申請科技部 / NSTC / 教育部 / QUT 補助；多家企業共擔 |
+| 預算不足 | 中 | 高 | 申請政府補助（NSTC / MOE 等）/ 學術合作機構補助；多家企業共擔 |
 
 ---
 
@@ -312,7 +312,7 @@ Month 27-30: revise + submission
 | **方法**：Cases-as-Benchmarks + Client Ideal Practice 共創 Workshop 的 protocol | 顧問業 | Open-source toolkit (Apache 2.0) |
 | **政策**：AI Governance 對齊的實證證據 | 監管者（台灣 AI 基本法 / NIST / EU）| White paper + 立法院公聽會 |
 | **產業**：5-10 家企業的真實 longitudinal cases | 同業客戶 | Real cases (replacing composite) |
-| **教育**：研究結果整合進 NTUST / QUT 課程 | 學生 | Course materials |
+| **教育**：研究結果整合進學術合作機構課程 | 學生 | Course materials |
 
 ---
 

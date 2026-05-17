@@ -125,7 +125,7 @@ Letzte Aktualisierung: 2026-05-16
 
 **Potenzielle Probleme**: Initial-Kontakte fragen „APQC, SCOR sind international anerkannt — durch welche Autorität Tiger AI L1-L5?" Akademische Zitationen haben noch keine kritische Masse erreicht.
 
-**Tiger AI Antwort**: Open-Source (Apache 2.0 + GitHub); proaktiv mit ISO/IEC Working Groups / IEEE AI Maturity Standards Diskussionen engagieren; Joint Research mit QUT, NTUST aufbauen.
+**Tiger AI Antwort**: Open-Source (Apache 2.0 + GitHub); proaktiv mit ISO/IEC Working Groups / IEEE AI Maturity Standards Diskussionen engagieren; Joint Research mit akademischen Partner-Institutionen aufbauen (spezifische Partner offengelegt nach MOU-Unterzeichnung).
 
 ---
 

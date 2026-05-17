@@ -78,13 +78,13 @@ Tiger AI 방법론의 현재 evidence 강도:
 
 ### 2.3 모집 전략
 
-1. n8n Taipei Ambassador 커뮤니티, NTUST Intelligent Manufacturing, QUT 동문 통해
+1. n8n Taipei Ambassador 커뮤니티, 기업 고객 네트워크, 학술 파트너 기관 통해 (구체적 파트너는 MOU 체결 후 공개)
 2. 공개 권유 + Apache 2.0 오픈 repo 를 신뢰 신호로
 3. 서명된 연구 협력 협정 (데이터 사용, 익명화, exit 메커니즘)
 
 ### 2.4 윤리 / IRB
 
-- NTUST 또는 QUT IRB 승인 신청
+- 학술 파트너 기관 IRB 승인 신청 (파트너는 MOU 체결 후 공개)
 - 정보 동의: 모든 참가자 서면으로
 - 민감 데이터 처리: PII / 비즈니스 비밀 그레이딩; 더블 블라인드 데이터 격리
 - 철회 권리: 어떤 기업이든 언제든 나갈 수 있음; 수집된 데이터 반환 또는 파기
@@ -287,7 +287,7 @@ T0 스코어링 단계 (기업별):
 | KPI system log 접근 불가 | Med | Med | T0 IT 가 로그 가용성 확인; 그렇지 않으면 대체 지표 |
 | IRB 검토 지연 | Med | Med | 월 0 IRB 제출을 모집과 병행 |
 | CFA 에 N 불충분 | High | Med | 파일럿에서 EFA; CFA 는 메인 스터디 N=200+ 기다림 |
-| 예산 부족 | Med | High | NSTC / MOE / QUT 보조금 신청; 다중 기업 비용 분담 |
+| 예산 부족 | Med | High | 정부 보조금 (NSTC / MOE 등) / 학술 파트너 보조금 신청; 다중 기업 비용 분담 |
 
 ---
 
@@ -312,7 +312,7 @@ T0 스코어링 단계 (기업별):
 | **방법**: Cases-as-Benchmarks + Client Ideal Practice 워크숍 프로토콜 | 컨설팅 업계 | 오픈소스 툴킷 (Apache 2.0) |
 | **정책**: AI Governance Alignment 를 위한 실증 evidence | 규제 기관 (Taiwan AI Basic Act / NIST / EU) | 백서 + 입법 청문회 |
 | **업계**: 5-10 기업 실제 종단 케이스 | 동료 고객 | 실제 케이스 (합성 대체) |
-| **교육**: NTUST / QUT 커리큘럼에 통합 | 학생 | 코스 자료 |
+| **교육**: 학술 파트너 기관 커리큘럼에 통합 | 학생 | 코스 자료 |
 
 ---
 

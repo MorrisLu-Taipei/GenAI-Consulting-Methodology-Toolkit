@@ -78,13 +78,13 @@ Fuerza de evidence actual de la metodología Tiger AI:
 
 ### 2.3 Estrategia de reclutamiento
 
-1. Vía comunidad n8n Taipei Ambassador, NTUST Intelligent Manufacturing, alumni QUT
+1. Vía comunidad n8n Taipei Ambassador, redes de clientes empresariales, instituciones partner académicas (partners específicos divulgados tras firma MOU)
 2. Solicitación pública + repo Apache 2.0 abierto como señal de confianza
 3. Acuerdo de colaboración de investigación firmado (uso de datos, anonimización, mecanismo de exit)
 
 ### 2.4 Ética / IRB
 
-- Aplicar para aprobación IRB NTUST o QUT
+- Aplicar para aprobación IRB de institución partner académica (partner divulgado tras firma MOU)
 - Consentimiento informado: todos participantes por escrito
 - Manejo de datos sensibles: grading PII / secreto de negocio; aislamiento de datos double-blind
 - Derecho a retirar: cualquier empresa puede salir en cualquier momento; datos recolectados devueltos o destruidos
@@ -287,7 +287,7 @@ Mes 27-30: Revisiones + sumisión
 | KPI system log inaccesible | Med | Med | T0 IT confirma disponibilidad de log; indicadores sustitutos si no |
 | Retraso de revisión IRB | Med | Med | Sumisión IRB Mes 0 concurrente con reclutamiento |
 | N insuficiente para CFA | High | Med | EFA en piloto; CFA espera main study N=200+ |
-| Shortfall de presupuesto | Med | High | Aplicar grants NSTC / MOE / QUT; cost-sharing multi-empresa |
+| Shortfall de presupuesto | Med | High | Aplicar grants gubernamentales (NSTC / MOE etc.) / grants partner académicos; cost-sharing multi-empresa |
 
 ---
 
@@ -312,7 +312,7 @@ Terminación temprana con disclosure completo si:
 | **Método**: Cases-as-Benchmarks + protocolo de workshop Client Ideal Practice | Industria de consultoría | Toolkit open-source (Apache 2.0) |
 | **Política**: evidence empírica para alignment AI Governance | Regulatorios (Taiwan AI Basic Act / NIST / EU) | White paper + audiencias legislativas |
 | **Industria**: 5-10 casos reales longitudinales de empresa | Clientes pares | Casos reales (reemplazando composites) |
-| **Educación**: integrar en curricula NTUST / QUT | Estudiantes | Materiales de curso |
+| **Educación**: integrar en curricula partners académicos | Estudiantes | Materiales de curso |
 
 ---
 

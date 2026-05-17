@@ -178,7 +178,7 @@
 
 - 開源（Apache 2.0 + GitHub）
 - 主動申請 ISO/IEC 工作組 / IEEE AI Maturity 標準討論
-- 跟 QUT、NTUST 等學校建立 joint research
+- 跟學術合作機構建立 joint research（具體機構待 MOU 簽訂後揭露）
 
 ---
 

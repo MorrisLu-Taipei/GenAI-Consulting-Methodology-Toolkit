@@ -78,13 +78,13 @@ Current evidence strength of Tiger AI methodology:
 
 ### 2.3 Recruitment Strategy
 
-1. Via n8n Taipei Ambassador community, NTUST Intelligent Manufacturing, QUT alumni
+1. Via n8n Taipei Ambassador community, enterprise client networks, academic partner institutions (specific partners disclosed after MOU signed)
 2. Public solicitation + Apache 2.0 open repo as trust signal
 3. Signed research collaboration agreement (data use, anonymization, exit mechanism)
 
 ### 2.4 Ethics / IRB
 
-- Apply for NTUST or QUT IRB approval
+- Apply for academic partner institution IRB approval (partner disclosed after MOU signed)
 - Informed consent: all participants in writing
 - Sensitive data handling: PII / business secret grading; double-blind data isolation
 - Right to withdraw: any enterprise may exit at any time; collected data returned or destroyed
@@ -287,7 +287,7 @@ Month 27-30: Revisions + submission
 | KPI system log inaccessible | Med | Med | T0 IT confirms log availability; substitute indicators if not |
 | IRB review delay | Med | Med | Month 0 IRB submission concurrent with recruitment |
 | Insufficient N for CFA | High | Med | EFA at pilot; CFA awaits main study N=200+ |
-| Budget shortfall | Med | High | Apply NSTC / MOE / QUT grants; multi-enterprise cost-sharing |
+| Budget shortfall | Med | High | Apply government grants (NSTC / MOE etc.) / academic partner grants; multi-enterprise cost-sharing |
 
 ---
 
@@ -312,7 +312,7 @@ Early termination with full disclosure if:
 | **Method**: Cases-as-Benchmarks + Client Ideal Practice workshop protocol | Consulting industry | Open-source toolkit (Apache 2.0) |
 | **Policy**: empirical evidence for AI Governance alignment | Regulators (Taiwan AI Basic Act / NIST / EU) | White paper + legislative hearings |
 | **Industry**: 5-10 enterprise real longitudinal cases | Peer clients | Real cases (replacing composites) |
-| **Education**: integrate into NTUST / QUT curricula | Students | Course materials |
+| **Education**: integrate into academic partner curricula | Students | Course materials |
 
 ---
 

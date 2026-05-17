@@ -125,7 +125,7 @@
 
 **潜在的問題**：初期接触者が「APQC、SCOR は国際的に認知されている — Tiger AI L1-L5 はどの権威か？」と問う。学術引用はクリティカルマスに達していない。
 
-**Tiger AI 対応**：オープンソース（Apache 2.0 + GitHub）；ISO/IEC ワーキンググループ / IEEE AI Maturity 標準議論と積極的にエンゲージ；QUT、NTUST との共同研究構築。
+**Tiger AI 対応**：オープンソース（Apache 2.0 + GitHub）；ISO/IEC ワーキンググループ / IEEE AI Maturity 標準議論と積極的にエンゲージ；学術パートナー機関との共同研究構築（具体的パートナーは MOU 締結後に開示）。
 
 ---
 
