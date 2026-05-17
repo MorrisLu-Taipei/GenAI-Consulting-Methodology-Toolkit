@@ -4,9 +4,9 @@
 **Date frozen:** 2026-05-18
 **Released as:** (pending GitHub tag `v1.0.0` -- this file will be referenced by `RELEASE_NOTES_v1.0.0.md`)
 **Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu)
-**Affiliations:** Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)
+**Affiliation:** Tiger AI (Independent Research)
 **ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
-**Contact:** <morrislu@nkust.edu.tw>
+**Contact:** <yesinlu@gmail.com>
 **License:** Apache License 2.0
 **Purpose:** Snapshot of all quantitative properties of the artifact at the moment of release, so that subsequent commits cannot retroactively invalidate cited numbers.
 

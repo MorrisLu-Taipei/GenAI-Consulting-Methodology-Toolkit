@@ -5,9 +5,9 @@
 ---
 
 **作者：** Lu, Yeh-Hsing（盧業興；專業上亦使用 Morris Lu）
-**單位（雙重 affiliation）：** Tiger AI（獨立研究）；國立高雄科技大學 National Kaohsiung University of Science and Technology (NKUST)
+**單位：** Tiger AI（獨立研究）
 **ORCID：** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)
-**聯絡：** <morrislu@nkust.edu.tw>
+**聯絡：** <yesinlu@gmail.com>
 **版本：** 1.0 中文 companion 版（reader-facing；正式學術引用請使用英文 canonical 版）
 **日期：** 2026-05-18
 **授權：** Apache License 2.0

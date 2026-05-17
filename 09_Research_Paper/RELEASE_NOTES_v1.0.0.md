@@ -4,9 +4,9 @@
 **Date:** 2026-05-18  
 **License:** Apache License 2.0  
 **Author:** Lu, Yeh-Hsing (盧業興; professionally Morris Lu)  
-**Affiliations:** Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)  
+**Affiliation:** Tiger AI (Independent Research)  
 **ORCID:** [0009-0006-5373-0586](https://orcid.org/0009-0006-5373-0586)  
-**Contact:** <morrislu@nkust.edu.tw>
+**Contact:** <yesinlu@gmail.com>
 
 ---
 

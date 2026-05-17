@@ -9,8 +9,8 @@ authors:
   - given-names: "Yeh-Hsing"
     family-names: "Lu"
     alias: "Morris Lu"
-    email: "morrislu@nkust.edu.tw"
-    affiliation: "Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)"
+    email: "yesinlu@gmail.com"
+    affiliation: "Tiger AI (Independent Research)"
     orcid: "https://orcid.org/0009-0006-5373-0586"
 repository-code: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
 url: "https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit"
@@ -51,7 +51,7 @@ preferred-citation:
     - given-names: "Yeh-Hsing"
       family-names: "Lu"
       alias: "Morris Lu"
-      affiliation: "Tiger AI (Independent Research); National Kaohsiung University of Science and Technology (NKUST)"
+      affiliation: "Tiger AI (Independent Research)"
       orcid: "https://orcid.org/0009-0006-5373-0586"
   year: 2026
   month: 5
