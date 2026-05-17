@@ -1,6 +1,6 @@
 # 90 References — 參考資料、依據與致敬名單
 
-> 🌐 English: [README_EN.md](README_EN.md)
+> 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
 
 ## 一、本目錄定位
 
