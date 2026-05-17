@@ -71,7 +71,7 @@ A typical user's intuition:
 - **Trigger**: Three direct competitors deployed AI quality inspection and complaint Agents; Customer A's quarterly orders dropped 18%
 - **Pain points**: Complaint response 5 days (industry 1 day); proposal turnaround 4 days (industry 1.5 days); defect rate 3.2% (industry 1.8%)
 - **Constraints**: Budget cap NT$ 8M; process data on-prem; IT 2 FTE, no growth
-- **Roles**: CEO (Sponsor), COO, IT Deputy (potential AI Champion), QC Head, Sales Head, CS Head, HR, Compliance
+- **Roles**: CEO (Sponsor), COO, IT Director (potential AI Champion), QC Head, Sales Head, CS Head, HR, Compliance
 
 ---
 
@@ -143,7 +143,7 @@ Mid-engagement report (10-15 pages):
 
 - CEO sees radar: "I thought we were doing okay — under the standard these cells are 0?" → **second shock**
 - COO flips through Swimlanes: "Our complaint process really has these holes..." → pain points concretized
-- IT Deputy sees shadow IT monthly spend: "Private ChatGPT burning NT$ 24,000 with data leaking..." → risk concretized
+- IT Director sees shadow IT monthly spend: "Private ChatGPT burning NT$ 24,000 with data leaking..." → risk concretized
 
 **90% of clients sign Phase B**. Because:
 

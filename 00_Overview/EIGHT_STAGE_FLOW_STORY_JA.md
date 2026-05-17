@@ -71,7 +71,7 @@
 - **トリガー**：3 つの直接競合が AI 品質検査と Complaint Agent を展開；顧客 A の四半期受注 18% 減少
 - **痛点**：Complaint response 5 日（業界 1 日）；Proposal turnaround 4 日（業界 1.5 日）；不良率 3.2%（業界 1.8%）
 - **制約**：予算上限 NT$ 800 万；プロセスデータオンプレ；IT 2 FTE、成長なし
-- **役割**：CEO（Sponsor）、COO、IT Deputy（潜在的 AI Champion）、QC Head、Sales Head、CS Head、HR、Compliance
+- **役割**：CEO（Sponsor）、COO、IT Director（潜在的 AI Champion）、QC Head、Sales Head、CS Head、HR、Compliance
 
 ---
 
@@ -143,7 +143,7 @@ CEO がレーダーを見る → **最初の衝撃** → Phase A 契約署名に
 
 - CEO がレーダーを見る：「うまくやっていると思っていた — 標準下でこれらのセルは 0？」 → **2 番目の衝撃**
 - COO が Swimlanes をめくる：「我々の Complaint プロセスは本当にこれらの穴がある...」 → 痛点が具体化
-- IT Deputy が shadow IT 月次支出を見る：「私的 ChatGPT が NT$ 24,000 を燃やし、データが漏れている...」 → リスクが具体化
+- IT Director が shadow IT 月次支出を見る：「私的 ChatGPT が NT$ 24,000 を燃やし、データが漏れている...」 → リスクが具体化
 
 **90% の顧客が Phase B に署名**。なぜなら：
 

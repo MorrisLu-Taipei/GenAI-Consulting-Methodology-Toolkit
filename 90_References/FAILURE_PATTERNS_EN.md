@@ -33,7 +33,7 @@ Last updated: 2026-05-16
 
 **Root cause**: Staff haven't built **personal trust** through L1; no L2 Skill Library → Agent lacks "company-written judgment logic"; no L3 Workflow → Agent has no legal pipes to act on systems; no L1-L3 governance foundation → Agent goes live as compliance black box.
 
-**Typical ending**: Agent decommissioned in 6 months; IT Deputy gets blamed; AI budget cut.
+**Typical ending**: Agent decommissioned in 6 months; IT Director gets blamed; AI budget cut.
 
 ### 2.2 Skip L2 → Build L3 Workflow Directly
 

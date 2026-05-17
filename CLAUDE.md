@@ -40,7 +40,7 @@ Claude Code 對這本活書的獨特貢獻：
 
 ### 1. Engagement Simulator（顧問案完整模擬）
 
-[`.claude/workflows/simulate-engagement.md`](.claude/workflows/simulate-engagement.md) — **30 分鐘跑完一個 6 週 Phase A → B → C 顧問案**。Claude 同時扮演顧問 + CEO + IT 副理 + 法遵；產出 12+ 個真實 deliverable（中期報告、Ideal Practice 簽署表、完整 14 章報告、Roadmap）。用於新顧問訓練、銷售 demo、方法論壓力測試。
+[`.claude/workflows/simulate-engagement.md`](.claude/workflows/simulate-engagement.md) — **30 分鐘跑完一個 6 週 Phase A → B → C 顧問案**。Claude 同時扮演顧問 + CEO + IT 協理 + 法遵；產出 12+ 個真實 deliverable（中期報告、Ideal Practice 簽署表、完整 14 章報告、Roadmap）。用於新顧問訓練、銷售 demo、方法論壓力測試。
 
 ### 2. Parallel Stakeholder Lens（多視角並行）
 

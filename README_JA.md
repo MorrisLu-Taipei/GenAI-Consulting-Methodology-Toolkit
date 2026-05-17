@@ -5,7 +5,7 @@
 エンタープライズ AI トランスフォーメーション成熟度診断と導入方法論ツールキット（Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit）。
 
 原作者: **Tiger AI Morris Lu 盧業興**  
-肩書: **n8n Taipei Ambassador / 国立台湾科技大学 智慧製造研究所 博士課程 / QUT クイーンズランド工科大学（オーストラリア）コンピュータ科学修士**
+肩書: **n8n Taipei Ambassador / 智慧製造博士課程 / 海外コンピュータ科学修士**
 
 ライセンス概要: 本プロジェクトは **[Apache License 2.0](LICENSE)** を採用しています。自由に使用・複製・改変・再配布・商用利用が可能です。再配布の際は Apache 2.0 ライセンス文と [`NOTICE`](NOTICE) の作者名を保持してください。
 
@@ -224,7 +224,7 @@ L1-L5 は「5 つのツール」ではなく、**2 つの軸**でつながった
 
 ```text
 Original Author: Tiger AI Morris Lu 盧業興
-Role: n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology / M.IT, Queensland University of Technology (QUT), Australia
+Role: n8n Taipei Ambassador / PhD student (Intelligent Manufacturing) / M.IT (overseas)
 Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 

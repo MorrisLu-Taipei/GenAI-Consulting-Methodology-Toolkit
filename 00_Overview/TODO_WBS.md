@@ -290,7 +290,7 @@
 
 #### 完成 / Done
 
-- Repo 授權 / 署名整備：CC BY 4.0 → Apache 2.0、新增 `NOTICE`、中英雙語署名、致謝 Prof. Michael Rosemann (QUT)、作者學歷補 QUT 資工碩士。
+- Repo 授權 / 署名整備：CC BY 4.0 → Apache 2.0、新增 `NOTICE`、中英雙語署名、致謝 Prof. Michael Rosemann (QUT)、作者學歷補海外資工碩士。
 - L5 ClawTeam 引用整備：新增 `90_References/CLAWTEAM_REFERENCE.md` 與 `02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`，引用 HKUDS/ClawTeam (MIT)。
 - 全 repo .md 中英雙語化（29 個 `_EN.md` sibling）。
 - TODO §4.1-§4.6 全數完成，共新增 17 份方法論交付檔，分 4 個 batch：
@@ -345,7 +345,7 @@
 - **8 個目錄 README 全面改寫**（commit `43ffa09`）：統一結構（定位 / 方法論位置 / 目標效益 / 使用流程 / 檔案說明 / 目錄對應 / 常見情境）。
 - **新增 06_Delivery 接案營運層**（commit `43ffa09`）：ENGAGEMENT_LIFECYCLE、DELIVERY_ROLE_SOPS、BUSINESS_DOCUMENT_TEMPLATES、DELIVERY_CHECKLISTS、PRICING_AND_RISK（改寫自 Mirza Iqbal / next8n.com，MIT）+ `90_References/WORKFLOW_DELIVERY_FRAMEWORK_REFERENCE.md`。
 - **新增 04_Scenarios/LLM_APPS_CASE_INDEX.md**（commit `43ffa09`）：150+ LLM 應用案例，雙軸查詢（L1-L5 / 部門）；+ awesome-llm-apps、ai-engineering-hub 兩個 reference 檔。
-- **身份署名加 QUT**：NOTICE / README / 90_References / 銷售簡報全部加註「QUT 澳洲昆士蘭科技大學 資工碩士」。
+- **身份署名補學歷**：NOTICE / README / 90_References / 銷售簡報全部加註「海外資工碩士」（後續因法務風險統一抽象化）。
 - **專案改名**（commit `25ecc4e`）：`AI Consulting Methodology Toolkit` → `GenAI Consulting Methodology Toolkit`（GenAI＝LLM-based，與傳統深度學習數理 AI 區隔）；全 repo 50 檔的名稱與 GitHub URL 一併更新（org 統一 MorrisLu-Taipei、slug 改 GenAI-）；git remote URL 已更新。
 - **問卷白話化**（commit `25ecc4e` / `b26899f`）：`AI_MATURITY_QUESTIONNAIRE`(.md/_EN) 新增「給填答者的話」+「名詞小辭典」（24 術語）+ 10 題加 0/2/4 情境錨點 + 25/50 題加白話舉例；`FILLABLE_QUESTIONNAIRE`(.md/_EN) 加每題 help text 原則。
 - **補齊 14 個缺漏 `_EN` sibling**（commit `b26899f`）：06_Delivery x5、90_References reference x5、CONSULTING_FRAMEWORKS_LIBRARY_EN、REPORT_PRODUCTION_WORKFLOW_EN、LLM_APPS_CASE_INDEX_EN、90_References/README_EN。

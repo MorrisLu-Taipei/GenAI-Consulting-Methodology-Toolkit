@@ -5,7 +5,7 @@
 ชุดเครื่องมือสำหรับการประเมินความพร้อมและการนำ AI ไปใช้ในการเปลี่ยนผ่านองค์กร (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit)
 
 ผู้สร้าง: **Tiger AI Morris Lu 盧業興**  
-ตำแหน่ง: **n8n Taipei Ambassador / นักศึกษาปริญญาเอก สถาบัน Intelligent Manufacturing, National Taiwan University of Science and Technology / M.IT, Queensland University of Technology (QUT), ออสเตรเลีย**
+ตำแหน่ง: **n8n Taipei Ambassador / นักศึกษาปริญญาเอก (Intelligent Manufacturing) / M.IT (ต่างประเทศ)**
 
 สรุปลิขสิทธิ์: โครงการนี้ใช้ **[Apache License 2.0](LICENSE)** สามารถใช้งาน คัดลอก แก้ไข เผยแพร่ซ้ำ และนำไปใช้เชิงพาณิชย์ได้อย่างอิสระ เมื่อเผยแพร่ซ้ำ โปรดเก็บข้อความลิขสิทธิ์ Apache 2.0 และการระบุชื่อผู้สร้างใน [`NOTICE`](NOTICE) ไว้
 
@@ -224,7 +224,7 @@ Profile: <https://www.qut.edu.au/about/our-people/academic-profiles/m.rosemann>
 
 ```text
 Original Author: Tiger AI Morris Lu 盧業興
-Role: n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent Manufacturing, National Taiwan University of Science and Technology / M.IT, Queensland University of Technology (QUT), Australia
+Role: n8n Taipei Ambassador / PhD student (Intelligent Manufacturing) / M.IT (overseas)
 Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
 ```
 

@@ -18,7 +18,7 @@ Last updated: 2026-05-13
 | 6 | Investment per phase | Est. NT$ 4-6M / 20-30 person-months |
 | 7 | Key wins (quantified) | Complaint response down 60-80%, proposal turnaround -75%, knowledge asset-ization from zero |
 | 8 | Key failures (lessons) | Skipping L1 whole-company onboarding; not isolating process data on-prem first |
-| 9 | Applicability conditions | 300-1500 staff manufacturers, IT Deputy who can double as AI Champion, NT$ 4-8M budget |
+| 9 | Applicability conditions | 300-1500 staff manufacturers, IT Director who can double as AI Champion, NT$ 4-8M budget |
 
 **Deployment / Code**: Hybrid (core on-prem, low-sensitive cloud) / Code (uncoded)
 

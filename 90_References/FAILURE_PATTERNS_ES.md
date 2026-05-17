@@ -33,7 +33,7 @@
 
 **Causa raíz**: El personal no ha construido **confianza personal** a través de L1; sin L2 Skill Library → Agent carece de "lógica de juicio escrita por la empresa"; sin L3 Workflow → Agent no tiene pipes legales para actuar en sistemas; sin fundación de gobernanza L1-L3 → Agent sale live como compliance black box.
 
-**Final típico**: Agent descomisionado en 6 meses; VP IT culpado; presupuesto IA cortado.
+**Final típico**: Agent descomisionado en 6 meses; Director IT culpado; presupuesto IA cortado.
 
 ### 2.2 Saltar L2 → Construir directamente L3 Workflow
 

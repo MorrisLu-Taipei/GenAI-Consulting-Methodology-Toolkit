@@ -71,7 +71,7 @@ Eine typische Nutzer-Intuition:
 - **Trigger**: Drei direkte Wettbewerber deployten AI Quality Inspection und Complaint Agents; Customer A's Quarterly Orders sanken 18%
 - **Pain Points**: Complaint Response 5 Tage (Branche 1 Tag); Proposal Turnaround 4 Tage (Branche 1,5 Tage); Defekt-Rate 3,2% (Branche 1,8%)
 - **Beschränkungen**: Budget-Cap NT$ 8M; Prozessdaten on-prem; IT 2 FTE, kein Wachstum
-- **Rollen**: CEO (Sponsor), COO, IT Deputy (potenzieller AI Champion), QC Head, Sales Head, CS Head, HR, Compliance
+- **Rollen**: CEO (Sponsor), COO, IT Director (potenzieller AI Champion), QC Head, Sales Head, CS Head, HR, Compliance
 
 ---
 
@@ -143,7 +143,7 @@ Mid-Engagement Report (10-15 Seiten):
 
 - CEO sieht Radar: „Ich dachte, wir machen okay — unter dem Standard sind diese Zellen 0?" → **zweiter Schock**
 - COO blättert durch Swimlanes: „Unser Complaint-Prozess hat wirklich diese Löcher..." → Pain Points konkretisiert
-- IT Deputy sieht Shadow IT monatliche Ausgaben: „Privates ChatGPT verbrennt NT$ 24.000 mit Daten leakend..." → Risiko konkretisiert
+- IT Director sieht Shadow IT monatliche Ausgaben: „Privates ChatGPT verbrennt NT$ 24.000 mit Daten leakend..." → Risiko konkretisiert
 
 **90% der Kunden unterzeichnen Phase B**. Weil:
 

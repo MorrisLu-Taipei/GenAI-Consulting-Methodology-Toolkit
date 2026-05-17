@@ -33,7 +33,7 @@ Dernière mise à jour : 2026-05-16
 
 **Cause racine** : Le personnel n'a pas construit de **confiance personnelle** à travers L1 ; pas de L2 Skill Library → l'Agent manque de « logique de jugement écrite par l'entreprise » ; pas de L3 Workflow → l'Agent n'a pas de pipes légales pour agir sur les systèmes ; pas de fondation de gouvernance L1-L3 → l'Agent passe en prod comme boîte noire de compliance.
 
-**Fin typique** : Agent décommissionné en 6 mois ; le VP IT est blâmé ; le budget IA coupé.
+**Fin typique** : Agent décommissionné en 6 mois ; le Directeur IT est blâmé ; le budget IA coupé.
 
 ### 2.2 Sauter L2 → Construire directement L3 Workflow
 

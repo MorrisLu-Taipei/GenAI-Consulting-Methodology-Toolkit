@@ -42,7 +42,7 @@
 - 沒有 L3 Workflow → Agent 沒有「跨系統的合法管道」執行任務
 - 沒有 L1-L3 治理打底 → Agent 上線就是合規 black box
 
-**典型結局**：6 個月後 Agent 停用、IT 副理被問責、AI 預算被砍。
+**典型結局**：6 個月後 Agent 停用、IT 協理被問責、AI 預算被砍。
 
 **對標案例**：[`../04_Scenarios/SAMPLE_CLIENT_CASE_HOSPITAL.md`](../04_Scenarios/SAMPLE_CLIENT_CASE_HOSPITAL.md) Key failures 第 1 條（早期忽略護理 frontline 抗拒，後補 L1 課）。
 

@@ -756,7 +756,7 @@ Key failures（踩過的雷）：
 適用條件：
   ✓ 300-1500 人製造業
   ✓ 製程資料須地端（合適 Hybrid 部署）
-  ✓ 有 IT 副理可兼 AI Champion（0.5-1 FTE）
+  ✓ 有 IT 協理可兼 AI Champion（0.5-1 FTE）
   ✓ 預算 NT$ 400-800 萬可接受
   ✗ 不適用：< 100 人（規模不經濟）
   ✗ 不適用：完全雲端政策禁止地端的金融業（須改 Variant A）
@@ -966,7 +966,7 @@ Stage 8 價值追蹤矩陣
 | 領域 / Area | 類型 (M/B/R) | 描述 / Description | 對應 Reference Model | 對應卓越特徵 | 嚴重度 1-5 | 擁有者 / Owner |
 | --- | --- | --- | --- | --- | --- | --- |
 | 客服信件分類 | **Missing** | 完全沒有 AI 分類 | APQC 4.4 客服 | 卓越=1hr 分流 | 4 | 客服長 |
-| 報價系統 | **Broken** | 業務手動 copy-paste | SCOR Source + Deliver | 卓越=4hr 報價 | 5 | IT 副理 |
+| 報價系統 | **Broken** | 業務手動 copy-paste | SCOR Source + Deliver | 卓越=4hr 報價 | 5 | IT 協理 |
 | 工單系統 | **Redundant** | Notion + Trello + Email 三套 | APQC 8.x | (無對應卓越) | 3 | COO |
 | 知識管理 | **Missing** | 無 Wiki、無 SOP | APQC 11.x | 卓越=每月 30 條入庫 | 5 | HR + AI Champion |
 | ... | ... | ... | ... | ... | ... | ... |

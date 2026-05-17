@@ -23,9 +23,9 @@ Dernière mise à jour : 2026-05-15
 ## Rencontrez le protagoniste
 
 **Ming**, 55 ans, Président de MingChang Packaging.
-Situé à Hsinchu, 700 employés, packaging et test de semi-conducteurs, 1,2 milliard de NT$ de chiffre d'affaires annuel.
+Situé à City X (lieu fictif, un parc scientifique régional), 700 employés, packaging et test de semi-conducteurs, 1,2 milliard de NT$ de chiffre d'affaires annuel.
 Son père a fondé l'entreprise avec une seule wire bonder dans les années 1990 ; Ming a pris la relève en 2010 et l'a fait grandir en fournisseur de niveau intermédiaire pour le grand Client A.
-Ming est fier de deux choses : sa fille est entrée à NTU, et son entreprise n'a pas perdu d'argent depuis 10 ans.
+Ming est fier de deux choses : sa fille est entrée dans une université de premier plan, et son entreprise n'a pas perdu d'argent depuis 10 ans.
 
 Mais début 2025, il a commencé à mal dormir.
 
@@ -47,7 +47,7 @@ Cet après-midi-là, son secrétaire sonde ses pairs. **Les leaders du secteur r
 
 Ming cherche en ligne. Trois concurrents directs ont déployé « inspection qualité IA » et « Agents IA de réclamations ».
 
-« Peuvent-ils se le permettre ? Pouvons-nous ? » Il appelle Lin, le VP IT.
+« Peuvent-ils se le permettre ? Pouvons-nous ? » Il appelle Lin, le Directeur IT.
 
 Lin hésite. « Président, on n'a même pas de compte ChatGPT d'entreprise. Les employés l'utilisent en privé, en brûlant 24 000 NT$/mois sur leurs cartes de crédit personnelles. Les données fuient probablement partout. »
 
@@ -199,7 +199,7 @@ Le conseil approuve immédiatement **Phase B : Stratégie, 4 semaines, 2M NT$**.
 
 Semaine 3, mercredi 9 h. Salle de conférence.
 
-CEO Ming, COO, VP IT Lin, chef QC, chef Sales, chef CS, chef HR — 7 personnes.
+CEO Ming, COO, Directeur IT Lin, chef QC, chef Sales, chef CS, chef HR — 7 personnes.
 
 Chang a affiché un **diagramme d'architecture à 4 couches** taille A2 (Governance / Business / Information / Technical) au mur.
 
@@ -233,7 +233,7 @@ Liste finale : **8 cibles claires, atteignables, quantifiables**.
 
 **Étape 5 (30 min)** : écrire dans la « **Ideal Practice Definition Table** » — chaque cible a : capability correspondante, état à 12 mois, critères d'evidence.
 
-**Étape 6 (15 min)** : **Ming, vice-président (Sponsor), VP IT Lin (AI Champion) — signature à trois parties**.
+**Étape 6 (15 min)** : **Ming, vice-président (Sponsor), Directeur IT Lin (AI Champion) — signature à trois parties**.
 
 Après avoir signé, Ming remarque que sa main tremble.
 
@@ -387,7 +387,7 @@ Fin de Phase 3.
 - Nous ne disons pas 'l'IA vole les jobs' ; nous disons 'l'IA nous libère pour faire un travail plus important'
 - Nous ne nous appuyons pas sur le jugement du consultant ; nous nous appuyons sur **nos propres cibles signées**
 
-**C'est le management scientifique**. Ma fille à NTU a dit que c'est l'école Rosemann BPM + le management scientifique de Max Weber atterrissant dans l'ère moderne. »
+**C'est le management scientifique**. Ma fille à l'université a dit que c'est l'école Rosemann BPM + le management scientifique de Max Weber atterrissant dans l'ère moderne. »
 
 Vice-président : « Prochaine étape ? »
 Ming : « Je veux open-sourcer ce que nous avons appris. **Pour que chaque manufacturier de taille moyenne ait la même méthodologie**. »

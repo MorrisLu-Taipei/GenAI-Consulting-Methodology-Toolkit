@@ -40,7 +40,7 @@ Converts `COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` into a 35-question fillabl
 | S1 | 主要 email 平台 | radio | Gmail Workspace / Microsoft 365 / 其他 |
 | S2 | 主要文件 / Wiki 平台 | multi-select | Notion / Confluence / Google Drive / SharePoint / 自建 |
 | S3 | 主要 CRM | radio | Salesforce / HubSpot / Zoho / Dynamics / 自建 / 無 |
-| S4 | 主要 ERP | radio | SAP / Oracle / SAP B1 / Dynamics / Workday / 鼎新 / 自建 / 無 |
+| S4 | 主要 ERP | radio | 主流 ERP / 自建 / 無 |
 | S5 | 主要 HR 系統 | radio | Workday / SAP SuccessFactors / 1111 / 104 / Notion / 自建 |
 | S6 | 主要客服系統 | radio | Zendesk / Freshdesk / Intercom / 自建 / 無 |
 | S7 | 主要分析 / BI 平台 | multi-select | Looker / Tableau / Power BI / Metabase / 自建 / 無 |

@@ -23,9 +23,9 @@ Letzte Aktualisierung: 2026-05-15
 ## Lernen Sie den Protagonisten kennen
 
 **Ming**, 55, Vorstandsvorsitzender von MingChang Packaging.
-Standort Hsinchu, 700 Mitarbeiter, Halbleiter-Packaging & Testing, NT$ 1,2 Mrd. Jahresumsatz.
+Standort City X (fiktiv, ein regionaler Science Park), 700 Mitarbeiter, Halbleiter-Packaging & Testing, NT$ 1,2 Mrd. Jahresumsatz.
 Sein Vater gründete das Unternehmen in den 1990ern mit einem einzigen Wire Bonder; Ming übernahm 2010 und baute es zum mittelständischen Zulieferer von Großkunde A aus.
-Ming ist stolz auf zwei Dinge: seine Tochter kam an die NTU, und sein Unternehmen hat seit 10 Jahren keine Verluste gemacht.
+Ming ist stolz auf zwei Dinge: seine Tochter kam an eine Top-Universität, und sein Unternehmen hat seit 10 Jahren keine Verluste gemacht.
 
 Aber Anfang 2025 begann er, schlecht zu schlafen.
 
@@ -47,7 +47,7 @@ An diesem Nachmittag befragt sein Sekretär die Peers. **Branchenführer antwort
 
 Ming sucht online. Drei direkte Konkurrenten haben „KI-Qualitätsprüfung" und „KI-Reklamations-Agents" eingesetzt.
 
-„Können die sich das leisten? Können wir das?" Er ruft IT-Vize Lin an.
+„Können die sich das leisten? Können wir das?" Er ruft IT-Direktor Lin an.
 
 Lin zögert. „Vorsitzender, wir haben nicht einmal einen ChatGPT-Account fürs Unternehmen. Mitarbeiter nutzen es privat, verbrennen NT$ 24.000/Monat auf persönlichen Kreditkarten. Daten lecken wahrscheinlich überall."
 
@@ -199,7 +199,7 @@ Der Vorstand genehmigt sofort **Phase B: Strategie, 4 Wochen, NT$ 2M**.
 
 Woche 3, Mittwoch 9 Uhr. Konferenzraum.
 
-CEO Ming, COO, IT-Vize Lin, QC-Leiter, Sales-Leiter, CS-Leiter, HR-Leiter — 7 Personen.
+CEO Ming, COO, IT-Direktor Lin, QC-Leiter, Sales-Leiter, CS-Leiter, HR-Leiter — 7 Personen.
 
 Chang hat ein A2-großes **4-Schichten-Architektur-Diagramm** (Governance / Business / Information / Technical) an die Wand geklebt.
 
@@ -233,7 +233,7 @@ Endgültige Liste: **8 klare, erreichbare, quantifizierbare Ziele**.
 
 **Schritt 5 (30 Min)**: Schreiben in die „**Ideal Practice Definition Table**" — jedes Ziel hat: entsprechende Capability, 12-Monats-Zustand, Evidenzkriterien.
 
-**Schritt 6 (15 Min)**: **Ming, Stellvertretender Vorsitzender (Sponsor), IT-Vize Lin (AI Champion) — Drei-Parteien-Unterschrift**.
+**Schritt 6 (15 Min)**: **Ming, Stellvertretender Vorsitzender (Sponsor), IT-Direktor Lin (AI Champion) — Drei-Parteien-Unterschrift**.
 
 Nach dem Unterzeichnen bemerkt Ming, dass seine Hand zittert.
 
@@ -387,7 +387,7 @@ Bei der 24-Monats-Review-Vorstandssitzung sagt Ming:
 - Wir sagen nicht 'KI stiehlt Jobs'; wir sagen 'KI befreit uns, wichtigere Arbeit zu tun'
 - Wir verlassen uns nicht auf Berater-Urteil; wir verlassen uns auf **unsere eigenen unterzeichneten Ziele**
 
-**Das ist wissenschaftliches Management**. Meine Tochter an der NTU sagte, das ist Rosemann BPM-Schule + Max Weber wissenschaftliches Management gelandet in der modernen Ära."
+**Das ist wissenschaftliches Management**. Meine Tochter an der Universität sagte, das ist Rosemann BPM-Schule + Max Weber wissenschaftliches Management gelandet in der modernen Ära."
 
 Stellvertretender Vorsitzender: „Nächster Schritt?"
 Ming: „Ich will open-sourcen, was wir gelernt haben. **Damit jeder mittelständische Hersteller dieselbe Methodik hat**."

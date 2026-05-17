@@ -35,7 +35,7 @@ Converts `02_Course_Design/COURSE_REQUIREMENTS_AND_COMPANY_PROFILE.md` into a 35
 | S1 | Primary email platform | radio | Gmail Workspace / Microsoft 365 / other |
 | S2 | Primary document / Wiki platform | multi-select | Notion / Confluence / Google Drive / SharePoint / self-built |
 | S3 | Primary CRM | radio | Salesforce / HubSpot / Zoho / Dynamics / self-built / none |
-| S4 | Primary ERP | radio | SAP / Oracle / SAP B1 / Dynamics / Workday / DigiWin / self-built / none |
+| S4 | Primary ERP | radio | mainstream ERP / self-built / none |
 | S5 | Primary HR system | radio | Workday / SAP SuccessFactors / 1111 / 104 / Notion / self-built |
 | S6 | Primary customer-service system | radio | Zendesk / Freshdesk / Intercom / self-built / none |
 | S7 | Primary analytics / BI platform | multi-select | Looker / Tableau / Power BI / Metabase / self-built / none |

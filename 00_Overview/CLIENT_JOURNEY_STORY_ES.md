@@ -23,9 +23,9 @@ Apache License 2.0 · Autor: Morris Lu · Tiger AI
 ## Conozcan al protagonista
 
 **Ming**, 55, Presidente de MingChang Packaging.
-Ubicado en Hsinchu, 700 empleados, packaging y testing de semiconductores, NT$ 1.2B de ingresos anuales.
+Ubicado en City X (ubicación ficticia, un parque científico regional), 700 empleados, packaging y testing de semiconductores, NT$ 1.2B de ingresos anuales.
 Su padre fundó la empresa con una sola wire bonder en los años 90; Ming tomó el relevo en 2010 y la hizo crecer hasta convertirla en proveedor de nivel medio del gran Cliente A.
-Ming está orgulloso de dos cosas: su hija entró a NTU, y su empresa no ha perdido dinero en 10 años.
+Ming está orgulloso de dos cosas: su hija entró a una universidad top, y su empresa no ha perdido dinero en 10 años.
 
 Pero a principios de 2025, empezó a perder el sueño.
 
@@ -199,7 +199,7 @@ El directorio aprueba inmediatamente **Phase B: Estrategia, 4 semanas, NT$ 2M**.
 
 Semana 3, miércoles 9 am. Sala de conferencias.
 
-CEO Ming, COO, VP IT Lin, jefe QC, jefe Sales, jefe CS, jefe HR — 7 personas.
+CEO Ming, COO, Director IT Lin, jefe QC, jefe Sales, jefe CS, jefe HR — 7 personas.
 
 Chang ha pegado un **diagrama de arquitectura de 4 capas** tamaño A2 (Governance / Business / Information / Technical) en la pared.
 
@@ -233,7 +233,7 @@ Lista final: **8 objetivos claros, alcanzables, cuantificables**.
 
 **Paso 5 (30 min)**: Escribir en la "**Ideal Practice Definition Table**" — cada objetivo tiene: capability correspondiente, estado a 12 meses, criterio de evidence.
 
-**Paso 6 (15 min)**: **Ming, Vicepresidente (Sponsor), VP IT Lin (AI Champion) — firma de tres partes**.
+**Paso 6 (15 min)**: **Ming, Vicepresidente (Sponsor), Director IT Lin (AI Champion) — firma de tres partes**.
 
 Después de firmar, Ming nota que su mano tiembla.
 
@@ -387,7 +387,7 @@ En la reunión de revisión de directorio a los 24 meses, Ming dice:
 - No decimos 'IA está robando empleos'; decimos 'IA nos libera para hacer trabajo más importante'
 - No nos apoyamos en el juicio del consultor; nos apoyamos en **nuestros propios objetivos firmados**
 
-**Esto es management científico**. Mi hija en NTU dijo que esto es la escuela Rosemann BPM + management científico de Max Weber aterrizando en la era moderna."
+**Esto es management científico**. Mi hija en la universidad dijo que esto es la escuela Rosemann BPM + management científico de Max Weber aterrizando en la era moderna."
 
 Vicepresidente: "¿Próximo paso?"
 Ming: "Quiero open-source lo que aprendimos. **Para que cada manufacturero mediano tenga la misma metodología**."

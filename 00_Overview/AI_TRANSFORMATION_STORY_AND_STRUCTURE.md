@@ -626,9 +626,9 @@ To-Be Operating Model      變革管理 Playbook
 
 #### Week 1 ── Stage 1 As-Is Snapshot：先聽、先看、不評論
 
-**Day 1-2**：顧問拿 [`CONSULTING_TOOLKIT_TEMPLATES.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md) Tool 1.1 的 40 題題庫進場。CEO/COO/CIO 各 60 分；品保長、業務長、客服長、IT 副理各 90 分；產線、業務、客服各 3 位操作員每位 30 分。**錄音 + 摘要 + 編碼**。
+**Day 1-2**：顧問拿 [`CONSULTING_TOOLKIT_TEMPLATES.md`](../03_Consulting_Report/CONSULTING_TOOLKIT_TEMPLATES.md) Tool 1.1 的 40 題題庫進場。CEO/COO/CIO 各 60 分；品保長、業務長、客服長、IT 協理各 90 分；產線、業務、客服各 3 位操作員每位 30 分。**錄音 + 摘要 + 編碼**。
 
-**Day 3-4**：IT 副理協助盤點 Tool 1.2 AI Usage Inventory（影子 IT：行銷部 8 人用個人 ChatGPT 月燒 NT$24,000）+ Tool 1.3 Systems Inventory（SAP B1 地端、Salesforce 雲、Notion 部門自管）。
+**Day 3-4**：IT 協理協助盤點 Tool 1.2 AI Usage Inventory（影子 IT：行銷部 8 人用個人 ChatGPT 月燒 NT$24,000）+ Tool 1.3 Systems Inventory（SAP B1 地端、Salesforce 雲、Notion 部門自管）。
 
 **Day 5**：和品保 + 業務各跑一場 walkthrough，畫 Tool 1.4 As-Is Swimlane：「客戶詢價到出貨」（4-7 天，漏接 30%）、「客訴回應」（5 天）、「製程異常」（3 天）。每 step 標 0-3 點痛點密度。
 

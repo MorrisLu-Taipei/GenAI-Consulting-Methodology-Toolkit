@@ -23,9 +23,9 @@ Last updated: 2026-05-15
 ## Meet the Protagonist
 
 **Ming**, 55, Chairman of MingChang Packaging.
-Located in Hsinchu, 700 employees, semiconductor packaging & testing, NT$ 1.2B annual revenue.
+Located in City X (fictional location, a regional science park), 700 employees, semiconductor packaging & testing, NT$ 1.2B annual revenue.
 His father started the company with one wire bonder in the 1990s; Ming took over in 2010 and grew it into a mid-tier supplier to major Customer A.
-Ming is proud of two things: his daughter got into NTU, and his company hasn't lost money in 10 years.
+Ming is proud of two things: his daughter got into a top university, and his company hasn't lost money in 10 years.
 
 But in early 2025, he started losing sleep.
 
@@ -47,7 +47,7 @@ That afternoon, his secretary surveys peers. **Industry leaders respond to compl
 
 Ming searches online. Three direct competitors have deployed "AI quality inspection" and "AI complaint Agents."
 
-"Can they afford it? Can we?" He calls IT Deputy Lin.
+"Can they afford it? Can we?" He calls IT Director Lin.
 
 Lin pauses. "Chairman, we don't even have a company ChatGPT account. Employees use it privately, burning NT$ 24,000/month on personal credit cards. Data is probably leaking everywhere."
 
@@ -199,7 +199,7 @@ Board immediately approves **Phase B: Strategy, 4 weeks, NT$ 2M**.
 
 Week 3, Wednesday 9am. Conference room.
 
-CEO Ming, COO, IT Deputy Lin, QC Head, Sales Head, CS Head, HR Head — 7 people.
+CEO Ming, COO, IT Director Lin, QC Head, Sales Head, CS Head, HR Head — 7 people.
 
 Chang has posted an A2-sized **4-layer architecture diagram** (Governance / Business / Information / Technical) on the wall.
 
@@ -233,7 +233,7 @@ Final list: **8 clear, achievable, quantifiable targets**.
 
 **Step 5 (30 min)**: Write into the "**Ideal Practice Definition Table**" — each target has: corresponding capability, 12-month state, evidence criteria.
 
-**Step 6 (15 min)**: **Ming, Deputy Chairman (Sponsor), IT Deputy Lin (AI Champion) — three-party signature**.
+**Step 6 (15 min)**: **Ming, Deputy Chairman (Sponsor), IT Director Lin (AI Champion) — three-party signature**.
 
 After signing, Ming notices his hand is trembling.
 
@@ -387,7 +387,7 @@ At the 24-month review board meeting, Ming says:
 - We don't say 'AI is stealing jobs'; we say 'AI frees us to do more important work'
 - We don't rely on consultant judgment; we rely on **our own signed targets**
 
-**This is scientific management**. My daughter at NTU said this is Rosemann BPM school + Max Weber scientific management landing in the modern era."
+**This is scientific management**. My daughter at university said this is Rosemann BPM school + Max Weber scientific management landing in the modern era."
 
 Deputy Chairman: "Next step?"
 Ming: "I want to open-source what we learned. **So every mid-sized manufacturer has the same methodology**."

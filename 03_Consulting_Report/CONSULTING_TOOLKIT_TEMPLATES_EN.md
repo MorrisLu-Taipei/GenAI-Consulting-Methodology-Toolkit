@@ -545,7 +545,7 @@ Key failures (mistakes encountered):
 Applicability:
   ✓ 300-1500 staff manufacturers
   ✓ Process data must stay on-prem (Hybrid suitable)
-  ✓ Has IT Deputy who can double as AI Champion (0.5-1 FTE)
+  ✓ Has IT Director who can double as AI Champion (0.5-1 FTE)
   ✓ Budget NT$ 4-8M acceptable
   ✗ Not applicable: < 100 staff (unprofitable scale)
   ✗ Not applicable: full-cloud-prohibition financials (must change to Variant A)
@@ -730,7 +730,7 @@ Stage 8 Value Tracking Matrix
 | Area | Type (M/B/R) | Description | Mapped to Reference Model | Mapped to excellence characteristic | Severity 1-5 | Owner |
 | --- | --- | --- | --- | --- | --- | --- |
 | Customer email triage | **Missing** | No AI triage at all | APQC 4.4 customer service | Excellence = 1hr triage | 4 | CS Lead |
-| Quote system | **Broken** | Sales manually copy-paste | SCOR Source + Deliver | Excellence = 4hr quote | 5 | IT Deputy |
+| Quote system | **Broken** | Sales manually copy-paste | SCOR Source + Deliver | Excellence = 4hr quote | 5 | IT Director |
 | Ticket system | **Redundant** | Notion + Trello + Email, three stacks | APQC 8.x | (no excellence mapping) | 3 | COO |
 | Knowledge mgmt | **Missing** | No Wiki, no SOP | APQC 11.x | Excellence = 30/month added | 5 | HR + AI Champion |
 | ... | ... | ... | ... | ... | ... | ... |

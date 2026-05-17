@@ -33,7 +33,7 @@ Letzte Aktualisierung: 2026-05-16
 
 **Wurzelursache**: Personal hat kein **persönliches Vertrauen** durch L1 aufgebaut; keine L2 Skill Library → Agent fehlt „unternehmens-geschriebene Urteilslogik"; kein L3 Workflow → Agent hat keine legalen Pipes, um auf Systeme zu wirken; keine L1-L3 Governance-Foundation → Agent geht live als Compliance Black Box.
 
-**Typisches Ende**: Agent in 6 Monaten stillgelegt; IT-Vize wird beschuldigt; AI-Budget gekürzt.
+**Typisches Ende**: Agent in 6 Monaten stillgelegt; IT-Direktor wird beschuldigt; AI-Budget gekürzt.
 
 ### 2.2 L2 überspringen → L3 Workflow direkt bauen
 

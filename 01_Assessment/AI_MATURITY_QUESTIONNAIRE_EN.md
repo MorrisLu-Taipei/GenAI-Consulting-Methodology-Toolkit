@@ -49,7 +49,7 @@ Filling-out principles:
 | API / Webhook | The "connector" through which software passes data to each other. Having an API means the system can be integrated for automation; ask IT if unsure. |
 | Database | Where the company stores structured data (customers, orders, inventory). |
 | CRM | Customer relationship management system — stores customers, opportunities, and sales records (e.g., Salesforce, HubSpot). |
-| ERP | Enterprise resource planning system — manages finance, inventory/sales, and production (e.g., SAP, Oracle, Digiwin). |
+| ERP | Enterprise resource planning system — manages finance, inventory/sales, and production (mainstream ERP / custom-built / none). |
 | MES | Manufacturing execution system — manages shop-floor production. |
 | PLM | Product lifecycle management — manages product design and engineering data. |
 | QMS | Quality management system — manages inspection, defects, and audits. |

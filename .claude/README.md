@@ -48,7 +48,7 @@ Claude Code 的優勢：
 
 | 工作流 | 檔案 | 用途 |
 | --- | --- | --- |
-| **`/simulate-engagement`** 🆕 | [`workflows/simulate-engagement.md`](workflows/simulate-engagement.md) | **30 分鐘跑完一個完整 6 週顧問案**：Claude 同時扮演顧問 + CEO + IT 副理 + 法遵，產出 12+ 個真實 deliverable。新顧問訓練 / 銷售 demo / 方法論壓力測試 |
+| **`/simulate-engagement`** 🆕 | [`workflows/simulate-engagement.md`](workflows/simulate-engagement.md) | **30 分鐘跑完一個完整 6 週顧問案**：Claude 同時扮演顧問 + CEO + IT 協理 + 法遵，產出 12+ 個真實 deliverable。新顧問訓練 / 銷售 demo / 方法論壓力測試 |
 | **`/parallel-perspectives`** 🆕 | [`workflows/parallel-perspectives.md`](workflows/parallel-perspectives.md) | **6 個利害關係人同時觀點**：CEO + CIO + COO + 一線員工 + 監管者 + 董事會，產出衝突地圖。找出方法論被忽略的視角 |
 | **`/thought-experiment`** 🆕 | [`workflows/thought-experiment.md`](workflows/thought-experiment.md) | **方法論的 counterfactual 壓力測試**：「如果 EU AI Act 把 L4 列違法呢？」「如果 LLM 成本降 1000 倍呢？」遠未來 / 完全假設情境，給方法論裝遠視鏡 |
 | **`/devil-pair-debate`** 🆕 | [`workflows/devil-pair-debate.md`](workflows/devil-pair-debate.md) | **雙 Claude 真實辯論**：A 為方法論辯護 + B 引用 Foucault / Bourdieu 批判預設 + C 法官綜合。暴露的不是 bug，是價值觀盲點 |
