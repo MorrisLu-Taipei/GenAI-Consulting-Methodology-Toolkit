@@ -87,12 +87,12 @@
 
 | 類型 | 檔名 / 位置 | 用途 | 狀態 |
 |---|---|---|---|
-| Antigravity 操作政策表 | 待補 template | 治理三本柱（Terminal / Review / JS）+ 安全模式設定 | ☐ 待補 |
-| Flask app 骨架 | 待補（含 README / pytest / Dockerfile） | Builder 課堂直接用 | ☐ 待補 |
+| Antigravity 操作政策表 | [`_deliverables/L2_ANTIGRAVITY_OPERATION_POLICY.md`](_deliverables/L2_ANTIGRAVITY_OPERATION_POLICY.md) | 治理三本柱（Terminal / Review / JS）+ 安全模式 + Gate 2 治理證據 | ☑ 已加 |
+| Flask app 骨架 | [`_deliverables/L2_FLASK_SKELETON.md`](_deliverables/L2_FLASK_SKELETON.md) | 12 個檔案結構 + 各檔內容 + pytest + Dockerfile | ☑ 已加 |
 | GCP `setup.sh` 範本 | §6.3 課中產出 | 啟用 API + 建立資源 | ☑ 課中產出 |
 | Workflow Blueprint 範本 | §7.3（已有 9 欄位） | L2-L3 bridge 標準格式 | ☑ 已有 |
 | agency-agents persona 庫 | `90_References/AGENCY_AGENTS_REFERENCE.md` | §7.6 課中參考 | ☑ 已有 |
-| Walkthrough artifact 範例 | 待補 | 學員了解什麼是合格的 walkthrough | ☐ 待補 |
+| Walkthrough artifact 範例 | [`_deliverables/L2_WALKTHROUGH_ARTIFACT_EXAMPLE.md`](_deliverables/L2_WALKTHROUGH_ARTIFACT_EXAMPLE.md) | 6 欄完整範例 + 自審 / Reviewer checklist | ☑ 已加 |
 
 ### 3.5 §7.6 agency-agents 章節定位釐清
 
