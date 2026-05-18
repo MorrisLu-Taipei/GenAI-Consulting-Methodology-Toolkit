@@ -12,7 +12,8 @@
 **日期：** 2026-05-18
 **授權：** Creative Commons Attribution 4.0 International (CC BY 4.0)（本 preprint 文字）；配套 toolkit 軟體採 Apache 2.0
 **論文 DOI（concept，永遠最新版）：** [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850)
-**論文 DOI（本版本 v1.0）：** [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)
+**論文 DOI（本版本 v2 = v1.1）：** [10.5281/zenodo.20264772](https://doi.org/10.5281/zenodo.20264772)
+**論文 DOI（前版本 v1.0）：** [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)
 **配套軟體 DOI（toolkit, concept）：** [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
 **配套軟體 DOI（toolkit v3.0.1）：** [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)
 **Repository：** <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit>

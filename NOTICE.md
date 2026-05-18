@@ -5,6 +5,7 @@
 > - Software concept DOI (all versions): [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)
 > - Software version DOI (v3.0.1): [10.5281/zenodo.20261681](https://doi.org/10.5281/zenodo.20261681)
 > - Companion preprint concept DOI: [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850)
+> - Companion preprint version DOI (v2 = v1.1): [10.5281/zenodo.20264772](https://doi.org/10.5281/zenodo.20264772)
 > - Companion preprint version DOI (v1.0): [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)
 > - GitHub release: [v3.0.1](https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit/releases/tag/v3.0.1)
 

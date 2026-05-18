@@ -62,6 +62,46 @@
 | LO3（雲架構） | 規劃 GCP serverless 架構；產生並審查 IaC / Cloud Run service / Dockerfile / requirements / 部署步驟 |
 | LO4（L3 銜接） | 整理 Skill Library；標記 L3 Workflow 候選與 L4 Agent 候選；交付 Workflow Blueprint |
 
+### 3.3 互動學習設計（Engagement + Formative + Summative）
+
+> 對照 [`ONLINE_COURSE_DESIGN_METHODOLOGY.md`](ONLINE_COURSE_DESIGN_METHODOLOGY.md) §5.1 + §7 + §9.4。
+
+**Engagement activity（開頭 15 分鐘內必須有）：**
+
+> **打開 Antigravity → Agent Manager → 給 Agent 一個小任務（例：「研究 3 個 n8n 替代品並比較」）→ 觀察 Agent 自己拆 task / 做 plan / 跑 browser 的全過程**。15 分鐘 hands-on，學員第一次親眼看到 Agentic IDE 跟傳統 IDE 的差別。
+
+**Formative gates（章節結尾的快速自我檢核）：**
+
+| 章節 | Formative 檢核 | 時長 |
+|---|---|---|
+| §6.1 Foundation 結尾 | Agent 操作政策表寫一次 + 截圖治理設定 | 10 分鐘 |
+| §6.2 Builder 結尾 | 同儕互審 Flask app：README 是否完整、test 是否能跑 | 15 分鐘 |
+| §6.3 GCP 結尾 | 上傳測試檔 → 查 Cloud Run log → 查 BigQuery 結果（自證 pipeline 通了） | 10 分鐘 |
+| §7 L2-to-L3 Bridge 結尾 | 非原作者用 payload 測 Blueprint（peer review） | 15 分鐘 |
+
+**Summative gate（全課程結尾）：**
+
+對應 **Gate 2**（見 §9）。包含 10 個產出 → 詳見 §10 Deliverables。
+
+### 3.4 Reference materials 清單
+
+| 類型 | 檔名 / 位置 | 用途 | 狀態 |
+|---|---|---|---|
+| Antigravity 操作政策表 | 待補 template | 治理三本柱（Terminal / Review / JS）+ 安全模式設定 | ☐ 待補 |
+| Flask app 骨架 | 待補（含 README / pytest / Dockerfile） | Builder 課堂直接用 | ☐ 待補 |
+| GCP `setup.sh` 範本 | §6.3 課中產出 | 啟用 API + 建立資源 | ☑ 課中產出 |
+| Workflow Blueprint 範本 | §7.3（已有 9 欄位） | L2-L3 bridge 標準格式 | ☑ 已有 |
+| agency-agents persona 庫 | `90_References/AGENCY_AGENTS_REFERENCE.md` | §7.6 課中參考 | ☑ 已有 |
+| Walkthrough artifact 範例 | 待補 | 學員了解什麼是合格的 walkthrough | ☐ 待補 |
+
+### 3.5 §7.6 agency-agents 章節定位釐清
+
+§7.6 介紹 [agency-agents](https://github.com/msitarzewski/agency-agents)（MIT，144+ persona）作為 L2-B 的**選修擴展**，定位是：
+
+- **不是 L2 核心必教**：核心是 Foundation + Builder + GCP 三條
+- **何時用**：學員完成 §6.2 Builder 後，想擴充 Skill Library 時，從 agency-agents 挑 persona 作為起點，再依自家業務 fork 改寫
+- **何時不用**：客戶有強規範要求所有 Skill 自製、或受監管產業（金融 / 醫療 / 政府）—— 用第三方 persona 需額外法務審查
+
 ---
 
 ## 4. 課前條件

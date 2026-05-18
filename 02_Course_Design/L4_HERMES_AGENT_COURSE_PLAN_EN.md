@@ -127,6 +127,111 @@ By the end of the L4 course, learners can:
 | LO3 (knowledge architecture) | Build 8-piece knowledge operations structure; design 7 operation flows; plug in L2 Skills + L3 Workflows |
 | LO4 (governance & triage) | Build Agent Runbook / permission table / evidence table / Stage Gate / go-live checklist; do L1-L5 task triage |
 
+### 3.3 Interactive Learning Design (Engagement + Formative + Summative)
+
+> Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.1 + §7 + §9.4.
+
+**Engagement activity (within first 10 min):**
+
+> **Each learner writes down "the 3 most repetitive, time-wasting tasks in your department"**, then discusses: which **already have L2 Skill / L3 Workflow solutions**? Which **truly need L4 Agent for knowledge accumulation**? Which **should not be automated (human judgment irreplaceable)**? 10 min, makes §2 principle 2.3 (P1>P2) personal.
+
+**Formative gates (quick self-checks at section boundaries):**
+
+| Section | Formative check | Duration |
+|---|---|---|
+| §2 seven principles end | Learners take own 3 tasks from §3.3, judge each against 7-principle self-assessment | 15 min |
+| §7.1 Foundation end | Submit 1-page Agent task card (department / boundary / input / Gate) | 20 min |
+| §7.2 Builder ingest step | Peer review ingest results (log / keywords / index spot-check) | 15 min |
+| §7.2 Builder Gate 4 prep | Skill Library completeness check (mission / inputs / outputs / owner / version all 5 fields filled) | 10 min |
+
+**Summative gate (end of course):**
+
+Maps to **Gate 4A-4E** (§10). 12 deliverables → see §12.
+
+### 3.4 Reference materials list
+
+| Type | Location | Use | Status |
+|---|---|---|---|
+| Seven design principles self-assessment | §2 above (7 principles) | Learner self-review Agent design | ☑ Available |
+| Skill Library JSON template | §3.5 below | Unify all Skill specs | ☑ Added (§3.5) |
+| Mission file example | §3.6 below | Learner fill-in starter | ☑ Added (§3.6) |
+| Hermes Agent architecture diagram | TBD (ASCII or mermaid) | Foundation class use | ☐ TBD |
+| Agent task card 1-page template | TBD | §7.1 in-class exercise | ☐ TBD |
+| Agent Runbook template | §12 Deliverables (PDF TBD) | Post go-live operation | ☐ TBD PDF |
+
+### 3.5 Skill Library JSON template (high-priority enhancement)
+
+Every Skill is described with a unified schema for cross-Agent reuse, version management, and access control:
+
+```json
+{
+  "skill_name": "Keyword Extraction",
+  "version": "1.0.0",
+  "owner": "knowledge_team@company.com",
+  "mission": "Extract keywords from technical docs, SOPs, and reports for knowledge indexing and retrieval",
+  "inputs": {
+    "document": {
+      "type": "string | path",
+      "description": "PDF / docx / md file path or content"
+    },
+    "doc_type": {
+      "type": "enum",
+      "values": ["SOP", "article", "report", "meeting_minutes"],
+      "description": "Affects keyword extraction strategy"
+    }
+  },
+  "outputs": {
+    "keywords": {
+      "type": "array<string>",
+      "description": "≤ 10 keywords, ranked by importance"
+    },
+    "confidence": {
+      "type": "float",
+      "range": [0, 1],
+      "description": "Overall extraction confidence; < 0.5 requires human review"
+    }
+  },
+  "human_gate": {
+    "trigger_condition": "confidence < 0.5 OR doc_type == 'report'",
+    "reviewer_role": "knowledge_owner",
+    "sla_hours": 24
+  },
+  "depends_on": [],
+  "used_by_agents": ["KnowledgeIngestAgent", "QueryAgent"]
+}
+```
+
+### 3.6 Mission file (mission.md) example
+
+Each Hermes Agent has one mission file — the "life manual" the Agent reads on first startup:
+
+```markdown
+# Mission (For relevance filtering)
+This Agent serves the manufacturing QC department, helping accumulate QC SOPs, defect cases, and process improvement knowledge.
+
+## Allowed input types
+- QC reports (daily / weekly / monthly)
+- Material specifications
+- Process SOPs
+- Defect analysis reports
+
+## Forbidden input types
+- HR / org chart data
+- Financial data
+- Customer PII (name / phone / email)
+- Cross-department data (marketing / HR) — route to the corresponding department's Agent
+
+## Output style
+- Summary ≤ 200 words
+- Citations must reference source file + paragraph
+- List data and specs directly; no subjective interpretation
+
+## Decision boundary
+- Confidence < 0.7: human confirmation required; do not auto-write to knowledge base
+- Forbidden type detected: immediate reject + notify owner
+- Cross-SOP conflicts: mark the conflict; do not choose sides
+```
+
 ---
 
 ## 4. Audience

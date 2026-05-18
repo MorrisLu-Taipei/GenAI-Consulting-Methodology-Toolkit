@@ -74,6 +74,45 @@ Each primary LO is supported by multiple detailed capabilities throughout the co
 | LO3 (data boundary) | Define inputtable / forbidden / human-confirmation-required data; produce AI usage policy and Gate 1 acceptance checklist |
 | LO4 (L2 bridge) | Observe and record L1 usage patterns; ROI-evaluate candidates; deliver to L2 course as Skill candidates |
 
+### 3.3 Interactive Learning Design (Engagement + Formative + Summative)
+
+> Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.1 (three-act structure) + §7 (interactive types) + §9.4 (interactive checklist).
+
+**Engagement activity (within first 10 min of intro):**
+
+> **Each learner logs in, opens a new chat, picks a model, and uses one Prompt to complete a small piece of their actual day's work**. 10 min hands-on, not lecture. Goal: turn "AI as abstract concept" into "AI is right here I can use it now" as concrete experience.
+
+**Formative gates (quick self-checks at end of each section):**
+
+| Section | Formative check | Duration |
+|---|---|---|
+| §6.1 each topic | 1 mini-demo: learner completes 1 high-frequency task with a Prompt on the spot | 5 min |
+| §6.2 each topic | 1 config screenshot comparison: learner's Admin Panel vs reference | 5 min |
+| Data boundary topic | 10 data-case judgment questions (inputtable / de-identify / forbidden) | 10 min |
+
+**Summative gate (end of course):**
+
+Maps to **Gate 1** (§9). 6 deliverables:
+1. Personal Prompt Library v1 (≥ 5 prompts)
+2. High-frequency work evidence (≥ 3 of Email / meeting minutes / summary / report)
+3. Admin Panel configuration screenshots (roles + groups + permissions + models)
+4. AI usage policy draft (1 page)
+5. Data case judgment sheet (10 cases, 100% correct)
+6. L2 Skill candidate list (≥ 5 with ROI evidence)
+
+### 3.4 Reference materials list
+
+Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §9.6 (completeness), the course provides the following downloadable materials:
+
+| Type | Location | Use | Status |
+|---|---|---|---|
+| User operation manual | §10 Deliverables (PDF TBD) | login SOP + model selection decision tree + file upload checklist + 10 data boundary cases | ☐ TBD PDF |
+| Admin Runbook | §10 Deliverables (PDF TBD) | full setup steps for accounts / roles / groups / permissions / models / features | ☐ TBD PDF |
+| Prompt Library template | §6.1 (5 example prompts embedded in lectures) | Email / meeting minutes / summary / report / FAQ | ☑ Available |
+| Data boundary quiz bank | §3.3 Formative gate (10 cases) | Learner quiz | ☐ TBD |
+| Gate 1 acceptance checklist | §9 (6-item checklist) | Summative gate | ☑ Available |
+| AI usage policy template | TBD 1-page template | Learner fill-in | ☐ TBD |
+
 ---
 
 ## 4. Prerequisites

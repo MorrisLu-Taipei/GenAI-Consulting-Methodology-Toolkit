@@ -35,6 +35,105 @@ By the end of this course, learners can:
 
 4. **Evaluate** the L5 fit of company candidate tasks, **quantifying** the Agent Team's ROI / governance / permissions / review cost; **judging** when to upgrade to L5 vs stay at L4; **producing** an L5 investment decision document. (Evaluate)
 
+### Interactive Learning Design
+
+> Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.1 + §7 + §9.4.
+
+**Engagement activity (within first 10 min):**
+
+> **Each learner writes one sentence: "the task I'd assign to an Agent Team"**; class votes which is most worth team collaboration. 10 min, makes L5 concrete.
+
+**Formative gates (quick self-checks at section boundaries):**
+
+| Module | Formative check | Duration |
+|---|---|---|
+| Module 1 (L4→L5 boundary) | Classify own tasks L4 vs L5 | 10 min |
+| Module 3 (Task design workshop) | 1-page 5-Agent role card draft | 30 min |
+| Module 5 (Team & workspace) | Peer review of worktree isolation setup | 15 min |
+| Module 6 (Integration & Gate) | Peer review of integration report | 20 min |
+
+**Summative gate (end of course):** Maps to Gate 5 (§10) → 7 post-course assignments (§7) + 1 L5 investment decision document.
+
+### Reference materials list
+
+| Type | Location | Use | Status |
+|---|---|---|---|
+| Agent role card 1-page template | §1.x below (added) | Module 3 in-class exercise | ☑ Added |
+| Task allocation table template | §1.x below (added) | Module 4 in-class exercise | ☑ Added |
+| Integration report template | §1.x below (added) | Module 6 in-class exercise | ☑ Added |
+| Human Gate design template | §1.x below (added) | Module 6 in-class exercise | ☑ Added |
+| ClawTeam CLI quick-reference card | TBD | 1-page cheat sheet for spawn-team / task / inbox / board | ☐ TBD |
+
+### Agent Role Card Template (high-priority enhancement)
+
+```markdown
+# Team: [Team Mission, 1 sentence]
+# Date: [YYYY-MM-DD] | Version: [v0.1]
+
+## Agents (≥ 5)
+| # | Role | Mission | Primary Skill(s) | Input source |
+|---|---|---|---|---|
+| 1 | PM Agent | task decomposition + scheduling | L2.task_decompose, L3.schedule_workflow | Inbox |
+| 2 | Research Agent | gather domain data | L2.web_research, L3.crawl_workflow | URLs + DB |
+| 3 | Analysis Agent | structure & analyze | L2.data_analysis, L4.knowledge_query | Research output |
+| 4 | Writer Agent | produce deliverable | L2.draft, L4.style_consistency_check | Analysis output |
+| 5 | Reviewer Agent | QC + escalation | L2.quality_check, escalate_to_human | Writer output |
+
+## I/O Summary
+- Team input: [high-level goal from human]
+- Team output: [deliverable, e.g., 5-page report]
+
+## Reviewer & escalation
+- Internal: Reviewer Agent (auto)
+- Human Gate: [role / SLA / criteria]
+
+## KPI (3-5 metrics)
+- Cycle time: target ≤ X hours
+- Output quality (peer score): ≥ Y/10
+- Human revision rate: ≤ Z%
+
+## Risk register (top 3)
+1. [Risk] → [Mitigation]
+2. ...
+
+## Success criteria
+- [ ] All Agents complete tasks without deadlock
+- [ ] Output passes Reviewer Agent QC
+- [ ] Human Gate approval
+- [ ] KPI met
+```
+
+### Integration Report Template
+
+```markdown
+# [Team Name] Integration Report — [YYYY-MM-DD]
+
+## Executive summary (1 paragraph)
+[What the team delivered, headline KPI]
+
+## Agent contributions
+| Agent | Tasks completed | Output | Time spent |
+|---|---|---|---|
+| ... | ... | ... | ... |
+
+## Conflicts detected & resolved
+| # | Conflict | Resolution |
+|---|---|---|
+| 1 | ... | ... |
+
+## KPI status
+| Metric | Target | Actual | Status |
+|---|---|---|---|
+| ... | ... | ... | ✅ / ⚠️ / ❌ |
+
+## Next steps
+- ...
+
+## Sign-off
+- Team lead Agent: ___ Date: ___
+- Human reviewer: ___ Date: ___
+```
+
 ---
 
 ## 2. Audience

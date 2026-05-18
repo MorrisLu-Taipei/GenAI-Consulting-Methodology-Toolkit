@@ -65,6 +65,45 @@ By the end of the L3 course, learners can:
 | LO3 (governance) | Design HITL Gate; error handling + notification + retry + fallback; back up workflows and credentials to GitHub |
 | LO4 (auto-generation) | §5.5 AG + Skill Pack install / generate / audit / deploy; produce auditable generated workflows |
 
+### 2.3 Interactive Learning Design (Engagement + Formative + Summative)
+
+> Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.1 + §7 + §9.4.
+
+**Engagement activity (within first 10 min):**
+
+> **Open an existing n8n workflow (instructor pre-prepared, e.g., "Email → customer classification → write CRM") → learners identify Trigger / find 3 nodes / locate HITL Gate / find where Log goes**. 5-10 min hands-on; converts abstract workflow into a concrete artifact "I can read."
+
+**Formative gates (quick self-checks at section boundaries):**
+
+| Section | Formative check | Duration |
+|---|---|---|
+| §5.1 Foundation end | Learner builds 1 Hello World workflow (Webhook → AI Node → Sheets) | 15 min |
+| §5.2 Builder end | Learner picks 1 PoC scenario from library, produces workflow JSON | 30 min |
+| §5.3 Advanced end | Sub-workflow + Data Tables Schema design exercise | 20 min |
+| §5.5 Skill Pack end | Peer review of generated results (using §5.5.1 review table) | 30 min |
+
+**§5.5 Skill Pack generation review governance:**
+
+- **Who reviews**: L3 instructor + IT governance (if client has security team)
+- **SLA**: 24 hours from learner submission to approve / reject
+- **Escalation**: Missing HITL Gate → auto-reject; other issues → instructor judgment
+- **5 mandatory check items**: Trigger correct / I/O schema correct / HITL Gate present / Error handling complete / Operable (credentials not hardcoded, log written)
+
+**Summative gate (end of course):**
+
+Maps to **Gate 3A-3G** (§9). 10 deliverables → see §10.
+
+### 2.4 Reference materials list
+
+| Type | Location | Use | Status |
+|---|---|---|---|
+| PoC scenario library | `POC_SCENARIO_SPECS_EN.md` | 35 implementation tasks | ☑ Available |
+| n8n workflow skeleton | `N8N_WORKFLOW_TEMPLATES_EN.md` | 30 JSON skeletons | ☑ Available |
+| Data Tables schema example | TBD 1 example (e.g., status / timestamp / retry_count / error_log) | Builder class | ☐ TBD |
+| Sub-workflow design checklist | TBD | Ensure modularization quality | ☐ TBD |
+| §5.5 generation review table | §2.3 above (5 mandatory items) | Reviewer use | ☑ Available |
+| GitHub Backup SOP | Inside `N8N_WORKFLOW_TEMPLATES_EN.md` | Workflow versioning | ☑ Available |
+
 ---
 
 ## 3. Prerequisites

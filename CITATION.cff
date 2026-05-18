@@ -61,8 +61,10 @@ preferred-citation:
   doi: "10.5281/zenodo.20261850"
   url: "https://doi.org/10.5281/zenodo.20261850"
   notes: >
-    Preprint, release candidate v1.0. Deposited to Zenodo 2026-05-17.
+    Preprint deposited to Zenodo on 2026-05-17 (v1.0 markdown-only) and updated
+    on 2026-05-18 (v2 with PDF renderings + minor textual fixes).
     Paper concept DOI 10.5281/zenodo.20261850 always resolves to the latest version;
+    paper version DOI 10.5281/zenodo.20264772 pins to v2 (= release candidate v1.1);
     paper version DOI 10.5281/zenodo.20261851 pins to v1.0.
     Cross-linked via Zenodo "Is supplement to" relations to the companion software
     deposit (this toolkit, DOI 10.5281/zenodo.20261680).

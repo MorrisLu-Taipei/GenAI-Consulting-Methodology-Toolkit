@@ -64,6 +64,46 @@ By the end of the L2 course, learners can:
 | LO3 (cloud architecture) | Plan GCP serverless architecture; generate and review IaC / Cloud Run service / Dockerfile / requirements / deployment steps |
 | LO4 (L3 bridge) | Organize Skill Library; mark L3 Workflow candidates and L4 Agent candidates; deliver Workflow Blueprint |
 
+### 3.3 Interactive Learning Design (Engagement + Formative + Summative)
+
+> Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.1 + §7 + §9.4.
+
+**Engagement activity (within first 15 min of intro):**
+
+> **Open Antigravity → Agent Manager → give Agent a small task (e.g., "research 3 n8n alternatives and compare") → observe Agent decomposing tasks / planning / running the browser end-to-end**. 15 min hands-on; learners see for the first time the difference between Agentic IDE vs traditional IDE.
+
+**Formative gates (quick self-checks at section boundaries):**
+
+| Section | Formative check | Duration |
+|---|---|---|
+| §6.1 Foundation end | Write Agent operation policy table + governance config screenshots | 10 min |
+| §6.2 Builder end | Peer review Flask app: README complete? tests pass? | 15 min |
+| §6.3 GCP end | Upload test file → check Cloud Run log → check BigQuery result (self-verify pipeline works) | 10 min |
+| §7 L2-to-L3 Bridge end | Non-author tests Blueprint with payload (peer review) | 15 min |
+
+**Summative gate (end of course):**
+
+Maps to **Gate 2** (§9). 10 deliverables → see §10.
+
+### 3.4 Reference materials list
+
+| Type | Location | Use | Status |
+|---|---|---|---|
+| Antigravity operation policy table | TBD template | Three governance pillars (Terminal / Review / JS) + safe mode | ☐ TBD |
+| Flask app skeleton | TBD (with README / pytest / Dockerfile) | Builder direct use | ☐ TBD |
+| GCP `setup.sh` template | §6.3 in-class output | Enable APIs + create resources | ☑ In-class |
+| Workflow Blueprint template | §7.3 (9 fields defined) | L2-L3 bridge standard format | ☑ Available |
+| agency-agents persona library | `90_References/AGENCY_AGENTS_REFERENCE.md` | §7.6 reference | ☑ Available |
+| Walkthrough artifact example | TBD | What a passing walkthrough looks like | ☐ TBD |
+
+### 3.5 §7.6 agency-agents scope clarification
+
+§7.6 introduces [agency-agents](https://github.com/msitarzewski/agency-agents) (MIT, 144+ personas) as an **optional extension** for L2-B:
+
+- **Not L2 core**: core is Foundation + Builder + GCP three tracks
+- **When to use**: after §6.2 Builder, when learners want to expand Skill Library — pick a persona from agency-agents as starting point, then fork and customize per business
+- **When not to use**: client has strict requirements for all Skills to be in-house, OR regulated industry (finance / medical / government) — third-party personas require additional legal review
+
 ---
 
 ## 4. Prerequisites

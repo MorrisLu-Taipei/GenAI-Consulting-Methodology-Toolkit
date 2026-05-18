@@ -47,6 +47,107 @@ Evolve the enterprise from **single Agent (L4 Hermes)** to **multi-Agent self-or
 4. **評估** 公司候選任務的 L5 適配度，**量化** Agent Team 之 ROI / 治理 / 權限 / 審核成本，**判斷** 何時該升級到 L5、何時該留在 L4；**產出** L5 投資決策書。
    **Evaluate** the L5 fit of company candidate tasks, **quantifying** the Agent Team's ROI / governance / permissions / review cost; **judging** when to upgrade to L5 vs stay at L4; **producing** an L5 investment decision document. (Evaluate)
 
+### 互動學習設計 / Interactive Learning Design
+
+> 對照 [`ONLINE_COURSE_DESIGN_METHODOLOGY.md`](ONLINE_COURSE_DESIGN_METHODOLOGY.md) §5.1 + §7 + §9.4。
+
+**Engagement activity（開頭 10 分鐘內必須有 / required in first 10 min）：**
+
+> **每人寫下 1 句話「我想交給 Agent Team 做的任務」**，全班投票哪個最值得 Team 協作。10 分鐘把 L5 從抽象變具體。
+>
+> **Each learner writes one sentence: "the task I'd assign to an Agent Team"**; class votes which is most worth team collaboration. 10 min, makes L5 concrete.
+
+**Formative gates（章節結尾的快速自我檢核）：**
+
+| 章節 / Module | Formative 檢核 / Check | 時長 / Duration |
+|---|---|---|
+| Module 1 (L4→L5 boundary) | 學員判斷 §3.3 寫的任務該 L4 還 L5 / classify own tasks L4 vs L5 | 10 min |
+| Module 3 (Task design workshop) | 每人完成 1 頁 5-Agent role card draft / 1-page 5-Agent role card draft | 30 min |
+| Module 5 (Team & workspace) | 同儕互審 worktree 隔離設定 / peer review of worktree isolation | 15 min |
+| Module 6 (Integration & Gate) | 同儕互審整合報告 / peer review of integration report | 20 min |
+
+**Summative gate（全課程結尾）：對應 Gate 5（見 §10）→ 7 個 post-course assignments（§7）+ 1 個 L5 投資決策書。**
+
+### Reference materials 清單 / Reference Materials List
+
+| 類型 / Type | 位置 / Location | 用途 / Use | 狀態 / Status |
+|---|---|---|---|
+| Agent 角色卡 1 頁範本 | 下方 §1.x（已加） | Module 3 課堂作業 | ☑ 已加 / Added |
+| 任務分派表範本 | 下方 §1.x（已加） | Module 4 課堂作業 | ☑ 已加 / Added |
+| 整合報告範本 | 下方 §1.x（已加） | Module 6 課堂作業 | ☑ 已加 / Added |
+| Human Gate 設計範本 | 下方 §1.x（已加） | Module 6 課堂作業 | ☑ 已加 / Added |
+| ClawTeam CLI 速查卡 | 待補 | spawn-team / task / inbox / board 一頁 cheat sheet | ☐ 待補 / TBD |
+
+### Agent 角色卡範本（高優先補強）/ Agent Role Card Template
+
+```markdown
+# Team: [Team Mission, 1 sentence]
+# Date: [YYYY-MM-DD] | Version: [v0.1]
+
+## Agents (≥ 5)
+| # | Role | Mission | Primary Skill(s) | Input source |
+|---|---|---|---|---|
+| 1 | PM Agent | task decomposition + scheduling | L2.task_decompose, L3.schedule_workflow | Inbox |
+| 2 | Research Agent | gather domain data | L2.web_research, L3.crawl_workflow | URLs + DB |
+| 3 | Analysis Agent | structure & analyze | L2.data_analysis, L4.knowledge_query | Research output |
+| 4 | Writer Agent | produce deliverable | L2.draft, L4.style_consistency_check | Analysis output |
+| 5 | Reviewer Agent | QC + escalation | L2.quality_check, escalate_to_human | Writer output |
+
+## I/O Summary
+- Team input: [high-level goal from human]
+- Team output: [deliverable, e.g., 5-page report]
+
+## Reviewer & escalation
+- Internal: Reviewer Agent (auto)
+- Human Gate: [role / SLA / criteria]
+
+## KPI (3-5 metrics)
+- Cycle time: target ≤ X hours
+- Output quality (peer score): ≥ Y/10
+- Human revision rate: ≤ Z%
+
+## Risk register (top 3)
+1. [Risk] → [Mitigation]
+2. ...
+
+## Success criteria
+- [ ] All Agents complete tasks without deadlock
+- [ ] Output passes Reviewer Agent QC
+- [ ] Human Gate approval
+- [ ] KPI met
+```
+
+### 整合報告範本 / Integration Report Template
+
+```markdown
+# [Team Name] Integration Report — [YYYY-MM-DD]
+
+## Executive summary (1 paragraph)
+[What the team delivered, headline KPI]
+
+## Agent contributions
+| Agent | Tasks completed | Output | Time spent |
+|---|---|---|---|
+| ... | ... | ... | ... |
+
+## Conflicts detected & resolved
+| # | Conflict | Resolution |
+|---|---|---|
+| 1 | ... | ... |
+
+## KPI status
+| Metric | Target | Actual | Status |
+|---|---|---|---|
+| ... | ... | ... | ✅ / ⚠️ / ❌ |
+
+## Next steps
+- ...
+
+## Sign-off
+- Team lead Agent: ___ Date: ___
+- Human reviewer: ___ Date: ___
+```
+
 ---
 
 ## 2. 適合對象 / Audience
