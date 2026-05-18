@@ -201,6 +201,91 @@ Every Skill is described with a unified schema for cross-Agent reuse, version ma
 }
 ```
 
+### 3.7 Hermes Agent architecture diagram (high-priority enhancement)
+
+> Corresponds to the §3.4 reference materials "Hermes Agent architecture diagram" requirement. Foundation session (§7.1) uses this to establish whole-team common ground.
+
+```text
+                ┌─────────────────────────────────────────┐
+                │   Human Caller                          │
+                │   (CEO / department manager / knowledge │
+                │    worker)                              │
+                └────────────────┬────────────────────────┘
+                                 │ Query
+                                 ▼
+       ┌────────────────────────────────────────────────────┐
+       │                Hermes Agent  Core                  │
+       │  ┌──────────────────────────────────────────────┐  │
+       │  │  Mission File (mission.md, §3.6)             │  │
+       │  │  • Allowed / Forbidden input types           │  │
+       │  │  • Decision boundary                         │  │
+       │  └──────────────────────────────────────────────┘  │
+       │                                                    │
+       │  ┌──────────────┐  ┌──────────────┐  ┌──────────┐  │
+       │  │ Orient first │→│   Query        │→│ Update   │  │
+       │  │ (read state) │  │ (look-up,      │  │ (write   │  │
+       │  │              │  │  reasoning)    │  │  back)   │  │
+       │  └──────────────┘  └──────────────┘  └──────────┘  │
+       │           │              │                │        │
+       │           ▼              ▼                ▼        │
+       └────────┬─────────────┬────────────┬───────────────┘
+                │             │            │
+   ┌────────────▼────┐ ┌──────▼──────┐ ┌───▼────────────────┐
+   │ Knowledge Base  │ │ Index Cache │ │ Task Tracking File │
+   │ (purpose +      │ │ (fast       │ │ (provenance + log) │
+   │  domain struct) │ │  lookup)    │ │                    │
+   └────────┬────────┘ └──────┬──────┘ └────────────────────┘
+            │                 │
+            │                 │
+        ┌───▼─────────────────▼───┐
+        │  Skill Library (§3.5)   │  ← L2 Skills plug in here
+        │  (JSON schema, owner,   │
+        │   human_gate, version)  │
+        └────────────┬────────────┘
+                     │
+                     ▼
+       ┌──────────────────────────────────────────────┐
+       │  Background Workers (off-peak)               │
+       │  • Ingest    (new doc → parse → extract →    │
+       │               write)                         │
+       │  • Lint      (knowledge base consistency)    │
+       │  • Briefing  (daily briefing / trend summary)│
+       │  • Discovery (new source exploration)        │
+       └──────────────────────────────────────────────┘
+                     ▲
+                     │  Off-peak auto ingest
+                     │
+       ┌─────────────┴─────────────────┐
+       │   External Sources             │
+       │   • L3 Workflows (n8n)         │
+       │   • Inbox (Email / Notion)     │
+       │   • Watchlist (RSS / Twitter)  │
+       │   • Manual upload              │
+       └────────────────────────────────┘
+```
+
+**Mapping of the seven operation flows to the diagram:**
+
+| Flow | Diagram path |
+|---|---|
+| ingest | External Sources → Background Workers (Ingest) → Knowledge Base |
+| query | Human Caller → Hermes Core (Query) → Knowledge Base + Index Cache |
+| update | Hermes Core (Update) → Knowledge Base + Task Tracking File |
+| lint | Background Workers (Lint) → Knowledge Base consistency check |
+| briefing | Background Workers (Briefing) → Morning report |
+| discovery | Background Workers (Discovery) → new source added to Watchlist |
+| knowledge graph | Within Knowledge Base, cross-file linking (implicit in ingest + lint stages) |
+
+**§2 seven design principles in the diagram:**
+
+- "Light-by-day / heavy-by-night" → Background Workers run off-peak
+- "Knowledge compounding closed loop" → Update path writes back to Knowledge Base; next query sees it
+- "P1>P2" → Mission File defines Allowed / Forbidden (P2 blocked at the door)
+- "Write-read same source" → Knowledge Base is both write target and query source
+- "Tool / LLM division of labor" → Skill Library carves out reusable tool calls; LLM only in orient / reasoning
+- "Failure-mode-driven learning" → Task Tracking File records all errors; next ingest round refines rules
+- "Why not just RAG" → Background Workers pre-structure docs into Knowledge Base; query goes through Index + Skills, not always vector search
+
 ### 3.6 Mission file (mission.md) example
 
 Each Hermes Agent has one mission file — the "life manual" the Agent reads on first startup:

@@ -148,6 +148,80 @@ Evolve the enterprise from **single Agent (L4 Hermes)** to **multi-Agent self-or
 - Human reviewer: ___ Date: ___
 ```
 
+### ClawTeam CLI 速查卡 / Quick-Reference Card
+
+> 1 頁總覽常用 ClawTeam CLI 指令；課中與課後 hands-on 必備。/ One-page summary of common ClawTeam CLI commands; required for in-class and post-course hands-on.
+
+#### Team lifecycle / 團隊生命週期
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `clawteam team spawn-team` | 建立新 Agent 團隊 / spawn a new Agent team | `clawteam team spawn-team --name marketing-team --agents 5 --domain marketing` |
+| `clawteam team list` | 列出現有團隊 / list existing teams | `clawteam team list` |
+| `clawteam team snapshot` | 凍結團隊當前狀態 / freeze current team state | `clawteam team snapshot --name pre-gate-review` |
+| `clawteam team restore` | 還原團隊到先前 snapshot / restore team to prior snapshot | `clawteam team restore --snapshot pre-gate-review` |
+| `clawteam team destroy` | 解散團隊 / dismantle team | `clawteam team destroy --name marketing-team --confirm` |
+
+#### Task management / 任務管理
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `clawteam task create` | 建立任務 / create a task | `clawteam task create --title "Draft Q2 plan" --assign-to PMAgent` |
+| `clawteam task create --blocked-by` | 建立有依賴的任務 / create a dependency-aware task | `clawteam task create --title "Write copy" --blocked-by 12,13` |
+| `clawteam task list` | 列出任務 / list tasks | `clawteam task list --status pending` |
+| `clawteam task update` | 更新任務狀態 / update task status | `clawteam task update 14 --status in-progress` |
+| `clawteam task close` | 關閉任務 / close task | `clawteam task close 14 --output report-q2.md` |
+
+#### Inter-Agent messaging / Agent 間溝通
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `clawteam inbox send` | 點對點傳訊 / send P2P message | `clawteam inbox send --from PMAgent --to ResearchAgent --msg "Need TAM by EOD"` |
+| `clawteam inbox broadcast` | 對整團隊廣播 / broadcast to whole team | `clawteam inbox broadcast --from PMAgent --msg "Standup at 10am"` |
+| `clawteam inbox read` | 讀取某 Agent 收件匣 / read an Agent's inbox | `clawteam inbox read --agent ResearchAgent` |
+| `clawteam inbox clear` | 清空收件匣 / clear inbox | `clawteam inbox clear --agent ResearchAgent --confirm` |
+
+#### Monitoring / 監看
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `clawteam board show` | 顯示團隊看板 / show team board | `clawteam board show --team marketing-team` |
+| `clawteam board live` | 即時更新看板 / live-updating board | `clawteam board live --team marketing-team` |
+| `clawteam log tail` | 追看 Agent log / tail Agent log | `clawteam log tail --agent PMAgent --follow` |
+
+#### Workspace & context / 工作空間與上下文
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `git worktree list` | 列出每個 Agent 的隔離 worktree / list per-Agent isolated worktrees | `git worktree list` |
+| `clawteam context conflicts` | 偵測 Agent 間 context 衝突 / detect inter-Agent context conflicts | `clawteam context conflicts --team marketing-team` |
+| `clawteam context inject` | 把整合後 context 注回 / inject integrated context back | `clawteam context inject --from integration-report.md` |
+
+#### Human Gate / 人工審核
+
+| 指令 / Command | 用途 / Purpose | 範例 / Example |
+| --- | --- | --- |
+| `clawteam gate request` | 觸發人工 Gate 請求 / trigger human Gate request | `clawteam gate request --task 14 --reviewer morris@tigerai.tw` |
+| `clawteam gate approve` | 通過 Gate / approve gate | `clawteam gate approve --task 14 --reviewer morris@tigerai.tw` |
+| `clawteam gate reject` | 拒絕 Gate / reject gate | `clawteam gate reject --task 14 --reviewer morris@tigerai.tw --reason "..."` |
+
+#### 課中最常用組合 / Most-used in-class command combos
+
+```bash
+# 1. 開團 + 建任務鏈 / spawn team + create dependent task chain
+clawteam team spawn-team --name demo-team --agents 5 --domain consulting
+clawteam task create --title "Research" --assign-to ResearchAgent
+clawteam task create --title "Analyze" --blocked-by 1 --assign-to AnalysisAgent
+clawteam task create --title "Draft" --blocked-by 2 --assign-to WriterAgent
+
+# 2. 監看進度 / monitor progress
+clawteam board live --team demo-team
+
+# 3. 完成後查整合 / post-completion integration check
+clawteam context conflicts --team demo-team
+clawteam team snapshot --name demo-completed
+```
+
 ---
 
 ## 2. 適合對象 / Audience

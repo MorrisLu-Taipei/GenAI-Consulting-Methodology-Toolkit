@@ -136,6 +136,82 @@ By the end of this course, learners can:
 
 ---
 
+### ClawTeam CLI Quick-Reference Card
+
+> One-page summary of common ClawTeam CLI commands; required for in-class and post-course hands-on.
+
+#### Team lifecycle
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `clawteam team spawn-team` | Spawn a new Agent team | `clawteam team spawn-team --name marketing-team --agents 5 --domain marketing` |
+| `clawteam team list` | List existing teams | `clawteam team list` |
+| `clawteam team snapshot` | Freeze current team state | `clawteam team snapshot --name pre-gate-review` |
+| `clawteam team restore` | Restore team to prior snapshot | `clawteam team restore --snapshot pre-gate-review` |
+| `clawteam team destroy` | Dismantle team | `clawteam team destroy --name marketing-team --confirm` |
+
+#### Task management
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `clawteam task create` | Create a task | `clawteam task create --title "Draft Q2 plan" --assign-to PMAgent` |
+| `clawteam task create --blocked-by` | Create a dependency-aware task | `clawteam task create --title "Write copy" --blocked-by 12,13` |
+| `clawteam task list` | List tasks | `clawteam task list --status pending` |
+| `clawteam task update` | Update task status | `clawteam task update 14 --status in-progress` |
+| `clawteam task close` | Close task | `clawteam task close 14 --output report-q2.md` |
+
+#### Inter-Agent messaging
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `clawteam inbox send` | Send P2P message | `clawteam inbox send --from PMAgent --to ResearchAgent --msg "Need TAM by EOD"` |
+| `clawteam inbox broadcast` | Broadcast to whole team | `clawteam inbox broadcast --from PMAgent --msg "Standup at 10am"` |
+| `clawteam inbox read` | Read an Agent's inbox | `clawteam inbox read --agent ResearchAgent` |
+| `clawteam inbox clear` | Clear inbox | `clawteam inbox clear --agent ResearchAgent --confirm` |
+
+#### Monitoring
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `clawteam board show` | Show team board | `clawteam board show --team marketing-team` |
+| `clawteam board live` | Live-updating board | `clawteam board live --team marketing-team` |
+| `clawteam log tail` | Tail Agent log | `clawteam log tail --agent PMAgent --follow` |
+
+#### Workspace & context
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `git worktree list` | List per-Agent isolated worktrees | `git worktree list` |
+| `clawteam context conflicts` | Detect inter-Agent context conflicts | `clawteam context conflicts --team marketing-team` |
+| `clawteam context inject` | Inject integrated context back | `clawteam context inject --from integration-report.md` |
+
+#### Human Gate
+
+| Command | Purpose | Example |
+| --- | --- | --- |
+| `clawteam gate request` | Trigger human Gate request | `clawteam gate request --task 14 --reviewer morris@tigerai.tw` |
+| `clawteam gate approve` | Approve gate | `clawteam gate approve --task 14 --reviewer morris@tigerai.tw` |
+| `clawteam gate reject` | Reject gate | `clawteam gate reject --task 14 --reviewer morris@tigerai.tw --reason "..."` |
+
+#### Most-used in-class command combos
+
+```bash
+# 1. Spawn team + create dependent task chain
+clawteam team spawn-team --name demo-team --agents 5 --domain consulting
+clawteam task create --title "Research" --assign-to ResearchAgent
+clawteam task create --title "Analyze" --blocked-by 1 --assign-to AnalysisAgent
+clawteam task create --title "Draft" --blocked-by 2 --assign-to WriterAgent
+
+# 2. Monitor progress
+clawteam board live --team demo-team
+
+# 3. Post-completion integration check
+clawteam context conflicts --team demo-team
+clawteam team snapshot --name demo-completed
+```
+
+---
+
 ## 2. Audience
 
 - Executives (CEO / COO / CTO)

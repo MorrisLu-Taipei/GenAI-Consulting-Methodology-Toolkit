@@ -141,6 +141,134 @@ Per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_
 
 ## 6. Full Course Versions
 
+### 6.0 Lecture Map (per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.3)
+
+The hour-block structures of §6.1 / §6.2 / §6.3 are listed in their respective sub-sections below. This §6.0 breaks §6.1 (the most commonly used all-hands course) down to the **3-6 minute / lecture** level — usable directly as a recording script. §6.2 and §6.3 lecture maps are expanded using the same pattern before recording.
+
+#### 6.0.1 §6.1 All-Hands User Course Complete Lecture Map (~50 lectures × avg 3.6 min = 180 min / 3 hr)
+
+> Lecture type codes: **TH** = Talking Head / **S** = Screencast / **SL** = Slides / **VS** = Visual / **PR** = Practice / **QZ** = Quiz / **EN** = Engagement activity / **RC** = Section Recap.
+
+##### Section 0 — Introduction (≤ 10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | Welcome to L1 OpenWebUI | TH | 3 | Instructor intro; why this 3-hour course is worth it |
+| 0.2 | What you'll learn | TH+SL | 2 | 4 primary LOs preview (§3.1) + what you'll own after |
+| 0.3 | **Engagement: complete one of today's tasks with AI** | EN+S | 5 | Each learner logs in → new chat → pick model → prompt to complete one real work item |
+
+##### Section 1 — L1 Positioning (20 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 1.1 | Why enterprises need a unified AI portal | TH | 4 | 5 risks of personal ChatGPT (security / consistency / governance / cost / knowledge retention) |
+| 1.2 | Personal ChatGPT vs enterprise-grade AI | SL | 4 | 5-dimension comparison table |
+| 1.3 | OpenWebUI design philosophy | SL | 4 | 3-layer RBAC + Additive Permissions + Open Source |
+| 1.4 | L1-L5 maturity map intro | SL+VS | 4 | Two axes (scale + AI autonomy) visualized |
+| 1.5 | What you'll own after L1 | TH | 4 | 6 deliverables preview (§9) |
+
+##### Section 2 — Login & Personal Chat Area (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | First login | S | 3 | Use your own account; no sharing |
+| 2.2 | UI overview | S | 4 | Left rail / top bar / settings |
+| 2.3 | New chat | S | 3 | New Chat button + naming convention |
+| 2.4 | Chat history + folders | S | 4 | Drag-categorize / search / pin |
+| 2.5 | Personal Prompt setup | S | 5 | Prompt Library start: first personal prompt |
+| 2.6 | Personalization | S | 3 | Name / dark mode / language |
+| 2.7 | Section recap | RC | 3 | 5 key points + common mistakes |
+| 2.8 | **Formative: mini-demo** | PR | 5 | Learner completes 1 Email Prompt + screenshot on the spot |
+
+##### Section 3 — Model & Chat Operations (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | Model selector | S | 4 | List / switch / default |
+| 3.2 | Regenerate + conversation branching | S | 4 | Regenerate usage |
+| 3.3 | Continue & stop | S | 3 | Continue / Stop |
+| 3.4 | Export chat | S | 3 | Export JSON / Markdown |
+| 3.5 | Organize / rename / tag | S | 4 | Maintain your chat library |
+| 3.6 | Archive & delete | S | 3 | Archive vs Delete |
+| 3.7 | Section recap | RC | 3 | 6 operation points |
+| 3.8 | **Formative: mini-demo** | PR | 6 | Run same question on 3 models, compare |
+
+##### Section 4 — Prompt Foundations (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | 5 elements of a good prompt | SL+VS | 5 | Role / task / context / constraints / output |
+| 4.2 | Example 1: Email draft | S | 4 | From 1 line to full email |
+| 4.3 | Example 2: Meeting minute summary | S | 4 | 5-point summary + action items |
+| 4.4 | Example 3: Report draft for manager | S | 4 | Weekly / monthly report |
+| 4.5 | Example 4: FAQ writing | S | 4 | Customer service / HR usage |
+| 4.6 | Example 5: Translation & proofreading | S | 4 | EN/ZH + style choices |
+| 4.7 | Iterative refinement | TH | 4 | How to make output better |
+| 4.8 | Save to Prompt Library | S | 4 | Your 5 most-used prompts |
+| 4.9 | Section recap | RC | 3 | 5 elements + 5 examples + iteration |
+| 4.10 | **Formative: write your 5 prompts** | PR | 9 | Learner does + peer review |
+
+##### Section 5 — Daily Work Application (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | Scenario: Business email in English | S | 6 | Includes client negotiation + empathy framing |
+| 5.2 | Scenario: 30-min meeting recording → 5-point summary | S | 6 | Upload transcript → summary |
+| 5.3 | Scenario: Complaint response | S | 5 | Empathy + resolution |
+| 5.4 | Scenario: Weekly report draft | S | 5 | From scattered notes to structured report |
+| 5.5 | Scenario: Presentation outline | S | 5 | Client pitch / internal share |
+| 5.6 | Scenario: Long article → LinkedIn post | S | 4 | Content reuse |
+| 5.7 | Scenario: Competitor comparison table | S | 5 | Structured data extraction |
+| 5.8 | Section recap | RC | 3 | 7 scenarios + per-department application |
+| 5.9 | **Formative: pick 3 of your own scenarios** | PR | 6 | Cross-department peer help |
+
+##### Section 6 — Data Boundary (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 6.1 | 3 data-leak case studies | SL | 4 | Samsung / Air Canada / Anthropic-style real-event-inspired cases |
+| 6.2 | 4 sensitivity tiers | SL+VS | 5 | Public / internal / sensitive / forbidden visualization |
+| 6.3 | Decision flow: 3 questions | SL+VS | 4 | Flowchart: can this be input |
+| 6.4 | De-identification techniques intro | S | 4 | Replace PII / abstract |
+| 6.5 | When human confirmation is needed | SL | 4 | HITL required scenarios |
+| 6.6 | Section recap | RC | 3 | 4 tiers + 3 questions + de-id + HITL |
+| 6.7 | **Formative: 10-case Quiz** | QZ | 6 | Must score 100% |
+
+##### Section 7 — Conclusion (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 7.1 | Course recap | TH | 3 | Did you build all 6 deliverables? |
+| 7.2 | What your Prompt Library should look like | SL | 3 | Examples of mature organization's Prompt Library |
+| 7.3 | L2 preview | TH | 3 | Turn prompts into Skills / work into Workflows |
+| 7.4 | Congratulations + Bonus | TH | 2 | Closing + next steps |
+
+##### §6.1 Lecture-type mix (per §8.3 recommendation: TH 30% / S 40% / SL 20% / other 10%)
+
+| Type | Count | Time share |
+| --- | --- | --- |
+| TH (talking head) | 8 | ~ 14% |
+| S (screencast) | 26 | ~ 52% |
+| SL (slides) | 7 | ~ 13% |
+| PR / QZ / EN (interactive) | 7 | ~ 17% |
+| RC (recap) | 6 | ~ 11% |
+
+> ⚠️ Screencast share at 52% exceeds the recommended 40% — acceptable here because L1 is operation-dense. But during actual recording, insert 30-60 seconds of TH between consecutive S lectures to avoid 20 minutes of pure screen fatigue.
+
+#### 6.0.2 §6.2 Admin / IT Course Lecture Map (stub — expand before recording)
+
+`(Same pattern: 6 sections × 6-8 lectures = ~45 lectures × avg 4 min = 180 min)`
+
+**Section structure:** Intro (10 min) → Admin Panel overview → Account & login management → Groups & permissions → Model & feature controls → Personal area & sharing policy → Gate 1 acceptance → Conclusion. **Expand per §6.0.1 format.**
+
+#### 6.0.3 §6.3 Enterprise Onboarding Workshop Lecture Map (stub — expand before recording)
+
+`(1 day = ~7 hours pure teaching = ~90-100 lectures; recommend splitting into "AM user training + dept scenarios" and "PM admin setup + L2 bridge governance" two half-day mini-courses)`
+
+**Section structure:** AM1 user training → AM2 dept scenarios → PM1 admin setup → PM2 governance + L2 bridge. **Expand per §6.0.1 format.**
+
+---
+
 ### 6.1 L1 All-Hands User Course: 3 Hours
 
 | Time | Topic | Content | Output |
