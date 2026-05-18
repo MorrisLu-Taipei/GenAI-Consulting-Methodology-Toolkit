@@ -1,6 +1,6 @@
 # AI 原生電子書生產：多 IDE 編排作為方法論工程基礎設施 —— 設計科學研究
 
-> 🌐 Languages: [English (source)](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) ｜ 繁體中文（本檔）
+> Languages: [English (source)](2026_AI_NATIVE_EBOOK_PRODUCTION_preprint.md) ｜ 繁體中文（本檔）
 
 ---
 
@@ -114,19 +114,19 @@ AI IDE 是此命題在前所未有規模上的全新實例化。我們延伸 Eng
 
 實作製品為 **GenAI Consulting Methodology Toolkit**（以下簡稱 *Toolkit*），以 Apache License 2.0 發布。下列數值屬性**凍結於 commit `7da82d7`（2026-05-18）**，可依 `09_Research_Paper/REPRODUCIBILITY.md` 中的指令獨立驗證：
 
-| 屬性 | 數值 | 驗證指令（見 REPRODUCIBILITY.md）|
+| 屬性 | 數值 | 驗證 |
 | --- | --- | --- |
-| Markdown 文件總數 | 354 | `find . -name "*.md" -not -path "./.git/*" \| wc -l` |
-| 實質源文件數（排除 `_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH` 翻譯姊妹檔）| 120 | 見 REPRODUCIBILITY.md §3 |
-| 翻譯姊妹檔總數（`_EN`/`_DE`/`_FR`/`_ES`/`_JA`/`_KR`/`_TH`）| 234（78/31/31/31/31/31/1）| 見 REPRODUCIBILITY.md §3 |
-| 專門化 AI-IDE workflow 數 | 22（Claude Code 10、Codex 10、Antigravity 2）| `ls .claude/workflows/*.md .codex/workflows/*.md .antigravity/workflows/*.md \| wc -l` |
-| 八階段方法論的階段數 | 8 | （定性；見 `00_Overview/EIGHT_STAGE_FLOW_STORY.md`）|
-| 成熟度模型的層級數 | 5（L1 Chat -> L5 Agent Team）| （定性）|
-| 業界案例研究（Benchmark-grade 格式）| 7 | `ls 04_Scenarios/SAMPLE_CLIENT_CASE_*.md \| wc -l` |
+| Markdown 文件總數 | 354 | REPRODUCIBILITY.md §3.1 |
+| 實質源文件數（排除翻譯姊妹檔） | 120 | REPRODUCIBILITY.md §3.2 |
+| 翻譯姊妹檔總數（7 語言） | 234（EN/DE/FR/ES/JA/KR/TH 分別 78/31/31/31/31/31/1） | REPRODUCIBILITY.md §3.2 |
+| 專門化 AI-IDE workflow 數 | 22（Claude Code 10、Codex 10、Antigravity 2） | REPRODUCIBILITY.md §3.3 |
+| 八階段方法論的階段數 | 8 | 定性—見 EIGHT_STAGE_FLOW_STORY.md |
+| 成熟度模型的層級數 | 5（L1 Chat → L5 Agent Team） | 定性 |
+| 業界案例研究（Benchmark-grade 格式） | 7 | REPRODUCIBILITY.md §3.4 |
 | Git commit 數 | 94 | `git rev-list --count HEAD` |
-| 具實質涵蓋的源語言 | 7（繁體中文、English、Deutsch、Français、Español、日本語、한국어；部分泰文）| 見 REPRODUCIBILITY.md §3 |
-| Repository URL | `https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit` | — |
-| 授權 | Apache License 2.0（附 `NOTICE` 署名要求）| `cat LICENSE` |
+| 具實質涵蓋的源語言 | 7（繁體中文、English、Deutsch、Français、Español、日本語、Korean；部分泰文） | REPRODUCIBILITY.md §3.5 |
+| Repository URL | <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit> | — |
+| 授權 | Apache License 2.0（附 NOTICE 署名要求） | `cat LICENSE` |
 
 ### 3.2 方法論實質內容（簡述）
 
@@ -254,7 +254,7 @@ Toolkit 以七種語言發布。多語方法論的天真做法——以 A 語言
 
 Toolkit 的生產透過我們所稱的**同步多語一致性（simultaneous multilingual coherence）** 同時處理兩個問題：源更新與譯本更新被視為單一協調的 commit；跨語一致性由**自動化掃描強制執行**。例如，專案記憶系統紀錄如下紀律規則：
 
-> *真實姓名移除：* `新竹` -> `City X`、`Hsinchu` -> `City X`、`신주` -> `City X`。必須在同一 commit 中跨 7 種語言檔案套用。
+> *真實姓名移除：* `新竹` -> `City X`、`Hsinchu` -> `City X`、`Sinju`（同一地名的韓文音譯）-> `City X`。必須在同一 commit 中跨 7 種語言檔案套用。
 
 Commit `1dcc569`（46 個檔案修改，2026-05-17）即為此紀律的示範：一個語意變動（為避免法律風險而移除台灣真實地名與機構名）在單一 atomic commit 中傳播到 `CLIENT_JOURNEY_STORY` 的全部 7 種語言、`MANUFACTURING_CONSULTING_STORY`（zh）、加上 14 個相關檔案。（註：本篇 preprint 論文自身的雙語版本，亦是透過此多 IDE 機制維持同步更新，作為此紀律的後設展示。）
 
