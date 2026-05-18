@@ -358,3 +358,75 @@
 
 - 一致性已掃描（名稱 / URL / Gate 術語乾淨）。
 - 待 commit & push 本批次（7 目錄 README_EN + DELIVERY_PACKAGE + Gate 清理 + 本 TODO 更新），並切 GitHub Release。
+
+---
+
+### 2026-05-18 —— 學術 deposit 日 + L1-L5 audit cycle 完成
+
+#### 完成 / Done（10 commits, +6300 lines）
+
+**學術 deposit pipeline 建置：**
+
+| Commit | 內容 |
+| --- | --- |
+| `f864e01` | Bio 還原（NTUST + QUT）跨 12 檔 |
+| `002762b` | Paper DOI cross-link + LaTeX PDF render pipeline + Citation Status Table 3-tier 重整 |
+| `950adff` | ZH preprint parity fix（同 EN 的 table-shorten + Korean replace + emoji removal） |
+
+**外部成果：**
+
+- **Zenodo v1.0**（先 deposit）：concept DOI `10.5281/zenodo.20261850`、version DOI `10.5281/zenodo.20261851`（只 .md）
+- **Zenodo v2.0**（同日升版）：version DOI `10.5281/zenodo.20264772`（加 3 個 PDF：EN preprint / ZH preprint / AI_Comments）
+- Author name "Lu, YEH HSING" → "Lu, Yeh-Hsing"（同步在 Zenodo 編輯）
+
+**方法論大批次（兩個 P0 新檔）：**
+
+| Commit | 內容 |
+| --- | --- |
+| `0efd56f` | `02_Course_Design/ONLINE_COURSE_DESIGN_METHODOLOGY`（zh+EN）— 跨課程學習設計品質 SOP；Backward Design + Constructive Alignment + Bloom's Taxonomy + Cognitive Load + Mager + Mayer 等學術錨點 + 30 點 audit checklist + 4 大組件 / 3 層門檻。`00_Overview/SME_LITE_PATH`（zh+EN）— 中小企業 4 階段壓縮版 + SOHO 2 階段精簡版 + 6 個升級觸發條件 + 銷售腳本回應「你方法太重」+ 2 個 worked example。 |
+
+**L1-L5 audit + 編修（P0 → P1 → P2 三輪）：**
+
+| Commit | 階段 | 內容 |
+| --- | --- | --- |
+| `434eb9e` | P0 | L1-L5 Bloom-format LO 重寫（10 檔：5 zh + 5 EN）。原narrative「能...」目標 → 4 條主 LO + 細部能力清單 |
+| `49cb86f` | P1 + Zenodo v2 cross-link | L1-L5 §3.3 互動學習設計（engagement / formative / summative）+ §3.4 reference materials + L4 §3.5 Skill JSON + §3.6 mission.md + L5 角色卡 + 整合報告範本（10 檔 zh+EN）+ 5 檔 v2 DOI cross-link |
+| `1253dfd` | P2 batch 1 | L1 §6.0 完整 ~50 lecture map（zh+EN）+ L4 §3.7 Hermes Agent ASCII 架構圖（zh+EN）+ L5 ClawTeam CLI 速查卡（zh+EN） |
+| `be7c39b` | P2 batch 2 | L2/L3/L4/L5 Foundation lecture maps（8 檔 zh+EN，~190 lectures）；Builder/Advanced/Operator/Enterprise-Lab 留 stub |
+| `a8af67c` | P2 batch 3 | 12 個 standalone deliverable templates 在 `02_Course_Design/_deliverables/`（L1×5 + L2×3 + L3×2 + L4×2）+ index README + L1-L4 §3.4 cross-link 由 ☐ → ☑ |
+
+**結構性完成：L1-L5 audit cycle（P0 + P1 + P2）全部結構性 close。剩餘只有 Builder / Advanced / Operator / GCP / Enterprise-Lab 的進階 lecture map stub，等實際錄影前展開。**
+
+#### Lessons Learned
+
+1. **Bio vs Affiliation 是兩件事，需分開處理。** 個人 bio（NTUST 博士生 / QUT 碩士）是個人事實揭露，不需機構同意；機構 affiliation（CITATION.cff `affiliation:` 欄）是 endorsement claim，需書面同意。今日把 NTUST/QUT bio 還原到 NOTICE / READMEs，但 CITATION.cff affiliation 保持 `Tiger AI (Independent Research)`。memory note `feedback_no_real_names.md` 已更新此區分。
+
+2. **Zenodo 的 markdown 預覽不能看，學術 deposit 一定要附 PDF。** v1.0 只丟 .md → 預覽糟、reviewer 看不下去。v1.1（= v2）補上 3 個 LaTeX-rendered PDF 之後立刻變學術級。**Lesson：** 從 deposit 第一刻就附 PDF。
+
+3. **LaTeX PDF rendering 在 Windows 上要繞 8 次彎才乾淨。** 跑了 v1-v8 共 8 個 iteration：MiKTeX 預設不會 auto-install → 加 `--enable-installer`；xeCJK FallBack option 不可靠 → 改用 ucharclasses → 又破壞 longtable → 最後回到 source-level 替換韓文 + 縮短表格內容；inline `\texttt` 不在 `/` `_` 斷行 → seqsplit 失敗 → 直接縮短 source markdown 的 inline code（最務實）。**Lesson：** 工具不行就改 source，不要硬凹 LaTeX。
+
+4. **Lecture map 範圍要先 scope-down 才能交付。** 原本承諾「L1-L5 lecture map」聽起來 1 個 commit，實際算 = 300+ lectures × 平均 4 min × 5 課程 = 大工程。最後 scope 成「每課 Foundation 版本完整切 + 其餘版本 stub」，~290 entries 分 2 個 commit 完成。**Lesson：** 課程 lecture map 切到「primary 版本」就停，Builder / Advanced 等錄影前再展開。
+
+5. **SME Lite Path 是真實 sales objection 驅動的方法論延伸。** 客戶說「你方法太重了我們用不起」→ 才發現八階段假設都是 enterprise。SME（50-300 人）/ SOHO（< 20 人）需要的不是「砍幾個 stage」，而是「每個 cell 工作量降一個數量級但邏輯閉環不缺」。**Lesson：** 方法論 gap 多半從真實對話來，不是 desk research。
+
+6. **"PDF deliverables" 真正的意思是 markdown templates。** 一開始照字面理解要產 PDF，後來想清楚：PDF 是 throwaway render，markdown 才是 source。最終產出 12 個 .md 範本（中英雙語、含 `[填入]` placeholder），加 pandoc 渲染指引；客戶要 PDF 自己跑 pandoc。**Lesson：** 別人說 "PDF" 時，先問「你要可編輯的還是固定的」。
+
+7. **EN propagation 是 2× 工作量。** 每個 zh edit 要對應 EN sibling edit。今日跨 L1-L5 + READMEs 共 8 個語言 README + 多份雙語文件 = 大量 propagation。**Lesson：** 排程要把 propagation 算進去（不是「再加一下英文」）。
+
+8. **Bloom 格式 LO vs 敘述式目標的差別不只是格式美觀，是平台上架硬要求。** Udemy / Coursera / Hahow 都要求 CLP（Course Landing Page）放 4+ 條可驗收 LO。原本 narrative「能..」讀起來 OK 但不可量測，動詞像「了解 / 認識 / 熟悉」會被讀者識破為灌水。Bloom verb（套用 / 分析 / 評估 / 創作）+ 內容 + 情境 = 平台 ready + reviewer 信服。**Lesson：** 課程文件第一個變動就應該是 LO 重寫。
+
+#### 狀態 / Status
+
+- 截至 commit `a8af67c` 全部 push。
+- L1-L5 audit cycle 結構性 close。
+- Zenodo paper 已是 v2，含 PDF。
+- 餘下 P2 加分項（Builder/Advanced/Operator/GCP/Enterprise-Lab lecture maps）標 stub，錄影前再展開。
+
+#### 下一步候選 / Next candidates（2026-05-18 收工後）
+
+- **SSRN preprint 投稿** —— 用 v2 PDF + 拿 SSRN ID
+- **arXiv preprint 投稿** —— cs.HC + cs.SE category；需 endorser
+- **拍 IDE demo 影片**（3 段：simulate-engagement / devil-pair-debate / reader-as-querier）—— 用 L1 §6.0.1 開頭 5 lectures 當示範
+- **實際錄第 1 堂課**（L1 §6.1 Section 0-1 約 30 分鐘）
+- **Rosemann 教授 courtesy email** —— 致謝 BPM Maturity 學派 + 附 v2 paper DOI
+- **L2/L3/L4/L5 Builder/Advanced/Operator/GCP/Enterprise-Lab 完整 lecture map** —— 對應實際錄影前再展開
