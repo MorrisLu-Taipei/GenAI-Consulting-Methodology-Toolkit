@@ -26,9 +26,9 @@
 
 ## Abstract
 
-Traditional methodology development relies on single-author cycles spanning years, producing static documents that readers consume passively. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which methodology artifacts are co-created through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), version-controlled in Git, published with persistent identifiers (DOI), and consumed through reader-IDE interaction rather than linear reading. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families). In our observed production of this artifact, we find four properties that we did not achieve in prior single-tool authorship attempts within the same project: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development). We discuss implications for methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
+Traditional eBooks and professional knowledge books largely inherit the linear production logic of print and PDF: authors write over long cycles, produce static texts, and readers consume them primarily through passive reading. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which the eBook is no longer merely a formatted text container, but a queryable, reviewable, reproducible knowledge artifact assembled through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), Git version control, persistent identifiers (DOI), declarative workflows, and reader-IDE interaction. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families), because consulting methodologies, maturity models, and process reference architectures represent a demanding class of professional eBook content: highly structured, cross-document dependent, and requiring readers to translate concepts into their organizational context. In our observed production of this artifact, we find four properties that we did not achieve in prior single-tool authorship attempts within the same project: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development) as demanding-case comparators for professional knowledge-book production. We discuss implications for eBook production, methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
 
-**Keywords:** design science research; AI IDE; methodology engineering; multi-agent collaboration; executable documents; reproducible methodology; AI-native; literate programming; consulting frameworks
+**Keywords:** design science research; AI IDE; AI-Native eBook; eBook production; professional knowledge artifacts; multi-agent collaboration; executable documents; reproducible artifacts; literate programming; consulting frameworks
 
 ---
 
@@ -36,22 +36,22 @@ Traditional methodology development relies on single-author cycles spanning year
 
 ### 1.1 Motivation
 
-Methodology engineering -- the disciplined construction, validation, and dissemination of consulting frameworks, maturity models, and process reference architectures -- has historically been a slow, single-author craft. Canonical examples such as the Capability Maturity Model [Paulk et al. 1993], the Business Process Management Maturity Model [Rosemann & de Bruin 2005], and the Process Classification Framework [APQC 2022] each required multi-year cycles by small expert teams, were published as static documents (PDFs, journal articles), and consumed by readers in a fundamentally passive mode: read, then attempt application.
+Professional eBooks and knowledge books -- including consulting methodologies, maturity models, process reference architectures, technical manuals, and scholarly handbooks -- have long inherited the linear production logic of print publishing. Authors or small expert teams write, review, typeset, and publish over months or years, ultimately producing static PDFs, EPUBs, journal articles, or monographs; readers then consume these artifacts in a fundamentally passive mode: read, then attempt application.
 
 Three structural inefficiencies follow from this craft model:
 
-1. **Cycle latency.** New methodologies trail their subject domain by 3-7 years. By the time a peer-reviewed AI maturity framework appears, the AI subject matter has moved through two paradigm shifts.
-2. **Single-author bias.** Even excellent methodologies inherit the blind spots of their lead author. Adversarial review happens at peer-review time, often years after the bias has been baked into the artifact's structure.
-3. **Reader passivity.** A methodology consumed as a static PDF requires substantial human translation labor to apply to a specific organization. The methodology cannot *answer questions* about itself.
+1. **Cycle latency.** Professional books often trail their subject domain by 3-7 years. By the time a peer-reviewed AI maturity framework or practice handbook appears, the AI subject matter may have moved through two paradigm shifts.
+2. **Single-author bias.** Even excellent knowledge books inherit the blind spots of their lead author or small authoring team. Adversarial review happens during editing, peer review, or pre-publication review, often after the bias has been baked into the chapter structure.
+3. **Reader passivity.** A professional book consumed as a static PDF or EPUB requires substantial human translation labor to apply to a specific organization or situation. The book cannot *answer questions* about itself, nor can it trace how one reader assumption affects downstream chapters, tools, or processes.
 
 Simultaneously, a new class of production environment has emerged: **AI-integrated development environments (AI IDEs)** such as Claude Code [Anthropic 2025], Cursor [Anysphere 2026], Google Antigravity [Google 2025], and OpenAI Codex CLI [OpenAI 2025]. These tools fuse large language model (LLM) inference with file-system, version-control, and shell-command primitives, making them general-purpose *cognitive infrastructure* rather than mere code editors.
 
 ### 1.2 Research Questions
 
-This paper investigates whether AI IDEs, used in deliberate orchestration, can serve as the production environment for a new class of methodology artifact -- what we term the **AI-Native eBook**. Specifically:
+This paper investigates whether AI IDEs, used in deliberate orchestration, can serve as the production and interaction environment for a new class of eBook artifact -- what we term the **AI-Native eBook**. Methodology engineering is the demanding case selected here: it is highly structured, cross-file dependent, provenance-sensitive, and requires readers to translate content into their own organizational context. Specifically:
 
-- **RQ1.** What properties does multi-IDE orchestration enable in methodology production that single-tool authorship cannot?
-- **RQ2.** How does reader-IDE interaction transform the consumption of a methodology artifact, and what design affordances are required?
+- **RQ1.** What properties does multi-IDE orchestration enable in eBook production that single-tool authorship cannot?
+- **RQ2.** How does reader-IDE interaction transform the consumption of a professional eBook, and what design affordances are required?
 - **RQ3.** What design principles govern AI-Native eBook engineering, and how do these compare against established methodology development guidelines?
 
 ### 1.3 Contributions
@@ -59,8 +59,8 @@ This paper investigates whether AI IDEs, used in deliberate orchestration, can s
 We make four contributions:
 
 1. A **paradigm description** of AI-Native eBook production, distinguishing it from prior categories (AI-assisted writing, literate programming, executable documents).
-2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, staged for release under Apache 2.0 with a pending Zenodo DOI -- that serves as both a working methodology and an empirical demonstration of the paradigm.
-3. A **design science evaluation** of the artifact against Hevner et al.'s [2004] seven guidelines, with quantitative comparison against traditional methodology development cycles.
+2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, staged for release under Apache 2.0 with a pending Zenodo DOI -- that serves as both a working methodology and a demanding-case demonstration of the AI-Native eBook paradigm.
+3. A **design science evaluation** of the artifact against Hevner et al.'s [2004] seven guidelines, using traditional methodology development cycles as demanding-case comparators for professional knowledge-book production.
 4. **Reusable infrastructure** in the form of 22 AI-IDE workflow specifications, three IDE configuration directories, and a `CITATION.cff` provenance file that other researchers can fork and adapt.
 
 The remainder of this paper is structured as follows. Section 2 positions the work within related literature. Section 3 describes the instantiated artifact. Sections 4-8 elaborate the five distinguishing properties of AI-Native eBook production. Section 9 presents the design science evaluation. Section 10 discusses implications.
@@ -73,7 +73,7 @@ The remainder of this paper is structured as follows. Section 2 positions the wo
 
 The systematic construction of methodologies has been formalized through the **Design Science Research (DSR)** paradigm [Hevner et al. 2004; Peffers et al. 2007]. Hevner's seven guidelines -- problem relevance, design as artifact, design evaluation, research contributions, research rigor, design as search process, and communication of research -- provide the canonical lens through which IT artifacts (including methodologies) are evaluated as scholarly contributions.
 
-Within DSR, methodology development is a recognized class of artifact [March & Smith 1995]. Notable subcategories include **maturity model development**, for which de Bruin and Rosemann [2005] and Becker et al. [2009] articulate procedural standards. The present work uses DSR as its primary evaluation lens (Section 9) while introducing a *second-order* design science contribution: the artifact under study is not only a methodology, but a methodology *about how to construct methodologies in the LLM era*.
+Within DSR, methodology development is a recognized class of artifact [March & Smith 1995]. Notable subcategories include **maturity model development**, for which de Bruin and Rosemann [2005] and Becker et al. [2009] articulate procedural standards. This paper uses that literature as the evaluation lens for a demanding case rather than narrowing the research object to methodology itself: the broader question is whether AI IDE orchestration changes how professional eBooks carrying highly structured, reviewable, application-oriented knowledge are produced and consumed. The present work therefore uses DSR as its primary evaluation lens (Section 9) while introducing a *second-order* design science contribution: the artifact under study is not only methodology content, but an instance of how queryable professional eBooks can be produced in the LLM era.
 
 ### 2.2 Literate Programming and Executable Documents
 
@@ -85,7 +85,7 @@ More recent work on **observable notebooks** [Bostock 2017] and **reactive docum
 
 A growing literature examines LLM-assisted writing in academic and professional contexts [Mirowski et al. 2023; Lee et al. 2022; Long et al. 2024]. The dominant frame is **augmentation**: a single human author paired with a single AI assistant, with research questions focused on creative control, attribution, and the perception of AI co-authorship.
 
-We argue this frame is now insufficient. Once production moves from chatbot interfaces into **AI IDEs with file-system access**, the relevant unit of analysis is no longer the human-AI dyad but the **multi-IDE orchestration** -- multiple specialized AI engines, each contributing distinct capabilities, coordinated through file-system and version-control primitives. To our knowledge, this orchestration pattern has not been systematically studied in the methodology engineering context.
+We argue this frame is now insufficient. Once eBook production moves from chatbot interfaces into **AI IDEs with file-system access**, the relevant unit of analysis is no longer the human-AI dyad but the **multi-IDE orchestration** -- multiple specialized AI engines, each contributing distinct capabilities, coordinated through file-system and version-control primitives. To our knowledge, this orchestration pattern has not been systematically studied in the context of professional eBooks and highly structured knowledge artifacts.
 
 ### 2.4 IDE-as-Medium
 
@@ -97,8 +97,8 @@ AI IDEs are a fresh instantiation of this thesis at unprecedented scale. We exte
 
 We have not found prior work that directly examines the following combination:
 
-- the use of **multiple specialized AI IDEs in deliberate orchestration** as a methodology production environment;
-- the publication of **active, reader-queryable methodologies** with persistent identifiers as scholarly artifacts;
+- the use of **multiple specialized AI IDEs in deliberate orchestration** as a professional eBook production environment;
+- the publication of **active, reader-queryable professional eBooks** with persistent identifiers as scholarly artifacts;
 - the **provenance chain** (Git + workflow files + DOI) that makes such artifacts reproducible in the formal academic sense.
 
 This paper addresses that combined gap.
@@ -212,9 +212,9 @@ We argue this is a key property distinguishing AI-Native eBook production from a
 
 ### 5.1 Beyond Passive Reading
 
-Traditional methodology consumption follows a linear pattern: the reader (a consultant, an executive, a graduate student) opens the document, reads sequentially, and attempts mental translation to their context. The translation labor is enormous and largely invisible; it accounts for much of the disappointment with otherwise excellent methodologies.
+Traditional professional eBook consumption follows a linear pattern: the reader (a consultant, an executive, a graduate student, or a professional practitioner) opens the document, reads sequentially, and attempts mental translation to their context. The translation labor is enormous and largely invisible; it accounts for much of the difficulty of applying otherwise excellent knowledge books.
 
-The Toolkit inverts this. The same Claude Code, Cursor, or Codex environment that produced the methodology can be used by readers to *interrogate* it. A subset of the 10 Claude Code workflows is designed specifically for reader use:
+The Toolkit, as a methodology eBook case, inverts this. The same Claude Code, Cursor, or Codex environment that produced the eBook content can be used by readers to *interrogate* it. A subset of the 10 Claude Code workflows is designed specifically for reader use:
 
 - **`/socratic-challenge`** -- the methodology asks the reader probing questions about their own organization, forcing them to articulate their actual situation in the methodology's terms;
 - **`/theory-bridge`** -- the reader describes a concrete situation, and the workflow maps it onto the seven academic pillars cited by the methodology;
@@ -223,20 +223,20 @@ The Toolkit inverts this. The same Claude Code, Cursor, or Codex environment tha
 
 ### 5.2 The Onboarding Mechanism
 
-A practical question follows: how does a reader's AI IDE come to *understand* the methodology well enough to support these workflows? The answer is that the repository ships with two onboarding files specifically designed for AI ingestion:
+A practical question follows: how does a reader's AI IDE come to *understand* this professional eBook well enough to support these workflows? The answer is that the repository ships with two onboarding files specifically designed for AI ingestion:
 
 - **`AGENTS.md`** -- a 200-line specification that briefs any AI agent on the methodology's structure, key files, vocabulary, and discipline boundaries. It is the common primary entry point for any AI tool.
 - **`CLAUDE.md`** / **`CODEX.md`** / **`ANTIGRAVITY.md`** -- IDE-specific extensions that activate their respective workflow libraries. For instance, `ANTIGRAVITY.md` imbues the AI with awareness of its "parallel multi-agent" task dispatch capabilities, while `CLAUDE.md` articulates its role as a "Strategic Reasoning Partner with Cross-File Synthesis."
 
-These files transform a fresh LLM session from a generic assistant into a methodology-literate dialogue partner within seconds. Empirically, the difference is qualitative: an IDE session opened in the repository root, with its specific environment file auto-ingested, can answer methodology questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
+These files transform a fresh LLM session from a generic assistant into a content-literate dialogue partner within seconds. Empirically, the difference is qualitative: an IDE session opened in the repository root, with its specific environment file auto-ingested, can answer eBook-content questions of substantial depth on the first turn, where the same model with no context produces generic AI consulting truisms.
 
-In other words, the reader-as-querier mode does not consist of "handing the document to an arbitrary chatbot." It depends on repository-bundled orientation files, workflow specifications, and versioned context that, together, constrain a generic LLM session into a methodology-literate querying agent. The reader-as-querier capability is therefore not an inherent property of any one model, but a property of the model **plus** the orientation infrastructure shipped with the repository.
+In other words, the reader-as-querier mode does not consist of "handing the document to an arbitrary chatbot." It depends on repository-bundled orientation files, workflow specifications, and versioned context that, together, constrain a generic LLM session into a content-literate querying agent. The reader-as-querier capability is therefore not an inherent property of any one model, but a property of the model **plus** the orientation infrastructure shipped with the repository.
 
 ### 5.3 Implications for the Author-Reader Relationship
 
-The classical author-reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party -- the reader's AI IDE -- that mediates the relationship in both directions. The reader still cannot literally interrogate the author, but they can interrogate a methodology-grounded AI that the author's published materials have shaped.
+The classical author-reader relationship is asymmetric: the author broadcasts, the reader receives. AI-Native eBooks introduce a third party -- the reader's AI IDE -- that mediates the relationship in both directions. The reader still cannot literally interrogate the author, but they can interrogate a content-grounded AI that the author's published materials have shaped.
 
-This raises interesting questions about authorial intent, methodology drift over reader populations, and the appropriate evaluation of methodology *transferability*. We return to these in Section 10.
+This raises interesting questions about authorial intent, knowledge-artifact drift over reader populations, and the appropriate evaluation of content *transferability*. We return to these in Section 10.
 
 ---
 
@@ -295,7 +295,7 @@ The Toolkit addresses each through a corresponding workflow:
 
 ### 7.3 Implication: Methodology Hardness vs. Reviewer Pool Size
 
-Traditional peer-review hardness varies with reviewer count, domain expertise, and attention allocation, and can also be influenced by shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and is particularly well suited to exposing structural blind spots such as cross-file inconsistency, naming drift, and broken dependency chains. The two do not replace each other; they should run in series. The AI-Native layer changes the *floor* of methodology quality in this sense: claims that survive `/devil-pair-debate` and `/red-team-review` have, at minimum, passed one layer of replayable, auditable mechanized adversarial check.
+Traditional peer-review hardness varies with reviewer count, domain expertise, and attention allocation, and can also be influenced by shared blind spots. AI-Native adversarial review scales with workflow design effort (one-time) and compute (variable), and is particularly well suited to exposing structural blind spots such as cross-file inconsistency, naming drift, and broken dependency chains. The two do not replace each other; they should run in series. The AI-Native layer changes the *floor* of professional eBook quality in this sense: claims that survive `/devil-pair-debate` and `/red-team-review` have, at minimum, passed one layer of replayable, auditable mechanized adversarial check.
 
 ---
 
@@ -303,7 +303,7 @@ Traditional peer-review hardness varies with reviewer count, domain expertise, a
 
 ### 8.1 The "AI Slop" Problem
 
-A common critique of LLM-generated content is unfalsifiable provenance: the reader cannot determine which claims came from human reasoning, which from LLM completion, and which from neither (i.e., hallucination). This critique is particularly acute for methodology artifacts, which derive their authority from theoretical lineage and empirical grounding.
+A common critique of LLM-generated content is unfalsifiable provenance: the reader cannot determine which claims came from human reasoning, which from LLM completion, and which from neither (i.e., hallucination). This critique is particularly acute for professional eBooks; it is sharper still in methodology as a demanding case, because such artifacts derive their authority from theoretical lineage and empirical grounding.
 
 ### 8.2 The Toolkit's Provenance Chain
 
@@ -322,13 +322,72 @@ These four mechanisms are not redundant packagings of "make the artifact accessi
 - **GitHub** provides **public participation and co-evolution**: a surface on which readers can transition from consumers to contributors via Issues, pull requests, and discussions (see §4.0). This layer is established at the moment of push.
 - **Zenodo** provides **scholarly fixity and citability**: an immutable, persistently identified snapshot suitable for academic citation. This layer is established at the moment of DOI minting.
 
-Stacked together, the three layers transform a methodology from a *published document* into a *versioned scholarly artifact that can be traced, discussed, corrected, extended, and re-published*. We treat this stacking -- rather than any single one of the three -- as the contribution worth naming. Section 10.3 returns to its implications for academic publishing more broadly.
+Stacked together, the three layers transform an eBook from a *published document* into a *versioned scholarly artifact that can be traced, discussed, corrected, extended, and re-published*. We treat this stacking -- rather than any single one of the three -- as the contribution worth naming. Section 10.3 returns to its implications for academic publishing more broadly.
+
+One commonly conflated distinction is important here: **DOI, license declaration, and copyright registration are three different things**. A GitHub release has a tag, commit hash, and URL, but GitHub itself is not a publication system and does not provide the equivalent of a scholarly publication identifier. A DOI gives a fixed eBook version or release a resolvable, citable, and long-lived **publication identifier**: it answers "which published version is being cited?" A license declaration answers a different question: "how may readers use, modify, or redistribute this work?" That declaration appears in the front matter, repository `LICENSE` / `NOTICE`, Zenodo license metadata, and `CITATION.cff`. Copyright registration or recordation is a third layer: it does not create the DOI and does not license reuse, but in jurisdictions that provide it, it establishes an official record of a rights claim and may affect enforcement, litigation, or remedies. This layer is jurisdiction-specific. For example, U.S. copyright exists automatically once a work is fixed, but Copyright Office registration creates a public record and, for U.S. works, registration or refusal is generally required before bringing an infringement suit; Taiwan follows protection upon creation and abolished its copyright registration system in 1998 [U.S. Copyright Office n.d.; Taiwan Intellectual Property Office 2020]. In short, DOI provides **publication identity and citation fixity**, licensing provides **reuse boundaries**, and copyright registration, where available, provides **rights-record and enforcement support**. Together, the three give an AI-Native eBook citability, lawful reuse conditions, and a clearer evidence chain for rights.
+
+#### 8.2.2 The Publishing Cycle: From Stacked Layers to a Temporal Loop
+
+The three-layer view of §8.2.1 is **spatial**: Git, GitHub, and Zenodo each contribute a distinct property to a finished artifact. In actual practice, however, an AI-Native eBook does not move through these layers once and stop; it traverses them in a **repeating cycle**, each pass producing a new version DOI while the concept DOI follows the latest. We articulate this temporal dimension as the **publishing cycle**:
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│  Phase 1 — Authoring (Git)                              │
+│   Commit-by-commit; Co-Authored-By trailers attribute   │
+│   AI assistance; local authorial accountability.        │
+│                                                         │
+│            │ push                                       │
+│            ▼                                            │
+│  Phase 2 — Public exposure (GitHub)                     │
+│   Readers see latest; Issues / PRs / discussions open;  │
+│   reader-to-contributor transition becomes possible.    │
+│                                                         │
+│            │ accumulate meaningful changes              │
+│            ▼                                            │
+│  Phase 3 — Accumulation                                 │
+│   Multiple edits pile up; reviewer feedback arrives;    │
+│   the work waits at a natural breakpoint for the next   │
+│   version cut.                                          │
+│                                                         │
+│            │ cut new version                            │
+│            ▼                                            │
+│  Phase 4 — Freezing (Zenodo)                            │
+│   New version DOI minted; concept DOI auto-resolves     │
+│   to latest; older version DOIs remain citable          │
+│   forever.                                              │
+│                                                         │
+│            │ readers cite, review, give feedback        │
+│            ▼                                            │
+│  Phase 5 — Reception                                    │
+│   Readers cite a particular version DOI; feedback       │
+│   flows back through Issues / PRs / personal contact.   │
+│                                                         │
+│            │ feedback becomes next-round Phase-1 input  │
+│            ▼                                            │
+│  Phase 6 — Loop back to Phase 1                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+This cycle has a familiar shape: it is essentially the Shewhart–Deming PDCA cycle [Deming 1986] applied to scholarly publishing, with the four classical stages mapping to the six phases as follows:
+
+| PDCA stage | Phase in publishing cycle |
+| --- | --- |
+| **Plan** | Phase 3 (accumulation; deciding what goes into the next version) |
+| **Do** | Phase 1 (authoring; committing concrete changes) |
+| **Check** | Phase 2 + Phase 5 (public exposure and reception) |
+| **Act** | Phase 4 (freezing into a citable version) + feedback closing the loop into the next Plan |
+
+The novelty here is **not** that an eBook can be republished — books have always been republished — but that the cycle is **mechanized end-to-end**, with each phase carrying its own technical substrate: Git for Phase 1, GitHub for Phase 2 and Phase 5, Zenodo for Phase 4. Phase 3 (accumulation) is the only phase without a native technical substrate; it is a deliberate authorial decision about when to cut the next version. Even this decision is supported by the accumulated Git history (one can inspect what has changed since the previous DOI mint).
+
+A consequence worth naming: in this cycle, **the GitHub `main` branch and the Zenodo deposit are deliberately allowed to drift between versions**. Between two Zenodo deposits, GitHub `main` is by design the *living* version while every previously minted Zenodo version DOI remains a *frozen* citation point. This mirrors how arXiv versions (`v1`, `v2`, `v3`) and journal preprint trails accumulate revisions while prior versions stay citable. The drift is not a bug; it is what makes the artifact simultaneously *current* (GitHub) and *historically referenceable* (Zenodo).
+
+**Dogfooding observation.** The present paper's own production followed this cycle visibly. **v1.0** (concept DOI [10.5281/zenodo.20261850](https://doi.org/10.5281/zenodo.20261850); version DOI [10.5281/zenodo.20261851](https://doi.org/10.5281/zenodo.20261851)) deposited the markdown sources only. **v1.1** (version DOI [10.5281/zenodo.20264772](https://doi.org/10.5281/zenodo.20264772)) added PDF renderings derived from the same Git history. **The present revision** responds to a Phase-5 reader observation that the original abstract framed the paper around "methodology development" while the title framed it around "eBook production"; that feedback flowed back into Phase 1 and produced a re-framed abstract and the present §8.2.2 — which names the cycle that v1.0 and v1.1 had implicitly followed. We treat this episode as light-weight, single-case evidence that the cycle is operable in practice, not merely a normative model.
 
 ### 8.3 Citation Discipline
 
 The Toolkit further enforces citation discipline at the *content* level. All theoretical claims are traced to specific external sources in `00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS.md` (Rosemann BPM Maturity, CMMI, APQC PCF, SCOR, TOGAF, Dragon1 EA, etc.). Internal claims that derive from the Toolkit's own design choices are flagged as such and self-qualified using Tool 2.5's ten-condition scorecard.
 
-This discipline addresses what we believe is the deepest objection to AI-assisted methodology production: that AI-augmented authors may be inclined to *generate plausible-sounding theory* rather than consistently returning to inspectable sources. The Toolkit's discipline -- encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) -- makes such generation visible and excisable.
+This discipline addresses what we believe is the deepest objection to AI-assisted professional eBook production: that AI-augmented authors may be inclined to *generate plausible-sounding theory* rather than consistently returning to inspectable sources. The Toolkit's discipline -- encoded in `AGENTS.md` and enforced by `/evidence-audit` (Codex) -- makes such generation visible and excisable.
 
 ### 8.4 Reproducibility in the Formal Sense
 
@@ -338,7 +397,7 @@ A reader with:
 - accounts on Claude Code / Codex / Antigravity (or compatible AI IDEs),
 - and the published workflow files,
 
-can in principle re-derive the methodology from a substantially earlier commit forward, observing whether the same workflows produce convergent or divergent outputs. The artifact is **reproducible** in a sense that pre-LLM methodology artifacts (e.g., 1990s-era CMMI development) were not, because the production environment is itself published.
+can in principle re-derive the eBook content from a substantially earlier commit forward, observing whether the same workflows produce convergent or divergent outputs. The artifact is **reproducible** in a sense that pre-LLM professional knowledge artifacts (e.g., 1990s-era CMMI development) were not, because the production environment itself was not published.
 
 ---
 
@@ -351,8 +410,8 @@ We evaluate the AI-Native eBook paradigm against the canonical Hevner et al. [20
 | # | Guideline | Self-Assessment | Evidence |
 | --- | --- | --- | --- |
 | 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 354 files, pending Zenodo DOI). |
-| 2 | Problem relevance | [x] | Methodology engineering crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent. |
-| 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles is qualitative (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
+| 2 | Problem relevance | [x] | Professional eBook production crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent in the methodology demanding case. |
+| 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles serves as a demanding-case comparison for professional knowledge-book production (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
 | 4 | Research contributions | [x] | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure -- four distinct contributions. |
 | 5 | Research rigor | [x] | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
 | 6 | Design as search process | [x] | 94 Git commits document the iterative search through the design space. |
@@ -362,7 +421,7 @@ The single partial mark (Guideline 3) is honest: empirical reader-uptake studies
 
 ### 9.2 Comparative Cycle Analysis
 
-We compare AI-Native eBook production against three reference points: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, latest publicly indexed version 2024).
+We compare AI-Native eBook production against three reference points. These are not representatives of all books; they are demanding-case representatives of highly structured professional knowledge books: McKinsey's 7-Step problem-solving methodology development as documented in [Rasiel 1999]; Rosemann's BPM Maturity Model development [Rosemann & de Bruin 2005; de Bruin & Rosemann 2007]; and a representative GenAI maturity framework (Gartner AI Maturity Model, latest publicly indexed version 2024).
 
 | Dimension | McKinsey 7-Step (canonical) [a] | Rosemann BPM-MM (academic) [b] | Gartner AI-MM (industry) [c] | Toolkit (AI-Native) [d] |
 | --- | --- | --- | --- | --- |
@@ -435,15 +494,15 @@ To move the present paper from a position-and-artifact contribution toward a res
 
 ## 10. Discussion and Implications
 
-### 10.1 For Methodology Engineering
+### 10.1 For Professional eBook Production and Methodology Engineering
 
-The traditional cost structure of methodology development has been a barrier to entry. In the instantiation reported here, we observed that a single individual, using AI IDEs in the manner described, produced in months an artifact of comparable scope to those that have, in widely cited examples, required institutional teams and years. The implication we draw is not that all methodology engineering will become single-author -- on the contrary, the *evaluation* burden remains substantial and is largely unaffected by the production-side gains we describe. Rather, the *construction* phase has, at least in this one observed setting, become accessible to individuals working alone.
+The traditional cost structure of professional eBook production has been a barrier to entry, especially when the book carries highly structured content such as methodologies, maturity models, or process architectures. In the instantiation reported here, we observed that a single individual, using AI IDEs in the manner described, produced in months an artifact of comparable scope to those that have, in widely cited examples, required institutional teams and years. The implication we draw is not that all professional eBooks will become single-author -- on the contrary, the *evaluation* burden remains substantial and is largely unaffected by the production-side gains we describe. Rather, the *construction* phase has, at least in this one observed setting, become accessible to individuals working alone.
 
 This may have second-order effects on the consulting industry's structure. Methodologies have historically been quasi-proprietary assets of the major firms (the "Bain Way," McKinsey's 7-Step). AI-Native open-source methodologies, released under Apache 2.0 with DOI-citable provenance, compete on a fundamentally different basis. Whether this leads to a *commons* model of methodology (analogous to open-source software) is an empirical question we cannot resolve here, but the production prerequisites are now in place.
 
 ### 10.2 For HCI and IDE Design
 
-The Toolkit constitutes evidence for the **IDE-as-medium** thesis at a new scale. Cursor, Claude Code, Antigravity, and Codex were not designed with methodology engineering in mind; their general-purpose design proved sufficient. This suggests three directions for AI IDE designers:
+The Toolkit constitutes evidence for the **IDE-as-medium** thesis at a new scale. Cursor, Claude Code, Antigravity, and Codex were not designed with eBook production or methodology engineering in mind; their general-purpose design proved sufficient. This suggests three directions for AI IDE designers:
 
 1. **First-class workflow specifications.** The `.claude/workflows/`, `.codex/workflows/` directory conventions are emerging *de facto*. Formal standardization (a `.ide-workflows/` directory? a YAML schema?) would aid portability.
 2. **Cross-IDE handoff primitives.** Currently, an author moves between Claude Code and Codex manually. A primitive for "spawn this task in another IDE engine and return the result" would tighten orchestration.
@@ -461,7 +520,9 @@ The Zenodo + GitHub release pattern offers an immediately available path to form
 
 This stack is not a replacement for peer review, but it removes the cost of *waiting for* peer review to begin accumulating citation evidence and reader engagement.
 
-More importantly, as articulated in §8.2.1, this stack should be understood as **three distinct lifecycle layers**, not three packagings of the same idea: Git supplies authorial accountability, GitHub supplies public participation and co-evolution, and Zenodo supplies scholarly fixity and citability. The publishing innovation here is not any one of these in isolation -- each pre-exists this paper -- but their **stacked composition** as a single, coherent pipeline for methodology-class artifacts. We argue that this composition deserves a name and a defended position in the methodology-publishing toolkit, alongside (not replacing) the journal article and the academic monograph.
+This path separates three functions that traditional publishing often bundles but open knowledge artifacts should distinguish: **publication identification**, **rights declaration**, and **rights registration / recordation**. GitHub supplies the tags, commits, and release records needed for development and version collaboration; DOI lets readers, reviewers, and citation databases treat a release as a stable published version; `LICENSE`, `NOTICE`, front matter, and Zenodo license metadata declare copyright reservation and reuse terms; and, where the author's jurisdiction provides and requires it, the author may separately register the version or work with the relevant authority to establish an official rights record. Our principle is that every citable release should have a version DOI, clear licensing, machine-readable citation metadata, human-readable copyright / license notice, and metadata that can connect to copyright registration or other rights evidence where applicable.
+
+More importantly, as articulated in §8.2.1, this stack should be understood as **three distinct lifecycle layers**, not three packagings of the same idea: Git supplies authorial accountability, GitHub supplies public participation and co-evolution, and Zenodo supplies scholarly fixity and citability. The publishing innovation here is not any one of these in isolation -- each pre-exists this paper -- but their **stacked composition** as a single, coherent pipeline for professional knowledge eBooks and high-structure knowledge artifacts. We argue that this composition deserves a name and a defended position in the eBook and scholarly-artifact publishing toolkit, alongside (not replacing) the journal article and the academic monograph.
 
 ### 10.4 For the "AI Slop" Concern
 
@@ -471,17 +532,17 @@ Critics of LLM-augmented content production often invoke the term "AI slop" -- c
 
 We close with three empirical questions the present paper does not answer, and which we hope to address in follow-on work:
 
-- **Reader-uptake studies.** Does the reader-as-querier model measurably reduce the translation labor between methodology consumption and organizational application?
-- **Cross-author replication.** If a different author, with different blind spots, produced a competing AI-Native methodology in the same domain (GenAI adoption), how would the artifacts compare on coverage, internal consistency, and reader uptake?
-- **Longitudinal methodology evolution.** Over 24 months, how does the artifact change as LLM capability and IDE features evolve? Does the workflow file approach age gracefully or become obsolete?
+- **Reader-uptake studies.** Does the reader-as-querier model measurably reduce the translation labor between professional eBook content consumption and organizational application?
+- **Cross-author replication.** If a different author, with different blind spots, produced a competing AI-Native eBook in the same domain (GenAI adoption), how would the artifacts compare on coverage, internal consistency, and reader uptake?
+- **Longitudinal knowledge-artifact evolution.** Over 24 months, how does the artifact change as LLM capability and IDE features evolve? Does the workflow file approach age gracefully or become obsolete?
 
 ---
 
 ## 11. Conclusion
 
-AI-Native eBook production, as instantiated in the GenAI Consulting Methodology Toolkit, illustrates a production approach that, in our observation, can meaningfully alter how methodology artifacts are constructed, published, and consumed. The four properties we identified -- multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and provenance discipline -- together appear, in this instantiation, to substantially change the methodology engineering cost structure while improving (or at minimum not weakening) the artifact's auditability. We do not claim these results generalize without further study; the planned validation experiment (§9.5) and the empirical agenda (§10.5) name the kinds of evidence that would warrant a stronger generalization.
+AI-Native eBook production, as instantiated in the GenAI Consulting Methodology Toolkit as a demanding case, illustrates a production approach that, in our observation, can meaningfully alter how professional knowledge eBooks are constructed, published, and consumed. The four properties we identified -- multi-IDE orchestration, reader-as-querier interaction, simultaneous multilingual coherence, and provenance discipline -- together appear, in this instantiation, to substantially change the cost structure of high-structure eBook production while improving (or at minimum not weakening) the artifact's auditability. We do not claim these results generalize without further study; the planned validation experiment (§9.5) and the empirical agenda (§10.5) name the kinds of evidence that would warrant a stronger generalization.
 
-The paradigm is not without limitations, and several questions -- particularly around empirical reader uptake and cross-author replication -- remain open. We invite the research community to engage with the artifact, fork it under its Apache 2.0 license, and extend the paradigm to new methodology domains.
+The paradigm is not without limitations, and several questions -- particularly around empirical reader uptake and cross-author replication -- remain open. We invite the research community to engage with the artifact, fork it under its Apache 2.0 license, and extend the paradigm to new professional eBook and knowledge-artifact domains.
 
 The repository, this preprint, the workflow specifications, and the `CITATION.cff` file are all openly available. Citation information is provided in the front matter.
 
@@ -557,6 +618,12 @@ Google. (2025). *Start building with Gemini 3*. Google Blog, 2025-11-18. (Introd
 
 OpenAI. (2025). *OpenAI Codex CLI: Getting started*. OpenAI Help Center. <https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started> (Accessed 2026-05-18.)
 
+Taiwan Intellectual Property Office. (2020). *Must copyrights be registered to receive protection?* Ministry of Economic Affairs, R.O.C. <https://www1.tipo.gov.tw/en/cp-313-183443-48c3c-2.html> (Accessed 2026-05-19.)
+
+U.S. Copyright Office. (n.d.). *Copyright in General: Frequently Asked Questions*. <https://www.copyright.gov/help/faq/faq-general.html> (Accessed 2026-05-19.)
+
+U.S. Copyright Office. (n.d.). *What is Copyright?* <https://www.copyright.gov/what-is-copyright/> (Accessed 2026-05-19.)
+
 ### D. Author's own forthcoming work
 
 Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Enterprises.*
@@ -613,6 +680,8 @@ Cited for tool/product existence, historical anchoring, or industry context — 
 | Anysphere (2026) | Vendor documentation | Cursor IDE product existence |
 | Google (2025) | Vendor announcement | Antigravity product existence |
 | OpenAI (2025) | Vendor documentation | Codex CLI product existence |
+| Taiwan Intellectual Property Office (2020) | Government copyright FAQ | Copyright registration status in Taiwan |
+| U.S. Copyright Office (n.d.) | Government copyright FAQ | Copyright registration concept in the United States |
 | Lu (in preparation) | Author's own forthcoming work | Pointer to L1-L5 maturity model (not yet citable) |
 
 ---
