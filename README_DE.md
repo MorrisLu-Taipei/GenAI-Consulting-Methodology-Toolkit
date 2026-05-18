@@ -13,6 +13,8 @@ Rolle: **n8n Taipei Ambassador / Doktorand am Institut für Intelligent Manufact
 Lizenzhinweis: Dieses Projekt steht unter der **[Apache License 2.0](LICENSE)**. Es darf frei genutzt, kopiert, modifiziert, weiterverteilt und kommerziell verwendet werden. Bei Weiterverteilung sind der Apache-2.0-Lizenztext und die Urhebernennung in [`NOTICE`](NOTICE) beizubehalten.
 
 > **Nur 5 Minuten Zeit?** Beginnen Sie mit [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — die gesamte Methodik auf einer Seite.
+>
+> **Unternehmen mit < 300 Mitarbeitern?** Der 8-Stufen-Ablauf ist für Großunternehmen ausgelegt; nutzen Sie [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path** (4 komprimierte Stufen / 10-50K USD / 3 Monate) oder **SOHO Path** (2 Stufen / 1,5-7K USD / 1 Woche).
 
 ---
 
@@ -163,6 +165,7 @@ Das Kursverhältnis wird durch Reifegrad, Branche, Deployment-Modus und Zielszen
 | **Berater / Lernender** — wissen, wie die 8 Stufen ablaufen, wie Verträge geteilt werden | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — vollständiger Ablauf |
 | **Vorstand / Regulierung / Wissenschaft** — warum diese Methodik einer Debatte standhält | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — wissenschaftliche Argumentation |
 | **Enterprise-IT / Berater anderer Firma** — Abgleich mit McKinsey/BCG/TOGAF/Gartner | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — Alignment-Karte |
+| **KMU-Inhaber / Solo-Anwender** — gilt Ihre Methode nur für Großunternehmen | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path Kompaktversion (4 Stufen / 10-50K USD / 3 Monate) |
 | **Eilige Führungskraft** — nur 5 Minuten | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — Executive Summary |
 | **Methodik-Forscher / AI-Pedagogy-Akademiker** — warum dies eine neue Form der Methodik ist | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — AI-Native Living Book Design |
 | **Akademiker / Regulierung / Vorstand** — 7 theoretische Säulen (Rosemann / Cohen & Levinthal / Teece / Real Options usw.) | [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — akademische theoretische Grundlagen |

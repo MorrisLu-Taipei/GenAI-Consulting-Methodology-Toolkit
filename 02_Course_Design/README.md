@@ -103,6 +103,10 @@ L3/L4 課程的 PoC 場景庫。7 大類共 35 個可實作 PoC（Gmail / Sheets
 
 把 PoC 整理成可匯入 n8n 的 workflow 骨架（JSON）。含 30 個 PoC 骨架、匯出/匯入流程、命名版本規範、GitHub Backup SOP、課堂使用流程。
 
+### `ONLINE_COURSE_DESIGN_METHODOLOGY.md`
+
+**跨課程通用的線上課程設計品質 SOP**（v1.0，2026-05-18）。整合學習科學三大基礎（Backward Design / Constructive Alignment / Bloom's Taxonomy）、線上課程 4 大組件（CLP / 結構 / 影音 / 互動）與 3 層品質門檻（必要 / 品質 / 加分）、學習目標寫法公式、30 點 audit checklist。所有 L1-L5 課程上架或重新編修前，**必須以此自我審查**；上架到外部平台時再依該平台規格 micro-adjust。**不替代任何既有課程**，是跨課程設計品質基準。
+
 ### `*_EN.md`
 
 上述檔案的英文版 sibling。

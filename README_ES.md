@@ -13,6 +13,8 @@ Rol: **n8n Taipei Ambassador / Estudiante de doctorado en el Instituto de Intell
 Resumen de licencia: Este proyecto se publica bajo **[Apache License 2.0](LICENSE)**. Se puede usar, copiar, modificar, redistribuir y comercializar libremente. Al redistribuirlo, conserve el texto de la licencia Apache 2.0 y la atribución del autor en [`NOTICE`](NOTICE).
 
 > **¿Solo 5 minutos?** Comience con [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — toda la metodología en una página.
+>
+> **¿Organización con menos de 300 personas?** El flujo de 8 etapas es para empresas grandes; use [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path** (4 etapas comprimidas / USD 10K-50K / 3 meses) o **SOHO Path** (2 etapas / USD 1,5K-7K / 1 semana).
 
 ---
 
@@ -163,6 +165,7 @@ La proporción de cursos se determina por la madurez, el sector, el modo de desp
 | **Consultor / estudiante** — saber cómo se ejecutan las 8 etapas, cómo se dividen los contratos | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — flujo completo |
 | **Consejo de administración / regulación / académico** — por qué esta metodología resiste el debate | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — argumentación científica |
 | **IT gran empresa / consultor que cambia de firma** — alineación con McKinsey/BCG/TOGAF/Gartner | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — mapa de alineación |
+| **Dueño PYME / autónomo** — ¿su método es solo para grandes empresas? | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path versión comprimida (4 etapas / USD 10K-50K / 3 meses) |
 | **Ejecutivo con prisa** — solo 5 minutos | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — resumen ejecutivo |
 | **Investigador de metodología / académico AI Pedagogy** — por qué es una nueva forma de metodología | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — diseño AI-Native Living Book |
 | **Académico / regulador / consejo** — 7 pilares teóricos (Rosemann / Cohen & Levinthal / Teece / Real Options etc.) | [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — fundamentos teóricos académicos |

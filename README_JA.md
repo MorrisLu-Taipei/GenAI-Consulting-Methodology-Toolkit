@@ -13,6 +13,8 @@
 ライセンス概要: 本プロジェクトは **[Apache License 2.0](LICENSE)** を採用しています。自由に使用・複製・改変・再配布・商用利用が可能です。再配布の際は Apache 2.0 ライセンス文と [`NOTICE`](NOTICE) の作者名を保持してください。
 
 > **5 分しかない方は** まず [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) を読んでください — 1 ページで全方法論を理解できます。
+>
+> **組織 300 人未満?** 8 段階フローは大企業向けに設計されています。[`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path**（圧縮 4 段階 / USD 10K-50K / 3 ヶ月）または **SOHO Path**（2 段階 / USD 1.5K-7K / 1 週間）をご利用ください。
 
 ---
 
@@ -163,6 +165,7 @@ L1-L5 は「5 つのツール」ではなく、**2 つの軸**でつながった
 | **コンサルタント / 受講者** — 8 段階の運び方、契約の分け方を知りたい | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — 完全フロー |
 | **取締役会 / 規制 / 学術** — なぜこの方法論が議論に耐えるか | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — 科学的論証 |
 | **大企業 IT / 他社からの転職コンサル** — McKinsey/BCG/TOGAF/Gartner との整合 | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — 整合マップ |
+| **中小企業オーナー / SOHO ワーカー** — あなたの方法論は大企業向けだけですか | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path 圧縮版（4 段階 / USD 10K-50K / 3 ヶ月） |
 | **急いでる管理職** — 5 分しかない | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — Executive Summary |
 | **方法論研究者 / AI Pedagogy 学者** — なぜ新型の方法論か | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — AI-Native Living Book 設計 |
 | **学者 / 規制 / 取締役会** — 7 大理論支柱（Rosemann / Cohen & Levinthal / Teece / Real Options 等）| [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — 学術理論基礎 |

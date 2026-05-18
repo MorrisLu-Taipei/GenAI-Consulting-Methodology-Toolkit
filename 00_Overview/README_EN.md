@@ -84,6 +84,10 @@ The whole methodology in 5 minutes, one page. For execs without time for details
 
 **Innovation in methodology carrying medium**: positions this methodology as an **AI-native living book** (a knowledge system directly executable by AI IDEs), not just PDF/PPT. Covers academic classifications (executable knowledge artifact, AI-mediated methodology, interactive consulting playbook), 3-layer design (Repo as Book / Agent as Tutor / Methodology as Executable Artifact), and 4 risk-control principles (AI ≠ consultant, evidence required, AGENTS.md versioned, AI-generated marking). Required for academic submissions / methodology differentiation.
 
+### `SME_LITE_PATH_EN.md` 🆕
+
+**Compressed consulting route for SMEs** (v1.0, 2026-05-18): the original 8-stage flow is designed for enterprise (500+ headcount); two compressed routes for **SME (50-300 headcount)** and **SOHO (<20 headcount)** live here. SME runs **4 stages (S1 Baseline+Benchmark / S2 Find the pain / S3 Set 90-day goal / S4 Build+Iterate)**; SOHO runs **2 stages (Pain conversation / Build and show)**. Includes 4 worksheet templates, gate compression rules, triggers for upgrading to full 8-stage, pricing correspondence (SOHO USD 1.5-7K / SME USD 10-50K / Enterprise USD 200K+), sales scripts responding to "your method is too heavy" objections, 2 worked examples (manufacturing SME + marketing SOHO). **First doc to read for <100 headcount orgs.**
+
 ### `ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md` 🆕
 
 **7 theoretical pillars unified**: Capability Maturity (Rosemann/CMMI) + Absorptive Capacity (Cohen & Levinthal 1990) + Task-Technology Fit (Goodhue & Thompson 1995) + Dynamic Capabilities (Teece 1997/2007) + Sociotechnical Systems & Trust in AI (Bostrom 1977/Dietvorst 2015/Glikson 2020) + Real Options (Dixit & Pindyck 1994/McGrath 1997) + Executable Knowledge Artifact (Knuth 1984). Per theory: summary + founder + contribution to Tiger AI + mapped location + citations. The single source of truth when academia / regulators / board ask "what's the theoretical basis."

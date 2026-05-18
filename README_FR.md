@@ -13,6 +13,8 @@ Rôle : **n8n Taipei Ambassador / Doctorant à l'Institut de Intelligent Manufac
 Résumé de licence : Ce projet est publié sous **[Apache License 2.0](LICENSE)**. Il peut être librement utilisé, copié, modifié, redistribué et commercialisé. Lors de la redistribution, conservez le texte de licence Apache 2.0 et l'attribution dans [`NOTICE`](NOTICE).
 
 > **Seulement 5 minutes ?** Commencez par [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — toute la méthodologie sur une page.
+>
+> **Organisation < 300 personnes ?** Le flux en 8 étapes est conçu pour les grandes entreprises ; utilisez [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path** (4 étapes compressées / 10-50K USD / 3 mois) ou **SOHO Path** (2 étapes / 1,5-7K USD / 1 semaine).
 
 ---
 
@@ -163,6 +165,7 @@ Le ratio de cours est déterminé par la maturité, le secteur, le mode de dépl
 | **Consultant / apprenant** — savoir comment se déroulent les 8 étapes, comment les contrats se découpent | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — flow complet |
 | **Conseil d'administration / régulation / académique** — pourquoi cette méthodologie résiste au débat | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — argumentation scientifique |
 | **IT grande entreprise / consultant transfuge** — alignement avec McKinsey/BCG/TOGAF/Gartner | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — carte d'alignement |
+| **Dirigeant PME / indépendant** — votre méthode est-elle réservée aux grandes entreprises | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path version compressée (4 étapes / 10-50K USD / 3 mois) |
 | **Cadre pressé** — seulement 5 minutes | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — résumé exécutif |
 | **Chercheur en méthodologie / académique AI Pedagogy** — pourquoi est-ce une nouvelle forme de méthodologie | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — design AI-Native Living Book |
 | **Académique / régulation / CA** — 7 piliers théoriques (Rosemann / Cohen & Levinthal / Teece / Real Options etc.) | [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — fondements théoriques académiques |

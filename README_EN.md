@@ -13,6 +13,8 @@ Role: **n8n Taipei Ambassador / PhD Student, Graduate Institute of Intelligent M
 License summary: this project is released under the **[Apache License 2.0](LICENSE)**. You may freely use, copy, modify, redistribute, and commercialize it; when redistributing, preserve the Apache 2.0 license text and the attribution notices in [`NOTICE`](NOTICE).
 
 > **Only have 5 minutes?** Read [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) first — the whole methodology on one page.
+>
+> **Org < 300 headcount?** The 8-stage flow is enterprise-scale; use the [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path** (4 compressed stages / USD 10K-50K / 3 months) or **SOHO Path** (2 stages / USD 1.5K-7K / 1 week).
 
 ---
 
@@ -164,6 +166,7 @@ The course mix is determined by the client's maturity, industry, deployment mode
 | **Consultant / Trainee** — want to know how the eight stages run, how contracts are split | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — complete flow |
 | **Board / Regulator / Academic** — want to know why this methodology withstands debate | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — scientific argument |
 | **Enterprise IT / Cross-firm consultant** — want to know how it aligns with McKinsey/BCG/TOGAF/Gartner | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — alignment map |
+| **SME owner / SOHO worker** — is your method only for large enterprises | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path compressed version (4 stages / USD 10K-50K / 3 months) |
 | **Busy executive** — only 5 minutes | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — executive summary |
 | **Methodology researcher / AI-Pedagogy academic** — why this is a new form of methodology | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — AI-Native Living Book design |
 | **Academic / Regulator / Board** — the 7 theoretical pillars (Rosemann / Cohen & Levinthal / Teece / Real Options, etc.) | [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — academic theoretical foundations |

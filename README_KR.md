@@ -13,6 +13,8 @@
 라이선스 요약: 본 프로젝트는 **[Apache License 2.0](LICENSE)** 을 채택합니다. 자유롭게 사용·복제·수정·재배포·상업화할 수 있습니다. 재배포 시 Apache 2.0 라이선스 텍스트와 [`NOTICE`](NOTICE) 의 저자 표기를 유지해 주세요.
 
 > **5 분밖에 없으신가요?** 먼저 [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) 을 읽으세요 — 한 페이지로 전체 방법론을 이해합니다.
+>
+> **조직 300 명 미만?** 8 단계 흐름은 대기업용으로 설계되었습니다. [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) **SME Lite Path**（압축 4 단계 / USD 10K-50K / 3 개월）또는 **SOHO Path**（2 단계 / USD 1.5K-7K / 1 주）를 이용하세요.
 
 ---
 
@@ -163,6 +165,7 @@ L1-L5 는 "다섯 개의 도구"가 아니라 **두 개의 축**으로 연결된
 | **컨설턴트 / 학습자** — 8 단계 운영 방식, 계약 분할 방식 | [`00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) — 완전 플로우 |
 | **이사회 / 규제 / 학술** — 왜 이 방법론이 토론을 견디는가 | [`00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md`](00_Overview/METHODOLOGY_SCIENTIFIC_LOGIC_EN.md) — 과학적 논증 |
 | **대기업 IT / 타사에서 이직한 컨설턴트** — McKinsey/BCG/TOGAF/Gartner 와의 정렬 | [`00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md`](00_Overview/INDUSTRY_FRAMEWORK_ALIGNMENT_EN.md) — 정렬 맵 |
+| **중소기업 사장 / SOHO 종사자** — 방법론이 대기업 전용입니까 | [`00_Overview/SME_LITE_PATH_EN.md`](00_Overview/SME_LITE_PATH_EN.md) — SME Lite Path 압축 버전 (4 단계 / USD 10K-50K / 3 개월) |
 | **바쁜 임원** — 5 분만 | [`00_Overview/EXECUTIVE_SUMMARY_EN.md`](00_Overview/EXECUTIVE_SUMMARY_EN.md) — Executive Summary |
 | **방법론 연구자 / AI Pedagogy 학자** — 왜 새로운 방법론인가 | [`00_Overview/AI_NATIVE_LIVING_BOOK_EN.md`](00_Overview/AI_NATIVE_LIVING_BOOK_EN.md) — AI-Native Living Book 설계 |
 | **학자 / 규제 / 이사회** — 7 대 이론 기둥 (Rosemann / Cohen & Levinthal / Teece / Real Options 등) | [`00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md`](00_Overview/ACADEMIC_THEORETICAL_FOUNDATIONS_EN.md) — 학술 이론 기초 |

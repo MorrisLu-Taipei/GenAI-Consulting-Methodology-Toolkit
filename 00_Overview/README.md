@@ -84,6 +84,10 @@
 
 **方法論承載形式的創新論述**：把這套方法論定位為 **AI-native living book**（可被 AI IDE 直接執行的知識系統），不只是 PDF / PPT。包含學術歸類（executable knowledge artifact、AI-mediated methodology、interactive consulting playbook）、3 層設計（Repo as Book / Agent as Tutor / Methodology as Executable Artifact）、4 大風險控管原則（AI ≠ 顧問、需 evidence、AGENTS.md 版本控管、AI 產出明示）。學術投稿 / 方法論差異化必讀。
 
+### `SME_LITE_PATH.md` 🆕
+
+**中小企業壓縮版顧問路線**（v1.0, 2026-05-18）：原 8 階段為 enterprise（500+ 人）設計，**50-300 人 SME** 與 **< 20 人 SOHO** 兩條壓縮路線在此。SME 走 **4 階段（S1 摸底+對標 / S2 找痛點 / S3 定 90 天目標 / S4 做+調）**；SOHO 走 **2 階段（痛點對話 / 做出來給你看）**。內含 4 個工作表範本、Gate 壓縮規則、何時升級到完整 8 階段的觸發條件、收費對應（SOHO 5-20 萬 / SME 30-150 萬 / Enterprise 600 萬+）、銷售腳本回應「你方法太重」反對意見、2 個 worked example（製造 SME + 行銷 SOHO）。**< 100 人組織第一份要讀的文件**。
+
 ### `ACADEMIC_THEORETICAL_FOUNDATIONS.md` 🆕
 
 **7 大理論支柱統一論述**：Capability Maturity (Rosemann/CMMI) + Absorptive Capacity (Cohen & Levinthal 1990) + Task-Technology Fit (Goodhue & Thompson 1995) + Dynamic Capabilities (Teece 1997/2007) + Sociotechnical Systems & Trust in AI (Bostrom 1977/Dietvorst 2015/Glikson 2020) + Real Options (Dixit & Pindyck 1994/McGrath 1997) + Executable Knowledge Artifact (Knuth 1984)。每個理論：summary + 創立者 + 對 Tiger AI 的貢獻 + 對應位置 + 引用。學術審稿 / 監管 / 高階董事會質詢「理論依據是什麼」時的唯一答案。
@@ -117,6 +121,8 @@
 - **業務要約客戶**：拿 `AI_TRANSFORMATION_STORY_AND_STRUCTURE.md` 的三段式路徑與價值主張，做 30 分鐘方法論簡介。
 - **新顧問 onboard**：先讀故事線建立認知 → 讀 `TODO_WBS.md` 掌握現況 → 再依 §六的資料流逐目錄學習。
 - **reviewer 審查**：直接看 `TODO_WBS.md` 的變更紀錄與工作日誌，對照 git log。
+- **接到 SME / SOHO 客戶**（< 300 人 / < 20 人）：先讀 `SME_LITE_PATH.md` 決定走 SME Lite Path 或 SOHO Path，不要硬塞完整 8 階段。
+- **客戶說「你方法太重」**：直接拿 `SME_LITE_PATH.md` §9 銷售場景對應的話術回應。
 - **AI 接續工作**：讀 `TODO_WBS.md` 的「下一輪候選」與「工作日誌」，知道從哪裡繼續。
 
 ---
