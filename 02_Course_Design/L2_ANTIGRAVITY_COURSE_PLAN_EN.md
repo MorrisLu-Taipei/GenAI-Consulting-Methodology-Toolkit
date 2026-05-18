@@ -139,6 +139,111 @@ The L2 course must be split into "first half — produce Skills" and "second hal
 | First half | Build Business Skills or Antigravity engineering artifacts | Skill, app prototype, test, README, GCP PoC |
 | Second half | Package the Skill into a process specification connectable by L3 n8n | Trigger, I/O schema, node map, human gate, log, test payload |
 
+### 6.0 Lecture Map (per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.3)
+
+#### 6.0.1 §6.1 Foundation Complete Lecture Map (~45 lectures × avg 4 min = 180 min / 3 hr + 30 min buffer)
+
+> Lecture type codes: **TH** = Talking Head / **S** = Screencast / **SL** = Slides / **VS** = Visual / **PR** = Practice / **EN** = Engagement / **RC** = Recap.
+
+##### Section 0 — Introduction (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | Welcome to L2 Antigravity | TH | 3 | Instructor intro + why Agentic Developer is IT's competitive edge |
+| 0.2 | What you'll learn | TH+SL | 2 | 4 primary LOs preview |
+| 0.3 | **Engagement: let Agent do a small research** | EN+S | 5 | Agent Manager → assign small task → watch plan / browser / artifact |
+
+##### Section 1 — L2 Positioning (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 1.1 | L1 → L2 transition | SL | 5 | Chat vs Skill difference |
+| 1.2 | L2 two tracks: Business Skill vs Agentic Developer | SL+VS | 5 | Track-split diagram |
+| 1.3 | Antigravity vs traditional IDE | SL | 5 | 5-dimension comparison table |
+| 1.4 | Agentic IDE design philosophy | SL | 5 | Agent autonomy + human review |
+| 1.5 | Three codelabs mapped to L2 capabilities | SL | 5 | §2 table recap |
+| 1.6 | Section recap | RC | 5 | L2 training track + learning path |
+
+##### Section 2 — Install & Environment (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | System requirements | SL | 4 | OS / RAM / network |
+| 2.2 | Download Antigravity | S | 4 | Official site / platform choice |
+| 2.3 | Installation steps | S | 5 | macOS / Windows / Linux |
+| 2.4 | First login | S | 4 | Google account / company SSO |
+| 2.5 | Chrome / Browser setup | S | 4 | Antigravity Browser intro |
+| 2.6 | Workspace concept | S | 5 | One workspace = one project |
+| 2.7 | Create first workspace | S | 5 | New workspace settings |
+| 2.8 | Environment health-check list | SL | 5 | 9 check items |
+| 2.9 | Section recap | RC | 4 | Install acceptance criteria |
+| 2.10 | **Formative: env checklist** | PR | 5 | Learners tick all items |
+
+##### Section 3 — Agent Manager / Editor (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | Agent Manager UI overview | S | 4 | Left task / center editor / right artifact |
+| 3.2 | Create a task | S | 4 | Task description → plan |
+| 3.3 | Implementation plan | S | 5 | Agent self-decomposes |
+| 3.4 | Watch Agent execute | S | 5 | Live view of Agent thinking |
+| 3.5 | Walkthrough artifact | S | 5 | Evidence chain + reproducibility |
+| 3.6 | Editor mode | S | 4 | Live view of Agent writing code |
+| 3.7 | Diff review | S | 4 | Accept / reject / modify |
+| 3.8 | Section recap | RC | 4 | Agent Manager workflow |
+| 3.9 | **Formative: complete a small task** | PR | 10 | Learners give Agent a task |
+
+##### Section 4 — Safety & Review Policy (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | Why Agents need governance | TH | 5 | 3 runaway cases |
+| 4.2 | Terminal execution policy | S | 5 | Allow / Review / Block |
+| 4.3 | Review policy | S | 5 | Which actions require review |
+| 4.4 | JavaScript execution policy | S | 4 | Browser JS risks |
+| 4.5 | Safe Mode | S | 5 | When to enable |
+| 4.6 | Audit Log | S | 5 | Capture all Agent actions |
+| 4.7 | Three pillars vs enterprise audit | SL | 4 | ISO / SOC2 mapping |
+| 4.8 | Section recap | RC | 4 | Governance checklist |
+| 4.9 | **Formative: write your team's policy** | PR | 8 | Learners draft their team's policy |
+
+##### Section 5 — Browser Agent (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | Browser Agent intro | TH+S | 4 | Difference vs selenium |
+| 5.2 | Open page + extract data | S | 5 | Single page / multi-page |
+| 5.3 | Interaction: click / fill form | S | 5 | Simulate user |
+| 5.4 | Handle login + cookie | S | 5 | Semi vs full auto |
+| 5.5 | Structured data extraction | S | 5 | JSON / CSV output |
+| 5.6 | Verification + screenshot | S | 4 | Evidence preservation |
+| 5.7 | Anti-scraping & ethical limits | SL | 4 | robots.txt / rate limit / ToS |
+| 5.8 | Section recap | RC | 4 | Browser Agent use-case list |
+| 5.9 | **Formative: scrape a competitor site** | PR | 9 | Learners pick own target |
+
+##### Section 6 — Conclusion (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 6.1 | Course recap | TH | 3 | All 4 LOs met? |
+| 6.2 | L2-B Builder / GCP preview | SL | 3 | §6.2 / §6.3 next |
+| 6.3 | L3 transition: Workflow Blueprint | TH | 2 | Why also learn L3 |
+| 6.4 | Congratulations + next steps | TH | 2 | Closing |
+
+#### 6.0.2 §6.2 Builder Lecture Map (stub)
+
+`8 hours = ~120 lectures. Section structure: Intro → Web research → Flask app → Iteration → Unit test/docs → L2-to-L3 bridge → I/O contract → Human gate/log → Review → Conclusion. Expand per §6.0.1 format.`
+
+#### 6.0.3 §6.3 GCP Lecture Map (stub)
+
+`8 hours = ~120 lectures. Section structure: Intro → GCP readiness → Architecture planning → IaC → Cloud Run service → Gemini integration → Pipeline deployment → Validation → Security extension → Conclusion.`
+
+#### 6.0.4 §6.4 Enterprise Lab Lecture Map (stub)
+
+`2 days = ~240 lectures. Recommended: split into 4 half-day mini-courses; expand each per §6.0.1.`
+
+---
+
 ### 6.1 L2 Antigravity Foundation: 3 Hours
 
 Goal: Establish Antigravity operations, governance, and Agentic IDE concepts.

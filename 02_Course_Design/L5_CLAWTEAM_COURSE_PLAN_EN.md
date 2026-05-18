@@ -336,6 +336,106 @@ Two patterns:
 
 ---
 
+## 6.99 Lecture Map (per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.3)
+
+### 6.99.1 §6 Complete Lecture Map
+
+> L5 is a ~8-hour hands-on workshop, split into AM (Concept) + PM (Hands-on). ~100 lectures × avg 4.8 min = 480 min / 8 hr.
+>
+> Lecture type codes: **TH** / **S** / **SL** / **VS** / **PR** / **EN** / **RC** (same as L1).
+
+#### AM1 — Introduction + L4→L5 Boundary (90 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | Welcome to L5 ClawTeam | TH | 4 | Instructor + why Multi-Agent Team is org-level leverage |
+| 0.2 | What you'll learn | TH+SL | 3 | 4 primary LOs |
+| 0.3 | **Engagement: write the task you'd assign** | EN+PR | 8 | Class votes most worth team |
+| 1.1 | Single-Agent L4 limits | SL | 5 | Why one Agent isn't enough |
+| 1.2 | Multi-Agent value | SL | 5 | Parallelism + specialization |
+| 1.3 | L5 is not L4 plus | SL | 5 | Paradigm shift |
+| 1.4 | When to upgrade to L5 | SL | 5 | 6 triggers |
+| 1.5 | When L5 is overkill | TH | 5 | Failure cases |
+| 1.6 | Section recap | RC | 5 | L4→L5 upgrade checklist |
+| 1.7 | **Formative: classify own tasks L4 vs L5** | PR | 10 | Use §3.3 tasks |
+| 1.8 | break | — | 10 | — |
+| 1.9 | Buffer / wrap | RC | 5 | Transition to AM2 |
+
+#### AM2 — ClawTeam Architecture (90 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | 5-layer overview | SL+VS | 5 | Team / Workspace / Task / Inbox / Transport |
+| 2.2 | Team Management | S | 5 | spawn-team concept |
+| 2.3 | Workspace Isolation (git worktree) | S | 5 | Why worktree |
+| 2.4 | Task Tracking + Dependencies | S | 5 | Kanban + blocked-by |
+| 2.5 | Inter-Agent Messaging | S | 5 | inbox + broadcast |
+| 2.6 | Transport: File / P2P / Redis | SL | 5 | 3 deployment stages |
+| 2.7 | CLI quick-ref walkthrough | S | 8 | §1.x card section-by-section |
+| 2.8 | Hedge Fund pattern intro | SL | 6 | Signal convergence example |
+| 2.9 | Section recap | RC | 6 | 5 layers + 5 CLI commands |
+| 2.10 | break | — | 10 | — |
+| 2.11 | **Formative: sketch the 5 layers** | PR | 5 | Pen & paper |
+| 2.12 | wrap | RC | 5 | Transition to PM1 |
+
+#### PM1 — Task Design Workshop + Agent Role Card (120 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | Role card template | SL | 5 | 7 fields |
+| 3.2 | Example: manufacturing | S | 8 | Full 5-Agent walkthrough |
+| 3.3 | Task allocation design | S | 5 | blocked-by chain |
+| 3.4 | Integration report template | S | 5 | Exec summary + contributions + conflicts |
+| 3.5 | Human Gate design | S | 5 | Trigger + reviewer + SLA |
+| 3.6 | **Workshop Part 1: solo role card draft** | PR | 15 | Learner's own scenario |
+| 3.7 | **Workshop Part 2: pair review + feedback** | PR | 30 | Peer review |
+| 3.8 | break | — | 10 | — |
+| 3.9 | **Workshop Part 3: revision + team feedback** | PR | 25 | Revise + multi-person review |
+| 3.10 | **Workshop Part 4: gallery walk** | PR | 12 | Class walkthrough + vote |
+
+#### PM2 — Hands-on: spawn / task / board / inbox / Gate (120 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | Environment prep | S | 5 | tmux / git / CLI agent ready |
+| 4.2 | `clawteam team spawn-team` hands-on | S | 8 | Run once |
+| 4.3 | Learner self-spawn | PR | 10 | Use §3 role card |
+| 4.4 | `clawteam task create --blocked-by` | S | 8 | Build dependency chain |
+| 4.5 | Learner builds task chain | PR | 10 | — |
+| 4.6 | `clawteam board live` monitor | S | 5 | Watch live |
+| 4.7 | `clawteam inbox send / broadcast` messaging | S | 5 | Agent messaging |
+| 4.8 | Hands-on inbox | PR | 10 | — |
+| 4.9 | `git worktree list` + `context conflicts` detect | S | 8 | Isolation + conflict |
+| 4.10 | break | — | 10 | — |
+| 4.11 | `context inject` integrate | S | 6 | Inject back |
+| 4.12 | Human Gate flow: request / approve / reject | S | 8 | Full gate flow |
+| 4.13 | Hands-on Human Gate | PR | 10 | — |
+| 4.14 | `team snapshot` + `restore` | S | 5 | Freeze & restore |
+| 4.15 | wrap | RC | 12 | Full flow once |
+
+#### Conclusion (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | Demo Day: 5-min team demo × N | PR | 20 | Learner demos |
+| 5.2 | ROI calculation example | SL | 5 | Is Agent Team worth it? |
+| 5.3 | Gate 5 acceptance criteria recap | SL | 3 | 8 evidence items |
+| 5.4 | Congratulations + closing | TH | 2 | End |
+
+### 6.99.2 Lecture-type mix
+
+| Type | Count | Time share |
+| --- | --- | --- |
+| TH | 7 | ~ 6% |
+| S | 27 | ~ 32% |
+| SL | 21 | ~ 22% |
+| PR / EN | 15 | ~ 31% |
+| RC | 8 | ~ 9% |
+
+> L5 is a hands-on workshop; PR share ~31% is much higher than L1 (17%) — by design. L5 learners must **do** to master.
+
+---
+
 ## 7. Post-Course Assignments
 
 1. Complete one **Agent Team role card** (≥ 5 Agent roles).

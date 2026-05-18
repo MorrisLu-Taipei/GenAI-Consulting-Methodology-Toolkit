@@ -353,6 +353,107 @@ clawteam task wait my-team
 
 ---
 
+## 6.99 Lecture Map（依 [`ONLINE_COURSE_DESIGN_METHODOLOGY.md`](ONLINE_COURSE_DESIGN_METHODOLOGY.md) §5.3 切細）
+
+### 6.99.1 §6 完整 Lecture Map / Complete Lecture Map
+
+> L5 是 ~8 小時 hands-on workshop，分 AM (Concept) + PM (Hands-on) 兩個半日。約 100 lectures × 平均 4.8 min = 480 min / 8 hr。
+> L5 is a ~8-hour hands-on workshop, split into AM (Concept) + PM (Hands-on). ~100 lectures × avg 4.8 min = 480 min / 8 hr.
+>
+> 講座類型代碼 / Lecture type codes：**TH** / **S** / **SL** / **VS** / **PR** / **EN** / **RC**（同 L1 / Same as L1）。
+
+#### AM1 — Introduction + L4→L5 Boundary（90 min）
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | 歡迎來到 L5 ClawTeam / Welcome | TH | 4 | 講師 + 為什麼 Multi-Agent Team 是組織級槓桿 / Instructor + why Multi-Agent Team is org-level leverage |
+| 0.2 | 你會學到什麼 / What you'll learn | TH+SL | 3 | 4 條主 LO / 4 primary LOs |
+| 0.3 | **Engagement：寫一句最想交給 Agent Team 的任務** / Engagement: write the task you'd assign | EN+PR | 8 | 全班投票 / Class vote |
+| 1.1 | L4 單 Agent 的極限 / Single-Agent L4 limits | SL | 5 | 為什麼一個 Agent 不夠 / Why one Agent isn't enough |
+| 1.2 | Multi-Agent 的價值 / Multi-Agent value | SL | 5 | 平行 + 專業分工 / Parallelism + specialization |
+| 1.3 | L5 不是 L4 加減版 / L5 is not L4 plus | SL | 5 | 範式轉移 / Paradigm shift |
+| 1.4 | 何時該升 L5 / When to upgrade to L5 | SL | 5 | 6 個觸發條件 / 6 triggers |
+| 1.5 | 何時 L5 過頭 / When L5 is overkill | TH | 5 | 失敗案例 / Failure cases |
+| 1.6 | 章節 recap | RC | 5 | L4→L5 升級檢核 / L4→L5 upgrade checklist |
+| 1.7 | **Formative：分類自己的任務 L4 vs L5** / Classify own tasks | PR | 10 | 用 §3.3 寫的任務試 / Use §3.3 tasks |
+| 1.8 | break | — | 10 | — |
+| 1.9 | 章節 buffer / wrap | RC | 5 | 進入 AM2 過渡 / Transition to AM2 |
+
+#### AM2 — ClawTeam Architecture（90 min）
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | 5 層架構總覽 / 5-layer overview | SL+VS | 5 | Team / Workspace / Task / Inbox / Transport |
+| 2.2 | Team Management | S | 5 | spawn-team 概念 / spawn-team concept |
+| 2.3 | Workspace Isolation (git worktree) | S | 5 | 為什麼用 worktree / Why worktree |
+| 2.4 | Task Tracking + Dependencies | S | 5 | Kanban + blocked-by |
+| 2.5 | Inter-Agent Messaging | S | 5 | inbox + broadcast |
+| 2.6 | Transport: File / P2P / Redis | SL | 5 | 部署模式 3 階段 / 3 deployment stages |
+| 2.7 | CLI 速查卡 walkthrough / CLI quick-ref walkthrough | S | 8 | §1.x 速查卡逐區介紹 / §1.x card section-by-section |
+| 2.8 | Hedge Fund 案例導讀 / Hedge Fund pattern intro | SL | 6 | 訊號匯合範例 / Signal convergence example |
+| 2.9 | 章節 recap | RC | 6 | 5 層 + 5 CLI 動作 / 5 layers + 5 CLI commands |
+| 2.10 | break | — | 10 | — |
+| 2.11 | **Formative：手動畫 5 層架構** / Sketch the 5 layers | PR | 5 | 紙筆 / Pen & paper |
+| 2.12 | wrap | RC | 5 | 進入 PM1 過渡 / Transition to PM1 |
+
+#### PM1 — Task Design Workshop + Agent Role Card（120 min）
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | Agent 角色卡 1 頁範本 / Role card template | SL | 5 | 7 欄完整 / 7 fields |
+| 3.2 | 範例角色卡 demo：製造業 / Example: manufacturing | S | 8 | 5 Agent 完整跑一次 / Full 5-Agent walkthrough |
+| 3.3 | 任務分派表設計 / Task allocation design | S | 5 | blocked-by 鏈條 / blocked-by chain |
+| 3.4 | 整合報告範本 / Integration report template | S | 5 | exec summary + contributions + conflicts |
+| 3.5 | Human Gate 設計 / Human Gate design | S | 5 | 觸發 + reviewer + SLA |
+| 3.6 | **Workshop Part 1：solo draft 角色卡** / Workshop Part 1: solo role card draft | PR | 15 | 學員用自己情境 / Learner's own scenario |
+| 3.7 | **Workshop Part 2：pair review + feedback** | PR | 30 | 同儕互審 / Peer review |
+| 3.8 | break | — | 10 | — |
+| 3.9 | **Workshop Part 3：revision + team feedback** | PR | 25 | 修正 + 多人 review / Revise + multi-person review |
+| 3.10 | **Workshop Part 4：gallery walk** | PR | 12 | 全班互看 + 投票最佳 / Class walkthrough + vote |
+
+#### PM2 — Hands-on：spawn / task / board / inbox / Gate（120 min）
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | 環境準備 / Environment prep | S | 5 | tmux / git / CLI agent ready |
+| 4.2 | `clawteam team spawn-team` 實操 / hands-on | S | 8 | 跑一次 / Run once |
+| 4.3 | 學員自己 spawn / Learner self-spawn | PR | 10 | 用 §3 角色卡 / Use §3 role card |
+| 4.4 | `clawteam task create --blocked-by` | S | 8 | 建依賴鏈 / Build dependency chain |
+| 4.5 | 學員自己建 task chain | PR | 10 | — |
+| 4.6 | `clawteam board live` 監看 / monitor | S | 5 | 即時看 / Watch live |
+| 4.7 | `clawteam inbox send / broadcast` 溝通 / messaging | S | 5 | Agent 間訊息 / Agent messaging |
+| 4.8 | 學員實作 inbox 互動 / hands-on inbox | PR | 10 | — |
+| 4.9 | `git worktree list` + `context conflicts` 偵測 / detect | S | 8 | 隔離 + 衝突 / Isolation + conflict |
+| 4.10 | break | — | 10 | — |
+| 4.11 | `context inject` 整合 / integrate | S | 6 | 把整合 context 注回 / Inject back |
+| 4.12 | Human Gate 流程：request / approve / reject | S | 8 | 一條完整 Gate 流程 / Full gate flow |
+| 4.13 | 學員實作 Human Gate / hands-on | PR | 10 | — |
+| 4.14 | `team snapshot` + `restore` / snapshot & restore | S | 5 | 凍結與還原 / Freeze & restore |
+| 4.15 | wrap | RC | 12 | 完整流程跑一次 / Full flow once |
+
+#### Conclusion（30 min）
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | Demo Day：每組 5 分鐘展示 / 5-min team demo × N | PR | 20 | 學員展示 / Learner demo |
+| 5.2 | ROI 計算範例 / ROI calculation example | SL | 5 | Agent Team 划算嗎 / Worth it? |
+| 5.3 | Gate 5 完成標準回顧 / Gate 5 recap | SL | 3 | 8 個 evidence / 8 evidence items |
+| 5.4 | 恭喜 + 結語 / Congratulations + closing | TH | 2 | 結束 / End |
+
+### 6.99.2 Lecture-type mix / 講座類型比例
+
+| Type | Count | Time share |
+| --- | --- | --- |
+| TH | 7 | ~ 6% |
+| S | 27 | ~ 32% |
+| SL | 21 | ~ 22% |
+| PR / EN | 15 | ~ 31% |
+| RC | 8 | ~ 9% |
+
+> L5 是 hands-on workshop，PR 比例 ~ 31% 遠高於 L1（17%）—— 預期。L5 學員必須**動手做**才能掌握。/ L5 is a hands-on workshop; PR share ~31% is much higher than L1 (17%) — by design. L5 learners must **do** to master.
+
+---
+
 ## 7. 課後作業 / Post-Course Assignments
 
 1. 完成 1 個 **Agent Team 角色卡**（至少 5 個 Agent 角色）/ Complete one Agent Team role card (≥ 5 Agent roles)

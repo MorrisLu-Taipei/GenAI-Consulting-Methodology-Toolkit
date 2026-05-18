@@ -133,6 +133,114 @@ Maps to **Gate 3A-3G** (§9). 10 deliverables → see §10.
 
 ## 5. Course Versions
 
+### 5.0 Lecture Map (per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.3)
+
+#### 5.0.1 §5.1 Foundation Complete Lecture Map (~45 lectures × avg 4 min = 180 min / 3 hr + buffer)
+
+> Lecture type codes: **TH** / **S** / **SL** / **VS** / **PR** / **EN** / **RC**.
+
+##### Section 0 — Introduction (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | Welcome to L3 n8n | TH | 3 | Instructor + why workflow automation is dept productivity foundation |
+| 0.2 | What you'll learn | TH+SL | 2 | 4 primary LOs preview |
+| 0.3 | **Engagement: dissect an existing workflow** | EN+S | 5 | Pre-built workflow → learners identify Trigger / 3 nodes / HITL Gate |
+
+##### Section 1 — L3 Positioning (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 1.1 | L2 Blueprint vs L3 Workflow | SL | 5 | Spec vs execution |
+| 1.2 | Why n8n | SL | 5 | vs Make / Zapier / Airflow |
+| 1.3 | n8n vs Antigravity roles | SL | 5 | AG = dev; n8n = ops |
+| 1.4 | L3 upper vs lower half | SL | 5 | Manual vs Skill Pack generation |
+| 1.5 | What you'll own after L3 | TH | 5 | 10 deliverables preview |
+| 1.6 | Section recap | RC | 5 | L3 learning path |
+
+##### Section 2 — n8n Foundations (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | n8n UI overview | S | 4 | Editor / Executions / Credentials |
+| 2.2 | Trigger nodes | S | 5 | Manual / Webhook / Cron / Event |
+| 2.3 | Node concept | S | 5 | Input / Output / Settings |
+| 2.4 | Credential management | S | 5 | API Key / OAuth / encrypted storage |
+| 2.5 | Webhook implementation | S | 5 | Receive external data |
+| 2.6 | Execution observability | S | 5 | Success / failure / replay |
+| 2.7 | First Hello World workflow | S | 6 | Webhook → Set → Sheets |
+| 2.8 | Section recap | RC | 5 | 5 n8n core concepts |
+| 2.9 | **Formative: build Hello World** | PR | 5 | Learners build on the spot |
+
+##### Section 3 — Blueprint Conversion (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | L2 Blueprint 9 fields recap | SL | 5 | Trigger / Input / Process / Output / Gate / Log / Error |
+| 3.2 | Trigger conversion | S | 5 | Blueprint Trigger → n8n Trigger node |
+| 3.3 | Input schema mapping | S | 5 | Sample payload testing |
+| 3.4 | Node map mapping | S | 6 | Blueprint Process → n8n node sequence |
+| 3.5 | Output schema mapping | S | 5 | Where output writes |
+| 3.6 | Sample payload testing | S | 5 | curl / Postman / n8n test |
+| 3.7 | Full conversion example | SL | 5 | 1 complete Blueprint → 1 workflow |
+| 3.8 | Section recap | RC | 4 | Conversion SOP |
+| 3.9 | **Formative: convert a Blueprint** | PR | 5 | Learners convert L2 Blueprint |
+
+##### Section 4 — AI Node / Gemini (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | AI Node intro | S | 5 | Gemini / OpenAI / Anthropic / local |
+| 4.2 | Text processing demo | S | 5 | Classify / summarize / translate |
+| 4.3 | Image processing demo | S | 5 | Multimodal input |
+| 4.4 | Document processing demo | S | 5 | PDF / docx / pptx |
+| 4.5 | Prompt best practices in n8n | SL | 5 | Difference from L1 prompts |
+| 4.6 | Token / cost considerations | SL | 4 | How costs add up |
+| 4.7 | Multi-model fallback | S | 5 | Primary + backup |
+| 4.8 | Section recap | RC | 4 | 7 AI Node use cases |
+| 4.9 | **Formative: build an AI step** | PR | 7 | Learners add AI Node |
+
+##### Section 5 — Gate / Log (45 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | Why HITL Gate is required | TH | 5 | 3 AI auto-publish failure cases |
+| 5.2 | Human Gate design | S | 5 | Which conditions trigger review |
+| 5.3 | Gate notification channels | S | 5 | Slack / Email / LINE |
+| 5.4 | Gate review UI | S | 5 | n8n built-in vs custom |
+| 5.5 | Execution Log design | S | 5 | Which fields to log |
+| 5.6 | Failure testing | S | 5 | Intentionally fail to observe |
+| 5.7 | 5-layer governance | SL | 5 | HITL / Error / notif / retry / fallback |
+| 5.8 | Section recap | RC | 4 | Gate + Log design checklist |
+| 5.9 | **Formative: add Gate + Log** | PR | 6 | Learners add to own workflow |
+
+##### Section 6 — Conclusion (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 6.1 | Course recap | TH | 3 | All 4 LOs + Gate 3A passed? |
+| 6.2 | L3 Builder / Advanced preview | SL | 3 | §5.2 / §5.3 next |
+| 6.3 | L3 lower-half Skill Pack preview | TH | 2 | §5.5 auto-generated workflows |
+| 6.4 | Congratulations + next steps | TH | 2 | Closing |
+
+#### 5.0.2 §5.2 Builder Lecture Map (stub)
+
+`8 hours = ~120 lectures. Section structure: Intro → Trigger → Data handling → AI processing → Platform action → Human Gate → Error/retry → Demo/Review → Conclusion.`
+
+#### 5.0.3 §5.3 Advanced Lecture Map (stub)
+
+`8 hours = ~120 lectures. Section structure: Intro → Sub-workflow → Data Tables → GitHub backup → Credential governance → Monitoring → L4 readiness → Conclusion.`
+
+#### 5.0.4 §5.4 Enterprise Lab Lecture Map (stub)
+
+`2 days = ~240 lectures; recommended split into 4 half-day mini-courses.`
+
+#### 5.0.5 §5.5 AG + Skill Pack Lecture Map (stub)
+
+`6-8 hours = ~80-100 lectures. Section structure: Intro → Skill Pack concepts → Install → Cookbook mode → Q&A generation → Review → Example finder → Deploy / acceptance → Conclusion.`
+
+---
+
 ### 5.1 L3 Foundation: 3 Hours
 
 Goal: Build n8n fundamentals and the ability to take over from L2.

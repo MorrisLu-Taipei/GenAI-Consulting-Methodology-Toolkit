@@ -357,6 +357,110 @@ This Agent serves the manufacturing QC department, helping accumulate QC SOPs, d
 
 ## 7. Full Course Versions
 
+### 7.0 Lecture Map (per [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §5.3)
+
+#### 7.0.1 §7.1 Foundation Complete Lecture Map (~50 lectures × avg 4.4 min = 220 min / 3.5 hr, with buffer)
+
+> Lecture type codes: **TH** / **S** / **SL** / **VS** / **PR** / **EN** / **RC**.
+
+##### Section 0 — Introduction (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 0.1 | Welcome to L4 Hermes Agent | TH | 3 | Instructor + why knowledge-Agent is dept-level competitive inflection |
+| 0.2 | What you'll learn | TH+SL | 2 | 4 primary LOs preview |
+| 0.3 | **Engagement: write 3 dept tasks that waste most time** | EN+PR | 5 | Brainstorm → vote 1 most-worth-L4 task |
+
+##### Section 1 — L4 Positioning (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 1.1 | L1 Chat's limits | SL | 4 | No memory / no governance |
+| 1.2 | L2 Skill's limits | SL | 4 | No context accumulation |
+| 1.3 | L3 Workflow's limits | SL | 4 | No autonomous judgment |
+| 1.4 | What is Hermes Agent | SL+VS | 5 | Knowledge accumulation + autonomous orchestration |
+| 1.5 | L4 vs RAG | SL | 4 | Why not just RAG |
+| 1.6 | L4 is not a silver bullet | TH | 5 | When not to use L4 |
+| 1.7 | Section recap | RC | 4 | L1-L4 mapping diagram |
+
+##### Section 2 — Seven Design Principles (40 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 2.1 | Principle 1: light-by-day / heavy-by-night | SL | 5 | When to ingest vs query |
+| 2.2 | Principle 2: knowledge compounding loop | SL | 5 | Each update makes the next smarter |
+| 2.3 | Principle 3: P1 > P2 | SL | 5 | Mission File guards first gate |
+| 2.4 | Principle 4: write-read same source | SL | 5 | Knowledge Base is bidirectional |
+| 2.5 | Principle 5: tool / LLM division of labor | SL | 5 | Skills are tools; LLM is orchestrator |
+| 2.6 | Principle 6: failure-mode-driven learning | SL | 5 | Task Tracking File's value |
+| 2.7 | Principle 7: why not just RAG | SL | 5 | Structured ingest vs ad-hoc retrieval |
+| 2.8 | **Formative: run §3.3 tasks through 7-principle self-assessment** | PR | 5 | Learner self-assesses |
+
+##### Section 3 — Hermes Architecture (40 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 3.1 | Architecture overview (§3.7) | SL+VS | 5 | 5 core components |
+| 3.2 | Mission File | S | 4 | First gate |
+| 3.3 | Knowledge Base | S | 5 | Structured vs pure vector |
+| 3.4 | Index Cache | S | 5 | Why caching |
+| 3.5 | Skill Library | S | 5 | Unified JSON schema |
+| 3.6 | Task Tracking File | S | 5 | Provenance + failure log |
+| 3.7 | Background Workers | SL | 5 | 4 background tasks |
+| 3.8 | Section recap | RC | 6 | Architecture + 7 flows mapping |
+
+##### Section 4 — Enterprise Scenarios (40 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 4.1 | Manufacturing: QC knowledge accumulation | SL | 6 | Use case + Skill mix |
+| 4.2 | Hospital: case knowledge integration | SL | 6 | Cross-department query |
+| 4.3 | Customer service: FAQ + case knowledge | SL | 5 | Continuously growing FAQ |
+| 4.4 | Legal: contract / regulation tracking | SL | 5 | Regulation change detection |
+| 4.5 | Marketing: competitor + content library | SL | 5 | Content reuse |
+| 4.6 | R&D: papers / patents / internal research | SL | 5 | Knowledge graph starter |
+| 4.7 | **Formative: pair scenario with §3.3 task** | PR | 8 | Learner matches |
+
+##### Section 5 — IPOE & Stage Gates (30 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 5.1 | IPOE 4 fields recap | SL | 5 | Input / Process / Output / Evidence |
+| 5.2 | Gate 4A: environment ready | SL | 5 | 5 evidence items |
+| 5.3 | Gate 4B: knowledge base ready | SL | 5 | Domain structure + index |
+| 5.4 | Gate 4C: ingest loop closes | SL | 5 | Source page + log |
+| 5.5 | Gate 4D: query/update works | SL | 5 | Query record + diff |
+| 5.6 | Gate 4E: ops/governance works | SL | 5 | Schedule + briefing + failure modes |
+
+##### Section 6 — Workshop: Agent Task Card Draft (40 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 6.1 | Task card 1-page template intro | SL | 5 | Department / boundary / input / Gate |
+| 6.2 | Example task card demo | S | 5 | Manufacturing QC Agent template |
+| 6.3 | Learners fill cards (first 15 min) | PR | 15 | Use own §3.3 task |
+| 6.4 | Peer review (10 min) | PR | 10 | Find blind spots |
+| 6.5 | Section recap | RC | 5 | Task card 5-field check |
+
+##### Section 7 — Conclusion (10 min)
+
+| # | Lecture title | Type | Min | Content / Hook |
+| --- | --- | --- | --- | --- |
+| 7.1 | Course recap | TH | 3 | 4 LOs + task card draft |
+| 7.2 | L4 Builder / Operator preview | SL | 3 | §7.2 / §7.3 next |
+| 7.3 | L5 transition: when to upgrade to Multi-Agent | TH | 2 | Upgrade triggers |
+| 7.4 | Congratulations + next steps | TH | 2 | Closing |
+
+#### 7.0.2 §7.2 Builder Lecture Map (stub)
+
+`8 hours = ~120 lectures. Section structure: Intro → Environment health check → Skill installation → Configuration init → Bootstrap knowledge base → Ingest implementation → Query / write-read same source → L2/L3 plug-in → Gate 4 acceptance → Conclusion.`
+
+#### 7.0.3 §7.3 Operator Lecture Map (stub)
+
+`2 days = ~240 lectures. Section structure: Intro → Orient-first SOP → Update mode → Lint/schema → Autonomous discovery → Briefing cadence → Knowledge graph integration → Schedule/Runbook → Failure mode drill → Governance → Demo day. Recommended: split into 4 half-day mini-courses.`
+
+---
+
 ### 7.1 L4 Foundation: 3 Hours
 
 Goal: Help managers and the seed team understand the value, limits, and acceptance methods of the Hermes Agent.
