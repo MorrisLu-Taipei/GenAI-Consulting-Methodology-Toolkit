@@ -42,20 +42,27 @@ These three Google codelabs should sit within L2-B. They are not merely IDE tuto
 
 ---
 
-## 3. Course Objectives
+## 3. Learning Objectives
 
-After completing this course, students should be able to:
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
 
-1. Explain the differences between Antigravity and a traditional IDE / coding assistant.
-2. Configure the Agent's terminal execution policy, Review Policy, JavaScript execution policy, and Safe Mode.
-3. Use Agent Manager to manage workspace, task, implementation plan, and walkthrough artifact.
-4. Use the Antigravity Browser to perform external web data extraction, interaction, and verification.
-5. Use the Agent to generate a runnable application prototype.
-6. Ask the Agent to produce README, tests, documentation, and validation evidence.
-7. Use Antigravity to plan a GCP serverless architecture.
-8. Generate and review infrastructure scripts, Cloud Run services, Dockerfiles, requirements files, and deployment steps.
-9. Use GCS, Pub/Sub, Cloud Run, Gemini, and BigQuery to complete a document processing pipeline PoC.
-10. Consolidate course outputs into an L2 Skill Library and produce candidate tasks for L3 Workflow / L4 Agent.
+### 3.1 Four primary LOs for the CLP
+
+By the end of the L2 course, learners can:
+
+1. **Configure** Antigravity's three governance pillars (terminal execution policy / Review Policy / JavaScript execution policy), **producing** an auditable Agent operation policy table + governance screenshots for their team. (Apply)
+2. **Use** Agent Manager to plan and execute a runnable application prototype, **accompanied** by three pieces of acceptable evidence: README + unit tests + walkthrough artifact. (Apply)
+3. **Design** a GCP serverless document processing pipeline (GCS + Pub/Sub + Cloud Run + Gemini + BigQuery), **deploying** it to the cloud and completing one real sample end-to-end validation. (Create)
+4. **Produce** an L2 Skill Library (≥ 3 reusable Skills), **evaluating** the L3 Workflow candidate and L4 Agent candidate for each Skill, **delivering** them to the L3 course as Workflow Blueprint input. (Evaluate)
+
+### 3.2 Detailed capability list (section mapping)
+
+| Primary LO | Supporting capabilities |
+| --- | --- |
+| LO1 (governance) | Distinguish Antigravity vs traditional IDE / coding assistant; set safe mode; configure Review flow |
+| LO2 (prototype) | Use Agent Manager to manage workspace / task / implementation plan; use Antigravity Browser for external data extraction; require Agent to produce README / tests / docs |
+| LO3 (cloud architecture) | Plan GCP serverless architecture; generate and review IaC / Cloud Run service / Dockerfile / requirements / deployment steps |
+| LO4 (L3 bridge) | Organize Skill Library; mark L3 Workflow candidates and L4 Agent candidates; deliver Workflow Blueprint |
 
 ---
 

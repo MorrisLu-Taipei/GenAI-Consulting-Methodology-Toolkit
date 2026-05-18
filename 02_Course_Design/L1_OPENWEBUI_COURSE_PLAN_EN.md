@@ -50,19 +50,29 @@ Official documentation references:
 
 ---
 
-## 3. Course Objectives
+## 3. Learning Objectives
 
-After completing the L1 course, the client should be able to:
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
 
-1. Explain OpenWebUI's role at L1 of the enterprise AI maturity model.
-2. Complete OpenWebUI sign-in and basic chat operations.
-3. Build a personal chat area: new chats, history, folders, prompts, and files.
-4. Use prompts to complete high-frequency work such as emails, meeting minutes, summaries, and report drafts.
-5. Use file upload or Knowledge to perform Q&A on low-sensitivity documents.
-6. Understand model selection, parameters, hallucinations, and human confirmation.
-7. Enable Admins to manage accounts, roles, groups, permissions, models, and features.
-8. Enable IT / HR to establish AI usage policies, data classification, and the Gate 1 acceptance checklist.
-9. Produce an L2 Skill candidate list.
+### 3.1 Four primary LOs for the CLP (the promise learners see before enrolling)
+
+By the end of the L1 course, learners can:
+
+1. **Apply** OpenWebUI's three-layer RBAC (Roles / Permissions / Groups) to **design** a permission matrix for their own department (least privilege → group escalation), **producing** an auditable Admin Panel configuration screenshot set. (Apply)
+2. **Execute** AI-accelerated workflows for the 4 high-frequency tasks (Email / meeting minutes / summary / report draft), **publishing** 5 prompt templates to a personal Prompt Library. (Apply)
+3. **Identify** the 4 data sensitivity tiers (public / internal / sensitive / forbidden) for AI input, **judging** when data can be pasted, must be de-identified, or requires human confirmation; **producing** a 1-page AI usage policy draft. (Analyze)
+4. **Produce** an L2 Skill candidate list (≥ 5 prompt patterns observed in actual use), **validating** each with repeatability + ROI evidence and ranking against L2 upgrade triggers. (Evaluate)
+
+### 3.2 Detailed capability list (section mapping)
+
+Each primary LO is supported by multiple detailed capabilities throughout the course:
+
+| Primary LO | Supporting capabilities |
+| --- | --- |
+| LO1 (permissions) | Login / model switch / new chat; Admin creates accounts / roles / groups; configure model visibility & feature permissions |
+| LO2 (high-frequency work) | Build personal chat area (folders / prompts / files); use file upload or Knowledge for low-sensitivity Q&A; understand model selection / parameters / hallucinations / human confirmation |
+| LO3 (data boundary) | Define inputtable / forbidden / human-confirmation-required data; produce AI usage policy and Gate 1 acceptance checklist |
+| LO4 (L2 bridge) | Observe and record L1 usage patterns; ROI-evaluate candidates; deliver to L2 course as Skill candidates |
 
 ---
 

@@ -105,19 +105,27 @@ L4 does not oppose RAG — it makes RAG one retrieval stage within the "knowledg
 
 ---
 
-## 3. Course Objectives
+## 3. Learning Objectives
 
-After completing the L4 course, students should be able to:
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
 
-1. Explain the differences between the Hermes Agent and L1 Chat, L2 Skill, and L3 Workflow.
-2. Explain the seven design principles in Section 2 and use them to review their own Agent design.
-3. Design the use scenario, task boundaries, input sources, and human Gate of a department-level Hermes Agent.
-4. Build the Hermes Agent's knowledge-operations structure: purpose file, domain-structure file, inbox, task queue, watchlist, task-tracking file, knowledge base, index cache.
-5. Define what input the L4 Agent consumes, what process it runs, what output it produces, and what evidence is used to verify it.
-6. Design the workflows for ingest, query, update, lint, briefing, discovery, and knowledge-graph synthesis.
-7. Plug L2 Skills and L3 Workflows into the Hermes Agent's task chain.
-8. Build the Agent operations Runbook, permission table, evidence table, Stage Gate, and go-live checklist.
-9. Judge which tasks are suitable for L4 and which must remain at L1-L3 or be deferred to L5.
+### 3.1 Four primary LOs for the CLP
+
+By the end of the L4 course, learners can:
+
+1. **Apply** the seven design principles from §2 (light-by-day / heavy-by-night; knowledge compounding closed-loop; P1>P2; write-read same source; tool-LLM division of labor; failure-mode-driven learning; why not just RAG) to **review** their own Agent design, **producing** a seven-principle self-assessment table. (Apply)
+2. **Design** a department-level Hermes Agent use scenario, **defining** task boundary / input sources / human Gate / IPOE, **producing** a 1-page Agent task card + permission matrix. (Create)
+3. **Build** Hermes Agent's 8-piece knowledge operations structure (purpose / domain structure / inbox / task queue / watchlist / task tracking / knowledge base / index cache), **completing** an end-to-end dry-run of all 7 operation flows (ingest / query / update / lint / briefing / discovery / knowledge graph). (Create)
+4. **Evaluate** the L4 fit of department candidate tasks, **judging** which suit L4, which must stay L1-L3, which defer to L5; **producing** an L4 task candidate list + L1-L5 task triage map. (Evaluate)
+
+### 3.2 Detailed capability list (section mapping)
+
+| Primary LO | Supporting capabilities |
+| --- | --- |
+| LO1 (principles) | Distinguish Hermes Agent vs L1 Chat / L2 Skill / L3 Workflow; explain why not just RAG |
+| LO2 (task design) | Design use scenario / task boundary / input sources / human Gate; define IPOE |
+| LO3 (knowledge architecture) | Build 8-piece knowledge operations structure; design 7 operation flows; plug in L2 Skills + L3 Workflows |
+| LO4 (governance & triage) | Build Agent Runbook / permission table / evidence table / Stage Gate / go-live checklist; do L1-L5 task triage |
 
 ---
 

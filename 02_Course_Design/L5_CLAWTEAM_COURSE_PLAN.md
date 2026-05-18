@@ -25,21 +25,27 @@
 
 Evolve the enterprise from **single Agent (L4 Hermes)** to **multi-Agent self-organizing team (L5 ClawTeam)**: a human issues one high-level goal and the Agent Team autonomously decomposes, delegates, executes in parallel, integrates, and submits to human Gate review.
 
-### 學員能在課後做到 / By the end of this course, learners can
+### Bloom 格式主 LO / Bloom-format primary LOs
 
-1. 用 `clawteam team spawn-team` 開出一個指定領域的 Agent 團隊。
-2. 用 `clawteam task create` 撰寫帶有依賴關係 (`--blocked-by`) 的任務隊列。
-3. 用 `clawteam inbox send / broadcast` 在 Agent 之間傳訊。
-4. 用 `clawteam board show / live` 監看 Team 進度。
-5. 設計 **跨部門 Agent Team 角色卡**、**任務分派表**、**整合報告模板** 與 **Human Gate 設計**。
-6. 量化 Agent Team 之 ROI、治理、權限與審核機制。
+> 本節以 [`ONLINE_COURSE_DESIGN_METHODOLOGY.md`](ONLINE_COURSE_DESIGN_METHODOLOGY.md) §4 的 Bloom 公式撰寫：**[動詞] + [內容] + [情境]**，可驗收、可量測。
+>
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
 
-1. Spawn a domain-specific Agent team using `clawteam team spawn-team`.
-2. Author a dependency-aware (`--blocked-by`) task queue using `clawteam task create`.
-3. Pass messages between Agents using `clawteam inbox send / broadcast`.
-4. Monitor team progress with `clawteam board show / live`.
-5. Design **cross-functional Agent Team role cards**, **task allocation tables**, **integration report templates**, and **Human Gate designs**.
-6. Quantify the Agent Team's ROI, governance, permissions, and review mechanisms.
+#### 給 CLP 用的 4 條主 LO / 4 primary LOs for the CLP
+
+完成本課程後，學員能夠：By the end of this course, learners can:
+
+1. **建構** 一個指定領域的 Agent 團隊（用 `clawteam team spawn-team` 開團 + `task create --blocked-by` 撰寫依賴任務鏈），**完成** 1 個可平行執行的 5-Agent 任務佇列端到端 dry-run。
+   **Build** a domain-specific Agent team (`clawteam team spawn-team` + dependency-aware `task create --blocked-by`), **completing** an end-to-end dry-run of a parallel-executable 5-Agent task queue. (Apply)
+
+2. **設計** 跨部門 Agent Team 的 4 件核心構件：角色卡（≥ 5 Agent）、任務分派表、整合報告模板、Human Gate 設計，**產出** 至少 1 個產業情境（製造 / 零售 / 醫療擇一）的完整套件。
+   **Design** the 4 core artifacts of a cross-functional Agent Team: role cards (≥ 5 Agents), task allocation table, integration report template, Human Gate design; **producing** one complete set for an industry scenario (manufacturing / retail / healthcare). (Create)
+
+3. **使用** `clawteam inbox` + `board` 監看與協調 Team 進度，**辨識** workspace context 衝突 + 整合死鎖 + Agent 失誤三大失敗模式，**設計** 對應的偵測與恢復流程。
+   **Use** `clawteam inbox` + `board` to monitor and coordinate team progress; **identify** the 3 failure modes (workspace context conflicts / integration deadlocks / Agent errors); **design** corresponding detection and recovery flows. (Analyze)
+
+4. **評估** 公司候選任務的 L5 適配度，**量化** Agent Team 之 ROI / 治理 / 權限 / 審核成本，**判斷** 何時該升級到 L5、何時該留在 L4；**產出** L5 投資決策書。
+   **Evaluate** the L5 fit of company candidate tasks, **quantifying** the Agent Team's ROI / governance / permissions / review cost; **judging** when to upgrade to L5 vs stay at L4; **producing** an L5 investment decision document. (Evaluate)
 
 ---
 

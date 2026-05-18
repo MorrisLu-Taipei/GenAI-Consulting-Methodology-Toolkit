@@ -19,14 +19,21 @@ Author: Morris Lu (盧業興) · Tiger AI 虎智科技
 
 Evolve the enterprise from **single Agent (L4 Hermes)** to **multi-Agent self-organizing team (L5 ClawTeam)**: a human issues one high-level goal and the Agent Team autonomously decomposes, delegates, executes in parallel, integrates, and submits to human Gate review.
 
-### By the end of this course, learners can
+### Bloom-format primary LOs
 
-1. Spawn a domain-specific Agent team using `clawteam team spawn-team`.
-2. Author a dependency-aware (`--blocked-by`) task queue using `clawteam task create`.
-3. Pass messages between Agents using `clawteam inbox send / broadcast`.
-4. Monitor team progress with `clawteam board show / live`.
-5. Design **cross-functional Agent Team role cards**, **task allocation tables**, **integration report templates**, and **Human Gate designs**.
-6. Quantify the Agent Team's ROI, governance, permissions, and review mechanisms.
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
+
+#### Four primary LOs for the CLP
+
+By the end of this course, learners can:
+
+1. **Build** a domain-specific Agent team (`clawteam team spawn-team` + dependency-aware `task create --blocked-by`), **completing** an end-to-end dry-run of a parallel-executable 5-Agent task queue. (Apply)
+
+2. **Design** the 4 core artifacts of a cross-functional Agent Team: role cards (≥ 5 Agents), task allocation table, integration report template, Human Gate design; **producing** one complete set for an industry scenario (manufacturing / retail / healthcare). (Create)
+
+3. **Use** `clawteam inbox` + `board` to monitor and coordinate team progress; **identify** the 3 failure modes (workspace context conflicts / integration deadlocks / Agent errors); **design** corresponding detection and recovery flows. (Analyze)
+
+4. **Evaluate** the L5 fit of company candidate tasks, **quantifying** the Agent Team's ROI / governance / permissions / review cost; **judging** when to upgrade to L5 vs stay at L4; **producing** an L5 investment decision document. (Evaluate)
 
 ---
 

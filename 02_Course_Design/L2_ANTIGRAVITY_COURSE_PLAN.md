@@ -40,20 +40,27 @@
 
 ---
 
-## 3. 課程目標
+## 3. 課程目標 / Learning Objectives
 
-完成本課程後，學員應能：
+> 本節以 [`ONLINE_COURSE_DESIGN_METHODOLOGY.md`](ONLINE_COURSE_DESIGN_METHODOLOGY.md) §4 的 Bloom 公式撰寫：**[動詞] + [內容] + [情境]**，可驗收、可量測。
 
-1. 說明 Antigravity 與傳統 IDE / coding assistant 的差異。
-2. 設定 Agent 的終端機執行政策、Review Policy、JavaScript 執行政策與安全模式。
-3. 使用 Agent Manager 管理 workspace、task、implementation plan、walkthrough artifact。
-4. 使用 Antigravity Browser 完成外部網頁資料擷取、互動與驗證。
-5. 使用 Agent 產生可運行的應用程式原型。
-6. 要求 Agent 產生 README、測試、文件與驗證證據。
-7. 使用 Antigravity 規劃 GCP serverless 架構。
-8. 產生並審查基礎設施指令碼、Cloud Run service、Dockerfile、requirements、部署步驟。
-9. 用 GCS、Pub/Sub、Cloud Run、Gemini、BigQuery 完成文件處理 pipeline PoC。
-10. 將課程成果整理成 L2 Skill Library，並輸出 L3 Workflow / L4 Agent 候選任務。
+### 3.1 給 CLP 用的 4 條主 LO（學員選課前看見的承諾）
+
+完成 L2 課程後，學員能夠：
+
+1. **設定** Antigravity 的安全治理三本柱（終端機執行政策 / Review Policy / JavaScript 執行政策），**為自己團隊產出** 一份可審計的 Agent 操作政策表 + 治理截圖。（Apply）
+2. **使用** Agent Manager 規劃並執行一個可運行的應用程式原型，**附帶** README / 單元測試 / Walkthrough artifact 三項可驗收證據。（Apply）
+3. **設計** 一條 GCP serverless 文件處理 pipeline（GCS + Pub/Sub + Cloud Run + Gemini + BigQuery），**部署** 到雲端並完成 1 個真實樣本端到端驗證。（Create）
+4. **產出** L2 Skill Library（≥ 3 個可重複使用 Skill），**評估** 每個 Skill 對應的 L3 Workflow 候選與 L4 Agent 候選任務，**交付** 給 L3 課程作為 Workflow Blueprint 輸入。（Evaluate）
+
+### 3.2 細部能力清單（章節對應）
+
+| 主 LO | 對應細部能力 |
+| --- | --- |
+| LO1（治理） | 區辨 Antigravity vs 傳統 IDE / coding assistant；建立安全模式；設定 Review 流程 |
+| LO2（原型） | 用 Agent Manager 管理 workspace / task / implementation plan；用 Antigravity Browser 擷取外部資料；要求 Agent 產生 README / 測試 / 文件 |
+| LO3（雲架構） | 規劃 GCP serverless 架構；產生並審查 IaC / Cloud Run service / Dockerfile / requirements / 部署步驟 |
+| LO4（L3 銜接） | 整理 Skill Library；標記 L3 Workflow 候選與 L4 Agent 候選；交付 Workflow Blueprint |
 
 ---
 

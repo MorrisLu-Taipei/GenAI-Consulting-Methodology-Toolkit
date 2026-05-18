@@ -43,20 +43,27 @@ The L3 course follows a "concepts first, generation second" principle and is spl
 
 ---
 
-## 2. Course Objectives
+## 2. Learning Objectives
 
-After completing the L3 course, students should be able to:
+> Written per the Bloom formula in [`ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md`](ONLINE_COURSE_DESIGN_METHODOLOGY_EN.md) §4: **[Verb] + [Content] + [Context]** — assessable and measurable.
 
-1. Read and understand a Workflow Blueprint produced by L2.
-2. Create Triggers, Nodes, Credentials, Webhooks, and Executions in n8n.
-3. Integrate Gmail, LINE, Facebook, YouTube, Google Sheets, Data Tables, APIs, CRMs, ERPs, or other platforms.
-4. Use Gemini / AI Nodes to process text, images, audio, video, and documents.
-5. Build Sub-workflows to modularize reusable processes.
-6. Build Data Tables Schemas or state tables.
-7. Design human-review gates to prevent the AI from auto-publishing high-risk content.
-8. Design error handling, notification, retry, and fallback.
-9. Back up Workflows and Credentials to GitHub or a designated version repository.
-10. Produce auditable Workflow JSON, Execution Logs, test logs, and operations Runbooks.
+### 2.1 Four primary LOs for the CLP
+
+By the end of the L3 course, learners can:
+
+1. **Interpret** a Workflow Blueprint produced by L2, **construct** the complete Trigger / Node / Credential / Webhook / Execution chain in n8n, **deploying** one repeatable end-to-end workflow. (Apply)
+2. **Integrate** at least 3 external systems (any 3 of Gmail / Sheets / API / CRM / ERP), **using** Gemini / AI Nodes to process multimodal data (at least 2 of text / image / audio / document), **completing** one cross-system PoC. (Apply)
+3. **Design** a five-layer governance mechanism (human review gate / error handling / notification / retry / fallback) to **prevent** AI from auto-publishing high-risk content; **producing** a governance checklist. (Analyze)
+4. **Use** Antigravity + TigerAI-n8n-Skill-Pack (§5.5) to **generate** deployable workflow JSON from natural language intent, **auditing** the generated Trigger / Gate / operability, **producing** ≥ 2 audited generated workflows. (Create + Evaluate)
+
+### 2.2 Detailed capability list (section mapping)
+
+| Primary LO | Supporting capabilities |
+| --- | --- |
+| LO1 (foundation build) | Read L2 Blueprint; create Trigger / Node / Credential / Webhook / Execution |
+| LO2 (system integration) | Integrate Gmail / LINE / Facebook / YouTube / Sheets / Data Tables / API / CRM / ERP; use Gemini / AI Nodes for multimodal |
+| LO3 (governance) | Design HITL Gate; error handling + notification + retry + fallback; back up workflows and credentials to GitHub |
+| LO4 (auto-generation) | §5.5 AG + Skill Pack install / generate / audit / deploy; produce auditable generated workflows |
 
 ---
 
