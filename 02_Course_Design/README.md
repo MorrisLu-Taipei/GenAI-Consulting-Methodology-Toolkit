@@ -107,6 +107,24 @@ L3/L4 課程的 PoC 場景庫。7 大類共 35 個可實作 PoC（Gmail / Sheets
 
 **跨課程通用的線上課程設計品質 SOP**（v1.0，2026-05-18）。整合學習科學三大基礎（Backward Design / Constructive Alignment / Bloom's Taxonomy）、線上課程 4 大組件（CLP / 結構 / 影音 / 互動）與 3 層品質門檻（必要 / 品質 / 加分）、學習目標寫法公式、30 點 audit checklist。所有 L1-L5 課程上架或重新編修前，**必須以此自我審查**；上架到外部平台時再依該平台規格 micro-adjust。**不替代任何既有課程**，是跨課程設計品質基準。
 
+### `SCHOOL_L1_L3_COURSE_PLAN.md` 🆕
+
+**K-12 學校 L1-L3 跨級整合課程規劃**（v1.0，2026-05-20）。9 個月校園 AI 導入課，把 L1（教師個人 AI）+ L2（學科 NotebookLM）+ L3（行政自動化）整合成一條學年節奏的路徑。含 §6.0 半日體驗營 50-lecture map、§6.2 完整 9 個月 Phase A/B/C 月份分解、§7 L1→L2→L3 三層銜接邏輯、§8 與上游 [mihozip MIT repo](https://github.com/mihozip/google-workspace-admin-project-workflow) 的對位、§11 4 種課程包裝（半日體驗 / 1 日工作坊 / 90 天 PoC / 9 個月完整）。對位 [`SME_LITE_PATH`](../00_Overview/SME_LITE_PATH.md) 教育界實作版。
+
+### `TigerAI-School-Workspace-Workflow-overlay/` 🆕
+
+**對 [`mihozip/google-workspace-admin-project-workflow`](https://github.com/mihozip/google-workspace-admin-project-workflow)（MIT）的 Tiger AI 方法論延伸**（overlay v0.1.0，2026-05-20）。內含 9 份雙語檔案：
+
+- `README.md` + `NOTICE.md` + `INSTRUCTIONS_FOR_FORK.md` —— 法律邊界 + fork 操作指南
+- `TIGERAI_METHODOLOGY_LAYER.md` —— L1-L5 對位 + 三段式服務流程 + 八階段 + SME Lite Path
+- `TIGERAI_SCHOOL_L1_L3_GUIDE.md` —— 三層實作指南 + 4 個 L3 use case
+- `TIGERAI_STAGE_GATES_SCHOOL.md` —— Gate 1/2/3 完整設計（家長代表必簽）
+- `TIGERAI_HITL_GATES_SCHOOL.md` —— 4 大 HITL 類型 + 法律規範對位
+- `SCHOOL_DAILY_SCENARIOS.md` —— **8 個日常情境逐步走查**（停課 / 戶外教學 / 請假代課 / 跨班請購 / 家長投訴 / 違規通知 / 親師會多語 / 招生 FAQ）
+- `CHANGELOG.md` + `RELEASE_v0.1.0.md` —— 獨立 release 流程
+
+**Overlay 模式：** 不修改原 repo，純加值；MIT + Apache 2.0 雙重授權邊界清楚。對位案例 [`../04_Scenarios/SAMPLE_CLIENT_CASE_SCHOOL_K12.md`](../04_Scenarios/SAMPLE_CLIENT_CASE_SCHOOL_K12.md)。
+
 ### `*_EN.md`
 
 上述檔案的英文版 sibling。

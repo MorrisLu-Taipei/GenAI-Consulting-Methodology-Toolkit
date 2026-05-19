@@ -90,6 +90,7 @@ Discovery 階段
 | `SAMPLE_CLIENT_CASE_FINANCIAL.md` | 金融業（代號：區域銀行 F），全地端、雙審 |
 | `SAMPLE_CLIENT_CASE_GOVERNMENT.md` | 政府機關（代號：市政府數位局 G），全地端、三審 |
 | `SAMPLE_CLIENT_CASE_EDUCATION.md` | 教育機構（代號：科技大學 E），Hybrid、學術倫理 |
+| `SAMPLE_CLIENT_CASE_SCHOOL_K12.md` 🆕 | K-12 完全中學（代號：完全中學 K, 200 教職員 / 1,500 學生），9 個月 L0.5→L3，搭配 [`02_Course_Design/SCHOOL_L1_L3_COURSE_PLAN.md`](../02_Course_Design/SCHOOL_L1_L3_COURSE_PLAN.md) + [overlay](../02_Course_Design/TigerAI-School-Workspace-Workflow-overlay/)；對位上游 [mihozip MIT repo](https://github.com/mihozip/google-workspace-admin-project-workflow) |
 
 > 每個案例都走完整流程：問卷結果 → L 級判定 → 課程比例 → 課中產出 → 八階段分析 → 診斷報告摘要 → 30/60/90 Roadmap → ROI → 風險治理。
 

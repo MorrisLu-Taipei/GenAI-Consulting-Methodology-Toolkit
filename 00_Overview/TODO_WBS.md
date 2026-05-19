@@ -422,10 +422,16 @@
 - Zenodo paper 已是 v2，含 PDF。
 - 餘下 P2 加分項（Builder/Advanced/Operator/GCP/Enterprise-Lab lecture maps）標 stub，錄影前再展開。
 
-#### 下一步候選 / Next candidates（2026-05-18 收工後）
+#### 下一步候選 / Next candidates（2026-05-18 / 2026-05-20 收工後累積）
 
+- **【Zenodo v3 upload】** —— `09_Research_Paper/_build/` 內 3 個 v3 PDF 已備好（EN 273KB / ZH 983KB / AI_Comments 153KB），等使用者去 zenodo.org/records/20264772 走 "New version" 流程上架。v3 內容變動：abstract reframing（從「方法論發展」→「電子書出版」）+ §8.2.2 出版循環新增 + 短摘要 4 檔。版本號邏輯：v3 = Concept DOI 20261850 的下一版本，會 mint 新 version DOI（預估 20266xxx）。上架後請把新 DOI 傳回，我做 follow-up commit 把 preprint front matter / CITATION.cff / NOTICE 三處 cross-link 更新。
 - **【AI 人才指引整合】** —— 把《AI 產業人才認定指引》（經濟部產發署，2026-05/115 年 5 月版）整合進方法論。檔案已收在 `90_References/【電子書下載】AI產業人才認定指引(115年5月).pdf`。要產出：(1) `90_References/AI_TALENT_GUIDE_REFERENCE.md`（+EN）引用說明；(2) `04_Scenarios/AI_TALENT_GUIDE_MAPPING.md`（+EN）Tiger AI L1-L5 vs 三大人才類別（AI 應用 / AI 開發 / AI 研究）對位表；(3) 論文 §1/§3/§10 補對位段（EN + ZH）。**先決條件：** 確認官方下載 URL + 出版單位（封面 / 封底圖檔），確認授權範圍（極可能是「政府資料開放授權條款」≈ CC-BY 4.0）。預估 1 個工作天。
-- **SSRN preprint 投稿** —— 用 v2 PDF + 拿 SSRN ID
+- **【overlay v0.2.0】** —— 把 `TigerAI-School-Workspace-Workflow-overlay/` 從 v0.1.0 推進到 v0.2.0。具體：(1) 補完「活動申請」與「物資請購」HITL 完整範本（v0.1.0 已有「公文簽核」「家長通知」）；(2) 加 Apps Script HITL wrapper 可直接 paste 的程式碼 fragment（不只概念示範）；(3) 為 4 個 L3 use case 各加 ROI 計算範例。預估 1-2 工作天。
+- **【overlay 實際 fork + 試行】** —— 在 GitHub 上實際 fork [`mihozip/google-workspace-admin-project-workflow`](https://github.com/mihozip/google-workspace-admin-project-workflow) → 套上 `TigerAI-School-Workspace-Workflow-overlay/` 內所有檔案 → 切 release tag `tigerai-v0.1.0` → 找 1 個學校試行 1 個情境（建議從「跨班物資請購」開始，HITL 嚴格度最低，最安全 PoC）。預估 半天設置 + 學校試行 4-8 週。
+- **【SSRN / arXiv 投稿】** —— 用 Zenodo v3 PDF + 短摘要投 SSRN（IS / Information Systems 分類）+ arXiv（cs.HC + cs.SE，需 endorser）。預估 SSRN 2-3 天（含等審），arXiv 1-2 週（含找 endorser）。
+- **【Rosemann courtesy email】** —— 寄信給 QUT Rosemann 教授致謝 BPM Maturity 學派 + 附 Zenodo v3 paper DOI。150-200 字英文。預估 30 分鐘。
+- **【拍 3 段 IDE demo 影片】** —— 之前提過的腳本：30-45 秒 × 3 段（/simulate-engagement、/devil-pair-debate、reader-as-querier）。HCI 投稿時可加 link 強化證據。預估腳本已備齊，拍攝 + 後製 1 天。
+- **【L1 §6.1 實際錄影】** —— 用 [`02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md`](../02_Course_Design/L1_OPENWEBUI_COURSE_PLAN.md) §6.0.1 已備好的 ~50 lecture map 實際錄影第 1 套課程。預估 Section 0-1（30 分鐘錄影）半天，全 §6.1（3 小時）3 個工作天。 —— 用 v2 PDF + 拿 SSRN ID
 - **arXiv preprint 投稿** —— cs.HC + cs.SE category；需 endorser
 - **拍 IDE demo 影片**（3 段：simulate-engagement / devil-pair-debate / reader-as-querier）—— 用 L1 §6.0.1 開頭 5 lectures 當示範
 - **實際錄第 1 堂課**（L1 §6.1 Section 0-1 約 30 分鐘）
