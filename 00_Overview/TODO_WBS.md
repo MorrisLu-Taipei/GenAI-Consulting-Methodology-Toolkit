@@ -424,6 +424,7 @@
 
 #### 下一步候選 / Next candidates（2026-05-18 收工後）
 
+- **【AI 人才指引整合】** —— 把《AI 產業人才認定指引》（經濟部產發署，2026-05/115 年 5 月版）整合進方法論。檔案已收在 `90_References/【電子書下載】AI產業人才認定指引(115年5月).pdf`。要產出：(1) `90_References/AI_TALENT_GUIDE_REFERENCE.md`（+EN）引用說明；(2) `04_Scenarios/AI_TALENT_GUIDE_MAPPING.md`（+EN）Tiger AI L1-L5 vs 三大人才類別（AI 應用 / AI 開發 / AI 研究）對位表；(3) 論文 §1/§3/§10 補對位段（EN + ZH）。**先決條件：** 確認官方下載 URL + 出版單位（封面 / 封底圖檔），確認授權範圍（極可能是「政府資料開放授權條款」≈ CC-BY 4.0）。預估 1 個工作天。
 - **SSRN preprint 投稿** —— 用 v2 PDF + 拿 SSRN ID
 - **arXiv preprint 投稿** —— cs.HC + cs.SE category；需 endorser
 - **拍 IDE demo 影片**（3 段：simulate-engagement / devil-pair-debate / reader-as-querier）—— 用 L1 §6.0.1 開頭 5 lectures 當示範
