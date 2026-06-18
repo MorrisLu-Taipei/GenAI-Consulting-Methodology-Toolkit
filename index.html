@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 轉型顧問導入方法論 · GenAI Consulting Methodology Toolkit (Book II)</title>
+<style>
+  /* TigerAI Fresh Business Infographic — 官方視覺標準 */
+  :root{--navy:#102F4C;--teal:#167C77;--teal-pale:#DDF3F1;--orange:#EE9E39;--orange-dark:#B66B16;--orange-pale:#FFF0DA;
+    --muted:#5D7589;--border:#D8E8EE;--card:#fff;--sh:0 1px 2px rgba(16,24,40,.04),0 14px 40px rgba(31,71,92,.08)}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",system-ui,sans-serif;color:var(--navy);line-height:1.65;
+    background:radial-gradient(circle at 12% 8%,#DFF4F2 0,transparent 27%),radial-gradient(circle at 92% 14%,#FFF0D9 0,transparent 28%),linear-gradient(135deg,#F9FCFF,#F8F6EF);min-height:100vh}
+  .topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 22px;background:rgba(255,255,255,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+  .topbar img{height:30px;display:block}
+  .chip{display:flex;flex-direction:column;margin-left:4px}
+  .chip b{font-size:.95rem}.chip span{color:var(--muted);font-size:.78rem}
+  .sp{flex:1}
+  .toggle{border:1px solid var(--border);background:#fff;color:var(--navy);border-radius:999px;padding:6px 13px;cursor:pointer;font-weight:600;font-size:.82rem}
+  .toggle:hover{border-color:var(--teal)}
+  .wrap{max-width:980px;margin:0 auto;padding:30px 24px 70px}
+  .eyebrow{font-size:.74rem;letter-spacing:.16em;color:var(--teal);font-weight:700}
+  h1{font-size:2rem;font-weight:800;margin:.15em 0 .1em}
+  .lead{color:var(--muted);font-size:1.05rem;margin:.2em 0 0;max-width:760px}
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
+  .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;border-radius:11px;padding:11px 20px;font-weight:700;font-size:.95rem;box-shadow:var(--sh)}
+  .btn.primary{background:linear-gradient(135deg,#EE9E39,#D98220);color:#fff}
+  .btn.teal{background:var(--teal-pale);color:var(--teal);border:1px solid #A8DCD9;box-shadow:none}
+  .btn.ghost{background:#fff;color:var(--navy);border:1px solid var(--border);box-shadow:none}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:22px 26px;margin:16px 0;box-shadow:var(--sh)}
+  .card h2{font-size:1.2rem;margin:.1em 0 .5em;display:flex;align-items:center;gap:9px}
+  .card h2::before{content:"";width:5px;height:20px;border-radius:3px;background:var(--teal)}
+  .matrix{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;margin-top:4px}
+  @media(max-width:760px){.matrix{grid-template-columns:1fr}.arrow{transform:rotate(90deg)}}
+  .book{border:1px solid var(--border);border-radius:16px;padding:18px;background:#fbfdff}
+  .book.b1{border-top:4px solid var(--teal)} .book.b2{border-top:4px solid var(--orange)}
+  .tag{display:inline-block;font-size:.7rem;padding:2px 9px;border-radius:999px;font-weight:700}
+  .b1 .tag{background:var(--teal-pale);color:var(--teal)} .b2 .tag{background:var(--orange-pale);color:var(--orange-dark)}
+  .book h3{font-size:1.05rem;margin:.4em 0 .15em}
+  .book .q{color:var(--muted);font-style:italic;font-size:.9rem;margin:.1em 0 .6em}
+  .book a{color:var(--teal);text-decoration:none;font-weight:600;font-size:.86rem}
+  .book .links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:.86rem}
+  .arrow{display:flex;align-items:center;justify-content:center;font-size:1.8rem;color:var(--teal)}
+  ul{margin:.4em 0;padding-left:1.2em}ul li{margin:.2em 0}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .st{border:1px solid var(--border);border-radius:10px;padding:7px 11px;background:#fbfdff;font-size:.82rem}
+  .st b{color:var(--orange-dark)}
+  .foot{color:var(--muted);font-size:.8rem;border-top:1px solid var(--border);padding-top:16px;margin-top:26px}
+  code{background:var(--teal-pale);border-radius:6px;padding:1px 6px;font-size:.85rem;color:var(--teal)}
+  .en{display:none}
+  body.lang-en .zh{display:none} body.lang-en .en{display:inline} body.lang-en li .en,body.lang-en .book .en{display:block}
+</style>
+</head>
+<body class="lang-zh">
+<header class="topbar">
+  <img src="tigerai-logo.png" alt="Tiger AI">
+  <div class="chip"><b><span class="zh">AI 轉型顧問導入方法論</span><span class="en">GenAI Consulting Methodology Toolkit</span></b>
+    <span>Book II · <span class="zh">顧問案怎麼跑</span><span class="en">how an engagement runs</span></span></div>
+  <div class="sp"></div>
+  <button class="toggle" onclick="document.body.classList.toggle('lang-en')">中 / EN</button>
+</header>
+
+<div class="wrap">
+  <div class="eyebrow">AI-NATIVE CONSULTING METHODOLOGY SERIES · BOOK II</div>
+  <h1><span class="zh">把顧問判斷,變成可交付的專案</span><span class="en">From consulting judgment to project delivery</span></h1>
+  <p class="lead"><span class="zh">企業 AI 轉型的成熟度診斷與導入方法論:八階段顧問報告 + 企業 L1–L5 成熟度 + 三階段合約(Phase A/B/C)。交的是能力,不是工具。</span><span class="en">An enterprise AI-transformation maturity-diagnosis & delivery methodology: an eight-stage consulting report + enterprise L1–L5 maturity + a 3-phase contract (Phase A/B/C). You deliver capability, not a tool.</span></p>
+
+  <div class="cta">
+    <a class="btn primary" href="00_Overview/17_Interactive_Site.html"><span class="zh">▶ 開啟互動書</span><span class="en">▶ Open interactive book</span></a>
+    <a class="btn ghost" href="SERIES_ROADMAP.html"><span class="zh">系列路線圖</span><span class="en">Series roadmap</span></a>
+    <a class="btn ghost" href="https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit">GitHub</a>
+    <a class="btn ghost" href="https://doi.org/10.5281/zenodo.20261680">DOI</a>
+  </div>
+
+  <div class="card">
+    <h2><span class="zh">這是什麼</span><span class="en">What this is</span></h2>
+    <p><span class="zh">一套可閱讀、可互動、可執行的 <b>AI-native living book</b>:把「顧問案怎麼跑」操作化成八階段流程、企業 L1–L5 成熟度、三階段合約(Gate 控範圍),搭配互動書、Prompt Pack、AI 教練 skill。</span>
+       <span class="en">A readable, interactive, executable <b>AI-native living book</b>: operationalizing "how an engagement runs" into an eight-stage flow, enterprise L1–L5 maturity, and a 3-phase contract (Gates control scope), with an interactive book, a Prompt Pack, and an AI coaching skill.</span></p>
+    <div class="flow">
+      <span class="st"><b>L1</b> Controlled AI Access</span>
+      <span class="st"><b>L2</b> Knowledge Codification</span>
+      <span class="st"><b>L3</b> Workflow Automation</span>
+      <span class="st"><b>L4</b> Autonomous Agent</span>
+      <span class="st"><b>L5</b> Multi-Agent Organization</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="zh">這是一套上下兩集的系列</span><span class="en">A two-book series</span></h2>
+    <div class="matrix">
+      <div class="book b1">
+        <span class="tag">BOOK I</span>
+        <h3><span class="zh">顧問思考能力系統</span><span class="en">Consulting Thinking Capability System</span></h3>
+        <div class="q"><span class="zh">顧問怎麼想?(C1–C5 顧問能力)</span><span class="en">How does a consultant think? (C1–C5 capability)</span></div>
+        <div class="links">
+          <a href="https://morrislu-taipei.github.io/consultant-thinking-framework/17_Interactive_Site.html"><span class="zh">互動書 ↗</span><span class="en">Interactive book ↗</span></a>
+          <a href="https://github.com/MorrisLu-Taipei/consultant-thinking-framework">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="arrow">➜</div>
+      <div class="book b2">
+        <span class="tag">BOOK II · <span class="zh">本 repo</span><span class="en">this repo</span></span>
+        <h3><span class="zh">AI 轉型顧問導入方法論</span><span class="en">AI-Transformation Consulting Delivery</span></h3>
+        <div class="q"><span class="zh">顧問案怎麼跑?(企業 L1–L5 成熟度)</span><span class="en">How does an engagement run? (enterprise L1–L5)</span></div>
+        <div class="links">
+          <a href="00_Overview/17_Interactive_Site.html"><span class="zh">互動書 ↗</span><span class="en">Interactive book ↗</span></a>
+          <a href="https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit">GitHub ↗</a>
+          <a href="https://doi.org/10.5281/zenodo.20261680">DOI ↗</a>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:12px;color:var(--muted);font-size:.9rem"><span class="zh">上集訓練顧問<b>怎麼想</b>;下集訓練顧問案<b>怎麼跑</b>。先讀上集練判斷(達 <code>C4</code>),再進下集跑專案。<b>C 問人、L 問企業</b>。</span>
+       <span class="en">Book I trains how a consultant <b>thinks</b>; Book II trains how an engagement <b>runs</b>. Build judgment in Book I (reach <code>C4</code>), then run engagements in Book II. <b>C = person, L = enterprise.</b></span></p>
+  </div>
+
+  <div class="card">
+    <h2><span class="zh">怎麼開始</span><span class="en">How to start</span></h2>
+    <ul>
+      <li><span class="zh"><b>互動書(免安裝)</b>:<a href="00_Overview/17_Interactive_Site.html">00_Overview/17_Interactive_Site.html</a>——八階段、Phase A/B/C、企業 L1–L5 選擇器、交付驗收清單。</span><span class="en"><b>Interactive book (no install)</b>: <a href="00_Overview/17_Interactive_Site.html">00_Overview/17_Interactive_Site.html</a> — eight stages, Phase A/B/C, enterprise L1–L5 selector, delivery checklist.</span></li>
+      <li><span class="zh"><b>5 分鐘</b>:GitHub 上的 <code>00_Overview/EXECUTIVE_SUMMARY.md</code>。新手跑案:<code>00_Overview/BEGINNER_DELIVERY_GUIDE.md</code>。</span><span class="en"><b>5 minutes</b>: <code>00_Overview/EXECUTIVE_SUMMARY.md</code> on GitHub. First engagement: <code>00_Overview/BEGINNER_DELIVERY_GUIDE.md</code>.</span></li>
+      <li><span class="zh"><b>AI 教練</b>:<code>consulting-delivery-coach</code> skill。</span><span class="en"><b>AI coach</b>: the <code>consulting-delivery-coach</code> skill.</span></li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    <span class="zh">作者 Morris (Yeh-Hsing) Lu(盧業興)· affiliation: Tiger AI · ORCID 0009-0006-5373-0586 · Apache License 2.0 · DOI 10.5281/zenodo.20261680。誠實揭露:案例為 AI-Simulated;方法論為實務綜合;未宣稱 peer-reviewed。</span>
+    <span class="en">Author: Morris (Yeh-Hsing) Lu · affiliation: Tiger AI · ORCID 0009-0006-5373-0586 · Apache License 2.0 · DOI 10.5281/zenodo.20261680. Honest disclosure: cases are AI-Simulated; methodology synthesis; not peer-reviewed.</span>
+  </div>
+</div>
+<script>if(location.hash.toLowerCase()==='#en')document.body.classList.replace('lang-zh','lang-en');</script>
+</body>
+</html>
