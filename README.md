@@ -6,6 +6,8 @@
 
 企業 AI 轉型成熟度診斷與導入方法論工具包。
 
+> 🌐 **線上 demo(免下載)**:[介紹首頁](https://morrislu-taipei.github.io/GenAI-Consulting-Methodology-Toolkit/) ｜ [互動書](https://morrislu-taipei.github.io/GenAI-Consulting-Methodology-Toolkit/00_Overview/17_Interactive_Site.html)(GitHub Pages)。
+
 > 📚 **本 repo 是「AI-Native 顧問方法論系列」總庫**(同時收錄上集、下集、研究與系列入口),不是單一本書:
 > - **上集 Book I**:顧問思考能力系統(顧問怎麼想)→ `10_Thinking_Framework/`
 > - **下集 Book II**:AI 轉型顧問導入方法論(顧問案怎麼跑)→ 本 README 描述的 `00_Overview/` + `01`–`06`
