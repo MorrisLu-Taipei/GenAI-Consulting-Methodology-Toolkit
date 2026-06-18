@@ -5,6 +5,8 @@
 
 언어: [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | [Français](README_FR.md) | [Español](README_ES.md) | [日本語](README_JA.md) | 한국어
 
+> 📚 이것은 2권으로 구성된 컨설팅 시리즈입니다. 본 레포 = **Book II** (컨설팅 프로젝트 딜리버리 방법론 → "프로젝트가 어떻게 진행되는가"), 짝을 이루는 **Book I** (컨설팅 사고 능력 시스템 → "컨설턴트는 어떻게 생각하는가") 이 있습니다. 시리즈 정문에서 시작하세요: [SERIES_INDEX](SERIES_INDEX.md), 비주얼 맵 [SERIES_ROADMAP.html](SERIES_ROADMAP.html). 상위 서적: [Book I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework).
+
 기업 AI 트랜스포메이션 성숙도 진단 및 도입 방법론 툴킷 (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit).
 
 원작자: **Tiger AI Morris Lu 盧業興**  

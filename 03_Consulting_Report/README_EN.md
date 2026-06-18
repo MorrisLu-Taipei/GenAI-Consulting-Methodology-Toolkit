@@ -48,15 +48,14 @@ Who uses this directory: consultants, senior consultants, new consultants (onboa
 01 diagnostic result + 02 course observations
    ↓
 ┌─ Phase A — Diagnosis (2 weeks) ────────────────────────────┐
-│  First half of the eight stages: Awareness / Reference     │
-│  Model / Discovery / Gap Analysis                          │
+│  Stage 1-3: As-Is / Reference Model / Ideal Practice       │
 │  → Use CONSULTING_TOOLKIT_TEMPLATES.md tool tables         │
 │  → Mid-term Diagnosis Report → client signs off            │
 └────────────────────────────────────────────────────────────┘
    ↓ Gate A — client decides whether to renew into Phase B
 ┌─ Phase B — Strategy (4 weeks) ─────────────────────────────┐
-│  Second half of the eight stages: Stakeholder /            │
-│  Diagnosis / To-Be Design / Acceptance Test                │
+│  Stage 4-7: Gap Analysis / Problem Definition /            │
+│  Phased Goals / To-Be Design                               │
 │  → Use REPORT_PRODUCTION_WORKFLOW.md 8-step production     │
 │  → Full 14-chapter diagnostic report + 24M Roadmap +       │
 │     ROI + governance recommendations                       │
@@ -75,8 +74,8 @@ Who uses this directory: consultants, senior consultants, new consultants (onboa
 
 | Phase | Duration | Stages | Main tools | Main deliverables |
 | --- | --- | --- | --- | --- |
-| **Phase A — Diagnosis** | 2 weeks | Stage 1-4 | TOOLKIT first half + FRAMEWORKS selector | **Mid-term assessment report** + signed Reference Model radar |
-| **Phase B — Strategy** | 4 weeks | Stage 5-8 | TOOLKIT second half + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Full 14-chapter diagnostic report** + Roadmap + ROI + governance |
+| **Phase A — Diagnosis** | 2 weeks | Stage 1-3 | TOOLKIT first half + FRAMEWORKS selector | **Mid-term assessment report** + signed Reference Model radar |
+| **Phase B — Strategy** | 4 weeks | Stage 4-7 | TOOLKIT second half + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Full 14-chapter diagnostic report** + Roadmap + ROI + governance |
 | **Phase C — Implementation** | 24 months | Quarterly review of Stage 2 | TOOLKIT quarterly-radar review tool + Risk Register | **Quarterly radar review records** + Roadmap corrections |
 
 > Logic: `CONSULTING_TOOLKIT_TEMPLATES` is "the tools to do the diagnosis + the quarterly review tool"; `CONSULTING_FRAMEWORKS_LIBRARY` is "which analytical framework to use at each step"; `REPORT_PRODUCTION_WORKFLOW` is "how to efficiently turn the diagnosis into a deliverable"; `CONSULTING_REPORT_TEMPLATE` is "what the final report looks like." Together they = **a complete consulting closed-loop methodology** (not a linear marathon).
@@ -119,8 +118,8 @@ The English-version siblings of the files above.
 ## 7. Common Usage Scenarios (By Closed-Loop Phase)
 
 - **New consultant onboarding**: first read `CONSULTING_TOOLKIT_TEMPLATES.md` and run through all the samples once, then read [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) for the dialogue script, finally shadow a real interview.
-- **Phase A — Diagnosis (2 weeks)**: use TOOLKIT's Stage 1-4 tools (40-question interview, AI/system inventory, Reference Model radar); produce the **Mid-term Diagnosis Report** at the end of the period for Sponsor sign-off.
-- **Phase B — Strategy (4 weeks)**: use TOOLKIT's Stage 5-8 tools + the 8 steps of `REPORT_PRODUCTION_WORKFLOW.md` to turn diagnosis into a deck, fill into `CONSULTING_REPORT_TEMPLATE.md`, producing a **full 14-chapter report + 24M Roadmap + ROI**.
+- **Phase A — Diagnosis (2 weeks)**: use TOOLKIT's Stage 1-3 tools (40-question interview, AI/system inventory, Reference Model radar); produce the **Mid-term Diagnosis Report** at the end of the period for Sponsor sign-off.
+- **Phase B — Strategy (4 weeks)**: use TOOLKIT's Stage 4-7 tools + the 8 steps of `REPORT_PRODUCTION_WORKFLOW.md` to turn diagnosis into a deck, fill into `CONSULTING_REPORT_TEMPLATE.md`, producing a **full 14-chapter report + 24M Roadmap + ROI**.
 - **Phase C — Implementation (24 months, the closed-loop feedback phase)**: each quarter, use the radar-review tool in TOOLKIT to **re-run the Stage 2 Reference Model radar** — compare against the Phase A signed version, see whether "the structure actually became rounder"; if not → return to the corresponding Stage to fix the Roadmap.
 - **Client asks "why this framework"**: use the framework selector in `CONSULTING_FRAMEWORKS_LIBRARY.md` to explain.
 - **Client asks "what happens after the 6 weeks?"**: show them [`../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY_EN.md) §6 full closed-loop diagram — the point isn't the 6 weeks, it's the 24-month Phase C + quarterly radar review as the falsification mechanism.

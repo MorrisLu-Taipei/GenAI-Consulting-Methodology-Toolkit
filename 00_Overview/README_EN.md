@@ -2,6 +2,8 @@
 
 > 🌐 Language: [繁體中文](README.md) ｜ English ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
 
+> 📕 This is the entry to **"Book II"** (From Consulting Judgment to Project Delivery). It answers "how does an engagement run?" and assumes you already have basic consulting judgment. Still stuck at the meeting-notes level? Read **"Book I"** first — Consulting Thinking Capability System ([../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework), "how a consultant thinks"). Series front door: [../SERIES_INDEX_EN.md](../SERIES_INDEX_EN.md), visual map [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html). New here? [BEGINNER_DELIVERY_GUIDE_EN.md](BEGINNER_DELIVERY_GUIDE_EN.md) / interactive site [17_Interactive_Site_EN.html](17_Interactive_Site_EN.html).
+
 ## 1. Purpose of This Directory
 
 This directory is the **single entry point** to the whole **GenAI consulting methodology toolkit**. It holds no "tools" or "deliverables" — only two things: **the methodology's story**, and **the methodology's status**.

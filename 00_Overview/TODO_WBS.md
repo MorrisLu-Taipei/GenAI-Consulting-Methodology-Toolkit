@@ -437,3 +437,190 @@
 - **實際錄第 1 堂課**（L1 §6.1 Section 0-1 約 30 分鐘）
 - **Rosemann 教授 courtesy email** —— 致謝 BPM Maturity 學派 + 附 v2 paper DOI
 - **L2/L3/L4/L5 Builder/Advanced/Operator/GCP/Enterprise-Lab 完整 lecture map** —— 對應實際錄影前再展開
+
+---
+
+### 工作階段紀錄：2026-05-22（L5 Harness Engineering 案例融入）
+
+**背景：** `02_Course_Design/ai-news-channel/` 是一個已在 repo 內、但與方法論「斷線」的完整 L5 專案（1 PM + 6 AI 成員、固定迴圈、六層 Harness）。檢查確認：**無外部 LICENSE、無上游 fork、git remote 即本 toolkit → 為本 toolkit 原創作品**，故不需 ClawTeam / school-overlay 那套 NOTICE 上游著作權處理。另確認 "Harness Engineering" 此前**未出現在 repo 任何其他檔**，是真正的新概念（且為《AI 產業人才認定指引》列名領域）。
+
+**整合策略（全部 additive，不改 `ai-news-channel/` 原始檔）：** 確立 **L5 三件套 = ClawTeam（平台）+ Harness Engineering 六層（透鏡）+ ai-news-channel（完整實例）**。
+
+**本階段產出：**
+
+| 檔案 | 內容 |
+| --- | --- |
+| `90_References/HARNESS_ENGINEERING_REFERENCE.md`（+EN） | 六層模型定義、5 篇來源文獻、六層↔方法論既有構件（八階段/HITL/Stage Gate/兩軸/出版循環）對應、L5 三件套、人才指引對接、原創/授權聲明 |
+| `02_Course_Design/ai-news-channel/TIGERAI_L5_CASE_NOTES.md` | 導讀層：定位 + 檔案→六層→L5 構件對照表 + 建議閱讀順序 + 5 個課堂活動（對接 Gate 5）+ 交叉連結。保留原專案的規格漂移當「找出漂移」教材。 |
+| `02_Course_Design/L5_CLAWTEAM_COURSE_PLAN.md`（+EN） | 新增 §4.5「L5 三件套」+ 六層總表 + 教學動線，交叉連結 reference 與 case notes |
+
+#### Lessons Learned（本階段）
+
+1. **「MIT 授權」的口頭框架要用檔案事實驗證。** 使用者口述 ai-news-channel 是「MIT 授權」教學案例，但實際 `grep` 全資料夾**無任何 LICENSE 檔、無 MIT 字串**（先前 grep `-li` 命中的是 limit/submit/permit 等子字串），git remote 又是本 toolkit 自己。結論：這是**自製原創**，不是外部 MIT 專案。**Lesson：** 授權判定看檔案（LICENSE / NOTICE / remote），不看口頭描述；判錯方向會白做一套上游 NOTICE。
+
+2. **「融入」一個 orphan 專案，關鍵動作是『導讀層』而非改檔。** ai-news-channel 已是完整成品，正確做法是**外掛一份導讀**（檔案→六層→構件對照），把它接上方法論，而**不動原始檔**——原始檔保持成品樣貌，才有教學真實性（甚至刻意保留其規格漂移當教材）。**Lesson：** 整合既有成品時，先問「能不能 additive overlay」，能就別動原檔。
+
+3. **新概念融入要先確認它是不是真的『新』。** 先 `grep -rli "harness"` 全 repo，確認除了 ai-news-channel 外**零命中**，才確定 Harness Engineering 是缺口而非重複。**Lesson：** 加新概念前先全庫搜尋，避免重造或衝突。
+
+#### 延伸 TODO（本階段新增，未做）
+
+- **【Harness reference 補 5 國語言】** —— `HARNESS_ENGINEERING_REFERENCE.md` 目前只有 zh（base）+ EN。`90_References/` 慣例為每份 reference 配 DE/ES/FR/JA/KR 共 7 語言（見 CLAWTEAM_REFERENCE_*）。補齊其餘 5 語言。預估 半天。
+- **【ai-news-channel 規格漂移修正評估】** —— 原專案 README（Designer=Gemini Vision / Librarian=Claude Haiku）vs CLAUDE.md（Designer=gpt-image-2 / Librarian=Scripts+NotebookLM）vs skill-stack.md（Gemini 3 Flash）三處不一致。目前**刻意保留**當「找出漂移」教材（CASE_NOTES §5 活動 A）。若日後要把它也當「乾淨可跑範本」散布，需決定是否統一。列待決。
+- **【人才指引 × Harness 對位】** —— 與既有「AI 人才指引整合」TODO 同批：把《AI 產業人才認定指引》的「Harness Engineering」職能逐條對到 L5 六層 + ai-news-channel 實例，產出可驗收教學單元對照（Bloom 格式 LO）。
+
+#### 本階段第二批：L4→L5 教學弧（同日，使用者三步指令）
+
+使用者追加三步：#1 把案例補成「Hermes Agent 可用的教學」、#2 設定情境故事、#3 使用情境故事。三步是一條教學弧，合併為一份檔：
+
+| 檔案 | 內容 |
+| --- | --- |
+| `02_Course_Design/ai-news-channel/TIGERAI_HERMES_TO_TEAM_TEACHING.md` | **Part A**：6 個成員逐一對位回 L4 mission.md（§3.6）/ 七大流程（§3.7）/ Gate；核心論點「L5 = 拆開的 Hermes + harness 重新串起」（引 L4 §15）。**Part B**：虛構情境故事（ABC 公司，B2B SaaS，200 人，內容行銷組產能瓶頸 → 為何是 L5 而非 L1-L4），職稱依規範（行銷副總 = CXO 級、內容行銷經理 = 人類 PM、資訊協理 = IT）。**Part C**：用情境跑一天端到端走查（含 Supervisor FAIL→PASS 真實循環）+ IPOE + Gate 5 + ROI + 4 個課堂活動。 |
+| 交叉連結 | `TIGERAI_L5_CASE_NOTES.md` §7 + `L4_HERMES_AGENT_COURSE_PLAN.md` §15 各加一個指向新檔的 pointer（雙向可達）|
+
+**設計決策：** (1) 三步合一檔——因為 #2/#3 的情境是用來示範 #1 建的 Hermes 團隊，拆檔會斷掉敘事。(2) 依使用者「給我中文」以中文為主，EN 版列 TODO。(3) 情境嚴守無真實名稱規範（ABC 公司 / 城市 X）+ 職稱 seniority 規範。(4) 仍 additive，未改 ai-news-channel 原始檔。
+
+**延伸 TODO（本批新增）：** `TIGERAI_HERMES_TO_TEAM_TEACHING.md` 補 EN 版；Part A 其餘 3 個成員（CTO/Developer/Designer）的迷你目的檔目前刻意留作課堂作業，若要當完整範本需補齊。
+
+---
+
+### 工作階段紀錄：2026-05-23（WenyuChiou 研究工具評估 + preprint 強化）
+
+**起因：** 使用者問兩個 repo（[WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) MIT、[WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) MIT）對 `09_Research_Paper` 有無幫助，並追問「以後發表論文可以參考他什麼」，指示「全部做」。
+
+**判斷：** 兩種幫助分開——(A) 當寫/改論文的**工具**（manuscript claim-audit、authenticity gate、文獻管線）；(B) 當**可引用的相關工作**（同範式在研究流程領域的獨立收斂）。兩者皆為 practitioner repo（非 peer-reviewed）→ 在論文中定位 Tier-3，佐證「實務趨勢」非理論。
+
+**本階段產出：**
+
+| 檔案 | 內容 |
+| --- | --- |
+| preprint EN + ZH（§2.3 / §10.4 / References §C / §E）| §2.3 加「practitioner 獨立收斂」段（skills 化 + provenance gate + 非 RAG + 多引擎委派）；§10.4 加 authenticity-gate 佐證段；References §C 新增 Chiou 2026a/b（Tier-3）；§E 表 + 計數同步（EN：27→29、Tier3 11→13）|
+| `90_References/AI_RESEARCH_TOOLING_REFERENCE.md` | **回答「可以參考他什麼」**：發表實務元件（claim-audit/hype-scrub/reviewer-response/authenticity-gate）、設計立場、具體工具、採用vs引用vs略過決策表、MIT→Apache attribution 機制、與我們現有 workflows 對照避免重造 |
+| `09_Research_Paper/PAPER2_LITREVIEW_PIPELINE.md` | Paper #2 文獻回顧管線：research-hub 五階段（discover→authenticity gate→cluster→brief→export）+ 接回章節 + provenance 言行合一 |
+| `09_Research_Paper/CLAIM_AUDIT_2026-05-23.md` | 審稿者視角 claim audit：發現 deposit 後「pending/staged」字眼過時（中）、§E 計數既存不符（中）、少數 hype 詞（低）；附行動清單 |
+
+#### Lessons Learned（本階段）
+
+1. **「有幫助嗎」要拆成「工具」與「可引用」兩種，別混。** 同一個 repo 可以同時是「拿來用的工具」和「論文裡引用的佐證」，但定位完全不同（前者操作面、後者 Tier-3 grey literature）。混在一起講會讓人以為要整包 fork。
+
+2. **發現既存的計數不一致時，preserve offset 而非偷偷重數。** preprint §E 摘要原本 11、表格實際 13（既存 2 列落差）。我新增 2 筆只做 +2，維持落差不擴大，並在 CLAIM_AUDIT 明列請作者下次 deposit 前重數——**不在不確定作者計數規則時擅自「修好」已 deposit 製品的數字**。
+
+3. **最該借的是紀律不是工具。** research-hub 的 authenticity gate（擋下查不到的引用+記錄理由）價值 > 它整套 Zotero/Obsidian 整合，因為它讓我們論文 §10.4 主張的 provenance 紀律「言行合一」。
+
+#### 延伸 TODO（本批新增）
+
+- preprint 下一版必改：§1.3 + §9.1 的 "pending/staged Zenodo DOI" → 實際已發 DOI（見 CLAIM_AUDIT §1）。
+- 新增 3 個投稿 workflow（我們目前缺）：`/claim-audit`、`/hype-scrub`、`/reviewer-response`（用現有引擎自製，概念參考 ai-research-skills，MIT）。
+- `AI_RESEARCH_TOOLING_REFERENCE.md` 補 EN + 其餘語言（90_References 慣例 7 語）。
+- Paper #2 文獻回顧時實際裝 research-hub 跑一次管線。
+
+#### 本階段第二批：3 個投稿工作流（同日）
+
+使用者指示「做」缺的三個投稿工作流。放在 `.codex/workflows/`（Codex = rigor/audit 角色，與既有 `evidence-audit` / `red-team-review` 同家）：
+
+| 工作流 | 用途 | 與既有的區別 |
+| --- | --- | --- |
+| `.codex/workflows/claim-audit.md` | 稽核**學術稿件**主張（5 類 claim + 引用層級 + hedging + overclaim）| `/evidence-audit` 是稽核**顧問報告**；本工作流是**論文**，明確交叉引用避免混淆 |
+| `.codex/workflows/hype-scrub.md` | 投稿用語清理（hype 詞 / 無證據最高級 / buzzword）+ 分辨「可辯護術語 vs 膨脹」 | 新能力，repo 原本沒有 |
+| `.codex/workflows/reviewer-response.md` | reviewer 意見→逐點回覆信草稿 + 稿件改動清單；硬規則「不捏造改動、不背書未查證事實」 | 新能力 |
+
+同步更新 `.codex/README.md` 工作流清單（新增「學術投稿工作流」分組）。
+
+**計數影響（已記入 [`CLAIM_AUDIT_2026-05-23.md`](../09_Research_Paper/CLAIM_AUDIT_2026-05-23.md) §5b）：** live repo Codex workflow 由 10→13、總數 22→25。論文 §3.1「22 @ commit 7da82d7」凍結陳述仍為真。下版 deposit 須擇一：重新凍結，或把論文計數定義為「方法論生產工作流」排除投稿/meta 工作流（傾向後者）。
+
+**Lesson：** 新增 workflow 會動到論文凍結的 metric。加之前先想「這會不會讓已 deposit 的數字在 HEAD 重數時對不上」——本次選擇 additive + 在 CLAIM_AUDIT 記下分歧與兩個解法，不回頭改凍結陳述。
+
+#### 本階段第三批：實際套用 CLAIM_AUDIT 修正到 preprint（同日）
+
+使用者「GO」核可後，用新做的 `/claim-audit` + `/hype-scrub` 全文掃描，並把修正**實際套用**到 EN + ZH preprint：
+
+| 修正 | EN | ZH |
+| --- | --- | --- |
+| pending/staged DOI → 已發布 DOI（§1.3 / §8.2 / §9.1×2，共 **4** 處）| ✅ | ✅ |
+| §E 引用計數重數：27（漏列）→ **32 total（Tier1 11 / Tier2 5 / Tier3 16）**，加計數規則、Tier-3 表補滿（拆出第 2 筆 US Copyright）| ✅ | ZH 無 count summary，僅表 |
+| Abstract「cryptographically」→「content-addressed」| ✅ | ✅（可加密→內容定址）|
+| §2.4「unprecedented scale」→「new scale」| ✅ | ✅（前所未有→新規模）|
+| §5.1「顛覆」→「翻轉」對齊 EN "inverts" | —（EN 本就 inverts）| ✅ |
+
+**全文掃描多抓到 2 處原人工稽核漏列**：§8.2 第 4 個 pending-DOI 點、ZH §5.1「顛覆」。已記入 CLAIM_AUDIT §7 Bonus。
+
+**Lesson：** 投稿稿件的 hype/狀態字眼要**全文 grep**，不能只讀重點章節——人工讀 §1/§9 漏了 §8.2 的 pending-DOI 與 ZH 的「顛覆」；做成 `/hype-scrub`、`/claim-audit` workflow 全文掃才補齊。**這也驗證了三個投稿 workflow 的實際價值（第一次用就抓到漏網）。**
+
+**未動（下版 deposit 決策）：** §3.1 兩 commit 澄清、工作流計數分歧（22→25）。 → **已於同日「go」收掉（見下）。**
+
+#### 本階段第四批：收掉 preprint 最後兩項（同日）
+
+| 項 | 處理 |
+| --- | --- |
+| §3.1 兩個 commit 澄清 | §3.1 凍結句加：`7da82d7` = 數值凍結 commit（論文數字計於此）；`5361c7b`（tag v3.0.1）= 學術 deposit 發布、觸發 Zenodo DOI。前者固定論文數字、後者固定已出版製品。EN+ZH |
+| 工作流計數分歧（22 vs 25）| §3.1 表後加「workflow 計數範圍」note：**22 = 方法論生產 workflow**，凍結於 `7da82d7`；投稿/meta workflow（claim-audit / hype-scrub / reviewer-response）作用於「關於製品的論文」非「製品方法論內容」，**刻意排除**，故方法論生產 workflow 計數在 HEAD 仍為 22。Appendix A intro 同步加註。EN+ZH |
+
+**決策口徑：採「定義法」而非「重新凍結 commit」**——把論文的 22 明確定義為「方法論生產 workflow」，投稿 workflow 另成一類。好處：論文數字不必隨每次新增投稿 workflow 變動，且概念上更清楚（生產 eBook 內容 vs 生產關於 eBook 的論文）。
+
+**CLAIM_AUDIT 全部項目 close。** 唯一 optional 殘留：REPRODUCIBILITY.md §3.3 若要在 HEAD 重跑回傳 22，需加排除三個投稿 workflow 的指令；但論文已明定凍結於 `7da82d7`（當下即 22），非必要。
+
+**Lesson：** 「計數分歧」有兩種解法——重新凍結（數字追著現況跑）vs 重新定義（把計數範圍講清楚、現況歸類）。選後者：當新增的東西**本質上屬於不同類別**（meta/投稿 vs 方法論生產）時，定義法比追數字更穩、更不會每次都要回頭改論文。
+
+#### 本階段第五批：投稿工作流使用手冊（同日）
+
+新增 [`09_Research_Paper/PUBLISHING_WORKFLOW_MANUAL.md`](../09_Research_Paper/PUBLISHING_WORKFLOW_MANUAL.md)：把三個投稿工作流放進完整「草稿→發表」管線（[1]寫作 [2]內容審查 [3]投稿前打磨 [4]凍結+發表 [5]審稿回覆），含全景圖、工具速查表、逐工作流詳細用法（何時用/餵什麼/拿到什麼/範例）、投稿前總檢查表、FAQ、本 repo 真實示範。中文為主，EN 列 TODO。交叉連結：09_Research_Paper README Contents + .codex/README 投稿工作流分組。
+
+**注意：** 手冊把易混淆點寫死——`/evidence-audit`=顧問報告、`/claim-audit`=學術論文；跑完 `/reviewer-response` 要回 [3] 再跑 claim-audit + hype-scrub。
+
+#### 本階段第六批：手冊的敘事版（情境故事，同日）
+
+新增 [`09_Research_Paper/PUBLISHING_WORKFLOW_SCENARIO.md`](../09_Research_Paper/PUBLISHING_WORKFLOW_SCENARIO.md)：把手冊改寫成「使用情境故事」——虛構研究者 R（城市 X、C 會議皆化名）從草稿、red-team、claim-audit、hype-scrub、PDF/DOI、收 Major Revision、reviewer-response、回頭再掃、到 Accept 的一週+兩個月全程敘事，每幕含實際 invocation + 範例回傳 + R 怎麼處理，結尾對照回手冊章節。守無真實名稱規範。手冊與故事互補（reference vs narrative），雙向交叉連結 + README Contents 並列。
+
+**Lesson：** 同一套使用方式，「參考手冊（查表）」和「情境故事（跟著走）」服務不同學習風格；本方法論一貫兩者都要（如 L5 case notes + Hermes teaching 也是）。情境故事更能帶出「為什麼這步重要」的情緒（R 冒冷汗、鬆一口氣、感激提醒），是純查表手冊給不了的。
+
+#### 本階段第七批：三個投稿工具做成 Claude Code 原生 Skills（雙引擎，同日）
+
+使用者問「有安裝程序嗎?應該要裝 SKILL 吧」，戳到一個我該講清楚的混淆。先用 claude-code-guide agent 確認當前機制，再給準確答案 + 問方向，使用者選「**兩份都要（Claude Skills + Codex）**」。
+
+**澄清的事實（重要）：**
+- 我先前做的三個是本 repo 的 **workflow markdown**（`.codex/workflows/`），**不是** Claude Code SKILL，也不是 WenyuChiou 那種 agentskills.io 可安裝 skill。
+- Claude Code 現況：**斜線指令已併進 Skills**；原生 skill = `.claude/skills/<名>/SKILL.md`，**零安裝**（丟檔即自動發現、即時生效，不必改 settings.json）。
+- **唯一有「安裝程序」的**是打包成 plugin + marketplace 給別人 `/plugin install`（如 WenyuChiou）。本 repo 不做。
+
+**產出：**
+
+| 檔案 | 內容 |
+| --- | --- |
+| `.claude/skills/claim-audit/SKILL.md` | Claude Code 原生 skill（frontmatter: name/description/argument-hint），自含程序，互指 Codex 版 |
+| `.claude/skills/hype-scrub/SKILL.md` | 同上 |
+| `.claude/skills/reviewer-response/SKILL.md` | 同上 |
+| `.claude/skills/README.md` | Skills 索引：零安裝說明、雙引擎同步紀律、清單、frontmatter 觸發說明 |
+| 3 個 `.codex/workflows/*.md` | 各加「🔗 Claude Code 對應 skill（雙引擎同步）」pointer |
+| `PUBLISHING_WORKFLOW_MANUAL.md` §3 | 改寫成「兩個引擎都能用、零安裝」對照表（Claude Code skill vs Codex workflow）|
+
+**雙引擎同步紀律**：每個工具 = 1 個 Claude skill + 1 個 Codex workflow，兩邊檔頭互指 pointer，改一份要同步另一份。
+
+**Lesson：** 「skill」是被濫用的詞——使用者口中的「裝 SKILL」可能指三種不同東西（repo workflow / Claude 原生 skill / 可安裝 plugin）。先確認機制（用 claude-code-guide）再答，避免給錯安裝步驟。關鍵澄清：**專案內 skill 是零安裝的，只有對外散布的 plugin 才有安裝程序。**
+
+**延伸 TODO：** 若日後要對外散布，再做 plugin（`.claude-plugin/plugin.json` + marketplace.json）——目前不做。
+
+#### 本階段第八批：AI-Native eBook 範式升格為獨立 hub（架構決策，同日）
+
+使用者問「要不要為這個獨立開 GitHub、讓它引用 consulting methodology 當實作案例?」。我拆出三件被綁在一起的東西（① 範式/方法論 ② 論文 ③ toolkit 案例），分析後使用者選 **C 範式 hub**。
+
+**架構決策：** 把 ① 範式升格成獨立 repo；toolkit 降為**被引用的參考實作**；論文 DOI 與 toolkit DOI 都**只引用、不搬移**（不動已 mint 的 DOI、不打亂 provenance）。
+
+**產出（在 toolkit repo 之外，`C:\Tools\@@@@@@Antigravity\AI-Native-eBook\`，與本 repo 平行 → 天生獨立 GitHub 專案）：**
+
+```
+AI-Native-eBook/
+├── README.md          # 門面：三件事拆解圖、DOI 引用、provenance note、quick start
+├── METHODOLOGY.md     # 範式本體：六大特性 + 出版閉環 + 實作步驟 + 反 AI-slop 紀律
+├── CASE_STUDIES.md    # 案例索引：★toolkit 參考案例 + 聖經/學校(進行中) + 公開邀請 + 範本
+├── CITATION.cff       # 引用 paper DOI(preferred) + toolkit DOI(reference)
+├── NOTICE / LICENSE   # Apache 2.0(code)/CC BY 4.0(docs)；LICENSE 為 stub 待補全文
+├── .gitignore
+└── starter-kit/README.md  # 可重用基礎設施索引(投稿手冊/skills/Makefile/CITATION)+抽取計畫
+```
+
+**關鍵守則：** (1) 不動 toolkit/paper 已 mint 的 DOI——hub 只 reference。(2) 論文 provenance 證據(Git history、commit 7da82d7)仍在 toolkit repo，README 寫明。(3) 聖經 AI 書、學校案例列為「進行中實例」但標註「公開前需 maintainer 確認」(避免把私案曝光)。(4) 我**不能**建 GitHub 遠端/push——只做本地 scaffold。
+
+**誠實提醒寫進 README/CASE_STUDIES：** 範式 hub 價值隨案例數成長，現成熟案例 n=1，所以老實框成「範式 + 第一個參考實作 + 公開邀請 + 進行中其他案例」。
+
+**使用者待辦（hub 上線前）：** 決定最終 repo 名 → `git init` + 建 GitHub repo + push → LICENSE 補 Apache 2.0 全文 → 上線後回頭在 toolkit 的 09_Research_Paper README 加反向 cross-link → 決定聖經/學校案例是否公開列出。
+
+**Lesson：** 「要不要拆 repo」先別急著動手——先拆清楚「被綁在一起的其實是幾個東西」(範式/論文/案例)，answer 自然浮現。且拆分時 DOI 是紅線：已發布的只引用不搬移，否則打亂譜系與 provenance。

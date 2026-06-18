@@ -1,0 +1,9 @@
+{
+  "defaultModel": "claude-sonnet-4-6",
+  "env": {
+    "PROJECT": "ai-news-channel",
+    "DELIVERABLES_PATH": "knowledge-base/deliverables",
+    "WORKING_NOTES_PATH": "working-notes",
+    "KNOWLEDGE_BASE_PATH": "knowledge-base"
+  }
+}

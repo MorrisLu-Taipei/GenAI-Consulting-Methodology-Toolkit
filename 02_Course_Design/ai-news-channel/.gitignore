@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Temp research files
+working-notes/tmp-*.md
+
+# Node (if any scripts added)
+node_modules/
+
+# Logs
+*.log

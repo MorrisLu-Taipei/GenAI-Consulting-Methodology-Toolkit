@@ -1,0 +1,16 @@
+# 上集為獨立 repo / 獨立 DOI,不併入下集
+/10_Thinking_Framework/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 內部私有實作絕不外流
+*runner*
+*claudectl*
+*.token
+.env
+.env.*
+_PRIVATE/

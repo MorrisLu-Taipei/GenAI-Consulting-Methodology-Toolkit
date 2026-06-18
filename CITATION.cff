@@ -20,8 +20,12 @@ abstract: >
   GenAI adoption maturity model, a 4-layer Enterprise AI Reference Model, a
   3-phase contract model with explicit Gate A/B/C exits, 7 industry case studies
   in Benchmark-grade format, and 22 specialized AI-IDE workflows for production
-  and reader interaction.
+  and reader interaction. This toolkit is Book II ("From Consulting Judgment to
+  Project Delivery") of the AI-Native Consulting Methodology Series; its companion,
+  Book I (the "Consulting Thinking Capability System"), is deposited separately and
+  cross-linked via Zenodo "Is part of this series".
 keywords:
+  - consulting methodology series
   - GenAI
   - AI maturity model
   - BPM

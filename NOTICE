@@ -1,9 +1,16 @@
 GenAI Consulting Methodology Toolkit
-Copyright 2026 Tiger AI Morris Lu 盧業興
+Copyright 2026 Morris (Yeh-Hsing) Lu 盧業興
 
-Original Author: Tiger AI Morris Lu 盧業興
+Author: Morris (Yeh-Hsing) Lu 盧業興 (affiliation: Tiger AI)
+ORCID: 0009-0006-5373-0586
 Role: n8n Taipei 大使 / 臺灣科技大學 智慧製造所博士生 / QUT 昆士蘭科技大學 資工碩士
 Source: https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit
+
+Series: This toolkit is Book II ("From Consulting Judgment to Project Delivery")
+of the AI-Native Consulting Methodology Series. Its companion is Book I, the
+"Consulting Thinking Capability System" (From Meeting Notes to Consulting Judgment),
+to be deposited under its own DOI and cross-linked via Zenodo "Is part of this series".
+See SERIES_INDEX.md.
 Software DOI (concept, all versions): 10.5281/zenodo.20261680 -- https://doi.org/10.5281/zenodo.20261680
 Software DOI (version v3.0.1):        10.5281/zenodo.20261681 -- https://doi.org/10.5281/zenodo.20261681
 Companion preprint DOI (concept):     10.5281/zenodo.20261850 -- https://doi.org/10.5281/zenodo.20261850

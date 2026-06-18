@@ -2,6 +2,8 @@
 
 > 🌐 中文 / Chinese: [README.md](README.md) ｜ English: [README_EN.md](README_EN.md)
 
+> 📕 これは **「Book II」**（コンサルティングの判断からプロジェクトデリバリーへ）の入口です。「案件はどう進むか？」に答え、基本的なコンサルティングの判断力を既にお持ちであることを前提とします。まだ議事録レベルで止まっていますか？まず **「Book I」** をお読みください — コンサルティング思考能力システム（[../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework)、「コンサルタントはどう考えるか」）。シリーズの入口：[../SERIES_INDEX.md](../SERIES_INDEX.md)、ビジュアルマップ [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html)。初めての方は？[BEGINNER_DELIVERY_GUIDE.md](BEGINNER_DELIVERY_GUIDE.md) / インタラクティブサイト [17_Interactive_Site.html](17_Interactive_Site.html)。
+
 ## 1. 本ディレクトリの位置づけ
 
 本ディレクトリは **AI Consulting Methodology Toolkit** 全体の**唯一のエントリーポイント**です。「ツール」や「成果物」は置かず、2 つだけを置きます：**方法論のストーリー** と **方法論のステータス**。

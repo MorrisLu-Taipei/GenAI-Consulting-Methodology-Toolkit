@@ -267,6 +267,36 @@ clawteam team snapshot --name demo-completed
 
 ---
 
+## 4.5 L5 三件套：平台 + 透鏡 + 實例 / The L5 Triad
+
+> 新增（v1.1）：L5 不只教「平台」。完整的 L5 教學由三個互補件組成。
+> Added (v1.1): L5 is not only about the platform. Complete L5 teaching rests on three complementary pieces.
+
+| 角色 / Role | 是什麼 / What | 教什麼 / Teaches | 檔案 / File |
+| --- | --- | --- | --- |
+| **平台 / Platform** | ClawTeam（本課主體）| 機制：spawn / task / inbox / board / gate | 本檔 / This plan |
+| **透鏡 / Lens** | Harness Engineering 六層 | 概念：為什麼 Agent Team 能可靠交付 | [`90_References/HARNESS_ENGINEERING_REFERENCE.md`](../90_References/HARNESS_ENGINEERING_REFERENCE.md) |
+| **實例 / Worked case** | `ai-news-channel` | 示範：六層 + 治理長什麼樣 | [`ai-news-channel/TIGERAI_L5_CASE_NOTES.md`](ai-news-channel/TIGERAI_L5_CASE_NOTES.md) |
+
+### Harness Engineering 六層（L5 概念骨架）/ The Six Harness Layers
+
+「先設計系統，再挑模型。」六層是判斷一個 Agent Team 成不成熟的檢核軸：
+
+| Harness 層 | 一句話 / One-line | 在 `ai-news-channel` 打開哪個檔 |
+| --- | --- | --- |
+| **Loop** | 固定順序、不跳步 | `CLAUDE.md` The Fixed Loop |
+| **Tools** | 每個 Agent 只拿該拿的權限 | `.claude/agents/*.md` 的 `tools:` |
+| **Context** | 全員先讀同一份憲法 | `CLAUDE.md` + `constitution/` |
+| **Persistence** | 產出與決策永久落地 | `knowledge-base/` |
+| **Verification** | 上線前機器 + 人雙檢核 | `supervisor.md` + `verify_build.sh` |
+| **Constraints** | 角色能 / 不能白紙黑字 | `constitution/ai-member-boundaries.md` |
+
+> 建議動線：**Harness 六層（透鏡）給心智模型 → 打開 `ai-news-channel`（實例）逐層對照 → 用 ClawTeam（平台）動手把自己的 Team 跑起來。** ClawTeam 的五層架構（§4）是 Harness 六層在 CLI 平台上的一種具體實作；HITL / Stage Gate 5 則是 Verification + Constraints 兩層在顧問場景的落地。
+>
+> 完整對應與來源文獻見 [`HARNESS_ENGINEERING_REFERENCE.md`](../90_References/HARNESS_ENGINEERING_REFERENCE.md)。
+
+---
+
 ## 5. 課堂內容 / Course Modules
 
 總時數 / Total duration：**8-12 小時 (1.5 天)** / **8-12 hours (1.5 days)**

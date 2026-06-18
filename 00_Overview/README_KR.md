@@ -2,6 +2,8 @@
 
 > 🌐 中文 / Chinese: [README.md](README.md) ｜ English: [README_EN.md](README_EN.md)
 
+> 📕 이것은 **"Book II"** (컨설팅 판단에서 프로젝트 딜리버리로) 의 진입점입니다. "프로젝트가 어떻게 진행되는가?" 에 답하며, 이미 기본적인 컨설팅 판단력을 갖추고 있다고 가정합니다. 아직 회의록 수준에 머물러 있나요? 먼저 **"Book I"** 을 읽으세요 — 컨설팅 사고 능력 시스템 ([../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework), "컨설턴트는 어떻게 생각하는가"). 시리즈 정문: [../SERIES_INDEX.md](../SERIES_INDEX.md), 비주얼 맵 [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html). 처음이신가요? [BEGINNER_DELIVERY_GUIDE.md](BEGINNER_DELIVERY_GUIDE.md) / 인터랙티브 사이트 [17_Interactive_Site.html](17_Interactive_Site.html).
+
 ## 1. 본 디렉터리의 위치
 
 본 디렉터리는 전체 **AI Consulting Methodology Toolkit** 의 **유일한 진입점** 입니다. 「도구」나 「산출물」을 두지 않고 두 가지만 둡니다: **방법론의 스토리** 와 **방법론의 상태**.

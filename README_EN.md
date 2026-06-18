@@ -5,6 +5,8 @@
 
 Language: [繁體中文](README.md) | English | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | [Français](README_FR.md) | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
+> 📚 This is a two-book consulting series. This repo = **Book II** (Consulting Engagement Delivery Methodology → "how an engagement runs"), with companion **Book I** (Consulting Thinking Capability System → "how a consultant thinks"). Start at the series front door: [SERIES_INDEX](SERIES_INDEX_EN.md), visual map [SERIES_ROADMAP.html](SERIES_ROADMAP.html). Upstream book: [Book I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework).
+
 Enterprise AI transformation maturity assessment and implementation methodology toolkit.
 
 Original Author: **Tiger AI Morris Lu 盧業興**  

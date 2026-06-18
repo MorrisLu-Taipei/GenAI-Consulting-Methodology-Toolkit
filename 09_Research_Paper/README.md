@@ -28,10 +28,23 @@ This directory holds independently citable scholarly artefacts derived from the 
 | [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) | Reproducibility manifest | v1.0 draft | Verification, PDF rendering, workflow replay |
 | [`RELEASE_MANIFEST_v1.0.0.md`](RELEASE_MANIFEST_v1.0.0.md) | Frozen release manifest | v1.0 draft | Numeric source of truth for v1.0.0 |
 | [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md) | Release notes | Ready for v1.0.0 GitHub tag | GitHub Releases (triggers Zenodo DOI) |
+| [`PUBLISHING_WORKFLOW_MANUAL.md`](PUBLISHING_WORKFLOW_MANUAL.md) | Usage manual (reference) | v0.1 | How to take a paper draft → review → submission → reviewer response using the workflows |
+| [`PUBLISHING_WORKFLOW_SCENARIO.md`](PUBLISHING_WORKFLOW_SCENARIO.md) | Usage manual (narrative) | v0.1 | The same workflow as a scenario story — researcher R from draft to acceptance |
+| [`AI_NATIVE_RESEARCH_HUMAN_AI_BOUNDARY_SOP_ZH.md`](AI_NATIVE_RESEARCH_HUMAN_AI_BOUNDARY_SOP_ZH.md) | Research operating standard | v1.0.0 | 12+1 research stages, human/AI boundaries, evidence gates, provenance and release SOP |
+| [`ADVANCED_RAG_HUMAN_AI_RESEARCH_STORY_ZH.md`](ADVANCED_RAG_HUMAN_AI_RESEARCH_STORY_ZH.md) | Scenario story | v1.1.1 | Advanced RAG example showing how a founder and multiple AI roles co-produce a paper without crossing evidence and authorship boundaries |
+| [`AI_MATURITY_HUMAN_AI_RESEARCH_STORY_ZH.md`](AI_MATURITY_HUMAN_AI_RESEARCH_STORY_ZH.md) | Scenario story | v1.0.0 | Second scenario: Morris uses the Human-AI research SOP to turn maturity-model experience into a falsifiable, evidence-gated Paper #2 research program |
+| [`AI_NATIVE_EBOOK_HUMAN_AI_RESEARCH_STORY_ZH.md`](AI_NATIVE_EBOOK_HUMAN_AI_RESEARCH_STORY_ZH.md) | Scenario story | v1.0.0 | Third scenario: turning the AI-Native eBook preprint and Toolkit artifact into a DSR paper with DOI, SSRN/arXiv, reviewer red-team, and journal route |
+| [`AI_NATIVE_EBOOK_STAGE_GATE_HUMAN_AI_TABLE_ZH.md`](AI_NATIVE_EBOOK_STAGE_GATE_HUMAN_AI_TABLE_ZH.md) | Execution table | v1.5.0 | Stage / Gate / human-AI responsibility table for the AI-Native eBook research scenario |
+| [`CLAIM_AUDIT_2026-05-23.md`](CLAIM_AUDIT_2026-05-23.md) | Reviewer-style claim audit | v0.1 | Pre-submission checklist for the preprint |
+| [`PAPER2_LITREVIEW_PIPELINE.md`](PAPER2_LITREVIEW_PIPELINE.md) | Lit-review tooling guide | v0.1 | research-hub + ai-research-skills pipeline for Paper #2 |
 
 ---
 
 ## 發表流程 / Publication workflow
+
+研究題目形成到最終發表的完整生命週期、人類 / AI 責任邊界與各階段 Gate，先依
+[`AI_NATIVE_RESEARCH_HUMAN_AI_BOUNDARY_SOP_ZH.md`](AI_NATIVE_RESEARCH_HUMAN_AI_BOUNDARY_SOP_ZH.md)
+執行；以下流程聚焦於已有稿件之後的出版與投稿作業。
 
 1. **Draft phase** -- `.md` working draft authored and reviewed in repo (`/red-team-review`, `/evidence-audit`).
 2. **PDF rendering** -- convert `.md` to PDF via `pandoc` for SSRN upload and pre-print archives.
@@ -46,7 +59,7 @@ This directory holds independently citable scholarly artefacts derived from the 
 
 ## 未來論文路線圖 / Forthcoming papers
 
-- **Paper #2** -- *L1-L5: A Generative AI Adoption Maturity Model for Enterprises* -- empirical maturity-model paper, requires 3-5 longitudinal case studies (pilot study protocol in `../90_References/PILOT_STUDY_PROTOCOL.md`). Target: Business Process Management Journal.
+- **Paper #2** -- *L1-L5: A Generative AI Adoption Maturity Model for Enterprises* -- empirical maturity-model paper, requires 3-5 longitudinal case studies (pilot study protocol in `../90_References/PILOT_STUDY_PROTOCOL.md`). Target: Business Process Management Journal. Literature-review tooling pipeline: [`PAPER2_LITREVIEW_PIPELINE.md`](PAPER2_LITREVIEW_PIPELINE.md).
 - **Paper #3** -- *Cases-as-Benchmarks: A Reproducibility Standard for Industry Case Studies* -- methods paper on the 9-field benchmark format. Target: Information Systems Research methods note, or Journal of Information Technology Case and Application Research.
 
 ---

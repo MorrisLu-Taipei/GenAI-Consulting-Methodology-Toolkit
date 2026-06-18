@@ -2,6 +2,8 @@
 
 > 🌐 中文 / Chinese: [README.md](README.md) ｜ English: [README_EN.md](README_EN.md)
 
+> 📕 Esta es la entrada al **«Libro II»** (Del juicio de consultoría a la entrega de proyectos). Responde «¿cómo se ejecuta un proyecto?» y asume que ya tiene un juicio de consultoría básico. ¿Aún atascado en el nivel de actas de reunión? Lea primero el **«Libro I»** — Sistema de capacidad de pensamiento del consultor ([../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework), «cómo piensa un consultor»). Puerta de entrada de la serie: [../SERIES_INDEX.md](../SERIES_INDEX.md), mapa visual [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html). ¿Nuevo aquí? [BEGINNER_DELIVERY_GUIDE.md](BEGINNER_DELIVERY_GUIDE.md) / sitio interactivo [17_Interactive_Site.html](17_Interactive_Site.html).
+
 ## 1. Propósito de Este Directorio
 
 Este directorio es el **único punto de entrada** de todo el **AI Consulting Methodology Toolkit**. No contiene «herramientas» ni «entregables», solo dos cosas: **la historia de la metodología** y **el estado de la metodología**.

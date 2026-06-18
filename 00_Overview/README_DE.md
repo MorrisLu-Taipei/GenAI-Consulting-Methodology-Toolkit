@@ -2,6 +2,8 @@
 
 > 🌐 中文 / Chinese: [README.md](README.md) ｜ English: [README_EN.md](README_EN.md)
 
+> 📕 Dies ist der Einstieg zu **„Buch II"** (Von beraterischem Urteil zur Projektlieferung). Es beantwortet „wie läuft ein Mandat ab?" und setzt voraus, dass Sie bereits grundlegendes beraterisches Urteilsvermögen besitzen. Stecken Sie noch auf dem Niveau von Besprechungsnotizen fest? Lesen Sie zuerst **„Buch I"** — System der beraterischen Denkfähigkeit ([../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework), „wie ein Berater denkt"). Eingang der Reihe: [../SERIES_INDEX.md](../SERIES_INDEX.md), visuelle Karte [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html). Neu hier? [BEGINNER_DELIVERY_GUIDE.md](BEGINNER_DELIVERY_GUIDE.md) / interaktive Website [17_Interactive_Site.html](17_Interactive_Site.html).
+
 ## 1. Zweck dieses Verzeichnisses
 
 Dieses Verzeichnis ist der **einzige Einstiegspunkt** des gesamten **AI Consulting Methodology Toolkits**. Es enthält keine „Werkzeuge" oder „Deliverables", sondern nur zwei Dinge: **die Geschichte der Methodik** und **den Status der Methodik**.

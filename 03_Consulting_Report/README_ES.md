@@ -48,15 +48,14 @@ Quién lo usa: consultores, consultores senior, nuevos consultores (onboarding),
 01 resultado diagnóstico + 02 observaciones de curso
    ↓
 ┌─ Phase A Diagnóstico (2 semanas) ──────────────────────┐
-│  Stage 1-4 primera mitad de las 8 etapas: Awareness /  │
-│  Reference Model / Discovery / Gap Analysis            │
+│  Stage 1-3: As-Is / Reference Model / Ideal Practice   │
 │  → Usar herramientas CONSULTING_TOOLKIT_TEMPLATES.md   │
 │  → Informe intermedio → firmado por el cliente         │
 └────────────────────────────────────────────────────────┘
    ↓ Gate A — el cliente decide continuar Phase B
 ┌─ Phase B Estrategia (4 semanas) ───────────────────────┐
-│  Stage 5-8 segunda mitad: Stakeholder / Diagnosis /    │
-│  To-Be Design / Acceptance Test                        │
+│  Stage 4-7: Gap Analysis / Problem Definition /        │
+│  Phased Goals / To-Be Design                           │
 │  → Producción 8 pasos REPORT_PRODUCTION_WORKFLOW.md    │
 │  → Informe completo 14 capítulos + Roadmap 24M + ROI + │
 │     recomendaciones de gobernanza                       │
@@ -76,8 +75,8 @@ Quién lo usa: consultores, consultores senior, nuevos consultores (onboarding),
 
 | Fase | Duración | Etapas | Herramientas principales | Entregables principales |
 | --- | --- | --- | --- | --- |
-| **Phase A Diagnóstico** | 2 semanas | Stage 1-4 | TOOLKIT primera mitad + selector FRAMEWORKS | **Informe intermedio** + radar Reference Model firmado |
-| **Phase B Estrategia** | 4 semanas | Stage 5-8 | TOOLKIT segunda mitad + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Informe completo 14 capítulos** + Roadmap + ROI + gobernanza |
+| **Phase A Diagnóstico** | 2 semanas | Stage 1-3 | TOOLKIT primera mitad + selector FRAMEWORKS | **Informe intermedio** + radar Reference Model firmado |
+| **Phase B Estrategia** | 4 semanas | Stage 4-7 | TOOLKIT segunda mitad + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Informe completo 14 capítulos** + Roadmap + ROI + gobernanza |
 | **Phase C Implementación** | 24 meses | Revisión trimestral de Stage 2 | Herramienta de revisión radar trimestral TOOLKIT + Risk Register | **Records de revisión radar trimestral** + correcciones Roadmap |
 
 > Lógica: `CONSULTING_TOOLKIT_TEMPLATES` es «las herramientas de diagnóstico + la herramienta de revisión trimestral»; `CONSULTING_FRAMEWORKS_LIBRARY` es «qué framework de análisis en cada paso»; `REPORT_PRODUCTION_WORKFLOW` es «cómo transformar eficientemente el diagnóstico en entregable»; `CONSULTING_REPORT_TEMPLATE` es «cómo se ve el informe final». Juntos = **metodología completa de bucle cerrado de consultoría** (no maratón lineal).
@@ -120,8 +119,8 @@ Versiones inglesas sibling de los archivos anteriores.
 ## 7. Escenarios de Uso Comunes (por fase de bucle cerrado)
 
 - **Onboarding nuevo consultor**: primero leer `CONSULTING_TOOLKIT_TEMPLATES.md` y recorrer todos los samples, luego leer [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) para el script de diálogo, finalmente shadower una entrevista real.
-- **Phase A Diagnóstico (2 semanas)**: usar herramientas TOOLKIT Stage 1-4 (entrevista 40 preguntas, inventario AI/sistema, radar Reference Model), producir al final del período **informe intermedio** para firma Sponsor.
-- **Phase B Estrategia (4 semanas)**: usar herramientas TOOLKIT Stage 5-8 + `REPORT_PRODUCTION_WORKFLOW.md` producción 8 pasos para transformar diagnóstico en deck, llenar en `CONSULTING_REPORT_TEMPLATE.md`, producir **informe completo 14 capítulos + Roadmap 24M + ROI**.
+- **Phase A Diagnóstico (2 semanas)**: usar herramientas TOOLKIT Stage 1-3 (entrevista 40 preguntas, inventario AI/sistema, radar Reference Model), producir al final del período **informe intermedio** para firma Sponsor.
+- **Phase B Estrategia (4 semanas)**: usar herramientas TOOLKIT Stage 4-7 + `REPORT_PRODUCTION_WORKFLOW.md` producción 8 pasos para transformar diagnóstico en deck, llenar en `CONSULTING_REPORT_TEMPLATE.md`, producir **informe completo 14 capítulos + Roadmap 24M + ROI**.
 - **Phase C Implementación (24 meses, fase feedback bucle)**: trimestralmente con la herramienta de revisión radar TOOLKIT, **relanzar el radar Reference Model Stage 2** — comparar contra versión firmada Phase A, ver si «la estructura se volvió realmente más redonda»; si no → regresar a la Stage correspondiente, ajustar Roadmap.
 - **Cliente pregunta «¿por qué este framework?»**: usar el selector de framework en `CONSULTING_FRAMEWORKS_LIBRARY.md` para explicar.
 - **Cliente pregunta «¿qué pasa después de las 6 semanas?»**: mostrar [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) §6 diagrama completo de bucle cerrado — el punto no son las 6 semanas, es Phase C 24 meses + mecanismo de falsación por revisión radar trimestral.

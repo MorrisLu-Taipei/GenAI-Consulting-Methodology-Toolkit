@@ -2,6 +2,12 @@
 
 > 🌐 語言：繁體中文 ｜ [English](README_EN.md) ｜ [Deutsch](README_DE.md) ｜ [Français](README_FR.md) ｜ [Español](README_ES.md) ｜ [日本語](README_JA.md) ｜ [한국어](README_KR.md)
 
+> 📕 **這裡是「下集」(Book II:從顧問判斷到專案交付)的入口。** 本集回答「**顧問案怎麼跑?**」,假設你已具備基本顧問判斷能力。
+> 還停在「會議紀錄」層、交不出判斷與對角線?先讀「上集」**Book I:顧問思考能力系統**([`../10_Thinking_Framework/`](https://github.com/MorrisLu-Taipei/consultant-thinking-framework),回答「顧問怎麼想?」)。
+> 兩集關係見 [`../10_Thinking_Framework/22_Bridge_To_Consulting_Delivery.md`](https://github.com/MorrisLu-Taipei/consultant-thinking-framework/blob/main/22_Bridge_To_Consulting_Delivery.md);系列總入口見 [`../SERIES_INDEX.md`](../SERIES_INDEX.md)。
+> 🆕 下集讀者入口:**主動書** [`BOOK2_AI_NATIVE_EBOOK.md`](BOOK2_AI_NATIVE_EBOOK.md) ｜ 新手最短路徑 [`BEGINNER_DELIVERY_GUIDE.md`](BEGINNER_DELIVERY_GUIDE.md) ｜ 互動站 [`17_Interactive_Site.html`](17_Interactive_Site.html) ｜ AI 用法 [`AI_PROMPT_PACK_DELIVERY.md`](AI_PROMPT_PACK_DELIVERY.md)
+> 📐 名詞與流程以系列憲法 [`../CANONICAL_TERMS_AND_MAPS.md`](../CANONICAL_TERMS_AND_MAPS.md) 為準(C 問人=顧問能力 C1-C5;L 問企業=AI 成熟度 L1-L5)。
+
 ## 一、本目錄定位
 
 本目錄是整套 **AI 顧問方法論工具包**的**唯一入口**。它不放任何「工具」或「交付物」，只放兩件事：**方法論的故事**，以及**方法論的狀態**。

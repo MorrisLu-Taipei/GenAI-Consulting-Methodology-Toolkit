@@ -48,15 +48,14 @@ Wer nutzt: Berater, Senior-Berater, neue Berater (Onboarding), Projektmanager.
 01 Diagnoseergebnis + 02 Kursbeobachtungen
    ↓
 ┌─ Phase A Diagnose (2 Wochen) ──────────────────────────┐
-│  Stage 1-4 erste Hälfte der acht Stufen: Awareness /   │
-│  Reference Model / Discovery / Gap Analysis            │
+│  Stage 1-3: As-Is / Reference Model / Ideal Practice   │
 │  → CONSULTING_TOOLKIT_TEMPLATES.md Werkzeuge nutzen    │
 │  → Zwischen-Diagnose-Bericht → vom Kunden signiert     │
 └────────────────────────────────────────────────────────┘
    ↓ Gate A — Kunde entscheidet über Phase-B-Verlängerung
 ┌─ Phase B Strategie (4 Wochen) ─────────────────────────┐
-│  Stage 5-8 zweite Hälfte: Stakeholder / Diagnosis /    │
-│  To-Be Design / Acceptance Test                        │
+│  Stage 4-7: Gap Analysis / Problem Definition /        │
+│  Phased Goals / To-Be Design                           │
 │  → REPORT_PRODUCTION_WORKFLOW.md 8-Schritt-Produktion  │
 │  → Voller 14-Kapitel-Bericht + 24M Roadmap + ROI +    │
 │     Governance-Empfehlungen                            │
@@ -75,8 +74,8 @@ Wer nutzt: Berater, Senior-Berater, neue Berater (Onboarding), Projektmanager.
 
 | Phase | Dauer | Stufen | Hauptwerkzeuge | Hauptlieferungen |
 | --- | --- | --- | --- | --- |
-| **Phase A Diagnose** | 2 Wochen | Stage 1-4 | TOOLKIT erste Hälfte + FRAMEWORKS-Selector | **Zwischen-Diagnose-Bericht** + signiertes Reference-Model-Radar |
-| **Phase B Strategie** | 4 Wochen | Stage 5-8 | TOOLKIT zweite Hälfte + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Voller 14-Kapitel-Bericht** + Roadmap + ROI + Governance |
+| **Phase A Diagnose** | 2 Wochen | Stage 1-3 | TOOLKIT erste Hälfte + FRAMEWORKS-Selector | **Zwischen-Diagnose-Bericht** + signiertes Reference-Model-Radar |
+| **Phase B Strategie** | 4 Wochen | Stage 4-7 | TOOLKIT zweite Hälfte + REPORT_PRODUCTION_WORKFLOW + REPORT_TEMPLATE | **Voller 14-Kapitel-Bericht** + Roadmap + ROI + Governance |
 | **Phase C Implementierung** | 24 Monate | Vierteljährliche Stage-2-Review | TOOLKIT vierteljährliches Radar-Review-Tool + Risk Register | **Vierteljährliche Radar-Review-Records** + Roadmap-Korrekturen |
 
 > Logik: `CONSULTING_TOOLKIT_TEMPLATES` ist „die Werkzeuge zum Diagnostizieren + das vierteljährliche Review-Tool"; `CONSULTING_FRAMEWORKS_LIBRARY` ist „welches Analyse-Framework an jedem Schritt"; `REPORT_PRODUCTION_WORKFLOW` ist „wie die Diagnose effizient in Lieferung verwandeln"; `CONSULTING_REPORT_TEMPLATE` ist „wie der finale Bericht aussieht". Zusammen = **vollständige Beratungs-Closed-Loop-Methodik** (kein linearer Marathon).
@@ -119,8 +118,8 @@ Englische Sibling-Versionen obiger Dateien.
 ## 7. Häufige Nutzungsszenarien (nach Closed-Loop-Phase)
 
 - **Neuer Berater Onboarding**: zuerst `CONSULTING_TOOLKIT_TEMPLATES.md` lesen und alle Samples einmal durchgehen, dann [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) Dialog-Skript lesen, zuletzt ein echtes Interview shadowen.
-- **Phase A Diagnose (2 Wochen)**: TOOLKIT Stage 1-4 Werkzeuge nutzen (40-Frage-Interview, AI/System-Inventar, Reference-Model-Radar), am Wochenende **Zwischen-Diagnose-Bericht** für Sponsor-Signatur produzieren.
-- **Phase B Strategie (4 Wochen)**: TOOLKIT Stage 5-8 Werkzeuge + `REPORT_PRODUCTION_WORKFLOW.md` 8-Schritt-Produktion, Diagnose in Deck verwandeln, in `CONSULTING_REPORT_TEMPLATE.md` einfüllen, **vollen 14-Kapitel-Bericht + 24M Roadmap + ROI** produzieren.
+- **Phase A Diagnose (2 Wochen)**: TOOLKIT Stage 1-3 Werkzeuge nutzen (40-Frage-Interview, AI/System-Inventar, Reference-Model-Radar), am Wochenende **Zwischen-Diagnose-Bericht** für Sponsor-Signatur produzieren.
+- **Phase B Strategie (4 Wochen)**: TOOLKIT Stage 4-7 Werkzeuge + `REPORT_PRODUCTION_WORKFLOW.md` 8-Schritt-Produktion, Diagnose in Deck verwandeln, in `CONSULTING_REPORT_TEMPLATE.md` einfüllen, **vollen 14-Kapitel-Bericht + 24M Roadmap + ROI** produzieren.
 - **Phase C Implementierung (24 Monate, Loop-Feedback-Phase)**: vierteljährlich mit TOOLKIT-Radar-Review-Tool, **Stage-2-Reference-Model-Radar erneut laufen lassen** — gegen Phase-A-signierte Version vergleichen, sehen ob „die Struktur tatsächlich runder geworden ist"; wenn nicht → zurück zur entsprechenden Stage, Roadmap anpassen.
 - **Kunde fragt „warum dieses Framework"**: Framework-Selector in `CONSULTING_FRAMEWORKS_LIBRARY.md` nutzen zur Erklärung.
 - **Kunde fragt „was passiert nach den 6 Wochen?"**: [`../00_Overview/EIGHT_STAGE_FLOW_STORY.md`](../00_Overview/EIGHT_STAGE_FLOW_STORY.md) §6 vollständiges Closed-Loop-Diagramm zeigen — der Punkt sind nicht die 6 Wochen, sondern Phase C 24 Monate + vierteljährliches Radar-Review als Falsifikationsmechanismus.

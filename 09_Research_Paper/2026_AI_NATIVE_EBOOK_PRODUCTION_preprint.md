@@ -26,7 +26,7 @@
 
 ## Abstract
 
-Traditional eBooks and professional knowledge books largely inherit the linear production logic of print and PDF: authors write over long cycles, produce static texts, and readers consume them primarily through passive reading. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which the eBook is no longer merely a formatted text container, but a queryable, reviewable, reproducible knowledge artifact assembled through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), Git version control, persistent identifiers (DOI), declarative workflows, and reader-IDE interaction. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families), because consulting methodologies, maturity models, and process reference architectures represent a demanding class of professional eBook content: highly structured, cross-document dependent, and requiring readers to translate concepts into their organizational context. In our observed production of this artifact, we find four properties that we did not achieve in prior single-tool authorship attempts within the same project: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) cryptographically reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development) as demanding-case comparators for professional knowledge-book production. We discuss implications for eBook production, methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
+Traditional eBooks and professional knowledge books largely inherit the linear production logic of print and PDF: authors write over long cycles, produce static texts, and readers consume them primarily through passive reading. This paper presents a design science investigation into **AI-Native eBook production** -- a paradigm in which the eBook is no longer merely a formatted text container, but a queryable, reviewable, reproducible knowledge artifact assembled through orchestrated multi-IDE environments (Claude Code, Cursor, Antigravity, Codex), Git version control, persistent identifiers (DOI), declarative workflows, and reader-IDE interaction. We instantiate this paradigm in the *GenAI Consulting Methodology Toolkit* (Apache 2.0; n = 354 documents; 7 languages; 22 specialized AI-IDE workflows across three IDE families), because consulting methodologies, maturity models, and process reference architectures represent a demanding class of professional eBook content: highly structured, cross-document dependent, and requiring readers to translate concepts into their organizational context. In our observed production of this artifact, we find four properties that we did not achieve in prior single-tool authorship attempts within the same project: (1) simultaneous multilingual coherence enforced cross-language, (2) multi-engine adversarial review (e.g., `/devil-pair-debate`, `/red-team-review`), (3) reader-queryable execution -- the same IDE that produced the artifact can interrogate it through workflows such as `/socratic-challenge` and `/deep-synthesize`, and (4) content-addressed, reproducible derivation through Git history plus declarative workflow files. We evaluate against Hevner's seven design science guidelines and contrast quantitatively with traditional methodology development cycles (McKinsey 7-Step, Rosemann BPM development) as demanding-case comparators for professional knowledge-book production. We discuss implications for eBook production, methodology engineering, the HCI thesis of IDE-as-medium, and the future of *active* academic publications in the LLM era.
 
 **Keywords:** design science research; AI IDE; AI-Native eBook; eBook production; professional knowledge artifacts; multi-agent collaboration; executable documents; reproducible artifacts; literate programming; consulting frameworks
 
@@ -59,7 +59,7 @@ This paper investigates whether AI IDEs, used in deliberate orchestration, can s
 We make four contributions:
 
 1. A **paradigm description** of AI-Native eBook production, distinguishing it from prior categories (AI-assisted writing, literate programming, executable documents).
-2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, staged for release under Apache 2.0 with a pending Zenodo DOI -- that serves as both a working methodology and a demanding-case demonstration of the AI-Native eBook paradigm.
+2. An **instantiated artifact** -- the *GenAI Consulting Methodology Toolkit*, released under Apache 2.0 with a Zenodo DOI (concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)) -- that serves as both a working methodology and a demanding-case demonstration of the AI-Native eBook paradigm.
 3. A **design science evaluation** of the artifact against Hevner et al.'s [2004] seven guidelines, using traditional methodology development cycles as demanding-case comparators for professional knowledge-book production.
 4. **Reusable infrastructure** in the form of 22 AI-IDE workflow specifications, three IDE configuration directories, and a `CITATION.cff` provenance file that other researchers can fork and adapt.
 
@@ -87,11 +87,13 @@ A growing literature examines LLM-assisted writing in academic and professional 
 
 We argue this frame is now insufficient. Once eBook production moves from chatbot interfaces into **AI IDEs with file-system access**, the relevant unit of analysis is no longer the human-AI dyad but the **multi-IDE orchestration** -- multiple specialized AI engines, each contributing distinct capabilities, coordinated through file-system and version-control primitives. To our knowledge, this orchestration pattern has not been systematically studied in the context of professional eBooks and highly structured knowledge artifacts.
 
+A parallel development in adjacent, practitioner-led tooling reinforces this shift in the unit of analysis. Open-source projects aimed at scholarly *research* workflows independently converge on the same commitments this paper foregrounds: packaged "research skills" for AI IDEs that encode literature triage, manuscript revision, claim auditing, and reviewer-response generation as reusable, schema-described units [Chiou 2026a]; and local-first orchestration layers that make a researcher's reference library AI-operable while explicitly avoiding an "opaque RAG box" and gating out references that cannot be verified against external sources [Chiou 2026b]. Across these tools the recurring pattern is the same three commitments we develop here -- capability expressed as composable skills/workflows rather than monolithic prompts; provenance and authenticity gating rather than unanchored generation; and multi-engine delegation rather than a single human-AI dyad. These are practitioner artifacts (Tier 3; see References §C), not scholarly evidence; we cite them only to record that the orchestration-and-provenance pattern is appearing independently in an adjacent domain, which strengthens the case that it is a *paradigm* rather than an idiosyncrasy of one author or one artifact.
+
 ### 2.4 IDE-as-Medium
 
 Engelbart's [1962] thesis on **augmenting human intellect** anticipated that computational interfaces would not merely speed up existing tasks but *restructure* human cognitive work. Victor's [2014] work on *media for thought* argues that programming environments themselves shape what thoughts can be cheaply thought.
 
-AI IDEs are a fresh instantiation of this thesis at unprecedented scale. We extend Engelbart's and Victor's frame to argue that AI IDEs are not only media for thinking *about code*, but media for thinking *about anything that can be expressed in versioned plain text* -- including methodologies, books, contracts, and curricula.
+AI IDEs are a fresh instantiation of this thesis at a new scale. We extend Engelbart's and Victor's frame to argue that AI IDEs are not only media for thinking *about code*, but media for thinking *about anything that can be expressed in versioned plain text* -- including methodologies, books, contracts, and curricula.
 
 ### 2.5 The Gap
 
@@ -109,7 +111,7 @@ This paper addresses that combined gap.
 
 ### 3.1 Scope
 
-The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (henceforth, *the Toolkit*), released under Apache License 2.0. The numeric properties below are **frozen at commit `7da82d7` (2026-05-18)** and independently verifiable via the commands in `09_Research_Paper/REPRODUCIBILITY.md`:
+The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (henceforth, *the Toolkit*), released under Apache License 2.0. The numeric properties below are **frozen at commit `7da82d7` (2026-05-18)** and independently verifiable via the commands in `09_Research_Paper/REPRODUCIBILITY.md`. Two commits play distinct roles: `7da82d7` is the metric-freeze commit at which every number in this paper was counted, whereas the academic deposit was released at tag `v3.0.1` (commit `5361c7b`), which triggered the Zenodo DOI — the former fixes the paper's numbers, the latter fixes the published artifact:
 
 | Property | Value | Verification |
 | --- | --- | --- |
@@ -124,6 +126,8 @@ The instantiated artifact is the **GenAI Consulting Methodology Toolkit** (hence
 | Source languages with substantive coverage | 7 (Traditional Chinese, English, German, French, Spanish, Japanese, Korean; partial Thai) | REPRODUCIBILITY.md §3.5 |
 | Repository URL | <https://github.com/MorrisLu-Taipei/GenAI-Consulting-Methodology-Toolkit> | — |
 | License | Apache License 2.0 (with `NOTICE` attribution requirements) | `cat LICENSE` |
+
+> **Workflow count scope.** The figure of 22 counts *methodology-production* workflows — those used to produce and interrogate the eBook's methodology content — frozen at commit `7da82d7`. Publishing/meta workflows added to the repository after the freeze (e.g., `/claim-audit`, `/hype-scrub`, `/reviewer-response`, used to prepare academic submissions *about* the artifact) are deliberately excluded from this count; they operate on papers about the artifact, not on the artifact's methodology content. The methodology-production workflow count therefore remains 22 at HEAD.
 
 ### 3.2 Methodology Substance (Brief)
 
@@ -312,7 +316,7 @@ The Toolkit addresses this through a four-layer provenance chain:
 1. **Git history** -- every change is timestamped and attributable to a commit. The 94 commits at time of writing encode the artifact's complete derivation history.
 2. **AI-attribution discipline** -- commits made with substantive AI assistance carry a `Co-Authored-By:` trailer (e.g., `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`). Mixed-authorship commits are honest about the mixture.
 3. **Workflow files as derivation recipes** -- the `.claude/workflows/`, `.codex/workflows/`, and `.antigravity/workflows/` directories archive the exact prompts and procedures used. A third party can replay them.
-4. **Persistent identifiers** -- the pending Zenodo DOI (concept DOI + version DOI per release) will provide an immutable handle for academic citation after the `v1.0.0` tag is released.
+4. **Persistent identifiers** -- the Zenodo DOI (concept DOI + version DOI per release) provides an immutable handle for academic citation, minted via the GitHub-Zenodo webhook on release (concept DOI [10.5281/zenodo.20261680](https://doi.org/10.5281/zenodo.20261680)).
 
 #### 8.2.1 Git, GitHub, and Zenodo as Distinct Lifecycle Layers
 
@@ -409,13 +413,13 @@ We evaluate the AI-Native eBook paradigm against the canonical Hevner et al. [20
 
 | # | Guideline | Self-Assessment | Evidence |
 | --- | --- | --- | --- |
-| 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 354 files, pending Zenodo DOI). |
+| 1 | Design as an artifact | [x] | The instantiated Toolkit is a viable, complete artifact (Apache 2.0, 354 files, Zenodo DOI 10.5281/zenodo.20261680). |
 | 2 | Problem relevance | [x] | Professional eBook production crisis (cycle latency, single-author bias, reader passivity) is documented and structurally inherent in the methodology demanding case. |
 | 3 | Design evaluation | [!] Partial | Self-evaluation against own ten-condition scorecard (9/10). Comparative evaluation against traditional methodology cycles serves as a demanding-case comparison for professional knowledge-book production (Section 9.2). Empirical reader-uptake studies are deferred to follow-on work. |
 | 4 | Research contributions | [x] | Paradigm description, instantiated artifact, evaluation framework, reusable infrastructure -- four distinct contributions. |
 | 5 | Research rigor | [x] | Theoretical lens (DSR), evaluation criteria (Hevner), comparison method (cycle-time and coverage metrics), all explicit. |
 | 6 | Design as search process | [x] | 94 Git commits document the iterative search through the design space. |
-| 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, pending Zenodo DOI). |
+| 7 | Communication of research | [x] | Two audiences: practitioners (the entire repository, multilingual) and academics (this preprint, Zenodo DOI 10.5281/zenodo.20261850). |
 
 The single partial mark (Guideline 3) is honest: empirical reader-uptake studies are not yet in scope. We outline an empirical research agenda in Section 10.
 
@@ -528,6 +532,8 @@ More importantly, as articulated in §8.2.1, this stack should be understood as 
 
 Critics of LLM-augmented content production often invoke the term "AI slop" -- content that is fluent, plausible, and substantively unanchored. We share this concern. We argue that the appropriate response is not to abjure AI production but to enforce provenance discipline: Git history, workflow file archival, citation requirements, adversarial review, DOI persistence. The difference between "AI slop" and "AI-Native scholarship" is exactly the discipline. The Toolkit's production is offered as one demonstration of what that discipline can look like in practice.
 
+This provenance-as-answer position is not ours alone. Independent practitioner tooling for research workflows has begun to encode the same discipline directly into the pipeline -- for instance, an authenticity gate that quarantines references it cannot verify against external sources, with the rejection reason recorded, rather than letting unverifiable references flow silently into a library [Chiou 2026b]. That such gating is being built, unprompted, into adjacent research tools is corroborating evidence for the central claim of this subsection: the line between "AI slop" and AI-Native scholarship is enforced provenance discipline, and that discipline is increasingly being treated as *infrastructure* rather than as an author's afterthought.
+
 ### 10.5 Empirical Research Agenda
 
 We close with three empirical questions the present paper does not answer, and which we hope to address in follow-on work:
@@ -558,7 +564,7 @@ We acknowledge the AI engines used in producing the Toolkit and this paper: Anth
 
 ## References
 
-> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Corrections during audit include: APQC (2024) -> APQC (2022), with a current-version note; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources; product references for Claude Code, Cursor, Google Antigravity, and OpenAI Codex CLI added explicitly. Product documentation and vendor blog posts are cited only to establish tool existence and capabilities, not as scholarly evidence for the paper's research claims. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Errata to other entries are welcomed via repository Issues.
+> **Citation audit (v1.0).** All references below were independently re-verified against external sources prior to v1.0 release. Corrections during audit include: APQC (2024) -> APQC (2022), with a current-version note; Bostock (2017) corrected from "Observable: A new way to think with code" to "A Better Way to Code" (Medium); Long et al. (2024) corrected from CHI 2024 to DIS 2024 with DOI; Victor (2014) "Seeing Spaces" venue claim softened due to inconsistent secondary sources; product references for Claude Code, Cursor, Google Antigravity, and OpenAI Codex CLI added explicitly. Product documentation and vendor blog posts are cited only to establish tool existence and capabilities, not as scholarly evidence for the paper's research claims. Lu (in preparation) is the author's own forthcoming work and cannot be externally verified by design. Two practitioner software references (Chiou 2026a, 2026b) were added in the current revision as Tier-3 corroborating artifacts for the independent-convergence observation (§2.3, §10.4); they are cited to establish tool existence and design stance only, not as scholarly evidence. Errata to other entries are welcomed via repository Issues.
 
 ### A. Academic literature (peer-reviewed papers, dissertation, technical reports)
 
@@ -618,6 +624,10 @@ Google. (2025). *Start building with Gemini 3*. Google Blog, 2025-11-18. (Introd
 
 OpenAI. (2025). *OpenAI Codex CLI: Getting started*. OpenAI Help Center. <https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started> (Accessed 2026-05-18.)
 
+Chiou, W. (2026a). *ai-research-skills: Claude Code skills for research workflows* [Software]. MIT License. GitHub: WenyuChiou/ai-research-skills. <https://github.com/WenyuChiou/ai-research-skills> (Accessed 2026-05-23. Cited only to evidence the existence and design stance of skills-based research tooling, not as scholarly evidence.)
+
+Chiou, W. (2026b). *research-hub: A local-first orchestration layer for Zotero, Obsidian, and NotebookLM* [Software]. MIT License. GitHub: WenyuChiou/research-hub. <https://github.com/WenyuChiou/research-hub> (Accessed 2026-05-23. Cited only to evidence the existence and design stance of a provenance-gated, non-RAG research workspace, not as scholarly evidence.)
+
 Taiwan Intellectual Property Office. (2020). *Must copyrights be registered to receive protection?* Ministry of Economic Affairs, R.O.C. <https://www1.tipo.gov.tw/en/cp-313-183443-48c3c-2.html> (Accessed 2026-05-19.)
 
 U.S. Copyright Office. (n.d.). *Copyright in General: Frequently Asked Questions*. <https://www.copyright.gov/help/faq/faq-general.html> (Accessed 2026-05-19.)
@@ -632,7 +642,9 @@ Lu, M. (in preparation). *L1-L5: A Generative AI Adoption Maturity Model for Ent
 
 Each citation is classified by **evidence tier** so reviewers can distinguish scholarly load-bearing claims from supplementary context. Tier-3 entries (vendor documentation, industry research notes, personal essays) are cited only to establish tool existence, product capability, or historical reference — they are not treated as scholarly evidence for the paper's research claims.
 
-**Summary:** 27 references total — **Tier 1** (peer-reviewed scholarly): 11 · **Tier 2** (scholarly without peer review): 5 · **Tier 3** (industry / vendor / supplementary): 11
+**Summary:** 32 references total — **Tier 1** (peer-reviewed scholarly): 11 · **Tier 2** (scholarly without peer review): 5 · **Tier 3** (industry / vendor / supplementary): 16
+
+> **Counting rule.** Counts every distinct bibliography entry in §A–§D, including the author's forthcoming work (§D, Lu in preparation) and both U.S. Copyright Office FAQ pages as separate entries. (This reconciles a pre-v1.0 summary that under-reported the total; the Tier-3 table below now lists exactly 16 rows.)
 
 #### Tier 1 — Peer-reviewed scholarly evidence (n = 11)
 
@@ -680,15 +692,18 @@ Cited for tool/product existence, historical anchoring, or industry context — 
 | Anysphere (2026) | Vendor documentation | Cursor IDE product existence |
 | Google (2025) | Vendor announcement | Antigravity product existence |
 | OpenAI (2025) | Vendor documentation | Codex CLI product existence |
+| Chiou (2026a) | Open-source software (MIT) | Independent convergence — skills-based research tooling (§2.3) |
+| Chiou (2026b) | Open-source software (MIT) | Independent convergence — provenance-gated non-RAG research workspace (§2.3, §10.4) |
 | Taiwan Intellectual Property Office (2020) | Government copyright FAQ | Copyright registration status in Taiwan |
-| U.S. Copyright Office (n.d.) | Government copyright FAQ | Copyright registration concept in the United States |
+| U.S. Copyright Office (n.d.), *Copyright in General: FAQ* | Government copyright FAQ | Copyright registration concept in the United States |
+| U.S. Copyright Office (n.d.), *What is Copyright?* | Government copyright FAQ | Copyright concept in the United States |
 | Lu (in preparation) | Author's own forthcoming work | Pointer to L1-L5 maturity model (not yet citable) |
 
 ---
 
 ## Appendix A -- Workflow Inventory
 
-The Toolkit's production environment encodes 22 specialized workflows across three IDE families. Each workflow is a markdown specification that the corresponding IDE can read and execute.
+The Toolkit's production environment encodes 22 specialized methodology-production workflows across three IDE families (publishing/meta workflows such as `/claim-audit` are excluded from this count; see §3.1). Each workflow is a markdown specification that the corresponding IDE can read and execute.
 
 ### A.1 Claude Code workflows (`.claude/workflows/`)
 

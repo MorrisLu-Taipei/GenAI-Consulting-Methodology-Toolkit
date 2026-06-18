@@ -254,6 +254,35 @@ clawteam team snapshot --name demo-completed
 
 ---
 
+## 4.5 The L5 Triad: Platform + Lens + Worked Case
+
+> Added (v1.1): L5 is not only about the platform. Complete L5 teaching rests on three complementary pieces.
+
+| Role | What | Teaches | File |
+| --- | --- | --- | --- |
+| **Platform** | ClawTeam (this plan's subject) | Mechanics: spawn / task / inbox / board / gate | This plan |
+| **Lens** | Harness Engineering — six layers | Concept: why an Agent Team can reliably deliver | [`90_References/HARNESS_ENGINEERING_REFERENCE_EN.md`](../90_References/HARNESS_ENGINEERING_REFERENCE_EN.md) |
+| **Worked case** | `ai-news-channel` | Demonstration: what the six layers + governance look like | [`ai-news-channel/TIGERAI_L5_CASE_NOTES.md`](ai-news-channel/TIGERAI_L5_CASE_NOTES.md) |
+
+### The Six Harness Layers (L5 conceptual skeleton)
+
+"Design the system first, then pick the models." The six layers are the axes for judging whether an Agent Team is mature:
+
+| Harness layer | One-line | Open this file in `ai-news-channel` |
+| --- | --- | --- |
+| **Loop** | Fixed order, never skip | `CLAUDE.md` The Fixed Loop |
+| **Tools** | Each agent gets only the scope it needs | `tools:` in `.claude/agents/*.md` |
+| **Context** | Everyone reads the same constitution first | `CLAUDE.md` + `constitution/` |
+| **Persistence** | Outputs & decisions durably stored | `knowledge-base/` |
+| **Verification** | Machine + human check before shipping | `supervisor.md` + `verify_build.sh` |
+| **Constraints** | Each role's CAN / CANNOT in writing | `constitution/ai-member-boundaries.md` |
+
+> Suggested flow: **the six-layer lens gives the mental model → open `ai-news-channel` (the worked case) to see each layer concretely → go hands-on with ClawTeam (the platform) to run your own team.** ClawTeam's five-layer architecture (§4) is one concrete implementation of the six Harness layers on a CLI platform; HITL / Stage Gate 5 is the consulting-setting instantiation of the Verification + Constraints layers.
+>
+> Full mapping and source references: [`HARNESS_ENGINEERING_REFERENCE_EN.md`](../90_References/HARNESS_ENGINEERING_REFERENCE_EN.md).
+
+---
+
 ## 5. Course Modules
 
 Total duration: **8-12 hours (1.5 days)**

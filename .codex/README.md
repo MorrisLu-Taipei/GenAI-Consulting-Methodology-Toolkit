@@ -42,6 +42,17 @@
 | `/academic-upgrade` | [`workflows/academic-upgrade.md`](workflows/academic-upgrade.md) | 把學者建議轉成章節補強、模板修補與 repo patch plan |
 | `/consistency-review` | [`workflows/consistency-review.md`](workflows/consistency-review.md) | 跨文件審查 L1-L5、Stage Gate、HITL、Evidence 與交付邏輯一致性 |
 
+### 學術投稿工作流 / Academic submission workflows
+
+> 用於 [`09_Research_Paper/`](../../09_Research_Paper/) 的論文 / preprint 投稿前準備。
+> 📖 **完整使用手冊（草稿→審查→投稿→審稿回覆 的整條管線）：** [`09_Research_Paper/PUBLISHING_WORKFLOW_MANUAL.md`](../../09_Research_Paper/PUBLISHING_WORKFLOW_MANUAL.md)
+
+| 工作流 | 檔案 | 用途 |
+| --- | --- | --- |
+| `/claim-audit` | [`workflows/claim-audit.md`](workflows/claim-audit.md) | 稽核**學術稿件**的主張（empirical/comparative/novelty/generalization/causal），標 overclaim（顧問報告請改用 `/evidence-audit`）|
+| `/hype-scrub` | [`workflows/hype-scrub.md`](workflows/hype-scrub.md) | 掃描投稿用語的 hype 詞 / 無證據最高級 / buzzword，建議中性替代 |
+| `/reviewer-response` | [`workflows/reviewer-response.md`](workflows/reviewer-response.md) | 把 reviewer 意見轉成逐點回覆信草稿 + 稿件改動清單 |
+
 ## Codex 行為要求
 
 - 每次工作流啟動時，先讀取對應 Markdown。

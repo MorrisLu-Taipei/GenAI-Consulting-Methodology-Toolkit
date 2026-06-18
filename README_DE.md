@@ -5,6 +5,8 @@
 
 Sprache: [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | Deutsch | [Français](README_FR.md) | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
+> 📚 Dies ist eine zweibändige Beratungsreihe. Dieses Repo = **Buch II** (Methodik der Beratungsmandat-Lieferung → „wie ein Mandat abläuft"), mit dem Begleitband **Buch I** (System der beraterischen Denkfähigkeit → „wie ein Berater denkt"). Starten Sie am Eingang der Reihe: [SERIES_INDEX](SERIES_INDEX.md), visuelle Karte [SERIES_ROADMAP.html](SERIES_ROADMAP.html). Vorgelagerter Band: [Buch I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework).
+
 Toolkit für die Reifegradbewertung und Implementierungsmethodik der KI-Transformation in Unternehmen (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit).
 
 Originalautor: **Tiger AI Morris Lu 盧業興**  

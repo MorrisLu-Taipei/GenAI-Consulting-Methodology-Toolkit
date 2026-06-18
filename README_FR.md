@@ -5,6 +5,8 @@
 
 Langue : [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | Français | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
+> 📚 Ceci est une série de conseil en deux livres. Ce repo = **Livre II** (Méthodologie de livraison de mission de conseil → « comment se déroule une mission »), avec son livre compagnon **Livre I** (Système de capacité de réflexion du consultant → « comment un consultant pense »). Commencez par la porte d'entrée de la série : [SERIES_INDEX](SERIES_INDEX.md), carte visuelle [SERIES_ROADMAP.html](SERIES_ROADMAP.html). Livre en amont : [Livre I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework).
+
 Boîte à outils méthodologique pour l'évaluation de la maturité et la mise en œuvre de la transformation IA en entreprise (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit).
 
 Auteur original : **Tiger AI Morris Lu 盧業興**  

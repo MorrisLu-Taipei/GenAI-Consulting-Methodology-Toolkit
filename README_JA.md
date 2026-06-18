@@ -5,6 +5,8 @@
 
 言語: [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | [Français](README_FR.md) | [Español](README_ES.md) | 日本語 | [한국어](README_KR.md)
 
+> 📚 これは 2 部構成のコンサルティングシリーズです。本リポジトリ = **Book II**（コンサルティング案件デリバリー方法論 → 「案件はどう進むか」）。対となる **Book I**（コンサルティング思考能力システム → 「コンサルタントはどう考えるか」）があります。シリーズの入口から始めてください：[SERIES_INDEX](SERIES_INDEX.md)、ビジュアルマップ [SERIES_ROADMAP.html](SERIES_ROADMAP.html)。上流の書籍：[Book I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework)。
+
 エンタープライズ AI トランスフォーメーション成熟度診断と導入方法論ツールキット（Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit）。
 
 原作者: **Tiger AI Morris Lu 盧業興**  

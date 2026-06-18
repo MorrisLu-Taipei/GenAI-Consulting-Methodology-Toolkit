@@ -5,6 +5,8 @@
 
 Idioma: [繁體中文](README.md) | [English](README_EN.md) | [ภาษาไทย](README_TH.md) | [Deutsch](README_DE.md) | [Français](README_FR.md) | Español | [日本語](README_JA.md) | [한국어](README_KR.md)
 
+> 📚 Esta es una serie de consultoría de dos libros. Este repo = **Libro II** (Metodología de entrega de proyectos de consultoría → «cómo se ejecuta un proyecto»), con su libro complementario **Libro I** (Sistema de capacidad de pensamiento del consultor → «cómo piensa un consultor»). Comience por la puerta de entrada de la serie: [SERIES_INDEX](SERIES_INDEX.md), mapa visual [SERIES_ROADMAP.html](SERIES_ROADMAP.html). Libro previo: [Libro I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework).
+
 Conjunto de herramientas metodológicas para la evaluación de madurez e implementación de la transformación con IA empresarial (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit).
 
 Autor original: **Tiger AI Morris Lu 盧業興**  

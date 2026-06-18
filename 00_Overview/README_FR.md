@@ -2,6 +2,8 @@
 
 > 🌐 中文 / Chinese : [README.md](README.md) ｜ English : [README_EN.md](README_EN.md)
 
+> 📕 Ceci est l'entrée du **« Livre II »** (Du jugement de conseil à la livraison de projet). Il répond à « comment se déroule une mission ? » et suppose que vous possédez déjà un jugement de conseil de base. Toujours bloqué au niveau des comptes rendus de réunion ? Lisez d'abord le **« Livre I »** — Système de capacité de réflexion du consultant ([../10_Thinking_Framework/00_INDEX.md](https://github.com/MorrisLu-Taipei/consultant-thinking-framework), « comment un consultant pense »). Porte d'entrée de la série : [../SERIES_INDEX.md](../SERIES_INDEX.md), carte visuelle [../SERIES_ROADMAP.html](../SERIES_ROADMAP.html). Nouveau ici ? [BEGINNER_DELIVERY_GUIDE.md](BEGINNER_DELIVERY_GUIDE.md) / site interactif [17_Interactive_Site.html](17_Interactive_Site.html).
+
 ## 1. Objectif de ce Répertoire
 
 Ce répertoire est le **point d'entrée unique** de l'ensemble du **AI Consulting Methodology Toolkit**. Il ne contient ni « outils » ni « livrables », seulement deux choses : **l'histoire de la méthodologie** et **le statut de la méthodologie**.

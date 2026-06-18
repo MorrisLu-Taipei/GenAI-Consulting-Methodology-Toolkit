@@ -5,6 +5,8 @@
 
 ภาษา: [繁體中文](README.md) | [English](README_EN.md) | ภาษาไทย | [Deutsch](README_DE.md) | [Français](README_FR.md) | [Español](README_ES.md) | [日本語](README_JA.md) | [한국어](README_KR.md)
 
+> 📚 นี่คือชุดหนังสือที่ปรึกษา 2 เล่ม repo นี้ = **Book II** (ระเบียบวิธีการส่งมอบงานที่ปรึกษา → "งานหนึ่งดำเนินไปอย่างไร") โดยมี **Book I** เป็นเล่มคู่กัน (ระบบความสามารถการคิดเชิงที่ปรึกษา → "ที่ปรึกษาคิดอย่างไร") เริ่มต้นที่ประตูหน้าของชุดหนังสือ: [SERIES_INDEX](SERIES_INDEX.md) แผนผังภาพ [SERIES_ROADMAP.html](SERIES_ROADMAP.html) หนังสือต้นทาง: [Book I](https://github.com/MorrisLu-Taipei/consultant-thinking-framework)
+
 ชุดเครื่องมือสำหรับการประเมินความพร้อมและการนำ AI ไปใช้ในการเปลี่ยนผ่านองค์กร (Enterprise AI Transformation Maturity Assessment & Implementation Methodology Toolkit)
 
 ผู้สร้าง: **Tiger AI Morris Lu 盧業興**  
