@@ -127,10 +127,12 @@ window.SERIES={book1:"https://morrislu-taipei.github.io/consultant-thinking-fram
 .authorcard .social{display:flex;gap:11px;margin-top:10px;align-items:center}
 .authorcard .social a{display:inline-flex;align-items:center}
 .app.collapsed .authorcard{display:none}
-*{scrollbar-width:thin;scrollbar-color:#A8DCD9 transparent}
-::-webkit-scrollbar{width:11px;height:11px}::-webkit-scrollbar-track{background:transparent}
-::-webkit-scrollbar-thumb{background:#A8DCD9;border-radius:999px;border:3px solid transparent;background-clip:content-box}
-::-webkit-scrollbar-thumb:hover{background:#167C77;background-clip:content-box}
+html::-webkit-scrollbar,body::-webkit-scrollbar,*::-webkit-scrollbar{width:12px;height:12px}
+*::-webkit-scrollbar-track{background:transparent}
+*::-webkit-scrollbar-thumb{background:#A8DCD9;border-radius:999px;border:3px solid transparent;background-clip:content-box}
+*::-webkit-scrollbar-thumb:hover{background:#167C77;background-clip:content-box}
+/* 標準屬性只給不支援 ::-webkit-scrollbar 的瀏覽器(Firefox);否則 Chrome 121+ 會忽略上面的圓角樣式 */
+@supports not selector(::-webkit-scrollbar){*{scrollbar-width:thin;scrollbar-color:#167C77 transparent}}
 a:focus-visible,button:focus-visible{outline:3px solid #EE9E39;outline-offset:2px}
 @media(max-width:760px){.authorcard{display:none!important}}
 </style></head>
