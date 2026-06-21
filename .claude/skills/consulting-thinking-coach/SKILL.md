@@ -42,3 +42,9 @@ description: 顧問思考能力系統教練(上集 Book I / Consulting Thinking 
 - 對角線是核心:每次都檢查「有沒有一條成立的跨主體×跨時態連點」。
 - **絕不編造**客戶沒透露的事實或沒證據的戰略(Ladder of Inference);潛在需求標「訊號 vs 推測」。
 - 舉例用虛構名(ABC公司/城市X)。對外文件(模式④⑤)不露內部定價/壁壘盤算。
+## 出版 / DOI deposit 輸出規範(鐵則 · DOI = LaTeX PDF)
+**要 deposit DOI(Zenodo / OSF)時,論文本體 PDF 一律用 LaTeX 排版產出 —— 不准用「瀏覽器另存 PDF」。** DOI 是永久凍結、對外可引用的學術產物,排版要像 preprint。
+- **來源**:reader-facing 書本 `13_AI_Native_Ebook.md`(或對應 manuscript MD)。**原稿不覆寫**,另開 build 暫存檔處理。
+- **工具**:`pandoc <build.md> -o <out.pdf> --pdf-engine=xelatex`(本機已備 pandoc + MiKTeX/xelatex)。中文 `-V CJKmainfont="Microsoft JhengHei"`、Latin `-V mainfont="Times New Roman"`、code `-V monofont="Consolas"`;加 YAML 標題頁 + `abstract:` 摘要 + `--toc`。**先用 perl 去除 emoji**(`[\x{1F000}-\x{1FAFF}\x{2600}-\x{27BF}\x{2B00}-\x{2BFF}\x{FE0F}\x{200D}]`),否則 xelatex 無字形會報錯。**不要放 `keywords:` YAML 欄位**(會觸發 hyperxmp `\xmpquote` 失敗)。
+- **兩條 deposit 路線**:A = GitHub Release(Zenodo 自動打包整 repo,不需 PDF);B = 手動上傳 preprint(就要這份 LaTeX PDF)。通常兩者都做。
+- 完整步驟與 metadata 見 repo `20_DOI_Application_Guide.md`。
